@@ -1,6 +1,7 @@
 import requests
 import json
 import os
+import copy
 from concurrent.futures import ThreadPoolExecutor
 
 # ==========================================
@@ -27,19 +28,20 @@ SOURCES = [
     {"name": "Hoiquan", "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/output.json"}
 ]
 
-# ==========================================
-# LOGIC CỦA BẠN
-# ==========================================
-def normalize(filepath):
-    """Đọc file JSON và chuẩn hóa lại chuỗi để so sánh chính xác nhất"""
-    with open(filepath, "r", encoding="utf-8") as f:
-        data = json.load(f)
-    # sort_keys=True giúp sắp xếp lại các key, tránh việc đổi thứ tự bị nhận diện là khác
-    return json.dumps(data, ensure_ascii=False, sort_keys=True)
+# Tạo bộ khung chuẩn 10 môn theo đúng cấu trúc gốc
+GROUP_SKELETON = [
+    {"id": f"grp-{cate_raw.replace(' ', '-').lower()}", "name": cate_emoji, "display": "vertical", "grid_number": 2, "enable_detail": False, "channels": []}
+    for cate_raw, cate_emoji in CATEGORIES.items()
+]
 
 # ==========================================
-# LOGIC CÀO DỮ LIỆU
+# HELPER FUNCTIONS
 # ==========================================
+def normalize(filepath):
+    with open(filepath, "r", encoding="utf-8") as f:
+        data = json.load(f)
+    return json.dumps(data, ensure_ascii=False, sort_keys=True)
+
 def fetch_json(url):
     try:
         response = requests.get(url, timeout=15)
@@ -48,16 +50,19 @@ def fetch_json(url):
     except Exception:
         return None
 
-def find_match_index(time_val, team_a, team_b, match_list):
+def find_channel_index(time_val, team_a, team_b, channels_list):
+    """Tìm kênh trùng theo: Cùng giờ + (Trùng đội A hoặc Trùng đội B)"""
     time_clean = time_val.strip().lower()
     a_clean = team_a.strip().lower()
     b_clean = team_b.strip().lower() if team_b else ""
 
-    for i, m in enumerate(match_list):
-        if m["time"].strip().lower() != time_clean:
+    for i, ch in enumerate(channels_list):
+        meta = ch.get("org_metadata", {})
+        if meta.get("time", "").strip().lower() != time_clean:
             continue
-        old_match_str = m["match"].lower()
-        old_a, old_b = (old_match_str.split(" vs ", 1) + [""])[:2]
+            
+        old_a = meta.get("team_a", "").strip().lower()
+        old_b = meta.get("team_b", "").strip().lower()
         
         is_match = False
         if a_clean == old_a or a_clean == old_b: is_match = True
@@ -66,20 +71,19 @@ def find_match_index(time_val, team_a, team_b, match_list):
         if is_match: return i
     return -1
 
-def extract_stream_links(channel_data):
-    links = []
-    try:
-        for src in channel_data.get("sources", []):
-            for content in src.get("contents", []):
-                for stream in content.get("streams", []):
-                    for link in stream.get("stream_links", []):
-                        url = link if isinstance(link, str) else link.get("url")
-                        if url: links.append(url)
-    except Exception: pass
-    return links
-
+# ==========================================
+# MAIN LOGIC
+# ==========================================
 def main():
-    merged_matches = []
+    # Khởi tạo data chuẩn
+    final_data = {
+        "id": "allin1-stream",
+        "name": "All In 1 Stream",
+        "groups": copy.deepcopy(GROUP_SKELETON)
+    }
+
+    # Map tên để tìm nhanh group tương ứng
+    group_map = {g["name"]: g for g in final_data["groups"]}
 
     with ThreadPoolExecutor(max_workers=5) as executor:
         raw_jsons = list(executor.map(fetch_json, [s["url"] for s in SOURCES]))
@@ -88,70 +92,96 @@ def main():
         if not raw_data: continue
         source_name = SOURCES[index]["name"]
 
-        for group in raw_data.get("groups", []):
-            for ch in group.get("channels", []):
-                meta = ch.get("org_metadata", {})
-                time_val, team_a = meta.get("time", ""), meta.get("team_a", "")
-                team_b, blv_val = meta.get("team_b", ""), meta.get("blv", "")
-                cate_raw = meta.get("cate_name", "")
-                thumb_val = ch.get("image", {}).get("url", "")
-                raw_links = extract_stream_links(ch)
-                
+        for src_group in raw_data.get("groups", []):
+            src_cate_name = src_group.get("name", "") # VD: "⚽ Bóng Đá"
+            
+            # Bỏ qua nếu nhóm này không nằm trong 10 môn cố định
+            if src_cate_name not in group_map: continue
+            target_group = group_map[src_cate_name]
+
+            for src_channel in src_group.get("channels", []):
+                meta = src_channel.get("org_metadata", {})
+                time_val = meta.get("time", "")
+                team_a = meta.get("team_a", "")
+                team_b = meta.get("team_b", "")
+                blv_val = meta.get("blv", "")
+                thumb_url = src_channel.get("image", {}).get("url", "")
+
                 if not time_val or not team_a: continue
 
-                match_name = f"{team_a} vs {team_b}" if team_b else team_a
-                mapped_cate = CATEGORIES.get(cate_raw, cate_raw)
-                match_idx = find_match_index(time_val, team_a, team_b, merged_matches)
+                # Tìm xem trận này đã có trong group chưa
+                ch_idx = find_channel_index(time_val, team_a, team_b, target_group["channels"])
 
-                if match_idx == -1:
-                    merged_matches.append({"category": mapped_cate, "time": time_val, "match": match_name, "thumbnail": thumb_val, "links": []})
-                    current_match = merged_matches[-1]
+                if ch_idx == -1:
+                    # TRẬN MỚI: Thêm nguyên cấu trúc channel vào
+                    new_channel = copy.deepcopy(src_channel)
+                    target_group["channels"].append(new_channel)
                 else:
-                    current_match = merged_matches[match_idx]
-                    if thumb_val: current_match["thumbnail"] = thumb_val
+                    # TRẬN ĐÃ CÓ: Gộp link vào channel cũ
+                    existing_channel = target_group["channels"][ch_idx]
+                    
+                    # 1. Luôn đè thumbnail mới nhất
+                    if thumb_url:
+                        existing_channel["image"]["url"] = thumb_url
 
-                existing_urls = {lk["url"] for lk in current_match["links"]}
-                for url in raw_links:
-                    if url not in existing_urls:
-                        label = f"{source_name} - {blv_val}".strip(" -")
-                        current_match["links"].append({"label": label, "url": url})
-                        existing_urls.add(url)
+                    # 2. Gộp Sources & Format lại tên BLV
+                    # Lấy danh sách link đã có trong channel cũ để chống trùng
+                    existing_links = set()
+                    for ex_src in existing_channel.get("sources", []):
+                        for ex_ct in ex_src.get("contents", []):
+                            for ex_st in ex_ct.get("streams", []):
+                                for link in ex_st.get("stream_links", []):
+                                    existing_links.add(link)
 
-    # Nhóm kết quả
-    final_output = {cat: [] for cat in CATEGORIES.values()}
-    total = 0
-    groups = 0
-    
-    for match_data in merged_matches:
-        if not match_data.get("links"): continue
-        cat = match_data["category"]
-        if cat in final_output: 
-            final_output[cat].append(match_data)
-            if len(final_output[cat]) == 1: groups += 1 # Đếm số môn có dữ liệu
-            total += 1 # Đếm tổng số kênh/trận
+                    # Duyệt qua các source của channel mới (ví dụ Cakhia)
+                    for inc_src in src_channel.get("sources", []):
+                        has_new_link = False
+                        # Clone source ra để sửa tên không ảnh hưởng gốc
+                        temp_src = copy.deepcopy(inc_src)
+                        
+                        for inc_ct in temp_src.get("contents", []):
+                            for inc_st in inc_ct.get("streams", []):
+                                new_valid_links = []
+                                for link in inc_st.get("stream_links", []):
+                                    if link not in existing_links:
+                                        new_valid_links.append(link)
+                                        existing_links.add(link)
+                                        has_new_link = True
+                                
+                                # Chỉ cập nhật stream_links và đổi tên Stream nếu có link mới
+                                if new_valid_links:
+                                    inc_st["stream_links"] = new_valid_links
+                                    # Format lại tên: "Cakhia247 - Giàng A Dập"
+                                    inc_st["name"] = f"{source_name} - {blv_val}".strip(" -")
+                                else:
+                                    inc_st["stream_links"] = [] # Bỏ đi nếu link trùng
 
-    # Ghi dữ liệu mới ra file tạm thời (staging)
+                        # Chỉ thêm source vào channel cũ nếu source đó thực sự có link mới
+                        if has_new_link:
+                            existing_channel["sources"].append(temp_src)
+
+    # ==========================================
+    # LOGIC SO SÁNH & GHI FILE (CỦA BẠN)
+    # ==========================================
     staging = "staging.json"
     with open(staging, "w", encoding="utf-8") as f:
-        json.dump(final_output, f, ensure_ascii=False, indent=2)
+        json.dump(final_data, f, ensure_ascii=False, indent=2)
 
-    # ==========================================
-    # ÁP DỤNG CHÍNH XÁC LOGIC SO SÁNH CỦA BẠN
-    # ==========================================
     if os.path.exists("output.json"):
         old_norm = normalize("output.json")
         new_norm = normalize(staging)
 
         if old_norm != new_norm:
             os.replace(staging, "output.json")
-            print(f"\nXong! {total} kenh, {groups} mon the thao -> output.json (DA CAP NHAT)")
+            total_ch = sum(len(g["channels"]) for g in final_data["groups"])
+            active_grp = sum(1 for g in final_data["groups"] if len(g["channels"]) > 0)
+            print(f"\nXong! {total_ch} kenh, {active_grp} mon the thao -> output.json (DA CAP NHAT)")
         else:
             os.remove(staging)
-            print(f"\nXong! {total} kenh, {groups} mon the thao -> Khong co thay doi, giu nguyen output.json")
+            print(f"\nXong! -> Khong co thay doi, giu nguyen output.json")
     else:
-        # Lần chạy đầu tiên chưa có file output.json
         os.replace(staging, "output.json")
-        print(f"\nXong! {total} kenh, {groups} mon the thao -> output.json (TAO MOI)")
+        print(f"\nXong! -> output.json (TAO MOI)")
 
 if __name__ == "__main__":
     main()
