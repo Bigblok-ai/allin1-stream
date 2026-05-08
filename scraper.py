@@ -1,24 +1,54 @@
 import requests
-import yaml
 import json
+import os
 from concurrent.futures import ThreadPoolExecutor
 
-def load_config(filepath="config.yaml"):
-    with open(filepath, "r", encoding="utf-8") as f:
-        return yaml.safe_load(f)
+# ==========================================
+# CONFIG
+# ==========================================
+CATEGORIES = {
+    "Bóng đá": "⚽ Bóng Đá",
+    "Tennis": "🎾 Tennis",
+    "Cầu Lông": "🏸 Cầu Lông",
+    "Bóng rổ": "🏀 Bóng Rổ",
+    "Billiards": "🎱 Billiards",
+    "Bóng chuyền": "🏐 Bóng Chuyền",
+    "Đua xe F1": "🏎️ Đua Xe F1",
+    "Bóng bàn": "🏓 Bóng Bàn",
+    "Võ Thuật": "🥊 Võ Thuật",
+    "Pickleball": "🏸 Pickleball"
+}
 
+SOURCES = [
+    {"name": "Thapcam24h", "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/output.json"},
+    {"name": "Cakhia247", "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/output.json"},
+    {"name": "Buncha", "url": "https://raw.githubusercontent.com/xixixius-ai/buncha-stream/refs/heads/main/output.json"},
+    {"name": "Giovang", "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/output.json"},
+    {"name": "Hoiquan", "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/output.json"}
+]
+
+# ==========================================
+# LOGIC CỦA BẠN
+# ==========================================
+def normalize(filepath):
+    """Đọc file JSON và chuẩn hóa lại chuỗi để so sánh chính xác nhất"""
+    with open(filepath, "r", encoding="utf-8") as f:
+        data = json.load(f)
+    # sort_keys=True giúp sắp xếp lại các key, tránh việc đổi thứ tự bị nhận diện là khác
+    return json.dumps(data, ensure_ascii=False, sort_keys=True)
+
+# ==========================================
+# LOGIC CÀO DỮ LIỆU
+# ==========================================
 def fetch_json(url):
-    """Lấy dữ liệu từ URL raw"""
     try:
         response = requests.get(url, timeout=15)
         response.raise_for_status()
         return response.json()
-    except Exception as e:
-        print(f"[Lỗi] Không thể lấy: {url} - {e}", flush=True)
+    except Exception:
         return None
 
 def find_match_index(time_val, team_a, team_b, match_list):
-    """Hàm tìm trận trùng: Cùng giờ + (Trùng đội A hoặc Trùng đội B)"""
     time_clean = time_val.strip().lower()
     a_clean = team_a.strip().lower()
     b_clean = team_b.strip().lower() if team_b else ""
@@ -26,101 +56,60 @@ def find_match_index(time_val, team_a, team_b, match_list):
     for i, m in enumerate(match_list):
         if m["time"].strip().lower() != time_clean:
             continue
-            
         old_match_str = m["match"].lower()
-        if " vs " in old_match_str:
-            old_a, old_b = old_match_str.split(" vs ", 1)
-        else:
-            old_a, old_b = old_match_str, ""
-
+        old_a, old_b = (old_match_str.split(" vs ", 1) + [""])[:2]
+        
         is_match = False
-        if a_clean == old_a or a_clean == old_b:
-            is_match = True
-        if b_clean and (b_clean == old_a or b_clean == old_b):
-            is_match = True
-
-        if is_match:
-            return i
-            
+        if a_clean == old_a or a_clean == old_b: is_match = True
+        if b_clean and (b_clean == old_a or b_clean == old_b): is_match = True
+        
+        if is_match: return i
     return -1
 
 def extract_stream_links(channel_data):
-    """Bóc tách sâu lấy link phát thực tế"""
     links = []
     try:
-        sources = channel_data.get("sources", [])
-        for src in sources:
-            contents = src.get("contents", [])
-            for content in contents:
-                streams = content.get("streams", [])
-                for stream in streams:
-                    stream_links = stream.get("stream_links", [])
-                    for link in stream_links:
-                        if isinstance(link, str) and link:
-                            links.append(link)
-                        elif isinstance(link, dict) and link.get("url"):
-                            links.append(link["url"])
-    except Exception:
-        pass
+        for src in channel_data.get("sources", []):
+            for content in src.get("contents", []):
+                for stream in content.get("streams", []):
+                    for link in stream.get("stream_links", []):
+                        url = link if isinstance(link, str) else link.get("url")
+                        if url: links.append(url)
+    except Exception: pass
     return links
 
 def main():
-    config = load_config()
-    cate_map = config.get("categories", {})
-    sources = config.get("sources", [])
-    
     merged_matches = []
 
-    # Lấy dữ liệu từ 5 nguồn song song
     with ThreadPoolExecutor(max_workers=5) as executor:
-        raw_jsons = list(executor.map(fetch_json, [s["url"] for s in sources]))
+        raw_jsons = list(executor.map(fetch_json, [s["url"] for s in SOURCES]))
 
     for index, raw_data in enumerate(raw_jsons):
-        if not raw_data:
-            continue
-            
-        source_name = sources[index]["name"]
-        groups = raw_data.get("groups", [])
+        if not raw_data: continue
+        source_name = SOURCES[index]["name"]
 
-        for group in groups:
-            channels = group.get("channels", [])
-            
-            for ch in channels:
+        for group in raw_data.get("groups", []):
+            for ch in group.get("channels", []):
                 meta = ch.get("org_metadata", {})
-                
-                time_val = meta.get("time", "")
-                team_a = meta.get("team_a", "")
-                team_b = meta.get("team_b", "")
-                blv_val = meta.get("blv", "")
+                time_val, team_a = meta.get("time", ""), meta.get("team_a", "")
+                team_b, blv_val = meta.get("team_b", ""), meta.get("blv", "")
                 cate_raw = meta.get("cate_name", "")
                 thumb_val = ch.get("image", {}).get("url", "")
-                
                 raw_links = extract_stream_links(ch)
                 
-                if not time_val or not team_a:
-                    continue
+                if not time_val or not team_a: continue
 
                 match_name = f"{team_a} vs {team_b}" if team_b else team_a
-                mapped_cate = cate_map.get(cate_raw, cate_raw)
-
+                mapped_cate = CATEGORIES.get(cate_raw, cate_raw)
                 match_idx = find_match_index(time_val, team_a, team_b, merged_matches)
 
                 if match_idx == -1:
-                    merged_matches.append({
-                        "category": mapped_cate,
-                        "time": time_val,
-                        "match": match_name,
-                        "thumbnail": thumb_val,
-                        "links": []
-                    })
+                    merged_matches.append({"category": mapped_cate, "time": time_val, "match": match_name, "thumbnail": thumb_val, "links": []})
                     current_match = merged_matches[-1]
                 else:
                     current_match = merged_matches[match_idx]
-                    # Luôn đè thumbnail mới nhất (sau khi bạn sửa scraper nguồn không chèn BLV vào ảnh)
-                    if thumb_val:
-                        current_match["thumbnail"] = thumb_val
+                    if thumb_val: current_match["thumbnail"] = thumb_val
 
-                # Gộp Link
                 existing_urls = {lk["url"] for lk in current_match["links"]}
                 for url in raw_links:
                     if url not in existing_urls:
@@ -128,21 +117,41 @@ def main():
                         current_match["links"].append({"label": label, "url": url})
                         existing_urls.add(url)
 
-    # Nhóm theo 10 môn cố định
-    final_output = {cat: [] for cat in cate_map.values()}
-
+    # Nhóm kết quả
+    final_output = {cat: [] for cat in CATEGORIES.values()}
+    total = 0
+    groups = 0
+    
     for match_data in merged_matches:
+        if not match_data.get("links"): continue
         cat = match_data["category"]
-        # Bỏ qua những trận không có link phát thực tế
-        if not match_data.get("links"):
-            continue
-        if cat in final_output:
+        if cat in final_output: 
             final_output[cat].append(match_data)
-        else:
-            final_output[cat] = [match_data]
+            if len(final_output[cat]) == 1: groups += 1 # Đếm số môn có dữ liệu
+            total += 1 # Đếm tổng số kênh/trận
 
-    # In thẳng JSON ra standard output (Dành cho cron-job.org gọi và đọc)
-    print(json.dumps(final_output, ensure_ascii=False, indent=2), flush=True)
+    # Ghi dữ liệu mới ra file tạm thời (staging)
+    staging = "staging.json"
+    with open(staging, "w", encoding="utf-8") as f:
+        json.dump(final_output, f, ensure_ascii=False, indent=2)
+
+    # ==========================================
+    # ÁP DỤNG CHÍNH XÁC LOGIC SO SÁNH CỦA BẠN
+    # ==========================================
+    if os.path.exists("output.json"):
+        old_norm = normalize("output.json")
+        new_norm = normalize(staging)
+
+        if old_norm != new_norm:
+            os.replace(staging, "output.json")
+            print(f"\nXong! {total} kenh, {groups} mon the thao -> output.json (DA CAP NHAT)")
+        else:
+            os.remove(staging)
+            print(f"\nXong! {total} kenh, {groups} mon the thao -> Khong co thay doi, giu nguyen output.json")
+    else:
+        # Lần chạy đầu tiên chưa có file output.json
+        os.replace(staging, "output.json")
+        print(f"\nXong! {total} kenh, {groups} mon the thao -> output.json (TAO MOI)")
 
 if __name__ == "__main__":
     main()
