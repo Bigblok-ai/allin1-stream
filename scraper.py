@@ -56,6 +56,36 @@ def normalize_cate_name(name):
     """Bỏ suffix '(X LIVE)' hoặc '(X UPCOMING)' khỏi tên group"""
     return re.sub(r'\s*\(\d+\s+\w+\)\s*$', '', name, flags=re.IGNORECASE).strip()
 
+def extract_sort_key(channel):
+    """
+    Sort key: LIVE lên đầu, sau đó sort theo thời gian tăng dần.
+    Format time đồng nhất: "HH:MM DD/MM"
+    """
+    meta = channel.get("org_metadata", {})
+    is_live = meta.get("is_live", False)
+    time_val = meta.get("time", "").strip()
+
+    # Trận đang LIVE → ưu tiên cao nhất
+    if is_live or not time_val:
+        return (0, 0, 0, 0, 0)
+
+    # Parse "HH:MM DD/MM"
+    try:
+        parts = time_val.split(" ")
+        if len(parts) == 2:
+            hm = parts[0].split(":")
+            dm = parts[1].split("/")
+            h = int(hm[0])
+            m = int(hm[1])
+            d = int(dm[0])
+            mo = int(dm[1])
+            return (1, mo, d, h, m)
+    except:
+        pass
+
+    # Fallback
+    return (2, 99, 99, 99, 99)
+
 def find_channel_index(time_val, team_a, team_b, channels_list):
     """Tìm trận trùng khớp dựa trên thời gian và tên đội A hoặc đội B"""
     a_clean = team_a.strip().lower()
@@ -68,12 +98,12 @@ def find_channel_index(time_val, team_a, team_b, channels_list):
         old_a = meta.get("team_a", "").strip().lower()
         old_b = meta.get("team_b", "").strip().lower()
 
-        # 1. Thời gian phải khớp (nếu cả 2 đều rỗng tức là cùng đang LIVE)
+        # Thời gian phải khớp (nếu cả 2 đều rỗng tức là cùng đang LIVE)
         if time_clean != old_time:
             if not (time_clean == "" and old_time == ""):
                 continue
 
-        # 2. Tên đội A hoặc đội B phải trùng nhau
+        # Tên đội A hoặc đội B phải trùng nhau
         is_match = False
         if a_clean and (a_clean == old_a or a_clean == old_b): is_match = True
         if b_clean and (b_clean == old_a or b_clean == old_b): is_match = True
@@ -143,8 +173,7 @@ def main():
         "groups": copy.deepcopy(GROUP_SKELETON)
     }
 
-    # Lưu base name để lúc cuối dễ rename
-    group_map = {} 
+    group_map = {}
     for g in final_data["groups"]:
         base_name = normalize_cate_name(g["name"])
         group_map[base_name] = g
@@ -152,12 +181,14 @@ def main():
     with ThreadPoolExecutor(max_workers=5) as executor:
         raw_jsons = list(executor.map(fetch_json, [s["url"] for s in SOURCES]))
 
+    # ==========================================
+    # BƯỚC 1: GỘP DỮ LIỆU TỪ 5 NGUỒN
+    # ==========================================
     for index, raw_data in enumerate(raw_jsons):
         if not raw_data: continue
         source_name = SOURCES[index]["name"]
 
         for src_group in raw_data.get("groups", []):
-            # FIX 1: Normalize tên group (bỏ chữ LIVE) để match vào group_map
             src_cate_name = normalize_cate_name(src_group.get("name", ""))
             if src_cate_name not in group_map: continue
             target_group = group_map[src_cate_name]
@@ -170,22 +201,18 @@ def main():
                 blv_val = meta.get("blv", "")
                 thumb_url = src_channel.get("image", {}).get("url", "")
 
-                # FIX 2: Bỏ điều kiện lọc time, chỉ cần có tên đội là lấy
                 if not team_a: continue
 
                 ch_idx = find_channel_index(time_val, team_a, team_b, target_group["channels"])
 
                 if ch_idx == -1:
-                    # Trận mới, thêm vào group
                     new_channel = copy.deepcopy(src_channel)
                     target_group["channels"].append(new_channel)
                 else:
-                    # Trận đã có, ghép link
                     existing_channel = target_group["channels"][ch_idx]
                     if thumb_url:
                         existing_channel["image"]["url"] = thumb_url
 
-                    # FIX 3: Lấy URL để so sánh, tránh add trùng link
                     existing_urls = set()
                     for ex_src in existing_channel.get("sources", []):
                         for ex_ct in ex_src.get("contents", []):
@@ -217,9 +244,15 @@ def main():
                         if has_new_link:
                             existing_channel["sources"].append(temp_src)
 
-    # ─────────────────────────────────────────────────────────────────
-    # FIX 4: Đếm số trận LIVE và đổi tên Group
-    # ─────────────────────────────────────────────────────────────────
+    # ==========================================
+    # BƯỚC 2: SẮP XẾP THEO THỜI GIAN (LIVE lên đầu)
+    # ==========================================
+    for g in final_data["groups"]:
+        g["channels"].sort(key=extract_sort_key)
+
+    # ==========================================
+    # BƯỚC 3: ĐẾM LIVE & RENAME GROUP
+    # ==========================================
     for g in final_data["groups"]:
         base_name = normalize_cate_name(g["name"])
         live_count = 0
