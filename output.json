@@ -602,7 +602,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá",
+      "name": "⚽ Bóng Đá (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -615,10 +615,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -633,7 +633,60 @@
                     {
                       "id": "st-b8a3f16cc8",
                       "name": "KT",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-8bf15ef734",
+                          "name": "BLV Tôn Quyền",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.phogatv8.com/live/69ffbf56137e4_793/index.m3u8?expire=1778973142&sign=1d311e5dcd7dd54e5611b04c172982f2",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-cab5ba492d",
+              "name": "BunchaTV",
+              "contents": [
+                {
+                  "id": "ct-cab5ba492d",
+                  "name": "Atlanta United vs Los Angeles Galaxy",
+                  "streams": [
+                    {
+                      "id": "st-cab5ba492d",
+                      "name": "Buncha - BLV A  Chun",
+                      "stream_links": [
+                        {
+                          "id": "lnk-2fe3bcf26d",
+                          "name": "BLV A  Chun",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.taoxanh.biz/live/69ffbba4203f5_95554/index.m3u8?expire=1778972196&sign=c9018e510c47f10c92605c08a2704702",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://bunchatv4.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -648,7 +701,7 @@
             "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/8ef755c4d2e1aed96dc5d291977c1043.png",
             "time": "06:30 10/05",
             "blv": "BLV Tôn Quyền",
-            "is_live": false,
+            "is_live": true,
             "cate_name": "Bóng đá"
           },
           "image": {
