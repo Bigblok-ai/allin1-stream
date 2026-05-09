@@ -56,6 +56,102 @@ def normalize_cate_name(name):
     """Bỏ suffix '(X LIVE)' khỏi tên group"""
     return re.sub(r'\s*\(\d+\s+\w+\)\s*$', '', name, flags=re.IGNORECASE).strip()
 
+def normalize_time_in_channel(channel):
+    """Normalize GiovangTV time format: 'HH:MM:SS' + date → 'HH:MM DD/MM'"""
+    meta = channel.get("org_metadata", {})
+    time_val = meta.get("time", "").strip()
+    date_val = meta.get("date", "").strip()
+    
+    if time_val and date_val:
+        parts = time_val.split(":")
+        if len(parts) == 3:
+            meta["time"] = f"{parts[0]}:{parts[1]} {date_val}"
+    
+    return channel
+
+def normalize_team_name(name):
+    """Normalize team name for fuzzy matching"""
+    name = name.strip().lower()
+    # Remove common club suffixes
+    suffixes = [
+        " football club", " f.c.", " fc", " cf", " sc", " ac", " afc",
+        " s.c.", " a.f.c.", " c.d.", " cd", " b", " a", " sv", " e.v.",
+        " club", " de fútbol", " futebol"
+    ]
+    for suffix in suffixes:
+        if name.endswith(suffix):
+            name = name[:-len(suffix)]
+    # Normalize whitespace
+    name = " ".join(name.split())
+    return name
+
+def teams_match(team_a, team_b, old_a, old_b):
+    """Check if two sets of teams refer to the same match"""
+    a_clean = team_a.strip().lower()
+    b_clean = team_b.strip().lower() if team_b else ""
+    old_a_clean = old_a.strip().lower()
+    old_b_clean = old_b.strip().lower() if old_b else ""
+    
+    # Exact match
+    a_match = False
+    b_match = False
+    
+    if a_clean:
+        if a_clean == old_a_clean or a_clean == old_b_clean:
+            a_match = True
+    
+    if b_clean:
+        if b_clean == old_a_clean or b_clean == old_b_clean:
+            b_match = True
+    
+    # If both teams match exactly
+    if a_match and (not b_clean or b_match):
+        return True
+    if b_match and (not a_clean or a_match):
+        return True
+    
+    # Normalized match (remove FC, AFC, etc.)
+    a_norm = normalize_team_name(team_a)
+    b_norm = normalize_team_name(team_b) if team_b else ""
+    old_a_norm = normalize_team_name(old_a)
+    old_b_norm = normalize_team_name(old_b) if old_b else ""
+    
+    a_norm_match = False
+    b_norm_match = False
+    
+    if a_norm:
+        if a_norm == old_a_norm or a_norm == old_b_norm:
+            a_norm_match = True
+    
+    if b_norm:
+        if b_norm == old_a_norm or b_norm == old_b_norm:
+            b_norm_match = True
+    
+    if a_norm_match and (not b_norm or b_norm_match):
+        return True
+    if b_norm_match and (not a_norm or a_norm_match):
+        return True
+    
+    # Substring match (e.g., "Chelsea" in "Chelsea FC", "Brighton" in "Brighton Hove Albion")
+    if a_clean and not a_match and not a_norm_match:
+        if (a_clean in old_a_clean or old_a_clean in a_clean) and len(a_clean) >= 4:
+            a_match = True
+        if (a_clean in old_b_clean or old_b_clean in a_clean) and len(a_clean) >= 4:
+            a_match = True
+    
+    if b_clean and not b_match and not b_norm_match:
+        if (b_clean in old_a_clean or old_a_clean in b_clean) and len(b_clean) >= 4:
+            b_match = True
+        if (b_clean in old_b_clean or old_b_clean in b_clean) and len(b_clean) >= 4:
+            b_match = True
+    
+    if a_match and (not b_clean or b_match):
+        return True
+    if b_match and (not a_clean or a_match):
+        return True
+    
+    return False
+
 def extract_sort_key(channel):
     """LIVE lên đầu, sau đó sort theo thời gian tăng dần (HH:MM DD/MM)"""
     meta = channel.get("org_metadata", {})
@@ -75,6 +171,12 @@ def extract_sort_key(channel):
             d = int(dm[0])
             mo = int(dm[1])
             return (1, mo, d, h, m)
+        elif len(parts) == 1 and ":" in parts[0]:
+            # Fallback for "HH:MM:SS" or "HH:MM"
+            hm = parts[0].split(":")
+            h = int(hm[0])
+            m = int(hm[1])
+            return (1, 99, 99, h, m)
     except:
         pass
 
@@ -82,25 +184,32 @@ def extract_sort_key(channel):
 
 def find_channel_index(time_val, team_a, team_b, channels_list):
     """Tìm trận trùng khớp dựa trên thời gian và tên đội"""
-    a_clean = team_a.strip().lower()
-    b_clean = team_b.strip().lower() if team_b else ""
     time_clean = time_val.strip().lower()
 
     for i, ch in enumerate(channels_list):
         meta = ch.get("org_metadata", {})
         old_time = meta.get("time", "").strip().lower()
-        old_a = meta.get("team_a", "").strip().lower()
-        old_b = meta.get("team_b", "").strip().lower()
+        old_a = meta.get("team_a", "")
+        old_b = meta.get("team_b", "")
 
-        if time_clean != old_time:
-            if not (time_clean == "" and old_time == ""):
-                continue
+        # Time matching:
+        # - Both have same time → OK
+        # - Both empty (both LIVE) → OK
+        # - One empty (LIVE), other has time → OK (same match, different status)
+        time_match = False
+        
+        if time_clean == old_time:
+            time_match = True
+        elif time_clean == "" or old_time == "":
+            # One is LIVE, other has scheduled time → allow match
+            time_match = True
+        
+        if not time_match:
+            continue
 
-        is_match = False
-        if a_clean and (a_clean == old_a or a_clean == old_b): is_match = True
-        if b_clean and (b_clean == old_a or b_clean == old_b): is_match = True
-
-        if is_match: return i
+        # Team matching with fuzzy logic
+        if teams_match(team_a, team_b, old_a, old_b):
+            return i
 
     return -1
 
@@ -198,6 +307,9 @@ def main():
             target_group = group_map[src_cate_name]
 
             for src_channel in src_group.get("channels", []):
+                # Normalize GiovangTV time format FIRST
+                src_channel = normalize_time_in_channel(src_channel)
+                
                 meta = src_channel.get("org_metadata", {})
                 time_val = meta.get("time", "")
                 team_a = meta.get("team_a", "")
@@ -215,9 +327,18 @@ def main():
                 else:
                     existing_channel = target_group["channels"][ch_idx]
                     
-                    # Thumbnail: First wins (chỉ set nếu chưa có)
+                    # Thumbnail: First wins
                     if thumb_url and not existing_channel["image"].get("url"):
                         existing_channel["image"]["url"] = thumb_url
+
+                    # Update is_live if new source is LIVE
+                    if meta.get("is_live"):
+                        existing_channel["org_metadata"]["is_live"] = True
+                        # If LIVE, also update label
+                        for label in existing_channel.get("labels", []):
+                            if label.get("text") == "🕐 Sắp":
+                                label["text"] = "● LIVE"
+                                label["text_color"] = "#ff4444"
 
                     existing_urls = set()
                     for ex_src in existing_channel.get("sources", []):
@@ -251,7 +372,7 @@ def main():
                             existing_channel["sources"].append(temp_src)
 
     # ─────────────────────────────────────────────────────────────────
-    # BƯỚC 2: GỘP KÊNH TRUYỀN HÌNH (Trước khi sort và đếm LIVE)
+    # BƯỚC 2: GỘP KÊNH TRUYỀN HÌNH
     # ─────────────────────────────────────────────────────────────────
     try:
         if os.path.exists(HOIQUAN_FILE):
@@ -274,13 +395,11 @@ def main():
         print(f"Canh bao: Loi xu ly {HOIQUAN_FILE} -> {e}")
 
     # ==========================================
-    # BƯỚC 3: SẮP XẾP & ĐẾM LIVE (Áp dụng cho TẤT CẢ groups, bao gồm TV)
+    # BƯỚC 3: SẮP XẾP & ĐẾM LIVE
     # ==========================================
     for g in final_data["groups"]:
-        # Sắp xếp: LIVE lên đầu, sau đó theo thời gian
         g["channels"].sort(key=extract_sort_key)
 
-        # Đếm LIVE và đổi tên group
         base_name = normalize_cate_name(g["name"])
         live_count = 0
         for ch in g.get("channels", []):
