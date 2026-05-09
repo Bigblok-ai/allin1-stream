@@ -12,14 +12,14 @@
   "groups": [
     {
       "id": "grp-tv-hoiquan",
-      "name": "📺 Kênh Truyền Hình (7 LIVE)",
+      "name": "📺 Kênh Truyền Hình (8 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
         {
           "id": "tv-0",
-          "name": "VTV1 HD",
+          "name": "VTV1",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -38,7 +38,7 @@
               "contents": [
                 {
                   "id": "ct-tv-0-0",
-                  "name": "VTV1 HD",
+                  "name": "VTV1",
                   "streams": [
                     {
                       "id": "st-tv-0-0",
@@ -57,12 +57,38 @@
                   ]
                 }
               ]
+            },
+            {
+              "id": "src-tv-0-1",
+              "name": "Source 2 - duckdns",
+              "contents": [
+                {
+                  "id": "ct-tv-0-1",
+                  "name": "VTV1",
+                  "streams": [
+                    {
+                      "id": "st-tv-0-1",
+                      "name": "KT",
+                      "stream_links": [
+                        {
+                          "id": "lnk-tv-0-1",
+                          "name": "Link 2",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://sgclient.duckdns.org/source/tv360.m3u8?id=2",
+                          "request_headers": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
             }
           ],
           "org_metadata": {
             "is_live": true,
             "time": "",
-            "team_a": "VTV1 HD",
+            "team_a": "VTV1",
             "team_b": ""
           },
           "image": {
@@ -76,7 +102,7 @@
         },
         {
           "id": "tv-1",
-          "name": "VTV2 HD",
+          "name": "VTV2",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -95,7 +121,7 @@
               "contents": [
                 {
                   "id": "ct-tv-1-0",
-                  "name": "VTV2 HD",
+                  "name": "VTV2",
                   "streams": [
                     {
                       "id": "st-tv-1-0",
@@ -114,12 +140,38 @@
                   ]
                 }
               ]
+            },
+            {
+              "id": "src-tv-1-1",
+              "name": "Source 2 - fptplay53",
+              "contents": [
+                {
+                  "id": "ct-tv-1-1",
+                  "name": "VTV2",
+                  "streams": [
+                    {
+                      "id": "st-tv-1-1",
+                      "name": "KT",
+                      "stream_links": [
+                        {
+                          "id": "lnk-tv-1-1",
+                          "name": "Link 2",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://live.fptplay53.net/fnxch2/vtv2hd_abr.smil/chunklist.m3u8",
+                          "request_headers": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
             }
           ],
           "org_metadata": {
             "is_live": true,
             "time": "",
-            "team_a": "VTV2 HD",
+            "team_a": "VTV2",
             "team_b": ""
           },
           "image": {
@@ -133,7 +185,7 @@
         },
         {
           "id": "tv-2",
-          "name": "VTV3 HD",
+          "name": "VTV3",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -152,7 +204,7 @@
               "contents": [
                 {
                   "id": "ct-tv-2-0",
-                  "name": "VTV3 HD",
+                  "name": "VTV3",
                   "streams": [
                     {
                       "id": "st-tv-2-0",
@@ -171,12 +223,38 @@
                   ]
                 }
               ]
+            },
+            {
+              "id": "src-tv-2-1",
+              "name": "Source 2 - fptplay53",
+              "contents": [
+                {
+                  "id": "ct-tv-2-1",
+                  "name": "VTV3",
+                  "streams": [
+                    {
+                      "id": "st-tv-2-1",
+                      "name": "KT",
+                      "stream_links": [
+                        {
+                          "id": "lnk-tv-2-1",
+                          "name": "Link 2",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://live-a.fptplay53.net/live/media/VTV3HD/live_hls_avc/index.m3u8",
+                          "request_headers": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
             }
           ],
           "org_metadata": {
             "is_live": true,
             "time": "",
-            "team_a": "VTV3 HD",
+            "team_a": "VTV3",
             "team_b": ""
           },
           "image": {
@@ -190,7 +268,7 @@
         },
         {
           "id": "tv-3",
-          "name": "VTV5 HD",
+          "name": "VTV5",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -209,7 +287,7 @@
               "contents": [
                 {
                   "id": "ct-tv-3-0",
-                  "name": "VTV5 HD",
+                  "name": "VTV5",
                   "streams": [
                     {
                       "id": "st-tv-3-0",
@@ -228,12 +306,38 @@
                   ]
                 }
               ]
+            },
+            {
+              "id": "src-tv-3-1",
+              "name": "Source 2 - fptplay53",
+              "contents": [
+                {
+                  "id": "ct-tv-3-1",
+                  "name": "VTV5",
+                  "streams": [
+                    {
+                      "id": "st-tv-3-1",
+                      "name": "KT",
+                      "stream_links": [
+                        {
+                          "id": "lnk-tv-3-1",
+                          "name": "Link 2",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://live-a.fptplay53.net/live/media/VTV5HD/live_hls_avc/index.m3u8",
+                          "request_headers": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
             }
           ],
           "org_metadata": {
             "is_live": true,
             "time": "",
-            "team_a": "VTV5 HD",
+            "team_a": "VTV5",
             "team_b": ""
           },
           "image": {
@@ -247,7 +351,7 @@
         },
         {
           "id": "tv-4",
-          "name": "VTV7 HD",
+          "name": "VTV7",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -266,7 +370,7 @@
               "contents": [
                 {
                   "id": "ct-tv-4-0",
-                  "name": "VTV7 HD",
+                  "name": "VTV7",
                   "streams": [
                     {
                       "id": "st-tv-4-0",
@@ -285,12 +389,38 @@
                   ]
                 }
               ]
+            },
+            {
+              "id": "src-tv-4-1",
+              "name": "Source 2 - fptplay53",
+              "contents": [
+                {
+                  "id": "ct-tv-4-1",
+                  "name": "VTV7",
+                  "streams": [
+                    {
+                      "id": "st-tv-4-1",
+                      "name": "KT",
+                      "stream_links": [
+                        {
+                          "id": "lnk-tv-4-1",
+                          "name": "Link 2",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://live.fptplay53.net/fnxhd1/vtv7hd_vhls.smil/chunklist_b5000000.m3u8",
+                          "request_headers": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
             }
           ],
           "org_metadata": {
             "is_live": true,
             "time": "",
-            "team_a": "VTV7 HD",
+            "team_a": "VTV7",
             "team_b": ""
           },
           "image": {
@@ -304,7 +434,7 @@
         },
         {
           "id": "tv-5",
-          "name": "VTV9 HD",
+          "name": "VTV9",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -323,7 +453,7 @@
               "contents": [
                 {
                   "id": "ct-tv-5-0",
-                  "name": "VTV9 HD",
+                  "name": "VTV9",
                   "streams": [
                     {
                       "id": "st-tv-5-0",
@@ -342,12 +472,38 @@
                   ]
                 }
               ]
+            },
+            {
+              "id": "src-tv-5-1",
+              "name": "Source 2 - dpdns",
+              "contents": [
+                {
+                  "id": "ct-tv-5-1",
+                  "name": "VTV9",
+                  "streams": [
+                    {
+                      "id": "st-tv-5-1",
+                      "name": "KT",
+                      "stream_links": [
+                        {
+                          "id": "lnk-tv-5-1",
+                          "name": "Link 2",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://toiyeuvietnam.dpdns.org/TuyetDoiKhongKinhDoanh/vtv9-hd/KenhCoBan.m3u8",
+                          "request_headers": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
             }
           ],
           "org_metadata": {
             "is_live": true,
             "time": "",
-            "team_a": "VTV9 HD",
+            "team_a": "VTV9",
             "team_b": ""
           },
           "image": {
@@ -361,7 +517,7 @@
         },
         {
           "id": "tv-6",
-          "name": "HTV Thể Thao",
+          "name": "VTV10",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -376,11 +532,11 @@
           "sources": [
             {
               "id": "src-tv-6-0",
-              "name": "Source 1 - dpdns",
+              "name": "Source 1 - fptplay53",
               "contents": [
                 {
                   "id": "ct-tv-6-0",
-                  "name": "HTV Thể Thao",
+                  "name": "VTV10",
                   "streams": [
                     {
                       "id": "st-tv-6-0",
@@ -391,7 +547,90 @@
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
+                          "url": "https://live.fptplay53.net/live/media/VTV_can_tho/live_hls_avc/index.m3u8",
+                          "request_headers": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "is_live": true,
+            "time": "",
+            "team_a": "VTV10",
+            "team_b": ""
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/vuminhthanh12/vuminhthanh12/refs/heads/main/VTV10.png",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "tv-7",
+          "name": "HTV Thể Thao",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-tv-7-0",
+              "name": "Source 1 - dpdns",
+              "contents": [
+                {
+                  "id": "ct-tv-7-0",
+                  "name": "HTV Thể Thao",
+                  "streams": [
+                    {
+                      "id": "st-tv-7-0",
+                      "name": "KT",
+                      "stream_links": [
+                        {
+                          "id": "lnk-tv-7-0",
+                          "name": "Link 1",
+                          "type": "hls",
+                          "default": true,
                           "url": "https://toiyeuvietnam.dpdns.org/TuyetDoiKhongKinhDoanh/htv-the-thao/KenhCoBan.m3u8",
+                          "request_headers": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-tv-7-1",
+              "name": "Source 2 - fptplay53",
+              "contents": [
+                {
+                  "id": "ct-tv-7-1",
+                  "name": "HTV Thể Thao",
+                  "streams": [
+                    {
+                      "id": "st-tv-7-1",
+                      "name": "KT",
+                      "stream_links": [
+                        {
+                          "id": "lnk-tv-7-1",
+                          "name": "Link 2",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://live.fptplay53.net/epzhd1/htvcthethao_vhls.smil/chunklist_b5000000.m3u8",
                           "request_headers": []
                         }
                       ]
@@ -426,8 +665,114 @@
       "enable_detail": false,
       "channels": [
         {
+          "id": "thapcam-5aa55dfad9",
+          "name": "Daejeon Citizen vs Pohang Steelers | 17:00 09/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-5aa55dfad9",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-5aa55dfad9",
+                  "name": "Daejeon Citizen vs Pohang Steelers",
+                  "streams": [
+                    {
+                      "id": "st-5aa55dfad9",
+                      "name": "KT",
+                      "stream_links": [
+                        {
+                          "id": "lnk-6a185cf8fb",
+                          "name": "BLV Người Lạ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.phogatv8.com/live/69fef7ad51ddc_11241/index.m3u8?expire=1778922029&sign=2b6e2eeebd621054a263f290c36dc08d",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-5cfa8db8c5",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-5cfa8db8c5",
+                  "name": "Daejeon Citizen vs Pohang Steelers",
+                  "streams": [
+                    {
+                      "id": "st-5cfa8db8c5",
+                      "name": "Giovang - BLV Dory",
+                      "stream_links": [
+                        {
+                          "id": "lnk-0219a45166",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1778216161_hd/1778216161_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Korean K League 1",
+            "team_a": "Daejeon Citizen",
+            "team_b": "Pohang Steelers",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/090eeb1513e8f1d0cf6d8647d10b2eea.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/6f05c460789939ac83282bd0686446f1.png",
+            "time": "17:00 09/05",
+            "blv": "BLV Người Lạ",
+            "is_live": true,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-5aa55dfad9_9355e745_20260509.png?v=9355e745",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "thapcam-f345192810",
-          "name": "Sydney FC vs Newcastle Jets | 16:40 09/05",
+          "name": "Sydney FC vs Newcastle Jets",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -527,94 +872,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-f345192810_94a0c578_20260509.png?v=94a0c578",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "thapcam-5aa55dfad9",
-          "name": "Daejeon Citizen vs Pohang Steelers | 17:00 09/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-5aa55dfad9",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-5aa55dfad9",
-                  "name": "Daejeon Citizen vs Pohang Steelers",
-                  "streams": [
-                    {
-                      "id": "st-5aa55dfad9",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "src-5cfa8db8c5",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-5cfa8db8c5",
-                  "name": "Daejeon Citizen vs Pohang Steelers",
-                  "streams": [
-                    {
-                      "id": "st-5cfa8db8c5",
-                      "name": "Giovang - BLV Dory",
-                      "stream_links": [
-                        {
-                          "id": "lnk-0219a45166",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1778216161_hd/1778216161_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Korean K League 1",
-            "team_a": "Daejeon Citizen",
-            "team_b": "Pohang Steelers",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/090eeb1513e8f1d0cf6d8647d10b2eea.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/6f05c460789939ac83282bd0686446f1.png",
-            "time": "17:00 09/05",
-            "blv": "BLV Người Lạ",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-5aa55dfad9_9355e745_20260509.png?v=9355e745",
             "width": 1600,
             "height": 1200
           }
@@ -1343,6 +1600,94 @@
           }
         },
         {
+          "id": "thapcam-d2e7bce8ee",
+          "name": "Sunderland vs Manchester United | 21:00 09/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-d2e7bce8ee",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-d2e7bce8ee",
+                  "name": "Sunderland vs Manchester United",
+                  "streams": [
+                    {
+                      "id": "st-d2e7bce8ee",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-eb1f6f453d",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-eb1f6f453d",
+                  "name": "Sunderland vs Manchester United",
+                  "streams": [
+                    {
+                      "id": "st-eb1f6f453d",
+                      "name": "Giovang - Fan MU: Perry vs Câm, BLV Dory",
+                      "stream_links": [
+                        {
+                          "id": "lnk-4115454799",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1778217312_hd/1778217312_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "English Premier League",
+            "team_a": "Sunderland",
+            "team_b": "Manchester United",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/957bdc50c307e2a9b526b34b3792da1a.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/d39ce586fd7278342dde33b3090b3f75.png",
+            "time": "21:00 09/05",
+            "blv": "BLV Siêu Bướng",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-d2e7bce8ee_88fe3497_20260509.png?v=88fe3497",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "thapcam-390d5140e2",
           "name": "Brighton Hove Albion vs Wolverhampton Wanderers | 21:00 09/05",
           "type": "single",
@@ -1514,94 +1859,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-2b0203c809_a8e48f39_20260509.png?v=a8e48f39",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "thapcam-d2e7bce8ee",
-          "name": "Sunderland vs Manchester United | 21:00 09/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-d2e7bce8ee",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-d2e7bce8ee",
-                  "name": "Sunderland vs Manchester United",
-                  "streams": [
-                    {
-                      "id": "st-d2e7bce8ee",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "src-eb1f6f453d",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-eb1f6f453d",
-                  "name": "Sunderland vs Manchester United",
-                  "streams": [
-                    {
-                      "id": "st-eb1f6f453d",
-                      "name": "Giovang - Fan MU: Perry vs Câm, BLV Dory",
-                      "stream_links": [
-                        {
-                          "id": "lnk-4115454799",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1778217312_hd/1778217312_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "English Premier League",
-            "team_a": "Sunderland",
-            "team_b": "Manchester United",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/957bdc50c307e2a9b526b34b3792da1a.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/d39ce586fd7278342dde33b3090b3f75.png",
-            "time": "21:00 09/05",
-            "blv": "BLV Siêu Bướng",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-d2e7bce8ee_88fe3497_20260509.png?v=88fe3497",
             "width": 1600,
             "height": 1200
           }
@@ -1801,8 +2058,8 @@
           }
         },
         {
-          "id": "thapcam-666cef421d",
-          "name": "Manchester City vs Brentford | 23:30 09/05",
+          "id": "thapcam-46e498032f",
+          "name": "Qatar U17 vs Indonesia U17 | 23:30 09/05",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1816,52 +2073,17 @@
           ],
           "sources": [
             {
-              "id": "src-666cef421d",
+              "id": "src-46e498032f",
               "name": "ThapcamTV",
               "contents": [
                 {
-                  "id": "ct-666cef421d",
-                  "name": "Manchester City vs Brentford",
+                  "id": "ct-46e498032f",
+                  "name": "Qatar U17 vs Indonesia U17",
                   "streams": [
                     {
-                      "id": "st-666cef421d",
+                      "id": "st-46e498032f",
                       "name": "KT",
                       "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "src-82cdb01e32",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-82cdb01e32",
-                  "name": "Manchester City vs Brentford",
-                  "streams": [
-                    {
-                      "id": "st-82cdb01e32",
-                      "name": "Giovang - fan-mc-ngong-nen, BLV Ben",
-                      "stream_links": [
-                        {
-                          "id": "lnk-6fca039a8e",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1778232254_hd/1778232254_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
                     }
                   ]
                 }
@@ -1869,13 +2091,13 @@
             }
           ],
           "org_metadata": {
-            "league": "English Premier League",
-            "team_a": "Manchester City",
-            "team_b": "Brentford",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/c4a6528a2ee147b99c9885ef24385a4e.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/60f1c7788be3148a370dbf59f914abfe.png",
+            "league": "AFC U17 Asian Cup",
+            "team_a": "Qatar U17",
+            "team_b": "Indonesia U17",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/8583e166d6e955dd01525d25b53b4439.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/a222bcd619abdcee951b28cae8d1cce6.png",
             "time": "23:30 09/05",
-            "blv": "BLV Người Lạ",
+            "blv": "BLV Người Nhớt",
             "is_live": false,
             "cate_name": "Bóng đá"
           },
@@ -1883,7 +2105,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-666cef421d_bc529571_20260509.png?v=bc529571",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-46e498032f_178123c5_20260509.png?v=178123c5",
             "width": 1600,
             "height": 1200
           }
@@ -2065,8 +2287,8 @@
           }
         },
         {
-          "id": "thapcam-46e498032f",
-          "name": "Qatar U17 vs Indonesia U17 | 23:30 09/05",
+          "id": "thapcam-666cef421d",
+          "name": "Manchester City vs Brentford | 23:30 09/05",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -2080,17 +2302,52 @@
           ],
           "sources": [
             {
-              "id": "src-46e498032f",
+              "id": "src-666cef421d",
               "name": "ThapcamTV",
               "contents": [
                 {
-                  "id": "ct-46e498032f",
-                  "name": "Qatar U17 vs Indonesia U17",
+                  "id": "ct-666cef421d",
+                  "name": "Manchester City vs Brentford",
                   "streams": [
                     {
-                      "id": "st-46e498032f",
+                      "id": "st-666cef421d",
                       "name": "KT",
                       "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-82cdb01e32",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-82cdb01e32",
+                  "name": "Manchester City vs Brentford",
+                  "streams": [
+                    {
+                      "id": "st-82cdb01e32",
+                      "name": "Giovang - fan-mc-ngong-nen, BLV Ben",
+                      "stream_links": [
+                        {
+                          "id": "lnk-6fca039a8e",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1778232254_hd/1778232254_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -2098,13 +2355,13 @@
             }
           ],
           "org_metadata": {
-            "league": "AFC U17 Asian Cup",
-            "team_a": "Qatar U17",
-            "team_b": "Indonesia U17",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/8583e166d6e955dd01525d25b53b4439.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/a222bcd619abdcee951b28cae8d1cce6.png",
+            "league": "English Premier League",
+            "team_a": "Manchester City",
+            "team_b": "Brentford",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/c4a6528a2ee147b99c9885ef24385a4e.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/60f1c7788be3148a370dbf59f914abfe.png",
             "time": "23:30 09/05",
-            "blv": "BLV Người Nhớt",
+            "blv": "BLV Người Lạ",
             "is_live": false,
             "cate_name": "Bóng đá"
           },
@@ -2112,7 +2369,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-46e498032f_178123c5_20260509.png?v=178123c5",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-666cef421d_bc529571_20260509.png?v=bc529571",
             "width": 1600,
             "height": 1200
           }
