@@ -6,6 +6,7 @@ import re
 import unicodedata
 from datetime import datetime, timedelta, timezone
 from concurrent.futures import ThreadPoolExecutor
+from collections import defaultdict
 
 # ==========================================
 # CONFIG
@@ -198,20 +199,8 @@ def parse_match_datetime(time_str):
 # Normalize tên đội cho so khớp
 # ──────────────────────────────────────────
 def normalize_team_for_match(name):
-    """Chuẩn hóa tên đội → dạng canonical để so khớp.
-    
-    Quy trình:
-      1. Strip + collapse whitespace
-      2. Bỏ dấu tiếng Việt (bao gồm Đ/đ)
-      3. Lowercase
-      4. Bỏ prefix (CLB, TTBD, …)
-      5. Bỏ suffix (FC, AFC, …)
-      6. Bỏ số đứng riêng (04, 1995, …)
-      7. Tra bảng dịch VI_EN_MAP
-    """
     if not name:
         return ""
-
     name = " ".join(name.strip().split())
     name = remove_diacritics(name)
     name = name.lower()
@@ -243,7 +232,6 @@ def normalize_team_for_match(name):
 # So khớp 2 đội
 # ──────────────────────────────────────────
 def teams_match(team_a, team_b, old_a, old_b):
-    """Check if two sets of teams refer to the same match"""
     norm_a = normalize_team_for_match(team_a)
     norm_b = normalize_team_for_match(team_b)
     norm_old_a = normalize_team_for_match(old_a)
@@ -285,7 +273,6 @@ def teams_match(team_a, team_b, old_a, old_b):
 # Tìm index trận trùng
 # ──────────────────────────────────────────
 def find_channel_index(time_val, team_a, team_b, channels_list, date_val=""):
-    """Tìm trận trùng khớp dựa trên thời gian và tên đội."""
     norm_time = normalize_time_for_match(time_val, date_val)
 
     for i, ch in enumerate(channels_list):
@@ -336,37 +323,50 @@ def extract_sort_key(channel):
     return (2, 99, 99, 99, 99)
 
 # ==========================================
-# LOGIC KÊNH TRUYỀN HÌNH
+# LOGIC KÊNH TRUYỀN HÌNH (ĐÃ NÂNG CẤP GOM LINK)
 # ==========================================
-def convert_ch(ch, i):
-    return {
-        "id": f"tv-{i}",
-        "name": ch["name"],
-        "type": "single",
-        "display": "thumbnail-only",
-        "enable_detail": False,
-        "labels": [
-            {"text": "● LIVE", "position": "top-left", "color": "#00000080", "text_color": "#ff4444"}
-        ],
-        "sources": [
-            {
-                "id": f"src-tv-{i}",
-                "name": "TV Channel",
+def build_tv_channels(tv_list):
+    # 1. Gộp các link có cùng tên kênh lại
+    grouped = defaultdict(list)
+    for ch in tv_list:
+        grouped[ch["name"]].append(ch)
+
+    # 2. Tạo cấu trúc channel chuẩn với nhiều sources
+    channels = []
+    for i, (name, variants) in enumerate(grouped.items()):
+        # Lấy logo của link đầu tiên tìm thấy
+        logo = variants[0].get("logo", "")
+
+        # Tạo nhiều sources cho cùng 1 kênh (để dự phòng nếu link 1 die)
+        sources = []
+        for j, var in enumerate(variants):
+            # Tự động lấy tên domain làm tên Source cho dễ nhận biết
+            try:
+                domain = var["url"].split("//")[1].split("/")[0]
+                domain_parts = domain.split(".")
+                # Lấy phần tên chính của domain (VD: duckdns, fptplay53)
+                src_name = f"Source {j+1} - {domain_parts[-2] if len(domain_parts) > 1 else domain}"
+            except:
+                src_name = f"Source {j+1}"
+
+            sources.append({
+                "id": f"src-tv-{i}-{j}",
+                "name": src_name,
                 "contents": [
                     {
-                        "id": f"ct-tv-{i}",
-                        "name": ch["name"],
+                        "id": f"ct-tv-{i}-{j}",
+                        "name": name,
                         "streams": [
                             {
-                                "id": f"st-tv-{i}",
+                                "id": f"st-tv-{i}-{j}",
                                 "name": "KT",
                                 "stream_links": [
                                     {
-                                        "id": f"lnk-tv-{i}",
-                                        "name": "Link 1",
+                                        "id": f"lnk-tv-{i}-{j}",
+                                        "name": f"Link {j+1}",
                                         "type": "hls",
-                                        "default": True,
-                                        "url": ch["url"],
+                                        "default": j == 0, # Link đầu tiên mặc định là True, các link sau là False
+                                        "url": var["url"],
                                         "request_headers": []
                                     }
                                 ]
@@ -374,23 +374,37 @@ def convert_ch(ch, i):
                         ]
                     }
                 ]
+            })
+
+        # Đóng gói thành 1 kênh hoàn chỉnh
+        channel_obj = {
+            "id": f"tv-{i}",
+            "name": name,
+            "type": "single",
+            "display": "thumbnail-only",
+            "enable_detail": False,
+            "labels": [
+                {"text": "● LIVE", "position": "top-left", "color": "#00000080", "text_color": "#ff4444"}
+            ],
+            "sources": sources,
+            "org_metadata": {
+                "is_live": True,
+                "time": "",
+                "team_a": name,
+                "team_b": ""
+            },
+            "image": {
+                "padding": 1,
+                "background_color": "#ffffff",
+                "display": "contain",
+                "url": logo,
+                "width": 1600,
+                "height": 1200
             }
-        ],
-        "org_metadata": {
-            "is_live": True,
-            "time": "",
-            "team_a": ch["name"],
-            "team_b": ""
-        },
-        "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": ch.get("logo", ""),
-            "width": 1600,
-            "height": 1200
         }
-    }
+        channels.append(channel_obj)
+
+    return channels
 
 # ==========================================
 # MAIN LOGIC
@@ -496,23 +510,25 @@ def main():
                             existing_channel["sources"].append(temp_src)
 
     # ─────────────────────────────────────────────────────────────────
-    # BƯỚC 2: GỘP KÊNH TRUYỀN HÌNH
+    # BƯỚC 2: GỘP KÊNH TRUYỀN HÌNH (TỰ ĐỘNG GOM LINK CÙNG TÊN)
     # ─────────────────────────────────────────────────────────────────
     try:
         if os.path.exists(HOIQUAN_FILE):
             with open(HOIQUAN_FILE, "r", encoding="utf-8") as f:
                 tv_list = json.load(f)
             if tv_list:
+                tv_channels = build_tv_channels(tv_list)
+                
                 tv_group = {
                     "id": "grp-tv-hoiquan",
                     "name": "📺 Kênh Truyền Hình",
                     "display": "vertical",
                     "grid_number": 2,
                     "enable_detail": False,
-                    "channels": [convert_ch(ch, i) for i, ch in enumerate(tv_list)]
+                    "channels": tv_channels
                 }
                 final_data["groups"].insert(0, tv_group)
-                print(f"Da gom {len(tv_list)} kenh truyen hinh vao output.")
+                print(f"Da gom {len(tv_list)} link tu {len(tv_channels)} kenh truyen hinh vao output.")
         else:
             print(f"Canh bao: Khong tim thay file {HOIQUAN_FILE}.")
     except Exception as e:
@@ -535,7 +551,6 @@ def main():
                 time_val = meta.get("time", "").strip()
                 is_live = meta.get("is_live", False)
 
-                # Luôn giữ trận LIVE hoặc chưa có giờ
                 if is_live or not time_val:
                     filtered.append(ch)
                     continue
@@ -545,7 +560,6 @@ def main():
                     filtered.append(ch)
                     continue
 
-                # Giữ trận: đang diễn ra (±2h) hoặc trong 20h tới
                 if now_vn - timedelta(hours=2) <= match_dt <= cutoff:
                     filtered.append(ch)
 
