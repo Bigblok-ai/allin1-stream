@@ -4,6 +4,7 @@ import os
 import copy
 import re
 import unicodedata
+from datetime import datetime, timedelta, timezone
 from concurrent.futures import ThreadPoolExecutor
 
 # ==========================================
@@ -32,6 +33,16 @@ SOURCES = [
 
 HOIQUAN_FILE = "hoiquan.json"
 
+# ★ Giới hạn thời gian cho Bóng Đá (giờ)
+FOOTBALL_TIME_LIMIT_HOURS = 20
+
+# Múi giờ Việt Nam
+try:
+    from zoneinfo import ZoneInfo
+    VIETNAM_TZ = ZoneInfo("Asia/Ho_Chi_Minh")
+except ImportError:
+    VIETNAM_TZ = timezone(timedelta(hours=7))
+
 GROUP_SKELETON = [
     {"id": f"grp-{cate_raw.replace(' ', '-').lower()}", "name": cate_emoji, "display": "vertical", "grid_number": 2, "enable_detail": False, "channels": []}
     for cate_raw, cate_emoji in CATEGORIES.items()
@@ -39,7 +50,7 @@ GROUP_SKELETON = [
 
 # ==========================================
 # BẢNG DỊCH TÊN TIẾNG VIỆT ↔ TIẾNG ANH
-# (sau khi bỏ dấu - key = không dấu, value = canonical)
+# (key = không dấu, value = canonical)
 # ==========================================
 VI_EN_MAP = {
     # Quốc gia
@@ -53,12 +64,13 @@ VI_EN_MAP = {
     "y": "italy",
     "tay ban nha": "spain",
     "my": "united states",
-    # Đội bóng V-League (các tên gọi khác nhau của cùng đội)
+    # Đội bóng V-League
     "ha noi": "hanoi",
     "thanh hoa": "thanh hoa",
-    "phu dong": "ninh binh",       # Phù Đổng = Ninh Bình
+    "phu dong": "ninh binh",
     "hai phong": "hai phong",
     "ninh binh": "ninh binh",
+    "xm hai phong": "hai phong",
     # Võ thuật
     "chau la": "zhou luo",
     "ban van hoang": "ban van hoang",
@@ -80,7 +92,6 @@ VI_EN_MAP = {
     "chelsea fc": "chelsea",
     "vfl wolfsburg": "wolfsburg",
     "wolfsburg": "wolfsburg",
-    "xm hai phong fc": "hai phong",
     "brighton hove albion": "brighton",
     "wolverhampton wanderers": "wolverhampton",
     "manchester united": "manchester united",
@@ -109,33 +120,28 @@ def normalize_cate_name(name):
     return re.sub(r'\s*\(\d+\s+\w+\)\s*$', '', name, flags=re.IGNORECASE).strip()
 
 def remove_diacritics(text):
-    """Bỏ dấu tiếng Việt: 'Thanh Hóa' → 'Thanh Hoa'"""
+    """Bỏ dấu tiếng Việt: 'Thanh Hóa' → 'Thanh Hoa', 'Đức' → 'Duc'
+    
+    ★ FIX: Thay Đ/đ TRƯỚC khi NFD vì NFD không phân rã được stroke (U+0110/U+0111)
+    """
+    text = text.replace('Đ', 'D').replace('đ', 'd')
     normalized = unicodedata.normalize('NFD', text)
     return ''.join(c for c in normalized if unicodedata.category(c) != 'Mn')
 
 # ──────────────────────────────────────────
-# MỚI: Normalize thời gian cho so khớp
+# Normalize thời gian
 # ──────────────────────────────────────────
 def normalize_time_for_match(time_val, date_val=""):
-    """Chuẩn hóa mọi format thời gian → 'HH:MM DD/MM' hoặc '' (LIVE).
-    
-    Hỗ trợ:
-      - ''           → ''
-      - '14:00 09/05' → '14:00 09/05'
-      - '14:00:00' + date='09/05' → '14:00 09/05'   (GiovangTV)
-      - '14:00'     + date='09/05' → '14:00 09/05'
-    """
+    """Chuẩn hóa mọi format thời gian → 'HH:MM DD/MM' hoặc '' (LIVE)."""
     time_val = time_val.strip()
     date_val = date_val.strip()
 
     if not time_val:
         return ""
 
-    # Đã đúng format "HH:MM DD/MM"
     if re.match(r'^\d{1,2}:\d{2}\s+\d{1,2}/\d{1,2}$', time_val):
         return time_val.lower()
 
-    # Format "HH:MM:SS" (GiovangTV)
     parts = time_val.split(":")
     if len(parts) == 3:
         hh_mm = f"{parts[0]}:{parts[1]}"
@@ -143,113 +149,12 @@ def normalize_time_for_match(time_val, date_val=""):
             return f"{hh_mm} {date_val}".lower()
         return hh_mm.lower()
 
-    # Format "HH:MM" chưa có date
     if re.match(r'^\d{1,2}:\d{2}$', time_val):
         if date_val:
             return f"{time_val} {date_val}".lower()
         return time_val.lower()
 
     return time_val.lower()
-
-# ──────────────────────────────────────────
-# MỚI: Normalize tên đội cho so khớp
-# ──────────────────────────────────────────
-def normalize_team_for_match(name):
-    """Chuẩn hóa tên đội → dạng canonical để so khớp.
-    
-    Quy trình:
-      1. Strip + collapse whitespace
-      2. Bỏ dấu tiếng Việt
-      3. Lowercase
-      4. Bỏ prefix (CLB, TTBD, …)
-      5. Bỏ suffix (FC, AFC, …)
-      6. Bỏ số đứng riêng (04, 1995, …)
-      7. Tra bảng dịch VI_EN_MAP
-    """
-    if not name:
-        return ""
-
-    # 1. Strip + collapse whitespace
-    name = " ".join(name.strip().split())
-
-    # 2. Bỏ dấu tiếng Việt
-    name = remove_diacritics(name)
-
-    # 3. Lowercase
-    name = name.lower()
-
-    # 4. Bỏ prefix
-    for prefix in ["clb ", "ttbd ", "dclb ", "sb "]:
-        if name.startswith(prefix):
-            name = name[len(prefix):]
-            break
-
-    # 5. Bỏ suffix (thử nhiều lần để xử lý "Football Club" → "FC")
-    for suffix in [
-        " football club", " f.c.", " fc", " cf", " sc", " ac", " afc",
-        " s.c.", " a.f.c.", " c.d.", " cd", " sv", " e.v.",
-        " club", " de futbol", " futebol", " united club",
-    ]:
-        if name.endswith(suffix):
-            name = name[:-len(suffix)]
-            break
-
-    # 6. Bỏ số đứng riêng ("bayer 04 leverkusen" → "bayer leverkusen")
-    name = re.sub(r'\b\d+\b', '', name)
-    name = " ".join(name.split())
-
-    # 7. Tra bảng dịch
-    name_clean = name.strip()
-    if name_clean in VI_EN_MAP:
-        return VI_EN_MAP[name_clean]
-
-    return name_clean
-
-# ──────────────────────────────────────────
-# SỬA: teams_match dùng normalize_team_for_match
-# ──────────────────────────────────────────
-def teams_match(team_a, team_b, old_a, old_b):
-    """Check if two sets of teams refer to the same match"""
-    norm_a = normalize_team_for_match(team_a)
-    norm_b = normalize_team_for_match(team_b)
-    norm_old_a = normalize_team_for_match(old_a)
-    norm_old_b = normalize_team_for_match(old_b)
-
-    if (not norm_a and not norm_b) or (not norm_old_a and not norm_old_b):
-        return False
-
-    def names_match(n1, n2):
-        """So khớp 2 tên đã normalize: exact hoặc substring (min 4 chars)"""
-        if not n1 or not n2:
-            return False
-        if n1 == n2:
-            return True
-        # Substring match – tránh match sai với tên quá ngắn
-        if len(n1) >= 4 and (n1 in n2 or n2 in n1):
-            return True
-        return False
-
-    a_ma = names_match(norm_a, norm_old_a)
-    a_mb = names_match(norm_a, norm_old_b)
-    b_ma = names_match(norm_b, norm_old_a)
-    b_mb = names_match(norm_b, norm_old_b)
-
-    # Cả 2 bên đều có 2 đội → phải match chéo
-    if norm_a and norm_b and norm_old_a and norm_old_b:
-        return (a_ma and b_mb) or (a_mb and b_ma)
-
-    # Một bên chỉ có 1 đội
-    if norm_a and norm_b:
-        if not norm_old_b:
-            return a_ma or b_ma
-        if not norm_old_a:
-            return a_mb or b_mb
-    if norm_a:
-        return a_ma or a_mb
-    if norm_b:
-        return b_ma or b_mb
-
-    return False
 
 def normalize_time_in_channel(channel):
     """Normalize GiovangTV time format: 'HH:MM:SS' + date → 'HH:MM DD/MM'
@@ -262,13 +167,153 @@ def normalize_time_in_channel(channel):
         parts = time_val.split(":")
         if len(parts) == 3:
             meta["time"] = f"{parts[0]}:{parts[1]} {date_val}"
-            # XÓA field date sau khi đã gộp vào time
             meta.pop("date", None)
 
     return channel
 
+# ──────────────────────────────────────────
+# Parse thời gian trận → datetime
+# ──────────────────────────────────────────
+def parse_match_datetime(time_str):
+    """Parse 'HH:MM DD/MM' → datetime (múi giờ VN, năm hiện tại)."""
+    if not time_str:
+        return None
+    try:
+        parts = time_str.strip().split(" ")
+        if len(parts) == 2:
+            hm = parts[0].split(":")
+            dm = parts[1].split("/")
+            h, m = int(hm[0]), int(hm[1])
+            d, mo = int(dm[0]), int(dm[1])
+            now = datetime.now(VIETNAM_TZ)
+            dt = datetime(now.year, mo, d, h, m, tzinfo=VIETNAM_TZ)
+            if dt < now - timedelta(days=180):
+                dt = datetime(now.year + 1, mo, d, h, m, tzinfo=VIETNAM_TZ)
+            return dt
+    except:
+        pass
+    return None
+
+# ──────────────────────────────────────────
+# Normalize tên đội cho so khớp
+# ──────────────────────────────────────────
+def normalize_team_for_match(name):
+    """Chuẩn hóa tên đội → dạng canonical để so khớp.
+    
+    Quy trình:
+      1. Strip + collapse whitespace
+      2. Bỏ dấu tiếng Việt (bao gồm Đ/đ)
+      3. Lowercase
+      4. Bỏ prefix (CLB, TTBD, …)
+      5. Bỏ suffix (FC, AFC, …)
+      6. Bỏ số đứng riêng (04, 1995, …)
+      7. Tra bảng dịch VI_EN_MAP
+    """
+    if not name:
+        return ""
+
+    name = " ".join(name.strip().split())
+    name = remove_diacritics(name)
+    name = name.lower()
+
+    for prefix in ["clb ", "ttbd ", "dclb ", "sb "]:
+        if name.startswith(prefix):
+            name = name[len(prefix):]
+            break
+
+    for suffix in [
+        " football club", " f.c.", " fc", " cf", " sc", " ac", " afc",
+        " s.c.", " a.f.c.", " c.d.", " cd", " sv", " e.v.",
+        " club", " de futbol", " futebol", " united club",
+    ]:
+        if name.endswith(suffix):
+            name = name[:-len(suffix)]
+            break
+
+    name = re.sub(r'\b\d+\b', '', name)
+    name = " ".join(name.split())
+
+    name_clean = name.strip()
+    if name_clean in VI_EN_MAP:
+        return VI_EN_MAP[name_clean]
+
+    return name_clean
+
+# ──────────────────────────────────────────
+# So khớp 2 đội
+# ──────────────────────────────────────────
+def teams_match(team_a, team_b, old_a, old_b):
+    """Check if two sets of teams refer to the same match"""
+    norm_a = normalize_team_for_match(team_a)
+    norm_b = normalize_team_for_match(team_b)
+    norm_old_a = normalize_team_for_match(old_a)
+    norm_old_b = normalize_team_for_match(old_b)
+
+    if (not norm_a and not norm_b) or (not norm_old_a and not norm_old_b):
+        return False
+
+    def names_match(n1, n2):
+        if not n1 or not n2:
+            return False
+        if n1 == n2:
+            return True
+        if len(n1) >= 4 and (n1 in n2 or n2 in n1):
+            return True
+        return False
+
+    a_ma = names_match(norm_a, norm_old_a)
+    a_mb = names_match(norm_a, norm_old_b)
+    b_ma = names_match(norm_b, norm_old_a)
+    b_mb = names_match(norm_b, norm_old_b)
+
+    if norm_a and norm_b and norm_old_a and norm_old_b:
+        return (a_ma and b_mb) or (a_mb and b_ma)
+
+    if norm_a and norm_b:
+        if not norm_old_b:
+            return a_ma or b_ma
+        if not norm_old_a:
+            return a_mb or b_mb
+    if norm_a:
+        return a_ma or a_mb
+    if norm_b:
+        return b_ma or b_mb
+
+    return False
+
+# ──────────────────────────────────────────
+# Tìm index trận trùng
+# ──────────────────────────────────────────
+def find_channel_index(time_val, team_a, team_b, channels_list, date_val=""):
+    """Tìm trận trùng khớp dựa trên thời gian và tên đội."""
+    norm_time = normalize_time_for_match(time_val, date_val)
+
+    for i, ch in enumerate(channels_list):
+        meta = ch.get("org_metadata", {})
+        old_time_raw = meta.get("time", "").strip()
+        old_date = meta.get("date", "").strip()
+        old_norm_time = normalize_time_for_match(old_time_raw, old_date)
+        old_a = meta.get("team_a", "")
+        old_b = meta.get("team_b", "")
+
+        time_match = False
+        if norm_time == old_norm_time:
+            time_match = True
+        elif norm_time == "" or old_norm_time == "":
+            time_match = True
+
+        if not time_match:
+            continue
+
+        if teams_match(team_a, team_b, old_a, old_b):
+            return i
+
+    return -1
+
+# ──────────────────────────────────────────
+# Sort key
+# ──────────────────────────────────────────
 def extract_sort_key(channel):
-    """LIVE lên đầu, sau đó sort theo thời gian tăng dần (HH:MM DD/MM)"""
     meta = channel.get("org_metadata", {})
     is_live = meta.get("is_live", False)
     time_val = meta.get("time", "").strip()
@@ -281,59 +326,14 @@ def extract_sort_key(channel):
         if len(parts) == 2:
             hm = parts[0].split(":")
             dm = parts[1].split("/")
-            h = int(hm[0])
-            m = int(hm[1])
-            d = int(dm[0])
-            mo = int(dm[1])
-            return (1, mo, d, h, m)
+            return (1, int(dm[1]), int(dm[0]), int(hm[0]), int(hm[1]))
         elif len(parts) == 1 and ":" in parts[0]:
             hm = parts[0].split(":")
-            h = int(hm[0])
-            m = int(hm[1])
-            return (1, 99, 99, h, m)
+            return (1, 99, 99, int(hm[0]), int(hm[1]))
     except:
         pass
 
     return (2, 99, 99, 99, 99)
-
-# ──────────────────────────────────────────
-# SỬA: find_channel_index dùng normalize_time_for_match
-# ──────────────────────────────────────────
-def find_channel_index(time_val, team_a, team_b, channels_list, date_val=""):
-    """Tìm trận trùng khớp dựa trên thời gian và tên đội.
-    
-    THAY ĐỔI:
-      - Dùng normalize_time_for_match() để so sánh thời gian
-      - Truyền thêm date_val cho trường hợp GiovangTV
-      - Lấy cả field 'date' từ channel cũ để normalize
-    """
-    norm_time = normalize_time_for_match(time_val, date_val)
-
-    for i, ch in enumerate(channels_list):
-        meta = ch.get("org_metadata", {})
-        old_time_raw = meta.get("time", "").strip()
-        old_date = meta.get("date", "").strip()
-        old_norm_time = normalize_time_for_match(old_time_raw, old_date)
-        old_a = meta.get("team_a", "")
-        old_b = meta.get("team_b", "")
-
-        # Time matching
-        time_match = False
-
-        if norm_time == old_norm_time:
-            time_match = True
-        elif norm_time == "" or old_norm_time == "":
-            # Một bên LIVE, bên kia có giờ → vẫn tính là cùng trận
-            time_match = True
-
-        if not time_match:
-            continue
-
-        # Team matching
-        if teams_match(team_a, team_b, old_a, old_b):
-            return i
-
-    return -1
 
 # ==========================================
 # LOGIC KÊNH TRUYỀN HÌNH
@@ -397,15 +397,17 @@ def convert_ch(ch, i):
 # ==========================================
 def main():
     final_data = {
-        "id": "allin1-stream",
-        "name": "All In 1 Stream",
-        "version": "V1.0",
-        "description": "⚽ Bóng Đá, 🎾 Tennis, 🏸 Cầu Lông, 🏀 Bóng Rổ, 🎱 Billiards, 🏐 Bóng Chuyền, 🏎️ Đua Xe F1, 🏓 Bóng Bàn, 🥊 Võ Thuật, 🏸 Pickleball",
-        "image": {
-            "type": "cover",
-            "url": "https://github.com/Bigblok-ai/allin1-stream/blob/main/logo.png"
-        },
-        "groups": copy.deepcopy(GROUP_SKELETON)
+    "id": "allin1-stream",
+    "name": "All In 1 Stream",
+    "version": "V1.0",
+    "color": "#1cb57a",
+    "grid_number": 3,
+    "description": "This file does not stream any of the included channels, all streaming links are from third-party websites available freely on the internet. This is simply to provide a link to stream, and all content is copyright of their owner.",
+    "image": {
+        "type": "cover",
+        "url": "https://raw.githubusercontent.com/Bigblok-ai/allin1-stream/main/logo.png"
+    },
+    "groups": copy.deepcopy(GROUP_SKELETON)
     }
 
     group_map = {}
@@ -429,12 +431,11 @@ def main():
             target_group = group_map[src_cate_name]
 
             for src_channel in src_group.get("channels", []):
-                # Normalize time FIRST (GiovangTV HH:MM:SS → HH:MM DD/MM)
                 src_channel = normalize_time_in_channel(src_channel)
 
                 meta = src_channel.get("org_metadata", {})
                 time_val = meta.get("time", "")
-                date_val = meta.get("date", "")  # Vẫn còn nếu không phải HH:MM:SS
+                date_val = meta.get("date", "")
                 team_a = meta.get("team_a", "")
                 team_b = meta.get("team_b", "")
                 blv_val = meta.get("blv", "")
@@ -442,7 +443,6 @@ def main():
 
                 if not team_a: continue
 
-                # ★ TRUYỀN THÊM date_val ★
                 ch_idx = find_channel_index(time_val, team_a, team_b, target_group["channels"], date_val)
 
                 if ch_idx == -1:
@@ -451,11 +451,9 @@ def main():
                 else:
                     existing_channel = target_group["channels"][ch_idx]
 
-                    # Thumbnail: First wins
                     if thumb_url and not existing_channel["image"].get("url"):
                         existing_channel["image"]["url"] = thumb_url
 
-                    # Update is_live if new source is LIVE
                     if meta.get("is_live"):
                         existing_channel["org_metadata"]["is_live"] = True
                         for label in existing_channel.get("labels", []):
@@ -463,7 +461,6 @@ def main():
                                 label["text"] = "● LIVE"
                                 label["text_color"] = "#ff4444"
 
-                    # ★ NẾU channel cũ có time="" (LIVE) còn mới có giờ → cập nhật time ★
                     if time_val and not existing_channel["org_metadata"].get("time", ""):
                         existing_channel["org_metadata"]["time"] = time_val
 
@@ -521,9 +518,46 @@ def main():
     except Exception as e:
         print(f"Canh bao: Loi xu ly {HOIQUAN_FILE} -> {e}")
 
-    # ==========================================
-    # BƯỚC 3: SẮP XẾP & ĐẾM LIVE
-    # ==========================================
+    # ─────────────────────────────────────────────────────────────────
+    # ★ BƯỚC 3: LỌC BÓNG ĐÁ — CHỈ GIỮ TRẬN TRONG 20H TỚI
+    # ─────────────────────────────────────────────────────────────────
+    for g in final_data["groups"]:
+        base_name = normalize_cate_name(g["name"])
+        if base_name == "⚽ Bóng Đá":
+            now_vn = datetime.now(VIETNAM_TZ)
+            cutoff = now_vn + timedelta(hours=FOOTBALL_TIME_LIMIT_HOURS)
+
+            before_count = len(g["channels"])
+            filtered = []
+
+            for ch in g["channels"]:
+                meta = ch.get("org_metadata", {})
+                time_val = meta.get("time", "").strip()
+                is_live = meta.get("is_live", False)
+
+                # Luôn giữ trận LIVE hoặc chưa có giờ
+                if is_live or not time_val:
+                    filtered.append(ch)
+                    continue
+
+                match_dt = parse_match_datetime(time_val)
+                if match_dt is None:
+                    filtered.append(ch)
+                    continue
+
+                # Giữ trận: đang diễn ra (±2h) hoặc trong 20h tới
+                if now_vn - timedelta(hours=2) <= match_dt <= cutoff:
+                    filtered.append(ch)
+
+            removed = before_count - len(filtered)
+            g["channels"] = filtered
+            if removed > 0:
+                print(f"  ⚽ Bóng Đá: Bo {removed} tran ngoai {FOOTBALL_TIME_LIMIT_HOURS}h toi")
+            break
+
+    # ─────────────────────────────────────────────────────────────────
+    # BƯỚC 4: SẮP XẾP & ĐẾM LIVE
+    # ─────────────────────────────────────────────────────────────────
     for g in final_data["groups"]:
         g["channels"].sort(key=extract_sort_key)
 
