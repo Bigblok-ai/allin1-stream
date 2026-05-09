@@ -53,23 +53,18 @@ def fetch_json(url):
         return None
 
 def normalize_cate_name(name):
-    """Bỏ suffix '(X LIVE)' hoặc '(X UPCOMING)' khỏi tên group"""
+    """Bỏ suffix '(X LIVE)' khỏi tên group"""
     return re.sub(r'\s*\(\d+\s+\w+\)\s*$', '', name, flags=re.IGNORECASE).strip()
 
 def extract_sort_key(channel):
-    """
-    Sort key: LIVE lên đầu, sau đó sort theo thời gian tăng dần.
-    Format time đồng nhất: "HH:MM DD/MM"
-    """
+    """LIVE lên đầu, sau đó sort theo thời gian tăng dần (HH:MM DD/MM)"""
     meta = channel.get("org_metadata", {})
     is_live = meta.get("is_live", False)
     time_val = meta.get("time", "").strip()
 
-    # Trận đang LIVE → ưu tiên cao nhất
     if is_live or not time_val:
         return (0, 0, 0, 0, 0)
 
-    # Parse "HH:MM DD/MM"
     try:
         parts = time_val.split(" ")
         if len(parts) == 2:
@@ -83,11 +78,10 @@ def extract_sort_key(channel):
     except:
         pass
 
-    # Fallback
     return (2, 99, 99, 99, 99)
 
 def find_channel_index(time_val, team_a, team_b, channels_list):
-    """Tìm trận trùng khớp dựa trên thời gian và tên đội A hoặc đội B"""
+    """Tìm trận trùng khớp dựa trên thời gian và tên đội"""
     a_clean = team_a.strip().lower()
     b_clean = team_b.strip().lower() if team_b else ""
     time_clean = time_val.strip().lower()
@@ -98,12 +92,10 @@ def find_channel_index(time_val, team_a, team_b, channels_list):
         old_a = meta.get("team_a", "").strip().lower()
         old_b = meta.get("team_b", "").strip().lower()
 
-        # Thời gian phải khớp (nếu cả 2 đều rỗng tức là cùng đang LIVE)
         if time_clean != old_time:
             if not (time_clean == "" and old_time == ""):
                 continue
 
-        # Tên đội A hoặc đội B phải trùng nhau
         is_match = False
         if a_clean and (a_clean == old_a or a_clean == old_b): is_match = True
         if b_clean and (b_clean == old_a or b_clean == old_b): is_match = True
@@ -153,6 +145,12 @@ def convert_ch(ch, i):
                 ]
             }
         ],
+        "org_metadata": {
+            "is_live": True,
+            "time": "",
+            "team_a": ch["name"],
+            "team_b": ""
+        },
         "image": {
             "padding": 1,
             "background_color": "#ffffff",
@@ -170,6 +168,12 @@ def main():
     final_data = {
         "id": "allin1-stream",
         "name": "All In 1 Stream",
+        "version": "V1.0",
+        "description": "⚽ Bóng Đá, 🎾 Tennis, 🏸 Cầu Lông, 🏀 Bóng Rổ, 🎱 Billiards, 🏐 Bóng Chuyền, 🏎️ Đua Xe F1, 🏓 Bóng Bàn, 🥊 Võ Thuật, 🏸 Pickleball",
+        "image": {
+            "type": "cover",
+            "url": "https://github.com/Bigblok-ai/allin1-stream/blob/main/logo.png"
+        },
         "groups": copy.deepcopy(GROUP_SKELETON)
     }
 
@@ -210,7 +214,9 @@ def main():
                     target_group["channels"].append(new_channel)
                 else:
                     existing_channel = target_group["channels"][ch_idx]
-                    if thumb_url:
+                    
+                    # Thumbnail: First wins (chỉ set nếu chưa có)
+                    if thumb_url and not existing_channel["image"].get("url"):
                         existing_channel["image"]["url"] = thumb_url
 
                     existing_urls = set()
@@ -244,30 +250,8 @@ def main():
                         if has_new_link:
                             existing_channel["sources"].append(temp_src)
 
-    # ==========================================
-    # BƯỚC 2: SẮP XẾP THEO THỜI GIAN (LIVE lên đầu)
-    # ==========================================
-    for g in final_data["groups"]:
-        g["channels"].sort(key=extract_sort_key)
-
-    # ==========================================
-    # BƯỚC 3: ĐẾM LIVE & RENAME GROUP
-    # ==========================================
-    for g in final_data["groups"]:
-        base_name = normalize_cate_name(g["name"])
-        live_count = 0
-        for ch in g.get("channels", []):
-            meta = ch.get("org_metadata", {})
-            if meta.get("is_live") == True or meta.get("time", "").strip() == "":
-                live_count += 1
-        
-        if live_count > 0:
-            g["name"] = f"{base_name} ({live_count} LIVE)"
-        else:
-            g["name"] = base_name
-
     # ─────────────────────────────────────────────────────────────────
-    # GỘP KÊNH TRUYỀN HÌNH
+    # BƯỚC 2: GỘP KÊNH TRUYỀN HÌNH (Trước khi sort và đếm LIVE)
     # ─────────────────────────────────────────────────────────────────
     try:
         if os.path.exists(HOIQUAN_FILE):
@@ -288,6 +272,26 @@ def main():
             print(f"Canh bao: Khong tim thay file {HOIQUAN_FILE}.")
     except Exception as e:
         print(f"Canh bao: Loi xu ly {HOIQUAN_FILE} -> {e}")
+
+    # ==========================================
+    # BƯỚC 3: SẮP XẾP & ĐẾM LIVE (Áp dụng cho TẤT CẢ groups, bao gồm TV)
+    # ==========================================
+    for g in final_data["groups"]:
+        # Sắp xếp: LIVE lên đầu, sau đó theo thời gian
+        g["channels"].sort(key=extract_sort_key)
+
+        # Đếm LIVE và đổi tên group
+        base_name = normalize_cate_name(g["name"])
+        live_count = 0
+        for ch in g.get("channels", []):
+            meta = ch.get("org_metadata", {})
+            if meta.get("is_live") == True or meta.get("time", "").strip() == "":
+                live_count += 1
+        
+        if live_count > 0:
+            g["name"] = f"{base_name} ({live_count} LIVE)"
+        else:
+            g["name"] = base_name
 
     # ==========================================
     # LOGIC SO SÁNH & GHI FILE
