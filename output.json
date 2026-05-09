@@ -602,7 +602,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (4 LIVE)",
+      "name": "⚽ Bóng Đá (5 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -820,6 +820,129 @@
           }
         },
         {
+          "id": "thapcam-f512a3c853",
+          "name": "CLB Thanh Hoa vs Hanoi FC | 18:00 09/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-f512a3c853",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-f512a3c853",
+                  "name": "CLB Thanh Hoa vs Hanoi FC",
+                  "streams": [
+                    {
+                      "id": "st-f512a3c853",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-835f7fd2d3",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-835f7fd2d3",
+                  "name": "Thanh Hóa vs Hà Nội",
+                  "streams": [
+                    {
+                      "id": "st-835f7fd2d3",
+                      "name": "Giovang - BLV Nến",
+                      "stream_links": [
+                        {
+                          "id": "lnk-8c2fb62ce2",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1778216293_hd/1778216293_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-b35c8e9f19",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-b35c8e9f19",
+                  "name": "Thanh Hóa vs Ha Noi",
+                  "streams": [
+                    {
+                      "id": "st-b35c8e9f19",
+                      "name": "Hoiquan - BLV PHAN MÃ",
+                      "stream_links": [
+                        {
+                          "id": "lnk-cf43005696",
+                          "name": "BLV PHAN MÃ",
+                          "type": "hls",
+                          "default": true,
+                          "url": " https://yvm80526.edgemaxcdn.org/live/hqtv_blv_phanma/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Vietnam National Champion League",
+            "team_a": "CLB Thanh Hoa",
+            "team_b": "Hanoi FC",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/c6c3cf855ef4fd3a0385d34606a858ab.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/7146224d9ef4e5d2eb712b4e71bdfaa4.png",
+            "time": "18:00 09/05",
+            "blv": "BLV Lềnh",
+            "is_live": true,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-f512a3c853_9b8cd33b_20260509.png?v=9b8cd33b",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "thapcam-b4c3ac9efd",
           "name": "Ninh Binh FC vs XM Hai Phong FC | 18:00 09/05",
           "type": "single",
@@ -873,6 +996,41 @@
                             {
                               "key": "Referer",
                               "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-c2c60a8380",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-c2c60a8380",
+                  "name": "Phu Dong vs Hai Phong",
+                  "streams": [
+                    {
+                      "id": "st-c2c60a8380",
+                      "name": "Hoiquan - BLV PHAN CHỚP",
+                      "stream_links": [
+                        {
+                          "id": "lnk-e6e86d8c60",
+                          "name": "BLV PHAN CHỚP",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://yvm80526.edgemaxcdn.org/live/hqtv_blv_phanchop/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -991,94 +1149,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-45663d0e24_0f1cfb67_20260509.png?v=0f1cfb67",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "thapcam-f512a3c853",
-          "name": "CLB Thanh Hoa vs Hanoi FC | 18:00 09/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-f512a3c853",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-f512a3c853",
-                  "name": "CLB Thanh Hoa vs Hanoi FC",
-                  "streams": [
-                    {
-                      "id": "st-f512a3c853",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "src-835f7fd2d3",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-835f7fd2d3",
-                  "name": "Thanh Hóa vs Hà Nội",
-                  "streams": [
-                    {
-                      "id": "st-835f7fd2d3",
-                      "name": "Giovang - BLV Nến",
-                      "stream_links": [
-                        {
-                          "id": "lnk-8c2fb62ce2",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1778216293_hd/1778216293_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Vietnam National Champion League",
-            "team_a": "CLB Thanh Hoa",
-            "team_b": "Hanoi FC",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/c6c3cf855ef4fd3a0385d34606a858ab.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/7146224d9ef4e5d2eb712b4e71bdfaa4.png",
-            "time": "18:00 09/05",
-            "blv": "BLV Lềnh",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-f512a3c853_9b8cd33b_20260509.png?v=9b8cd33b",
             "width": 1600,
             "height": 1200
           }
