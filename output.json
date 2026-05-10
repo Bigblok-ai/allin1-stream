@@ -584,7 +584,7 @@
             },
             {
               "id": "src-tv-6-1",
-              "name": "Source 2 - dpdns",
+              "name": "Source 2 - duckdns",
               "contents": [
                 {
                   "id": "ct-tv-6-1",
@@ -599,7 +599,7 @@
                           "name": "Link 2",
                           "type": "hls",
                           "default": false,
-                          "url": "https://toiyeuvietnam.dpdns.org/TuyetDoiKhongKinhDoanh/htv-the-thao/KenhCoBan.m3u8",
+                          "url": "https://sgclient.duckdns.org/source/vieon.m3u8?id=htvthethao",
                           "request_headers": []
                         }
                       ]
@@ -634,8 +634,8 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "thapcam-a9bc686547",
-          "name": "Paris Saint Germain vs Stade Brestois 29 | 02:00 11/05",
+          "id": "gv-ae8c782043",
+          "name": "PSG vs Brest | 02:00 11/05",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -649,93 +649,6 @@
           ],
           "sources": [
             {
-              "id": "src-a9bc686547",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-a9bc686547",
-                  "name": "Paris Saint Germain vs Stade Brestois 29",
-                  "streams": [
-                    {
-                      "id": "st-a9bc686547",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-9dbd2a3371",
-                          "name": "BLV Lềnh",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/6a00cdf051ddc_1549/index.m3u8?expire=1779042416&sign=8485fb67925ab84fbac5883522e8f27b",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "src-caec357ec2",
-              "name": "BunchaTV",
-              "contents": [
-                {
-                  "id": "ct-caec357ec2",
-                  "name": "Paris Saint Germain vs Stade Brestois 29",
-                  "streams": [
-                    {
-                      "id": "st-caec357ec2",
-                      "name": "Buncha - BLV Bún Than, BLV Cá Chép",
-                      "stream_links": [
-                        {
-                          "id": "lnk-97b4b7de3f",
-                          "name": "BLV Bún Than",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.taoxanh.biz/live/6a00c72f42283_79/index.m3u8?expire=1779040687&sign=27bc3bbe845fc80ac86279041f2f614d",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://bunchatv4.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-6954af9962",
-                          "name": "BLV Cá Chép",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://cdn-hls.taoxanh.biz/live/6a00d022203f6_103/index.m3u8?expire=1779042978&sign=a0b4f72df645a937008d4982a959b2ef",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://bunchatv4.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
               "id": "src-ae8c782043",
               "name": "GiovangTV",
               "contents": [
@@ -745,7 +658,7 @@
                   "streams": [
                     {
                       "id": "st-ae8c782043",
-                      "name": "Giovang - BLV Ngỗng",
+                      "name": "GV",
                       "stream_links": [
                         {
                           "id": "lnk-0688f749c1",
@@ -769,66 +682,31 @@
                   ]
                 }
               ]
-            },
-            {
-              "id": "src-c25634d81a",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-c25634d81a",
-                  "name": "Paris Saint Germain vs Stade Brestois 29",
-                  "streams": [
-                    {
-                      "id": "st-c25634d81a",
-                      "name": "Hoiquan - BLV PHAN TỪ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-27b23108c0",
-                          "name": "BLV PHAN TỪ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://yvm80526.edgemaxcdn.org/live/hqtv_blv_phantu/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
             }
           ],
           "org_metadata": {
-            "league": "French Ligue 1",
-            "team_a": "Paris Saint Germain",
-            "team_b": "Stade Brestois 29",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/3b720f181ce9993f9422d276acf7b292.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/bb7e6346a3860008e4ff266ba3b655e8.png",
+            "league": "Ligue 1",
+            "team_a": "PSG",
+            "team_b": "Brest",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/vi/thumb/a/a7/Paris_Saint-Germain_F.C..svg/1280px-Paris_Saint-Germain_F.C..svg.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/en/0/05/Stade_Brestois_29_logo.svg",
             "time": "02:00 11/05",
-            "blv": "BLV Lềnh",
+            "blv": "BLV Ngỗng",
             "is_live": true,
-            "cate_name": "Bóng đá"
+            "cate_type": "football"
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-a9bc686547_dabae868_20260511.png?v=dabae868",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-ae8c782043_603cb8e1_20260511.png?v=603cb8e1",
             "width": 1600,
             "height": 1200
           }
         },
         {
-          "id": "thapcam-9be0ed07d2",
-          "name": "Angers SCO vs RC Strasbourg Alsace | 02:00 11/05",
+          "id": "gv-f4d080ecb2",
+          "name": "Corinthians vs São Paulo | 04:30 11/05",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -842,129 +720,23 @@
           ],
           "sources": [
             {
-              "id": "src-9be0ed07d2",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-9be0ed07d2",
-                  "name": "Angers SCO vs RC Strasbourg Alsace",
-                  "streams": [
-                    {
-                      "id": "st-9be0ed07d2",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-46057691b0",
-                          "name": "BLV Người Rừng",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/6a00d0d8137e5_148/index.m3u8?expire=1779043160&sign=3c9b48801590b4a90e041e56a38464e7",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "src-e7cf780de1",
-              "name": "BunchaTV",
-              "contents": [
-                {
-                  "id": "ct-e7cf780de1",
-                  "name": "Angers SCO vs RC Strasbourg Alsace",
-                  "streams": [
-                    {
-                      "id": "st-e7cf780de1",
-                      "name": "Buncha - BLV Cafe",
-                      "stream_links": [
-                        {
-                          "id": "lnk-b122575076",
-                          "name": "BLV Cafe",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.taoxanh.biz/live/6a00d022203f5_133172/index.m3u8?expire=1779042978&sign=24280e66343e2ab2e04502db392fd645",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://bunchatv4.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "French Ligue 1",
-            "team_a": "Angers SCO",
-            "team_b": "RC Strasbourg Alsace",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/526150064f4f983d670deb33fa6385b6.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/998db478bf7c06d5817bf846987a0d0a.png",
-            "time": "02:00 11/05",
-            "blv": "BLV Người Rừng",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-9be0ed07d2_a07fcb62_20260511.png?v=a07fcb62",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-4249bf1e48",
-          "name": "Monaco vs Lille | 02:00 11/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-4249bf1e48",
+              "id": "src-f4d080ecb2",
               "name": "GiovangTV",
               "contents": [
                 {
-                  "id": "ct-4249bf1e48",
-                  "name": "Monaco vs Lille",
+                  "id": "ct-f4d080ecb2",
+                  "name": "Corinthians vs São Paulo",
                   "streams": [
                     {
-                      "id": "st-4249bf1e48",
+                      "id": "st-f4d080ecb2",
                       "name": "GV",
                       "stream_links": [
                         {
-                          "id": "lnk-0328562464",
+                          "id": "lnk-d160f596d9",
                           "name": "Link HD 720p",
                           "type": "hls",
                           "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1778418160_hd/1778418160_hd@720p.m3u8",
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1778294579_hd/1778294579_hd@720p.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -984,13 +756,13 @@
             }
           ],
           "org_metadata": {
-            "league": "Ligue 1",
-            "team_a": "Monaco",
-            "team_b": "Lille",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/en/c/cf/LogoASMonacoFC2021.svg",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/vi/6/6f/Lille_OSC_2018_logo.png",
-            "time": "02:00 11/05",
-            "blv": "blv-mat",
+            "league": "VĐQG Brazil",
+            "team_a": "Corinthians",
+            "team_b": "São Paulo",
+            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLyyEF4wQikml6AbrQUJuJua45aYfUPsXF0A&s",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Brasao_do_Sao_Paulo_Futebol_Clube.svg/500px-Brasao_do_Sao_Paulo_Futebol_Clube.svg.png",
+            "time": "04:30 11/05",
+            "blv": "BLV Dần",
             "is_live": true,
             "cate_type": "football"
           },
@@ -998,7 +770,113 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-4249bf1e48_df58c9c5_20260511.png?v=df58c9c5",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-f4d080ecb2_1b99d12e_20260511.png?v=1b99d12e",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-7c46a22f66",
+          "name": "Santos vs RB Bragantino | 04:30 11/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-7c46a22f66",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-7c46a22f66",
+                  "name": "Santos vs RB Bragantino",
+                  "streams": [
+                    {
+                      "id": "st-7c46a22f66",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-ecc1f8ba9d",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1778294690_hd/1778294690_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-359c029c7e",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-359c029c7e",
+                  "name": "Santos vs RB Bragantino",
+                  "streams": [
+                    {
+                      "id": "st-359c029c7e",
+                      "name": "Hoiquan - BLV PHAN TÔ",
+                      "stream_links": [
+                        {
+                          "id": "lnk-a5b9a304ad",
+                          "name": "BLV PHAN TÔ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://yvm80526.edgemaxcdn.org/live/hqtv_blv_phanto/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "VĐQG Brazil",
+            "team_a": "Santos",
+            "team_b": "RB Bragantino",
+            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRODvqksjkqMma8Jt6htFS3uVtM4ouR1BsaKQ&s",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/en/thumb/2/2e/Red_Bull_Bragantino_logo.svg/1280px-Red_Bull_Bragantino_logo.svg.png",
+            "time": "04:30 11/05",
+            "blv": "BLV Ngỗng",
+            "is_live": true,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-7c46a22f66_b729650a_20260511.png?v=b729650a",
             "width": 1600,
             "height": 1200
           }
@@ -1087,148 +965,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Barcelona_Real Madrid_02-00 11-05_1d8300b9_20260511.png?v=1d8300b9",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-f4d080ecb2",
-          "name": "Corinthians vs São Paulo | 04:30 11/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-f4d080ecb2",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-f4d080ecb2",
-                  "name": "Corinthians vs São Paulo",
-                  "streams": [
-                    {
-                      "id": "st-f4d080ecb2",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-d160f596d9",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1778294579_hd/1778294579_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "VĐQG Brazil",
-            "team_a": "Corinthians",
-            "team_b": "São Paulo",
-            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLyyEF4wQikml6AbrQUJuJua45aYfUPsXF0A&s",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Brasao_do_Sao_Paulo_Futebol_Clube.svg/500px-Brasao_do_Sao_Paulo_Futebol_Clube.svg.png",
-            "time": "04:30 11/05",
-            "blv": "BLV Dần",
-            "is_live": false,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-f4d080ecb2_1b99d12e_20260511.png?v=1b99d12e",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-7c46a22f66",
-          "name": "Santos vs RB Bragantino | 04:30 11/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-7c46a22f66",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-7c46a22f66",
-                  "name": "Santos vs RB Bragantino",
-                  "streams": [
-                    {
-                      "id": "st-7c46a22f66",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-ecc1f8ba9d",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1778294690_hd/1778294690_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "VĐQG Brazil",
-            "team_a": "Santos",
-            "team_b": "RB Bragantino",
-            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRODvqksjkqMma8Jt6htFS3uVtM4ouR1BsaKQ&s",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/en/thumb/2/2e/Red_Bull_Bragantino_logo.svg/1280px-Red_Bull_Bragantino_logo.svg.png",
-            "time": "04:30 11/05",
-            "blv": "BLV Ngỗng",
-            "is_live": false,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-7c46a22f66_b729650a_20260511.png?v=b729650a",
             "width": 1600,
             "height": 1200
           }
@@ -1481,94 +1217,6 @@
           }
         },
         {
-          "id": "thapcam-509537720d",
-          "name": "Japan Women U17 vs Korea Rep. Women U17 | 14:00 11/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-509537720d",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-509537720d",
-                  "name": "Japan Women U17 vs Korea Rep. Women U17",
-                  "streams": [
-                    {
-                      "id": "st-509537720d",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "src-a8980d5567",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-a8980d5567",
-                  "name": "Nhật Bản U17 Nữ  vs Hàn Quốc U17 Nữ",
-                  "streams": [
-                    {
-                      "id": "st-a8980d5567",
-                      "name": "Giovang - BLV Hợi",
-                      "stream_links": [
-                        {
-                          "id": "lnk-94f75e12eb",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1778419820_hd/1778419820_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "AFC U17 Women's Asian Cup",
-            "team_a": "Japan Women U17",
-            "team_b": "Korea Rep. Women U17",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/a5cc0f9ca35d53a5332bf84dc9b79104.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/566b83e60e3ffdb744bc3d1843fb4311.png",
-            "time": "14:00 11/05",
-            "blv": "BLV Cá Mập",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-509537720d_5dd3b744_20260511.png?v=5dd3b744",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "thapcam-0b529450da",
           "name": "Vietnam U17 Women vs Australia Women U17 | 14:00 11/05",
           "type": "single",
@@ -1652,6 +1300,94 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-0b529450da_272ae867_20260511.png?v=272ae867",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-509537720d",
+          "name": "Japan Women U17 vs Korea Rep. Women U17 | 14:00 11/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-509537720d",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-509537720d",
+                  "name": "Japan Women U17 vs Korea Rep. Women U17",
+                  "streams": [
+                    {
+                      "id": "st-509537720d",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-a8980d5567",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-a8980d5567",
+                  "name": "Nhật Bản U17 Nữ  vs Hàn Quốc U17 Nữ",
+                  "streams": [
+                    {
+                      "id": "st-a8980d5567",
+                      "name": "Giovang - BLV Hợi",
+                      "stream_links": [
+                        {
+                          "id": "lnk-94f75e12eb",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1778419820_hd/1778419820_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "AFC U17 Women's Asian Cup",
+            "team_a": "Japan Women U17",
+            "team_b": "Korea Rep. Women U17",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/a5cc0f9ca35d53a5332bf84dc9b79104.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/566b83e60e3ffdb744bc3d1843fb4311.png",
+            "time": "14:00 11/05",
+            "blv": "BLV Cá Mập",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-509537720d_5dd3b744_20260511.png?v=5dd3b744",
             "width": 1600,
             "height": 1200
           }
@@ -2098,59 +1834,6 @@
           }
         },
         {
-          "id": "thapcam-e434136c49",
-          "name": "Al-Kahrbaa Club vs Newroz SC | 21:30 11/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-e434136c49",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-e434136c49",
-                  "name": "Al-Kahrbaa Club vs Newroz SC",
-                  "streams": [
-                    {
-                      "id": "st-e434136c49",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Iraq Stars League",
-            "team_a": "Al-Kahrbaa Club",
-            "team_b": "Newroz SC",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/80e44a97384b61801716ab030c10bfd1.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/d24ce6a9273a1f719aa3b590e27a7a78.png",
-            "time": "21:30 11/05",
-            "blv": "BLV Người Rừng",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-e434136c49_a546a695_20260511.png?v=a546a695",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "thapcam-3f364aa43c",
           "name": "Spartak Moscow vs Rubin Kazan | 21:30 11/05",
           "type": "single",
@@ -2199,59 +1882,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-3f364aa43c_58d88622_20260511.png?v=58d88622",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "thapcam-e80c4e069c",
-          "name": "Al Karkh vs Amanat Baghdad | 21:30 11/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-e80c4e069c",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-e80c4e069c",
-                  "name": "Al Karkh vs Amanat Baghdad",
-                  "streams": [
-                    {
-                      "id": "st-e80c4e069c",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Iraq Stars League",
-            "team_a": "Al Karkh",
-            "team_b": "Amanat Baghdad",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/21f6e246791eccf1b9b3822f8d08c8d4.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/51314043c4560f92e05af70fd57035be.png",
-            "time": "21:30 11/05",
-            "blv": "BLV Người Cò",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-e80c4e069c_ba2288a7_20260511.png?v=ba2288a7",
             "width": 1600,
             "height": 1200
           }
@@ -2310,8 +1940,8 @@
           }
         },
         {
-          "id": "thapcam-de4e5bd5d8",
-          "name": "Metaloglobus vs Hermannstadt | 22:00 11/05",
+          "id": "thapcam-e80c4e069c",
+          "name": "Al Karkh vs Amanat Baghdad | 21:30 11/05",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -2325,15 +1955,15 @@
           ],
           "sources": [
             {
-              "id": "src-de4e5bd5d8",
+              "id": "src-e80c4e069c",
               "name": "ThapcamTV",
               "contents": [
                 {
-                  "id": "ct-de4e5bd5d8",
-                  "name": "Metaloglobus vs Hermannstadt",
+                  "id": "ct-e80c4e069c",
+                  "name": "Al Karkh vs Amanat Baghdad",
                   "streams": [
                     {
-                      "id": "st-de4e5bd5d8",
+                      "id": "st-e80c4e069c",
                       "name": "KT",
                       "stream_links": []
                     }
@@ -2343,13 +1973,13 @@
             }
           ],
           "org_metadata": {
-            "league": "Romanian Super Liga",
-            "team_a": "Metaloglobus",
-            "team_b": "Hermannstadt",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/6e39bd08aa15c7ac22e3be6a56606c36.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/732ac055b269060b9864fe152a82c9cf.png",
-            "time": "22:00 11/05",
-            "blv": "BLV Người Đá",
+            "league": "Iraq Stars League",
+            "team_a": "Al Karkh",
+            "team_b": "Amanat Baghdad",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/21f6e246791eccf1b9b3822f8d08c8d4.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/51314043c4560f92e05af70fd57035be.png",
+            "time": "21:30 11/05",
+            "blv": "BLV Người Cò",
             "is_live": false,
             "cate_name": "Bóng đá"
           },
@@ -2357,7 +1987,60 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-de4e5bd5d8_f151100e_20260511.png?v=f151100e",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-e80c4e069c_ba2288a7_20260511.png?v=ba2288a7",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-e434136c49",
+          "name": "Al-Kahrbaa Club vs Newroz SC | 21:30 11/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-e434136c49",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-e434136c49",
+                  "name": "Al-Kahrbaa Club vs Newroz SC",
+                  "streams": [
+                    {
+                      "id": "st-e434136c49",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Iraq Stars League",
+            "team_a": "Al-Kahrbaa Club",
+            "team_b": "Newroz SC",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/80e44a97384b61801716ab030c10bfd1.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/d24ce6a9273a1f719aa3b590e27a7a78.png",
+            "time": "21:30 11/05",
+            "blv": "BLV Người Rừng",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-e434136c49_a546a695_20260511.png?v=a546a695",
             "width": 1600,
             "height": 1200
           }
@@ -2411,6 +2094,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-8d6509eff8_2f2860b7_20260511.png?v=2f2860b7",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-de4e5bd5d8",
+          "name": "Metaloglobus vs Hermannstadt | 22:00 11/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-de4e5bd5d8",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-de4e5bd5d8",
+                  "name": "Metaloglobus vs Hermannstadt",
+                  "streams": [
+                    {
+                      "id": "st-de4e5bd5d8",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Romanian Super Liga",
+            "team_a": "Metaloglobus",
+            "team_b": "Hermannstadt",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/6e39bd08aa15c7ac22e3be6a56606c36.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/732ac055b269060b9864fe152a82c9cf.png",
+            "time": "22:00 11/05",
+            "blv": "BLV Người Đá",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-de4e5bd5d8_f151100e_20260511.png?v=f151100e",
             "width": 1600,
             "height": 1200
           }
@@ -2790,83 +2526,11 @@
     },
     {
       "id": "grp-tennis",
-      "name": "🎾 Tennis (1 LIVE)",
+      "name": "🎾 Tennis",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
-      "channels": [
-        {
-          "id": "buncha-5b2c99a6a3",
-          "name": "Matteo Arnaldi vs Rafael Jodar | 01:30 11/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-5b2c99a6a3",
-              "name": "BunchaTV",
-              "contents": [
-                {
-                  "id": "ct-5b2c99a6a3",
-                  "name": "Matteo Arnaldi vs Rafael Jodar",
-                  "streams": [
-                    {
-                      "id": "st-5b2c99a6a3",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-404f9f76cf",
-                          "name": "BLV Bún Mắm",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.taoxanh.biz/live/6a00c9f042283_4733/index.m3u8?expire=1779041392&sign=b8f2bee4fb3549617fe6190079144c0b",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://bunchatv4.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "ATP Rome, Italy Men Singles",
-            "team_a": "Matteo Arnaldi",
-            "team_b": "Rafael Jodar",
-            "logo_a": "https://cdn.rapid-api.icu/v2/team/54e0d5a1af27fe927230f7500b8e7098.png",
-            "logo_b": "https://cdn.rapid-api.icu/v2/team/6df68e87ef33da480611d1b13a603a21.png",
-            "time": "01:30 11/05",
-            "blv": "BLV Bún Mắm",
-            "is_live": true,
-            "cate_name": "Tennis"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/xixixius-ai/buncha-stream/refs/heads/main/thumbs/buncha-5b2c99a6a3_31debefe_20260511.png?v=31debefe",
-            "width": 1600,
-            "height": 1200
-          }
-        }
-      ]
+      "channels": []
     },
     {
       "id": "grp-cầu-lông",
