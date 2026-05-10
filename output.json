@@ -11,6 +11,596 @@
   },
   "groups": [
     {
+      "id": "grp-tv-hoiquan",
+      "name": "📺 Kênh Truyền Hình (7 LIVE)",
+      "display": "vertical",
+      "grid_number": 2,
+      "enable_detail": false,
+      "channels": [
+        {
+          "id": "tv-0",
+          "name": "VTV1",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-tv-0-0",
+              "name": "Source 1 - dpdns",
+              "contents": [
+                {
+                  "id": "ct-tv-0-0",
+                  "name": "VTV1",
+                  "streams": [
+                    {
+                      "id": "st-tv-0-0",
+                      "name": "KT",
+                      "stream_links": [
+                        {
+                          "id": "lnk-tv-0-0",
+                          "name": "Link 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://toiyeuvietnam.dpdns.org/TuyetDoiKhongKinhDoanh/vtv1-hd/KenhCoBan.m3u8",
+                          "request_headers": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-tv-0-1",
+              "name": "Source 2 - duckdns",
+              "contents": [
+                {
+                  "id": "ct-tv-0-1",
+                  "name": "VTV1",
+                  "streams": [
+                    {
+                      "id": "st-tv-0-1",
+                      "name": "KT",
+                      "stream_links": [
+                        {
+                          "id": "lnk-tv-0-1",
+                          "name": "Link 2",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://sgclient.duckdns.org/source/tv360.m3u8?id=2",
+                          "request_headers": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "is_live": true,
+            "time": "",
+            "team_a": "VTV1",
+            "team_b": ""
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://toiyeuvietnam.dpdns.org/Logo/vtv1-hd/KenhCoBan.png",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "tv-1",
+          "name": "VTV2",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-tv-1-0",
+              "name": "Source 1 - dpdns",
+              "contents": [
+                {
+                  "id": "ct-tv-1-0",
+                  "name": "VTV2",
+                  "streams": [
+                    {
+                      "id": "st-tv-1-0",
+                      "name": "KT",
+                      "stream_links": [
+                        {
+                          "id": "lnk-tv-1-0",
+                          "name": "Link 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://toiyeuvietnam.dpdns.org/TuyetDoiKhongKinhDoanh/vtv2-hd/KenhCoBan.m3u8",
+                          "request_headers": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-tv-1-1",
+              "name": "Source 2 - fptplay53",
+              "contents": [
+                {
+                  "id": "ct-tv-1-1",
+                  "name": "VTV2",
+                  "streams": [
+                    {
+                      "id": "st-tv-1-1",
+                      "name": "KT",
+                      "stream_links": [
+                        {
+                          "id": "lnk-tv-1-1",
+                          "name": "Link 2",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://live.fptplay53.net/fnxch2/vtv2hd_abr.smil/chunklist.m3u8",
+                          "request_headers": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "is_live": true,
+            "time": "",
+            "team_a": "VTV2",
+            "team_b": ""
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://toiyeuvietnam.dpdns.org/Logo/vtv2-hd/KenhCoBan.png",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "tv-2",
+          "name": "VTV3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-tv-2-0",
+              "name": "Source 1 - dpdns",
+              "contents": [
+                {
+                  "id": "ct-tv-2-0",
+                  "name": "VTV3",
+                  "streams": [
+                    {
+                      "id": "st-tv-2-0",
+                      "name": "KT",
+                      "stream_links": [
+                        {
+                          "id": "lnk-tv-2-0",
+                          "name": "Link 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://toiyeuvietnam.dpdns.org/TuyetDoiKhongKinhDoanh/vtv3-hd/KenhCoBan.m3u8",
+                          "request_headers": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-tv-2-1",
+              "name": "Source 2 - fptplay53",
+              "contents": [
+                {
+                  "id": "ct-tv-2-1",
+                  "name": "VTV3",
+                  "streams": [
+                    {
+                      "id": "st-tv-2-1",
+                      "name": "KT",
+                      "stream_links": [
+                        {
+                          "id": "lnk-tv-2-1",
+                          "name": "Link 2",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://live-a.fptplay53.net/live/media/VTV3HD/live_hls_avc/index.m3u8",
+                          "request_headers": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "is_live": true,
+            "time": "",
+            "team_a": "VTV3",
+            "team_b": ""
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://toiyeuvietnam.dpdns.org/Logo/vtv3-hd/KenhCoBan.png",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "tv-3",
+          "name": "VTV5",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-tv-3-0",
+              "name": "Source 1 - dpdns",
+              "contents": [
+                {
+                  "id": "ct-tv-3-0",
+                  "name": "VTV5",
+                  "streams": [
+                    {
+                      "id": "st-tv-3-0",
+                      "name": "KT",
+                      "stream_links": [
+                        {
+                          "id": "lnk-tv-3-0",
+                          "name": "Link 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://toiyeuvietnam.dpdns.org/TuyetDoiKhongKinhDoanh/vtv5-hd/KenhCoBan.m3u8",
+                          "request_headers": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-tv-3-1",
+              "name": "Source 2 - fptplay53",
+              "contents": [
+                {
+                  "id": "ct-tv-3-1",
+                  "name": "VTV5",
+                  "streams": [
+                    {
+                      "id": "st-tv-3-1",
+                      "name": "KT",
+                      "stream_links": [
+                        {
+                          "id": "lnk-tv-3-1",
+                          "name": "Link 2",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://live-a.fptplay53.net/live/media/VTV5HD/live_hls_avc/index.m3u8",
+                          "request_headers": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "is_live": true,
+            "time": "",
+            "team_a": "VTV5",
+            "team_b": ""
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://toiyeuvietnam.dpdns.org/Logo/vtv5-hd/KenhCoBan.png",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "tv-4",
+          "name": "VTV7",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-tv-4-0",
+              "name": "Source 1 - dpdns",
+              "contents": [
+                {
+                  "id": "ct-tv-4-0",
+                  "name": "VTV7",
+                  "streams": [
+                    {
+                      "id": "st-tv-4-0",
+                      "name": "KT",
+                      "stream_links": [
+                        {
+                          "id": "lnk-tv-4-0",
+                          "name": "Link 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://toiyeuvietnam.dpdns.org/TuyetDoiKhongKinhDoanh/vtv7-hd/KenhCoBan.m3u8",
+                          "request_headers": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-tv-4-1",
+              "name": "Source 2 - fptplay53",
+              "contents": [
+                {
+                  "id": "ct-tv-4-1",
+                  "name": "VTV7",
+                  "streams": [
+                    {
+                      "id": "st-tv-4-1",
+                      "name": "KT",
+                      "stream_links": [
+                        {
+                          "id": "lnk-tv-4-1",
+                          "name": "Link 2",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://live.fptplay53.net/fnxhd1/vtv7hd_vhls.smil/chunklist_b5000000.m3u8",
+                          "request_headers": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "is_live": true,
+            "time": "",
+            "team_a": "VTV7",
+            "team_b": ""
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://toiyeuvietnam.dpdns.org/Logo/vtv7-hd/KenhCoBan.png",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "tv-5",
+          "name": "VTV9",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-tv-5-0",
+              "name": "Source 1 - dpdns",
+              "contents": [
+                {
+                  "id": "ct-tv-5-0",
+                  "name": "VTV9",
+                  "streams": [
+                    {
+                      "id": "st-tv-5-0",
+                      "name": "KT",
+                      "stream_links": [
+                        {
+                          "id": "lnk-tv-5-0",
+                          "name": "Link 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://toiyeuvietnam.dpdns.org/TuyetDoiKhongKinhDoanh/vtv9-hd/KenhCoBan.m3u8",
+                          "request_headers": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-tv-5-1",
+              "name": "Source 2 - dpdns",
+              "contents": [
+                {
+                  "id": "ct-tv-5-1",
+                  "name": "VTV9",
+                  "streams": [
+                    {
+                      "id": "st-tv-5-1",
+                      "name": "KT",
+                      "stream_links": [
+                        {
+                          "id": "lnk-tv-5-1",
+                          "name": "Link 2",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://toiyeuvietnam.dpdns.org/TuyetDoiKhongKinhDoanh/vtv9-hd/KenhCoBan.m3u8",
+                          "request_headers": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "is_live": true,
+            "time": "",
+            "team_a": "VTV9",
+            "team_b": ""
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://toiyeuvietnam.dpdns.org/Logo/vtv9-hd/KenhCoBan.png",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "tv-6",
+          "name": "HTV Thể Thao",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-tv-6-0",
+              "name": "Source 1 - dpdns",
+              "contents": [
+                {
+                  "id": "ct-tv-6-0",
+                  "name": "HTV Thể Thao",
+                  "streams": [
+                    {
+                      "id": "st-tv-6-0",
+                      "name": "KT",
+                      "stream_links": [
+                        {
+                          "id": "lnk-tv-6-0",
+                          "name": "Link 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://toiyeuvietnam.dpdns.org/TuyetDoiKhongKinhDoanh/htv-the-thao/KenhCoBan.m3u8",
+                          "request_headers": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-tv-6-1",
+              "name": "Source 2 - fptplay53",
+              "contents": [
+                {
+                  "id": "ct-tv-6-1",
+                  "name": "HTV Thể Thao",
+                  "streams": [
+                    {
+                      "id": "st-tv-6-1",
+                      "name": "KT",
+                      "stream_links": [
+                        {
+                          "id": "lnk-tv-6-1",
+                          "name": "Link 2",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://live.fptplay53.net/epzhd1/htvcthethao_vhls.smil/chunklist_b5000000.m3u8",
+                          "request_headers": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "is_live": true,
+            "time": "",
+            "team_a": "HTV Thể Thao",
+            "team_b": ""
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://toiyeuvietnam.dpdns.org/Logo/htv-the-thao/KenhCoBan.png",
+            "width": 1600,
+            "height": 1200
+          }
+        }
+      ]
+    },
+    {
       "id": "grp-bóng-đá",
       "name": "⚽ Bóng Đá (10 LIVE)",
       "display": "vertical",
@@ -189,112 +779,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-6e4332f804_98e79cdd_20260511.png?v=98e79cdd",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "thapcam-9be0ed07d2",
-          "name": "Angers SCO vs RC Strasbourg Alsace | 02:00 11/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-9be0ed07d2",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-9be0ed07d2",
-                  "name": "Angers SCO vs RC Strasbourg Alsace",
-                  "streams": [
-                    {
-                      "id": "st-9be0ed07d2",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-46057691b0",
-                          "name": "BLV Người Rừng",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/6a00d0d8137e5_148/index.m3u8?expire=1779043160&sign=3c9b48801590b4a90e041e56a38464e7",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "src-e7cf780de1",
-              "name": "BunchaTV",
-              "contents": [
-                {
-                  "id": "ct-e7cf780de1",
-                  "name": "Angers SCO vs RC Strasbourg Alsace",
-                  "streams": [
-                    {
-                      "id": "st-e7cf780de1",
-                      "name": "Buncha - BLV Cafe",
-                      "stream_links": [
-                        {
-                          "id": "lnk-b122575076",
-                          "name": "BLV Cafe",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.taoxanh.biz/live/6a00d022203f5_133172/index.m3u8?expire=1779042978&sign=24280e66343e2ab2e04502db392fd645",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://bunchatv4.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "French Ligue 1",
-            "team_a": "Angers SCO",
-            "team_b": "RC Strasbourg Alsace",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/526150064f4f983d670deb33fa6385b6.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/998db478bf7c06d5817bf846987a0d0a.png",
-            "time": "02:00 11/05",
-            "blv": "BLV Người Rừng",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-9be0ed07d2_a07fcb62_20260511.png?v=a07fcb62",
             "width": 1600,
             "height": 1200
           }
@@ -771,6 +1255,199 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-a645121dbb_28e36688_20260511.png?v=28e36688",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-a9bc686547",
+          "name": "Paris Saint Germain vs Stade Brestois 29 | 02:00 11/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-a9bc686547",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-a9bc686547",
+                  "name": "Paris Saint Germain vs Stade Brestois 29",
+                  "streams": [
+                    {
+                      "id": "st-a9bc686547",
+                      "name": "KT",
+                      "stream_links": [
+                        {
+                          "id": "lnk-9dbd2a3371",
+                          "name": "BLV Lềnh",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.phogatv8.com/live/6a00cdf051ddc_1549/index.m3u8?expire=1779042416&sign=8485fb67925ab84fbac5883522e8f27b",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-caec357ec2",
+              "name": "BunchaTV",
+              "contents": [
+                {
+                  "id": "ct-caec357ec2",
+                  "name": "Paris Saint Germain vs Stade Brestois 29",
+                  "streams": [
+                    {
+                      "id": "st-caec357ec2",
+                      "name": "Buncha - BLV Bún Than, BLV Cá Chép",
+                      "stream_links": [
+                        {
+                          "id": "lnk-97b4b7de3f",
+                          "name": "BLV Bún Than",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.taoxanh.biz/live/6a00c72f42283_79/index.m3u8?expire=1779040687&sign=27bc3bbe845fc80ac86279041f2f614d",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://bunchatv4.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-6954af9962",
+                          "name": "BLV Cá Chép",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://cdn-hls.taoxanh.biz/live/6a00d022203f6_103/index.m3u8?expire=1779042978&sign=a0b4f72df645a937008d4982a959b2ef",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://bunchatv4.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-ae8c782043",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-ae8c782043",
+                  "name": "PSG vs Brest",
+                  "streams": [
+                    {
+                      "id": "st-ae8c782043",
+                      "name": "Giovang - BLV Ngỗng",
+                      "stream_links": [
+                        {
+                          "id": "lnk-0688f749c1",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1778294401_hd/1778294401_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-c25634d81a",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-c25634d81a",
+                  "name": "Paris Saint Germain vs Stade Brestois 29",
+                  "streams": [
+                    {
+                      "id": "st-c25634d81a",
+                      "name": "Hoiquan - BLV PHAN TỪ",
+                      "stream_links": [
+                        {
+                          "id": "lnk-27b23108c0",
+                          "name": "BLV PHAN TỪ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://yvm80526.edgemaxcdn.org/live/hqtv_blv_phantu/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "French Ligue 1",
+            "team_a": "Paris Saint Germain",
+            "team_b": "Stade Brestois 29",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/3b720f181ce9993f9422d276acf7b292.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/bb7e6346a3860008e4ff266ba3b655e8.png",
+            "time": "02:00 11/05",
+            "blv": "BLV Lềnh",
+            "is_live": true,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-a9bc686547_dabae868_20260511.png?v=dabae868",
             "width": 1600,
             "height": 1200
           }
@@ -1266,8 +1943,8 @@
           }
         },
         {
-          "id": "thapcam-a9bc686547",
-          "name": "Paris Saint Germain vs Stade Brestois 29 | 02:00 11/05",
+          "id": "thapcam-9be0ed07d2",
+          "name": "Angers SCO vs RC Strasbourg Alsace | 02:00 11/05",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1281,23 +1958,23 @@
           ],
           "sources": [
             {
-              "id": "src-a9bc686547",
+              "id": "src-9be0ed07d2",
               "name": "ThapcamTV",
               "contents": [
                 {
-                  "id": "ct-a9bc686547",
-                  "name": "Paris Saint Germain vs Stade Brestois 29",
+                  "id": "ct-9be0ed07d2",
+                  "name": "Angers SCO vs RC Strasbourg Alsace",
                   "streams": [
                     {
-                      "id": "st-a9bc686547",
+                      "id": "st-9be0ed07d2",
                       "name": "KT",
                       "stream_links": [
                         {
-                          "id": "lnk-9dbd2a3371",
-                          "name": "BLV Lềnh",
+                          "id": "lnk-46057691b0",
+                          "name": "BLV Người Rừng",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/6a00cdf051ddc_1549/index.m3u8?expire=1779042416&sign=8485fb67925ab84fbac5883522e8f27b",
+                          "url": "https://cdn-hls.phogatv8.com/live/6a00d0d8137e5_148/index.m3u8?expire=1779043160&sign=3c9b48801590b4a90e041e56a38464e7",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -1316,114 +1993,27 @@
               ]
             },
             {
-              "id": "src-caec357ec2",
+              "id": "src-e7cf780de1",
               "name": "BunchaTV",
               "contents": [
                 {
-                  "id": "ct-caec357ec2",
-                  "name": "Paris Saint Germain vs Stade Brestois 29",
+                  "id": "ct-e7cf780de1",
+                  "name": "Angers SCO vs RC Strasbourg Alsace",
                   "streams": [
                     {
-                      "id": "st-caec357ec2",
-                      "name": "Buncha - BLV Bún Than, BLV Cá Chép",
+                      "id": "st-e7cf780de1",
+                      "name": "Buncha - BLV Cafe",
                       "stream_links": [
                         {
-                          "id": "lnk-97b4b7de3f",
-                          "name": "BLV Bún Than",
+                          "id": "lnk-b122575076",
+                          "name": "BLV Cafe",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn-hls.taoxanh.biz/live/6a00c72f42283_79/index.m3u8?expire=1779040687&sign=27bc3bbe845fc80ac86279041f2f614d",
+                          "url": "https://cdn-hls.taoxanh.biz/live/6a00d022203f5_133172/index.m3u8?expire=1779042978&sign=24280e66343e2ab2e04502db392fd645",
                           "request_headers": [
                             {
                               "key": "Referer",
                               "value": "https://bunchatv4.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-6954af9962",
-                          "name": "BLV Cá Chép",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://cdn-hls.taoxanh.biz/live/6a00d022203f6_103/index.m3u8?expire=1779042978&sign=a0b4f72df645a937008d4982a959b2ef",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://bunchatv4.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "src-ae8c782043",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-ae8c782043",
-                  "name": "PSG vs Brest",
-                  "streams": [
-                    {
-                      "id": "st-ae8c782043",
-                      "name": "Giovang - BLV Ngỗng",
-                      "stream_links": [
-                        {
-                          "id": "lnk-0688f749c1",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1778294401_hd/1778294401_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "src-c25634d81a",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-c25634d81a",
-                  "name": "Paris Saint Germain vs Stade Brestois 29",
-                  "streams": [
-                    {
-                      "id": "st-c25634d81a",
-                      "name": "Hoiquan - BLV PHAN TỪ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-27b23108c0",
-                          "name": "BLV PHAN TỪ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://yvm80526.edgemaxcdn.org/live/hqtv_blv_phantu/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -1440,12 +2030,12 @@
           ],
           "org_metadata": {
             "league": "French Ligue 1",
-            "team_a": "Paris Saint Germain",
-            "team_b": "Stade Brestois 29",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/3b720f181ce9993f9422d276acf7b292.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/bb7e6346a3860008e4ff266ba3b655e8.png",
+            "team_a": "Angers SCO",
+            "team_b": "RC Strasbourg Alsace",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/526150064f4f983d670deb33fa6385b6.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/998db478bf7c06d5817bf846987a0d0a.png",
             "time": "02:00 11/05",
-            "blv": "BLV Lềnh",
+            "blv": "BLV Người Rừng",
             "is_live": true,
             "cate_name": "Bóng đá"
           },
@@ -1453,7 +2043,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-a9bc686547_dabae868_20260511.png?v=dabae868",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-9be0ed07d2_a07fcb62_20260511.png?v=a07fcb62",
             "width": 1600,
             "height": 1200
           }
@@ -2077,94 +2667,6 @@
           }
         },
         {
-          "id": "thapcam-bef26b2c51",
-          "name": "North Korea Women U17 vs Thailand U17 Women | 18:30 11/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-bef26b2c51",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-bef26b2c51",
-                  "name": "North Korea Women U17 vs Thailand U17 Women",
-                  "streams": [
-                    {
-                      "id": "st-bef26b2c51",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "src-f357ec5a76",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-f357ec5a76",
-                  "name": "Triều Tiên U17 Nữ  vs Thái Lan U17 Nữ",
-                  "streams": [
-                    {
-                      "id": "st-f357ec5a76",
-                      "name": "Giovang - BLV Thìn",
-                      "stream_links": [
-                        {
-                          "id": "lnk-41af46ec71",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1778420059_hd/1778420059_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "AFC U17 Women's Asian Cup",
-            "team_a": "North Korea Women U17",
-            "team_b": "Thailand U17 Women",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/702d8e982ec231766ec875424c555d0e.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/f5c29f4d0153b28ef8802fe964122c65.png",
-            "time": "18:30 11/05",
-            "blv": "BLV Max",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-bef26b2c51_440bbda3_20260511.png?v=440bbda3",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "thapcam-395b3fbaa9",
           "name": "China U17 Women vs India Women U17 | 18:30 11/05",
           "type": "single",
@@ -2248,6 +2750,94 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-395b3fbaa9_c0cef920_20260511.png?v=c0cef920",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-bef26b2c51",
+          "name": "North Korea Women U17 vs Thailand U17 Women | 18:30 11/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-bef26b2c51",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-bef26b2c51",
+                  "name": "North Korea Women U17 vs Thailand U17 Women",
+                  "streams": [
+                    {
+                      "id": "st-bef26b2c51",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-f357ec5a76",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-f357ec5a76",
+                  "name": "Triều Tiên U17 Nữ  vs Thái Lan U17 Nữ",
+                  "streams": [
+                    {
+                      "id": "st-f357ec5a76",
+                      "name": "Giovang - BLV Thìn",
+                      "stream_links": [
+                        {
+                          "id": "lnk-41af46ec71",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1778420059_hd/1778420059_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "AFC U17 Women's Asian Cup",
+            "team_a": "North Korea Women U17",
+            "team_b": "Thailand U17 Women",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/702d8e982ec231766ec875424c555d0e.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/f5c29f4d0153b28ef8802fe964122c65.png",
+            "time": "18:30 11/05",
+            "blv": "BLV Max",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-bef26b2c51_440bbda3_20260511.png?v=440bbda3",
             "width": 1600,
             "height": 1200
           }
