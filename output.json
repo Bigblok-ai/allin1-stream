@@ -602,7 +602,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (6 LIVE)",
+      "name": "⚽ Bóng Đá (7 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1067,8 +1067,8 @@
           }
         },
         {
-          "id": "thapcam-bb250cf1ed",
-          "name": "FC Tokyo vs Tokyo Verdy | 13:00 10/05",
+          "id": "thapcam-0d4835fac6",
+          "name": "Gamba Osaka vs Sanfrecce Hiroshima | 13:00 10/05",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1082,44 +1082,62 @@
           ],
           "sources": [
             {
-              "id": "src-bb250cf1ed",
+              "id": "src-0d4835fac6",
               "name": "ThapcamTV",
               "contents": [
                 {
-                  "id": "ct-bb250cf1ed",
-                  "name": "FC Tokyo vs Tokyo Verdy",
+                  "id": "ct-0d4835fac6",
+                  "name": "Gamba Osaka vs Sanfrecce Hiroshima",
                   "streams": [
                     {
-                      "id": "st-bb250cf1ed",
+                      "id": "st-0d4835fac6",
                       "name": "KT",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-61ed3d9198",
+                          "name": "BLV Jayce",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.phogatv8.com/live/6a00147251ddc_181/index.m3u8?expire=1778994930&sign=e34fa55f39c102ad599a5136aef766f3",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
               ]
             },
             {
-              "id": "src-9672ed4e75",
-              "name": "GiovangTV",
+              "id": "src-4a2bd7beb8",
+              "name": "BunchaTV",
               "contents": [
                 {
-                  "id": "ct-9672ed4e75",
-                  "name": "FC Tokyo vs Tokyo Verdy",
+                  "id": "ct-4a2bd7beb8",
+                  "name": "Gamba Osaka vs Sanfrecce Hiroshima",
                   "streams": [
                     {
-                      "id": "st-9672ed4e75",
-                      "name": "Giovang - BLV Thìn",
+                      "id": "st-4a2bd7beb8",
+                      "name": "Buncha - BLV Trà Đá",
                       "stream_links": [
                         {
-                          "id": "lnk-bc7737d88a",
-                          "name": "Link HD 720p",
+                          "id": "lnk-33a9ad5f03",
+                          "name": "BLV Trà Đá",
                           "type": "hls",
                           "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1778356276_hd/1778356276_hd@720p.m3u8",
+                          "url": "https://cdn-hls.taoxanh.biz/live/6a00175b42283_88186/index.m3u8?expire=1778995675&sign=5647b8c13cfb172efab6a542971d1440",
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://giovang.fun/"
+                              "value": "https://bunchatv4.net/"
                             },
                             {
                               "key": "User-Agent",
@@ -1136,12 +1154,12 @@
           ],
           "org_metadata": {
             "league": "Japanese J1 League",
-            "team_a": "FC Tokyo",
-            "team_b": "Tokyo Verdy",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/333df39860930a21cf72b4e9664723ab.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/2a8adb34e764602183a7bee8f51726e4.png",
+            "team_a": "Gamba Osaka",
+            "team_b": "Sanfrecce Hiroshima",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/91008a96b5de8c75376d17057f89890e.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/c81d5ff7a33a4f6a9312a8703f619352.png",
             "time": "13:00 10/05",
-            "blv": "BLV Tôn Quyền",
+            "blv": "BLV Jayce",
             "is_live": true,
             "cate_name": "Bóng đá"
           },
@@ -1149,7 +1167,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-bb250cf1ed_c48d4c32_20260510.png?v=c48d4c32",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-0d4835fac6_00b147e9_20260510.png?v=00b147e9",
             "width": 1600,
             "height": 1200
           }
@@ -1226,32 +1244,50 @@
           }
         },
         {
-          "id": "thapcam-0d4835fac6",
-          "name": "Gamba Osaka vs Sanfrecce Hiroshima | 13:00 10/05",
+          "id": "gv-9672ed4e75",
+          "name": "FC Tokyo vs Tokyo Verdy | 13:00 10/05",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
             {
-              "id": "src-0d4835fac6",
-              "name": "ThapcamTV",
+              "id": "src-9672ed4e75",
+              "name": "GiovangTV",
               "contents": [
                 {
-                  "id": "ct-0d4835fac6",
-                  "name": "Gamba Osaka vs Sanfrecce Hiroshima",
+                  "id": "ct-9672ed4e75",
+                  "name": "FC Tokyo vs Tokyo Verdy",
                   "streams": [
                     {
-                      "id": "st-0d4835fac6",
-                      "name": "KT",
-                      "stream_links": []
+                      "id": "st-9672ed4e75",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-bc7737d88a",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1778356276_hd/1778356276_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -1259,21 +1295,21 @@
             }
           ],
           "org_metadata": {
-            "league": "Japanese J1 League",
-            "team_a": "Gamba Osaka",
-            "team_b": "Sanfrecce Hiroshima",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/91008a96b5de8c75376d17057f89890e.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/c81d5ff7a33a4f6a9312a8703f619352.png",
+            "league": "VĐQG Nhật Bản",
+            "team_a": "FC Tokyo",
+            "team_b": "Tokyo Verdy",
+            "logo_a": "https://images.keovip88.net/images/teams/fc-tokyo.png",
+            "logo_b": "https://images.keovip88.net/images/teams/tokyo-verdy.png",
             "time": "13:00 10/05",
-            "blv": "BLV Jayce",
-            "is_live": false,
-            "cate_name": "Bóng đá"
+            "blv": "BLV Thìn",
+            "is_live": true,
+            "cate_type": "football"
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-0d4835fac6_00b147e9_20260510.png?v=00b147e9",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-9672ed4e75_ef420091_20260510.png?v=ef420091",
             "width": 1600,
             "height": 1200
           }
