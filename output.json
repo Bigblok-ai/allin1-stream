@@ -602,7 +602,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (8 LIVE)",
+      "name": "⚽ Bóng Đá (9 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1314,6 +1314,77 @@
           }
         },
         {
+          "id": "gv-63a61024cc",
+          "name": "TP Hồ Chí Minh vs Sông Lam Nghệ An | 18:00 10/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-63a61024cc",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-63a61024cc",
+                  "name": "TP Hồ Chí Minh vs Sông Lam Nghệ An",
+                  "streams": [
+                    {
+                      "id": "st-63a61024cc",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-81175b4b39",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1778396330_hd/1778396330_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "V-League",
+            "team_a": "TP Hồ Chí Minh",
+            "team_b": "Sông Lam Nghệ An",
+            "logo_a": "https://images.keovip88.net/images/teams/ho-chi-minh-city.png",
+            "logo_b": "https://images.keovip88.net/images/teams/song-lam-nghe-an.png",
+            "time": "18:00 10/05",
+            "blv": "BLV Tỵ",
+            "is_live": true,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-63a61024cc_d8fe6ffd_20260510.png?v=d8fe6ffd",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "hqlive-5dd4a55b00",
           "name": "Hoang Anh Gia Lai vs Pho Hien | 17:00 10/05",
           "type": "single",
@@ -1380,77 +1451,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Hoang Anh Gia Lai_Pho Hien_17-00 10-05_4915083e_20260510.png?v=4915083e",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-63a61024cc",
-          "name": "TP Hồ Chí Minh vs Sông Lam Nghệ An | 18:00 10/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-63a61024cc",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-63a61024cc",
-                  "name": "TP Hồ Chí Minh vs Sông Lam Nghệ An",
-                  "streams": [
-                    {
-                      "id": "st-63a61024cc",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-81175b4b39",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1778396330_hd/1778396330_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "V-League",
-            "team_a": "TP Hồ Chí Minh",
-            "team_b": "Sông Lam Nghệ An",
-            "logo_a": "https://images.keovip88.net/images/teams/ho-chi-minh-city.png",
-            "logo_b": "https://images.keovip88.net/images/teams/song-lam-nghe-an.png",
-            "time": "18:00 10/05",
-            "blv": "BLV Tỵ",
-            "is_live": false,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-63a61024cc_d8fe6ffd_20260510.png?v=d8fe6ffd",
             "width": 1600,
             "height": 1200
           }
@@ -4518,8 +4518,8 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "gv-801460a748",
-          "name": "Casper Ruud vs Lehecka | 16:00 10/05",
+          "id": "thapcam-693375ecb0",
+          "name": "Alexander Blockx vs Alexander Zverev | 18:00 10/05",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -4533,23 +4533,40 @@
           ],
           "sources": [
             {
-              "id": "src-801460a748",
+              "id": "src-693375ecb0",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-693375ecb0",
+                  "name": "Alexander Blockx vs Alexander Zverev",
+                  "streams": [
+                    {
+                      "id": "st-693375ecb0",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-02ae7ceb47",
               "name": "GiovangTV",
               "contents": [
                 {
-                  "id": "ct-801460a748",
-                  "name": "Casper Ruud vs Lehecka",
+                  "id": "ct-02ae7ceb47",
+                  "name": "Alexander Blockx vs Alexander Zverev",
                   "streams": [
                     {
-                      "id": "st-801460a748",
-                      "name": "GV",
+                      "id": "st-02ae7ceb47",
+                      "name": "Giovang - BLV Ben",
                       "stream_links": [
                         {
-                          "id": "lnk-ab4cba3394",
+                          "id": "lnk-fb75ece261",
                           "name": "Link HD 720p",
                           "type": "hls",
                           "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1778395289_hd/1778395289_hd@720p.m3u8",
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1778402023_hd/1778402023_hd@720p.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -4569,21 +4586,21 @@
             }
           ],
           "org_metadata": {
-            "league": "Rome Master 2026",
-            "team_a": "Casper Ruud",
-            "team_b": "Lehecka",
-            "logo_a": "https://static.flashscore.com/res/image/data/EwLW3og5-6NHltuug.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/AqYxUkCa-ne6Kkdx9.png",
-            "time": "16:00 10/05",
-            "blv": "BLV Ben",
+            "league": "ATP Rome, Italy Men Singles",
+            "team_a": "Alexander Blockx",
+            "team_b": "Alexander Zverev",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/c071d420407817f1ae8548b0f5e89b3c.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/Fs2AoS8fSPu9qB9HdwSDwQVAICOz",
+            "time": "18:00 10/05",
+            "blv": "BLV Người Hầu",
             "is_live": true,
-            "cate_type": "tennis"
+            "cate_name": "Tennis"
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-801460a748_f50b5873_20260510.png?v=f50b5873",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-693375ecb0_4ee432e9_20260510.png?v=4ee432e9",
             "width": 1600,
             "height": 1200
           }
@@ -4660,95 +4677,7 @@
           }
         },
         {
-          "id": "thapcam-693375ecb0",
-          "name": "Alexander Blockx vs Alexander Zverev | 18:00 10/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-693375ecb0",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-693375ecb0",
-                  "name": "Alexander Blockx vs Alexander Zverev",
-                  "streams": [
-                    {
-                      "id": "st-693375ecb0",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "src-02ae7ceb47",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-02ae7ceb47",
-                  "name": "Alexander Blockx vs Alexander Zverev",
-                  "streams": [
-                    {
-                      "id": "st-02ae7ceb47",
-                      "name": "Giovang - BLV Ben",
-                      "stream_links": [
-                        {
-                          "id": "lnk-fb75ece261",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1778402023_hd/1778402023_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "ATP Rome, Italy Men Singles",
-            "team_a": "Alexander Blockx",
-            "team_b": "Alexander Zverev",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/c071d420407817f1ae8548b0f5e89b3c.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/Fs2AoS8fSPu9qB9HdwSDwQVAICOz",
-            "time": "18:00 10/05",
-            "blv": "BLV Người Hầu",
-            "is_live": false,
-            "cate_name": "Tennis"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-693375ecb0_4ee432e9_20260510.png?v=4ee432e9",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "thapcam-0d7ffeb01e",
+          "id": "buncha-8254b1d77f",
           "name": "Learner Tien vs Alexander Bublik | 20:00 10/05",
           "type": "single",
           "display": "thumbnail-only",
@@ -4763,15 +4692,15 @@
           ],
           "sources": [
             {
-              "id": "src-0d7ffeb01e",
-              "name": "ThapcamTV",
+              "id": "src-8254b1d77f",
+              "name": "BunchaTV",
               "contents": [
                 {
-                  "id": "ct-0d7ffeb01e",
+                  "id": "ct-8254b1d77f",
                   "name": "Learner Tien vs Alexander Bublik",
                   "streams": [
                     {
-                      "id": "st-0d7ffeb01e",
+                      "id": "st-8254b1d77f",
                       "name": "KT",
                       "stream_links": []
                     }
@@ -4784,10 +4713,10 @@
             "league": "ATP Rome, Italy Men Singles",
             "team_a": "Learner Tien",
             "team_b": "Alexander Bublik",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/Fuue3ODA1VOSiquEuTM6LXhpoD4b",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/48b5ceec7c7af6986d4b60420aeaf160.png",
+            "logo_a": "https://cdn.rapid-api.icu/v2/team/Fuue3ODA1VOSiquEuTM6LXhpoD4b",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-dev/football/team/logo/48b5ceec7c7af6986d4b60420aeaf160.png",
             "time": "20:00 10/05",
-            "blv": "BLV Người Hầu",
+            "blv": "BLV Bún Mắm",
             "is_live": false,
             "cate_name": "Tennis"
           },
@@ -4795,7 +4724,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-0d7ffeb01e_266e3cd7_20260510.png?v=266e3cd7",
+            "url": "https://raw.githubusercontent.com/xixixius-ai/buncha-stream/refs/heads/main/thumbs/buncha-8254b1d77f_aee70b5d_20260510.png?v=aee70b5d",
             "width": 1600,
             "height": 1200
           }
@@ -4849,6 +4778,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Lorenzo Musett_Francisco Cerundolo_20-00 10-05_8206f61b_20260510.png?v=8206f61b",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-bbed465870",
+          "name": "Learner Tien vs Alexander Bublik | 20:20 10/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-bbed465870",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-bbed465870",
+                  "name": "Learner Tien vs Alexander Bublik",
+                  "streams": [
+                    {
+                      "id": "st-bbed465870",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "ATP Rome, Italy Men Singles",
+            "team_a": "Learner Tien",
+            "team_b": "Alexander Bublik",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/Fuue3ODA1VOSiquEuTM6LXhpoD4b",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/48b5ceec7c7af6986d4b60420aeaf160.png",
+            "time": "20:20 10/05",
+            "blv": "BLV Người Hầu",
+            "is_live": false,
+            "cate_name": "Tennis"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-bbed465870_266e3cd7_20260510.png?v=266e3cd7",
             "width": 1600,
             "height": 1200
           }
