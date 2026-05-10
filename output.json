@@ -602,7 +602,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (5 LIVE)",
+      "name": "⚽ Bóng Đá (6 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1145,10 +1145,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -1163,7 +1163,25 @@
                     {
                       "id": "st-ee4a475064",
                       "name": "HQ",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-6c4db806a9",
+                          "name": "BLV LƯƠNG BỔNG",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://yvm80526.edgemaxcdn.org/live/hqtv_blv_phanliem/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -1178,7 +1196,7 @@
             "logo_b": "https://upload.wikimedia.org/wikipedia/en/thumb/2/2c/FC_Machida_Zelvia_logo.svg/250px-FC_Machida_Zelvia_logo.svg.png",
             "time": "15:00 10/05",
             "blv": "BLV LƯƠNG BỔNG",
-            "is_live": false,
+            "is_live": true,
             "sport_slug": "bong-da"
           },
           "image": {
@@ -5644,6 +5662,77 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Shanxi Zhongyu_Zhejiang Guangsha_18-30 10-05_e73eca88_20260510.png?v=e73eca88",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-a1aff8adce",
+          "name": "Shanxi Zhongyu vs Zhejiang Guangsha | 18:35 10/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-a1aff8adce",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-a1aff8adce",
+                  "name": "Shanxi Zhongyu vs Zhejiang Guangsha",
+                  "streams": [
+                    {
+                      "id": "st-a1aff8adce",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-765571b59f",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1778398398_hd/1778398398_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "CBA",
+            "team_a": "Shanxi Zhongyu",
+            "team_b": "Zhejiang Guangsha",
+            "logo_a": "https://static.flashscore.com/res/image/data/jueCpIzB-0WRxKA5p.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/Qel3gyyB-4hG46oFE.png",
+            "time": "18:35 10/05",
+            "blv": "BLV Perry",
+            "is_live": false,
+            "cate_type": "basketball"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-a1aff8adce_f99dc8dc_20260510.png?v=f99dc8dc",
             "width": 1600,
             "height": 1200
           }
