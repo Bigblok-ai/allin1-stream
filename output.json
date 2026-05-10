@@ -602,7 +602,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (5 LIVE)",
+      "name": "⚽ Bóng Đá (6 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1067,6 +1067,94 @@
           }
         },
         {
+          "id": "thapcam-bb250cf1ed",
+          "name": "FC Tokyo vs Tokyo Verdy | 13:00 10/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-bb250cf1ed",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-bb250cf1ed",
+                  "name": "FC Tokyo vs Tokyo Verdy",
+                  "streams": [
+                    {
+                      "id": "st-bb250cf1ed",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-9672ed4e75",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-9672ed4e75",
+                  "name": "FC Tokyo vs Tokyo Verdy",
+                  "streams": [
+                    {
+                      "id": "st-9672ed4e75",
+                      "name": "Giovang - BLV Thìn",
+                      "stream_links": [
+                        {
+                          "id": "lnk-bc7737d88a",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1778356276_hd/1778356276_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Japanese J1 League",
+            "team_a": "FC Tokyo",
+            "team_b": "Tokyo Verdy",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/333df39860930a21cf72b4e9664723ab.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/2a8adb34e764602183a7bee8f51726e4.png",
+            "time": "13:00 10/05",
+            "blv": "BLV Tôn Quyền",
+            "is_live": true,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-bb250cf1ed_c48d4c32_20260510.png?v=c48d4c32",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "gv-29740fe291",
           "name": "Ulsan Hyundai vs Bucheon FC 1995 | 12:00 10/05",
           "type": "single",
@@ -1133,94 +1221,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-29740fe291_87008e15_20260510.png?v=87008e15",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "thapcam-bb250cf1ed",
-          "name": "FC Tokyo vs Tokyo Verdy | 13:00 10/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-bb250cf1ed",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-bb250cf1ed",
-                  "name": "FC Tokyo vs Tokyo Verdy",
-                  "streams": [
-                    {
-                      "id": "st-bb250cf1ed",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "src-9672ed4e75",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-9672ed4e75",
-                  "name": "FC Tokyo vs Tokyo Verdy",
-                  "streams": [
-                    {
-                      "id": "st-9672ed4e75",
-                      "name": "Giovang - BLV Thìn",
-                      "stream_links": [
-                        {
-                          "id": "lnk-bc7737d88a",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1778356276_hd/1778356276_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Japanese J1 League",
-            "team_a": "FC Tokyo",
-            "team_b": "Tokyo Verdy",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/333df39860930a21cf72b4e9664723ab.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/2a8adb34e764602183a7bee8f51726e4.png",
-            "time": "13:00 10/05",
-            "blv": "BLV Tôn Quyền",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-bb250cf1ed_c48d4c32_20260510.png?v=c48d4c32",
             "width": 1600,
             "height": 1200
           }
@@ -5185,7 +5185,7 @@
     },
     {
       "id": "grp-bóng-rổ",
-      "name": "🏀 Bóng Rổ (1 LIVE)",
+      "name": "🏀 Bóng Rổ (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -5269,10 +5269,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -5320,7 +5320,7 @@
             "logo_b": "https://static.flashscore.com/res/image/data/bJqKndg5-vaUV9HJq.png",
             "time": "13:00 10/05",
             "blv": "BLV Ben",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "basketball"
           },
           "image": {
