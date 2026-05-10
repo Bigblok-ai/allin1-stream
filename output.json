@@ -602,7 +602,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (11 LIVE)",
+      "name": "⚽ Bóng Đá (12 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -2120,6 +2120,112 @@
           }
         },
         {
+          "id": "thapcam-485f31c1f1",
+          "name": "Hamburger SV vs SC Freiburg | 20:30 10/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-485f31c1f1",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-485f31c1f1",
+                  "name": "Hamburger SV vs SC Freiburg",
+                  "streams": [
+                    {
+                      "id": "st-485f31c1f1",
+                      "name": "KT",
+                      "stream_links": [
+                        {
+                          "id": "lnk-dd2cccb67c",
+                          "name": "BLV Chân Đất",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.phogatv8.com/live/6a0080f8137e5_145/index.m3u8?expire=1779022712&sign=619df5d67c087bdf1a7ac354cbb19b4f",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-56849097c9",
+              "name": "BunchaTV",
+              "contents": [
+                {
+                  "id": "ct-56849097c9",
+                  "name": "Hamburger SV vs SC Freiburg",
+                  "streams": [
+                    {
+                      "id": "st-56849097c9",
+                      "name": "Buncha - BLV Cá Chép",
+                      "stream_links": [
+                        {
+                          "id": "lnk-94c245c078",
+                          "name": "BLV Cá Chép",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.taoxanh.biz/live/6a007fca42283_79/index.m3u8?expire=1779022410&sign=f2a80e446d596c9464d4b7bee2b3b06c",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://bunchatv4.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Bundesliga",
+            "team_a": "Hamburger SV",
+            "team_b": "SC Freiburg",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/81f8f9e258e6b73bc522bab06730720a.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/6508946c9a5fe22a8784b905b25e8c79.png",
+            "time": "20:30 10/05",
+            "blv": "BLV Chân Đất",
+            "is_live": true,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-485f31c1f1_1ebe2ec5_20260510.png?v=1ebe2ec5",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "hqlive-c05d42f97e",
           "name": "CAHN vs Nam Dinh | 19:15 10/05",
           "type": "single",
@@ -2186,59 +2292,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/CAHN_Nam Dinh_19-15 10-05_f360c8fc_20260510.png?v=f360c8fc",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "thapcam-485f31c1f1",
-          "name": "Hamburger SV vs SC Freiburg | 20:30 10/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-485f31c1f1",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-485f31c1f1",
-                  "name": "Hamburger SV vs SC Freiburg",
-                  "streams": [
-                    {
-                      "id": "st-485f31c1f1",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Bundesliga",
-            "team_a": "Hamburger SV",
-            "team_b": "SC Freiburg",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/81f8f9e258e6b73bc522bab06730720a.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/6508946c9a5fe22a8784b905b25e8c79.png",
-            "time": "20:30 10/05",
-            "blv": "BLV Chân Đất",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-485f31c1f1_1ebe2ec5_20260510.png?v=1ebe2ec5",
             "width": 1600,
             "height": 1200
           }
