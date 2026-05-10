@@ -421,10 +421,12 @@ def main():
         "id": "allin1-stream",
         "name": "All In 1 Stream",
         "version": "V1.0",
-        "description": "⚽ Bóng Đá, 🎾 Tennis, 🏸 Cầu Lông, 🏀 Bóng Rổ, 🎱 Billiards, 🏐 Bóng Chuyền, 🏎️ Đua Xe F1, 🏓 Bóng Bàn, 🥊 Võ Thuật, 🏸 Pickleball",
+        "color": "#1cb57a",
+        "grid_number": 3,
+        "description": "This file does not stream any of the included channels, all streaming links are from third-party websites available freely on the internet. This is simply to provide a link to stream, and all content is copyright of their owner.",
         "image": {
             "type": "cover",
-            "url": "https://github.com/Bigblok-ai/allin1-stream/blob/main/logo.png"
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/allin1-stream/main/logo.png"
         },
         "groups": copy.deepcopy(GROUP_SKELETON)
     }
