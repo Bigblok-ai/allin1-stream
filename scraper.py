@@ -6,6 +6,7 @@ import re
 import unicodedata
 from datetime import datetime, timedelta, timezone
 from concurrent.futures import ThreadPoolExecutor
+from collections import defaultdict  # ★ BỔ SUNG IMPORT NÀY ĐỂ GOM KÊNH
 
 # ==========================================
 # CONFIG
@@ -49,7 +50,6 @@ GROUP_SKELETON = [
 # BẢNG DỊCH TÊN (exact match trên toàn bộ tên đã normalize)
 # ==========================================
 VI_EN_MAP = {
-    # Quốc gia
     "duc": "germany",
     "nhat ban": "japan",
     "trung quoc": "china",
@@ -64,17 +64,14 @@ VI_EN_MAP = {
     "an do": "india",
     "trieu tien": "north korea",
     "thai lan": "thailand",
-    # Đội bóng V-League
     "ha noi": "hanoi",
     "thanh hoa": "thanh hoa",
     "phu dong": "ninh binh",
     "hai phong": "hai phong",
     "ninh binh": "ninh binh",
     "xm hai phong": "hai phong",
-    # Võ thuật
     "chau la": "zhou luo",
     "ban van hoang": "ban van hoang",
-    # Tên gọi tắt / biệt danh
     "wolves": "wolverhampton",
     "celta vigo": "celta vigo",
     "rc celta": "celta vigo",
@@ -97,17 +94,12 @@ VI_EN_MAP = {
     "manchester united": "manchester united",
     "inter milan": "inter milan",
     "fc inter milan": "inter milan",
-    # ★ MỚI: Viết tắt
     "psg": "paris saint germain",
-    # ★ MỚI: Tên đội biến thể
     "athletico pr": "athletico paranaense",
     "atletico paranaense": "athletico paranaense",
     "stade brestois": "brest",
 }
 
-# ★ MỚI: Bảng dịch tên nước (substring replacement trong tên đội)
-# Key = không dấu, value = canonical English
-# Sắp xếp theo độ dài giảm dần để tránh thay sai (vd "tay ban nha" trước "ban")
 COUNTRY_MAP = {
     "tay ban nha": "spain",
     "trung quoc": "china",
@@ -143,7 +135,6 @@ def normalize_cate_name(name):
     return re.sub(r'\s*\(\d+\s+\w+\)\s*$', '', name, flags=re.IGNORECASE).strip()
 
 def remove_diacritics(text):
-    """Bỏ dấu tiếng Việt: 'Thanh Hóa' → 'Thanh Hoa', 'Đức' → 'Duc'"""
     text = text.replace('Đ', 'D').replace('đ', 'd')
     normalized = unicodedata.normalize('NFD', text)
     return ''.join(c for c in normalized if unicodedata.category(c) != 'Mn')
@@ -197,49 +188,27 @@ def parse_match_datetime(time_str):
         pass
     return None
 
-# ──────────────────────────────────────────
-# ★ SỬA: Normalize tên đội - thêm hyphen, 
-# gender markers, country translation
-# ──────────────────────────────────────────
 def normalize_team_for_match(name):
-    """Chuẩn hóa tên đội → dạng canonical để so khớp."""
     if not name:
         return ""
-
-    # 1. Strip + collapse whitespace
     name = " ".join(name.strip().split())
-
-    # 2. Bỏ dấu tiếng Việt (bao gồm Đ/đ)
     name = remove_diacritics(name)
-
-    # 3. Lowercase
     name = name.lower()
-
-    # 4. ★ MỚI: Normalize gạch ngang và chấm → khoảng trắng
     name = name.replace("-", " ").replace(".", " ")
     name = " ".join(name.split())
-
-    # 5. ★ MỚI: Bỏ viết tắt "Rep." / "Rep" (Korea Rep. → Korea)
     name = re.sub(r'\brep\b', '', name, flags=re.IGNORECASE)
     name = " ".join(name.split())
-
-    # 6. ★ MỚI: Bỏ gender markers khi có U-age (U17, U23...)
-    #    Chỉ bỏ khi có pattern "U<number>" để tránh bỏ "W" trong tên CLB
     if re.search(r'u\d+', name):
-        name = re.sub(r'\s*\(w\)\s*', ' ', name, flags=re.IGNORECASE)   # "(w)"
-        name = re.sub(r'\bwomen\b', '', name, flags=re.IGNORECASE)      # "Women"
-        name = re.sub(r'\bnu\b', '', name, flags=re.IGNORECASE)         # "Nữ" → "nu"
-        name = re.sub(r'\bw\s*(?=u\d+)', '', name, flags=re.IGNORECASE) # "W U17" → "U17"
-        name = re.sub(r'(u\d+)\s*w\b', r'\1', name, flags=re.IGNORECASE)# "U17 W" → "U17"
+        name = re.sub(r'\s*\(w\)\s*', ' ', name, flags=re.IGNORECASE)
+        name = re.sub(r'\bwomen\b', '', name, flags=re.IGNORECASE)
+        name = re.sub(r'\bnu\b', '', name, flags=re.IGNORECASE)
+        name = re.sub(r'\bw\s*(?=u\d+)', '', name, flags=re.IGNORECASE)
+        name = re.sub(r'(u\d+)\s*w\b', r'\1', name, flags=re.IGNORECASE)
         name = " ".join(name.split())
-
-    # 7. Bỏ prefix (CLB, TTBD, …)
     for prefix in ["clb ", "ttbd ", "dclb ", "sb "]:
         if name.startswith(prefix):
             name = name[len(prefix):]
             break
-
-    # 8. Bỏ suffix (FC, AFC, Club, …)
     for suffix in [
         " football club", " f.c.", " fc", " cf", " sc", " ac", " afc",
         " s.c.", " a.f.c.", " c.d.", " cd", " sv", " e.v.",
@@ -248,30 +217,19 @@ def normalize_team_for_match(name):
         if name.endswith(suffix):
             name = name[:-len(suffix)]
             break
-
-    # 9. Bỏ số đứng riêng (nhưng KHÔNG bỏ số trong "U17")
-    #    \b\d+\b không match "17" trong "u17" vì giữa 'u' và '1' không có word boundary
     name = re.sub(r'\b\d+\b', '', name)
     name = " ".join(name.split())
-
-    # 10. ★ MỚI: Thay tên nước tiếng Việt → tiếng Anh (substring, longest first)
     for vi_name, en_name in sorted(COUNTRY_MAP.items(), key=lambda x: -len(x[0])):
         pattern = r'\b' + re.escape(vi_name) + r'\b'
         if re.search(pattern, name):
             name = re.sub(pattern, en_name, name, count=1)
             break
     name = " ".join(name.split())
-
-    # 11. Tra bảng dịch VI_EN_MAP (exact match toàn chuỗi)
     name_clean = name.strip()
     if name_clean in VI_EN_MAP:
         return VI_EN_MAP[name_clean]
-
     return name_clean
 
-# ──────────────────────────────────────────
-# So khớp 2 đội
-# ──────────────────────────────────────────
 def teams_match(team_a, team_b, old_a, old_b):
     norm_a = normalize_team_for_match(team_a)
     norm_b = normalize_team_for_match(team_b)
@@ -357,37 +315,49 @@ def extract_sort_key(channel):
     return (2, 99, 99, 99, 99)
 
 # ==========================================
-# LOGIC KÊNH TRUYỀN HÌNH
+# ★ SỬA: LOGIC KÊNH TRUYỀN HÌNH - GOM LINK CÙNG TÊN
 # ==========================================
-def convert_ch(ch, i):
-    return {
-        "id": f"tv-{i}",
-        "name": ch["name"],
-        "type": "single",
-        "display": "thumbnail-only",
-        "enable_detail": False,
-        "labels": [
-            {"text": "● LIVE", "position": "top-left", "color": "#00000080", "text_color": "#ff4444"}
-        ],
-        "sources": [
-            {
-                "id": f"src-tv-{i}",
-                "name": "TV Channel",
+def build_tv_channels(tv_list):
+    # 1. Gộp các link có cùng tên kênh lại
+    grouped = defaultdict(list)
+    for ch in tv_list:
+        grouped[ch["name"]].append(ch)
+
+    # 2. Tạo cấu trúc channel chuẩn với nhiều sources
+    channels = []
+    for i, (name, variants) in enumerate(grouped.items()):
+        # Lấy logo của link đầu tiên tìm thấy
+        logo = variants[0].get("logo", "")
+
+        # Tạo nhiều sources cho cùng 1 kênh (để dự phòng nếu link 1 die)
+        sources = []
+        for j, var in enumerate(variants):
+            # Tự động lấy tên domain làm tên Source cho dễ nhận biết
+            try:
+                domain = var["url"].split("//")[1].split("/")[0]
+                domain_parts = domain.split(".")
+                src_name = f"Source {j+1} - {domain_parts[-2] if len(domain_parts) > 1 else domain}"
+            except:
+                src_name = f"Source {j+1}"
+
+            sources.append({
+                "id": f"src-tv-{i}-{j}",
+                "name": src_name,
                 "contents": [
                     {
-                        "id": f"ct-tv-{i}",
-                        "name": ch["name"],
+                        "id": f"ct-tv-{i}-{j}",
+                        "name": name,
                         "streams": [
                             {
-                                "id": f"st-tv-{i}",
+                                "id": f"st-tv-{i}-{j}",
                                 "name": "KT",
                                 "stream_links": [
                                     {
-                                        "id": f"lnk-tv-{i}",
-                                        "name": "Link 1",
+                                        "id": f"lnk-tv-{i}-{j}",
+                                        "name": f"Link {j+1}",
                                         "type": "hls",
-                                        "default": True,
-                                        "url": ch["url"],
+                                        "default": j == 0,
+                                        "url": var["url"],
                                         "request_headers": []
                                     }
                                 ]
@@ -395,23 +365,37 @@ def convert_ch(ch, i):
                         ]
                     }
                 ]
+            })
+
+        # Đóng gói thành 1 kênh hoàn chỉnh
+        channel_obj = {
+            "id": f"tv-{i}",
+            "name": name,
+            "type": "single",
+            "display": "thumbnail-only",
+            "enable_detail": False,
+            "labels": [
+                {"text": "● LIVE", "position": "top-left", "color": "#00000080", "text_color": "#ff4444"}
+            ],
+            "sources": sources,
+            "org_metadata": {
+                "is_live": True,
+                "time": "",
+                "team_a": name,
+                "team_b": ""
+            },
+            "image": {
+                "padding": 1,
+                "background_color": "#ffffff",
+                "display": "contain",
+                "url": logo,
+                "width": 1600,
+                "height": 1200
             }
-        ],
-        "org_metadata": {
-            "is_live": True,
-            "time": "",
-            "team_a": ch["name"],
-            "team_b": ""
-        },
-        "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": ch.get("logo", ""),
-            "width": 1600,
-            "height": 1200
         }
-    }
+        channels.append(channel_obj)
+
+    return channels
 
 # ==========================================
 # MAIN LOGIC
@@ -517,14 +501,15 @@ def main():
                             existing_channel["sources"].append(temp_src)
 
     # ─────────────────────────────────────────────────────────────────
-    # BƯỚC 2: GỘP KÊNH TRUYỀN HÌNH
+    # ★ BƯỚC 2: GỘP KÊNH TRUYỀN HÌNH (ĐÃ SỬA LỖI TRÙNG)
     # ─────────────────────────────────────────────────────────────────
     try:
         if os.path.exists(HOIQUAN_FILE):
             with open(HOIQUAN_FILE, "r", encoding="utf-8") as f:
                 tv_list = json.load(f)
             if tv_list:
-                tv_channels = build_tv_channels(tv_list) # <-- GỌI HÀM GOM NHÓM CỦA CODE 1
+                # Gọi hàm gom nhóm thay vì tạo thẳng như cũ
+                tv_channels = build_tv_channels(tv_list)
                 
                 tv_group = {
                     "id": "grp-tv-hoiquan",
@@ -532,7 +517,7 @@ def main():
                     "display": "vertical",
                     "grid_number": 2,
                     "enable_detail": False,
-                    "channels": tv_channels # <-- ĐỂ DANH SÁCH ĐÃ ĐƯỢC GOM
+                    "channels": tv_channels
                 }
                 final_data["groups"].insert(0, tv_group)
                 print(f"Da gom {len(tv_list)} link tu {len(tv_channels)} kenh truyen hinh vao output.")
