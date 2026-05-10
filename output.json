@@ -602,7 +602,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (1 LIVE)",
+      "name": "⚽ Bóng Đá (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -721,10 +721,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -739,7 +739,60 @@
                     {
                       "id": "st-7849cb8dd8",
                       "name": "KT",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-667fd39281",
+                          "name": "BLV Jayce",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.phogatv8.com/live/69ffc1c651ddc_181/index.m3u8?expire=1778973766&sign=8d98b4fde665a252fb09248df5954967",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-24e324caa2",
+              "name": "BunchaTV",
+              "contents": [
+                {
+                  "id": "ct-24e324caa2",
+                  "name": "Bahia vs Cruzeiro Esporte Clube",
+                  "streams": [
+                    {
+                      "id": "st-24e324caa2",
+                      "name": "Buncha - BLV Jackey",
+                      "stream_links": [
+                        {
+                          "id": "lnk-f998a6e799",
+                          "name": "BLV Jackey",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.taoxanh.biz/live/69ffc753203f5_153967/index.m3u8?expire=1778975187&sign=48be74934bdeab08c2bc9e5e058563bb",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://bunchatv4.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -754,7 +807,7 @@
             "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/b1cac6380900d22bdb0d31763c658434.png",
             "time": "07:00 10/05",
             "blv": "BLV Jayce",
-            "is_live": false,
+            "is_live": true,
             "cate_name": "Bóng đá"
           },
           "image": {
