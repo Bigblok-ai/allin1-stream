@@ -628,11 +628,82 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "buncha-894abc0325",
+          "name": "Pachuca vs Toluca | 06:00 11/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-894abc0325",
+              "name": "BunchaTV",
+              "contents": [
+                {
+                  "id": "ct-894abc0325",
+                  "name": "Pachuca vs Toluca",
+                  "streams": [
+                    {
+                      "id": "st-894abc0325",
+                      "name": "KT",
+                      "stream_links": [
+                        {
+                          "id": "lnk-67bd99947e",
+                          "name": "BLV A  Chun",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.taoxanh.biz/live/6a01095a42284_95554/index.m3u8?expire=1779057626&sign=86c88180e009ea1aef6ecbd9af3ed2f8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://bunchatv4.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Mexico Liga MX",
+            "team_a": "Pachuca",
+            "team_b": "Toluca",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-dev/football/team/logo/cff411edceeeb7c1677d9db65ce47164.png",
+            "logo_b": "https://cdn.rapid-api.icu/football/team/725ccd5793be6b4f8dd917170dd17d04.png",
+            "time": "06:00 11/05",
+            "blv": "BLV A  Chun",
+            "is_live": true,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/xixixius-ai/buncha-stream/refs/heads/main/thumbs/buncha-894abc0325_1fdb46e6_20260511.png?v=1fdb46e6",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "gv-f4d080ecb2",
           "name": "Corinthians vs São Paulo | 04:30 11/05",
@@ -806,59 +877,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-7c46a22f66_b729650a_20260511.png?v=b729650a",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "buncha-894abc0325",
-          "name": "Pachuca vs Toluca | 06:00 11/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-894abc0325",
-              "name": "BunchaTV",
-              "contents": [
-                {
-                  "id": "ct-894abc0325",
-                  "name": "Pachuca vs Toluca",
-                  "streams": [
-                    {
-                      "id": "st-894abc0325",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Mexico Liga MX",
-            "team_a": "Pachuca",
-            "team_b": "Toluca",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-dev/football/team/logo/cff411edceeeb7c1677d9db65ce47164.png",
-            "logo_b": "https://cdn.rapid-api.icu/football/team/725ccd5793be6b4f8dd917170dd17d04.png",
-            "time": "06:00 11/05",
-            "blv": "BLV A  Chun",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/xixixius-ai/buncha-stream/refs/heads/main/thumbs/buncha-894abc0325_1fdb46e6_20260511.png?v=1fdb46e6",
             "width": 1600,
             "height": 1200
           }
@@ -1675,59 +1693,6 @@
           }
         },
         {
-          "id": "thapcam-3f364aa43c",
-          "name": "Spartak Moscow vs Rubin Kazan | 21:30 11/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-3f364aa43c",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-3f364aa43c",
-                  "name": "Spartak Moscow vs Rubin Kazan",
-                  "streams": [
-                    {
-                      "id": "st-3f364aa43c",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Russian Premier League",
-            "team_a": "Spartak Moscow",
-            "team_b": "Rubin Kazan",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/b989806732eaf15246ab56e07d0b8a2e.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/db58fdf26d9c934236772a9721fa750b.png",
-            "time": "21:30 11/05",
-            "blv": "BLV Người Lạ",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-3f364aa43c_58d88622_20260511.png?v=58d88622",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "thapcam-fbb3636d5e",
           "name": "Al-Najaf vs Erbil SC | 21:30 11/05",
           "type": "single",
@@ -1776,6 +1741,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-fbb3636d5e_79ac2533_20260511.png?v=79ac2533",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-3f364aa43c",
+          "name": "Spartak Moscow vs Rubin Kazan | 21:30 11/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-3f364aa43c",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-3f364aa43c",
+                  "name": "Spartak Moscow vs Rubin Kazan",
+                  "streams": [
+                    {
+                      "id": "st-3f364aa43c",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Russian Premier League",
+            "team_a": "Spartak Moscow",
+            "team_b": "Rubin Kazan",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/b989806732eaf15246ab56e07d0b8a2e.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/db58fdf26d9c934236772a9721fa750b.png",
+            "time": "21:30 11/05",
+            "blv": "BLV Người Lạ",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-3f364aa43c_58d88622_20260511.png?v=58d88622",
             "width": 1600,
             "height": 1200
           }
@@ -2571,6 +2589,200 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-2098a86c97_12352c54_20260511.png?v=12352c54",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-dad23479d1",
+          "name": "Tottenham Hotspur vs Leeds United | 02:00 12/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-dad23479d1",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-dad23479d1",
+                  "name": "Tottenham Hotspur vs Leeds United",
+                  "streams": [
+                    {
+                      "id": "st-dad23479d1",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-d55910253a",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-d55910253a",
+                  "name": "Tottenham Hotspur vs Leeds United",
+                  "streams": [
+                    {
+                      "id": "st-d55910253a",
+                      "name": "Giovang - BLV Câm, BLV Dần",
+                      "stream_links": [
+                        {
+                          "id": "lnk-83331f0b11",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1778427036_hd/1778427036_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "English Premier League",
+            "team_a": "Tottenham Hotspur",
+            "team_b": "Leeds United",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/8b22ab4041e666b996a2d96f20dea707.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/1d7680c902207ad6cc3a40bc5125bdf5.png",
+            "time": "02:00 12/05",
+            "blv": "BLV Siêu Bướng",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-dad23479d1_b4b67e02_20260511.png?v=b4b67e02",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-e509312458",
+          "name": "Rayo Vallecano vs Girona FC | 02:00 12/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-e509312458",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-e509312458",
+                  "name": "Rayo Vallecano vs Girona FC",
+                  "streams": [
+                    {
+                      "id": "st-e509312458",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Spanish La Liga",
+            "team_a": "Rayo Vallecano",
+            "team_b": "Girona FC",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/5005d8feab109ce64e40beb98073cc1f.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/006ce259b33ef72dd5570cfa8dc39f38.png",
+            "time": "02:00 12/05",
+            "blv": "BLV Người Đá",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-e509312458_0b45d085_20260511.png?v=0b45d085",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-14675dbdf2",
+          "name": "Millwall vs Hull City | 02:00 12/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-14675dbdf2",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-14675dbdf2",
+                  "name": "Millwall vs Hull City",
+                  "streams": [
+                    {
+                      "id": "st-14675dbdf2",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "English Football League Championship",
+            "team_a": "Millwall",
+            "team_b": "Hull City",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/0ae228b68fbaf8bb4accc5fafe482a43.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/262691204102d2200797f0ac34efb316.png",
+            "time": "02:00 12/05",
+            "blv": "BLV Người Lạ",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-14675dbdf2_409dea43_20260511.png?v=409dea43",
             "width": 1600,
             "height": 1200
           }
