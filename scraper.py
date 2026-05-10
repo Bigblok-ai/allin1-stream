@@ -6,7 +6,6 @@ import re
 import unicodedata
 from datetime import datetime, timedelta, timezone
 from concurrent.futures import ThreadPoolExecutor
-from collections import defaultdict
 
 # ==========================================
 # CONFIG
@@ -33,11 +32,8 @@ SOURCES = [
 ]
 
 HOIQUAN_FILE = "hoiquan.json"
-
-# ★ Giới hạn thời gian cho Bóng Đá (giờ)
 FOOTBALL_TIME_LIMIT_HOURS = 20
 
-# Múi giờ Việt Nam
 try:
     from zoneinfo import ZoneInfo
     VIETNAM_TZ = ZoneInfo("Asia/Ho_Chi_Minh")
@@ -50,8 +46,7 @@ GROUP_SKELETON = [
 ]
 
 # ==========================================
-# BẢNG DỊCH TÊN TIẾNG VIỆT ↔ TIẾNG ANH
-# (key = không dấu, value = canonical)
+# BẢNG DỊCH TÊN (exact match trên toàn bộ tên đã normalize)
 # ==========================================
 VI_EN_MAP = {
     # Quốc gia
@@ -60,11 +55,15 @@ VI_EN_MAP = {
     "trung quoc": "china",
     "dai loan": "chinese taipei",
     "phap": "france",
-    "han quoc": "south korea",
+    "han quoc": "korea",
     "anh": "england",
     "y": "italy",
     "tay ban nha": "spain",
     "my": "united states",
+    "viet nam": "vietnam",
+    "an do": "india",
+    "trieu tien": "north korea",
+    "thai lan": "thailand",
     # Đội bóng V-League
     "ha noi": "hanoi",
     "thanh hoa": "thanh hoa",
@@ -75,7 +74,7 @@ VI_EN_MAP = {
     # Võ thuật
     "chau la": "zhou luo",
     "ban van hoang": "ban van hoang",
-    # Tên gọi tắt / biệt danh đội nước ngoài
+    # Tên gọi tắt / biệt danh
     "wolves": "wolverhampton",
     "celta vigo": "celta vigo",
     "rc celta": "celta vigo",
@@ -98,6 +97,30 @@ VI_EN_MAP = {
     "manchester united": "manchester united",
     "inter milan": "inter milan",
     "fc inter milan": "inter milan",
+    # ★ MỚI: Viết tắt
+    "psg": "paris saint germain",
+    # ★ MỚI: Tên đội biến thể
+    "athletico pr": "athletico paranaense",
+    "atletico paranaense": "athletico paranaense",
+    "stade brestois": "brest",
+}
+
+# ★ MỚI: Bảng dịch tên nước (substring replacement trong tên đội)
+# Key = không dấu, value = canonical English
+# Sắp xếp theo độ dài giảm dần để tránh thay sai (vd "tay ban nha" trước "ban")
+COUNTRY_MAP = {
+    "tay ban nha": "spain",
+    "trung quoc": "china",
+    "nhat ban": "japan",
+    "trieu tien": "north korea",
+    "han quoc": "korea",
+    "thai lan": "thailand",
+    "viet nam": "vietnam",
+    "an do": "india",
+    "duc": "germany",
+    "phap": "france",
+    "anh": "england",
+    "dai loan": "chinese taipei",
 }
 
 # ==========================================
@@ -117,66 +140,45 @@ def fetch_json(url):
         return None
 
 def normalize_cate_name(name):
-    """Bỏ suffix '(X LIVE)' khỏi tên group"""
     return re.sub(r'\s*\(\d+\s+\w+\)\s*$', '', name, flags=re.IGNORECASE).strip()
 
 def remove_diacritics(text):
-    """Bỏ dấu tiếng Việt: 'Thanh Hóa' → 'Thanh Hoa', 'Đức' → 'Duc'
-    
-    ★ FIX: Thay Đ/đ TRƯỚC khi NFD vì NFD không phân rã được stroke (U+0110/U+0111)
-    """
+    """Bỏ dấu tiếng Việt: 'Thanh Hóa' → 'Thanh Hoa', 'Đức' → 'Duc'"""
     text = text.replace('Đ', 'D').replace('đ', 'd')
     normalized = unicodedata.normalize('NFD', text)
     return ''.join(c for c in normalized if unicodedata.category(c) != 'Mn')
 
-# ──────────────────────────────────────────
-# Normalize thời gian
-# ──────────────────────────────────────────
 def normalize_time_for_match(time_val, date_val=""):
-    """Chuẩn hóa mọi format thời gian → 'HH:MM DD/MM' hoặc '' (LIVE)."""
     time_val = time_val.strip()
     date_val = date_val.strip()
-
     if not time_val:
         return ""
-
     if re.match(r'^\d{1,2}:\d{2}\s+\d{1,2}/\d{1,2}$', time_val):
         return time_val.lower()
-
     parts = time_val.split(":")
     if len(parts) == 3:
         hh_mm = f"{parts[0]}:{parts[1]}"
         if date_val:
             return f"{hh_mm} {date_val}".lower()
         return hh_mm.lower()
-
     if re.match(r'^\d{1,2}:\d{2}$', time_val):
         if date_val:
             return f"{time_val} {date_val}".lower()
         return time_val.lower()
-
     return time_val.lower()
 
 def normalize_time_in_channel(channel):
-    """Normalize GiovangTV time format: 'HH:MM:SS' + date → 'HH:MM DD/MM'
-    Đồng thời XÓA field 'date' để tránh trùng lặp."""
     meta = channel.get("org_metadata", {})
     time_val = meta.get("time", "").strip()
     date_val = meta.get("date", "").strip()
-
     if time_val and date_val:
         parts = time_val.split(":")
         if len(parts) == 3:
             meta["time"] = f"{parts[0]}:{parts[1]} {date_val}"
             meta.pop("date", None)
-
     return channel
 
-# ──────────────────────────────────────────
-# Parse thời gian trận → datetime
-# ──────────────────────────────────────────
 def parse_match_datetime(time_str):
-    """Parse 'HH:MM DD/MM' → datetime (múi giờ VN, năm hiện tại)."""
     if not time_str:
         return None
     try:
@@ -196,20 +198,48 @@ def parse_match_datetime(time_str):
     return None
 
 # ──────────────────────────────────────────
-# Normalize tên đội cho so khớp
+# ★ SỬA: Normalize tên đội - thêm hyphen, 
+# gender markers, country translation
 # ──────────────────────────────────────────
 def normalize_team_for_match(name):
+    """Chuẩn hóa tên đội → dạng canonical để so khớp."""
     if not name:
         return ""
+
+    # 1. Strip + collapse whitespace
     name = " ".join(name.strip().split())
+
+    # 2. Bỏ dấu tiếng Việt (bao gồm Đ/đ)
     name = remove_diacritics(name)
+
+    # 3. Lowercase
     name = name.lower()
 
+    # 4. ★ MỚI: Normalize gạch ngang và chấm → khoảng trắng
+    name = name.replace("-", " ").replace(".", " ")
+    name = " ".join(name.split())
+
+    # 5. ★ MỚI: Bỏ viết tắt "Rep." / "Rep" (Korea Rep. → Korea)
+    name = re.sub(r'\brep\b', '', name, flags=re.IGNORECASE)
+    name = " ".join(name.split())
+
+    # 6. ★ MỚI: Bỏ gender markers khi có U-age (U17, U23...)
+    #    Chỉ bỏ khi có pattern "U<number>" để tránh bỏ "W" trong tên CLB
+    if re.search(r'u\d+', name):
+        name = re.sub(r'\s*\(w\)\s*', ' ', name, flags=re.IGNORECASE)   # "(w)"
+        name = re.sub(r'\bwomen\b', '', name, flags=re.IGNORECASE)      # "Women"
+        name = re.sub(r'\bnu\b', '', name, flags=re.IGNORECASE)         # "Nữ" → "nu"
+        name = re.sub(r'\bw\s*(?=u\d+)', '', name, flags=re.IGNORECASE) # "W U17" → "U17"
+        name = re.sub(r'(u\d+)\s*w\b', r'\1', name, flags=re.IGNORECASE)# "U17 W" → "U17"
+        name = " ".join(name.split())
+
+    # 7. Bỏ prefix (CLB, TTBD, …)
     for prefix in ["clb ", "ttbd ", "dclb ", "sb "]:
         if name.startswith(prefix):
             name = name[len(prefix):]
             break
 
+    # 8. Bỏ suffix (FC, AFC, Club, …)
     for suffix in [
         " football club", " f.c.", " fc", " cf", " sc", " ac", " afc",
         " s.c.", " a.f.c.", " c.d.", " cd", " sv", " e.v.",
@@ -219,9 +249,20 @@ def normalize_team_for_match(name):
             name = name[:-len(suffix)]
             break
 
+    # 9. Bỏ số đứng riêng (nhưng KHÔNG bỏ số trong "U17")
+    #    \b\d+\b không match "17" trong "u17" vì giữa 'u' và '1' không có word boundary
     name = re.sub(r'\b\d+\b', '', name)
     name = " ".join(name.split())
 
+    # 10. ★ MỚI: Thay tên nước tiếng Việt → tiếng Anh (substring, longest first)
+    for vi_name, en_name in sorted(COUNTRY_MAP.items(), key=lambda x: -len(x[0])):
+        pattern = r'\b' + re.escape(vi_name) + r'\b'
+        if re.search(pattern, name):
+            name = re.sub(pattern, en_name, name, count=1)
+            break
+    name = " ".join(name.split())
+
+    # 11. Tra bảng dịch VI_EN_MAP (exact match toàn chuỗi)
     name_clean = name.strip()
     if name_clean in VI_EN_MAP:
         return VI_EN_MAP[name_clean]
@@ -269,12 +310,8 @@ def teams_match(team_a, team_b, old_a, old_b):
 
     return False
 
-# ──────────────────────────────────────────
-# Tìm index trận trùng
-# ──────────────────────────────────────────
 def find_channel_index(time_val, team_a, team_b, channels_list, date_val=""):
     norm_time = normalize_time_for_match(time_val, date_val)
-
     for i, ch in enumerate(channels_list):
         meta = ch.get("org_metadata", {})
         old_time_raw = meta.get("time", "").strip()
@@ -297,9 +334,6 @@ def find_channel_index(time_val, team_a, team_b, channels_list, date_val=""):
 
     return -1
 
-# ──────────────────────────────────────────
-# Sort key
-# ──────────────────────────────────────────
 def extract_sort_key(channel):
     meta = channel.get("org_metadata", {})
     is_live = meta.get("is_live", False)
@@ -323,50 +357,37 @@ def extract_sort_key(channel):
     return (2, 99, 99, 99, 99)
 
 # ==========================================
-# LOGIC KÊNH TRUYỀN HÌNH (ĐÃ NÂNG CẤP GOM LINK)
+# LOGIC KÊNH TRUYỀN HÌNH
 # ==========================================
-def build_tv_channels(tv_list):
-    # 1. Gộp các link có cùng tên kênh lại
-    grouped = defaultdict(list)
-    for ch in tv_list:
-        grouped[ch["name"]].append(ch)
-
-    # 2. Tạo cấu trúc channel chuẩn với nhiều sources
-    channels = []
-    for i, (name, variants) in enumerate(grouped.items()):
-        # Lấy logo của link đầu tiên tìm thấy
-        logo = variants[0].get("logo", "")
-
-        # Tạo nhiều sources cho cùng 1 kênh (để dự phòng nếu link 1 die)
-        sources = []
-        for j, var in enumerate(variants):
-            # Tự động lấy tên domain làm tên Source cho dễ nhận biết
-            try:
-                domain = var["url"].split("//")[1].split("/")[0]
-                domain_parts = domain.split(".")
-                # Lấy phần tên chính của domain (VD: duckdns, fptplay53)
-                src_name = f"Source {j+1} - {domain_parts[-2] if len(domain_parts) > 1 else domain}"
-            except:
-                src_name = f"Source {j+1}"
-
-            sources.append({
-                "id": f"src-tv-{i}-{j}",
-                "name": src_name,
+def convert_ch(ch, i):
+    return {
+        "id": f"tv-{i}",
+        "name": ch["name"],
+        "type": "single",
+        "display": "thumbnail-only",
+        "enable_detail": False,
+        "labels": [
+            {"text": "● LIVE", "position": "top-left", "color": "#00000080", "text_color": "#ff4444"}
+        ],
+        "sources": [
+            {
+                "id": f"src-tv-{i}",
+                "name": "TV Channel",
                 "contents": [
                     {
-                        "id": f"ct-tv-{i}-{j}",
-                        "name": name,
+                        "id": f"ct-tv-{i}",
+                        "name": ch["name"],
                         "streams": [
                             {
-                                "id": f"st-tv-{i}-{j}",
+                                "id": f"st-tv-{i}",
                                 "name": "KT",
                                 "stream_links": [
                                     {
-                                        "id": f"lnk-tv-{i}-{j}",
-                                        "name": f"Link {j+1}",
+                                        "id": f"lnk-tv-{i}",
+                                        "name": "Link 1",
                                         "type": "hls",
-                                        "default": j == 0, # Link đầu tiên mặc định là True, các link sau là False
-                                        "url": var["url"],
+                                        "default": True,
+                                        "url": ch["url"],
                                         "request_headers": []
                                     }
                                 ]
@@ -374,54 +395,38 @@ def build_tv_channels(tv_list):
                         ]
                     }
                 ]
-            })
-
-        # Đóng gói thành 1 kênh hoàn chỉnh
-        channel_obj = {
-            "id": f"tv-{i}",
-            "name": name,
-            "type": "single",
-            "display": "thumbnail-only",
-            "enable_detail": False,
-            "labels": [
-                {"text": "● LIVE", "position": "top-left", "color": "#00000080", "text_color": "#ff4444"}
-            ],
-            "sources": sources,
-            "org_metadata": {
-                "is_live": True,
-                "time": "",
-                "team_a": name,
-                "team_b": ""
-            },
-            "image": {
-                "padding": 1,
-                "background_color": "#ffffff",
-                "display": "contain",
-                "url": logo,
-                "width": 1600,
-                "height": 1200
             }
+        ],
+        "org_metadata": {
+            "is_live": True,
+            "time": "",
+            "team_a": ch["name"],
+            "team_b": ""
+        },
+        "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": ch.get("logo", ""),
+            "width": 1600,
+            "height": 1200
         }
-        channels.append(channel_obj)
-
-    return channels
+    }
 
 # ==========================================
 # MAIN LOGIC
 # ==========================================
 def main():
     final_data = {
-    "id": "allin1-stream",
-    "name": "All In 1 Stream",
-    "version": "V1.0",
-    "color": "#1cb57a",
-    "grid_number": 3,
-    "description": "This file does not stream any of the included channels, all streaming links are from third-party websites available freely on the internet. This is simply to provide a link to stream, and all content is copyright of their owner.",
-    "image": {
-        "type": "cover",
-        "url": "https://raw.githubusercontent.com/Bigblok-ai/allin1-stream/main/logo.png"
-    },
-    "groups": copy.deepcopy(GROUP_SKELETON)
+        "id": "allin1-stream",
+        "name": "All In 1 Stream",
+        "version": "V1.0",
+        "description": "⚽ Bóng Đá, 🎾 Tennis, 🏸 Cầu Lông, 🏀 Bóng Rổ, 🎱 Billiards, 🏐 Bóng Chuyền, 🏎️ Đua Xe F1, 🏓 Bóng Bàn, 🥊 Võ Thuật, 🏸 Pickleball",
+        "image": {
+            "type": "cover",
+            "url": "https://github.com/Bigblok-ai/allin1-stream/blob/main/logo.png"
+        },
+        "groups": copy.deepcopy(GROUP_SKELETON)
     }
 
     group_map = {}
@@ -510,32 +515,30 @@ def main():
                             existing_channel["sources"].append(temp_src)
 
     # ─────────────────────────────────────────────────────────────────
-    # BƯỚC 2: GỘP KÊNH TRUYỀN HÌNH (TỰ ĐỘNG GOM LINK CÙNG TÊN)
+    # BƯỚC 2: GỘP KÊNH TRUYỀN HÌNH
     # ─────────────────────────────────────────────────────────────────
     try:
         if os.path.exists(HOIQUAN_FILE):
             with open(HOIQUAN_FILE, "r", encoding="utf-8") as f:
                 tv_list = json.load(f)
             if tv_list:
-                tv_channels = build_tv_channels(tv_list)
-                
                 tv_group = {
                     "id": "grp-tv-hoiquan",
                     "name": "📺 Kênh Truyền Hình",
                     "display": "vertical",
                     "grid_number": 2,
                     "enable_detail": False,
-                    "channels": tv_channels
+                    "channels": [convert_ch(ch, i) for i, ch in enumerate(tv_list)]
                 }
                 final_data["groups"].insert(0, tv_group)
-                print(f"Da gom {len(tv_list)} link tu {len(tv_channels)} kenh truyen hinh vao output.")
+                print(f"Da gom {len(tv_list)} kenh truyen hinh vao output.")
         else:
             print(f"Canh bao: Khong tim thay file {HOIQUAN_FILE}.")
     except Exception as e:
         print(f"Canh bao: Loi xu ly {HOIQUAN_FILE} -> {e}")
 
     # ─────────────────────────────────────────────────────────────────
-    # ★ BƯỚC 3: LỌC BÓNG ĐÁ — CHỈ GIỮ TRẬN TRONG 20H TỚI
+    # BƯỚC 3: LỌC BÓNG ĐÁ — CHỈ GIỮ TRẬN TRONG 20H TỚI
     # ─────────────────────────────────────────────────────────────────
     for g in final_data["groups"]:
         base_name = normalize_cate_name(g["name"])
