@@ -602,117 +602,11 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (6 LIVE)",
+      "name": "⚽ Bóng Đá (5 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "thapcam-6e8cf90aa0",
-          "name": "Kashiwa Reysol vs Kawasaki Frontale | 14:00 10/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-6e8cf90aa0",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-6e8cf90aa0",
-                  "name": "Kashiwa Reysol vs Kawasaki Frontale",
-                  "streams": [
-                    {
-                      "id": "st-6e8cf90aa0",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-c8a4f5bfff",
-                          "name": "BLV Người Điên",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/6a00278551ddc_1984/index.m3u8?expire=1778999813&sign=a98ef979f8e550e3c04a776e28f43f12",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "src-4e2cf8215f",
-              "name": "BunchaTV",
-              "contents": [
-                {
-                  "id": "ct-4e2cf8215f",
-                  "name": "Kashiwa Reysol vs Kawasaki Frontale",
-                  "streams": [
-                    {
-                      "id": "st-4e2cf8215f",
-                      "name": "Buncha - BLV Bún Than",
-                      "stream_links": [
-                        {
-                          "id": "lnk-21e103cc70",
-                          "name": "BLV Bún Than",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.taoxanh.biz/live/6a00257942283_103/index.m3u8?expire=1778999289&sign=9561a0f73e9fe79346f8dc2492ec7bd4",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://bunchatv4.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Japanese J1 League",
-            "team_a": "Kashiwa Reysol",
-            "team_b": "Kawasaki Frontale",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/d272859d78eb8ca7a14753f4293fbf45.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/937795c0851c1e794e96a5cb660fcd59.png",
-            "time": "14:00 10/05",
-            "blv": "BLV Người Điên",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-6e8cf90aa0_beb68a39_20260510.png?v=beb68a39",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "thapcam-366bc6b04b",
           "name": "Nagoya Grampus vs Kyoto Sanga | 14:00 10/05",
@@ -4879,7 +4773,25 @@
                     {
                       "id": "st-30b4891d7b",
                       "name": "KT",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-1e416b13d6",
+                          "name": "BLV Người Hầu",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.phogatv8.com/live/6a0047de51ddc_9657/index.m3u8?expire=1779008094&sign=4e793d9a59a06ad912df55215cd211bf",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -6050,7 +5962,7 @@
     },
     {
       "id": "grp-bóng-chuyền",
-      "name": "🏐 Bóng Chuyền",
+      "name": "🏐 Bóng Chuyền (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -6063,10 +5975,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -6081,7 +5993,60 @@
                     {
                       "id": "st-e6aeeba82c",
                       "name": "KT",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-83cc037155",
+                          "name": "BLV Người Rừng",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.phogatv8.com/live/6a0043e4137e4_148/index.m3u8?expire=1779007076&sign=30dd9e7f8abcac9e9d262f9881648e4f",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-81026e3fe0",
+              "name": "BunchaTV",
+              "contents": [
+                {
+                  "id": "ct-81026e3fe0",
+                  "name": "Panasonic Panthers vs JTEKT",
+                  "streams": [
+                    {
+                      "id": "st-81026e3fe0",
+                      "name": "Buncha - BLV Giữ Lửa",
+                      "stream_links": [
+                        {
+                          "id": "lnk-a7ebf45989",
+                          "name": "BLV Giữ Lửa",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.taoxanh.biz/live/6a004346203f5_88642/index.m3u8?expire=1779006918&sign=5b3a1b3aed2accd5e28a154a49561b37",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://bunchatv4.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -6096,7 +6061,7 @@
             "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/cms/81fabb32dd005505e2dea6be18af5531.png",
             "time": "16:05 10/05",
             "blv": "BLV Người Rừng",
-            "is_live": false,
+            "is_live": true,
             "cate_name": "Bóng chuyền"
           },
           "image": {
