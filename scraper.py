@@ -524,16 +524,18 @@ def main():
             with open(HOIQUAN_FILE, "r", encoding="utf-8") as f:
                 tv_list = json.load(f)
             if tv_list:
+                tv_channels = build_tv_channels(tv_list) # <-- GỌI HÀM GOM NHÓM CỦA CODE 1
+                
                 tv_group = {
                     "id": "grp-tv-hoiquan",
                     "name": "📺 Kênh Truyền Hình",
                     "display": "vertical",
                     "grid_number": 2,
                     "enable_detail": False,
-                    "channels": [convert_ch(ch, i) for i, ch in enumerate(tv_list)]
+                    "channels": tv_channels # <-- ĐỂ DANH SÁCH ĐÃ ĐƯỢC GOM
                 }
                 final_data["groups"].insert(0, tv_group)
-                print(f"Da gom {len(tv_list)} kenh truyen hinh vao output.")
+                print(f"Da gom {len(tv_list)} link tu {len(tv_channels)} kenh truyen hinh vao output.")
         else:
             print(f"Canh bao: Khong tim thay file {HOIQUAN_FILE}.")
     except Exception as e:
