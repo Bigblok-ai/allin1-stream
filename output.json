@@ -602,11 +602,153 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "thapcam-fa7f1fcfbf",
+          "name": "San Jose Earthquakes vs Vancouver Whitecaps | 09:30 10/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-fa7f1fcfbf",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-fa7f1fcfbf",
+                  "name": "San Jose Earthquakes vs Vancouver Whitecaps",
+                  "streams": [
+                    {
+                      "id": "st-fa7f1fcfbf",
+                      "name": "KT",
+                      "stream_links": [
+                        {
+                          "id": "lnk-7b22bdc859",
+                          "name": "BLV Tôn Quyền",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.phogatv8.com/live/69ffe1dc137e4_793/index.m3u8?expire=1778981980&sign=bdedf910662eea29afb4874dc708a40f",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "United States Major League Soccer",
+            "team_a": "San Jose Earthquakes",
+            "team_b": "Vancouver Whitecaps",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/7079d708b4e391c0c26b20da7b2fb32c.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/527dcdb6260004a2c8f61fae9345f133.png",
+            "time": "09:30 10/05",
+            "blv": "BLV Tôn Quyền",
+            "is_live": true,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-fa7f1fcfbf_3b862e0f_20260510.png?v=3b862e0f",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-463d3a6049",
+          "name": "Wellington Phoenix Women vs Brisbane Roar Women | 09:30 10/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-463d3a6049",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-463d3a6049",
+                  "name": "Wellington Phoenix Women vs Brisbane Roar Women",
+                  "streams": [
+                    {
+                      "id": "st-463d3a6049",
+                      "name": "KT",
+                      "stream_links": [
+                        {
+                          "id": "lnk-74ea01c057",
+                          "name": "BLV Người Lạ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.phogatv8.com/live/69ffe52f51ddc_11241/index.m3u8?expire=1778982831&sign=9657907b81e988a2bea0d8b241587a0e",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Australia W-League",
+            "team_a": "Wellington Phoenix Women",
+            "team_b": "Brisbane Roar Women",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/c548bc71feff7cc3f6da3184d0f8da14.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/acf9aab5d7335ccbbcff0e253ad35da0.png",
+            "time": "09:30 10/05",
+            "blv": "BLV Người Lạ",
+            "is_live": true,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-463d3a6049_67687b33_20260510.png?v=67687b33",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "buncha-534831c2a8",
           "name": "Chivas Guadalajara vs Tigres UANL | 08:07 10/05",
@@ -745,112 +887,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Nashville SC_DC United_08-15 10-05_11019632_20260510.png?v=11019632",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "thapcam-fa7f1fcfbf",
-          "name": "San Jose Earthquakes vs Vancouver Whitecaps | 09:30 10/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-fa7f1fcfbf",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-fa7f1fcfbf",
-                  "name": "San Jose Earthquakes vs Vancouver Whitecaps",
-                  "streams": [
-                    {
-                      "id": "st-fa7f1fcfbf",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "United States Major League Soccer",
-            "team_a": "San Jose Earthquakes",
-            "team_b": "Vancouver Whitecaps",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/7079d708b4e391c0c26b20da7b2fb32c.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/527dcdb6260004a2c8f61fae9345f133.png",
-            "time": "09:30 10/05",
-            "blv": "BLV Tôn Quyền",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-fa7f1fcfbf_3b862e0f_20260510.png?v=3b862e0f",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "thapcam-463d3a6049",
-          "name": "Wellington Phoenix Women vs Brisbane Roar Women | 09:30 10/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-463d3a6049",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-463d3a6049",
-                  "name": "Wellington Phoenix Women vs Brisbane Roar Women",
-                  "streams": [
-                    {
-                      "id": "st-463d3a6049",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Australia W-League",
-            "team_a": "Wellington Phoenix Women",
-            "team_b": "Brisbane Roar Women",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/c548bc71feff7cc3f6da3184d0f8da14.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/acf9aab5d7335ccbbcff0e253ad35da0.png",
-            "time": "09:30 10/05",
-            "blv": "BLV Người Lạ",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-463d3a6049_67687b33_20260510.png?v=67687b33",
             "width": 1600,
             "height": 1200
           }
