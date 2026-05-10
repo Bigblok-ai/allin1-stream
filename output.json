@@ -602,7 +602,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (6 LIVE)",
+      "name": "⚽ Bóng Đá (7 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1134,7 +1134,147 @@
           }
         },
         {
-          "id": "thapcam-50297ee9d7",
+          "id": "thapcam-dafbb3ce9e",
+          "name": "Vietnam U17 vs South Korea U17 | 23:00 10/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-dafbb3ce9e",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-dafbb3ce9e",
+                  "name": "Vietnam U17 vs South Korea U17",
+                  "streams": [
+                    {
+                      "id": "st-dafbb3ce9e",
+                      "name": "KT",
+                      "stream_links": [
+                        {
+                          "id": "lnk-7e2c41ae67",
+                          "name": "BLV Người Lạ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.phogatv8.com/live/6a00a1a251ddc_11241/index.m3u8?expire=1779031074&sign=49b86727a48803681f8918114480e2c6",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-f1d74d9d8d",
+                          "name": "Link HD",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://cdn-hls.phogatv8.com/live/6a009d2d137e5_1549/index.m3u8?expire=1779029933&sign=eee55a3fc97d622ff61b41448071c2aa",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-60d450f750",
+              "name": "BunchaTV",
+              "contents": [
+                {
+                  "id": "ct-60d450f750",
+                  "name": "Vietnam U17 vs South Korea U17",
+                  "streams": [
+                    {
+                      "id": "st-60d450f750",
+                      "name": "Buncha - BLV Lucky, BLV Cá Chép",
+                      "stream_links": [
+                        {
+                          "id": "lnk-8d8b0ba525",
+                          "name": "BLV Lucky",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.taoxanh.biz/live/6a00a50542283_79/index.m3u8?expire=1779031941&sign=18e1628132f22f884bdffb2983e7ecad",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://bunchatv4.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-d80eb5b52b",
+                          "name": "BLV Cá Chép",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://cdn-hls.taoxanh.biz/live/6a009cf3203f5_72787/index.m3u8?expire=1779029875&sign=2262554adb696c1612ea30a3de536d80",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://bunchatv4.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "AFC U17 Asian Cup",
+            "team_a": "Vietnam U17",
+            "team_b": "South Korea U17",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/e20aa94f550f3d4fb4055ac9629a7324.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/900e5c48f63a866d738d166729599162.png",
+            "time": "23:00 10/05",
+            "blv": "BLV Người Lạ",
+            "is_live": true,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-dafbb3ce9e_1ce631ce_20260510.png?v=1ce631ce",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "buncha-f6418c4b94",
           "name": "Parma vs AS Roma | 23:00 10/05",
           "type": "single",
           "display": "thumbnail-only",
@@ -1149,17 +1289,35 @@
           ],
           "sources": [
             {
-              "id": "src-50297ee9d7",
-              "name": "ThapcamTV",
+              "id": "src-f6418c4b94",
+              "name": "BunchaTV",
               "contents": [
                 {
-                  "id": "ct-50297ee9d7",
+                  "id": "ct-f6418c4b94",
                   "name": "Parma vs AS Roma",
                   "streams": [
                     {
-                      "id": "st-50297ee9d7",
+                      "id": "st-f6418c4b94",
                       "name": "KT",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-56658d6b84",
+                          "name": "BLV Trà Đá",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.taoxanh.biz/live/6a009cba42283_88186/index.m3u8?expire=1779029818&sign=8531e2dafd1782c20f370d2752f63f62",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://bunchatv4.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -1240,10 +1398,10 @@
             "league": "Italian Serie A",
             "team_a": "Parma",
             "team_b": "AS Roma",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/9fadd87d190982c8082dddf1567e0b9b.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/7a192686d30c1ad031d2fb605eaf2f2a.png",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-dev/football/team/logo/9fadd87d190982c8082dddf1567e0b9b.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-dev/football/team/logo/7a192686d30c1ad031d2fb605eaf2f2a.png",
             "time": "23:00 10/05",
-            "blv": "BLV Tôn Quyền",
+            "blv": "BLV Trà Đá",
             "is_live": true,
             "cate_name": "Bóng đá"
           },
@@ -1251,7 +1409,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-50297ee9d7_e8db3b9a_20260510.png?v=e8db3b9a",
+            "url": "https://raw.githubusercontent.com/xixixius-ai/buncha-stream/refs/heads/main/thumbs/buncha-f6418c4b94_15bf40bd_20260510.png?v=15bf40bd",
             "width": 1600,
             "height": 1200
           }
@@ -1394,59 +1552,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Vietnam U17_Korea Republic U17_23-00 10-05_02d478ad_20260510.png?v=02d478ad",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "thapcam-dafbb3ce9e",
-          "name": "Vietnam U17 vs South Korea U17 | 23:00 10/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-dafbb3ce9e",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-dafbb3ce9e",
-                  "name": "Vietnam U17 vs South Korea U17",
-                  "streams": [
-                    {
-                      "id": "st-dafbb3ce9e",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "AFC U17 Asian Cup",
-            "team_a": "Vietnam U17",
-            "team_b": "South Korea U17",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/e20aa94f550f3d4fb4055ac9629a7324.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/900e5c48f63a866d738d166729599162.png",
-            "time": "23:00 10/05",
-            "blv": "BLV Người Lạ",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-dafbb3ce9e_1ce631ce_20260510.png?v=1ce631ce",
             "width": 1600,
             "height": 1200
           }
@@ -3918,8 +4023,8 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "buncha-c08367cb31",
-          "name": "Learner Tien vs Alexander Bublik | 22:40 10/05",
+          "id": "thapcam-f2bfa15018",
+          "name": "Learner Tien vs Alexander Bublik | 23:00 10/05",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -3933,16 +4038,51 @@
           ],
           "sources": [
             {
-              "id": "src-c08367cb31",
-              "name": "BunchaTV",
+              "id": "src-f2bfa15018",
+              "name": "ThapcamTV",
               "contents": [
                 {
-                  "id": "ct-c08367cb31",
+                  "id": "ct-f2bfa15018",
                   "name": "Learner Tien vs Alexander Bublik",
                   "streams": [
                     {
-                      "id": "st-c08367cb31",
+                      "id": "st-f2bfa15018",
                       "name": "KT",
+                      "stream_links": [
+                        {
+                          "id": "lnk-3d28498b62",
+                          "name": "BLV Người Hầu",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.phogatv8.com/live/6a008883137e5_9657/index.m3u8?expire=1779024643&sign=7bee6dde13752345b018071d6cc4c3be",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-84c7ac5ed0",
+              "name": "BunchaTV",
+              "contents": [
+                {
+                  "id": "ct-84c7ac5ed0",
+                  "name": "Learner Tien vs Alexander Bublik",
+                  "streams": [
+                    {
+                      "id": "st-84c7ac5ed0",
+                      "name": "Buncha - BLV Bún Mắm",
                       "stream_links": [
                         {
                           "id": "lnk-fe09962305",
@@ -3972,64 +4112,11 @@
             "league": "ATP Rome, Italy Men Singles",
             "team_a": "Learner Tien",
             "team_b": "Alexander Bublik",
-            "logo_a": "https://cdn.rapid-api.icu/v2/team/Fuue3ODA1VOSiquEuTM6LXhpoD4b",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-dev/football/team/logo/48b5ceec7c7af6986d4b60420aeaf160.png",
-            "time": "22:40 10/05",
-            "blv": "BLV Bún Mắm",
-            "is_live": true,
-            "cate_name": "Tennis"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/xixixius-ai/buncha-stream/refs/heads/main/thumbs/buncha-c08367cb31_aee70b5d_20260510.png?v=aee70b5d",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "thapcam-f2bfa15018",
-          "name": "Learner Tien vs Alexander Bublik | 23:00 10/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-f2bfa15018",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-f2bfa15018",
-                  "name": "Learner Tien vs Alexander Bublik",
-                  "streams": [
-                    {
-                      "id": "st-f2bfa15018",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "ATP Rome, Italy Men Singles",
-            "team_a": "Learner Tien",
-            "team_b": "Alexander Bublik",
             "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/Fuue3ODA1VOSiquEuTM6LXhpoD4b",
             "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/48b5ceec7c7af6986d4b60420aeaf160.png",
             "time": "23:00 10/05",
             "blv": "BLV Người Hầu",
-            "is_live": false,
+            "is_live": true,
             "cate_name": "Tennis"
           },
           "image": {
