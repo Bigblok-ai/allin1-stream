@@ -628,11 +628,134 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (3 LIVE)",
+      "name": "⚽ Bóng Đá (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "thapcam-2f3a14a7d7",
+          "name": "Clube de Regatas Vasco da Gama vs Athletico Paranaense | 06:30 11/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-2f3a14a7d7",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-2f3a14a7d7",
+                  "name": "Clube de Regatas Vasco da Gama vs Athletico Paranaense",
+                  "streams": [
+                    {
+                      "id": "st-2f3a14a7d7",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-1f296c1588",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-1f296c1588",
+                  "name": "Vasco da Gama vs Athletico-PR",
+                  "streams": [
+                    {
+                      "id": "st-1f296c1588",
+                      "name": "Giovang - BLV Dần",
+                      "stream_links": [
+                        {
+                          "id": "lnk-f7f617647f",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1778294811_hd/1778294811_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-6811d234f0",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-6811d234f0",
+                  "name": "Vasco da Gama vs Atletico Paranaense",
+                  "streams": [
+                    {
+                      "id": "st-6811d234f0",
+                      "name": "Hoiquan - BLV PHAN ANH",
+                      "stream_links": [
+                        {
+                          "id": "lnk-b8be718b2f",
+                          "name": "BLV PHAN ANH",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://yvm80526.edgemaxcdn.org/live/hqtv_blv_phananh/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Brazilian Serie A",
+            "team_a": "Clube de Regatas Vasco da Gama",
+            "team_b": "Athletico Paranaense",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/f110dc3a4406e67ecbc46511a7ea83f7.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/1b54e9fdbe9c936023c55299da4165b7.png",
+            "time": "06:30 11/05",
+            "blv": "BLV Người Điên",
+            "is_live": true,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-2f3a14a7d7_bb70ee6e_20260511.png?v=bb70ee6e",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "buncha-894abc0325",
           "name": "Pachuca vs Toluca | 06:00 11/05",
@@ -877,94 +1000,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-7c46a22f66_b729650a_20260511.png?v=b729650a",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "thapcam-2f3a14a7d7",
-          "name": "Clube de Regatas Vasco da Gama vs Athletico Paranaense | 06:30 11/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-2f3a14a7d7",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-2f3a14a7d7",
-                  "name": "Clube de Regatas Vasco da Gama vs Athletico Paranaense",
-                  "streams": [
-                    {
-                      "id": "st-2f3a14a7d7",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "src-1f296c1588",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-1f296c1588",
-                  "name": "Vasco da Gama vs Athletico-PR",
-                  "streams": [
-                    {
-                      "id": "st-1f296c1588",
-                      "name": "Giovang - BLV Dần",
-                      "stream_links": [
-                        {
-                          "id": "lnk-f7f617647f",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1778294811_hd/1778294811_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Brazilian Serie A",
-            "team_a": "Clube de Regatas Vasco da Gama",
-            "team_b": "Athletico Paranaense",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/f110dc3a4406e67ecbc46511a7ea83f7.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/1b54e9fdbe9c936023c55299da4165b7.png",
-            "time": "06:30 11/05",
-            "blv": "BLV Người Điên",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-2f3a14a7d7_bb70ee6e_20260511.png?v=bb70ee6e",
             "width": 1600,
             "height": 1200
           }
@@ -2682,59 +2717,6 @@
           }
         },
         {
-          "id": "thapcam-e509312458",
-          "name": "Rayo Vallecano vs Girona FC | 02:00 12/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-e509312458",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-e509312458",
-                  "name": "Rayo Vallecano vs Girona FC",
-                  "streams": [
-                    {
-                      "id": "st-e509312458",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Spanish La Liga",
-            "team_a": "Rayo Vallecano",
-            "team_b": "Girona FC",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/5005d8feab109ce64e40beb98073cc1f.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/006ce259b33ef72dd5570cfa8dc39f38.png",
-            "time": "02:00 12/05",
-            "blv": "BLV Người Đá",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-e509312458_0b45d085_20260511.png?v=0b45d085",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "thapcam-14675dbdf2",
           "name": "Millwall vs Hull City | 02:00 12/05",
           "type": "single",
@@ -2783,6 +2765,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-14675dbdf2_409dea43_20260511.png?v=409dea43",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-e509312458",
+          "name": "Rayo Vallecano vs Girona FC | 02:00 12/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-e509312458",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-e509312458",
+                  "name": "Rayo Vallecano vs Girona FC",
+                  "streams": [
+                    {
+                      "id": "st-e509312458",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Spanish La Liga",
+            "team_a": "Rayo Vallecano",
+            "team_b": "Girona FC",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/5005d8feab109ce64e40beb98073cc1f.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/006ce259b33ef72dd5570cfa8dc39f38.png",
+            "time": "02:00 12/05",
+            "blv": "BLV Người Đá",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-e509312458_0b45d085_20260511.png?v=0b45d085",
             "width": 1600,
             "height": 1200
           }
