@@ -628,7 +628,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (3 LIVE)",
+      "name": "⚽ Bóng Đá (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1029,10 +1029,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -1047,7 +1047,60 @@
                     {
                       "id": "st-8b03c000f3",
                       "name": "KT",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-b640be3bca",
+                          "name": "BLV Người Ngố",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.phogatv8.com/live/6a01d9e951ddc_14/index.m3u8?expire=1779111017&sign=267e8d3ed69768d3dacf3b7af46b29b5",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-551c28f6b9",
+              "name": "BunchaTV",
+              "contents": [
+                {
+                  "id": "ct-551c28f6b9",
+                  "name": "East Bengal FC vs Punjab FC",
+                  "streams": [
+                    {
+                      "id": "st-551c28f6b9",
+                      "name": "Buncha - BLV Bún Cá",
+                      "stream_links": [
+                        {
+                          "id": "lnk-e2b2ec32e0",
+                          "name": "BLV Bún Cá",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.taoxanh.biz/live/6a01d2fb203f6_4908/index.m3u8?expire=1779109243&sign=8c6791aba564b53b4d9b70ca6fb9a7dc",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://bunchatv4.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -1062,7 +1115,7 @@
             "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/4e120222885562430b61627e85374a80.png",
             "time": "21:00 11/05",
             "blv": "BLV Người Ngố",
-            "is_live": false,
+            "is_live": true,
             "cate_name": "Bóng đá"
           },
           "image": {
@@ -2938,8 +2991,8 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "thapcam-7e65ddc7dc",
-          "name": "Jannik Sinner vs Alexei Popyrin | 20:45 11/05",
+          "id": "thapcam-3cfdeec2f5",
+          "name": "Jannik Sinner vs Alexei Popyrin | 20:50 11/05",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -2953,15 +3006,15 @@
           ],
           "sources": [
             {
-              "id": "src-7e65ddc7dc",
+              "id": "src-3cfdeec2f5",
               "name": "ThapcamTV",
               "contents": [
                 {
-                  "id": "ct-7e65ddc7dc",
+                  "id": "ct-3cfdeec2f5",
                   "name": "Jannik Sinner vs Alexei Popyrin",
                   "streams": [
                     {
-                      "id": "st-7e65ddc7dc",
+                      "id": "st-3cfdeec2f5",
                       "name": "KT",
                       "stream_links": [
                         {
@@ -2994,7 +3047,7 @@
             "team_b": "Alexei Popyrin",
             "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/f2db269e5f9220206ef3f4e9e851f33d.png",
             "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/ff7126c702dacb0624f223c0bc0d66ad.png",
-            "time": "20:45 11/05",
+            "time": "20:50 11/05",
             "blv": "BLV Người Hầu",
             "is_live": true,
             "cate_name": "Tennis"
@@ -3003,7 +3056,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-7e65ddc7dc_1e527913_20260511.png?v=1e527913",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-3cfdeec2f5_1e527913_20260511.png?v=1e527913",
             "width": 1600,
             "height": 1200
           }
@@ -3110,77 +3163,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-3e18c80dfa_9af70e5c_20260511.png?v=9af70e5c",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-4a1be3ac14",
-          "name": "Llamas Ruiz vs D Medvedev | 21:30 11/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-4a1be3ac14",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-4a1be3ac14",
-                  "name": "Llamas Ruiz vs D Medvedev",
-                  "streams": [
-                    {
-                      "id": "st-4a1be3ac14",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-4ec39e8a5c",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1778491115_hd/1778491115_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "ATP Rome Master 2026",
-            "team_a": "Llamas Ruiz",
-            "team_b": "D Medvedev",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/6/68/Llamas_Ruiz_WMQ23_%2853062192338%29.jpg",
-            "logo_b": "https://lavercup.com/wp-content/uploads/2024/08/2024-Medvedev-Profile.png",
-            "time": "21:30 11/05",
-            "blv": "BLV Băng",
-            "is_live": false,
-            "cate_type": "tennis"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-4a1be3ac14_bbb71829_20260511.png?v=bbb71829",
             "width": 1600,
             "height": 1200
           }
