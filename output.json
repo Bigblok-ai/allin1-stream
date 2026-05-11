@@ -628,7 +628,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (4 LIVE)",
+      "name": "⚽ Bóng Đá (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -670,6 +670,41 @@
                             {
                               "key": "Referer",
                               "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-2ef1956fd6",
+              "name": "BunchaTV",
+              "contents": [
+                {
+                  "id": "ct-2ef1956fd6",
+                  "name": "Los Angeles FC vs Houston Dynamo",
+                  "streams": [
+                    {
+                      "id": "st-2ef1956fd6",
+                      "name": "Buncha - BLV Lucky",
+                      "stream_links": [
+                        {
+                          "id": "lnk-d7ea5930c6",
+                          "name": "BLV Lucky",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.taoxanh.biz/live/6a012599203f6_72787/index.m3u8?expire=1779064857&sign=6643bbd6754bbb58d5022387a6a8b5be",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://bunchatv4.net/"
                             },
                             {
                               "key": "User-Agent",
@@ -771,77 +806,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/xixixius-ai/buncha-stream/refs/heads/main/thumbs/buncha-dcabe71b36_5e523bb8_20260511.png?v=5e523bb8",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "hqlive-6811d234f0",
-          "name": "Vasco da Gama vs Atletico Paranaense | 06:30 11/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-6811d234f0",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-6811d234f0",
-                  "name": "Vasco da Gama vs Atletico Paranaense",
-                  "streams": [
-                    {
-                      "id": "st-6811d234f0",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-b8be718b2f",
-                          "name": "BLV PHAN ANH",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://yvm80526.edgemaxcdn.org/live/hqtv_blv_phananh/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "VĐQG Brazil ",
-            "team_a": "Vasco da Gama",
-            "team_b": "Atletico Paranaense",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/en/a/a5/Club_de_Regatas_Vasco_da_Gama_logo_%282021%29.svg",
-            "logo_b": "https://media.api-sports.io/football/teams/134.png",
-            "time": "06:30 11/05",
-            "blv": "BLV PHAN ANH",
-            "is_live": true,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Vasco da Gama_Atletico Paranaense_06-30 11-05_07ce8e95_20260511.png?v=07ce8e95",
             "width": 1600,
             "height": 1200
           }
