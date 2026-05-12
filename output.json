@@ -628,11 +628,134 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (1 LIVE)",
+      "name": "⚽ Bóng Đá (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "thapcam-54a2ff10e5",
+          "name": "Gangwon Football Club vs Daejeon Citizen | 17:30 12/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-54a2ff10e5",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-54a2ff10e5",
+                  "name": "Gangwon Football Club vs Daejeon Citizen",
+                  "streams": [
+                    {
+                      "id": "st-54a2ff10e5",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-92c2ed93cd",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-92c2ed93cd",
+                  "name": "Gangwon vs Daejeon Citizen",
+                  "streams": [
+                    {
+                      "id": "st-92c2ed93cd",
+                      "name": "Giovang - BLV Mason",
+                      "stream_links": [
+                        {
+                          "id": "lnk-f2bc95efb0",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1778484807_hd/1778484807_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-c3d4bb27eb",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-c3d4bb27eb",
+                  "name": "Gangwon FC vs Daejeon Citizen",
+                  "streams": [
+                    {
+                      "id": "st-c3d4bb27eb",
+                      "name": "Hoiquan - BLV CỦ HÀNH",
+                      "stream_links": [
+                        {
+                          "id": "lnk-2098245f1a",
+                          "name": "BLV CỦ HÀNH",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hqlive.zlylive.com/live/hqtv_blv_phando/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Korean K League 1",
+            "team_a": "Gangwon Football Club",
+            "team_b": "Daejeon Citizen",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/771a93ae7f62b1a47a71c3d62b89dca3.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/090eeb1513e8f1d0cf6d8647d10b2eea.png",
+            "time": "17:30 12/05",
+            "blv": "BLV Người Băng",
+            "is_live": true,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-54a2ff10e5_4314a47e_20260512.png?v=4314a47e",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "thapcam-de467cb853",
           "name": "Incheon United Club vs Pohang Steelers | 17:30 12/05",
@@ -699,6 +822,41 @@
                   ]
                 }
               ]
+            },
+            {
+              "id": "src-a7d264b995",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-a7d264b995",
+                  "name": "Incheon United vs Pohang Steelers",
+                  "streams": [
+                    {
+                      "id": "st-a7d264b995",
+                      "name": "Hoiquan - BLV PHAN CHỚP",
+                      "stream_links": [
+                        {
+                          "id": "lnk-e6e86d8c60",
+                          "name": "BLV PHAN CHỚP",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://yvm80526.edgemaxcdn.org/live/hqtv_blv_phanchop/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
             }
           ],
           "org_metadata": {
@@ -722,59 +880,42 @@
           }
         },
         {
-          "id": "thapcam-54a2ff10e5",
-          "name": "Gangwon Football Club vs Daejeon Citizen | 17:30 12/05",
+          "id": "hqlive-e1a7165fca",
+          "name": "Gwangju FC vs FC Seoul | 17:30 12/05",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
             {
-              "id": "src-54a2ff10e5",
-              "name": "ThapcamTV",
+              "id": "src-e1a7165fca",
+              "name": "HoiQuanTV",
               "contents": [
                 {
-                  "id": "ct-54a2ff10e5",
-                  "name": "Gangwon Football Club vs Daejeon Citizen",
+                  "id": "ct-e1a7165fca",
+                  "name": "Gwangju FC vs FC Seoul",
                   "streams": [
                     {
-                      "id": "st-54a2ff10e5",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "src-92c2ed93cd",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-92c2ed93cd",
-                  "name": "Gangwon vs Daejeon Citizen",
-                  "streams": [
-                    {
-                      "id": "st-92c2ed93cd",
-                      "name": "Giovang - BLV Mason",
+                      "id": "st-e1a7165fca",
+                      "name": "HQ",
                       "stream_links": [
                         {
-                          "id": "lnk-f2bc95efb0",
-                          "name": "Link HD 720p",
+                          "id": "lnk-96622ac3ba",
+                          "name": "BLV PHAN BÁCH",
                           "type": "hls",
                           "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1778484807_hd/1778484807_hd@720p.m3u8",
+                          "url": "https://yvm80526.edgemaxcdn.org/live/hqtv_blv_phanchuot/playlist.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://giovang.fun/"
+                              "value": "https://sv2.hoiquan3.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -790,21 +931,21 @@
             }
           ],
           "org_metadata": {
-            "league": "Korean K League 1",
-            "team_a": "Gangwon Football Club",
-            "team_b": "Daejeon Citizen",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/771a93ae7f62b1a47a71c3d62b89dca3.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/090eeb1513e8f1d0cf6d8647d10b2eea.png",
+            "league": "K League 1",
+            "team_a": "Gwangju FC",
+            "team_b": "FC Seoul",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/en/6/65/Gwangju_FC.svg",
+            "logo_b": "https://media.api-sports.io/football/teams/2766.png",
             "time": "17:30 12/05",
-            "blv": "BLV Người Băng",
-            "is_live": false,
-            "cate_name": "Bóng đá"
+            "blv": "BLV PHAN BÁCH",
+            "is_live": true,
+            "sport_slug": "bong-da"
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-54a2ff10e5_4314a47e_20260512.png?v=4314a47e",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Gwangju FC_FC Seoul_17-30 12-05_5fedbb85_20260512.png?v=5fedbb85",
             "width": 1600,
             "height": 1200
           }
@@ -893,59 +1034,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-7b60f59c99_04335eeb_20260512.png?v=04335eeb",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "hqlive-e1a7165fca",
-          "name": "Gwangju FC vs FC Seoul | 17:30 12/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-e1a7165fca",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-e1a7165fca",
-                  "name": "Gwangju FC vs FC Seoul",
-                  "streams": [
-                    {
-                      "id": "st-e1a7165fca",
-                      "name": "HQ",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "K League 1",
-            "team_a": "Gwangju FC",
-            "team_b": "FC Seoul",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/en/6/65/Gwangju_FC.svg",
-            "logo_b": "https://media.api-sports.io/football/teams/2766.png",
-            "time": "17:30 12/05",
-            "blv": "BLV PHAN BÁCH",
-            "is_live": false,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Gwangju FC_FC Seoul_17-30 12-05_5fedbb85_20260512.png?v=5fedbb85",
             "width": 1600,
             "height": 1200
           }
@@ -2013,7 +2101,7 @@
             "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/51c3745e99294178891085f6c3f265e2.png",
             "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/fbbcb591970475f0c7737c04c9d2f2da.png",
             "time": "00:00 13/05",
-            "blv": "BLV Siêu Quậy",
+            "blv": "BLV Jayce",
             "is_live": false,
             "cate_name": "Bóng đá"
           },
@@ -3160,7 +3248,7 @@
     },
     {
       "id": "grp-tennis",
-      "name": "🎾 Tennis (2 LIVE)",
+      "name": "🎾 Tennis (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -3342,6 +3430,77 @@
           }
         },
         {
+          "id": "hqlive-474e9347c3",
+          "name": "Rafeal Jodar vs Learner Tien | 17:30 12/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-474e9347c3",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-474e9347c3",
+                  "name": "Rafeal Jodar vs Learner Tien",
+                  "streams": [
+                    {
+                      "id": "st-474e9347c3",
+                      "name": "HQ",
+                      "stream_links": [
+                        {
+                          "id": "lnk-27b23108c0",
+                          "name": "BLV PHAN TỪ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://yvm80526.edgemaxcdn.org/live/hqtv_blv_phantu/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "WTA 1000 Rome",
+            "team_a": "Rafeal Jodar",
+            "team_b": "Learner Tien",
+            "logo_a": "https://image.sggp.org.vn/1200x630/Uploaded/2026/ldfnyrykxq/2026_04_05/jodar-vo-dich-marrakech-01-4168-961.jpg.webp",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/c/c8/Learner_Tien_%282024_US_Open%29_04.jpg",
+            "time": "17:30 12/05",
+            "blv": "BLV PHAN TỪ",
+            "is_live": true,
+            "sport_slug": "tennis"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Rafeal Jodar_Learner Tien_17-30 12-05_b664fc30_20260512.png?v=b664fc30",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "hqlive-1015b447a6",
           "name": "Coco Gauff vs Mirra Andreeva | 00:00 13/05",
           "type": "single",
@@ -3408,112 +3567,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Coco Gauff_Mirra Andreeva_00-00 13-05_ddc047e6_20260512.png?v=ddc047e6",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "thapcam-13380b4e2d",
-          "name": "Rafael Jodar vs Learner Tien | 17:10 12/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-13380b4e2d",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-13380b4e2d",
-                  "name": "Rafael Jodar vs Learner Tien",
-                  "streams": [
-                    {
-                      "id": "st-13380b4e2d",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "ATP Rome, Italy Men Singles",
-            "team_a": "Rafael Jodar",
-            "team_b": "Learner Tien",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/6df68e87ef33da480611d1b13a603a21.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/Fuue3ODA1VOSiquEuTM6LXhpoD4b",
-            "time": "17:10 12/05",
-            "blv": "BLV Người Hầu",
-            "is_live": false,
-            "cate_name": "Tennis"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-13380b4e2d_0c2b560b_20260512.png?v=0c2b560b",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "hqlive-474e9347c3",
-          "name": "Rafeal Jodar vs Learner Tien | 17:30 12/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-474e9347c3",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-474e9347c3",
-                  "name": "Rafeal Jodar vs Learner Tien",
-                  "streams": [
-                    {
-                      "id": "st-474e9347c3",
-                      "name": "HQ",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "WTA 1000 Rome",
-            "team_a": "Rafeal Jodar",
-            "team_b": "Learner Tien",
-            "logo_a": "https://image.sggp.org.vn/1200x630/Uploaded/2026/ldfnyrykxq/2026_04_05/jodar-vo-dich-marrakech-01-4168-961.jpg.webp",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/c/c8/Learner_Tien_%282024_US_Open%29_04.jpg",
-            "time": "17:30 12/05",
-            "blv": "BLV PHAN TỪ",
-            "is_live": false,
-            "sport_slug": "tennis"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Rafeal Jodar_Learner Tien_17-30 12-05_b664fc30_20260512.png?v=b664fc30",
             "width": 1600,
             "height": 1200
           }
