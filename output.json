@@ -628,7 +628,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (3 LIVE)",
+      "name": "⚽ Bóng Đá (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1099,10 +1099,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -1117,7 +1117,60 @@
                     {
                       "id": "st-77da62adcb",
                       "name": "KT",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-0ba3e867f7",
+                          "name": "BLV Người Đá",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.phogatv8.com/live/6a03164a51ddd_19092/index.m3u8?expire=1779192010&sign=ffa037a08ced4172d4e0d263fd81ad56",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-c5fb6a14db",
+              "name": "BunchaTV",
+              "contents": [
+                {
+                  "id": "ct-c5fb6a14db",
+                  "name": "FK Epitsentr Dunayivtsi vs Polissya Zhytomyr",
+                  "streams": [
+                    {
+                      "id": "st-c5fb6a14db",
+                      "name": "Buncha - BLV Giữ Lửa",
+                      "stream_links": [
+                        {
+                          "id": "lnk-35d3a5dd2c",
+                          "name": "BLV Giữ Lửa",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.taoxanh.biz/live/6a0312e442284_88642/index.m3u8?expire=1779191140&sign=123e71810c33e2e633c1cc6d591c924e",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://bunchatv4.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -1132,7 +1185,7 @@
             "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/af718a29d1eacceec7da5c5815b1679b.png",
             "time": "19:30 12/05",
             "blv": "BLV Người Đá",
-            "is_live": false,
+            "is_live": true,
             "cate_name": "Bóng đá"
           },
           "image": {
@@ -3343,6 +3396,41 @@
                             {
                               "key": "Referer",
                               "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-e2cc0e9caa",
+              "name": "BunchaTV",
+              "contents": [
+                {
+                  "id": "ct-e2cc0e9caa",
+                  "name": "Luciano Darderi vs Alexander Zverev",
+                  "streams": [
+                    {
+                      "id": "st-e2cc0e9caa",
+                      "name": "Buncha - BLV Nem Nướng",
+                      "stream_links": [
+                        {
+                          "id": "lnk-0a0adbc022",
+                          "name": "BLV Nem Nướng",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.taoxanh.biz/live/6a03116542284_42127/index.m3u8?expire=1779190757&sign=90e30bdcd7e33753c86589f9af5b3b4d",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://bunchatv4.net/"
                             },
                             {
                               "key": "User-Agent",
