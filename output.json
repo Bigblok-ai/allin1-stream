@@ -2953,6 +2953,23 @@
                               "value": "Mozilla/5.0"
                             }
                           ]
+                        },
+                        {
+                          "id": "lnk-e4ef424631",
+                          "name": "Link HD",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://cdn-hls.phogatv8.com/live/6a028a1b137e5_793/index.m3u8?expire=1779156123&sign=6b5a4ca783dfe20979d99407fbf5c0ea",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
                         }
                       ]
                     }
@@ -3476,7 +3493,7 @@
     },
     {
       "id": "grp-bóng-rổ",
-      "name": "🏀 Bóng Rổ (1 LIVE)",
+      "name": "🏀 Bóng Rổ (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -3664,10 +3681,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -3722,6 +3739,41 @@
                   ]
                 }
               ]
+            },
+            {
+              "id": "src-0f0322a972",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-0f0322a972",
+                  "name": "Los Angeles Lakers vs Oklahoma City Thunder",
+                  "streams": [
+                    {
+                      "id": "st-0f0322a972",
+                      "name": "Hoiquan - BLV PHAN TỪ",
+                      "stream_links": [
+                        {
+                          "id": "lnk-27b23108c0",
+                          "name": "BLV PHAN TỪ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://yvm80526.edgemaxcdn.org/live/hqtv_blv_phantu/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
             }
           ],
           "org_metadata": {
@@ -3732,7 +3784,7 @@
             "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/319e03be75fee4098a83b1d0e01940b7.png",
             "time": "09:30 12/05",
             "blv": "BLV Người Sói",
-            "is_live": false,
+            "is_live": true,
             "cate_name": "Bóng rổ"
           },
           "image": {
