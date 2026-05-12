@@ -628,7 +628,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (4 LIVE)",
+      "name": "⚽ Bóng Đá (5 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -765,7 +765,60 @@
                     {
                       "id": "st-c4d8b0b3a9",
                       "name": "KT",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-5504eb003a",
+                          "name": "BLV Người Cò",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.phogatv8.com/live/6a032a23137e5_14559/index.m3u8?expire=1779197091&sign=462c60588699095fdbcd6dd0ca26aa6a",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-304ad9c846",
+              "name": "BunchaTV",
+              "contents": [
+                {
+                  "id": "ct-304ad9c846",
+                  "name": "El Gounah vs Kahraba Ismailia",
+                  "streams": [
+                    {
+                      "id": "st-304ad9c846",
+                      "name": "Buncha - BLV A Đệ",
+                      "stream_links": [
+                        {
+                          "id": "lnk-402064741c",
+                          "name": "BLV A Đệ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.taoxanh.biz/live/6a032537203f6_136682/index.m3u8?expire=1779195831&sign=8b5e53635bbe79615d2966b77ca7c485",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://bunchatv4.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -828,6 +881,112 @@
           }
         },
         {
+          "id": "thapcam-9cf9721957",
+          "name": "Pharco vs Modern Sport FC | 21:00 12/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-9cf9721957",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-9cf9721957",
+                  "name": "Pharco vs Modern Sport FC",
+                  "streams": [
+                    {
+                      "id": "st-9cf9721957",
+                      "name": "KT",
+                      "stream_links": [
+                        {
+                          "id": "lnk-af3ddecd91",
+                          "name": "BLV Người Băng",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.phogatv8.com/live/6a032a0651ddd_11/index.m3u8?expire=1779197062&sign=437dbc15465856f5aabbcf7461232773",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-4bd898c5e8",
+              "name": "BunchaTV",
+              "contents": [
+                {
+                  "id": "ct-4bd898c5e8",
+                  "name": "Pharco vs Modern Sport FC",
+                  "streams": [
+                    {
+                      "id": "st-4bd898c5e8",
+                      "name": "Buncha - BLV Bún Cá",
+                      "stream_links": [
+                        {
+                          "id": "lnk-d1c30d7091",
+                          "name": "BLV Bún Cá",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.taoxanh.biz/live/6a03244342284_4908/index.m3u8?expire=1779195587&sign=49e66454df58ab32ca63c54bdd3c4e2d",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://bunchatv4.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Egyptian Premier League",
+            "team_a": "Pharco",
+            "team_b": "Modern Sport FC",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/abc7123841c5174901b57ace767891ca.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/53f4bc55c48cd39be78fa4fa69645f31.png",
+            "time": "21:00 12/05",
+            "blv": "BLV Người Băng",
+            "is_live": true,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-9cf9721957_c59d6696_20260512.png?v=c59d6696",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "thapcam-bda228ae34",
           "name": "Inter Turku vs JS Hercules | 21:00 12/05",
           "type": "single",
@@ -853,7 +1012,60 @@
                     {
                       "id": "st-bda228ae34",
                       "name": "KT",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-b72b4548a2",
+                          "name": "BLV Tôn Quyền",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.phogatv8.com/live/6a03267751ddd_793/index.m3u8?expire=1779196151&sign=6b8980922ff30166574772774f5be948",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-988b2826cb",
+              "name": "BunchaTV",
+              "contents": [
+                {
+                  "id": "ct-988b2826cb",
+                  "name": "Inter Turku vs JS Hercules",
+                  "streams": [
+                    {
+                      "id": "st-988b2826cb",
+                      "name": "Buncha - BLV A Hiếu",
+                      "stream_links": [
+                        {
+                          "id": "lnk-3d69631a25",
+                          "name": "BLV A Hiếu",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.taoxanh.biz/live/6a031474203f6_73445/index.m3u8?expire=1779191540&sign=26236b7c22273212c33da9ebe5271442",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://bunchatv4.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -1017,59 +1229,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-ed373319be_6ceeb47e_20260512.png?v=6ceeb47e",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "thapcam-9cf9721957",
-          "name": "Pharco vs Modern Sport FC | 21:00 12/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-9cf9721957",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-9cf9721957",
-                  "name": "Pharco vs Modern Sport FC",
-                  "streams": [
-                    {
-                      "id": "st-9cf9721957",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Egyptian Premier League",
-            "team_a": "Pharco",
-            "team_b": "Modern Sport FC",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/abc7123841c5174901b57ace767891ca.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/53f4bc55c48cd39be78fa4fa69645f31.png",
-            "time": "21:00 12/05",
-            "blv": "BLV Người Băng",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-9cf9721957_c59d6696_20260512.png?v=c59d6696",
             "width": 1600,
             "height": 1200
           }
@@ -2873,12 +3032,153 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "thapcam-ade6616503",
+          "name": "Machida Zelvia vs Tokyo Verdy | 17:00 13/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-ade6616503",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-ade6616503",
+                  "name": "Machida Zelvia vs Tokyo Verdy",
+                  "streams": [
+                    {
+                      "id": "st-ade6616503",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-06caea49fd",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-06caea49fd",
+                  "name": "FC Machida Zelvia vs Tokyo Verdy",
+                  "streams": [
+                    {
+                      "id": "st-06caea49fd",
+                      "name": "Giovang - BLV Ngỗng",
+                      "stream_links": [
+                        {
+                          "id": "lnk-b456e4dd60",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1778559298_hd/1778559298_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Japanese J1 League",
+            "team_a": "Machida Zelvia",
+            "team_b": "Tokyo Verdy",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/539c489a7bd94dd9d785308fd0f0a6b9.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/2a8adb34e764602183a7bee8f51726e4.png",
+            "time": "17:00 13/05",
+            "blv": "BLV Người Băng",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-ade6616503_16300767_20260512.png?v=16300767",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-576ff1b2f2",
+          "name": "Vissel Kobe vs Kyoto Sanga | 17:00 13/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-576ff1b2f2",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-576ff1b2f2",
+                  "name": "Vissel Kobe vs Kyoto Sanga",
+                  "streams": [
+                    {
+                      "id": "st-576ff1b2f2",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Japanese J1 League",
+            "team_a": "Vissel Kobe",
+            "team_b": "Kyoto Sanga",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/d85cce27ab583e5b3cead155f02b098a.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/7d6fa50ea67cde7d66612a8189897ba5.png",
+            "time": "17:00 13/05",
+            "blv": "BLV Người Điên",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-576ff1b2f2_a1f8aa22_20260512.png?v=a1f8aa22",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     },
     {
       "id": "grp-tennis",
-      "name": "🎾 Tennis (7 LIVE)",
+      "name": "🎾 Tennis (6 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -3144,54 +3444,18 @@
                   ]
                 }
               ]
-            }
-          ],
-          "org_metadata": {
-            "league": "ATP Rome, Italy Men Singles",
-            "team_a": "Andrey Rublev",
-            "team_b": "Nikoloz Basilashvili",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/07acc0b56b6a296cd89a70e5952f025b.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/452cb78d874a5c2244c43141abb67724.png",
-            "time": "20:50 12/05",
-            "blv": "BLV Siêu Quậy",
-            "is_live": true,
-            "cate_name": "Tennis"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-8ac3693b1f_74b81dce_20260512.png?v=74b81dce",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "buncha-ed70bba6d6",
-          "name": "Andrey Rublev vs Nikoloz Basilashvili | 20:10 12/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
+            },
             {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-ed70bba6d6",
+              "id": "src-ea719d54c9",
               "name": "BunchaTV",
               "contents": [
                 {
-                  "id": "ct-ed70bba6d6",
+                  "id": "ct-ea719d54c9",
                   "name": "Andrey Rublev vs Nikoloz Basilashvili",
                   "streams": [
                     {
-                      "id": "st-ed70bba6d6",
-                      "name": "KT",
+                      "id": "st-ea719d54c9",
+                      "name": "Buncha - BLV Lucky",
                       "stream_links": [
                         {
                           "id": "lnk-50e94a821d",
@@ -3221,10 +3485,10 @@
             "league": "ATP Rome, Italy Men Singles",
             "team_a": "Andrey Rublev",
             "team_b": "Nikoloz Basilashvili",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-dev/football/team/logo/07acc0b56b6a296cd89a70e5952f025b.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-dev/football/team/logo/452cb78d874a5c2244c43141abb67724.png",
-            "time": "20:10 12/05",
-            "blv": "BLV Lucky",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/07acc0b56b6a296cd89a70e5952f025b.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/452cb78d874a5c2244c43141abb67724.png",
+            "time": "20:50 12/05",
+            "blv": "BLV Siêu Quậy",
             "is_live": true,
             "cate_name": "Tennis"
           },
@@ -3232,7 +3496,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/xixixius-ai/buncha-stream/refs/heads/main/thumbs/buncha-ed70bba6d6_687e098b_20260512.png?v=687e098b",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-8ac3693b1f_74b81dce_20260512.png?v=74b81dce",
             "width": 1600,
             "height": 1200
           }
@@ -3684,7 +3948,7 @@
     },
     {
       "id": "grp-cầu-lông",
-      "name": "🏸 Cầu Lông (8 LIVE)",
+      "name": "🏸 Cầu Lông (7 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -3866,8 +4130,8 @@
           }
         },
         {
-          "id": "thapcam-7e2ac42c90",
-          "name": "CHEN Zhi Ray /  LIN Yu Chieh vs Hariharan Amsakarunan/ M.R.Arjun | 20:25 12/05",
+          "id": "thapcam-bccea73a79",
+          "name": "BAO Li Jing ,CAO Zi Han vs HSIEH Pei Shan, HUNG En-Tzu | 20:45 12/05",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -3881,15 +4145,15 @@
           ],
           "sources": [
             {
-              "id": "src-7e2ac42c90",
+              "id": "src-bccea73a79",
               "name": "ThapcamTV",
               "contents": [
                 {
-                  "id": "ct-7e2ac42c90",
-                  "name": "CHEN Zhi Ray /  LIN Yu Chieh vs Hariharan Amsakarunan/ M.R.Arjun",
+                  "id": "ct-bccea73a79",
+                  "name": "BAO Li Jing ,CAO Zi Han vs HSIEH Pei Shan, HUNG En-Tzu",
                   "streams": [
                     {
-                      "id": "st-7e2ac42c90",
+                      "id": "st-bccea73a79",
                       "name": "KT",
                       "stream_links": [
                         {
@@ -3931,15 +4195,50 @@
                   ]
                 }
               ]
+            },
+            {
+              "id": "src-963b4c30f2",
+              "name": "BunchaTV",
+              "contents": [
+                {
+                  "id": "ct-963b4c30f2",
+                  "name": "BAO Li Jing ,CAO Zi Han vs HSIEH Pei Shan, HUNG En-Tzu",
+                  "streams": [
+                    {
+                      "id": "st-963b4c30f2",
+                      "name": "Buncha - Nhà Đài 3",
+                      "stream_links": [
+                        {
+                          "id": "lnk-3da673bb25",
+                          "name": "Nhà Đài 3",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.taoxanh.biz/live/6a02a330203f6_85714/index.m3u8?expire=1779162544&sign=cae3a4d59b7efb0bbdc339832e069fa9",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://bunchatv4.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
             }
           ],
           "org_metadata": {
             "league": "TOYOTA Thailand Open 2026 _ Sân 3",
-            "team_a": "CHEN Zhi Ray /  LIN Yu Chieh",
-            "team_b": "Hariharan Amsakarunan/ M.R.Arjun",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/cms/9637dbbfdd9fb9a82520c1c5eab91d9b.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/cms/55f91fae5fdbbd94b6b954ec55f182a6.png",
-            "time": "20:25 12/05",
+            "team_a": "BAO Li Jing ,CAO Zi Han",
+            "team_b": "HSIEH Pei Shan, HUNG En-Tzu",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/cms/6000f170a38851de72e5a4591e3ba72f.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/cms/b68152cc92f1e11e592a8df9f37acd11.png",
+            "time": "20:45 12/05",
             "blv": "BLV Người Điên",
             "is_live": true,
             "cate_name": "Cầu Lông"
@@ -3948,14 +4247,14 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-7e2ac42c90_e65e9c0e_20260512.png?v=e65e9c0e",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-bccea73a79_735fd88a_20260512.png?v=735fd88a",
             "width": 1600,
             "height": 1200
           }
         },
         {
-          "id": "thapcam-7ebd6aeaf4",
-          "name": "Zhi-Wei HE / HUANG Jui-Hsuan vs CHEN CHENG KUAN/LIU KUANG HENG | 20:30 12/05",
+          "id": "thapcam-e18a9c62a8",
+          "name": "Zhi-Wei HE / HUANG Jui-Hsuan vs CHEN Cheng Kuan / LIU Kuang Heng | 20:50 12/05",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -3969,15 +4268,15 @@
           ],
           "sources": [
             {
-              "id": "src-7ebd6aeaf4",
+              "id": "src-e18a9c62a8",
               "name": "ThapcamTV",
               "contents": [
                 {
-                  "id": "ct-7ebd6aeaf4",
-                  "name": "Zhi-Wei HE / HUANG Jui-Hsuan vs CHEN CHENG KUAN/LIU KUANG HENG",
+                  "id": "ct-e18a9c62a8",
+                  "name": "Zhi-Wei HE / HUANG Jui-Hsuan vs CHEN Cheng Kuan / LIU Kuang Heng",
                   "streams": [
                     {
-                      "id": "st-7ebd6aeaf4",
+                      "id": "st-e18a9c62a8",
                       "name": "KT",
                       "stream_links": [
                         {
@@ -4024,10 +4323,10 @@
           "org_metadata": {
             "league": "TOYOTA Thailand Open 2026 _ Sân 4",
             "team_a": "Zhi-Wei HE / HUANG Jui-Hsuan",
-            "team_b": "CHEN CHENG KUAN/LIU KUANG HENG",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/cms/fbad51fbd34085cdb77b158af48fe20f.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/cms/be3b330936af1ce258af309d15ba0afd.png",
-            "time": "20:30 12/05",
+            "team_b": "CHEN Cheng Kuan / LIU Kuang Heng",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/cms/e343e035f4a0b891efec01ea6cd855a0.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/cms/6be97088a2bb1d9f32c579cb768289b0.png",
+            "time": "20:50 12/05",
             "blv": "Sóng Sạch 3",
             "is_live": true,
             "cate_name": "Cầu Lông"
@@ -4036,14 +4335,14 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-7ebd6aeaf4_642432a9_20260512.png?v=642432a9",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-e18a9c62a8_889bad77_20260512.png?v=889bad77",
             "width": 1600,
             "height": 1200
           }
         },
         {
-          "id": "buncha-05260171d5",
-          "name": "Kral/Kral vs XIE H. / ZENG W. H. | 18:20 12/05",
+          "id": "buncha-9b633c0f79",
+          "name": "LOW Hang Yee / NG Eng Cheong vs HU Ke Yuan / LIN Xiang Yi | 20:00 12/05",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -4057,86 +4356,15 @@
           ],
           "sources": [
             {
-              "id": "src-05260171d5",
+              "id": "src-9b633c0f79",
               "name": "BunchaTV",
               "contents": [
                 {
-                  "id": "ct-05260171d5",
-                  "name": "Kral/Kral vs XIE H. / ZENG W. H.",
+                  "id": "ct-9b633c0f79",
+                  "name": "LOW Hang Yee / NG Eng Cheong vs HU Ke Yuan / LIN Xiang Yi",
                   "streams": [
                     {
-                      "id": "st-05260171d5",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-bbd2995139",
-                          "name": "Nhà Đài 4",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.taoxanh.biz/live/6a02a36e42284_138846/index.m3u8?expire=1779162606&sign=a5a1f9cb50d62d73c9c1d48bf99b753f",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://bunchatv4.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "TOYOTA Thailand Open 2026 _ Sân 4",
-            "team_a": "Kral/Kral",
-            "team_b": "XIE H. / ZENG W. H.",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-dev/cms/b0b515bf0d8349ad8c9cdf013014968a.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-dev/cms/a90a477e73c00a9f4dec707aaf3f4e26.jpg",
-            "time": "18:20 12/05",
-            "blv": "Nhà Đài 4",
-            "is_live": true,
-            "cate_name": "Cầu Lông"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/xixixius-ai/buncha-stream/refs/heads/main/thumbs/buncha-05260171d5_efdd643a_20260512.png?v=efdd643a",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "buncha-de9ae75da1",
-          "name": "R PANDA/S PANDA vs LIN CC/YANG C Y | 20:00 12/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-de9ae75da1",
-              "name": "BunchaTV",
-              "contents": [
-                {
-                  "id": "ct-de9ae75da1",
-                  "name": "R PANDA/S PANDA vs LIN CC/YANG C Y",
-                  "streams": [
-                    {
-                      "id": "st-de9ae75da1",
+                      "id": "st-9b633c0f79",
                       "name": "KT",
                       "stream_links": [
                         {
@@ -4182,10 +4410,10 @@
           ],
           "org_metadata": {
             "league": "TOYOTA Thailand Open 2026 _ Sân 2",
-            "team_a": "R PANDA/S PANDA",
-            "team_b": "LIN CC/YANG C Y",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-dev/cms/635bb064c764ddc9b70d22879e995caf.webp",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-dev/cms/3704fefc10ca21b1394ff9f758c3c5db.png",
+            "team_a": "LOW Hang Yee / NG Eng Cheong",
+            "team_b": "HU Ke Yuan / LIN Xiang Yi",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-dev/cms/460dd8621df586036bd73dce2e946e6d.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-dev/cms/dedd425ff03ced2c4c6f5f088d38c30f.png",
             "time": "20:00 12/05",
             "blv": "Nhà Đài 2, BLV Bún Riêu",
             "is_live": true,
@@ -4195,7 +4423,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/xixixius-ai/buncha-stream/refs/heads/main/thumbs/buncha-de9ae75da1_890a52d5_20260512.png?v=890a52d5",
+            "url": "https://raw.githubusercontent.com/xixixius-ai/buncha-stream/refs/heads/main/thumbs/buncha-9b633c0f79_50d11219_20260512.png?v=50d11219",
             "width": 1600,
             "height": 1200
           }
@@ -4289,8 +4517,8 @@
           }
         },
         {
-          "id": "buncha-8a0008bde6",
-          "name": "LUI Lok Lok / TSANG Hiu Yan vs Kaho OSAWA / Mai TANABE | 20:25 12/05",
+          "id": "buncha-f46cc15b92",
+          "name": "Zhi-Wei HE /  HUANG Jui-Hsuan vs CHEN CHENG KUAN/LIU KUANG HENG | 20:30 12/05",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -4304,23 +4532,23 @@
           ],
           "sources": [
             {
-              "id": "src-8a0008bde6",
+              "id": "src-f46cc15b92",
               "name": "BunchaTV",
               "contents": [
                 {
-                  "id": "ct-8a0008bde6",
-                  "name": "LUI Lok Lok / TSANG Hiu Yan vs Kaho OSAWA / Mai TANABE",
+                  "id": "ct-f46cc15b92",
+                  "name": "Zhi-Wei HE /  HUANG Jui-Hsuan vs CHEN CHENG KUAN/LIU KUANG HENG",
                   "streams": [
                     {
-                      "id": "st-8a0008bde6",
+                      "id": "st-f46cc15b92",
                       "name": "KT",
                       "stream_links": [
                         {
-                          "id": "lnk-3da673bb25",
-                          "name": "Nhà Đài 3",
+                          "id": "lnk-bbd2995139",
+                          "name": "Nhà Đài 4",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn-hls.taoxanh.biz/live/6a02a330203f6_85714/index.m3u8?expire=1779162544&sign=cae3a4d59b7efb0bbdc339832e069fa9",
+                          "url": "https://cdn-hls.taoxanh.biz/live/6a02a36e42284_138846/index.m3u8?expire=1779162606&sign=a5a1f9cb50d62d73c9c1d48bf99b753f",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -4340,13 +4568,13 @@
             }
           ],
           "org_metadata": {
-            "league": "TOYOTA Thailand Open 2026 _ Sân 3",
-            "team_a": "LUI Lok Lok / TSANG Hiu Yan",
-            "team_b": "Kaho OSAWA / Mai TANABE",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-dev/cms/e0d03d4ec6106f01281c95ca444de4c6.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-dev/cms/e1aa7a18afaae1949d57217cd21f0773.png",
-            "time": "20:25 12/05",
-            "blv": "Nhà Đài 3",
+            "league": "TOYOTA Thailand Open 2026 _ Sân 4",
+            "team_a": "Zhi-Wei HE /  HUANG Jui-Hsuan",
+            "team_b": "CHEN CHENG KUAN/LIU KUANG HENG",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-dev/cms/3e18e57a1a80b2f9aec898fbc1de236b.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-dev/cms/d6665b35140ffc05abd0f5fab33f611e.png",
+            "time": "20:30 12/05",
+            "blv": "Nhà Đài 4",
             "is_live": true,
             "cate_name": "Cầu Lông"
           },
@@ -4354,7 +4582,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/xixixius-ai/buncha-stream/refs/heads/main/thumbs/buncha-8a0008bde6_07f87fbf_20260512.png?v=07f87fbf",
+            "url": "https://raw.githubusercontent.com/xixixius-ai/buncha-stream/refs/heads/main/thumbs/buncha-f46cc15b92_74def2f8_20260512.png?v=74def2f8",
             "width": 1600,
             "height": 1200
           }
@@ -4363,82 +4591,11 @@
     },
     {
       "id": "grp-bóng-rổ",
-      "name": "🏀 Bóng Rổ (1 LIVE)",
+      "name": "🏀 Bóng Rổ",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-53e528851a",
-          "name": "Beijing vs Guangdong | 18:35 12/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-53e528851a",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-53e528851a",
-                  "name": "Beijing vs Guangdong",
-                  "streams": [
-                    {
-                      "id": "st-53e528851a",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-46278d750d",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1778484575_hd/1778484575_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "CBA",
-            "team_a": "Beijing",
-            "team_b": "Guangdong",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/en/3/30/Beijing_Ducks.png",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/en/thumb/1/15/Guangdong_Southern_Tigers.png/250px-Guangdong_Southern_Tigers.png",
-            "time": "18:35 12/05",
-            "blv": "BLV Cầy",
-            "is_live": true,
-            "cate_type": "basketball"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-53e528851a_dc884ff5_20260512.png?v=dc884ff5",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-04396594a2",
           "name": "CSKA Moscow vs Lokomotiv Kuban | 23:30 12/05",
