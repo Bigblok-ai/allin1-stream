@@ -3870,7 +3870,7 @@
     },
     {
       "id": "grp-bóng-rổ",
-      "name": "🏀 Bóng Rổ",
+      "name": "🏀 Bóng Rổ (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -3883,10 +3883,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -3906,6 +3906,41 @@
                   ]
                 }
               ]
+            },
+            {
+              "id": "src-3a9570cc7e",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-3a9570cc7e",
+                  "name": "San Antonio Spurs vs Minnesota Timberwolves",
+                  "streams": [
+                    {
+                      "id": "st-3a9570cc7e",
+                      "name": "Hoiquan - BLV PHAN TỪ",
+                      "stream_links": [
+                        {
+                          "id": "lnk-27b23108c0",
+                          "name": "BLV PHAN TỪ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://yvm80526.edgemaxcdn.org/live/hqtv_blv_phantu/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
             }
           ],
           "org_metadata": {
@@ -3916,7 +3951,7 @@
             "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/38794d0ac418d8f2d03bd17a2623f3ed.png",
             "time": "07:00 13/05",
             "blv": "BLV Jackay",
-            "is_live": false,
+            "is_live": true,
             "cate_name": "Bóng rổ"
           },
           "image": {
