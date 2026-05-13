@@ -2605,7 +2605,7 @@
     },
     {
       "id": "grp-bóng-rổ",
-      "name": "🏀 Bóng Rổ (2 LIVE)",
+      "name": "🏀 Bóng Rổ (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -2795,10 +2795,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -2836,6 +2836,41 @@
                   ]
                 }
               ]
+            },
+            {
+              "id": "src-dcd14c94b1",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-dcd14c94b1",
+                  "name": "Zhejiang Guangsha vs Shanxi Zhongyu",
+                  "streams": [
+                    {
+                      "id": "st-dcd14c94b1",
+                      "name": "Hoiquan - BLV PHAN HÀ LINH",
+                      "stream_links": [
+                        {
+                          "id": "lnk-a4d653008a",
+                          "name": "BLV PHAN HÀ LINH",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanhalinh/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
             }
           ],
           "org_metadata": {
@@ -2846,7 +2881,7 @@
             "logo_b": "https://static.flashscore.com/res/image/data/lWlmby5A-0WRxKA5p.png",
             "time": "18:35 13/05",
             "blv": "BLV Perry",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "basketball"
           },
           "image": {
