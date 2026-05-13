@@ -628,7 +628,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -776,6 +776,112 @@
           }
         },
         {
+          "id": "gv-c9adec84a2",
+          "name": "Stade Brestois vs Strasbourg | 00:00 14/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-c9adec84a2",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-c9adec84a2",
+                  "name": "Stade Brestois vs Strasbourg",
+                  "streams": [
+                    {
+                      "id": "st-c9adec84a2",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-23a8d60460",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1778646835_hd/1778646835_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-134887abd3",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-134887abd3",
+                  "name": "Stade Brestois 29 vs Strasbourg",
+                  "streams": [
+                    {
+                      "id": "st-134887abd3",
+                      "name": "Hoiquan - BLV CỦ HÀNH",
+                      "stream_links": [
+                        {
+                          "id": "lnk-a1498791d5",
+                          "name": "BLV CỦ HÀNH",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phando/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Ligue 1",
+            "team_a": "Stade Brestois",
+            "team_b": "Strasbourg",
+            "logo_a": "https://images.keovip88.net/images/teams/stade-brestois.png",
+            "logo_b": "https://images.keovip88.net/images/teams/strasbourg.png",
+            "time": "00:00 14/05",
+            "blv": "BLV Dory",
+            "is_live": true,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-c9adec84a2_dd3c1dc4_20260513.png?v=dd3c1dc4",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "hqlive-fc274756d1",
           "name": "Al Kuwait vs Svay Rieng | 23:45 13/05",
           "type": "single",
@@ -783,10 +889,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -801,7 +907,25 @@
                     {
                       "id": "st-fc274756d1",
                       "name": "HQ",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-e44b9d8369",
+                          "name": "BLV PHAN TÔ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanto/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -816,7 +940,7 @@
             "logo_b": "https://upload.wikimedia.org/wikipedia/en/thumb/a/ab/Svay_Rieng_FC_logo.png/250px-Svay_Rieng_FC_logo.png",
             "time": "23:45 13/05",
             "blv": "BLV PHAN TÔ",
-            "is_live": false,
+            "is_live": true,
             "sport_slug": "bong-da"
           },
           "image": {
@@ -971,148 +1095,6 @@
           }
         },
         {
-          "id": "gv-c9adec84a2",
-          "name": "Stade Brestois vs Strasbourg | 00:00 14/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-c9adec84a2",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-c9adec84a2",
-                  "name": "Stade Brestois vs Strasbourg",
-                  "streams": [
-                    {
-                      "id": "st-c9adec84a2",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-23a8d60460",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1778646835_hd/1778646835_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Ligue 1",
-            "team_a": "Stade Brestois",
-            "team_b": "Strasbourg",
-            "logo_a": "https://images.keovip88.net/images/teams/stade-brestois.png",
-            "logo_b": "https://images.keovip88.net/images/teams/strasbourg.png",
-            "time": "00:00 14/05",
-            "blv": "BLV Dory",
-            "is_live": false,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-c9adec84a2_dd3c1dc4_20260513.png?v=dd3c1dc4",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-d7a514c076",
-          "name": "Espanyol vs Athletic Bilbao | 00:00 14/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-d7a514c076",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-d7a514c076",
-                  "name": "Espanyol vs Athletic Bilbao",
-                  "streams": [
-                    {
-                      "id": "st-d7a514c076",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-868e33cd3c",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1778646862_hd/1778646862_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "La Liga",
-            "team_a": "Espanyol",
-            "team_b": "Athletic Bilbao",
-            "logo_a": "https://images.keovip88.net/images/teams/rcd-espanyol.png",
-            "logo_b": "https://images.keovip88.net/images/teams/athletic-bilbao.png",
-            "time": "00:00 14/05",
-            "blv": "BLV Băng",
-            "is_live": false,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-d7a514c076_5f2c51a4_20260513.png?v=5f2c51a4",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "gv-175f120131",
           "name": "Villarreal vs Sevilla | 00:00 14/05",
           "type": "single",
@@ -1179,6 +1161,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-175f120131_055fc944_20260513.png?v=055fc944",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-2aff25624f",
+          "name": "Espanyol vs Athletic Club | 00:00 14/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-2aff25624f",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-2aff25624f",
+                  "name": "Espanyol vs Athletic Club",
+                  "streams": [
+                    {
+                      "id": "st-2aff25624f",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "La Liga",
+            "team_a": "Espanyol",
+            "team_b": "Athletic Club",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/vi/f/fd/Rcd_espanyol_de_barcelona.gif",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/en/9/98/Club_Athletic_Bilbao_logo.svg",
+            "time": "00:00 14/05",
+            "blv": "BLV PHAN MÃO",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Espanyol_Athletic Club_00-00 14-05_bc3c55e9_20260513.png?v=bc3c55e9",
             "width": 1600,
             "height": 1200
           }
@@ -2291,8 +2326,8 @@
           }
         },
         {
-          "id": "hqlive-56e1181dd5",
-          "name": "Detroit Pistons vs Cleveland Cavaliers | 07:00 14/05",
+          "id": "gv-0e008d758b",
+          "name": "Connecticut Sun W  vs Las Vegas Aces W | 07:00 14/05",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -2306,17 +2341,106 @@
           ],
           "sources": [
             {
-              "id": "src-56e1181dd5",
-              "name": "HoiQuanTV",
+              "id": "src-0e008d758b",
+              "name": "GiovangTV",
               "contents": [
                 {
-                  "id": "ct-56e1181dd5",
-                  "name": "Detroit Pistons vs Cleveland Cavaliers",
+                  "id": "ct-0e008d758b",
+                  "name": "Connecticut Sun W  vs Las Vegas Aces W",
                   "streams": [
                     {
-                      "id": "st-56e1181dd5",
-                      "name": "HQ",
-                      "stream_links": []
+                      "id": "st-0e008d758b",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-7ff5c365a4",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1778689095_hd/1778689095_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "WNBA",
+            "team_a": "Connecticut Sun W ",
+            "team_b": "Las Vegas Aces W",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/en/0/09/Connecticut_Sun_logo.svg",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Las_Vegas_Aces_logo.svg/250px-Las_Vegas_Aces_logo.svg.png",
+            "time": "07:00 14/05",
+            "blv": "BLV Tôm",
+            "is_live": false,
+            "cate_type": "basketball"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-0e008d758b_c370f3bd_20260513.png?v=c370f3bd",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-4138c7ed02",
+          "name": "Pistons vs Cavaliers | 07:00 14/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-4138c7ed02",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-4138c7ed02",
+                  "name": "Pistons vs Cavaliers",
+                  "streams": [
+                    {
+                      "id": "st-4138c7ed02",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-e6d65fe0c6",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1778688997_hd/1778688997_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -2325,20 +2449,20 @@
           ],
           "org_metadata": {
             "league": "NBA",
-            "team_a": "Detroit Pistons",
-            "team_b": "Cleveland Cavaliers",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Logo_of_the_Detroit_Pistons_%282017%E2%80%93present%29.png/250px-Logo_of_the_Detroit_Pistons_%282017%E2%80%93present%29.png",
-            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSON_xAXqlmVA6CaABNgxtXMaVaFZIg65IPrg&s",
+            "team_a": "Pistons",
+            "team_b": "Cavaliers",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Logo_of_the_Detroit_Pistons.svg/1280px-Logo_of_the_Detroit_Pistons.svg.png",
+            "logo_b": "https://imgts.sportpulseapiz.com/basketball/team/gy0or5gtd87qwzv/image/small",
             "time": "07:00 14/05",
-            "blv": "BLV PHAN HÀ LINH",
+            "blv": "BLV Perry, BLV Cầy",
             "is_live": false,
-            "sport_slug": "bong-ro"
+            "cate_type": "basketball"
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Detroit Pistons_Cleveland Cavaliers_07-00 14-05_def91400_20260513.png?v=def91400",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-4138c7ed02_b550c34f_20260513.png?v=b550c34f",
             "width": 1600,
             "height": 1200
           }
