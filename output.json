@@ -628,7 +628,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (9 LIVE)",
+      "name": "⚽ Bóng Đá (8 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -777,7 +777,7 @@
         },
         {
           "id": "gv-4c456a395d",
-          "name": "Việt Nam U17  vs United Arab Emirates U17 | 23:59 13/05",
+          "name": "Việt Nam U17  vs United Arab Emirates U17 | 00:00 14/05",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -824,6 +824,41 @@
                   ]
                 }
               ]
+            },
+            {
+              "id": "src-738f05c2f4",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-738f05c2f4",
+                  "name": "Vietnam U17 vs United Arab Emirates U17",
+                  "streams": [
+                    {
+                      "id": "st-738f05c2f4",
+                      "name": "Hoiquan - BLV PHAN CHỚP",
+                      "stream_links": [
+                        {
+                          "id": "lnk-b3ac35be40",
+                          "name": "BLV PHAN CHỚP",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanchop/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
             }
           ],
           "org_metadata": {
@@ -832,7 +867,7 @@
             "team_b": "United Arab Emirates U17",
             "logo_a": "https://static.flashscore.com/res/image/data/2VXsWeFa-GWsEDOiC.png",
             "logo_b": "https://static.flashscore.com/res/image/data/niGIX9HG-OOVIImbn.png",
-            "time": "23:59 13/05",
+            "time": "00:00 14/05",
             "blv": "BLV Hợi, BLV Chanh",
             "is_live": true,
             "cate_type": "football"
@@ -1302,77 +1337,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Al Kuwait_Svay Rieng_23-45 13-05_57f4a121_20260514.png?v=57f4a121",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "hqlive-738f05c2f4",
-          "name": "Vietnam U17 vs United Arab Emirates U17 | 00:00 14/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-738f05c2f4",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-738f05c2f4",
-                  "name": "Vietnam U17 vs United Arab Emirates U17",
-                  "streams": [
-                    {
-                      "id": "st-738f05c2f4",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-b3ac35be40",
-                          "name": "BLV PHAN CHỚP",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanchop/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "AFC U17 Asian Cup",
-            "team_a": "Vietnam U17",
-            "team_b": "United Arab Emirates U17",
-            "logo_a": "https://media.api-sports.io/football/teams/21447.png",
-            "logo_b": "https://media.api-sports.io/football/teams/26875.png",
-            "time": "00:00 14/05",
-            "blv": "BLV PHAN CHỚP",
-            "is_live": true,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Vietnam U17_United Arab Emirates U17_00-00 14-05_1433df63_20260514.png?v=1433df63",
             "width": 1600,
             "height": 1200
           }
