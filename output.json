@@ -1314,7 +1314,114 @@
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
-      "channels": []
+      "channels": [
+        {
+          "id": "hqlive-c5e3958eea",
+          "name": "Jannik Sinner vs Andrey Rublev | 18:00 14/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-c5e3958eea",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-c5e3958eea",
+                  "name": "Jannik Sinner vs Andrey Rublev",
+                  "streams": [
+                    {
+                      "id": "st-c5e3958eea",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "WTA 1000 Rome",
+            "team_a": "Jannik Sinner",
+            "team_b": "Andrey Rublev",
+            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtkuD4iDpTTtrKYv1EJ3LPjU01T_fPpfF-hg&s",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/4/40/Andrey_Rublev_%282023_US_Open%29_02_%28cropped%29.jpg",
+            "time": "18:00 14/05",
+            "blv": "BLV PHAN TỪ",
+            "is_live": false,
+            "sport_slug": "tennis"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Jannik Sinner_Andrey Rublev_18-00 14-05_1ee2c775_20260514.png?v=1ee2c775",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-2a4c7b9583",
+          "name": "Sorana Cirstea vs Coco Gauff | 20:00 14/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-2a4c7b9583",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-2a4c7b9583",
+                  "name": "Sorana Cirstea vs Coco Gauff",
+                  "streams": [
+                    {
+                      "id": "st-2a4c7b9583",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "WTA 1000 Rome",
+            "team_a": "Sorana Cirstea",
+            "team_b": "Coco Gauff",
+            "logo_a": "https://vstatic.vietnam.vn/vietnam/resource/IMAGE/2025/9/1/57540687cf794faab2743ccaa88e058f",
+            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlSUpEF6Cuye3u7pi15d4mYx1hORj319ljAw&s",
+            "time": "20:00 14/05",
+            "blv": "BLV PHAN BÁCH",
+            "is_live": false,
+            "sport_slug": "tennis"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Sorana Cirstea_Coco Gauff_20-00 14-05_82bb0701_20260514.png?v=82bb0701",
+            "width": 1600,
+            "height": 1200
+          }
+        }
+      ]
     },
     {
       "id": "grp-cầu-lông",
@@ -1486,7 +1593,7 @@
     },
     {
       "id": "grp-bóng-rổ",
-      "name": "🏀 Bóng Rổ",
+      "name": "🏀 Bóng Rổ (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1499,10 +1606,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -1540,6 +1647,41 @@
                   ]
                 }
               ]
+            },
+            {
+              "id": "src-56e1181dd5",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-56e1181dd5",
+                  "name": "Detroit Pistons vs Cleveland Cavaliers",
+                  "streams": [
+                    {
+                      "id": "st-56e1181dd5",
+                      "name": "Hoiquan - BLV PHAN HÀ LINH",
+                      "stream_links": [
+                        {
+                          "id": "lnk-a4d653008a",
+                          "name": "BLV PHAN HÀ LINH",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanhalinh/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
             }
           ],
           "org_metadata": {
@@ -1550,7 +1692,7 @@
             "logo_b": "https://imgts.sportpulseapiz.com/basketball/team/gy0or5gtd87qwzv/image/small",
             "time": "07:00 14/05",
             "blv": "BLV Perry, BLV Cầy",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "basketball"
           },
           "image": {
@@ -1570,10 +1712,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -1621,7 +1763,7 @@
             "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Las_Vegas_Aces_logo.svg/250px-Las_Vegas_Aces_logo.svg.png",
             "time": "07:00 14/05",
             "blv": "BLV Tôm",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "basketball"
           },
           "image": {
