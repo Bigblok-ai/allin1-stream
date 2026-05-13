@@ -628,11 +628,82 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (1 LIVE)",
+      "name": "⚽ Bóng Đá (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "gv-06caea49fd",
+          "name": "FC Machida Zelvia vs Tokyo Verdy | 17:00 13/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-06caea49fd",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-06caea49fd",
+                  "name": "FC Machida Zelvia vs Tokyo Verdy",
+                  "streams": [
+                    {
+                      "id": "st-06caea49fd",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-b456e4dd60",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1778559298_hd/1778559298_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "VĐQG Nhật Bản",
+            "team_a": "FC Machida Zelvia",
+            "team_b": "Tokyo Verdy",
+            "logo_a": "https://images.keovip88.net/images/teams/machida-zelvia.png",
+            "logo_b": "https://images.keovip88.net/images/teams/tokyo-verdy.png",
+            "time": "17:00 13/05",
+            "blv": "BLV Ngỗng",
+            "is_live": true,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-06caea49fd_b99b09be_20260513.png?v=b99b09be",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "gv-512133d202",
           "name": "Ulsan Hyundai vs Jeju United FC | 17:30 13/05",
@@ -700,77 +771,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-512133d202_338934ac_20260513.png?v=338934ac",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-06caea49fd",
-          "name": "FC Machida Zelvia vs Tokyo Verdy | 17:00 13/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-06caea49fd",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-06caea49fd",
-                  "name": "FC Machida Zelvia vs Tokyo Verdy",
-                  "streams": [
-                    {
-                      "id": "st-06caea49fd",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-b456e4dd60",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1778559298_hd/1778559298_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "VĐQG Nhật Bản",
-            "team_a": "FC Machida Zelvia",
-            "team_b": "Tokyo Verdy",
-            "logo_a": "https://images.keovip88.net/images/teams/machida-zelvia.png",
-            "logo_b": "https://images.keovip88.net/images/teams/tokyo-verdy.png",
-            "time": "17:00 13/05",
-            "blv": "BLV Ngỗng",
-            "is_live": false,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-06caea49fd_b99b09be_20260513.png?v=b99b09be",
             "width": 1600,
             "height": 1200
           }
