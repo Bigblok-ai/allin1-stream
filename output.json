@@ -2054,7 +2054,7 @@
     },
     {
       "id": "grp-tennis",
-      "name": "🎾 Tennis",
+      "name": "🎾 Tennis (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -2067,10 +2067,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -2108,6 +2108,41 @@
                   ]
                 }
               ]
+            },
+            {
+              "id": "src-140454b9d0",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-140454b9d0",
+                  "name": "Martin Landaluce vs Daniil Medvedev",
+                  "streams": [
+                    {
+                      "id": "st-140454b9d0",
+                      "name": "Hoiquan - BLV PHAN TỪ",
+                      "stream_links": [
+                        {
+                          "id": "lnk-27b23108c0",
+                          "name": "BLV PHAN TỪ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://yvm80526.edgemaxcdn.org/live/hqtv_blv_phantu/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
             }
           ],
           "org_metadata": {
@@ -2118,7 +2153,7 @@
             "logo_b": "https://static.flashscore.com/res/image/data/QujxPtf5-6Z1AkBdk.png",
             "time": "00:00 15/05",
             "blv": "BLV Perry",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "tennis"
           },
           "image": {
