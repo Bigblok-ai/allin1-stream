@@ -628,14 +628,14 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (1 LIVE)",
+      "name": "⚽ Bóng Đá (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
         {
-          "id": "hqlive-1468577a20",
-          "name": "FC Copenhagen vs FC Midtjylland | 22:00 14/05",
+          "id": "gv-fd01405a6a",
+          "name": "Mjallby vs Hammarby | 20:00 14/05",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -649,6 +649,112 @@
           ],
           "sources": [
             {
+              "id": "src-fd01405a6a",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-fd01405a6a",
+                  "name": "Mjallby vs Hammarby",
+                  "streams": [
+                    {
+                      "id": "st-fd01405a6a",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-1028b823bb",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1778730543_hd/1778730543_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Cup Thụy Điển",
+            "team_a": "Mjallby",
+            "team_b": "Hammarby",
+            "logo_a": "https://static.flashscore.com/res/image/data/S8bG87fM-tl2CILaH.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/WnEnrwjl-EamQtThn.png",
+            "time": "20:00 14/05",
+            "blv": "BLV Dần",
+            "is_live": true,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-fd01405a6a_b2e6491a_20260514.png?v=b2e6491a",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-3f492c720d",
+          "name": "FC Copenhagen vs Midtjylland | 22:00 14/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-3f492c720d",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-3f492c720d",
+                  "name": "FC Copenhagen vs Midtjylland",
+                  "streams": [
+                    {
+                      "id": "st-3f492c720d",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-9cd9a7bb69",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1778730622_hd/1778730622_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
               "id": "src-1468577a20",
               "name": "HoiQuanTV",
               "contents": [
@@ -658,7 +764,7 @@
                   "streams": [
                     {
                       "id": "st-1468577a20",
-                      "name": "HQ",
+                      "name": "Hoiquan - BLV CỦ HÀNH",
                       "stream_links": [
                         {
                           "id": "lnk-a1498791d5",
@@ -685,21 +791,21 @@
             }
           ],
           "org_metadata": {
-            "league": "DBU Pokalen",
+            "league": "Cup Đan Mạch",
             "team_a": "FC Copenhagen",
-            "team_b": "FC Midtjylland",
-            "logo_a": "https://ssl.gstatic.com/onebox/media/sports/logos/FjlPNK4kZUDzQp5-E3PAJg_96x96.png",
-            "logo_b": "https://media.api-sports.io/football/teams/397.png",
+            "team_b": "Midtjylland",
+            "logo_a": "https://static.flashscore.com/res/image/data/dvE1YECa-xv6lkb7q.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/2qvepTXg-6wCtU1dQ.png",
             "time": "22:00 14/05",
-            "blv": "BLV CỦ HÀNH",
+            "blv": "BLV Câm",
             "is_live": true,
-            "sport_slug": "bong-da"
+            "cate_type": "football"
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/FC Copenhagen_FC Midtjylland_22-00 14-05_8770ab3c_20260514.png?v=8770ab3c",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-3f492c720d_d0a9da39_20260514.png?v=d0a9da39",
             "width": 1600,
             "height": 1200
           }
@@ -758,8 +864,8 @@
           }
         },
         {
-          "id": "hqlive-f426a3baaf",
-          "name": "Al-Fateh vs Al Najma | 22:55 14/05",
+          "id": "gv-d51a025c35",
+          "name": "Al-Fateh SC vs Al-Najma(KSA) | 22:55 14/05",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -773,17 +879,35 @@
           ],
           "sources": [
             {
-              "id": "src-f426a3baaf",
-              "name": "HoiQuanTV",
+              "id": "src-d51a025c35",
+              "name": "GiovangTV",
               "contents": [
                 {
-                  "id": "ct-f426a3baaf",
-                  "name": "Al-Fateh vs Al Najma",
+                  "id": "ct-d51a025c35",
+                  "name": "Al-Fateh SC vs Al-Najma(KSA)",
                   "streams": [
                     {
-                      "id": "st-f426a3baaf",
-                      "name": "HQ",
-                      "stream_links": []
+                      "id": "st-d51a025c35",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-5834232e0e",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1778708069_hd/1778708069_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -791,27 +915,27 @@
             }
           ],
           "org_metadata": {
-            "league": "Pro League",
-            "team_a": "Al-Fateh",
-            "team_b": "Al Najma",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/ar/0/03/Al-Fateh_FC_logo.jpg?20210201090010",
-            "logo_b": "https://d1yjjnpx0p53s8.cloudfront.net/styles/logo-thumbnail/s3/072018/untitled-1_137.png?E2WtqgYxrR8w9oLMbBZqwD84gHD890as&itok=iKU0Yn2w",
+            "league": "VĐQG Ả Rập Xê Út",
+            "team_a": "Al-Fateh SC",
+            "team_b": "Al-Najma(KSA)",
+            "logo_a": "https://images.keovip88.net/images/teams/al-fateh.png",
+            "logo_b": "https://images.keovip88.net/images/teams/al-najmaksa.png",
             "time": "22:55 14/05",
-            "blv": "BLV PHAN CHỚP",
+            "blv": "BLV Tỵ",
             "is_live": false,
-            "sport_slug": "bong-da"
+            "cate_type": "football"
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Al-Fateh_Al Najma_22-55 14-05_0036f967_20260514.png?v=0036f967",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-d51a025c35_297f4da1_20260514.png?v=297f4da1",
             "width": 1600,
             "height": 1200
           }
         },
         {
-          "id": "hqlive-e45b3ce42c",
+          "id": "gv-06b2e3b068",
           "name": "Valencia vs Rayo Vallecano | 00:00 15/05",
           "type": "single",
           "display": "thumbnail-only",
@@ -826,17 +950,35 @@
           ],
           "sources": [
             {
-              "id": "src-e45b3ce42c",
-              "name": "HoiQuanTV",
+              "id": "src-06b2e3b068",
+              "name": "GiovangTV",
               "contents": [
                 {
-                  "id": "ct-e45b3ce42c",
+                  "id": "ct-06b2e3b068",
                   "name": "Valencia vs Rayo Vallecano",
                   "streams": [
                     {
-                      "id": "st-e45b3ce42c",
-                      "name": "HQ",
-                      "stream_links": []
+                      "id": "st-06b2e3b068",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-77d646e4ad",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1778741970_hd/1778741970_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -847,24 +989,24 @@
             "league": "La Liga",
             "team_a": "Valencia",
             "team_b": "Rayo Vallecano",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/vi/f/fe/Valenciacf.png",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/vi/0/03/Yyjbb92.png",
+            "logo_a": "https://images.keovip88.net/images/teams/valencia.png",
+            "logo_b": "https://images.keovip88.net/images/teams/rayo-vallecano.png",
             "time": "00:00 15/05",
-            "blv": "BLV PHAN TÔ",
+            "blv": "BLV Thìn",
             "is_live": false,
-            "sport_slug": "bong-da"
+            "cate_type": "football"
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Valencia_Rayo Vallecano_00-00 15-05_2af1a8d2_20260514.png?v=2af1a8d2",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-06b2e3b068_393f504f_20260514.png?v=393f504f",
             "width": 1600,
             "height": 1200
           }
         },
         {
-          "id": "hqlive-3ec0da4a12",
+          "id": "gv-eeb8863a40",
           "name": "Girona vs Real Sociedad | 01:00 15/05",
           "type": "single",
           "display": "thumbnail-only",
@@ -879,17 +1021,35 @@
           ],
           "sources": [
             {
-              "id": "src-3ec0da4a12",
-              "name": "HoiQuanTV",
+              "id": "src-eeb8863a40",
+              "name": "GiovangTV",
               "contents": [
                 {
-                  "id": "ct-3ec0da4a12",
+                  "id": "ct-eeb8863a40",
                   "name": "Girona vs Real Sociedad",
                   "streams": [
                     {
-                      "id": "st-3ec0da4a12",
-                      "name": "HQ",
-                      "stream_links": []
+                      "id": "st-eeb8863a40",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-5c7821b38d",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1778742191_hd/1778742191_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -900,25 +1060,25 @@
             "league": "La Liga",
             "team_a": "Girona",
             "team_b": "Real Sociedad",
-            "logo_a": "https://www.pngmart.com/files/22/Girona-FC-PNG-HD.png",
-            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRCqksyaudrnPerqAK70Wf34Xo-WN_BSmSsQg&s",
+            "logo_a": "https://images.keovip88.net/images/teams/girona.png",
+            "logo_b": "https://images.keovip88.net/images/teams/real-sociedad.png",
             "time": "01:00 15/05",
-            "blv": "BLV PHAN HÀ LINH",
+            "blv": "BLV Hợi",
             "is_live": false,
-            "sport_slug": "bong-da"
+            "cate_type": "football"
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Girona_Real Sociedad_01-00 15-05_1f1507ac_20260514.png?v=1f1507ac",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-eeb8863a40_977a81e8_20260514.png?v=977a81e8",
             "width": 1600,
             "height": 1200
           }
         },
         {
-          "id": "hqlive-86e93cff82",
-          "name": "Real Madrid vs Oviedo | 02:30 15/05",
+          "id": "gv-8e1f7a95d2",
+          "name": "Al-Ettifaq vs Al Ittihad Jeddah | 01:00 15/05",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -932,17 +1092,177 @@
           ],
           "sources": [
             {
-              "id": "src-86e93cff82",
-              "name": "HoiQuanTV",
+              "id": "src-8e1f7a95d2",
+              "name": "GiovangTV",
               "contents": [
                 {
-                  "id": "ct-86e93cff82",
-                  "name": "Real Madrid vs Oviedo",
+                  "id": "ct-8e1f7a95d2",
+                  "name": "Al-Ettifaq vs Al Ittihad Jeddah",
                   "streams": [
                     {
-                      "id": "st-86e93cff82",
-                      "name": "HQ",
-                      "stream_links": []
+                      "id": "st-8e1f7a95d2",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-9fa88fb09b",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1778742278_hd/1778742278_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "VĐQG Ả Rập Xê Út",
+            "team_a": "Al-Ettifaq",
+            "team_b": "Al Ittihad Jeddah",
+            "logo_a": "https://images.keovip88.net/images/teams/al-ettifaq.png",
+            "logo_b": "https://images.keovip88.net/images/teams/al-ittihad.png",
+            "time": "01:00 15/05",
+            "blv": "BLV Câm",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-8e1f7a95d2_1cce1ce1_20260514.png?v=1cce1ce1",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-098d48a235",
+          "name": "Al-Qadasiya vs Al-Hazm | 01:00 15/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-098d48a235",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-098d48a235",
+                  "name": "Al-Qadasiya vs Al-Hazm",
+                  "streams": [
+                    {
+                      "id": "st-098d48a235",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-9f56765d4e",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1778742351_hd/1778742351_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "VĐQG Ả Rập Xê Út",
+            "team_a": "Al-Qadasiya",
+            "team_b": "Al-Hazm",
+            "logo_a": "https://images.keovip88.net/images/teams/al-qadsiah.png",
+            "logo_b": "https://images.keovip88.net/images/teams/al-hazm.png",
+            "time": "01:00 15/05",
+            "blv": "BLV Ngỗng",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-098d48a235_efe5a6a0_20260514.png?v=efe5a6a0",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-abb8a0c450",
+          "name": "Real Madrid vs Real Oviedo | 02:30 15/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-abb8a0c450",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-abb8a0c450",
+                  "name": "Real Madrid vs Real Oviedo",
+                  "streams": [
+                    {
+                      "id": "st-abb8a0c450",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-84e6b07bb5",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1778743864_hd/1778743864_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -952,19 +1272,232 @@
           "org_metadata": {
             "league": "La Liga",
             "team_a": "Real Madrid",
-            "team_b": "Oviedo",
-            "logo_a": "https://ssl.gstatic.com/onebox/media/sports/logos/Th4fAVAZeCJWRcKoLW7koA_96x96.png",
-            "logo_b": "https://media.api-sports.io/football/teams/718.png",
+            "team_b": "Real Oviedo",
+            "logo_a": "https://images.keovip88.net/images/teams/real-madrid.png",
+            "logo_b": "https://images.keovip88.net/images/teams/real-oviedo.png",
             "time": "02:30 15/05",
-            "blv": "BLV PHAN MÃ, BLV LƯƠNG BỔNG",
+            "blv": "BLV Mason, BLV Dần",
             "is_live": false,
-            "sport_slug": "bong-da"
+            "cate_type": "football"
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Real Madrid_Oviedo_02-30 15-05_5584e1d3_20260514.png?v=5584e1d3",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-abb8a0c450_92ec32cf_20260514.png?v=92ec32cf",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-bcad816fa2",
+          "name": "Confianca (SE) vs Gremio (RS) | 05:00 15/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-bcad816fa2",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-bcad816fa2",
+                  "name": "Confianca (SE) vs Gremio (RS)",
+                  "streams": [
+                    {
+                      "id": "st-bcad816fa2",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-d22083c89a",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1778743972_hd/1778743972_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Cúp Brazil",
+            "team_a": "Confianca (SE)",
+            "team_b": "Gremio (RS)",
+            "logo_a": "https://images.keovip88.net/images/teams/confianca-se.png",
+            "logo_b": "https://images.keovip88.net/images/teams/gremio-rs.png",
+            "time": "05:00 15/05",
+            "blv": "BLV Dần",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-bcad816fa2_30f55089_20260514.png?v=30f55089",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-c81eb9bd34",
+          "name": "Atletico Clube Goianiense vs Atletico Paranaense | 05:00 15/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-c81eb9bd34",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-c81eb9bd34",
+                  "name": "Atletico Clube Goianiense vs Atletico Paranaense",
+                  "streams": [
+                    {
+                      "id": "st-c81eb9bd34",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-713fef011e",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1778744015_hd/1778744015_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Cúp Brazil",
+            "team_a": "Atletico Clube Goianiense",
+            "team_b": "Atletico Paranaense",
+            "logo_a": "https://images.keovip88.net/images/teams/atletico-clube-goianiense.png",
+            "logo_b": "https://images.keovip88.net/images/teams/atletico-paranaense.png",
+            "time": "05:00 15/05",
+            "blv": "BLV Ngỗng",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-c81eb9bd34_10dab7d7_20260514.png?v=10dab7d7",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-83d88b0b80",
+          "name": "Corinthians Paulista (SP) vs Barra FC | 05:30 15/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-83d88b0b80",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-83d88b0b80",
+                  "name": "Corinthians Paulista (SP) vs Barra FC",
+                  "streams": [
+                    {
+                      "id": "st-83d88b0b80",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-8bb89d1ec0",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1778744121_hd/1778744121_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Cúp Brazil",
+            "team_a": "Corinthians Paulista (SP)",
+            "team_b": "Barra FC",
+            "logo_a": "https://images.keovip88.net/images/teams/corinthians-paulista-sp.png",
+            "logo_b": "https://images.keovip88.net/images/teams/barra-fc.png",
+            "time": "05:30 15/05",
+            "blv": "blv-mat",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-83d88b0b80_9f1f2aaf_20260514.png?v=9f1f2aaf",
             "width": 1600,
             "height": 1200
           }
@@ -1076,7 +1609,7 @@
           }
         },
         {
-          "id": "hqlive-5f77f1ea40",
+          "id": "gv-5447c727b5",
           "name": "Semen Padang vs Persebaya Surabaya | 15:30 15/05",
           "type": "single",
           "display": "thumbnail-only",
@@ -1091,17 +1624,35 @@
           ],
           "sources": [
             {
-              "id": "src-5f77f1ea40",
-              "name": "HoiQuanTV",
+              "id": "src-5447c727b5",
+              "name": "GiovangTV",
               "contents": [
                 {
-                  "id": "ct-5f77f1ea40",
+                  "id": "ct-5447c727b5",
                   "name": "Semen Padang vs Persebaya Surabaya",
                   "streams": [
                     {
-                      "id": "st-5f77f1ea40",
-                      "name": "HQ",
-                      "stream_links": []
+                      "id": "st-5447c727b5",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-47061c8ae3",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1778765843_hd/1778765843_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -1109,21 +1660,21 @@
             }
           ],
           "org_metadata": {
-            "league": "Liga 1",
+            "league": "VĐQG Indonesia",
             "team_a": "Semen Padang",
             "team_b": "Persebaya Surabaya",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/min/1/1e/Semen_Padang_FC.png",
-            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTuTyY0tUDghwoKecafyCjgfqvW_fzYBPga7A&s",
+            "logo_a": "https://images.keovip88.net/images/teams/semen-padang.png",
+            "logo_b": "https://images.keovip88.net/images/teams/persebaya-surabaya.png",
             "time": "15:30 15/05",
-            "blv": "BLV CỦ HÀNH",
+            "blv": "BLV Tỵ",
             "is_live": false,
-            "sport_slug": "bong-da"
+            "cate_type": "football"
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Semen Padang_Persebaya Surabaya_15-30 15-05_68f0e13e_20260514.png?v=68f0e13e",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-5447c727b5_93ed5a8c_20260514.png?v=93ed5a8c",
             "width": 1600,
             "height": 1200
           }
@@ -1315,7 +1866,7 @@
           }
         },
         {
-          "id": "hqlive-140454b9d0",
+          "id": "gv-39d39d71d5",
           "name": "Martin Landaluce vs Daniil Medvedev | 00:00 15/05",
           "type": "single",
           "display": "thumbnail-only",
@@ -1330,17 +1881,35 @@
           ],
           "sources": [
             {
-              "id": "src-140454b9d0",
-              "name": "HoiQuanTV",
+              "id": "src-39d39d71d5",
+              "name": "GiovangTV",
               "contents": [
                 {
-                  "id": "ct-140454b9d0",
+                  "id": "ct-39d39d71d5",
                   "name": "Martin Landaluce vs Daniil Medvedev",
                   "streams": [
                     {
-                      "id": "st-140454b9d0",
-                      "name": "HQ",
-                      "stream_links": []
+                      "id": "st-39d39d71d5",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-3ee5ff5745",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1778744704_hd/1778744704_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -1348,21 +1917,21 @@
             }
           ],
           "org_metadata": {
-            "league": "WTA 1000 Rome",
+            "league": "ATP Rome Master 2026",
             "team_a": "Martin Landaluce",
             "team_b": "Daniil Medvedev",
-            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWoU78UyOZ3nheNtsR3T3_ysPhFCrIIgmNqg&s",
-            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRU-ThUSVRA1sgqwj_Qe4f22lmchMKp66MuBg&s",
+            "logo_a": "https://static.flashscore.com/res/image/data/h643yEf5-lUgfnnam.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/QujxPtf5-6Z1AkBdk.png",
             "time": "00:00 15/05",
-            "blv": "BLV PHAN BÁCH",
+            "blv": "BLV Perry",
             "is_live": false,
-            "sport_slug": "tennis"
+            "cate_type": "tennis"
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Martin Landaluce_Daniil Medvedev_00-00 15-05_541f06f3_20260514.png?v=541f06f3",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-39d39d71d5_f133cd01_20260514.png?v=f133cd01",
             "width": 1600,
             "height": 1200
           }
@@ -1510,7 +2079,362 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "hqlive-508396ef40",
+          "id": "gv-458614e5a5",
+          "name": "CSKA Moscow vs Lokomotiv Kuban | 23:30 14/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-458614e5a5",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-458614e5a5",
+                  "name": "CSKA Moscow vs Lokomotiv Kuban",
+                  "streams": [
+                    {
+                      "id": "st-458614e5a5",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-918b88e63a",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1778741910_hd/1778741910_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "VTB United League",
+            "team_a": "CSKA Moscow",
+            "team_b": "Lokomotiv Kuban",
+            "logo_a": "https://static.flashscore.com/res/image/data/0GqRMIYg-0AYHMLmL.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/tfzLgCzB-YNdc4gY7.png",
+            "time": "23:30 14/05",
+            "blv": "BLV Ben",
+            "is_live": false,
+            "cate_type": "basketball"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-458614e5a5_0fac8609_20260514.png?v=0fac8609",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-b79beab6f1",
+          "name": "Bilbao vs Real Madrid | 00:00 15/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-b79beab6f1",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-b79beab6f1",
+                  "name": "Bilbao vs Real Madrid",
+                  "streams": [
+                    {
+                      "id": "st-b79beab6f1",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-39581a4fd0",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1778744391_hd/1778744391_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "ACB",
+            "team_a": "Bilbao",
+            "team_b": "Real Madrid",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/en/thumb/9/98/Club_Athletic_Bilbao_logo.svg/1280px-Club_Athletic_Bilbao_logo.svg.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/vi/thumb/c/c7/Logo_Real_Madrid.svg/250px-Logo_Real_Madrid.svg.png",
+            "time": "00:00 15/05",
+            "blv": "BLV Điếc",
+            "is_live": false,
+            "cate_type": "basketball"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-b79beab6f1_4cf17611_20260514.png?v=4cf17611",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-44bcf0db15",
+          "name": "San Miguel Beermen vs Rain or Shine Elasto | 16:15 15/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-44bcf0db15",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-44bcf0db15",
+                  "name": "San Miguel Beermen vs Rain or Shine Elasto",
+                  "streams": [
+                    {
+                      "id": "st-44bcf0db15",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-6fb63375db",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1778765140_hd/1778765140_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Phillipines",
+            "team_a": "San Miguel Beermen",
+            "team_b": "Rain or Shine Elasto",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/en/thumb/f/fe/San_Miguel_Beermen_logo.svg/1280px-San_Miguel_Beermen_logo.svg.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/en/0/0b/Rain_or_Shine_Elasto_Painters_team_logo.png",
+            "time": "16:15 15/05",
+            "blv": "BLV Cầy",
+            "is_live": false,
+            "cate_type": "basketball"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-44bcf0db15_9581af69_20260514.png?v=9581af69",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-6339963783",
+          "name": "New Taipei Kings vs Taiwan Beer Leopards | 18:00 15/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-6339963783",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-6339963783",
+                  "name": "New Taipei Kings vs Taiwan Beer Leopards",
+                  "streams": [
+                    {
+                      "id": "st-6339963783",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-58a8893240",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1778765223_hd/1778765223_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Taiwan",
+            "team_a": "New Taipei Kings",
+            "team_b": "Taiwan Beer Leopards",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/en/0/08/New_Taipei_Kings_logo.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/en/thumb/1/10/Taoyuan_Taiwan_Beer_Leopards.webp/250px-Taoyuan_Taiwan_Beer_Leopards.webp.png",
+            "time": "18:00 15/05",
+            "blv": "BLV Ben",
+            "is_live": false,
+            "cate_type": "basketball"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-6339963783_681ce113_20260514.png?v=681ce113",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-d48b95827b",
+          "name": "Phoenix Fuelmasters vs Barangay Ginebra | 18:30 15/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-d48b95827b",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-d48b95827b",
+                  "name": "Phoenix Fuelmasters vs Barangay Ginebra",
+                  "streams": [
+                    {
+                      "id": "st-d48b95827b",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-3ea3bb600d",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1778765323_hd/1778765323_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Phillipines",
+            "team_a": "Phoenix Fuelmasters",
+            "team_b": "Barangay Ginebra",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/en/6/65/Phoenix_Super_LPG_Fuel_Masters_logo.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/2/24/Barangay_Ginebra_San_Miguel_logo.png",
+            "time": "18:30 15/05",
+            "blv": "BLV Cầy",
+            "is_live": false,
+            "cate_type": "basketball"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-d48b95827b_066dbdda_20260514.png?v=066dbdda",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-0bbbf405ad",
           "name": "Shanghai vs Beijing | 18:35 15/05",
           "type": "single",
           "display": "thumbnail-only",
@@ -1525,17 +2449,35 @@
           ],
           "sources": [
             {
-              "id": "src-508396ef40",
-              "name": "HoiQuanTV",
+              "id": "src-0bbbf405ad",
+              "name": "GiovangTV",
               "contents": [
                 {
-                  "id": "ct-508396ef40",
+                  "id": "ct-0bbbf405ad",
                   "name": "Shanghai vs Beijing",
                   "streams": [
                     {
-                      "id": "st-508396ef40",
-                      "name": "HQ",
-                      "stream_links": []
+                      "id": "st-0bbbf405ad",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-5d1bc1fe5e",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1778765401_hd/1778765401_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -1547,24 +2489,24 @@
             "team_a": "Shanghai",
             "team_b": "Beijing",
             "logo_a": "https://upload.wikimedia.org/wikipedia/en/3/38/Shanghai_Sharks_logo.png",
-            "logo_b": "https://static.bongda24h.vn/Medias/thumnail/2022/1/25/beijing-guoan.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/en/3/30/Beijing_Ducks.png",
             "time": "18:35 15/05",
-            "blv": "BLV PHAN MÃO",
+            "blv": "BLV Tôm",
             "is_live": false,
-            "sport_slug": "bong-ro"
+            "cate_type": "basketball"
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Shanghai_Beijing_18-35 15-05_d149eadb_20260514.png?v=d149eadb",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-0bbbf405ad_db81f1d4_20260514.png?v=db81f1d4",
             "width": 1600,
             "height": 1200
           }
         },
         {
-          "id": "hqlive-04b796d728",
-          "name": "Cleveland Cavaliers vs Detroit Pistons | 06:00 16/05",
+          "id": "gv-e00632ed9e",
+          "name": "Cavaliers vs Pistons | 06:00 16/05",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1578,17 +2520,35 @@
           ],
           "sources": [
             {
-              "id": "src-04b796d728",
-              "name": "HoiQuanTV",
+              "id": "src-e00632ed9e",
+              "name": "GiovangTV",
               "contents": [
                 {
-                  "id": "ct-04b796d728",
-                  "name": "Cleveland Cavaliers vs Detroit Pistons",
+                  "id": "ct-e00632ed9e",
+                  "name": "Cavaliers vs Pistons",
                   "streams": [
                     {
-                      "id": "st-04b796d728",
-                      "name": "HQ",
-                      "stream_links": []
+                      "id": "st-e00632ed9e",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-9cf1c6027d",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1778765466_hd/1778765466_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -1597,20 +2557,162 @@
           ],
           "org_metadata": {
             "league": "NBA",
-            "team_a": "Cleveland Cavaliers",
-            "team_b": "Detroit Pistons",
-            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSON_xAXqlmVA6CaABNgxtXMaVaFZIg65IPrg&s",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Logo_of_the_Detroit_Pistons_%282017%E2%80%93present%29.png/250px-Logo_of_the_Detroit_Pistons_%282017%E2%80%93present%29.png",
+            "team_a": "Cavaliers",
+            "team_b": "Pistons",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Cleveland_Cavaliers_logo.svg/960px-Cleveland_Cavaliers_logo.svg.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/c/c9/Logo_of_the_Detroit_Pistons.svg",
             "time": "06:00 16/05",
-            "blv": "BLV PHAN MÃO",
+            "blv": "BLV Perry, BLV Nến",
             "is_live": false,
-            "sport_slug": "bong-ro"
+            "cate_type": "basketball"
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Cleveland Cavaliers_Detroit Pistons_06-00 16-05_cc64fc98_20260514.png?v=cc64fc98",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-e00632ed9e_7ade12d1_20260514.png?v=7ade12d1",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-a7d5bf4719",
+          "name": "Connecticut Sun W vs Las Vegas Aces W | 06:30 16/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-a7d5bf4719",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-a7d5bf4719",
+                  "name": "Connecticut Sun W vs Las Vegas Aces W",
+                  "streams": [
+                    {
+                      "id": "st-a7d5bf4719",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-595a746e66",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1778765550_hd/1778765550_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "WNBA",
+            "team_a": "Connecticut Sun W",
+            "team_b": "Las Vegas Aces W",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/en/0/09/Connecticut_Sun_logo.svg",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Las_Vegas_Aces_logo.svg/250px-Las_Vegas_Aces_logo.svg.png",
+            "time": "06:30 16/05",
+            "blv": "BLV Điếc",
+            "is_live": false,
+            "cate_type": "basketball"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-a7d5bf4719_c370f3bd_20260514.png?v=c370f3bd",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-bbc452c4ac",
+          "name": "Indiana Fever W vs Washington Mystics W | 06:30 16/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-bbc452c4ac",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-bbc452c4ac",
+                  "name": "Indiana Fever W vs Washington Mystics W",
+                  "streams": [
+                    {
+                      "id": "st-bbc452c4ac",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-6c1c5c5fab",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1778765639_hd/1778765639_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "WNBA",
+            "team_a": "Indiana Fever W",
+            "team_b": "Washington Mystics W",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/en/5/54/Indiana_Fever_logo.svg",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/en/thumb/7/79/Washington_Mystics_logo.svg/1280px-Washington_Mystics_logo.svg.png",
+            "time": "06:30 16/05",
+            "blv": "BLV Ben",
+            "is_live": false,
+            "cate_type": "basketball"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-bbc452c4ac_c58d7be5_20260514.png?v=c58d7be5",
             "width": 1600,
             "height": 1200
           }
@@ -1684,7 +2786,79 @@
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
-      "channels": []
+      "channels": [
+        {
+          "id": "gv-46647a0bad",
+          "name": "Suntory Sunbirds vs Osaka Bluteon | 17:02 15/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-46647a0bad",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-46647a0bad",
+                  "name": "Suntory Sunbirds vs Osaka Bluteon",
+                  "streams": [
+                    {
+                      "id": "st-46647a0bad",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-289ff8f1e8",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1778764469_hd/1778764469_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "SV.League Final",
+            "team_a": "Suntory Sunbirds",
+            "team_b": "Osaka Bluteon",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/en/5/57/Suntorysunbirds.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/4Iy0qY9r-00cxMtCc.png",
+            "time": "17:02 15/05",
+            "blv": "BLV Nến",
+            "is_live": false,
+            "cate_type": "bongchuyen"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-46647a0bad_aed8012c_20260514.png?v=aed8012c",
+            "width": 1600,
+            "height": 1200
+          }
+        }
+      ]
     },
     {
       "id": "grp-đua-xe-f1",
@@ -1708,7 +2882,79 @@
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
-      "channels": []
+      "channels": [
+        {
+          "id": "gv-aff294ffaa",
+          "name": "Oumar \"Reug Reug\" Kane vs Anatoly Malykhin | 18:30 15/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-aff294ffaa",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-aff294ffaa",
+                  "name": "Oumar \"Reug Reug\" Kane vs Anatoly Malykhin",
+                  "streams": [
+                    {
+                      "id": "st-aff294ffaa",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-f11de9f8f3",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1778748124_hd/1778748124_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "ONE Friday Fights 154 & The Inner Circle",
+            "team_a": "Oumar \"Reug Reug\" Kane",
+            "team_b": "Anatoly Malykhin",
+            "logo_a": "https://cdn.onefc.com/wp-content/uploads/2021/01/Oumar_Kane-hero-champ-1200x1165-1.jpg",
+            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZjTPRUD78CDrYusWWzcuNKvVPb_HgVtEu9QQhUa0STXfEchk5-Vc6DuoYKaIha_tCpz8SnLNnApLPrAbuV2DIUuAg9uQFnvNoFlFxAg&s=10",
+            "time": "18:30 15/05",
+            "blv": "BLV Dory",
+            "is_live": false,
+            "cate_type": "vothuat"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-aff294ffaa_23291cc5_20260514.png?v=23291cc5",
+            "width": 1600,
+            "height": 1200
+          }
+        }
+      ]
     },
     {
       "id": "grp-pickleball",
