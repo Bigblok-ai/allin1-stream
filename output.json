@@ -1816,7 +1816,7 @@
     },
     {
       "id": "grp-cầu-lông",
-      "name": "🏸 Cầu Lông (2 LIVE)",
+      "name": "🏸 Cầu Lông (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1971,10 +1971,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -1989,7 +1989,25 @@
                     {
                       "id": "st-1df331e8b6",
                       "name": "HQ",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-96622ac3ba",
+                          "name": "BLV PHAN BÁCH",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://yvm80526.edgemaxcdn.org/live/hqtv_blv_phanchuot/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -2004,7 +2022,7 @@
             "logo_b": "https://static.flashscore.com/res/image/data/O2nuZwRp-vaAM5VhK.png",
             "time": "16:10 14/05",
             "blv": "BLV PHAN BÁCH",
-            "is_live": false,
+            "is_live": true,
             "sport_slug": "cau-long"
           },
           "image": {
@@ -2651,7 +2669,79 @@
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
-      "channels": []
+      "channels": [
+        {
+          "id": "gv-aff294ffaa",
+          "name": "Oumar \"Reug Reug\" Kane vs Anatoly Malykhin | 18:30 15/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-aff294ffaa",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-aff294ffaa",
+                  "name": "Oumar \"Reug Reug\" Kane vs Anatoly Malykhin",
+                  "streams": [
+                    {
+                      "id": "st-aff294ffaa",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-f11de9f8f3",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1778748124_hd/1778748124_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "ONE Friday Fights 154 & The Inner Circle",
+            "team_a": "Oumar \"Reug Reug\" Kane",
+            "team_b": "Anatoly Malykhin",
+            "logo_a": "https://cdn.onefc.com/wp-content/uploads/2021/01/Oumar_Kane-hero-champ-1200x1165-1.jpg",
+            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZjTPRUD78CDrYusWWzcuNKvVPb_HgVtEu9QQhUa0STXfEchk5-Vc6DuoYKaIha_tCpz8SnLNnApLPrAbuV2DIUuAg9uQFnvNoFlFxAg&s=10",
+            "time": "18:30 15/05",
+            "blv": "BLV Dory",
+            "is_live": false,
+            "cate_type": "vothuat"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-aff294ffaa_23291cc5_20260514.png?v=23291cc5",
+            "width": 1600,
+            "height": 1200
+          }
+        }
+      ]
     },
     {
       "id": "grp-pickleball",
