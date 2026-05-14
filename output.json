@@ -634,112 +634,6 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "gv-06b2e3b068",
-          "name": "Valencia vs Rayo Vallecano | 00:00 15/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-06b2e3b068",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-06b2e3b068",
-                  "name": "Valencia vs Rayo Vallecano",
-                  "streams": [
-                    {
-                      "id": "st-06b2e3b068",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-77d646e4ad",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1778741970_hd/1778741970_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "src-e45b3ce42c",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-e45b3ce42c",
-                  "name": "Valencia vs Rayo Vallecano",
-                  "streams": [
-                    {
-                      "id": "st-e45b3ce42c",
-                      "name": "Hoiquan - BLV PHAN TÔ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-e44b9d8369",
-                          "name": "BLV PHAN TÔ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanto/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "La Liga",
-            "team_a": "Valencia",
-            "team_b": "Rayo Vallecano",
-            "logo_a": "https://images.keovip88.net/images/teams/valencia.png",
-            "logo_b": "https://images.keovip88.net/images/teams/rayo-vallecano.png",
-            "time": "00:00 15/05",
-            "blv": "BLV Thìn",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-06b2e3b068_393f504f_20260515.png?v=393f504f",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "gv-eeb8863a40",
           "name": "Girona vs Real Sociedad | 01:00 15/05",
           "type": "single",
@@ -995,10 +889,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -1036,6 +930,58 @@
                   ]
                 }
               ]
+            },
+            {
+              "id": "src-86e93cff82",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-86e93cff82",
+                  "name": "Real Madrid vs Oviedo",
+                  "streams": [
+                    {
+                      "id": "st-86e93cff82",
+                      "name": "Hoiquan - BLV PHAN MÃ, BLV LƯƠNG BỔNG",
+                      "stream_links": [
+                        {
+                          "id": "lnk-c42241b387",
+                          "name": "BLV PHAN MÃ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanma/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-975fc55dd1",
+                          "name": "BLV LƯƠNG BỔNG",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanliem/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
             }
           ],
           "org_metadata": {
@@ -1046,7 +992,7 @@
             "logo_b": "https://images.keovip88.net/images/teams/real-oviedo.png",
             "time": "02:30 15/05",
             "blv": "BLV Mason, BLV Dần",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football"
           },
           "image": {
@@ -2071,153 +2017,11 @@
     },
     {
       "id": "grp-bóng-rổ",
-      "name": "🏀 Bóng Rổ (2 LIVE)",
+      "name": "🏀 Bóng Rổ",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-458614e5a5",
-          "name": "CSKA Moscow vs Lokomotiv Kuban | 23:30 14/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-458614e5a5",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-458614e5a5",
-                  "name": "CSKA Moscow vs Lokomotiv Kuban",
-                  "streams": [
-                    {
-                      "id": "st-458614e5a5",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-918b88e63a",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1778741910_hd/1778741910_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "VTB United League",
-            "team_a": "CSKA Moscow",
-            "team_b": "Lokomotiv Kuban",
-            "logo_a": "https://static.flashscore.com/res/image/data/0GqRMIYg-0AYHMLmL.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/tfzLgCzB-YNdc4gY7.png",
-            "time": "23:30 14/05",
-            "blv": "BLV Ben",
-            "is_live": true,
-            "cate_type": "basketball"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-458614e5a5_0fac8609_20260515.png?v=0fac8609",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-b79beab6f1",
-          "name": "Bilbao vs Real Madrid | 00:00 15/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-b79beab6f1",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-b79beab6f1",
-                  "name": "Bilbao vs Real Madrid",
-                  "streams": [
-                    {
-                      "id": "st-b79beab6f1",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-39581a4fd0",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1778744391_hd/1778744391_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "ACB",
-            "team_a": "Bilbao",
-            "team_b": "Real Madrid",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/en/thumb/9/98/Club_Athletic_Bilbao_logo.svg/1280px-Club_Athletic_Bilbao_logo.svg.png",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/vi/thumb/c/c7/Logo_Real_Madrid.svg/250px-Logo_Real_Madrid.svg.png",
-            "time": "00:00 15/05",
-            "blv": "BLV Điếc",
-            "is_live": true,
-            "cate_type": "basketball"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-b79beab6f1_4cf17611_20260515.png?v=4cf17611",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-44bcf0db15",
           "name": "San Miguel Beermen vs Rain or Shine Elasto | 16:15 15/05",
