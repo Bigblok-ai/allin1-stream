@@ -1758,6 +1758,59 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "hqlive-f53ef24a12",
+          "name": "Iga Swiatek vs Elina Svitolina | 01:30 15/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-f53ef24a12",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-f53ef24a12",
+                  "name": "Iga Swiatek vs Elina Svitolina",
+                  "streams": [
+                    {
+                      "id": "st-f53ef24a12",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "WTA 1000 Rome",
+            "team_a": "Iga Swiatek",
+            "team_b": "Elina Svitolina",
+            "logo_a": "https://cdn.images.express.co.uk/img/dynamic/72/590x/secondary/4885381.jpg?r=1690841549720",
+            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQC5M9hwvSbtia3mudgiHt09H8e9t-mhfHQ9g&s",
+            "time": "01:30 15/05",
+            "blv": "BLV PHAN TỪ",
+            "is_live": false,
+            "sport_slug": "tennis"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Iga Swiatek_Elina Svitolina_01-30 15-05_0c7235d9_20260514.png?v=0c7235d9",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     },
@@ -2419,7 +2472,7 @@
     },
     {
       "id": "grp-billiards",
-      "name": "🎱 Billiards (1 LIVE)",
+      "name": "🎱 Billiards (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -2503,10 +2556,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -2521,7 +2574,25 @@
                     {
                       "id": "st-56e84bc5b6",
                       "name": "HQ",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-b8be718b2f",
+                          "name": "BLV PHAN ANH",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://yvm80526.edgemaxcdn.org/live/hqtv_blv_phananh/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -2536,7 +2607,7 @@
             "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVjWtvB3bJrZbNpsv_SKDjyL0uy4ScDeuqyw&s",
             "time": "16:00 14/05",
             "blv": "BLV PHAN ANH",
-            "is_live": false,
+            "is_live": true,
             "sport_slug": "billiards"
           },
           "image": {
