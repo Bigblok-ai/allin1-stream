@@ -628,7 +628,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá",
+      "name": "⚽ Bóng Đá (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -641,10 +641,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -682,6 +682,41 @@
                   ]
                 }
               ]
+            },
+            {
+              "id": "src-18056ca3c0",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-18056ca3c0",
+                  "name": "Japan U17 vs Tajikistan U17",
+                  "streams": [
+                    {
+                      "id": "st-18056ca3c0",
+                      "name": "Hoiquan - BLV PHAN HÀ LINH",
+                      "stream_links": [
+                        {
+                          "id": "lnk-a4d653008a",
+                          "name": "BLV PHAN HÀ LINH",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanhalinh/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
             }
           ],
           "org_metadata": {
@@ -692,7 +727,7 @@
             "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1ZOuKHQ5RYYr0sWjUPYgOhdBesLxayJ6Omw&s",
             "time": "23:00 15/05",
             "blv": "BLV Hợi",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football"
           },
           "image": {
