@@ -628,11 +628,82 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá",
+      "name": "⚽ Bóng Đá (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "hqlive-af940ba897",
+          "name": "vitoria vs Flamengo | 07:00 15/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-af940ba897",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-af940ba897",
+                  "name": "vitoria vs Flamengo",
+                  "streams": [
+                    {
+                      "id": "st-af940ba897",
+                      "name": "HQ",
+                      "stream_links": [
+                        {
+                          "id": "lnk-fd31283a76",
+                          "name": "BLV PHAN ANH",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phananh/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Copa do Brasil",
+            "team_a": "vitoria",
+            "team_b": "Flamengo",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/en/thumb/d/d5/Vit%C3%B3ria_Guimar%C3%A3es.svg/250px-Vit%C3%B3ria_Guimar%C3%A3es.svg.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/9/93/Flamengo-RJ_%28BRA%29.png",
+            "time": "07:00 15/05",
+            "blv": "BLV PHAN ANH",
+            "is_live": true,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/vitoria_Flamengo_07-00 15-05_08c58884_20260515.png?v=08c58884",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "gv-5447c727b5",
           "name": "Semen Padang vs Persebaya Surabaya | 15:30 15/05",
@@ -700,6 +771,112 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-5447c727b5_93ed5a8c_20260515.png?v=93ed5a8c",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-da8f05b20a",
+          "name": "Penang vs DPMM FC Brunei | 16:00 15/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-da8f05b20a",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-da8f05b20a",
+                  "name": "Penang vs DPMM FC Brunei",
+                  "streams": [
+                    {
+                      "id": "st-da8f05b20a",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Super League",
+            "team_a": "Penang",
+            "team_b": "DPMM FC Brunei",
+            "logo_a": "https://media.api-sports.io/football/teams/2504.png",
+            "logo_b": "https://media.api-sports.io/football/teams/4202.png",
+            "time": "16:00 15/05",
+            "blv": "BLV LƯƠNG BỔNG",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Penang_DPMM FC Brunei_16-00 15-05_164ff615_20260515.png?v=164ff615",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-1678e5fb30",
+          "name": "Adelaide United vs Auckland | 16:35 15/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-1678e5fb30",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-1678e5fb30",
+                  "name": "Adelaide United vs Auckland",
+                  "streams": [
+                    {
+                      "id": "st-1678e5fb30",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "A-League",
+            "team_a": "Adelaide United",
+            "team_b": "Auckland",
+            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRF3zrZ0HFvG9-HWKYsCOLXgZJ1y7d2zLCzmQ&s",
+            "logo_b": "https://media.api-sports.io/football/teams/24608.png",
+            "time": "16:35 15/05",
+            "blv": "BLV PHAN MÃ",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Adelaide United_Auckland_16-35 15-05_45dd9ad3_20260515.png?v=45dd9ad3",
             "width": 1600,
             "height": 1200
           }
@@ -847,6 +1024,112 @@
           }
         },
         {
+          "id": "hqlive-c79f07e265",
+          "name": "SHANGHAI SIPG vs Hangzhou Greentown | 18:35 15/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-c79f07e265",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-c79f07e265",
+                  "name": "SHANGHAI SIPG vs Hangzhou Greentown",
+                  "streams": [
+                    {
+                      "id": "st-c79f07e265",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Super League",
+            "team_a": "SHANGHAI SIPG",
+            "team_b": "Hangzhou Greentown",
+            "logo_a": "https://media.api-sports.io/football/teams/836.png",
+            "logo_b": "https://media.api-sports.io/football/teams/848.png",
+            "time": "18:35 15/05",
+            "blv": "BLV PHAN HÀ LINH",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/SHANGHAI SIPG_Hangzhou Greentown_18-35 15-05_f74b6d0e_20260515.png?v=f74b6d0e",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-4d0d483010",
+          "name": "Tianjin Teda vs Chengdu Better City | 18:35 15/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-4d0d483010",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-4d0d483010",
+                  "name": "Tianjin Teda vs Chengdu Better City",
+                  "streams": [
+                    {
+                      "id": "st-4d0d483010",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Super League",
+            "team_a": "Tianjin Teda",
+            "team_b": "Chengdu Better City",
+            "logo_a": "https://media.api-sports.io/football/teams/837.png",
+            "logo_b": "https://media.api-sports.io/football/teams/5648.png",
+            "time": "18:35 15/05",
+            "blv": "BLV CỦ HÀNH",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Tianjin Teda_Chengdu Better City_18-35 15-05_37d5bb73_20260515.png?v=37d5bb73",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "gv-78aa1a4936",
           "name": "Dalian Yingbo vs Qingdao West Coast | 19:00 15/05",
           "type": "single",
@@ -913,6 +1196,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-78aa1a4936_c4678ab0_20260515.png?v=c4678ab0",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-11dbbfb305",
+          "name": "Beijing Guoan vs Qingdao Jonoon | 19:00 15/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-11dbbfb305",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-11dbbfb305",
+                  "name": "Beijing Guoan vs Qingdao Jonoon",
+                  "streams": [
+                    {
+                      "id": "st-11dbbfb305",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Super League",
+            "team_a": "Beijing Guoan",
+            "team_b": "Qingdao Jonoon",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/en/a/a8/Beijing_Guoan_F.C.svg",
+            "logo_b": "https://media.api-sports.io/football/teams/1431.png",
+            "time": "19:00 15/05",
+            "blv": "BLV PHAN CA",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Beijing Guoan_Qingdao Jonoon_19-00 15-05_a6f6927d_20260515.png?v=a6f6927d",
             "width": 1600,
             "height": 1200
           }
@@ -1055,6 +1391,218 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-1adbce6c2a_2e816633_20260515.png?v=2e816633",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-3a9a1cd4d9",
+          "name": "Damac vs Al-Fayha | 23:15 15/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-3a9a1cd4d9",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-3a9a1cd4d9",
+                  "name": "Damac vs Al-Fayha",
+                  "streams": [
+                    {
+                      "id": "st-3a9a1cd4d9",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Pro League",
+            "team_a": "Damac",
+            "team_b": "Al-Fayha",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/vi/7/7a/Damac_F.C._logo.png",
+            "logo_b": "https://media.api-sports.io/football/teams/2944.png",
+            "time": "23:15 15/05",
+            "blv": "BLV PHAN MÃO",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Damac_Al-Fayha_23-15 15-05_3d2096a3_20260515.png?v=3d2096a3",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-276e17f1f3",
+          "name": "FC Minsk vs Belshina | 23:45 15/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-276e17f1f3",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-276e17f1f3",
+                  "name": "FC Minsk vs Belshina",
+                  "streams": [
+                    {
+                      "id": "st-276e17f1f3",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Premier League",
+            "team_a": "FC Minsk",
+            "team_b": "Belshina",
+            "logo_a": "https://media.api-sports.io/football/teams/380.png",
+            "logo_b": "https://media.api-sports.io/football/teams/3384.png",
+            "time": "23:45 15/05",
+            "blv": "BLV PHAN TÔ",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/FC Minsk_Belshina_23-45 15-05_7776dd84_20260515.png?v=7776dd84",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-f1dd779fc9",
+          "name": "Rizespor vs Beşiktaş | 00:00 16/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-f1dd779fc9",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-f1dd779fc9",
+                  "name": "Rizespor vs Beşiktaş",
+                  "streams": [
+                    {
+                      "id": "st-f1dd779fc9",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Süper Lig",
+            "team_a": "Rizespor",
+            "team_b": "Beşiktaş",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/tr/f/f6/%C3%87aykur_Rizespor_Logo.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/d/da/BesiktasJK-Logo.svg",
+            "time": "00:00 16/05",
+            "blv": "BLV LƯƠNG BỔNG",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Rizespor_Beşiktaş_00-00 16-05_a9fae629_20260515.png?v=a9fae629",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-b23d0133ff",
+          "name": "Saudi Arabia U17 vs China PR U17 | 00:00 16/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-b23d0133ff",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-b23d0133ff",
+                  "name": "Saudi Arabia U17 vs China PR U17",
+                  "streams": [
+                    {
+                      "id": "st-b23d0133ff",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "AFC U17 Asian Cup",
+            "team_a": "Saudi Arabia U17",
+            "team_b": "China PR U17",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/0/0d/Flag_of_Saudi_Arabia.svg",
+            "logo_b": "https://media.api-sports.io/football/teams/21449.png",
+            "time": "00:00 16/05",
+            "blv": "BLV PHAN MÃO",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Saudi Arabia U17_China PR U17_00-00 16-05_eafe8b49_20260515.png?v=eafe8b49",
             "width": 1600,
             "height": 1200
           }
@@ -1351,7 +1899,326 @@
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
-      "channels": []
+      "channels": [
+        {
+          "id": "hqlive-07e2be086a",
+          "name": "Jannik Sinner vs Andrey Rublev | 18:00 15/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-07e2be086a",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-07e2be086a",
+                  "name": "Jannik Sinner vs Andrey Rublev",
+                  "streams": [
+                    {
+                      "id": "st-07e2be086a",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "WTA 1000 Rome",
+            "team_a": "Jannik Sinner",
+            "team_b": "Andrey Rublev",
+            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtkuD4iDpTTtrKYv1EJ3LPjU01T_fPpfF-hg&s",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/4/40/Andrey_Rublev_%282023_US_Open%29_02_%28cropped%29.jpg",
+            "time": "18:00 15/05",
+            "blv": "BLV PHAN TỪ",
+            "is_live": false,
+            "sport_slug": "tennis"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Jannik Sinner_Andrey Rublev_18-00 15-05_1ee2c775_20260515.png?v=1ee2c775",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-903670be04",
+          "name": "Sorana Cirstea vs Coco Gauff | 20:00 15/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-903670be04",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-903670be04",
+                  "name": "Sorana Cirstea vs Coco Gauff",
+                  "streams": [
+                    {
+                      "id": "st-903670be04",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "WTA 1000 Rome",
+            "team_a": "Sorana Cirstea",
+            "team_b": "Coco Gauff",
+            "logo_a": "https://vstatic.vietnam.vn/vietnam/resource/IMAGE/2025/9/1/57540687cf794faab2743ccaa88e058f",
+            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlSUpEF6Cuye3u7pi15d4mYx1hORj319ljAw&s",
+            "time": "20:00 15/05",
+            "blv": "BLV PHAN BÁCH",
+            "is_live": false,
+            "sport_slug": "tennis"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Sorana Cirstea_Coco Gauff_20-00 15-05_82bb0701_20260515.png?v=82bb0701",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-1a65692544",
+          "name": "Martin Landaluce vs Daniil Medvedev | 00:00 16/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-1a65692544",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-1a65692544",
+                  "name": "Martin Landaluce vs Daniil Medvedev",
+                  "streams": [
+                    {
+                      "id": "st-1a65692544",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "WTA 1000 Rome",
+            "team_a": "Martin Landaluce",
+            "team_b": "Daniil Medvedev",
+            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWoU78UyOZ3nheNtsR3T3_ysPhFCrIIgmNqg&s",
+            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRU-ThUSVRA1sgqwj_Qe4f22lmchMKp66MuBg&s",
+            "time": "00:00 16/05",
+            "blv": "BLV PHAN BÁCH",
+            "is_live": false,
+            "sport_slug": "tennis"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Martin Landaluce_Daniil Medvedev_00-00 16-05_541f06f3_20260515.png?v=541f06f3",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-18fc96c459",
+          "name": "Iga Swiatek vs Elina Svitolina | 01:30 16/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-18fc96c459",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-18fc96c459",
+                  "name": "Iga Swiatek vs Elina Svitolina",
+                  "streams": [
+                    {
+                      "id": "st-18fc96c459",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "WTA 1000 Rome",
+            "team_a": "Iga Swiatek",
+            "team_b": "Elina Svitolina",
+            "logo_a": "https://cdn.images.express.co.uk/img/dynamic/72/590x/secondary/4885381.jpg?r=1690841549720",
+            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQC5M9hwvSbtia3mudgiHt09H8e9t-mhfHQ9g&s",
+            "time": "01:30 16/05",
+            "blv": "BLV PHAN TỪ",
+            "is_live": false,
+            "sport_slug": "tennis"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Iga Swiatek_Elina Svitolina_01-30 16-05_0c7235d9_20260515.png?v=0c7235d9",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-15a02cf878",
+          "name": "Casper Ruud vs Luciano Darderi | 20:00 16/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-15a02cf878",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-15a02cf878",
+                  "name": "Casper Ruud vs Luciano Darderi",
+                  "streams": [
+                    {
+                      "id": "st-15a02cf878",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "WTA 1000 Rome",
+            "team_a": "Casper Ruud",
+            "team_b": "Luciano Darderi",
+            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHPUzabryz7df8DJGSlU-oaXS6zaWEi7A-sg&s",
+            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGDGQXe_IjGY4p-iXL4uyR39lZTZEydPDO6A&s",
+            "time": "20:00 16/05",
+            "blv": "BLV PHAN BÁCH",
+            "is_live": false,
+            "sport_slug": "tennis"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Casper Ruud_Luciano Darderi_20-00 16-05_3e6b5552_20260515.png?v=3e6b5552",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-2aa26c7eb3",
+          "name": "Jannik Sinner vs Daniil Medvedev | 00:00 17/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-2aa26c7eb3",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-2aa26c7eb3",
+                  "name": "Jannik Sinner vs Daniil Medvedev",
+                  "streams": [
+                    {
+                      "id": "st-2aa26c7eb3",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "WTA 1000 Rome",
+            "team_a": "Jannik Sinner",
+            "team_b": "Daniil Medvedev",
+            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtkuD4iDpTTtrKYv1EJ3LPjU01T_fPpfF-hg&s",
+            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRU-ThUSVRA1sgqwj_Qe4f22lmchMKp66MuBg&s",
+            "time": "00:00 17/05",
+            "blv": "BLV PHAN TỪ",
+            "is_live": false,
+            "sport_slug": "tennis"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Jannik Sinner_Daniil Medvedev_00-00 17-05_ac696414_20260515.png?v=ac696414",
+            "width": 1600,
+            "height": 1200
+          }
+        }
+      ]
     },
     {
       "id": "grp-cầu-lông",
@@ -1359,7 +2226,167 @@
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
-      "channels": []
+      "channels": [
+        {
+          "id": "hqlive-e1dae28569",
+          "name": "Tay Vợt Số 1 vs Tay Vợt Số 2 | 12:00 15/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-e1dae28569",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-e1dae28569",
+                  "name": "Tay Vợt Số 1 vs Tay Vợt Số 2",
+                  "streams": [
+                    {
+                      "id": "st-e1dae28569",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "TOYOTA Thailand Open 2026",
+            "team_a": "Tay Vợt Số 1",
+            "team_b": "Tay Vợt Số 2",
+            "logo_a": "https://static.flashscore.com/res/image/data/O2nuZwRp-vaAM5VhK.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/O2nuZwRp-vaAM5VhK.png",
+            "time": "12:00 15/05",
+            "blv": "BLV PHAN TỪ, BLV PHAN CA",
+            "is_live": false,
+            "sport_slug": "cau-long"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Tay Vợt Số 1_Tay Vợt Số 2_12-00 15-05_cacf1340_20260515.png?v=cacf1340",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-0799076891",
+          "name": "Tay Vợt Số 1 vs Tay Vợt Số 2 | 15:00 15/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-0799076891",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-0799076891",
+                  "name": "Tay Vợt Số 1 vs Tay Vợt Số 2",
+                  "streams": [
+                    {
+                      "id": "st-0799076891",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "TOYOTA Thailand Open 2026",
+            "team_a": "Tay Vợt Số 1",
+            "team_b": "Tay Vợt Số 2",
+            "logo_a": "https://static.flashscore.com/res/image/data/O2nuZwRp-vaAM5VhK.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/O2nuZwRp-vaAM5VhK.png",
+            "time": "15:00 15/05",
+            "blv": "BLV PHAN TÔ, BLV PHAN BÁCH",
+            "is_live": false,
+            "sport_slug": "cau-long"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Tay Vợt Số 1_Tay Vợt Số 2_15-00 15-05_cacf1340_20260515.png?v=cacf1340",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-c79d94dc8b",
+          "name": "Tay Vợt Số 1 vs Tay Vợt Số 2 | 18:30 15/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-c79d94dc8b",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-c79d94dc8b",
+                  "name": "Tay Vợt Số 1 vs Tay Vợt Số 2",
+                  "streams": [
+                    {
+                      "id": "st-c79d94dc8b",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "TOYOTA Thailand Open 2026",
+            "team_a": "Tay Vợt Số 1",
+            "team_b": "Tay Vợt Số 2",
+            "logo_a": "https://static.flashscore.com/res/image/data/O2nuZwRp-vaAM5VhK.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/O2nuZwRp-vaAM5VhK.png",
+            "time": "18:30 15/05",
+            "blv": "BLV PHAN MÃ",
+            "is_live": false,
+            "sport_slug": "cau-long"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Tay Vợt Số 1_Tay Vợt Số 2_18-30 15-05_cacf1340_20260515.png?v=cacf1340",
+            "width": 1600,
+            "height": 1200
+          }
+        }
+      ]
     },
     {
       "id": "grp-bóng-rổ",
@@ -1935,6 +2962,59 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "hqlive-3a05c826dd",
+          "name": "San Antonio Spurs vs Minnesota Timberwolves | 08:30 16/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-3a05c826dd",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-3a05c826dd",
+                  "name": "San Antonio Spurs vs Minnesota Timberwolves",
+                  "streams": [
+                    {
+                      "id": "st-3a05c826dd",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "NBA",
+            "team_a": "San Antonio Spurs",
+            "team_b": "Minnesota Timberwolves",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/vi/e/ec/San_Antonio_Spurs_logo.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/en/c/c2/Minnesota_Timberwolves_logo.svg",
+            "time": "08:30 16/05",
+            "blv": "BLV PHAN TỪ",
+            "is_live": false,
+            "sport_slug": "bong-ro"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/San Antonio Spurs_Minnesota Timberwolves_08-30 16-05_257b1e3b_20260515.png?v=257b1e3b",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     },
@@ -1944,7 +3024,114 @@
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
-      "channels": []
+      "channels": [
+        {
+          "id": "hqlive-0e7ed4aaaa",
+          "name": "Dương Quốc Hoàng vs Đặng Thành Kiên | 10:00 15/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-0e7ed4aaaa",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-0e7ed4aaaa",
+                  "name": "Dương Quốc Hoàng vs Đặng Thành Kiên",
+                  "streams": [
+                    {
+                      "id": "st-0e7ed4aaaa",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "BOX BILLIARDS ALL STAR VIETNAM INVITATIONAL.",
+            "team_a": "Dương Quốc Hoàng",
+            "team_b": "Đặng Thành Kiên",
+            "logo_a": "https://sv2.anhsieuviet.com/2026/03/04/signal-2026-03-04-151814.jpg",
+            "logo_b": "https://images2.thanhnien.vn/thumb_w/686/528068263637045248/2023/10/6/dang-thanh-kien-16965586555031790105222-0-316-1556-1483-crop-169655877159198258650.jpg",
+            "time": "10:00 15/05",
+            "blv": "BLV LƯƠNG BỔNG",
+            "is_live": false,
+            "sport_slug": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Dương Quốc Hoàng_Đặng Thành Kiên_10-00 15-05_829af5cb_20260515.png?v=829af5cb",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-c52daedf8e",
+          "name": "Dương Quốc Hoàng vs An Nhiệt | 16:00 15/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-c52daedf8e",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-c52daedf8e",
+                  "name": "Dương Quốc Hoàng vs An Nhiệt",
+                  "streams": [
+                    {
+                      "id": "st-c52daedf8e",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "BOX BILLIARDS ALL STAR VIETNAM INVITATIONAL.",
+            "team_a": "Dương Quốc Hoàng",
+            "team_b": "An Nhiệt",
+            "logo_a": "https://sv2.anhsieuviet.com/2026/03/04/signal-2026-03-04-151814.jpg",
+            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRiEGlLvfuGVQzXYjGmEvaIDMPw32ghlZmlvg&s",
+            "time": "16:00 15/05",
+            "blv": "BLV PHAN ANH",
+            "is_live": false,
+            "sport_slug": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Dương Quốc Hoàng_An Nhiệt_16-00 15-05_9b56b913_20260515.png?v=9b56b913",
+            "width": 1600,
+            "height": 1200
+          }
+        }
+      ]
     },
     {
       "id": "grp-bóng-chuyền",
