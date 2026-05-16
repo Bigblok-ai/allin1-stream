@@ -628,14 +628,14 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
         {
-          "id": "gv-bfd1a83d1f",
-          "name": "Mito Hollyhock vs Tokyo Verdy | 12:00 16/05",
+          "id": "gv-80d9ef429e",
+          "name": "Daejeon Citizen vs FC Seoul | 14:30 16/05",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -649,23 +649,23 @@
           ],
           "sources": [
             {
-              "id": "src-bfd1a83d1f",
+              "id": "src-80d9ef429e",
               "name": "GiovangTV",
               "contents": [
                 {
-                  "id": "ct-bfd1a83d1f",
-                  "name": "Mito Hollyhock vs Tokyo Verdy",
+                  "id": "ct-80d9ef429e",
+                  "name": "Daejeon Citizen vs FC Seoul",
                   "streams": [
                     {
-                      "id": "st-bfd1a83d1f",
+                      "id": "st-80d9ef429e",
                       "name": "GV",
                       "stream_links": [
                         {
-                          "id": "lnk-ec07074b5c",
+                          "id": "lnk-8d7adba172",
                           "name": "Link HD 720p",
                           "type": "hls",
                           "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1778861719_hd/1778861719_hd@720p.m3u8",
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1778861753_hd/1778861753_hd@720p.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -682,7 +682,43 @@
                   ]
                 }
               ]
-            },
+            }
+          ],
+          "org_metadata": {
+            "league": "K-League Hàn Quốc",
+            "team_a": "Daejeon Citizen",
+            "team_b": "FC Seoul",
+            "logo_a": "https://images.keovip88.net/images/teams/daejeon-citizen.png",
+            "logo_b": "https://images.keovip88.net/images/teams/fc-seoul.png",
+            "time": "14:30 16/05",
+            "blv": "blv-bon",
+            "is_live": true,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-80d9ef429e_dc79014b_20260516.png?v=dc79014b",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-1e88c539cc",
+          "name": "Mito Hollyhock vs Tokyo Verdy | 12:00 16/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
             {
               "id": "src-1e88c539cc",
               "name": "HoiQuanTV",
@@ -693,7 +729,7 @@
                   "streams": [
                     {
                       "id": "st-1e88c539cc",
-                      "name": "Hoiquan - BLV PHAN ANH",
+                      "name": "HQ",
                       "stream_links": [
                         {
                           "id": "lnk-fd31283a76",
@@ -720,21 +756,21 @@
             }
           ],
           "org_metadata": {
-            "league": "VĐQG Nhật Bản",
+            "league": "J1 League",
             "team_a": "Mito Hollyhock",
             "team_b": "Tokyo Verdy",
-            "logo_a": "https://images.keovip88.net/images/teams/mito-hollyhock.png",
-            "logo_b": "https://images.keovip88.net/images/teams/tokyo-verdy.png",
+            "logo_a": "https://media.api-sports.io/football/teams/305.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/id/a/a0/Tokyo_Verdy_2020_logo.webp",
             "time": "12:00 16/05",
-            "blv": "blv-bon",
+            "blv": "BLV PHAN ANH",
             "is_live": true,
-            "cate_type": "football"
+            "sport_slug": "bong-da"
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-bfd1a83d1f_08986d68_20260516.png?v=08986d68",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Mito Hollyhock_Tokyo Verdy_12-00 16-05_4cff99b8_20260516.png?v=4cff99b8",
             "width": 1600,
             "height": 1200
           }
@@ -806,77 +842,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Urawa_FC Tokyo_14-00 16-05_2ee83546_20260516.png?v=2ee83546",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-80d9ef429e",
-          "name": "Daejeon Citizen vs FC Seoul | 14:30 16/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-80d9ef429e",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-80d9ef429e",
-                  "name": "Daejeon Citizen vs FC Seoul",
-                  "streams": [
-                    {
-                      "id": "st-80d9ef429e",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-8d7adba172",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1778861753_hd/1778861753_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "K-League Hàn Quốc",
-            "team_a": "Daejeon Citizen",
-            "team_b": "FC Seoul",
-            "logo_a": "https://images.keovip88.net/images/teams/daejeon-citizen.png",
-            "logo_b": "https://images.keovip88.net/images/teams/fc-seoul.png",
-            "time": "14:30 16/05",
-            "blv": "blv-bon",
-            "is_live": false,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-80d9ef429e_dc79014b_20260516.png?v=dc79014b",
             "width": 1600,
             "height": 1200
           }
@@ -2692,7 +2657,7 @@
     },
     {
       "id": "grp-bóng-rổ",
-      "name": "🏀 Bóng Rổ (1 LIVE)",
+      "name": "🏀 Bóng Rổ (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -2776,10 +2741,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -2827,7 +2792,7 @@
             "logo_b": "https://upload.wikimedia.org/wikipedia/en/thumb/6/61/Auckland_Tuatara_Basketball_logo.png/250px-Auckland_Tuatara_Basketball_logo.png",
             "time": "14:30 16/05",
             "blv": "BLV Tôm",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "basketball"
           },
           "image": {
@@ -3047,7 +3012,7 @@
     },
     {
       "id": "grp-bóng-chuyền",
-      "name": "🏐 Bóng Chuyền (1 LIVE)",
+      "name": "🏐 Bóng Chuyền (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -3119,6 +3084,77 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-912b641146_6382f227_20260516.png?v=6382f227",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-cedfc99460",
+          "name": "Suwon (KOR)  vs LP Bank Ninh Bình | 14:10 16/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-cedfc99460",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-cedfc99460",
+                  "name": "Suwon (KOR)  vs LP Bank Ninh Bình",
+                  "streams": [
+                    {
+                      "id": "st-cedfc99460",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-176357d0cc",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1778914513_hd/1778914513_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "",
+            "team_a": "Suwon (KOR) ",
+            "team_b": "LP Bank Ninh Bình",
+            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQFh98p8bHaWZ4YOD_aD6fV_aJYXmaINfpwA&s",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/vi/thumb/d/da/Logo_LP_Bank_Ninh_B%C3%ACnh.png/250px-Logo_LP_Bank_Ninh_B%C3%ACnh.png?utm_source=vi.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+            "time": "14:10 16/05",
+            "blv": "BLV Điếc",
+            "is_live": true,
+            "cate_type": "bongchuyen"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-cedfc99460_55744be7_20260516.png?v=55744be7",
             "width": 1600,
             "height": 1200
           }
