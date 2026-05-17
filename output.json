@@ -628,82 +628,11 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (3 LIVE)",
+      "name": "⚽ Bóng Đá (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-9ab01f05e3",
-          "name": "Okayama FC vs Shimizu S-Pulse | 12:00 17/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-9ab01f05e3",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-9ab01f05e3",
-                  "name": "Okayama FC vs Shimizu S-Pulse",
-                  "streams": [
-                    {
-                      "id": "st-9ab01f05e3",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-32099f581d",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1778937063_hd/1778937063_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "VĐQG Nhật Bản",
-            "team_a": "Okayama FC",
-            "team_b": "Shimizu S-Pulse",
-            "logo_a": "https://images.keovip88.net/images/teams/fagiano-okayama.png",
-            "logo_b": "https://images.keovip88.net/images/teams/shimizu-s-pulse.png",
-            "time": "12:00 17/05",
-            "blv": "blv-bon",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-9ab01f05e3_c591db96_20260517.png?v=c591db96",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-b2fa063226",
           "name": "Cerezo Osaka vs Nagoya Grampus Eight | 13:00 17/05",
@@ -812,6 +741,41 @@
                             {
                               "key": "Referer",
                               "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-842f0192ef",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-842f0192ef",
+                  "name": "Jeju United FC vs FC Anyang",
+                  "streams": [
+                    {
+                      "id": "st-842f0192ef",
+                      "name": "Hoiquan - BLV CỦ HÀNH",
+                      "stream_links": [
+                        {
+                          "id": "lnk-a1498791d5",
+                          "name": "BLV CỦ HÀNH",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phando/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
                             },
                             {
                               "key": "User-Agent",
