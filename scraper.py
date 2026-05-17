@@ -31,7 +31,8 @@ SOURCES = [
     {"name": "Giovang", "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/output.json"},
     {"name": "Hoiquan", "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/output.json"},
     {"name": "Quechoa", "url": "https://raw.githubusercontent.com/jasminliu98/quechoa-stream/refs/heads/main/output.json"},
-    {"name": "Xaycon", "url": "https://raw.githubusercontent.com/jasminliu98/xaycon-stream/refs/heads/main/output.json"}
+    {"name": "Xaycon", "url": "https://raw.githubusercontent.com/jasminliu98/xaycon-stream/refs/heads/main/output.json"},
+    {"name": "Bugio", "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/output.json"}
 ]
 
 HOIQUAN_FILE = "hoiquan.json"
