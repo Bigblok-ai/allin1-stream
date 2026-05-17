@@ -628,7 +628,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (5 LIVE)",
+      "name": "⚽ Bóng Đá (6 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1058,6 +1058,112 @@
           }
         },
         {
+          "id": "gv-b9953de48a",
+          "name": "Atalanta vs Bologna | 23:00 17/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-b9953de48a",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-b9953de48a",
+                  "name": "Atalanta vs Bologna",
+                  "streams": [
+                    {
+                      "id": "st-b9953de48a",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-a0857e23f2",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1779026941_hd/1779026941_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-122d006cbb",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-122d006cbb",
+                  "name": "Atalanta vs Bologna",
+                  "streams": [
+                    {
+                      "id": "st-122d006cbb",
+                      "name": "Hoiquan - BLV PHAN CA",
+                      "stream_links": [
+                        {
+                          "id": "lnk-f6231c6549",
+                          "name": "BLV PHAN CA",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanca/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Seria A",
+            "team_a": "Atalanta",
+            "team_b": "Bologna",
+            "logo_a": "https://images.keovip88.net/images/teams/atalanta.png",
+            "logo_b": "https://images.keovip88.net/images/teams/bologna.png",
+            "time": "23:00 17/05",
+            "blv": "blv-ngu",
+            "is_live": true,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-b9953de48a_ce540b9c_20260517.png?v=ce540b9c",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "hqlive-40abf719a6",
           "name": "Santos vs Coritiba | 21:00 17/05",
           "type": "single",
@@ -1124,77 +1230,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Santos_Coritiba_21-00 17-05_fd17c6ec_20260517.png?v=fd17c6ec",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-b9953de48a",
-          "name": "Atalanta vs Bologna | 23:00 17/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-b9953de48a",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-b9953de48a",
-                  "name": "Atalanta vs Bologna",
-                  "streams": [
-                    {
-                      "id": "st-b9953de48a",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-a0857e23f2",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1779026941_hd/1779026941_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Seria A",
-            "team_a": "Atalanta",
-            "team_b": "Bologna",
-            "logo_a": "https://images.keovip88.net/images/teams/atalanta.png",
-            "logo_b": "https://images.keovip88.net/images/teams/bologna.png",
-            "time": "23:00 17/05",
-            "blv": "blv-ngu",
-            "is_live": false,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-b9953de48a_ce540b9c_20260517.png?v=ce540b9c",
             "width": 1600,
             "height": 1200
           }
