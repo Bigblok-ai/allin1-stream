@@ -634,77 +634,6 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "gv-683ebf820e",
-          "name": "Chapecoense SC vs Remo Belem (PA) | 04:30 18/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-683ebf820e",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-683ebf820e",
-                  "name": "Chapecoense SC vs Remo Belem (PA)",
-                  "streams": [
-                    {
-                      "id": "st-683ebf820e",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-537c18ad8c",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1779029495_hd/1779029495_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "VĐQG Brazil",
-            "team_a": "Chapecoense SC",
-            "team_b": "Remo Belem (PA)",
-            "logo_a": "https://images.keovip88.net/images/teams/chapecoense-sc.png",
-            "logo_b": "https://images.keovip88.net/images/teams/remo-belem-pa.png",
-            "time": "04:30 18/05",
-            "blv": "BLV Dần",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-683ebf820e_e6563a84_20260518.png?v=e6563a84",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "hqlive-00ae8584cd",
           "name": "Inter Miami vs Portland Timbers | 05:00 18/05",
           "type": "single",
@@ -889,10 +818,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -907,7 +836,25 @@
                     {
                       "id": "st-4876fad6fe",
                       "name": "HQ",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-f6231c6549",
+                          "name": "BLV PHAN CA",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanca/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -922,7 +869,7 @@
             "logo_b": "https://upload.wikimedia.org/wikipedia/commons/8/86/Los_Angeles_Football_Club.svg",
             "time": "07:00 18/05",
             "blv": "BLV PHAN CA",
-            "is_live": false,
+            "is_live": true,
             "sport_slug": "bong-da"
           },
           "image": {
@@ -2914,7 +2861,7 @@
     },
     {
       "id": "grp-bóng-rổ",
-      "name": "🏀 Bóng Rổ (3 LIVE)",
+      "name": "🏀 Bóng Rổ (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -3140,10 +3087,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -3169,6 +3116,41 @@
                             {
                               "key": "Referer",
                               "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-c7f1dead31",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-c7f1dead31",
+                  "name": "Detroit Pistons vs Cleveland Cavaliers",
+                  "streams": [
+                    {
+                      "id": "st-c7f1dead31",
+                      "name": "Hoiquan - BLV PHAN MÃO",
+                      "stream_links": [
+                        {
+                          "id": "lnk-c2f1d53f75",
+                          "name": "BLV PHAN MÃO",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanbap/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -3230,7 +3212,7 @@
             "logo_b": "https://upload.wikimedia.org/wikipedia/ro/thumb/6/6a/ClevelandCavaliersMainLogo.svg/250px-ClevelandCavaliersMainLogo.svg.png",
             "time": "07:00 18/05",
             "blv": "blv-lac, blv-can",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "basketball"
           },
           "image": {
