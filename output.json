@@ -628,14 +628,14 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
         {
-          "id": "hqlive-842f0192ef",
-          "name": "Jeju United FC vs FC Anyang | 14:30 17/05",
+          "id": "gv-dec21edc72",
+          "name": "Pisa vs Napoli | 17:00 17/05",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -649,16 +649,51 @@
           ],
           "sources": [
             {
-              "id": "src-842f0192ef",
+              "id": "src-dec21edc72",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-dec21edc72",
+                  "name": "Pisa vs Napoli",
+                  "streams": [
+                    {
+                      "id": "st-dec21edc72",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-9c0a8630d4",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1778994777_hd/1778994777_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-184739e627",
               "name": "HoiQuanTV",
               "contents": [
                 {
-                  "id": "ct-842f0192ef",
-                  "name": "Jeju United FC vs FC Anyang",
+                  "id": "ct-184739e627",
+                  "name": "Pisa vs Napoli",
                   "streams": [
                     {
-                      "id": "st-842f0192ef",
-                      "name": "HQ",
+                      "id": "st-184739e627",
+                      "name": "Hoiquan - BLV CỦ HÀNH",
                       "stream_links": [
                         {
                           "id": "lnk-a1498791d5",
@@ -685,21 +720,21 @@
             }
           ],
           "org_metadata": {
-            "league": "K League 1",
-            "team_a": "Jeju United FC",
-            "team_b": "FC Anyang",
-            "logo_a": "https://media.api-sports.io/football/teams/2761.png",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/lt/c/c9/FC_Anyang_logo.png?20190911143321",
-            "time": "14:30 17/05",
-            "blv": "BLV CỦ HÀNH",
+            "league": "Seria A",
+            "team_a": "Pisa",
+            "team_b": "Napoli",
+            "logo_a": "https://images.keovip88.net/images/teams/pisa.png",
+            "logo_b": "https://images.keovip88.net/images/teams/napoli.png",
+            "time": "17:00 17/05",
+            "blv": "BLV Ben",
             "is_live": true,
-            "sport_slug": "bong-da"
+            "cate_type": "football"
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Jeju United FC_FC Anyang_14-30 17-05_88364ab1_20260517.png?v=88364ab1",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-dec21edc72_0e67ff8d_20260517.png?v=0e67ff8d",
             "width": 1600,
             "height": 1200
           }
@@ -776,42 +811,42 @@
           }
         },
         {
-          "id": "gv-dec21edc72",
-          "name": "Pisa vs Napoli | 17:00 17/05",
+          "id": "hqlive-1051b3f5a7",
+          "name": "Hoang Anh Gia Lai vs Hồng Lĩnh Hà Tĩnh | 17:00 17/05",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
             {
-              "id": "src-dec21edc72",
-              "name": "GiovangTV",
+              "id": "src-1051b3f5a7",
+              "name": "HoiQuanTV",
               "contents": [
                 {
-                  "id": "ct-dec21edc72",
-                  "name": "Pisa vs Napoli",
+                  "id": "ct-1051b3f5a7",
+                  "name": "Hoang Anh Gia Lai vs Hồng Lĩnh Hà Tĩnh",
                   "streams": [
                     {
-                      "id": "st-dec21edc72",
-                      "name": "GV",
+                      "id": "st-1051b3f5a7",
+                      "name": "HQ",
                       "stream_links": [
                         {
-                          "id": "lnk-9c0a8630d4",
-                          "name": "Link HD 720p",
+                          "id": "lnk-b3ac35be40",
+                          "name": "BLV PHAN CHỚP",
                           "type": "hls",
                           "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1778994777_hd/1778994777_hd@720p.m3u8",
+                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanchop/playlist.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://giovang.fun/"
+                              "value": "https://sv2.hoiquan3.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -827,21 +862,92 @@
             }
           ],
           "org_metadata": {
-            "league": "Seria A",
-            "team_a": "Pisa",
-            "team_b": "Napoli",
-            "logo_a": "https://images.keovip88.net/images/teams/pisa.png",
-            "logo_b": "https://images.keovip88.net/images/teams/napoli.png",
+            "league": "V.League 1",
+            "team_a": "Hoang Anh Gia Lai",
+            "team_b": "Hồng Lĩnh Hà Tĩnh",
+            "logo_a": "https://media.api-sports.io/football/teams/3673.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/vi/2/22/HLHT_FC.svg",
             "time": "17:00 17/05",
-            "blv": "BLV Ben",
-            "is_live": false,
-            "cate_type": "football"
+            "blv": "BLV PHAN CHỚP",
+            "is_live": true,
+            "sport_slug": "bong-da"
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-dec21edc72_0e67ff8d_20260517.png?v=0e67ff8d",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Hoang Anh Gia Lai_Hồng Lĩnh Hà Tĩnh_17-00 17-05_9195c59f_20260517.png?v=9195c59f",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-6c2a2b7744",
+          "name": "Como vs Parma | 17:00 17/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-6c2a2b7744",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-6c2a2b7744",
+                  "name": "Como vs Parma",
+                  "streams": [
+                    {
+                      "id": "st-6c2a2b7744",
+                      "name": "HQ",
+                      "stream_links": [
+                        {
+                          "id": "lnk-c2f1d53f75",
+                          "name": "BLV PHAN MÃO",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanbap/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Serie A",
+            "team_a": "Como",
+            "team_b": "Parma",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Logo_Como_1907_2019.png/250px-Logo_Como_1907_2019.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/4/40/Logo_Parma_Calcio_1913_%28adozione_2016%29.png",
+            "time": "17:00 17/05",
+            "blv": "BLV PHAN MÃO",
+            "is_live": true,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Como_Parma_17-00 17-05_70069874_20260517.png?v=70069874",
             "width": 1600,
             "height": 1200
           }
@@ -913,165 +1019,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-77e006f2e5_220bfcc7_20260517.png?v=220bfcc7",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "hqlive-1051b3f5a7",
-          "name": "Hoang Anh Gia Lai vs Hồng Lĩnh Hà Tĩnh | 17:00 17/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-1051b3f5a7",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-1051b3f5a7",
-                  "name": "Hoang Anh Gia Lai vs Hồng Lĩnh Hà Tĩnh",
-                  "streams": [
-                    {
-                      "id": "st-1051b3f5a7",
-                      "name": "HQ",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "V.League 1",
-            "team_a": "Hoang Anh Gia Lai",
-            "team_b": "Hồng Lĩnh Hà Tĩnh",
-            "logo_a": "https://media.api-sports.io/football/teams/3673.png",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/vi/2/22/HLHT_FC.svg",
-            "time": "17:00 17/05",
-            "blv": "BLV PHAN CHỚP",
-            "is_live": false,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Hoang Anh Gia Lai_Hồng Lĩnh Hà Tĩnh_17-00 17-05_9195c59f_20260517.png?v=9195c59f",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "hqlive-6c2a2b7744",
-          "name": "Como vs Parma | 17:00 17/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-6c2a2b7744",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-6c2a2b7744",
-                  "name": "Como vs Parma",
-                  "streams": [
-                    {
-                      "id": "st-6c2a2b7744",
-                      "name": "HQ",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Serie A",
-            "team_a": "Como",
-            "team_b": "Parma",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Logo_Como_1907_2019.png/250px-Logo_Como_1907_2019.png",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/4/40/Logo_Parma_Calcio_1913_%28adozione_2016%29.png",
-            "time": "17:00 17/05",
-            "blv": "BLV PHAN MÃO",
-            "is_live": false,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Como_Parma_17-00 17-05_70069874_20260517.png?v=70069874",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "hqlive-27b5d6d258",
-          "name": "Genoa vs AC Milan | 17:00 17/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-27b5d6d258",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-27b5d6d258",
-                  "name": "Genoa vs AC Milan",
-                  "streams": [
-                    {
-                      "id": "st-27b5d6d258",
-                      "name": "HQ",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Serie A",
-            "team_a": "Genoa",
-            "team_b": "AC Milan",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/vi/4/4e/Genoa_cfc.png",
-            "logo_b": "https://ssl.gstatic.com/onebox/media/sports/logos/0E1JciuKLW0EbG48I5cFRQ_96x96.png",
-            "time": "17:00 17/05",
-            "blv": "BLV PHAN CA",
-            "is_live": false,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Genoa_AC Milan_17-00 17-05_bf5d47f8_20260517.png?v=bf5d47f8",
             "width": 1600,
             "height": 1200
           }
