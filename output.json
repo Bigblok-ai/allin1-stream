@@ -1053,6 +1053,41 @@
                   ]
                 }
               ]
+            },
+            {
+              "id": "src-685a00a441",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-685a00a441",
+                  "name": "Inter vs Hellas Verona",
+                  "streams": [
+                    {
+                      "id": "st-685a00a441",
+                      "name": "Hoiquan - BLV PHAN TỪ",
+                      "stream_links": [
+                        {
+                          "id": "lnk-27b23108c0",
+                          "name": "BLV PHAN TỪ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://yvm80526.edgemaxcdn.org/live/hqtv_blv_phantu/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
             }
           ],
           "org_metadata": {
@@ -2567,7 +2602,7 @@
     },
     {
       "id": "grp-tennis",
-      "name": "🎾 Tennis (1 LIVE)",
+      "name": "🎾 Tennis (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -2651,10 +2686,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -2669,7 +2704,25 @@
                     {
                       "id": "st-1c6ea89afa",
                       "name": "HQ",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-eae8482cb7",
+                          "name": "BLV PHAN BÁCH",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanchuot/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -2684,7 +2737,7 @@
             "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvhszvRifhlsC3d-jN9rhkFvLpgGR2lSBbTA&s",
             "time": "20:00 17/05",
             "blv": "BLV PHAN BÁCH",
-            "is_live": false,
+            "is_live": true,
             "sport_slug": "tennis"
           },
           "image": {
@@ -3064,6 +3117,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-b7e29a1f31_85451df3_20260517.png?v=85451df3",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-8e261bab67",
+          "name": "Zhejiang Guangsha vs Shenzhen | 18:35 18/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-8e261bab67",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-8e261bab67",
+                  "name": "Zhejiang Guangsha vs Shenzhen",
+                  "streams": [
+                    {
+                      "id": "st-8e261bab67",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "CBA",
+            "team_a": "Zhejiang Guangsha",
+            "team_b": "Shenzhen",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/en/1/10/Zhejiang_Lions.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/KbyBL1Xg-8hRiTVXM.png",
+            "time": "18:35 18/05",
+            "blv": "BLV PHAN MÃO",
+            "is_live": false,
+            "sport_slug": "bong-ro"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Zhejiang Guangsha_Shenzhen_18-35 18-05_a04f3217_20260517.png?v=a04f3217",
             "width": 1600,
             "height": 1200
           }
