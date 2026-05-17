@@ -33,7 +33,7 @@ SOURCES = [
     {"name": "Quechoa", "url": "https://raw.githubusercontent.com/jasminliu98/quechoa-stream/refs/heads/main/output.json"},
     {"name": "Xaycon", "url": "https://raw.githubusercontent.com/jasminliu98/xaycon-stream/refs/heads/main/output.json"},
     {"name": "Bugio", "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/output.json"},
-    {"name": "Bonmua", "https://raw.githubusercontent.com/jasminliu98/bonmua-stream/refs/heads/main/output.json"}
+    {"name": "Bonmua", "url": "https://raw.githubusercontent.com/jasminliu98/bonmua-stream/refs/heads/main/output.json"}
 ]
 
 HOIQUAN_FILE = "hoiquan.json"
