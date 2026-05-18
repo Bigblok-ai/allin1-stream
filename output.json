@@ -685,7 +685,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (3 LIVE)",
+      "name": "⚽ Bóng Đá (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -903,77 +903,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-4ff3e35002_641b259d_20260518.png?v=641b259d",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "bonmua-d4cb855b18",
-          "name": "South Melbourne vs Caroline Springs George Cross | 16:30 18/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-d4cb855b18",
-              "name": "BonMuaTV",
-              "contents": [
-                {
-                  "id": "ct-d4cb855b18",
-                  "name": "South Melbourne vs Caroline Springs George Cross",
-                  "streams": [
-                    {
-                      "id": "st-d4cb855b18",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-b898a8c593",
-                          "name": "Văn Chuẩn",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://pull.globalcdnnetworksc2031.info/str01/blv-van-chuan-fb/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://bonmuatv.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "National Premier Leagues Victoria",
-            "team_a": "South Melbourne",
-            "team_b": "Caroline Springs George Cross",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/en/a/a6/South_Melbourne_FC_logo.svg",
-            "logo_b": "https://georgecrossfc.com.au/wp-content/uploads/2019/01/Caroline-Springs_George-Cross-FC.png",
-            "time": "16:30 18/05",
-            "blv": "Văn Chuẩn",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/bonmua-stream/refs/heads/main/thumbs/bonmua-d4cb855b18_7a6207cc_20260518.png?v=7a6207cc",
             "width": 1600,
             "height": 1200
           }
@@ -1447,6 +1376,41 @@
                             {
                               "key": "Referer",
                               "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-b28d8e3ccb",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-b28d8e3ccb",
+                  "name": "Leganes vs Huesca",
+                  "streams": [
+                    {
+                      "id": "st-b28d8e3ccb",
+                      "name": "Bugio - BLV Tiểu Bà Xã",
+                      "stream_links": [
+                        {
+                          "id": "lnk-c23e936057",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_tieubaxa/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
                             },
                             {
                               "key": "User-Agent",
