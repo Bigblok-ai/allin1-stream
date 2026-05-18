@@ -685,14 +685,14 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (4 LIVE)",
+      "name": "⚽ Bóng Đá (6 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
         {
-          "id": "xc-9afe440558",
-          "name": "Tanjong Pagar vs Hougang United | 18:30 18/05",
+          "id": "hqlive-dccbaf0fbe",
+          "name": "Kerala Blasters vs Goa | 21:00 18/05",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -706,23 +706,58 @@
           ],
           "sources": [
             {
-              "id": "src-9afe440558",
+              "id": "src-dccbaf0fbe",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-dccbaf0fbe",
+                  "name": "Kerala Blasters vs Goa",
+                  "streams": [
+                    {
+                      "id": "st-dccbaf0fbe",
+                      "name": "HQ",
+                      "stream_links": [
+                        {
+                          "id": "lnk-f6231c6549",
+                          "name": "BLV PHAN CA",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanca/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-b97f7324a9",
               "name": "XayConTV",
               "contents": [
                 {
-                  "id": "ct-9afe440558",
-                  "name": "Tanjong Pagar vs Hougang United",
+                  "id": "ct-b97f7324a9",
+                  "name": "Kerala Blasters vs Goa",
                   "streams": [
                     {
-                      "id": "st-9afe440558",
-                      "name": "XC",
+                      "id": "st-b97f7324a9",
+                      "name": "Xaycon - BLV A Cỏ",
                       "stream_links": [
                         {
-                          "id": "lnk-30319ba8f3",
+                          "id": "lnk-19bab7f4de",
                           "name": "Link FHD",
                           "type": "hls",
                           "default": true,
-                          "url": "https://xclive.yarncdn.live/live/xctv_blv_bipcon/playlist.m3u8",
+                          "url": "https://xclive.yarncdn.live/live/xctv_blv_aco/playlist.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -743,29 +778,69 @@
                   ]
                 }
               ]
-            },
+            }
+          ],
+          "org_metadata": {
+            "league": "Indian Super League",
+            "team_a": "Kerala Blasters",
+            "team_b": "Goa",
+            "logo_a": "https://media.api-sports.io/football/teams/3477.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/pt/7/72/FC_Goa.png",
+            "time": "21:00 18/05",
+            "blv": "BLV PHAN CA",
+            "is_live": true,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Kerala Blasters_Goa_21-00 18-05_d94469ee_20260518.png?v=d94469ee",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "qc-785f8cebab",
+          "name": "El Geish vs Pharco | 21:00 18/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
             {
-              "id": "src-b678fa160a",
-              "name": "BonMuaTV",
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-785f8cebab",
+              "name": "QuechoaTV",
               "contents": [
                 {
-                  "id": "ct-b678fa160a",
-                  "name": "Tanjong Pagar Utd vs Hougang United FC",
+                  "id": "ct-785f8cebab",
+                  "name": "El Geish vs Pharco",
                   "streams": [
                     {
-                      "id": "st-b678fa160a",
-                      "name": "Bonmua - Mèo Béo",
+                      "id": "st-785f8cebab",
+                      "name": "QC",
                       "stream_links": [
                         {
-                          "id": "lnk-d5ac3bb39b",
-                          "name": "Mèo Béo",
+                          "id": "lnk-75feca2dee",
+                          "name": "Link FHD",
                           "type": "hls",
                           "default": true,
-                          "url": "https://pull.globalcdnnetworksc2031.info/str01/blv-meo-beo-fb/index.m3u8",
+                          "url": "https://ahghndtkyqmm-pull.bpmedialive.com/quechoa/blv_vanminh.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://bonmuatv.com/"
+                              "value": "https://quechoa10.live/"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://quechoa10.live"
                             },
                             {
                               "key": "User-Agent",
@@ -782,13 +857,13 @@
           ],
           "org_metadata": {
             "league": "Premier League",
-            "team_a": "Tanjong Pagar",
-            "team_b": "Hougang United",
-            "logo_a": "https://media.api-sports.io/football/teams/10077.png",
-            "logo_b": "https://media.api-sports.io/football/teams/4205.png",
-            "time": "18:30",
+            "team_a": "El Geish",
+            "team_b": "Pharco",
+            "logo_a": "https://media.api-sports.io/football/teams/1039.png",
+            "logo_b": "https://media.api-sports.io/football/teams/15736.png",
+            "time": "21:00",
             "date": "18/05",
-            "blv": "BLV Bịp Con",
+            "blv": "VĂN MINH",
             "is_live": true,
             "sport_slug": "bong-da"
           },
@@ -796,7 +871,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/xaycon-stream/refs/heads/main/thumbs/xc-9afe440558_0f6ab1fc_20260518.png?v=0f6ab1fc",
+            "url": "https://raw.githubusercontent.com/jasminliu98/quechoa-stream/refs/heads/main/thumbs/qc-785f8cebab_1732d118_20260518.png?v=1732d118",
             "width": 1600,
             "height": 1200
           }
@@ -984,6 +1059,77 @@
           }
         },
         {
+          "id": "bonmua-b678fa160a",
+          "name": "Tanjong Pagar Utd vs Hougang United FC | 18:30 18/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-b678fa160a",
+              "name": "BonMuaTV",
+              "contents": [
+                {
+                  "id": "ct-b678fa160a",
+                  "name": "Tanjong Pagar Utd vs Hougang United FC",
+                  "streams": [
+                    {
+                      "id": "st-b678fa160a",
+                      "name": "KT",
+                      "stream_links": [
+                        {
+                          "id": "lnk-d5ac3bb39b",
+                          "name": "Mèo Béo",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pull.globalcdnnetworksc2031.info/str01/blv-meo-beo-fb/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://bonmuatv.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Singapore Premier League",
+            "team_a": "Tanjong Pagar Utd",
+            "team_b": "Hougang United FC",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/en/thumb/6/68/Tanjong_Pagar_United_FC_logo.png/250px-Tanjong_Pagar_United_FC_logo.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/en/b/b5/Hougang_United_FC_logo.png",
+            "time": "18:30 18/05",
+            "blv": "Mèo Béo",
+            "is_live": true,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bonmua-stream/refs/heads/main/thumbs/bonmua-b678fa160a_9e155707_20260518.png?v=9e155707",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "bonmua-3e7c2e5edf",
           "name": "Al Ahli Sanaa vs Fhman Abyan | 19:45 18/05",
           "type": "single",
@@ -1050,98 +1196,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/bonmua-stream/refs/heads/main/thumbs/bonmua-3e7c2e5edf_16c677b3_20260518.png?v=16c677b3",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "hqlive-dccbaf0fbe",
-          "name": "Kerala Blasters vs Goa | 21:00 18/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-dccbaf0fbe",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-dccbaf0fbe",
-                  "name": "Kerala Blasters vs Goa",
-                  "streams": [
-                    {
-                      "id": "st-dccbaf0fbe",
-                      "name": "HQ",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "src-b97f7324a9",
-              "name": "XayConTV",
-              "contents": [
-                {
-                  "id": "ct-b97f7324a9",
-                  "name": "Kerala Blasters vs Goa",
-                  "streams": [
-                    {
-                      "id": "st-b97f7324a9",
-                      "name": "Xaycon - BLV A Cỏ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-19bab7f4de",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://xclive.yarncdn.live/live/xctv_blv_aco/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.xaycon3.live/"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://sv2.xaycon3.live"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Indian Super League",
-            "team_a": "Kerala Blasters",
-            "team_b": "Goa",
-            "logo_a": "https://media.api-sports.io/football/teams/3477.png",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/pt/7/72/FC_Goa.png",
-            "time": "21:00 18/05",
-            "blv": "BLV PHAN CA",
-            "is_live": false,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Kerala Blasters_Goa_21-00 18-05_d94469ee_20260518.png?v=d94469ee",
             "width": 1600,
             "height": 1200
           }
@@ -2890,82 +2944,6 @@
           }
         },
         {
-          "id": "qc-785f8cebab",
-          "name": "El Geish vs Pharco | 21:00 18/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-785f8cebab",
-              "name": "QuechoaTV",
-              "contents": [
-                {
-                  "id": "ct-785f8cebab",
-                  "name": "El Geish vs Pharco",
-                  "streams": [
-                    {
-                      "id": "st-785f8cebab",
-                      "name": "QC",
-                      "stream_links": [
-                        {
-                          "id": "lnk-75feca2dee",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ahghndtkyqmm-pull.bpmedialive.com/quechoa/blv_vanminh.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://quechoa10.live/"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://quechoa10.live"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Premier League",
-            "team_a": "El Geish",
-            "team_b": "Pharco",
-            "logo_a": "https://media.api-sports.io/football/teams/1039.png",
-            "logo_b": "https://media.api-sports.io/football/teams/15736.png",
-            "time": "21:00",
-            "date": "18/05",
-            "blv": "VĂN MINH",
-            "is_live": false,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/quechoa-stream/refs/heads/main/thumbs/qc-785f8cebab_1732d118_20260518.png?v=1732d118",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "qc-1306d303c0",
           "name": "Japan U17 vs Uzbekistan U17 | 22:00 19/05",
           "type": "single",
@@ -3351,7 +3329,7 @@
     },
     {
       "id": "grp-tennis",
-      "name": "🎾 Tennis",
+      "name": "🎾 Tennis (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -3364,10 +3342,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -3382,7 +3360,25 @@
                     {
                       "id": "st-087bc6099d",
                       "name": "HQ",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-eae8482cb7",
+                          "name": "BLV PHAN BÁCH",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanchuot/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -3397,7 +3393,7 @@
             "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQB34VlL8eZjCBZd_sDLStI-keeGNMPUx5b-w&s",
             "time": "21:00 18/05",
             "blv": "BLV PHAN BÁCH",
-            "is_live": false,
+            "is_live": true,
             "sport_slug": "tennis"
           },
           "image": {
