@@ -634,112 +634,6 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "hqlive-00ae8584cd",
-          "name": "Inter Miami vs Portland Timbers | 05:00 18/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-00ae8584cd",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-00ae8584cd",
-                  "name": "Inter Miami vs Portland Timbers",
-                  "streams": [
-                    {
-                      "id": "st-00ae8584cd",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-975fc55dd1",
-                          "name": "BLV LƯƠNG BỔNG",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanliem/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "src-d70a2a5901",
-              "name": "BonMuaTV",
-              "contents": [
-                {
-                  "id": "ct-d70a2a5901",
-                  "name": "Inter Miami CF vs Portland Timbers",
-                  "streams": [
-                    {
-                      "id": "st-d70a2a5901",
-                      "name": "Bonmua - Pháo",
-                      "stream_links": [
-                        {
-                          "id": "lnk-3575da2709",
-                          "name": "Pháo",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://pull.globalcdnnetworksc2031.info/str01/blv-phao-fb/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://bonmuatv.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Major League Soccer",
-            "team_a": "Inter Miami",
-            "team_b": "Portland Timbers",
-            "logo_a": "https://media.api-sports.io/football/teams/9568.png",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Portland_Timbers_logo.svg/250px-Portland_Timbers_logo.svg.png",
-            "time": "05:00 18/05",
-            "blv": "BLV LƯƠNG BỔNG",
-            "is_live": true,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Inter Miami_Portland Timbers_05-00 18-05_33312963_20260518.png?v=33312963",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "hqlive-cbf016ce10",
           "name": "Atletico Paranaense vs Flamengo | 05:30 18/05",
           "type": "single",
@@ -912,6 +806,77 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Nashville SC_Los Angeles FC_07-00 18-05_4d12a8b4_20260518.png?v=4d12a8b4",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "bonmua-d70a2a5901",
+          "name": "Inter Miami CF vs Portland Timbers | 05:00 18/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-d70a2a5901",
+              "name": "BonMuaTV",
+              "contents": [
+                {
+                  "id": "ct-d70a2a5901",
+                  "name": "Inter Miami CF vs Portland Timbers",
+                  "streams": [
+                    {
+                      "id": "st-d70a2a5901",
+                      "name": "KT",
+                      "stream_links": [
+                        {
+                          "id": "lnk-3575da2709",
+                          "name": "Pháo",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pull.globalcdnnetworksc2031.info/str01/blv-phao-fb/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://bonmuatv.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "United States Major League Soccer",
+            "team_a": "Inter Miami CF",
+            "team_b": "Portland Timbers",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/vi/5/5c/Inter_Miami_CF_logo.svg",
+            "logo_b": "https://img.rapid-api.icu/football/team/54155ff9b2150a08c295c1595f5d5e5a/image/small?v=1768601124",
+            "time": "05:00 18/05",
+            "blv": "Pháo",
+            "is_live": true,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bonmua-stream/refs/heads/main/thumbs/bonmua-d70a2a5901_8316c3e9_20260518.png?v=8316c3e9",
             "width": 1600,
             "height": 1200
           }
