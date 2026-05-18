@@ -634,7 +634,7 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "bonmua-d4cb855b18",
+          "id": "gv-15b4773560",
           "name": "South Melbourne vs Caroline Springs George Cross | 16:30 18/05",
           "type": "single",
           "display": "thumbnail-only",
@@ -649,17 +649,35 @@
           ],
           "sources": [
             {
-              "id": "src-d4cb855b18",
-              "name": "BonMuaTV",
+              "id": "src-15b4773560",
+              "name": "GiovangTV",
               "contents": [
                 {
-                  "id": "ct-d4cb855b18",
+                  "id": "ct-15b4773560",
                   "name": "South Melbourne vs Caroline Springs George Cross",
                   "streams": [
                     {
-                      "id": "st-d4cb855b18",
-                      "name": "KT",
-                      "stream_links": []
+                      "id": "st-15b4773560",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-8d3949b9df",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1779090093_hd/1779090093_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -667,21 +685,21 @@
             }
           ],
           "org_metadata": {
-            "league": "National Premier Leagues Victoria",
+            "league": "NPL Victoria Úc",
             "team_a": "South Melbourne",
             "team_b": "Caroline Springs George Cross",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/en/a/a6/South_Melbourne_FC_logo.svg",
-            "logo_b": "https://georgecrossfc.com.au/wp-content/uploads/2019/01/Caroline-Springs_George-Cross-FC.png",
+            "logo_a": "https://images.keovip88.net/images/teams/south-melbourne.png",
+            "logo_b": "https://images.keovip88.net/images/teams/caroline-springs-george-cross.png",
             "time": "16:30 18/05",
-            "blv": "Văn Chuẩn",
+            "blv": "blv-bon",
             "is_live": false,
-            "cate_name": "Bóng đá"
+            "cate_type": "football"
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/bonmua-stream/refs/heads/main/thumbs/bonmua-d4cb855b18_7a6207cc_20260518.png?v=7a6207cc",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-15b4773560_18e8b871_20260518.png?v=18e8b871",
             "width": 1600,
             "height": 1200
           }
@@ -3555,7 +3573,7 @@
     },
     {
       "id": "grp-bóng-rổ",
-      "name": "🏀 Bóng Rổ",
+      "name": "🏀 Bóng Rổ (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -3568,10 +3586,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -3619,7 +3637,7 @@
             "logo_b": "https://static.flashscore.com/res/image/data/GMzF9fe5-dvmFFpGo.png",
             "time": "15:00 18/05",
             "blv": "BLV Cầy",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "basketball"
           },
           "image": {
