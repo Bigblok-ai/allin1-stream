@@ -12,7 +12,7 @@
   "groups": [
     {
       "id": "grp-tv-hoiquan",
-      "name": "📺 Kênh Truyền Hình (7 LIVE)",
+      "name": "📺 Kênh Truyền Hình (8 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -377,7 +377,7 @@
         },
         {
           "id": "tv-4",
-          "name": "VTV7",
+          "name": "VTV5 Tây Nguyên",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -396,7 +396,7 @@
               "contents": [
                 {
                   "id": "ct-tv-4-0",
-                  "name": "VTV7",
+                  "name": "VTV5 Tây Nguyên",
                   "streams": [
                     {
                       "id": "st-tv-4-0",
@@ -404,6 +404,63 @@
                       "stream_links": [
                         {
                           "id": "lnk-tv-4-0",
+                          "name": "Link 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://live.fptplay53.net/fnxhd1/vtv5taynguyen_vhls.smil/chunklist_b5000000.m3u8",
+                          "request_headers": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "is_live": true,
+            "time": "",
+            "team_a": "VTV5 Tây Nguyên",
+            "team_b": ""
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://toiyeuvietnam.dpdns.org/Logo/vtv5-tay-nguyen/KenhCoBan.png",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "tv-5",
+          "name": "VTV7",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-tv-5-0",
+              "name": "Source 1 - fptplay53",
+              "contents": [
+                {
+                  "id": "ct-tv-5-0",
+                  "name": "VTV7",
+                  "streams": [
+                    {
+                      "id": "st-tv-5-0",
+                      "name": "KT",
+                      "stream_links": [
+                        {
+                          "id": "lnk-tv-5-0",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
@@ -417,19 +474,19 @@
               ]
             },
             {
-              "id": "src-tv-4-1",
+              "id": "src-tv-5-1",
               "name": "Source 2 - dpdns",
               "contents": [
                 {
-                  "id": "ct-tv-4-1",
+                  "id": "ct-tv-5-1",
                   "name": "VTV7",
                   "streams": [
                     {
-                      "id": "st-tv-4-1",
+                      "id": "st-tv-5-1",
                       "name": "KT",
                       "stream_links": [
                         {
-                          "id": "lnk-tv-4-1",
+                          "id": "lnk-tv-5-1",
                           "name": "Link 2",
                           "type": "hls",
                           "default": false,
@@ -459,7 +516,7 @@
           }
         },
         {
-          "id": "tv-5",
+          "id": "tv-6",
           "name": "VTV9",
           "type": "single",
           "display": "thumbnail-only",
@@ -474,19 +531,19 @@
           ],
           "sources": [
             {
-              "id": "src-tv-5-0",
+              "id": "src-tv-6-0",
               "name": "Source 1 - dpdns",
               "contents": [
                 {
-                  "id": "ct-tv-5-0",
+                  "id": "ct-tv-6-0",
                   "name": "VTV9",
                   "streams": [
                     {
-                      "id": "st-tv-5-0",
+                      "id": "st-tv-6-0",
                       "name": "KT",
                       "stream_links": [
                         {
-                          "id": "lnk-tv-5-0",
+                          "id": "lnk-tv-6-0",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
@@ -500,19 +557,19 @@
               ]
             },
             {
-              "id": "src-tv-5-1",
+              "id": "src-tv-6-1",
               "name": "Source 2 - dpdns",
               "contents": [
                 {
-                  "id": "ct-tv-5-1",
+                  "id": "ct-tv-6-1",
                   "name": "VTV9",
                   "streams": [
                     {
-                      "id": "st-tv-5-1",
+                      "id": "st-tv-6-1",
                       "name": "KT",
                       "stream_links": [
                         {
-                          "id": "lnk-tv-5-1",
+                          "id": "lnk-tv-6-1",
                           "name": "Link 2",
                           "type": "hls",
                           "default": false,
@@ -542,7 +599,7 @@
           }
         },
         {
-          "id": "tv-6",
+          "id": "tv-7",
           "name": "HTV Thể Thao",
           "type": "single",
           "display": "thumbnail-only",
@@ -557,19 +614,19 @@
           ],
           "sources": [
             {
-              "id": "src-tv-6-0",
+              "id": "src-tv-7-0",
               "name": "Source 1 - fptplay53",
               "contents": [
                 {
-                  "id": "ct-tv-6-0",
+                  "id": "ct-tv-7-0",
                   "name": "HTV Thể Thao",
                   "streams": [
                     {
-                      "id": "st-tv-6-0",
+                      "id": "st-tv-7-0",
                       "name": "KT",
                       "stream_links": [
                         {
-                          "id": "lnk-tv-6-0",
+                          "id": "lnk-tv-7-0",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
@@ -583,19 +640,19 @@
               ]
             },
             {
-              "id": "src-tv-6-1",
+              "id": "src-tv-7-1",
               "name": "Source 2 - duckdns",
               "contents": [
                 {
-                  "id": "ct-tv-6-1",
+                  "id": "ct-tv-7-1",
                   "name": "HTV Thể Thao",
                   "streams": [
                     {
-                      "id": "st-tv-6-1",
+                      "id": "st-tv-7-1",
                       "name": "KT",
                       "stream_links": [
                         {
-                          "id": "lnk-tv-6-1",
+                          "id": "lnk-tv-7-1",
                           "name": "Link 2",
                           "type": "hls",
                           "default": false,
