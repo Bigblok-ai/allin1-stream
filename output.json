@@ -628,11 +628,82 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (3 LIVE)",
+      "name": "⚽ Bóng Đá (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "gv-74598586a9",
+          "name": "Vancouver FC vs Cavalry | 08:00 18/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-74598586a9",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-74598586a9",
+                  "name": "Vancouver FC vs Cavalry",
+                  "streams": [
+                    {
+                      "id": "st-74598586a9",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-6786b0a64b",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1779005657_hd/1779005657_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Giải Ngoại hạng Canada",
+            "team_a": "Vancouver FC",
+            "team_b": "Cavalry",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/en/thumb/6/6d/Vancouver_FC_logo.svg/1280px-Vancouver_FC_logo.svg.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/en/thumb/c/c2/Cavalry_FC_logo.svg/960px-Cavalry_FC_logo.svg.png",
+            "time": "08:00 18/05",
+            "blv": "blv-bon",
+            "is_live": true,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-74598586a9_212b5436_20260518.png?v=212b5436",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "hqlive-cbf016ce10",
           "name": "Atletico Paranaense vs Flamengo | 05:30 18/05",
@@ -877,77 +948,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/bonmua-stream/refs/heads/main/thumbs/bonmua-d70a2a5901_8316c3e9_20260518.png?v=8316c3e9",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-74598586a9",
-          "name": "Vancouver FC vs Cavalry | 08:00 18/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-74598586a9",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-74598586a9",
-                  "name": "Vancouver FC vs Cavalry",
-                  "streams": [
-                    {
-                      "id": "st-74598586a9",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-6786b0a64b",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1779005657_hd/1779005657_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Giải Ngoại hạng Canada",
-            "team_a": "Vancouver FC",
-            "team_b": "Cavalry",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/en/thumb/6/6d/Vancouver_FC_logo.svg/1280px-Vancouver_FC_logo.svg.png",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/en/thumb/c/c2/Cavalry_FC_logo.svg/960px-Cavalry_FC_logo.svg.png",
-            "time": "08:00 18/05",
-            "blv": "blv-bon",
-            "is_live": false,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-74598586a9_212b5436_20260518.png?v=212b5436",
             "width": 1600,
             "height": 1200
           }
