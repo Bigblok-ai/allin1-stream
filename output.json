@@ -628,82 +628,11 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (1 LIVE)",
+      "name": "⚽ Bóng Đá",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "bonmua-98400a277b",
-          "name": "Pachuca vs Pumas U.N.A.M. | 08:00 18/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-98400a277b",
-              "name": "BonMuaTV",
-              "contents": [
-                {
-                  "id": "ct-98400a277b",
-                  "name": "Pachuca vs Pumas U.N.A.M.",
-                  "streams": [
-                    {
-                      "id": "st-98400a277b",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-c425feb341",
-                          "name": "Táo",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://pull.globalcdnnetworksc2031.info/str01/blv-tao-fb/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://bonmuatv.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Mexico Liga MX",
-            "team_a": "Pachuca",
-            "team_b": "Pumas U.N.A.M.",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/en/thumb/9/93/Pachuca_Tuzos_logo.svg/960px-Pachuca_Tuzos_logo.svg.png",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/en/thumb/b/b7/Club_Universidad_Nacional_logo.svg/1280px-Club_Universidad_Nacional_logo.svg.png",
-            "time": "08:00 18/05",
-            "blv": "Táo",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/bonmua-stream/refs/heads/main/thumbs/bonmua-98400a277b_9ae9265b_20260518.png?v=9ae9265b",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "bonmua-d4cb855b18",
           "name": "South Melbourne vs Caroline Springs George Cross | 16:30 18/05",
@@ -815,6 +744,41 @@
                             {
                               "key": "Origin",
                               "value": "https://sv2.xaycon3.live"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-6adbe8b2ab",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-6adbe8b2ab",
+                  "name": "Zorya Luhansk vs Polessya",
+                  "streams": [
+                    {
+                      "id": "st-6adbe8b2ab",
+                      "name": "Bugio - BLV Tiểu Hạc",
+                      "stream_links": [
+                        {
+                          "id": "lnk-02ff9c6e74",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_tieuhac/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
                             },
                             {
                               "key": "User-Agent",
