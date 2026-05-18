@@ -685,7 +685,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (4 LIVE)",
+      "name": "⚽ Bóng Đá (5 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1013,6 +1013,117 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/xaycon-stream/refs/heads/main/thumbs/xc-fe7ab512e6_04c3d4e3_20260518.png?v=04c3d4e3",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-9afe440558",
+          "name": "Tanjong Pagar vs Hougang United | 18:30 18/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-9afe440558",
+              "name": "XayConTV",
+              "contents": [
+                {
+                  "id": "ct-9afe440558",
+                  "name": "Tanjong Pagar vs Hougang United",
+                  "streams": [
+                    {
+                      "id": "st-9afe440558",
+                      "name": "XC",
+                      "stream_links": [
+                        {
+                          "id": "lnk-30319ba8f3",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://xclive.yarncdn.live/live/xctv_blv_bipcon/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.xaycon3.live/"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://sv2.xaycon3.live"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-9a02387b02",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-9a02387b02",
+                  "name": "Tanjong Pagar vs Hougang United",
+                  "streams": [
+                    {
+                      "id": "st-9a02387b02",
+                      "name": "Bugio - BLV Tiểu Trà Đá",
+                      "stream_links": [
+                        {
+                          "id": "lnk-0ba3f9d037",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_trada/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Premier League",
+            "team_a": "Tanjong Pagar",
+            "team_b": "Hougang United",
+            "logo_a": "https://media.api-sports.io/football/teams/10077.png",
+            "logo_b": "https://media.api-sports.io/football/teams/4205.png",
+            "time": "18:30",
+            "date": "18/05",
+            "blv": "BLV Bịp Con",
+            "is_live": true,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/xaycon-stream/refs/heads/main/thumbs/xc-9afe440558_0f6ab1fc_20260518.png?v=0f6ab1fc",
             "width": 1600,
             "height": 1200
           }
@@ -2724,117 +2835,6 @@
           }
         },
         {
-          "id": "xc-9afe440558",
-          "name": "Tanjong Pagar vs Hougang United | 18:30 18/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-9afe440558",
-              "name": "XayConTV",
-              "contents": [
-                {
-                  "id": "ct-9afe440558",
-                  "name": "Tanjong Pagar vs Hougang United",
-                  "streams": [
-                    {
-                      "id": "st-9afe440558",
-                      "name": "XC",
-                      "stream_links": [
-                        {
-                          "id": "lnk-30319ba8f3",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://xclive.yarncdn.live/live/xctv_blv_bipcon/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.xaycon3.live/"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://sv2.xaycon3.live"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "src-9a02387b02",
-              "name": "BugioTV",
-              "contents": [
-                {
-                  "id": "ct-9a02387b02",
-                  "name": "Tanjong Pagar vs Hougang United",
-                  "streams": [
-                    {
-                      "id": "st-9a02387b02",
-                      "name": "Bugio - BLV Tiểu Trà Đá",
-                      "stream_links": [
-                        {
-                          "id": "lnk-0ba3f9d037",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_trada/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv1.bugio9.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Premier League",
-            "team_a": "Tanjong Pagar",
-            "team_b": "Hougang United",
-            "logo_a": "https://media.api-sports.io/football/teams/10077.png",
-            "logo_b": "https://media.api-sports.io/football/teams/4205.png",
-            "time": "18:30",
-            "date": "18/05",
-            "blv": "BLV Bịp Con",
-            "is_live": false,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/xaycon-stream/refs/heads/main/thumbs/xc-9afe440558_0f6ab1fc_20260518.png?v=0f6ab1fc",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "qc-e485e76113",
           "name": "Sichuan Jiuniu vs Dalian Zhixing | 18:35 19/05",
           "type": "single",
@@ -3941,7 +3941,7 @@
     },
     {
       "id": "grp-tennis",
-      "name": "🎾 Tennis (3 LIVE)",
+      "name": "🎾 Tennis (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -4089,6 +4089,77 @@
           }
         },
         {
+          "id": "hqlive-518b1b1ce1",
+          "name": "Stefanos Tsitsipas vs Giovanni Mpetshi Perricard | 18:30 18/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-518b1b1ce1",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-518b1b1ce1",
+                  "name": "Stefanos Tsitsipas vs Giovanni Mpetshi Perricard",
+                  "streams": [
+                    {
+                      "id": "st-518b1b1ce1",
+                      "name": "HQ",
+                      "stream_links": [
+                        {
+                          "id": "lnk-eae8482cb7",
+                          "name": "BLV PHAN BÁCH",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanchuot/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "ATP250 Geneva",
+            "team_a": "Stefanos Tsitsipas",
+            "team_b": "Giovanni Mpetshi Perricard",
+            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWm8CBcQz1IvkNxRxcrUjG2os8GIeQt4j7Ww&s",
+            "logo_b": "https://tse3.mm.bing.net/th/id/OIP.XMh8tEXh8HFLtQesMG5vHQHaFv?pid=Api&P=0&h=220",
+            "time": "18:30 18/05",
+            "blv": "BLV PHAN BÁCH",
+            "is_live": true,
+            "sport_slug": "tennis"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Stefanos Tsitsipas_Giovanni Mpetshi Perricard_18-30 18-05_6962ad44_20260518.png?v=6962ad44",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "qc-aed315d88e",
           "name": "Rinderknech A. vs Tirante T. A. | 17:00 18/05",
           "type": "single",
@@ -4160,59 +4231,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/quechoa-stream/refs/heads/main/thumbs/qc-aed315d88e_5a4f3aba_20260518.png?v=5a4f3aba",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "hqlive-518b1b1ce1",
-          "name": "Stefanos Tsitsipas vs Giovanni Mpetshi Perricard | 18:30 18/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-518b1b1ce1",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-518b1b1ce1",
-                  "name": "Stefanos Tsitsipas vs Giovanni Mpetshi Perricard",
-                  "streams": [
-                    {
-                      "id": "st-518b1b1ce1",
-                      "name": "HQ",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "ATP250 Geneva",
-            "team_a": "Stefanos Tsitsipas",
-            "team_b": "Giovanni Mpetshi Perricard",
-            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWm8CBcQz1IvkNxRxcrUjG2os8GIeQt4j7Ww&s",
-            "logo_b": "https://tse3.mm.bing.net/th/id/OIP.XMh8tEXh8HFLtQesMG5vHQHaFv?pid=Api&P=0&h=220",
-            "time": "18:30 18/05",
-            "blv": "BLV PHAN BÁCH",
-            "is_live": false,
-            "sport_slug": "tennis"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Stefanos Tsitsipas_Giovanni Mpetshi Perricard_18-30 18-05_6962ad44_20260518.png?v=6962ad44",
             "width": 1600,
             "height": 1200
           }
@@ -4464,7 +4482,7 @@
     },
     {
       "id": "grp-bóng-rổ",
-      "name": "🏀 Bóng Rổ (1 LIVE)",
+      "name": "🏀 Bóng Rổ (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -4548,10 +4566,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -4638,7 +4656,7 @@
             "logo_b": "https://static.flashscore.com/res/image/data/KbyBL1Xg-8hRiTVXM.png",
             "time": "18:35 18/05",
             "blv": "BLV Điếc",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "basketball"
           },
           "image": {
