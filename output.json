@@ -685,7 +685,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (1 LIVE)",
+      "name": "⚽ Bóng Đá (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -757,6 +757,82 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Guayaquil City FC_Orense SC_07-00 19-05_4d5f3eb1_20260519.png?v=4d5f3eb1",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-5e630b46f3",
+          "name": "CD Motagua vs Génesis | 07:00 19/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-5e630b46f3",
+              "name": "XayConTV",
+              "contents": [
+                {
+                  "id": "ct-5e630b46f3",
+                  "name": "CD Motagua vs Génesis",
+                  "streams": [
+                    {
+                      "id": "st-5e630b46f3",
+                      "name": "XC",
+                      "stream_links": [
+                        {
+                          "id": "lnk-22f0d2332d",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://xclive.yarncdn.live/live/xctv_blv_vantich/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.xaycon3.live/"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://sv2.xaycon3.live"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Liga Nacional",
+            "team_a": "CD Motagua",
+            "team_b": "Génesis",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/en/c/c5/F.C._Motagua.png",
+            "logo_b": "https://media.api-sports.io/football/teams/21858.png",
+            "time": "07:00",
+            "date": "19/05",
+            "blv": "BLV Văn Tích",
+            "is_live": true,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/xaycon-stream/refs/heads/main/thumbs/xc-5e630b46f3_b9e1be88_20260519.png?v=b9e1be88",
             "width": 1600,
             "height": 1200
           }
@@ -2230,82 +2306,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/xaycon-stream/refs/heads/main/thumbs/xc-966e24d846_d42fab90_20260519.png?v=d42fab90",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "xc-5e630b46f3",
-          "name": "CD Motagua vs Génesis | 07:00 19/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-5e630b46f3",
-              "name": "XayConTV",
-              "contents": [
-                {
-                  "id": "ct-5e630b46f3",
-                  "name": "CD Motagua vs Génesis",
-                  "streams": [
-                    {
-                      "id": "st-5e630b46f3",
-                      "name": "XC",
-                      "stream_links": [
-                        {
-                          "id": "lnk-22f0d2332d",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://xclive.yarncdn.live/live/xctv_blv_vantich/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.xaycon3.live/"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://sv2.xaycon3.live"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Liga Nacional",
-            "team_a": "CD Motagua",
-            "team_b": "Génesis",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/en/c/c5/F.C._Motagua.png",
-            "logo_b": "https://media.api-sports.io/football/teams/21858.png",
-            "time": "07:00",
-            "date": "19/05",
-            "blv": "BLV Văn Tích",
-            "is_live": false,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/xaycon-stream/refs/heads/main/thumbs/xc-5e630b46f3_b9e1be88_20260519.png?v=b9e1be88",
             "width": 1600,
             "height": 1200
           }
