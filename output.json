@@ -685,7 +685,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (8 LIVE)",
+      "name": "⚽ Bóng Đá (10 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -980,6 +980,117 @@
           }
         },
         {
+          "id": "qc-7fb45ac55f",
+          "name": "El Mokawloon vs Wadi Degla | 00:00 19/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-7fb45ac55f",
+              "name": "QuechoaTV",
+              "contents": [
+                {
+                  "id": "ct-7fb45ac55f",
+                  "name": "El Mokawloon vs Wadi Degla",
+                  "streams": [
+                    {
+                      "id": "st-7fb45ac55f",
+                      "name": "QC",
+                      "stream_links": [
+                        {
+                          "id": "lnk-75feca2dee",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ahghndtkyqmm-pull.bpmedialive.com/quechoa/blv_vanminh.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://quechoa10.live/"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://quechoa10.live"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-5654133f36",
+              "name": "BonMuaTV",
+              "contents": [
+                {
+                  "id": "ct-5654133f36",
+                  "name": "El Mokawloon El Arab vs Wadi Degla SC",
+                  "streams": [
+                    {
+                      "id": "st-5654133f36",
+                      "name": "Bonmua - Dylan",
+                      "stream_links": [
+                        {
+                          "id": "lnk-ab41c454f7",
+                          "name": "Dylan",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pull.globalcdnnetworksc2031.info/str01/blv-dylan-fb/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://bonmuatv.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Premier League",
+            "team_a": "El Mokawloon",
+            "team_b": "Wadi Degla",
+            "logo_a": "https://media.api-sports.io/football/teams/1575.png",
+            "logo_b": "https://media.api-sports.io/football/teams/1046.png",
+            "time": "00:00",
+            "date": "19/05",
+            "blv": "VĂN MINH",
+            "is_live": true,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/quechoa-stream/refs/heads/main/thumbs/qc-7fb45ac55f_8d0a6b1c_20260518.png?v=8d0a6b1c",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "xc-1d3a3033e6",
           "name": "Lahti vs VPS | 22:00 18/05",
           "type": "single",
@@ -1020,6 +1131,41 @@
                             {
                               "key": "Origin",
                               "value": "https://sv2.xaycon3.live"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-ad6edd954e",
+              "name": "BonMuaTV",
+              "contents": [
+                {
+                  "id": "ct-ad6edd954e",
+                  "name": "Lahti vs Vaasa VPS",
+                  "streams": [
+                    {
+                      "id": "st-ad6edd954e",
+                      "name": "Bonmua - Dylan",
+                      "stream_links": [
+                        {
+                          "id": "lnk-ab41c454f7",
+                          "name": "Dylan",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pull.globalcdnnetworksc2031.info/str01/blv-dylan-fb/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://bonmuatv.com/"
                             },
                             {
                               "key": "User-Agent",
@@ -1274,6 +1420,77 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-4ff3e35002_641b259d_20260518.png?v=641b259d",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "bonmua-f4973177a9",
+          "name": "Kerala Blasters FC vs FC Goa | 21:00 18/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-f4973177a9",
+              "name": "BonMuaTV",
+              "contents": [
+                {
+                  "id": "ct-f4973177a9",
+                  "name": "Kerala Blasters FC vs FC Goa",
+                  "streams": [
+                    {
+                      "id": "st-f4973177a9",
+                      "name": "KT",
+                      "stream_links": [
+                        {
+                          "id": "lnk-69b7eea853",
+                          "name": "A Tai",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pull.globalcdnnetworksc2031.info/str01/blv-gio-tai-fb/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://bonmuatv.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Indian Super League",
+            "team_a": "Kerala Blasters FC",
+            "team_b": "FC Goa",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/en/thumb/e/e7/Kerala_Blasters_FC_logo.svg/960px-Kerala_Blasters_FC_logo.svg.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/en/thumb/2/22/FC_Goa_logo.svg/1280px-FC_Goa_logo.svg.png",
+            "time": "21:00 18/05",
+            "blv": "A Tai",
+            "is_live": true,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bonmua-stream/refs/heads/main/thumbs/bonmua-f4973177a9_9a2b51cf_20260518.png?v=9a2b51cf",
             "width": 1600,
             "height": 1200
           }
@@ -2345,82 +2562,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/bonmua-stream/refs/heads/main/thumbs/bonmua-3d69526300_5c39ca56_20260518.png?v=5c39ca56",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "qc-7fb45ac55f",
-          "name": "El Mokawloon vs Wadi Degla | 00:00 19/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-7fb45ac55f",
-              "name": "QuechoaTV",
-              "contents": [
-                {
-                  "id": "ct-7fb45ac55f",
-                  "name": "El Mokawloon vs Wadi Degla",
-                  "streams": [
-                    {
-                      "id": "st-7fb45ac55f",
-                      "name": "QC",
-                      "stream_links": [
-                        {
-                          "id": "lnk-75feca2dee",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ahghndtkyqmm-pull.bpmedialive.com/quechoa/blv_vanminh.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://quechoa10.live/"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://quechoa10.live"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Premier League",
-            "team_a": "El Mokawloon",
-            "team_b": "Wadi Degla",
-            "logo_a": "https://media.api-sports.io/football/teams/1575.png",
-            "logo_b": "https://media.api-sports.io/football/teams/1046.png",
-            "time": "00:00",
-            "date": "19/05",
-            "blv": "VĂN MINH",
-            "is_live": false,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/quechoa-stream/refs/heads/main/thumbs/qc-7fb45ac55f_8d0a6b1c_20260518.png?v=8d0a6b1c",
             "width": 1600,
             "height": 1200
           }
@@ -4088,6 +4229,112 @@
       "enable_detail": false,
       "channels": [
         {
+          "id": "bonmua-17af5dc7a7",
+          "name": "RAW vs RAW | 07:00 19/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-17af5dc7a7",
+              "name": "BonMuaTV",
+              "contents": [
+                {
+                  "id": "ct-17af5dc7a7",
+                  "name": "RAW vs RAW",
+                  "streams": [
+                    {
+                      "id": "st-17af5dc7a7",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "WWE",
+            "team_a": "RAW",
+            "team_b": "RAW",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/8/86/WWE_RAW_Logo_2025.svg",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/8/86/WWE_RAW_Logo_2025.svg",
+            "time": "07:00 19/05",
+            "blv": "Pháo",
+            "is_live": false,
+            "cate_name": "Võ thuật"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bonmua-stream/refs/heads/main/thumbs/bonmua-17af5dc7a7_27b808fe_20260518.png?v=27b808fe",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "bonmua-e3ed084c1b",
+          "name": "NXT vs NXT | 07:00 20/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-e3ed084c1b",
+              "name": "BonMuaTV",
+              "contents": [
+                {
+                  "id": "ct-e3ed084c1b",
+                  "name": "NXT vs NXT",
+                  "streams": [
+                    {
+                      "id": "st-e3ed084c1b",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "WWE",
+            "team_a": "NXT",
+            "team_b": "NXT",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/WWE_NXT_2024_Logo.svg/330px-WWE_NXT_2024_Logo.svg.png?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/WWE_NXT_2024_Logo.svg/330px-WWE_NXT_2024_Logo.svg.png?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail",
+            "time": "07:00 20/05",
+            "blv": "Pháo",
+            "is_live": false,
+            "cate_name": "Võ thuật"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bonmua-stream/refs/heads/main/thumbs/bonmua-e3ed084c1b_789d4b68_20260518.png?v=789d4b68",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "gv-1f97e3bc9b",
           "name": "Huỳnh Văn Tuấn vs Chokpreecha | 18:30 22/05",
           "type": "single",
@@ -4154,6 +4401,165 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-1f97e3bc9b_532bc410_20260518.png?v=532bc410",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "bonmua-db77c9114a",
+          "name": "SmackDown vs SmackDown | 07:00 23/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-db77c9114a",
+              "name": "BonMuaTV",
+              "contents": [
+                {
+                  "id": "ct-db77c9114a",
+                  "name": "SmackDown vs SmackDown",
+                  "streams": [
+                    {
+                      "id": "st-db77c9114a",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "WWE",
+            "team_a": "SmackDown",
+            "team_b": "SmackDown",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/c/c9/WWE_SmackDown_%282024%29_Logo.svg",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/c/c9/WWE_SmackDown_%282024%29_Logo.svg",
+            "time": "07:00 23/05",
+            "blv": "Pháo",
+            "is_live": false,
+            "cate_name": "Võ thuật"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bonmua-stream/refs/heads/main/thumbs/bonmua-db77c9114a_69291a18_20260518.png?v=69291a18",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "bonmua-ac981bef74",
+          "name": "NXT vs NXT | 07:00 27/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-ac981bef74",
+              "name": "BonMuaTV",
+              "contents": [
+                {
+                  "id": "ct-ac981bef74",
+                  "name": "NXT vs NXT",
+                  "streams": [
+                    {
+                      "id": "st-ac981bef74",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "WWE",
+            "team_a": "NXT",
+            "team_b": "NXT",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/WWE_NXT_2024_Logo.svg/3840px-WWE_NXT_2024_Logo.svg.png?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/WWE_NXT_2024_Logo.svg/3840px-WWE_NXT_2024_Logo.svg.png?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail",
+            "time": "07:00 27/05",
+            "blv": "Pháo",
+            "is_live": false,
+            "cate_name": "Võ thuật"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bonmua-stream/refs/heads/main/thumbs/bonmua-ac981bef74_c3157e24_20260518.png?v=c3157e24",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "bonmua-b1459e0911",
+          "name": "SmackDown vs SmackDown | 07:00 30/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-b1459e0911",
+              "name": "BonMuaTV",
+              "contents": [
+                {
+                  "id": "ct-b1459e0911",
+                  "name": "SmackDown vs SmackDown",
+                  "streams": [
+                    {
+                      "id": "st-b1459e0911",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "WWE",
+            "team_a": "SmackDown",
+            "team_b": "SmackDown",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/c/c9/WWE_SmackDown_%282024%29_Logo.svg",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/c/c9/WWE_SmackDown_%282024%29_Logo.svg",
+            "time": "07:00 30/05",
+            "blv": "Pháo",
+            "is_live": false,
+            "cate_name": "Võ thuật"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bonmua-stream/refs/heads/main/thumbs/bonmua-b1459e0911_69291a18_20260518.png?v=69291a18",
             "width": 1600,
             "height": 1200
           }
