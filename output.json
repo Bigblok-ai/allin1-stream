@@ -685,7 +685,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (5 LIVE)",
+      "name": "⚽ Bóng Đá (6 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1018,6 +1018,82 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/xaycon-stream/refs/heads/main/thumbs/xc-f39abbde2d_ab1f2246_20260518.png?v=ab1f2246",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-1d3a3033e6",
+          "name": "Lahti vs VPS | 22:00 18/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-1d3a3033e6",
+              "name": "XayConTV",
+              "contents": [
+                {
+                  "id": "ct-1d3a3033e6",
+                  "name": "Lahti vs VPS",
+                  "streams": [
+                    {
+                      "id": "st-1d3a3033e6",
+                      "name": "XC",
+                      "stream_links": [
+                        {
+                          "id": "lnk-30319ba8f3",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://xclive.yarncdn.live/live/xctv_blv_bipcon/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.xaycon3.live/"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://sv2.xaycon3.live"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Veikkausliiga",
+            "team_a": "Lahti",
+            "team_b": "VPS",
+            "logo_a": "https://media.api-sports.io/football/teams/1166.png",
+            "logo_b": "https://media.api-sports.io/football/teams/650.png",
+            "time": "22:00",
+            "date": "18/05",
+            "blv": "BLV Bịp Con",
+            "is_live": true,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/xaycon-stream/refs/heads/main/thumbs/xc-1d3a3033e6_7dfc24b8_20260518.png?v=7dfc24b8",
             "width": 1600,
             "height": 1200
           }
@@ -3094,82 +3170,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/quechoa-stream/refs/heads/main/thumbs/qc-d746dce9b4_341962b4_20260518.png?v=341962b4",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "xc-1d3a3033e6",
-          "name": "Lahti vs VPS | 22:00 18/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-1d3a3033e6",
-              "name": "XayConTV",
-              "contents": [
-                {
-                  "id": "ct-1d3a3033e6",
-                  "name": "Lahti vs VPS",
-                  "streams": [
-                    {
-                      "id": "st-1d3a3033e6",
-                      "name": "XC",
-                      "stream_links": [
-                        {
-                          "id": "lnk-30319ba8f3",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://xclive.yarncdn.live/live/xctv_blv_bipcon/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.xaycon3.live/"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://sv2.xaycon3.live"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Veikkausliiga",
-            "team_a": "Lahti",
-            "team_b": "VPS",
-            "logo_a": "https://media.api-sports.io/football/teams/1166.png",
-            "logo_b": "https://media.api-sports.io/football/teams/650.png",
-            "time": "22:00",
-            "date": "18/05",
-            "blv": "BLV Bịp Con",
-            "is_live": false,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/xaycon-stream/refs/heads/main/thumbs/xc-1d3a3033e6_7dfc24b8_20260518.png?v=7dfc24b8",
             "width": 1600,
             "height": 1200
           }
