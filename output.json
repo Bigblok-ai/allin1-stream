@@ -1936,7 +1936,7 @@
             "logo_a": "https://images.keovip88.net/images/teams/chelsea.png",
             "logo_b": "https://images.keovip88.net/images/teams/tottenham-hotspur.png",
             "time": "02:15 20/05",
-            "blv": "BLV Mason, BLV Dần",
+            "blv": "BLV Mason",
             "is_live": false,
             "cate_type": "football"
           },
@@ -3343,7 +3343,7 @@
     },
     {
       "id": "grp-tennis",
-      "name": "🎾 Tennis",
+      "name": "🎾 Tennis (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -3356,10 +3356,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -3374,7 +3374,25 @@
                     {
                       "id": "st-1cb32d262b",
                       "name": "HQ",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-27b23108c0",
+                          "name": "BLV PHAN TỪ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://yvm80526.edgemaxcdn.org/live/hqtv_blv_phantu/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -3389,7 +3407,7 @@
             "logo_b": "https://www.thesecondserve.com/wp-content/uploads/2025/08/ben-shelton-toronto-cincinnati-open2-1.jpg",
             "time": "23:00 19/05",
             "blv": "BLV PHAN TỪ",
-            "is_live": false,
+            "is_live": true,
             "sport_slug": "tennis"
           },
           "image": {
