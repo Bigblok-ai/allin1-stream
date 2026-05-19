@@ -854,6 +854,41 @@
                   ]
                 }
               ]
+            },
+            {
+              "id": "src-22f2729737",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-22f2729737",
+                  "name": "TKS Việt Nam W - Hồ Chí Minh W",
+                  "streams": [
+                    {
+                      "id": "st-22f2729737",
+                      "name": "Bugio - BLV Tiểu Hạc",
+                      "stream_links": [
+                        {
+                          "id": "lnk-02ff9c6e74",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_tieuhac/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
             }
           ],
           "org_metadata": {
@@ -3921,82 +3956,11 @@
     },
     {
       "id": "grp-võ-thuật",
-      "name": "🥊 Võ Thuật (1 LIVE)",
+      "name": "🥊 Võ Thuật",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "bonmua-17af5dc7a7",
-          "name": "RAW vs RAW | 07:00 19/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-17af5dc7a7",
-              "name": "BonMuaTV",
-              "contents": [
-                {
-                  "id": "ct-17af5dc7a7",
-                  "name": "RAW vs RAW",
-                  "streams": [
-                    {
-                      "id": "st-17af5dc7a7",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-3575da2709",
-                          "name": "Pháo",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://pull.globalcdnnetworksc2031.info/str01/blv-phao-fb/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://bonmuatv.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "WWE",
-            "team_a": "RAW",
-            "team_b": "RAW",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/8/86/WWE_RAW_Logo_2025.svg",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/8/86/WWE_RAW_Logo_2025.svg",
-            "time": "07:00 19/05",
-            "blv": "Pháo",
-            "is_live": true,
-            "cate_name": "Võ thuật"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/bonmua-stream/refs/heads/main/thumbs/bonmua-17af5dc7a7_27b808fe_20260519.png?v=27b808fe",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "bonmua-e3ed084c1b",
           "name": "NXT vs NXT | 07:00 20/05",
