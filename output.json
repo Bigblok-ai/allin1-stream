@@ -685,7 +685,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (8 LIVE)",
+      "name": "⚽ Bóng Đá (9 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -833,8 +833,8 @@
           }
         },
         {
-          "id": "hqlive-3b4335e3bc",
-          "name": "Sichuan Jiuniu vs Dalian Zhixing | 18:35 19/05",
+          "id": "hqlive-35915342cf",
+          "name": "Tianjin Teda vs Henan Jianye | 18:35 19/05",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -848,23 +848,23 @@
           ],
           "sources": [
             {
-              "id": "src-3b4335e3bc",
+              "id": "src-35915342cf",
               "name": "HoiQuanTV",
               "contents": [
                 {
-                  "id": "ct-3b4335e3bc",
-                  "name": "Sichuan Jiuniu vs Dalian Zhixing",
+                  "id": "ct-35915342cf",
+                  "name": "Tianjin Teda vs Henan Jianye",
                   "streams": [
                     {
-                      "id": "st-3b4335e3bc",
+                      "id": "st-35915342cf",
                       "name": "HQ",
                       "stream_links": [
                         {
-                          "id": "lnk-f6231c6549",
-                          "name": "BLV PHAN CA",
+                          "id": "lnk-a1498791d5",
+                          "name": "BLV CỦ HÀNH",
                           "type": "hls",
                           "default": true,
-                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanca/playlist.m3u8",
+                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phando/playlist.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -883,6 +883,81 @@
               ]
             },
             {
+              "id": "src-1b05947536",
+              "name": "QuechoaTV",
+              "contents": [
+                {
+                  "id": "ct-1b05947536",
+                  "name": "Tianjin Teda vs Henan Jianye",
+                  "streams": [
+                    {
+                      "id": "st-1b05947536",
+                      "name": "Quechoa - HẠT MÍT",
+                      "stream_links": [
+                        {
+                          "id": "lnk-2a9bebe48a",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ahghndtkyqmm-pull.bpmedialive.com/quechoa/blv_quechoa_1.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://quechoa10.live/"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://quechoa10.live"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Super League",
+            "team_a": "Tianjin Teda",
+            "team_b": "Henan Jianye",
+            "logo_a": "https://media.api-sports.io/football/teams/837.png",
+            "logo_b": "https://media.api-sports.io/football/teams/840.png",
+            "time": "18:35 19/05",
+            "blv": "BLV CỦ HÀNH",
+            "is_live": true,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Tianjin Teda_Henan Jianye_18-35 19-05_39ed5037_20260519.png?v=39ed5037",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "qc-e485e76113",
+          "name": "Sichuan Jiuniu vs Dalian Zhixing | 18:35 19/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
               "id": "src-e485e76113",
               "name": "QuechoaTV",
               "contents": [
@@ -892,7 +967,7 @@
                   "streams": [
                     {
                       "id": "st-e485e76113",
-                      "name": "Quechoa - VỎ QUÝT",
+                      "name": "QC",
                       "stream_links": [
                         {
                           "id": "lnk-67419b1cbc",
@@ -1002,8 +1077,9 @@
             "team_b": "Dalian Zhixing",
             "logo_a": "https://media.api-sports.io/football/teams/5686.png",
             "logo_b": "https://media.api-sports.io/football/teams/21263.png",
-            "time": "18:35 19/05",
-            "blv": "BLV PHAN CA",
+            "time": "18:35",
+            "date": "19/05",
+            "blv": "VỎ QUÝT",
             "is_live": true,
             "sport_slug": "bong-da"
           },
@@ -1011,14 +1087,14 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Sichuan Jiuniu_Dalian Zhixing_18-35 19-05_93ca7c9e_20260519.png?v=93ca7c9e",
+            "url": "https://raw.githubusercontent.com/jasminliu98/quechoa-stream/refs/heads/main/thumbs/qc-e485e76113_3a143ef4_20260519.png?v=3a143ef4",
             "width": 1600,
             "height": 1200
           }
         },
         {
-          "id": "hqlive-35915342cf",
-          "name": "Tianjin Teda vs Henan Jianye | 18:35 19/05",
+          "id": "qc-e0be422c62",
+          "name": "Phong Phú Hà Nam Nữ vs Thái Nguyên Nữ | 19:00 19/05",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1032,58 +1108,23 @@
           ],
           "sources": [
             {
-              "id": "src-35915342cf",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-35915342cf",
-                  "name": "Tianjin Teda vs Henan Jianye",
-                  "streams": [
-                    {
-                      "id": "st-35915342cf",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-a1498791d5",
-                          "name": "BLV CỦ HÀNH",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phando/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "src-1b05947536",
+              "id": "src-e0be422c62",
               "name": "QuechoaTV",
               "contents": [
                 {
-                  "id": "ct-1b05947536",
-                  "name": "Tianjin Teda vs Henan Jianye",
+                  "id": "ct-e0be422c62",
+                  "name": "Phong Phú Hà Nam Nữ vs Thái Nguyên Nữ",
                   "streams": [
                     {
-                      "id": "st-1b05947536",
-                      "name": "Quechoa - HẠT MÍT",
+                      "id": "st-e0be422c62",
+                      "name": "QC",
                       "stream_links": [
                         {
-                          "id": "lnk-2a9bebe48a",
+                          "id": "lnk-75feca2dee",
                           "name": "Link FHD",
                           "type": "hls",
                           "default": true,
-                          "url": "https://ahghndtkyqmm-pull.bpmedialive.com/quechoa/blv_quechoa_1.m3u8",
+                          "url": "https://ahghndtkyqmm-pull.bpmedialive.com/quechoa/blv_vanminh.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -1107,13 +1148,14 @@
             }
           ],
           "org_metadata": {
-            "league": "Super League",
-            "team_a": "Tianjin Teda",
-            "team_b": "Henan Jianye",
-            "logo_a": "https://media.api-sports.io/football/teams/837.png",
-            "logo_b": "https://media.api-sports.io/football/teams/840.png",
-            "time": "18:35 19/05",
-            "blv": "BLV CỦ HÀNH",
+            "league": "Cúp Quốc Gia Nữ",
+            "team_a": "Phong Phú Hà Nam Nữ",
+            "team_b": "Thái Nguyên Nữ",
+            "logo_a": "https://storage.quechoa2.live/logos/teams/1779070720193-phong-ph-h-nam-n-.png",
+            "logo_b": "https://storage.quechoa2.live/logos/teams/1779070734753-th-i-nguy-n-n-.png",
+            "time": "19:00",
+            "date": "19/05",
+            "blv": "VĂN MINH",
             "is_live": true,
             "sport_slug": "bong-da"
           },
@@ -1121,7 +1163,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Tianjin Teda_Henan Jianye_18-35 19-05_39ed5037_20260519.png?v=39ed5037",
+            "url": "https://raw.githubusercontent.com/jasminliu98/quechoa-stream/refs/heads/main/thumbs/qc-e0be422c62_c974ca0f_20260519.png?v=c974ca0f",
             "width": 1600,
             "height": 1200
           }
@@ -3079,82 +3121,6 @@
           }
         },
         {
-          "id": "qc-e0be422c62",
-          "name": "Phong Phú Hà Nam Nữ vs Thái Nguyên Nữ | 19:00 19/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-e0be422c62",
-              "name": "QuechoaTV",
-              "contents": [
-                {
-                  "id": "ct-e0be422c62",
-                  "name": "Phong Phú Hà Nam Nữ vs Thái Nguyên Nữ",
-                  "streams": [
-                    {
-                      "id": "st-e0be422c62",
-                      "name": "QC",
-                      "stream_links": [
-                        {
-                          "id": "lnk-75feca2dee",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ahghndtkyqmm-pull.bpmedialive.com/quechoa/blv_vanminh.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://quechoa10.live/"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://quechoa10.live"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Cúp Quốc Gia Nữ",
-            "team_a": "Phong Phú Hà Nam Nữ",
-            "team_b": "Thái Nguyên Nữ",
-            "logo_a": "https://storage.quechoa2.live/logos/teams/1779070720193-phong-ph-h-nam-n-.png",
-            "logo_b": "https://storage.quechoa2.live/logos/teams/1779070734753-th-i-nguy-n-n-.png",
-            "time": "19:00",
-            "date": "19/05",
-            "blv": "VĂN MINH",
-            "is_live": false,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/quechoa-stream/refs/heads/main/thumbs/qc-e0be422c62_c974ca0f_20260519.png?v=c974ca0f",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "qc-7026feaad4",
           "name": "Chongqing Tongliang Long vs Yunnan Yukun | 19:00 20/05",
           "type": "single",
@@ -3785,7 +3751,7 @@
     },
     {
       "id": "grp-bóng-rổ",
-      "name": "🏀 Bóng Rổ (1 LIVE)",
+      "name": "🏀 Bóng Rổ (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -3869,10 +3835,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -3920,7 +3886,7 @@
             "logo_b": "https://static.flashscore.com/res/image/data/tG0jm0Zg-0Wgovdc6.png",
             "time": "19:00 19/05",
             "blv": "BLV Tôm",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "basketball"
           },
           "image": {
