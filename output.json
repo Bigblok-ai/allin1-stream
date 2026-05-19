@@ -685,82 +685,11 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (1 LIVE)",
+      "name": "⚽ Bóng Đá (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "bg-810bf83c7a",
-          "name": "Shorta vs Damascus Al-Ahli | 20:00 19/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-810bf83c7a",
-              "name": "BugioTV",
-              "contents": [
-                {
-                  "id": "ct-810bf83c7a",
-                  "name": "Shorta vs Damascus Al-Ahli",
-                  "streams": [
-                    {
-                      "id": "st-810bf83c7a",
-                      "name": "BG",
-                      "stream_links": [
-                        {
-                          "id": "lnk-448842e236",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_lenh/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv1.bugio9.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Premier League",
-            "team_a": "Shorta",
-            "team_b": "Damascus Al-Ahli",
-            "logo_a": "https://media.api-sports.io/football/teams/9123.png",
-            "logo_b": "https://media.api-sports.io/football/teams/27269.png",
-            "start_time": "2026-05-19T20:00:00",
-            "blv": "BLV Lềnh",
-            "is_live": false,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-810bf83c7a_c9ab165b_20260519.png?v=c9ab165b",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-ef768aab40",
           "name": "TKS Việt Nam  vs Hồ Chí Minh | 16:00 19/05",
@@ -769,10 +698,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -894,7 +823,7 @@
             "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4Zc5nFKuAkyBdz6yvojD_OiH2xrvTmsYsUQ&s",
             "time": "16:00 19/05",
             "blv": "BLV Hợi",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football"
           },
           "image": {
@@ -902,6 +831,77 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-ef768aab40_5d650024_20260519.png?v=5d650024",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "bg-810bf83c7a",
+          "name": "Shorta vs Damascus Al-Ahli | 20:00 19/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-810bf83c7a",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-810bf83c7a",
+                  "name": "Shorta vs Damascus Al-Ahli",
+                  "streams": [
+                    {
+                      "id": "st-810bf83c7a",
+                      "name": "BG",
+                      "stream_links": [
+                        {
+                          "id": "lnk-448842e236",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_lenh/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Premier League",
+            "team_a": "Shorta",
+            "team_b": "Damascus Al-Ahli",
+            "logo_a": "https://media.api-sports.io/football/teams/9123.png",
+            "logo_b": "https://media.api-sports.io/football/teams/27269.png",
+            "start_time": "2026-05-19T20:00:00",
+            "blv": "BLV Lềnh",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-810bf83c7a_c9ab165b_20260519.png?v=c9ab165b",
             "width": 1600,
             "height": 1200
           }
@@ -3483,6 +3483,77 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-3b5093b163_a6856921_20260519.png?v=a6856921",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-aec57b136c",
+          "name": "Knicks vs Cavaliers | 07:00 20/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-aec57b136c",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-aec57b136c",
+                  "name": "Knicks vs Cavaliers",
+                  "streams": [
+                    {
+                      "id": "st-aec57b136c",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-969073a148",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1779179159_hd/1779179159_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "NBA",
+            "team_a": "Knicks",
+            "team_b": "Cavaliers",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/en/thumb/2/25/New_York_Knicks_logo.svg/1280px-New_York_Knicks_logo.svg.png?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=thumbnail",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/fr/thumb/0/06/Cavs_de_Cleveland_logo_2017.png/500px-Cavs_de_Cleveland_logo_2017.png",
+            "time": "07:00 20/05",
+            "blv": "blv-can, blv-lac",
+            "is_live": false,
+            "cate_type": "basketball"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-aec57b136c_9eed5ab7_20260519.png?v=9eed5ab7",
             "width": 1600,
             "height": 1200
           }
