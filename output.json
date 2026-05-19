@@ -685,87 +685,11 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "xc-5e630b46f3",
-          "name": "CD Motagua vs Génesis | 07:00 19/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-5e630b46f3",
-              "name": "XayConTV",
-              "contents": [
-                {
-                  "id": "ct-5e630b46f3",
-                  "name": "CD Motagua vs Génesis",
-                  "streams": [
-                    {
-                      "id": "st-5e630b46f3",
-                      "name": "XC",
-                      "stream_links": [
-                        {
-                          "id": "lnk-22f0d2332d",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://xclive.yarncdn.live/live/xctv_blv_vantich/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.xaycon3.live/"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://sv2.xaycon3.live"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Liga Nacional",
-            "team_a": "CD Motagua",
-            "team_b": "Génesis",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/en/c/c5/F.C._Motagua.png",
-            "logo_b": "https://media.api-sports.io/football/teams/21858.png",
-            "time": "07:00",
-            "date": "19/05",
-            "blv": "BLV Văn Tích",
-            "is_live": true,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/xaycon-stream/refs/heads/main/thumbs/xc-5e630b46f3_b9e1be88_20260519.png?v=b9e1be88",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "xc-89af964e20",
           "name": "Real Espana vs CD Marathon | 09:15 19/05",
@@ -1495,6 +1419,77 @@
           }
         },
         {
+          "id": "gv-3f5e9a3256",
+          "name": "Phong Phú Hà Nam  vs TNG Thái Nguyên | 19:00 19/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-3f5e9a3256",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-3f5e9a3256",
+                  "name": "Phong Phú Hà Nam  vs TNG Thái Nguyên",
+                  "streams": [
+                    {
+                      "id": "st-3f5e9a3256",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-fd272a3b8a",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1779157150_hd/1779157150_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Vietnam Women's National Cup",
+            "team_a": "Phong Phú Hà Nam ",
+            "team_b": "TNG Thái Nguyên",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/vi/5/53/Logo_C%C3%B4ng_ty_c%E1%BB%95_ph%E1%BA%A7n_Phong_Ph%C3%BA.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/vi/d/d3/Logo_Th%C3%A1i_Nguy%C3%AAn_T%26T.png",
+            "time": "19:00 19/05",
+            "blv": "blv-sun",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-3f5e9a3256_41373ba3_20260519.png?v=41373ba3",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "gv-319a3eb6c3",
           "name": "Qingdao West Coast vs Beijing Guoan | 19:00 19/05",
           "type": "single",
@@ -1789,6 +1784,155 @@
           }
         },
         {
+          "id": "gv-af4f885efb",
+          "name": "Nhật Bản U17  vs Uzbekistan U17 | 22:00 19/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-af4f885efb",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-af4f885efb",
+                  "name": "Nhật Bản U17  vs Uzbekistan U17",
+                  "streams": [
+                    {
+                      "id": "st-af4f885efb",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-9af531a4d7",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1779157259_hd/1779157259_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-1306d303c0",
+              "name": "QuechoaTV",
+              "contents": [
+                {
+                  "id": "ct-1306d303c0",
+                  "name": "Japan U17 vs Uzbekistan U17",
+                  "streams": [
+                    {
+                      "id": "st-1306d303c0",
+                      "name": "Quechoa - DƯA HẤU",
+                      "stream_links": [
+                        {
+                          "id": "lnk-0e88644c2d",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ahghndtkyqmm-pull.bpmedialive.com/quechoa/blv_duahau.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://quechoa10.live/"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://quechoa10.live"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-5aa7bfdc77",
+              "name": "XayConTV",
+              "contents": [
+                {
+                  "id": "ct-5aa7bfdc77",
+                  "name": "Japan U17 vs Uzbekistan U17",
+                  "streams": [
+                    {
+                      "id": "st-5aa7bfdc77",
+                      "name": "Xaycon - BLV Bịp Con",
+                      "stream_links": [
+                        {
+                          "id": "lnk-30319ba8f3",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://xclive.yarncdn.live/live/xctv_blv_bipcon/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.xaycon3.live/"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://sv2.xaycon3.live"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "AFC Asian Cup U17, Bán kết 1",
+            "team_a": "Nhật Bản U17 ",
+            "team_b": "Uzbekistan U17",
+            "logo_a": "https://images.keovip.cc/images/teams/japan-u20.png",
+            "logo_b": "https://vcdn1-dulich.vnecdn.net/2018/01/25/Uzbekistan-9909-1516848403.png?w=680&h=0&q=100&dpr=2&fit=crop&s=tdzF4zH_kBQ4H9NlhvHzUA",
+            "time": "22:00 19/05",
+            "blv": "BLV Câm",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-af4f885efb_a3cd27f0_20260519.png?v=a3cd27f0",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "hqlive-f38cde0a89",
           "name": "FC Noah vs Ararat | 22:00 19/05",
           "type": "single",
@@ -1915,137 +2059,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/FC Noah_Ararat_22-00 19-05_767d7aba_20260519.png?v=767d7aba",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "hqlive-4a6c043433",
-          "name": "Japan U17 vs Uzbekistan U17 | 22:00 19/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-4a6c043433",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-4a6c043433",
-                  "name": "Japan U17 vs Uzbekistan U17",
-                  "streams": [
-                    {
-                      "id": "st-4a6c043433",
-                      "name": "HQ",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "src-1306d303c0",
-              "name": "QuechoaTV",
-              "contents": [
-                {
-                  "id": "ct-1306d303c0",
-                  "name": "Japan U17 vs Uzbekistan U17",
-                  "streams": [
-                    {
-                      "id": "st-1306d303c0",
-                      "name": "Quechoa - DƯA HẤU",
-                      "stream_links": [
-                        {
-                          "id": "lnk-0e88644c2d",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ahghndtkyqmm-pull.bpmedialive.com/quechoa/blv_duahau.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://quechoa10.live/"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://quechoa10.live"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "src-5aa7bfdc77",
-              "name": "XayConTV",
-              "contents": [
-                {
-                  "id": "ct-5aa7bfdc77",
-                  "name": "Japan U17 vs Uzbekistan U17",
-                  "streams": [
-                    {
-                      "id": "st-5aa7bfdc77",
-                      "name": "Xaycon - BLV Bịp Con",
-                      "stream_links": [
-                        {
-                          "id": "lnk-30319ba8f3",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://xclive.yarncdn.live/live/xctv_blv_bipcon/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.xaycon3.live/"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://sv2.xaycon3.live"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "AFC U17 Asian Cup",
-            "team_a": "Japan U17",
-            "team_b": "Uzbekistan U17",
-            "logo_a": "https://media.api-sports.io/football/teams/12511.png",
-            "logo_b": "https://media.api-sports.io/football/teams/21446.png",
-            "time": "22:00 19/05",
-            "blv": "BLV PHAN CHỚP",
-            "is_live": false,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Japan U17_Uzbekistan U17_22-00 19-05_f9a002f4_20260519.png?v=f9a002f4",
             "width": 1600,
             "height": 1200
           }
@@ -3566,6 +3579,77 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Oklahoma City Thunder_San Antonio Spurs_07-30 19-05_280346f3_20260519.png?v=280346f3",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-af8331377b",
+          "name": "Zamboanga Sikat vs  Cebu Greats | 15:00 19/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-af8331377b",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-af8331377b",
+                  "name": "Zamboanga Sikat vs  Cebu Greats",
+                  "streams": [
+                    {
+                      "id": "st-af8331377b",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-2f8f976ce7",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1779157338_hd/1779157338_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "MLBB",
+            "team_a": "Zamboanga Sikat",
+            "team_b": " Cebu Greats",
+            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpQQrVMZajD-4W-8y17S-0HFhhIX5QCFAiWw&s",
+            "logo_b": "https://static.flashscore.com/res/image/data/SfwveOwS-tY1ZdoxK.png",
+            "time": "15:00 19/05",
+            "blv": "BLV Cầy",
+            "is_live": false,
+            "cate_type": "basketball"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-af8331377b_d0916426_20260519.png?v=d0916426",
             "width": 1600,
             "height": 1200
           }
