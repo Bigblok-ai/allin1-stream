@@ -685,7 +685,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (3 LIVE)",
+      "name": "⚽ Bóng Đá (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -906,6 +906,121 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-6301ab3ae0_e036a096_20260520.png?v=e036a096",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "qc-82a4e52298",
+          "name": "Shenyang Urban vs Qingdao Jonoon | 18:00 20/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-82a4e52298",
+              "name": "QuechoaTV",
+              "contents": [
+                {
+                  "id": "ct-82a4e52298",
+                  "name": "Shenyang Urban vs Qingdao Jonoon",
+                  "streams": [
+                    {
+                      "id": "st-82a4e52298",
+                      "name": "QC",
+                      "stream_links": [
+                        {
+                          "id": "lnk-67419b1cbc",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ahghndtkyqmm-pull.bpmedialive.com/quechoa/blv_khoaitay.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://quechoa10.live/"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://quechoa10.live"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-2035794285",
+              "name": "XayConTV",
+              "contents": [
+                {
+                  "id": "ct-2035794285",
+                  "name": "Shenyang Urban vs Qingdao Jonoon",
+                  "streams": [
+                    {
+                      "id": "st-2035794285",
+                      "name": "Xaycon - BLV A Cỏ",
+                      "stream_links": [
+                        {
+                          "id": "lnk-19bab7f4de",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://xclive.yarncdn.live/live/xctv_blv_aco/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.xaycon3.live/"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://sv2.xaycon3.live"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Super League",
+            "team_a": "Shenyang Urban",
+            "team_b": "Qingdao Jonoon",
+            "logo_a": "https://media.api-sports.io/football/teams/5684.png",
+            "logo_b": "https://media.api-sports.io/football/teams/1431.png",
+            "time": "18:00",
+            "date": "20/05",
+            "blv": "VỎ QUÝT",
+            "is_live": true,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/quechoa-stream/refs/heads/main/thumbs/qc-82a4e52298_f17408e5_20260520.png?v=f17408e5",
             "width": 1600,
             "height": 1200
           }
@@ -2917,121 +3032,6 @@
           }
         },
         {
-          "id": "qc-82a4e52298",
-          "name": "Shenyang Urban vs Qingdao Jonoon | 18:00 20/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-82a4e52298",
-              "name": "QuechoaTV",
-              "contents": [
-                {
-                  "id": "ct-82a4e52298",
-                  "name": "Shenyang Urban vs Qingdao Jonoon",
-                  "streams": [
-                    {
-                      "id": "st-82a4e52298",
-                      "name": "QC",
-                      "stream_links": [
-                        {
-                          "id": "lnk-67419b1cbc",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ahghndtkyqmm-pull.bpmedialive.com/quechoa/blv_khoaitay.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://quechoa10.live/"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://quechoa10.live"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "src-2035794285",
-              "name": "XayConTV",
-              "contents": [
-                {
-                  "id": "ct-2035794285",
-                  "name": "Shenyang Urban vs Qingdao Jonoon",
-                  "streams": [
-                    {
-                      "id": "st-2035794285",
-                      "name": "Xaycon - BLV A Cỏ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-19bab7f4de",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://xclive.yarncdn.live/live/xctv_blv_aco/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.xaycon3.live/"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://sv2.xaycon3.live"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Super League",
-            "team_a": "Shenyang Urban",
-            "team_b": "Qingdao Jonoon",
-            "logo_a": "https://media.api-sports.io/football/teams/5684.png",
-            "logo_b": "https://media.api-sports.io/football/teams/1431.png",
-            "time": "18:00",
-            "date": "20/05",
-            "blv": "VỎ QUÝT",
-            "is_live": false,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/quechoa-stream/refs/heads/main/thumbs/qc-82a4e52298_f17408e5_20260520.png?v=f17408e5",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "qc-663cb81b1a",
           "name": "Minerva Punjab vs Mumbai City | 18:30 21/05",
           "type": "single",
@@ -3678,82 +3678,11 @@
     },
     {
       "id": "grp-tennis",
-      "name": "🎾 Tennis (2 LIVE)",
+      "name": "🎾 Tennis (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "hqlive-5857c27e1a",
-          "name": "Stefanos Tsitsipas vs Learner Tien | 15:00 20/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-5857c27e1a",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-5857c27e1a",
-                  "name": "Stefanos Tsitsipas vs Learner Tien",
-                  "streams": [
-                    {
-                      "id": "st-5857c27e1a",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-f6231c6549",
-                          "name": "BLV PHAN CA",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanca/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "ATP250 Geneva",
-            "team_a": "Stefanos Tsitsipas",
-            "team_b": "Learner Tien",
-            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWm8CBcQz1IvkNxRxcrUjG2os8GIeQt4j7Ww&s",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/c/c8/Learner_Tien_%282024_US_Open%29_04.jpg",
-            "time": "15:00 20/05",
-            "blv": "BLV PHAN CA",
-            "is_live": true,
-            "sport_slug": "tennis"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Stefanos Tsitsipas_Learner Tien_15-00 20-05_28e8dad9_20260520.png?v=28e8dad9",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "hqlive-90d68a4b09",
           "name": "Felix Auger-Aliassime vs Aleksandar Kovacevic | 17:00 20/05",
