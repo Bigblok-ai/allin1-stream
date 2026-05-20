@@ -685,7 +685,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (3 LIVE)",
+      "name": "⚽ Bóng Đá (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1087,6 +1087,82 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/xaycon-stream/refs/heads/main/thumbs/xc-1fa849be5d_aa449033_20260520.png?v=aa449033",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-886ea8543a",
+          "name": "Ilves vs Inter Turku | 22:00 20/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-886ea8543a",
+              "name": "XayConTV",
+              "contents": [
+                {
+                  "id": "ct-886ea8543a",
+                  "name": "Ilves vs Inter Turku",
+                  "streams": [
+                    {
+                      "id": "st-886ea8543a",
+                      "name": "XC",
+                      "stream_links": [
+                        {
+                          "id": "lnk-30319ba8f3",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://xclive.yarncdn.live/live/xctv_blv_bipcon/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.xaycon3.live/"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://sv2.xaycon3.live"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Veikkausliiga",
+            "team_a": "Ilves",
+            "team_b": "Inter Turku",
+            "logo_a": "https://media.api-sports.io/football/teams/1163.png",
+            "logo_b": "https://media.api-sports.io/football/teams/1164.png",
+            "time": "22:00",
+            "date": "20/05",
+            "blv": "BLV Bịp Con",
+            "is_live": true,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/xaycon-stream/refs/heads/main/thumbs/xc-886ea8543a_2522142b_20260520.png?v=2522142b",
             "width": 1600,
             "height": 1200
           }
@@ -3855,82 +3931,6 @@
           }
         },
         {
-          "id": "xc-886ea8543a",
-          "name": "Ilves vs Inter Turku | 22:00 20/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-886ea8543a",
-              "name": "XayConTV",
-              "contents": [
-                {
-                  "id": "ct-886ea8543a",
-                  "name": "Ilves vs Inter Turku",
-                  "streams": [
-                    {
-                      "id": "st-886ea8543a",
-                      "name": "XC",
-                      "stream_links": [
-                        {
-                          "id": "lnk-30319ba8f3",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://xclive.yarncdn.live/live/xctv_blv_bipcon/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.xaycon3.live/"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://sv2.xaycon3.live"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Veikkausliiga",
-            "team_a": "Ilves",
-            "team_b": "Inter Turku",
-            "logo_a": "https://media.api-sports.io/football/teams/1163.png",
-            "logo_b": "https://media.api-sports.io/football/teams/1164.png",
-            "time": "22:00",
-            "date": "20/05",
-            "blv": "BLV Bịp Con",
-            "is_live": false,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/xaycon-stream/refs/heads/main/thumbs/xc-886ea8543a_2522142b_20260520.png?v=2522142b",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "xc-241770ff64",
           "name": "Atromitos vs Panserraikos | 22:00 21/05",
           "type": "single",
@@ -5301,41 +5301,6 @@
                             {
                               "key": "Origin",
                               "value": "https://quechoa10.live"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "src-1e8eec0db3",
-              "name": "BugioTV",
-              "contents": [
-                {
-                  "id": "ct-1e8eec0db3",
-                  "name": "Jiangsu vs LP Bank Ninh Bình",
-                  "streams": [
-                    {
-                      "id": "st-1e8eec0db3",
-                      "name": "Bugio - BLV Dế Lửa",
-                      "stream_links": [
-                        {
-                          "id": "lnk-032da4a79f",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_delua/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv1.bugio9.live/"
                             },
                             {
                               "key": "User-Agent",
