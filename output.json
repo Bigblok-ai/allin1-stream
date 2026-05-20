@@ -3678,7 +3678,7 @@
     },
     {
       "id": "grp-tennis",
-      "name": "🎾 Tennis (1 LIVE)",
+      "name": "🎾 Tennis (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -3762,10 +3762,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -3780,7 +3780,25 @@
                     {
                       "id": "st-90d68a4b09",
                       "name": "HQ",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-27b23108c0",
+                          "name": "BLV PHAN TỪ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://yvm80526.edgemaxcdn.org/live/hqtv_blv_phantu/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -3795,7 +3813,7 @@
             "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpCUQKoyiCHUAGZJMKHPXrVVQxNsmCFttZvA&s",
             "time": "17:00 20/05",
             "blv": "BLV PHAN TỪ",
-            "is_live": false,
+            "is_live": true,
             "sport_slug": "tennis"
           },
           "image": {
@@ -5006,7 +5024,7 @@
     },
     {
       "id": "grp-bóng-chuyền",
-      "name": "🏐 Bóng Chuyền (2 LIVE)",
+      "name": "🏐 Bóng Chuyền (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -5078,6 +5096,82 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-b18601c12b_c7440ec5_20260520.png?v=c7440ec5",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "qc-eeff5e97a3",
+          "name": "Nữ Binh Chủng Thông Tin - BĐ19 vs Suwon City W | 17:00 20/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-eeff5e97a3",
+              "name": "QuechoaTV",
+              "contents": [
+                {
+                  "id": "ct-eeff5e97a3",
+                  "name": "Nữ Binh Chủng Thông Tin - BĐ19 vs Suwon City W",
+                  "streams": [
+                    {
+                      "id": "st-eeff5e97a3",
+                      "name": "QC",
+                      "stream_links": [
+                        {
+                          "id": "lnk-2a9bebe48a",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ahghndtkyqmm-pull.bpmedialive.com/quechoa/blv_quechoa_1.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://quechoa10.live/"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://quechoa10.live"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Cúp bóng chuyền nữ quốc tế VTV9 - Bình Điền 2026",
+            "team_a": "Nữ Binh Chủng Thông Tin - BĐ19",
+            "team_b": "Suwon City W",
+            "logo_a": "https://storage.quechoa2.live/logos/teams/1776690512226-505135643-1249728920495964-7032614465491754142-n.jpg",
+            "logo_b": "https://storage.quechoa2.live/logos/teams/1778833121372-igo7k1za-qmtm30d7.png",
+            "time": "17:00",
+            "date": "20/05",
+            "blv": "HẠT MÍT",
+            "is_live": true,
+            "sport_slug": "bong-chuyen"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/quechoa-stream/refs/heads/main/thumbs/qc-eeff5e97a3_1bca232b_20260520.png?v=1bca232b",
             "width": 1600,
             "height": 1200
           }
@@ -5220,82 +5314,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-e59643a563_506b523d_20260520.png?v=506b523d",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "qc-eeff5e97a3",
-          "name": "Nữ Binh Chủng Thông Tin - BĐ19 vs Suwon City W | 17:00 20/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-eeff5e97a3",
-              "name": "QuechoaTV",
-              "contents": [
-                {
-                  "id": "ct-eeff5e97a3",
-                  "name": "Nữ Binh Chủng Thông Tin - BĐ19 vs Suwon City W",
-                  "streams": [
-                    {
-                      "id": "st-eeff5e97a3",
-                      "name": "QC",
-                      "stream_links": [
-                        {
-                          "id": "lnk-2a9bebe48a",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ahghndtkyqmm-pull.bpmedialive.com/quechoa/blv_quechoa_1.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://quechoa10.live/"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://quechoa10.live"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Cúp bóng chuyền nữ quốc tế VTV9 - Bình Điền 2026",
-            "team_a": "Nữ Binh Chủng Thông Tin - BĐ19",
-            "team_b": "Suwon City W",
-            "logo_a": "https://storage.quechoa2.live/logos/teams/1776690512226-505135643-1249728920495964-7032614465491754142-n.jpg",
-            "logo_b": "https://storage.quechoa2.live/logos/teams/1778833121372-igo7k1za-qmtm30d7.png",
-            "time": "17:00",
-            "date": "20/05",
-            "blv": "HẠT MÍT",
-            "is_live": false,
-            "sport_slug": "bong-chuyen"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/quechoa-stream/refs/heads/main/thumbs/qc-eeff5e97a3_1bca232b_20260520.png?v=1bca232b",
             "width": 1600,
             "height": 1200
           }
