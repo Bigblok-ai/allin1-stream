@@ -685,7 +685,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (6 LIVE)",
+      "name": "⚽ Bóng Đá (7 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -792,6 +792,116 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-08b363b250_36ad7ac4_20260520.png?v=36ad7ac4",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-fa60a4be45",
+          "name": "Pyramids FC vs Smouha SC | 00:00 21/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-fa60a4be45",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-fa60a4be45",
+                  "name": "Pyramids FC vs Smouha SC",
+                  "streams": [
+                    {
+                      "id": "st-fa60a4be45",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-f4b3fa081d",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1779225595_hd/1779225595_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-3cae911354",
+              "name": "XayConTV",
+              "contents": [
+                {
+                  "id": "ct-3cae911354",
+                  "name": "Pyramids FC vs Smouha SC",
+                  "streams": [
+                    {
+                      "id": "st-3cae911354",
+                      "name": "Xaycon - BLV Bịp Con",
+                      "stream_links": [
+                        {
+                          "id": "lnk-30319ba8f3",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://xclive.yarncdn.live/live/xctv_blv_bipcon/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.xaycon3.live/"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://sv2.xaycon3.live"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "VĐQG Ai Cập",
+            "team_a": "Pyramids FC",
+            "team_b": "Smouha SC",
+            "logo_a": "https://images.keovip88.net/images/teams/pyramids-fc.png",
+            "logo_b": "https://images.keovip88.net/images/teams/smouha-sc.png",
+            "time": "00:00 21/05",
+            "blv": "blv-mat",
+            "is_live": true,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-fa60a4be45_e4e12e36_20260520.png?v=e4e12e36",
             "width": 1600,
             "height": 1200
           }
@@ -1048,82 +1158,6 @@
           }
         },
         {
-          "id": "xc-1fa849be5d",
-          "name": "Ural vs Dinamo Makhachkala | 21:30 20/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-1fa849be5d",
-              "name": "XayConTV",
-              "contents": [
-                {
-                  "id": "ct-1fa849be5d",
-                  "name": "Ural vs Dinamo Makhachkala",
-                  "streams": [
-                    {
-                      "id": "st-1fa849be5d",
-                      "name": "XC",
-                      "stream_links": [
-                        {
-                          "id": "lnk-19bab7f4de",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://xclive.yarncdn.live/live/xctv_blv_aco/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.xaycon3.live/"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://sv2.xaycon3.live"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Premier League",
-            "team_a": "Ural",
-            "team_b": "Dinamo Makhachkala",
-            "logo_a": "https://media.api-sports.io/football/teams/1084.png",
-            "logo_b": "https://media.api-sports.io/football/teams/6813.png",
-            "time": "21:30",
-            "date": "20/05",
-            "blv": "BLV A Cỏ",
-            "is_live": true,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/xaycon-stream/refs/heads/main/thumbs/xc-1fa849be5d_aa449033_20260520.png?v=aa449033",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "xc-886ea8543a",
           "name": "Ilves vs Inter Turku | 22:00 20/05",
           "type": "single",
@@ -1311,73 +1345,38 @@
           }
         },
         {
-          "id": "gv-fa60a4be45",
-          "name": "Pyramids FC vs Smouha SC | 00:00 21/05",
+          "id": "xc-4889c98b60",
+          "name": "AL Masry vs Al Ahly | 00:00 21/05",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
             {
-              "id": "src-fa60a4be45",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-fa60a4be45",
-                  "name": "Pyramids FC vs Smouha SC",
-                  "streams": [
-                    {
-                      "id": "st-fa60a4be45",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-f4b3fa081d",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1779225595_hd/1779225595_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "src-3cae911354",
+              "id": "src-4889c98b60",
               "name": "XayConTV",
               "contents": [
                 {
-                  "id": "ct-3cae911354",
-                  "name": "Pyramids FC vs Smouha SC",
+                  "id": "ct-4889c98b60",
+                  "name": "AL Masry vs Al Ahly",
                   "streams": [
                     {
-                      "id": "st-3cae911354",
-                      "name": "Xaycon - BLV Bịp Con",
+                      "id": "st-4889c98b60",
+                      "name": "XC",
                       "stream_links": [
                         {
-                          "id": "lnk-30319ba8f3",
+                          "id": "lnk-96278f5a95",
                           "name": "Link FHD",
                           "type": "hls",
                           "default": true,
-                          "url": "https://xclive.yarncdn.live/live/xctv_blv_bipcon/playlist.m3u8",
+                          "url": "https://xclive.yarncdn.live/live/xctv_blv_nguoikien/playlist.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -1401,21 +1400,22 @@
             }
           ],
           "org_metadata": {
-            "league": "VĐQG Ai Cập",
-            "team_a": "Pyramids FC",
-            "team_b": "Smouha SC",
-            "logo_a": "https://images.keovip88.net/images/teams/pyramids-fc.png",
-            "logo_b": "https://images.keovip88.net/images/teams/smouha-sc.png",
-            "time": "00:00 21/05",
-            "blv": "blv-mat",
-            "is_live": false,
-            "cate_type": "football"
+            "league": "Premier League",
+            "team_a": "AL Masry",
+            "team_b": "Al Ahly",
+            "logo_a": "https://static.flashscore.com/res/image/data/rN8awRZA-K8vlWhPS.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/fr/c/c8/Al_Ahly_FC_logo.png",
+            "time": "00:00",
+            "date": "21/05",
+            "blv": "BLV Người Kiến",
+            "is_live": true,
+            "sport_slug": "bong-da"
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-fa60a4be45_e4e12e36_20260520.png?v=e4e12e36",
+            "url": "https://raw.githubusercontent.com/jasminliu98/xaycon-stream/refs/heads/main/thumbs/xc-4889c98b60_14e12b3d_20260520.png?v=14e12b3d",
             "width": 1600,
             "height": 1200
           }
@@ -2537,82 +2537,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/bonmua-stream/refs/heads/main/thumbs/bonmua-5efcaaa2cf_fcf9d93d_20260520.png?v=fcf9d93d",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "xc-4889c98b60",
-          "name": "AL Masry vs Al Ahly | 00:00 21/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-4889c98b60",
-              "name": "XayConTV",
-              "contents": [
-                {
-                  "id": "ct-4889c98b60",
-                  "name": "AL Masry vs Al Ahly",
-                  "streams": [
-                    {
-                      "id": "st-4889c98b60",
-                      "name": "XC",
-                      "stream_links": [
-                        {
-                          "id": "lnk-96278f5a95",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://xclive.yarncdn.live/live/xctv_blv_nguoikien/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.xaycon3.live/"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://sv2.xaycon3.live"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Premier League",
-            "team_a": "AL Masry",
-            "team_b": "Al Ahly",
-            "logo_a": "https://static.flashscore.com/res/image/data/rN8awRZA-K8vlWhPS.png",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/fr/c/c8/Al_Ahly_FC_logo.png",
-            "time": "00:00",
-            "date": "21/05",
-            "blv": "BLV Người Kiến",
-            "is_live": false,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/xaycon-stream/refs/heads/main/thumbs/xc-4889c98b60_14e12b3d_20260520.png?v=14e12b3d",
             "width": 1600,
             "height": 1200
           }
@@ -4916,77 +4840,6 @@
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-0664d4d013",
-          "name": "Lokomotiv Kuban vs CSKA Moscow | 00:00 21/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-0664d4d013",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-0664d4d013",
-                  "name": "Lokomotiv Kuban vs CSKA Moscow",
-                  "streams": [
-                    {
-                      "id": "st-0664d4d013",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-ee4f318542",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1779225462_hd/1779225462_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "VTB",
-            "team_a": "Lokomotiv Kuban",
-            "team_b": "CSKA Moscow",
-            "logo_a": "https://static.flashscore.com/res/image/data/tfzLgCzB-YNdc4gY7.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/0GqRMIYg-0AYHMLmL.png",
-            "time": "00:00 21/05",
-            "blv": "BLV Cầy",
-            "is_live": false,
-            "cate_type": "basketball"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-0664d4d013_45b40f8b_20260520.png?v=45b40f8b",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-013fc6d05f",
           "name": "Indiana Fever W vs Portland Fire W | 06:00 21/05",
