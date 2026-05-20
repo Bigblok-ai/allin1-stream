@@ -685,82 +685,11 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (1 LIVE)",
+      "name": "⚽ Bóng Đá (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "bg-e88f243bf3",
-          "name": "Tuloy vs Maharlika | 17:15 20/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-e88f243bf3",
-              "name": "BugioTV",
-              "contents": [
-                {
-                  "id": "ct-e88f243bf3",
-                  "name": "Tuloy vs Maharlika",
-                  "streams": [
-                    {
-                      "id": "st-e88f243bf3",
-                      "name": "BG",
-                      "stream_links": [
-                        {
-                          "id": "lnk-0ba3f9d037",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_trada/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv1.bugio9.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "PFL",
-            "team_a": "Tuloy",
-            "team_b": "Maharlika",
-            "logo_a": "https://media.api-sports.io/football/teams/21580.png",
-            "logo_b": "https://media.api-sports.io/football/teams/16191.png",
-            "start_time": "2026-05-20T17:15:00",
-            "blv": "BLV Tiểu Trà Đá",
-            "is_live": false,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-e88f243bf3_0605bdde_20260520.png?v=0605bdde",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-23121ebb31",
           "name": "Melbourne City vs Beleza | 12:00 20/05",
@@ -769,10 +698,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -859,7 +788,7 @@
             "logo_b": "https://static.flashscore.com/res/image/data/Y5PKeVwS-O0XU2dY2.png",
             "time": "12:00 20/05",
             "blv": "BLV Mason",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football"
           },
           "image": {
@@ -867,6 +796,77 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-23121ebb31_160255d5_20260520.png?v=160255d5",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "bg-e88f243bf3",
+          "name": "Tuloy vs Maharlika | 17:15 20/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-e88f243bf3",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-e88f243bf3",
+                  "name": "Tuloy vs Maharlika",
+                  "streams": [
+                    {
+                      "id": "st-e88f243bf3",
+                      "name": "BG",
+                      "stream_links": [
+                        {
+                          "id": "lnk-0ba3f9d037",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_trada/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "PFL",
+            "team_a": "Tuloy",
+            "team_b": "Maharlika",
+            "logo_a": "https://media.api-sports.io/football/teams/21580.png",
+            "logo_b": "https://media.api-sports.io/football/teams/16191.png",
+            "start_time": "2026-05-20T17:15:00",
+            "blv": "BLV Tiểu Trà Đá",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-e88f243bf3_0605bdde_20260520.png?v=0605bdde",
             "width": 1600,
             "height": 1200
           }
@@ -4126,82 +4126,11 @@
     },
     {
       "id": "grp-bóng-rổ",
-      "name": "🏀 Bóng Rổ (1 LIVE)",
+      "name": "🏀 Bóng Rổ",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-c174529a54",
-          "name": "Phoenix Mercury W vs Toronto Tempo W | 09:00 20/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-c174529a54",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-c174529a54",
-                  "name": "Phoenix Mercury W vs Toronto Tempo W",
-                  "streams": [
-                    {
-                      "id": "st-c174529a54",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-214ff6cd6d",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1779180055_hd/1779180055_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "WNBA",
-            "team_a": "Phoenix Mercury W",
-            "team_b": "Toronto Tempo W",
-            "logo_a": "https://static.flashscore.com/res/image/data/IZ04YpAr-rPdnEwGr.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/bs4BkvzB-KOUexDHq.png",
-            "time": "09:00 20/05",
-            "blv": "BLV Điếc",
-            "is_live": true,
-            "cate_type": "basketball"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-c174529a54_1e3b2e69_20260520.png?v=1e3b2e69",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-32f37daef9",
           "name": "Meralco Bolz  vs TNT Tropang 5G | 16:15 20/05",
