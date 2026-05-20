@@ -691,112 +691,6 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "gv-000f4df49c",
-          "name": "SC Freiburg vs Aston Villa | 02:00 21/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-000f4df49c",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-000f4df49c",
-                  "name": "SC Freiburg vs Aston Villa",
-                  "streams": [
-                    {
-                      "id": "st-000f4df49c",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-a6d76c3c27",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1779272557_hd/1779272557_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "src-1bddb896f5",
-              "name": "BonMuaTV",
-              "contents": [
-                {
-                  "id": "ct-1bddb896f5",
-                  "name": "Freiburg vs Aston Villa",
-                  "streams": [
-                    {
-                      "id": "st-1bddb896f5",
-                      "name": "Bonmua - Cháo Quẩy",
-                      "stream_links": [
-                        {
-                          "id": "lnk-7dbcd1a4f5",
-                          "name": "Cháo Quẩy",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://pull.globalcdnnetworksc2031.info/str01/blv-chao-quay-fb/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://bonmuatv.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "C2",
-            "team_a": "SC Freiburg",
-            "team_b": "Aston Villa",
-            "logo_a": "https://images.keovip88.net/images/teams/sc-freiburg.png",
-            "logo_b": "https://images.keovip88.net/images/teams/aston-villa.png",
-            "time": "02:00 21/05",
-            "blv": "fan-vn, BLV Hợi",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-000f4df49c_a41add97_20260521.png?v=a41add97",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "bonmua-6e5e1929f1",
           "name": "Inter Kashi vs East Bengal | 01:30 21/05",
           "type": "single",
@@ -868,6 +762,77 @@
           }
         },
         {
+          "id": "bonmua-1bddb896f5",
+          "name": "Freiburg vs Aston Villa | 02:00 21/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-1bddb896f5",
+              "name": "BonMuaTV",
+              "contents": [
+                {
+                  "id": "ct-1bddb896f5",
+                  "name": "Freiburg vs Aston Villa",
+                  "streams": [
+                    {
+                      "id": "st-1bddb896f5",
+                      "name": "KT",
+                      "stream_links": [
+                        {
+                          "id": "lnk-7dbcd1a4f5",
+                          "name": "Cháo Quẩy",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pull.globalcdnnetworksc2031.info/str01/blv-chao-quay-fb/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://bonmuatv.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "UEFA Europa League",
+            "team_a": "Freiburg",
+            "team_b": "Aston Villa",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/en/thumb/6/6d/SC_Freiburg_logo.svg/960px-SC_Freiburg_logo.svg.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/fr/e/e5/Logo_Aston_Villa.svg",
+            "time": "02:00 21/05",
+            "blv": "Cháo Quẩy",
+            "is_live": true,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bonmua-stream/refs/heads/main/thumbs/bonmua-1bddb896f5_d925ca8e_20260521.png?v=d925ca8e",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "hqlive-714295aeca",
           "name": "Santos vs San Lorenzo | 05:00 21/05",
           "type": "single",
@@ -916,77 +881,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Santos_San Lorenzo_05-00 21-05_f9e06cb9_20260521.png?v=f9e06cb9",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-c521a54f36",
-          "name": "Detroit City vs Miami FC | 06:30 21/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-c521a54f36",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-c521a54f36",
-                  "name": "Detroit City vs Miami FC",
-                  "streams": [
-                    {
-                      "id": "st-c521a54f36",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-c48bb0d5ce",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1779225856_hd/1779225856_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "USL Championship Mỹ",
-            "team_a": "Detroit City",
-            "team_b": "Miami FC",
-            "logo_a": "https://images.keovip88.net/images/teams/detroit-city.png",
-            "logo_b": "https://images.keovip88.net/images/teams/miami-fc.png",
-            "time": "06:30 21/05",
-            "blv": "blv-tri",
-            "is_live": false,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-c521a54f36_938eedd0_20260521.png?v=938eedd0",
             "width": 1600,
             "height": 1200
           }
