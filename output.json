@@ -685,7 +685,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (7 LIVE)",
+      "name": "⚽ Bóng Đá (6 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -836,8 +836,8 @@
           }
         },
         {
-          "id": "hqlive-83b197885d",
-          "name": "Minerva Punjab vs Mumbai City | 21:00 21/05",
+          "id": "gv-ac46d7e032",
+          "name": "Ajax vs Groningen | 23:45 21/05",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -851,16 +851,51 @@
           ],
           "sources": [
             {
-              "id": "src-83b197885d",
+              "id": "src-ac46d7e032",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-ac46d7e032",
+                  "name": "Ajax vs Groningen",
+                  "streams": [
+                    {
+                      "id": "st-ac46d7e032",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-95f5bd3e96",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1779346517_hd/1779346517_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-5dd215a374",
               "name": "HoiQuanTV",
               "contents": [
                 {
-                  "id": "ct-83b197885d",
-                  "name": "Minerva Punjab vs Mumbai City",
+                  "id": "ct-5dd215a374",
+                  "name": "Ajax vs Groningen",
                   "streams": [
                     {
-                      "id": "st-83b197885d",
-                      "name": "HQ",
+                      "id": "st-5dd215a374",
+                      "name": "Hoiquan - BLV CỦ HÀNH",
                       "stream_links": [
                         {
                           "id": "lnk-a1498791d5",
@@ -884,24 +919,102 @@
                   ]
                 }
               ]
+            },
+            {
+              "id": "src-19db7ac9dd",
+              "name": "QuechoaTV",
+              "contents": [
+                {
+                  "id": "ct-19db7ac9dd",
+                  "name": "Ajax vs Groningen",
+                  "streams": [
+                    {
+                      "id": "st-19db7ac9dd",
+                      "name": "Quechoa - VỎ QUÝT",
+                      "stream_links": [
+                        {
+                          "id": "lnk-67419b1cbc",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ahghndtkyqmm-pull.bpmedialive.com/quechoa/blv_khoaitay.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://quechoa10.live/"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://quechoa10.live"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-6c75c09738",
+              "name": "XayConTV",
+              "contents": [
+                {
+                  "id": "ct-6c75c09738",
+                  "name": "Ajax vs Groningen",
+                  "streams": [
+                    {
+                      "id": "st-6c75c09738",
+                      "name": "Xaycon - BLV A Cỏ",
+                      "stream_links": [
+                        {
+                          "id": "lnk-19bab7f4de",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://xclive.yarncdn.live/live/xctv_blv_aco/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.xaycon3.live/"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://sv2.xaycon3.live"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
             }
           ],
           "org_metadata": {
-            "league": "Indian Super League",
-            "team_a": "Minerva Punjab",
-            "team_b": "Mumbai City",
-            "logo_a": "https://media.api-sports.io/football/teams/3466.png",
-            "logo_b": "https://media.api-sports.io/football/teams/3478.png",
-            "time": "21:00 21/05",
-            "blv": "BLV CỦ HÀNH",
+            "league": "VDQG Hà Lan",
+            "team_a": "Ajax",
+            "team_b": "Groningen",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/sco/thumb/7/79/Ajax_Amsterdam.svg/3840px-Ajax_Amsterdam.svg.png?utm_source=sco.wikipedia.org&utm_campaign=index&utm_content=thumbnail",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/FC_Groningen_logo.svg/1280px-FC_Groningen_logo.svg.png",
+            "time": "23:45 21/05",
+            "blv": "blv-mat",
             "is_live": true,
-            "sport_slug": "bong-da"
+            "cate_type": "football"
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Minerva Punjab_Mumbai City_21-00 21-05_75c4a488_20260521.png?v=75c4a488",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-ac46d7e032_0fb26a04_20260521.png?v=0fb26a04",
             "width": 1600,
             "height": 1200
           }
@@ -978,82 +1091,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/quechoa-stream/refs/heads/main/thumbs/qc-fb0edd6105_f7da044a_20260521.png?v=f7da044a",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "xc-a557cc309b",
-          "name": "Qabala vs Şamaxı FK | 21:30 21/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-a557cc309b",
-              "name": "XayConTV",
-              "contents": [
-                {
-                  "id": "ct-a557cc309b",
-                  "name": "Qabala vs Şamaxı FK",
-                  "streams": [
-                    {
-                      "id": "st-a557cc309b",
-                      "name": "XC",
-                      "stream_links": [
-                        {
-                          "id": "lnk-19bab7f4de",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://xclive.yarncdn.live/live/xctv_blv_aco/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.xaycon3.live/"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://sv2.xaycon3.live"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Premyer Liqa",
-            "team_a": "Qabala",
-            "team_b": "Keshla FC",
-            "logo_a": "https://media.api-sports.io/football/teams/627.png",
-            "logo_b": "https://media.api-sports.io/football/teams/666.png",
-            "time": "21:30",
-            "date": "21/05",
-            "blv": "BLV A Cỏ",
-            "is_live": true,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/xaycon-stream/refs/heads/main/thumbs/xc-a557cc309b_af76f4db_20260521.png?v=af76f4db",
             "width": 1600,
             "height": 1200
           }
@@ -1272,155 +1309,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/bonmua-stream/refs/heads/main/thumbs/bonmua-63ef2d202d_05286e77_20260521.png?v=05286e77",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-ac46d7e032",
-          "name": "Ajax vs Groningen | 23:45 21/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-ac46d7e032",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-ac46d7e032",
-                  "name": "Ajax vs Groningen",
-                  "streams": [
-                    {
-                      "id": "st-ac46d7e032",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-95f5bd3e96",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1779346517_hd/1779346517_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "src-19db7ac9dd",
-              "name": "QuechoaTV",
-              "contents": [
-                {
-                  "id": "ct-19db7ac9dd",
-                  "name": "Ajax vs Groningen",
-                  "streams": [
-                    {
-                      "id": "st-19db7ac9dd",
-                      "name": "Quechoa - VỎ QUÝT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-67419b1cbc",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ahghndtkyqmm-pull.bpmedialive.com/quechoa/blv_khoaitay.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://quechoa10.live/"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://quechoa10.live"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "src-6c75c09738",
-              "name": "XayConTV",
-              "contents": [
-                {
-                  "id": "ct-6c75c09738",
-                  "name": "Ajax vs Groningen",
-                  "streams": [
-                    {
-                      "id": "st-6c75c09738",
-                      "name": "Xaycon - BLV A Cỏ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-19bab7f4de",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://xclive.yarncdn.live/live/xctv_blv_aco/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.xaycon3.live/"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://sv2.xaycon3.live"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "VDQG Hà Lan",
-            "team_a": "Ajax",
-            "team_b": "Groningen",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/sco/thumb/7/79/Ajax_Amsterdam.svg/3840px-Ajax_Amsterdam.svg.png?utm_source=sco.wikipedia.org&utm_campaign=index&utm_content=thumbnail",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/FC_Groningen_logo.svg/1280px-FC_Groningen_logo.svg.png",
-            "time": "23:45 21/05",
-            "blv": "blv-mat",
-            "is_live": false,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-ac46d7e032_0fb26a04_20260521.png?v=0fb26a04",
             "width": 1600,
             "height": 1200
           }
