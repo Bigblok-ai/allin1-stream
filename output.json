@@ -685,11 +685,195 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (4 LIVE)",
+      "name": "⚽ Bóng Đá (5 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "hqlive-03958f6f58",
+          "name": "Shakhtar Donetsk vs Kolos Kovalivka | 19:30 21/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-03958f6f58",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-03958f6f58",
+                  "name": "Shakhtar Donetsk vs Kolos Kovalivka",
+                  "streams": [
+                    {
+                      "id": "st-03958f6f58",
+                      "name": "HQ",
+                      "stream_links": [
+                        {
+                          "id": "lnk-c42241b387",
+                          "name": "BLV PHAN MÃ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanma/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-0b580a320b",
+              "name": "QuechoaTV",
+              "contents": [
+                {
+                  "id": "ct-0b580a320b",
+                  "name": "Shakhtar Donetsk vs Kolos Kovalivka",
+                  "streams": [
+                    {
+                      "id": "st-0b580a320b",
+                      "name": "Quechoa - VỎ QUÝT",
+                      "stream_links": [
+                        {
+                          "id": "lnk-67419b1cbc",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ahghndtkyqmm-pull.bpmedialive.com/quechoa/blv_khoaitay.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://quechoa10.live/"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://quechoa10.live"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-877c7338c8",
+              "name": "XayConTV",
+              "contents": [
+                {
+                  "id": "ct-877c7338c8",
+                  "name": "Shakhtar Donetsk vs Kolos Kovalivka",
+                  "streams": [
+                    {
+                      "id": "st-877c7338c8",
+                      "name": "Xaycon - BLV Người Kiến",
+                      "stream_links": [
+                        {
+                          "id": "lnk-96278f5a95",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://xclive.yarncdn.live/live/xctv_blv_nguoikien/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.xaycon3.live/"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://sv2.xaycon3.live"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-7e712eefe0",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-7e712eefe0",
+                  "name": "Shakhtar Donetsk vs Kolos Kovalivka",
+                  "streams": [
+                    {
+                      "id": "st-7e712eefe0",
+                      "name": "Bugio - BLV Tiểu Bảo",
+                      "stream_links": [
+                        {
+                          "id": "lnk-431938c7dc",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_tieubao/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "VĐQG Ukraine",
+            "team_a": "Shakhtar Donetsk",
+            "team_b": "Kolos Kovalivka",
+            "logo_a": "https://media.api-sports.io/football/teams/550.png",
+            "logo_b": "https://media.api-sports.io/football/teams/3627.png",
+            "time": "19:30 21/05",
+            "blv": "BLV PHAN MÃ",
+            "is_live": true,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Shakhtar Donetsk_Kolos Kovalivka_19-30 21-05_97edcc20_20260521.png?v=97edcc20",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "qc-663cb81b1a",
           "name": "Minerva Punjab vs Mumbai City | 18:30 21/05",
@@ -1056,172 +1240,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-e8d0ed7b97_d069e3f8_20260521.png?v=d069e3f8",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "hqlive-03958f6f58",
-          "name": "Shakhtar Donetsk vs Kolos Kovalivka | 19:30 21/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-03958f6f58",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-03958f6f58",
-                  "name": "Shakhtar Donetsk vs Kolos Kovalivka",
-                  "streams": [
-                    {
-                      "id": "st-03958f6f58",
-                      "name": "HQ",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "src-0b580a320b",
-              "name": "QuechoaTV",
-              "contents": [
-                {
-                  "id": "ct-0b580a320b",
-                  "name": "Shakhtar Donetsk vs Kolos Kovalivka",
-                  "streams": [
-                    {
-                      "id": "st-0b580a320b",
-                      "name": "Quechoa - VỎ QUÝT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-67419b1cbc",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ahghndtkyqmm-pull.bpmedialive.com/quechoa/blv_khoaitay.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://quechoa10.live/"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://quechoa10.live"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "src-877c7338c8",
-              "name": "XayConTV",
-              "contents": [
-                {
-                  "id": "ct-877c7338c8",
-                  "name": "Shakhtar Donetsk vs Kolos Kovalivka",
-                  "streams": [
-                    {
-                      "id": "st-877c7338c8",
-                      "name": "Xaycon - BLV Người Kiến",
-                      "stream_links": [
-                        {
-                          "id": "lnk-96278f5a95",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://xclive.yarncdn.live/live/xctv_blv_nguoikien/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.xaycon3.live/"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://sv2.xaycon3.live"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "src-7e712eefe0",
-              "name": "BugioTV",
-              "contents": [
-                {
-                  "id": "ct-7e712eefe0",
-                  "name": "Shakhtar Donetsk vs Kolos Kovalivka",
-                  "streams": [
-                    {
-                      "id": "st-7e712eefe0",
-                      "name": "Bugio - BLV Tiểu Bảo",
-                      "stream_links": [
-                        {
-                          "id": "lnk-431938c7dc",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_tieubao/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv1.bugio9.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "VĐQG Ukraine",
-            "team_a": "Shakhtar Donetsk",
-            "team_b": "Kolos Kovalivka",
-            "logo_a": "https://media.api-sports.io/football/teams/550.png",
-            "logo_b": "https://media.api-sports.io/football/teams/3627.png",
-            "time": "19:30 21/05",
-            "blv": "BLV PHAN MÃ",
-            "is_live": false,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Shakhtar Donetsk_Kolos Kovalivka_19-30 21-05_97edcc20_20260521.png?v=97edcc20",
             "width": 1600,
             "height": 1200
           }
@@ -2778,23 +2796,23 @@
               ]
             },
             {
-              "id": "src-279c42218b",
+              "id": "src-c82a68cb39",
               "name": "XayConTV",
               "contents": [
                 {
-                  "id": "ct-279c42218b",
+                  "id": "ct-c82a68cb39",
                   "name": "Utrecht vs Heerenveen",
                   "streams": [
                     {
-                      "id": "st-279c42218b",
-                      "name": "Xaycon - BLV Bịp Con",
+                      "id": "st-c82a68cb39",
+                      "name": "Xaycon - BLV A Cỏ",
                       "stream_links": [
                         {
-                          "id": "lnk-30319ba8f3",
+                          "id": "lnk-19bab7f4de",
                           "name": "Link FHD",
                           "type": "hls",
                           "default": true,
-                          "url": "https://xclive.yarncdn.live/live/xctv_blv_bipcon/playlist.m3u8",
+                          "url": "https://xclive.yarncdn.live/live/xctv_blv_aco/playlist.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -3037,6 +3055,45 @@
                             {
                               "key": "Origin",
                               "value": "https://quechoa10.live"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-9616809e27",
+              "name": "XayConTV",
+              "contents": [
+                {
+                  "id": "ct-9616809e27",
+                  "name": "VfL Wolfsburg vs SC Paderborn 07",
+                  "streams": [
+                    {
+                      "id": "st-9616809e27",
+                      "name": "Xaycon - BLV Bịp Con",
+                      "stream_links": [
+                        {
+                          "id": "lnk-30319ba8f3",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://xclive.yarncdn.live/live/xctv_blv_bipcon/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.xaycon3.live/"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://sv2.xaycon3.live"
                             },
                             {
                               "key": "User-Agent",
