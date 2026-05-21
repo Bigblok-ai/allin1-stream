@@ -3086,6 +3086,41 @@
                   ]
                 }
               ]
+            },
+            {
+              "id": "src-768e78024a",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-768e78024a",
+                  "name": "VfL Wolfsburg vs SC Paderborn 07",
+                  "streams": [
+                    {
+                      "id": "st-768e78024a",
+                      "name": "Bugio - BLV Tiểu Trà Đá",
+                      "stream_links": [
+                        {
+                          "id": "lnk-0ba3f9d037",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_trada/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
             }
           ],
           "org_metadata": {
@@ -4357,7 +4392,7 @@
     },
     {
       "id": "grp-bóng-chuyền",
-      "name": "🏐 Bóng Chuyền",
+      "name": "🏐 Bóng Chuyền (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -4370,10 +4405,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -4495,7 +4530,7 @@
             "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzc9fOmXkUXVf-KqZbsR2bSRzsHH1VBglzbA&s",
             "time": "20:00 21/05",
             "blv": "BLV Điếc",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "bongchuyen"
           },
           "image": {
