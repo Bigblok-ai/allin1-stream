@@ -685,11 +685,87 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá",
+      "name": "⚽ Bóng Đá (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "xc-f63855872c",
+          "name": "Racing Club vs Caracas FC | 07:00 22/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-f63855872c",
+              "name": "XayConTV",
+              "contents": [
+                {
+                  "id": "ct-f63855872c",
+                  "name": "Racing Club vs Caracas FC",
+                  "streams": [
+                    {
+                      "id": "st-f63855872c",
+                      "name": "XC",
+                      "stream_links": [
+                        {
+                          "id": "lnk-22f0d2332d",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://xclive.yarncdn.live/live/xctv_blv_vantich/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.xaycon3.live/"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://sv2.xaycon3.live"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "CONMEBOL Sudamericana",
+            "team_a": "Racing Club",
+            "team_b": "Caracas FC",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Escudo_de_Racing_Club_%282014%29.svg/250px-Escudo_de_Racing_Club_%282014%29.svg.png",
+            "logo_b": "https://media.api-sports.io/football/teams/2808.png",
+            "time": "07:00",
+            "date": "22/05",
+            "blv": "BLV Văn Tích",
+            "is_live": true,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/xaycon-stream/refs/heads/main/thumbs/xc-f63855872c_2ace7ebf_20260522.png?v=2ace7ebf",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "hqlive-1d151183e8",
           "name": "Penarol vs Corinthians | 07:30 22/05",
@@ -2437,82 +2513,6 @@
           }
         },
         {
-          "id": "xc-f63855872c",
-          "name": "Racing Club vs Caracas FC | 07:00 22/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-f63855872c",
-              "name": "XayConTV",
-              "contents": [
-                {
-                  "id": "ct-f63855872c",
-                  "name": "Racing Club vs Caracas FC",
-                  "streams": [
-                    {
-                      "id": "st-f63855872c",
-                      "name": "XC",
-                      "stream_links": [
-                        {
-                          "id": "lnk-22f0d2332d",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://xclive.yarncdn.live/live/xctv_blv_vantich/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.xaycon3.live/"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://sv2.xaycon3.live"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "CONMEBOL Sudamericana",
-            "team_a": "Racing Club",
-            "team_b": "Caracas FC",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Escudo_de_Racing_Club_%282014%29.svg/250px-Escudo_de_Racing_Club_%282014%29.svg.png",
-            "logo_b": "https://media.api-sports.io/football/teams/2808.png",
-            "time": "07:00",
-            "date": "22/05",
-            "blv": "BLV Văn Tích",
-            "is_live": false,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/xaycon-stream/refs/heads/main/thumbs/xc-f63855872c_2ace7ebf_20260522.png?v=2ace7ebf",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "qc-5b32acd8ed",
           "name": "Avispa Fukuoka vs Vissel Kobe | 12:00 23/05",
           "type": "single",
@@ -3942,7 +3942,7 @@
     },
     {
       "id": "grp-bóng-rổ",
-      "name": "🏀 Bóng Rổ",
+      "name": "🏀 Bóng Rổ (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -3955,10 +3955,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -3996,6 +3996,41 @@
                   ]
                 }
               ]
+            },
+            {
+              "id": "src-b5adac41fa",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-b5adac41fa",
+                  "name": "New York Knicks vs Cleveland Cavaliers",
+                  "streams": [
+                    {
+                      "id": "st-b5adac41fa",
+                      "name": "Hoiquan - BLV PHAN MÃO",
+                      "stream_links": [
+                        {
+                          "id": "lnk-c2f1d53f75",
+                          "name": "BLV PHAN MÃO",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanbap/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
             }
           ],
           "org_metadata": {
@@ -4006,7 +4041,7 @@
             "logo_b": "https://upload.wikimedia.org/wikipedia/ro/thumb/6/6a/ClevelandCavaliersMainLogo.svg/250px-ClevelandCavaliersMainLogo.svg.png",
             "time": "07:00 22/05",
             "blv": "blv-lac, blv-can",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "basketball"
           },
           "image": {
