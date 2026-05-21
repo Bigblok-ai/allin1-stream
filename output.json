@@ -685,13 +685,13 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
         {
-          "id": "hqlive-2e89479e2d",
+          "id": "qc-663cb81b1a",
           "name": "Minerva Punjab vs Mumbai City | 18:30 21/05",
           "type": "single",
           "display": "thumbnail-only",
@@ -706,41 +706,6 @@
           ],
           "sources": [
             {
-              "id": "src-2e89479e2d",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-2e89479e2d",
-                  "name": "Minerva Punjab vs Mumbai City",
-                  "streams": [
-                    {
-                      "id": "st-2e89479e2d",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-a1498791d5",
-                          "name": "BLV CỦ HÀNH",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phando/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
               "id": "src-663cb81b1a",
               "name": "QuechoaTV",
               "contents": [
@@ -750,7 +715,7 @@
                   "streams": [
                     {
                       "id": "st-663cb81b1a",
-                      "name": "Quechoa - VĂN MINH",
+                      "name": "QC",
                       "stream_links": [
                         {
                           "id": "lnk-75feca2dee",
@@ -786,8 +751,9 @@
             "team_b": "Mumbai City",
             "logo_a": "https://media.api-sports.io/football/teams/3466.png",
             "logo_b": "https://media.api-sports.io/football/teams/3478.png",
-            "time": "18:30 21/05",
-            "blv": "BLV CỦ HÀNH",
+            "time": "18:30",
+            "date": "21/05",
+            "blv": "VĂN MINH",
             "is_live": true,
             "sport_slug": "bong-da"
           },
@@ -795,7 +761,159 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Minerva Punjab_Mumbai City_18-30 21-05_75c4a488_20260521.png?v=75c4a488",
+            "url": "https://raw.githubusercontent.com/jasminliu98/quechoa-stream/refs/heads/main/thumbs/qc-663cb81b1a_32aa8af3_20260521.png?v=32aa8af3",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-40249a0dc7",
+          "name": "Huzhou Team vs Taizhou Team | 18:30 21/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-40249a0dc7",
+              "name": "XayConTV",
+              "contents": [
+                {
+                  "id": "ct-40249a0dc7",
+                  "name": "Huzhou Team vs Taizhou Team",
+                  "streams": [
+                    {
+                      "id": "st-40249a0dc7",
+                      "name": "XC",
+                      "stream_links": [
+                        {
+                          "id": "lnk-19bab7f4de",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://xclive.yarncdn.live/live/xctv_blv_aco/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.xaycon3.live/"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://sv2.xaycon3.live"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "China Super League",
+            "team_a": "Huzhou Team",
+            "team_b": "Taizhou Team",
+            "logo_a": "https://imgts.sportpulseapiz.com/football/team/vjxm8ghxow6r6od/image",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/en/thumb/e/e0/Taizhou_Yuanda_F.C.svg/1280px-Taizhou_Yuanda_F.C.svg.png",
+            "time": "18:30",
+            "date": "21/05",
+            "blv": "BLV A Cỏ",
+            "is_live": true,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/xaycon-stream/refs/heads/main/thumbs/xc-40249a0dc7_04170ffc_20260521.png?v=04170ffc",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-d8bb4079a7",
+          "name": "Sport Academy Kairat vs Turan Turkistan | 19:00 21/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-d8bb4079a7",
+              "name": "XayConTV",
+              "contents": [
+                {
+                  "id": "ct-d8bb4079a7",
+                  "name": "Sport Academy Kairat vs Turan Turkistan",
+                  "streams": [
+                    {
+                      "id": "st-d8bb4079a7",
+                      "name": "XC",
+                      "stream_links": [
+                        {
+                          "id": "lnk-fa5c7698a5",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://xclive.yarncdn.live/live/xctv_blv_tholan/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.xaycon3.live/"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://sv2.xaycon3.live"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "1. Division",
+            "team_a": "Sport Academy Kairat",
+            "team_b": "Turan Turkistan",
+            "logo_a": "https://media.api-sports.io/football/teams/4556.png",
+            "logo_b": "https://media.api-sports.io/football/teams/21502.png",
+            "time": "19:00",
+            "date": "21/05",
+            "blv": "BLV Thợ Lặn",
+            "is_live": true,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/xaycon-stream/refs/heads/main/thumbs/xc-d8bb4079a7_01459390_20260521.png?v=01459390",
             "width": 1600,
             "height": 1200
           }
@@ -1175,6 +1293,98 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-5f2710c4af_5f63b5c8_20260521.png?v=5f63b5c8",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-83b197885d",
+          "name": "Minerva Punjab vs Mumbai City | 21:00 21/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-83b197885d",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-83b197885d",
+                  "name": "Minerva Punjab vs Mumbai City",
+                  "streams": [
+                    {
+                      "id": "st-83b197885d",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-ba8846966d",
+              "name": "XayConTV",
+              "contents": [
+                {
+                  "id": "ct-ba8846966d",
+                  "name": "Minerva Punjab vs Mumbai City",
+                  "streams": [
+                    {
+                      "id": "st-ba8846966d",
+                      "name": "Xaycon - BLV Thợ Lặn",
+                      "stream_links": [
+                        {
+                          "id": "lnk-fa5c7698a5",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://xclive.yarncdn.live/live/xctv_blv_tholan/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.xaycon3.live/"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://sv2.xaycon3.live"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Indian Super League",
+            "team_a": "Minerva Punjab",
+            "team_b": "Mumbai City",
+            "logo_a": "https://media.api-sports.io/football/teams/3466.png",
+            "logo_b": "https://media.api-sports.io/football/teams/3478.png",
+            "time": "21:00 21/05",
+            "blv": "BLV CỦ HÀNH",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Minerva Punjab_Mumbai City_21-00 21-05_75c4a488_20260521.png?v=75c4a488",
             "width": 1600,
             "height": 1200
           }
@@ -2945,82 +3155,6 @@
           }
         },
         {
-          "id": "xc-d8bb4079a7",
-          "name": "Sport Academy Kairat vs Turan Turkistan | 19:00 21/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-d8bb4079a7",
-              "name": "XayConTV",
-              "contents": [
-                {
-                  "id": "ct-d8bb4079a7",
-                  "name": "Sport Academy Kairat vs Turan Turkistan",
-                  "streams": [
-                    {
-                      "id": "st-d8bb4079a7",
-                      "name": "XC",
-                      "stream_links": [
-                        {
-                          "id": "lnk-fa5c7698a5",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://xclive.yarncdn.live/live/xctv_blv_tholan/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.xaycon3.live/"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://sv2.xaycon3.live"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "1. Division",
-            "team_a": "Sport Academy Kairat",
-            "team_b": "Turan Turkistan",
-            "logo_a": "https://media.api-sports.io/football/teams/4556.png",
-            "logo_b": "https://media.api-sports.io/football/teams/21502.png",
-            "time": "19:00",
-            "date": "21/05",
-            "blv": "BLV Thợ Lặn",
-            "is_live": false,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/xaycon-stream/refs/heads/main/thumbs/xc-d8bb4079a7_01459390_20260521.png?v=01459390",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "qc-ff5a4e7a88",
           "name": "Viettel vs Pho Hien | 19:15 22/05",
           "type": "single",
@@ -3092,82 +3226,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/quechoa-stream/refs/heads/main/thumbs/qc-ff5a4e7a88_cb585f11_20260521.png?v=cb585f11",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "xc-ba8846966d",
-          "name": "Minerva Punjab vs Mumbai City | 21:00 21/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-ba8846966d",
-              "name": "XayConTV",
-              "contents": [
-                {
-                  "id": "ct-ba8846966d",
-                  "name": "Minerva Punjab vs Mumbai City",
-                  "streams": [
-                    {
-                      "id": "st-ba8846966d",
-                      "name": "XC",
-                      "stream_links": [
-                        {
-                          "id": "lnk-fa5c7698a5",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://xclive.yarncdn.live/live/xctv_blv_tholan/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.xaycon3.live/"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://sv2.xaycon3.live"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Indian Super League",
-            "team_a": "Minerva Punjab",
-            "team_b": "Mumbai City",
-            "logo_a": "https://media.api-sports.io/football/teams/3466.png",
-            "logo_b": "https://media.api-sports.io/football/teams/3478.png",
-            "time": "21:00",
-            "date": "21/05",
-            "blv": "BLV Thợ Lặn",
-            "is_live": false,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/xaycon-stream/refs/heads/main/thumbs/xc-ba8846966d_32aa8af3_20260521.png?v=32aa8af3",
             "width": 1600,
             "height": 1200
           }
@@ -4174,117 +4232,11 @@
     },
     {
       "id": "grp-bóng-chuyền",
-      "name": "🏐 Bóng Chuyền (1 LIVE)",
+      "name": "🏐 Bóng Chuyền",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-719a49a18e",
-          "name": "Gunma Green Wings   vs Vietinbank | 17:00 21/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-719a49a18e",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-719a49a18e",
-                  "name": "Gunma Green Wings   vs Vietinbank",
-                  "streams": [
-                    {
-                      "id": "st-719a49a18e",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-02f163e095",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1779338464_hd/1779338464_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "src-ce6babd060",
-              "name": "BugioTV",
-              "contents": [
-                {
-                  "id": "ct-ce6babd060",
-                  "name": "Gunma Green Wings vs VietinBank",
-                  "streams": [
-                    {
-                      "id": "st-ce6babd060",
-                      "name": "Bugio - BLV Tiểu Bảo",
-                      "stream_links": [
-                        {
-                          "id": "lnk-431938c7dc",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_tieubao/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv1.bugio9.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "VTV Cup",
-            "team_a": "Gunma Green Wings  ",
-            "team_b": "Vietinbank",
-            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTY5tyojQxdUpNh8S1Q3jSuX6NQBEq5JNvwfw&s",
-            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6muBj-D6SaaajmlGdG9NF8jwaLCR5raaHFA&s",
-            "time": "17:00 21/05",
-            "blv": "blv-mat",
-            "is_live": true,
-            "cate_type": "bongchuyen"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-719a49a18e_b9c5b0e9_20260521.png?v=b9c5b0e9",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-fc78c78dc4",
           "name": " Hà Nội Tasco Auto  vs VTV Bình Điền Long An | 20:00 21/05",
@@ -4531,6 +4483,77 @@
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "gv-1f97e3bc9b",
+          "name": "Huỳnh Văn Tuấn vs Chokpreecha | 18:30 22/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-1f97e3bc9b",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-1f97e3bc9b",
+                  "name": "Huỳnh Văn Tuấn vs Chokpreecha",
+                  "streams": [
+                    {
+                      "id": "st-1f97e3bc9b",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-eefd5e910f",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1779096694_hd/1779096694_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "ONE Friday Fights 155 THE INNER CIRCLE",
+            "team_a": "Huỳnh Văn Tuấn",
+            "team_b": "Chokpreecha",
+            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxqJ1omMFHW5KiANkP3LjSp3eUP6dP-4dcmw&s",
+            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfkINYBM5cy771CPz30Oj90eWe-ZlrRAMbLg&s",
+            "time": "18:30 22/05",
+            "blv": "BLV Dory",
+            "is_live": false,
+            "cate_type": "vothuat"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-1f97e3bc9b_532bc410_20260521.png?v=532bc410",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "bonmua-db77c9114a",
           "name": "SmackDown vs SmackDown | 07:00 23/05",
