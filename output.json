@@ -685,7 +685,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (8 LIVE)",
+      "name": "⚽ Bóng Đá (9 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1468,10 +1468,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -1486,7 +1486,25 @@
                     {
                       "id": "st-6c232e07d3",
                       "name": "KT",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-69b7eea853",
+                          "name": "A Tai",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pull.globalcdnnetworksc2031.info/str01/blv-gio-tai-fb/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://bonmuatv.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -1501,7 +1519,7 @@
             "logo_b": "https://upload.wikimedia.org/wikipedia/en/thumb/b/bd/FC_Nasaf_logo.svg/1280px-FC_Nasaf_logo.svg.png",
             "time": "21:00 21/05",
             "blv": "A Tai",
-            "is_live": false,
+            "is_live": true,
             "cate_name": "Bóng đá"
           },
           "image": {
