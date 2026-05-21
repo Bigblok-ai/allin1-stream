@@ -685,7 +685,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -757,77 +757,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-926ec030f2_5eb770ca_20260521.png?v=5eb770ca",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "bonmua-583f0f1654",
-          "name": "Ulanqab Qingnianren vs Beijing Pengrui | 12:00 21/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-583f0f1654",
-              "name": "BonMuaTV",
-              "contents": [
-                {
-                  "id": "ct-583f0f1654",
-                  "name": "Ulanqab Qingnianren vs Beijing Pengrui",
-                  "streams": [
-                    {
-                      "id": "st-583f0f1654",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-c425feb341",
-                          "name": "Táo",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://pull.globalcdnnetworksc2031.info/str01/blv-tao-fb/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://bonmuatv.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Champions League",
-            "team_a": "Ulanqab Qingnianren",
-            "team_b": "Beijing Pengrui",
-            "logo_a": "https://static.flashscore.com/res/image/data/CneGQxEa-QqEmQfBU.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/W4katgDa-QLkFW3wf.png",
-            "time": "12:00 21/05",
-            "blv": "Táo",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/bonmua-stream/refs/heads/main/thumbs/bonmua-583f0f1654_e09abb50_20260521.png?v=e09abb50",
             "width": 1600,
             "height": 1200
           }
@@ -2892,11 +2821,11 @@
                       "name": "QC",
                       "stream_links": [
                         {
-                          "id": "lnk-75feca2dee",
+                          "id": "lnk-2a9bebe48a",
                           "name": "Link FHD",
                           "type": "hls",
                           "default": true,
-                          "url": "https://ahghndtkyqmm-pull.bpmedialive.com/quechoa/blv_vanminh.m3u8",
+                          "url": "https://ahghndtkyqmm-pull.bpmedialive.com/quechoa/blv_quechoa_1.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -2927,7 +2856,7 @@
             "logo_b": "https://media.api-sports.io/football/teams/4235.png",
             "time": "15:30",
             "date": "22/05",
-            "blv": "VĂN MINH",
+            "blv": "HẠT MÍT",
             "is_live": false,
             "sport_slug": "bong-da"
           },
@@ -4077,7 +4006,7 @@
     },
     {
       "id": "grp-cầu-lông",
-      "name": "🏸 Cầu Lông (1 LIVE)",
+      "name": "🏸 Cầu Lông (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -4161,10 +4090,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -4179,7 +4108,25 @@
                     {
                       "id": "st-980fe66629",
                       "name": "HQ",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-eae8482cb7",
+                          "name": "BLV PHAN BÁCH",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanchuot/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -4194,7 +4141,7 @@
             "logo_b": "https://static.flashscore.com/res/image/data/O2nuZwRp-vaAM5VhK.png",
             "time": "15:30 21/05",
             "blv": "BLV PHAN BÁCH",
-            "is_live": false,
+            "is_live": true,
             "sport_slug": "cau-long"
           },
           "image": {
