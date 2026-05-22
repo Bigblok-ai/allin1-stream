@@ -685,7 +685,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -762,6 +762,116 @@
           }
         },
         {
+          "id": "hqlive-559fad245e",
+          "name": "Cruz Azul vs U.N.A.M. - Pumas | 09:00 22/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-559fad245e",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-559fad245e",
+                  "name": "Cruz Azul vs U.N.A.M. - Pumas",
+                  "streams": [
+                    {
+                      "id": "st-559fad245e",
+                      "name": "HQ",
+                      "stream_links": [
+                        {
+                          "id": "lnk-f6231c6549",
+                          "name": "BLV PHAN CA",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanca/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-f1a98a9ee0",
+              "name": "XayConTV",
+              "contents": [
+                {
+                  "id": "ct-f1a98a9ee0",
+                  "name": "Cruz Azul vs U.N.A.M. - Pumas",
+                  "streams": [
+                    {
+                      "id": "st-f1a98a9ee0",
+                      "name": "Xaycon - BLV Văn Tích",
+                      "stream_links": [
+                        {
+                          "id": "lnk-22f0d2332d",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://xclive.yarncdn.live/live/xctv_blv_vantich/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.xaycon3.live/"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://sv2.xaycon3.live"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Liga MX",
+            "team_a": "Cruz Azul",
+            "team_b": "U.N.A.M. - Pumas",
+            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQi4xNkHyv3vyiYqX7HSZ5whQjvMJVYJlF3MQ&s",
+            "logo_b": "https://media.api-sports.io/football/teams/2286.png",
+            "time": "09:00 22/05",
+            "blv": "BLV PHAN CA",
+            "is_live": true,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Cruz Azul_U.N.A.M. - Pumas_09-00 22-05_a5cd3487_20260522.png?v=a5cd3487",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "xc-f63855872c",
           "name": "Racing Club vs Caracas FC | 07:00 22/05",
           "type": "single",
@@ -833,98 +943,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/xaycon-stream/refs/heads/main/thumbs/xc-f63855872c_2ace7ebf_20260522.png?v=2ace7ebf",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "hqlive-559fad245e",
-          "name": "Cruz Azul vs U.N.A.M. - Pumas | 09:00 22/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-559fad245e",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-559fad245e",
-                  "name": "Cruz Azul vs U.N.A.M. - Pumas",
-                  "streams": [
-                    {
-                      "id": "st-559fad245e",
-                      "name": "HQ",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "src-f1a98a9ee0",
-              "name": "XayConTV",
-              "contents": [
-                {
-                  "id": "ct-f1a98a9ee0",
-                  "name": "Cruz Azul vs U.N.A.M. - Pumas",
-                  "streams": [
-                    {
-                      "id": "st-f1a98a9ee0",
-                      "name": "Xaycon - BLV Văn Tích",
-                      "stream_links": [
-                        {
-                          "id": "lnk-22f0d2332d",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://xclive.yarncdn.live/live/xctv_blv_vantich/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.xaycon3.live/"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://sv2.xaycon3.live"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Liga MX",
-            "team_a": "Cruz Azul",
-            "team_b": "U.N.A.M. - Pumas",
-            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQi4xNkHyv3vyiYqX7HSZ5whQjvMJVYJlF3MQ&s",
-            "logo_b": "https://media.api-sports.io/football/teams/2286.png",
-            "time": "09:00 22/05",
-            "blv": "BLV PHAN CA",
-            "is_live": false,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Cruz Azul_U.N.A.M. - Pumas_09-00 22-05_a5cd3487_20260522.png?v=a5cd3487",
             "width": 1600,
             "height": 1200
           }
@@ -3775,7 +3793,7 @@
     },
     {
       "id": "grp-cầu-lông",
-      "name": "🏸 Cầu Lông (1 LIVE)",
+      "name": "🏸 Cầu Lông (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -3859,10 +3877,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -3877,7 +3895,25 @@
                     {
                       "id": "st-f96d5070c4",
                       "name": "HQ",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-ee33939914",
+                          "name": "BLV PHAN TỪ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phantu/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -3892,7 +3928,7 @@
             "logo_b": "https://static.flashscore.com/res/image/data/O2nuZwRp-vaAM5VhK.png",
             "time": "09:00 22/05",
             "blv": "BLV PHAN TỪ",
-            "is_live": false,
+            "is_live": true,
             "sport_slug": "cau-long"
           },
           "image": {
