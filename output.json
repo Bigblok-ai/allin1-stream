@@ -1068,6 +1068,41 @@
                   ]
                 }
               ]
+            },
+            {
+              "id": "src-fdec3e49e7",
+              "name": "BonMuaTV",
+              "contents": [
+                {
+                  "id": "ct-fdec3e49e7",
+                  "name": "Thể Công Viettel vs PVF CAND",
+                  "streams": [
+                    {
+                      "id": "st-fdec3e49e7",
+                      "name": "Bonmua - Pháo",
+                      "stream_links": [
+                        {
+                          "id": "lnk-3575da2709",
+                          "name": "Pháo",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pull.globalcdnnetworksc2031.info/str01/blv-phao-fb/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://bonmuatv.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
             }
           ],
           "org_metadata": {
@@ -2507,6 +2542,59 @@
           }
         },
         {
+          "id": "hqlive-9800e6bc93",
+          "name": "Auckland vs Sydney | 15:10 23/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-9800e6bc93",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-9800e6bc93",
+                  "name": "Auckland vs Sydney",
+                  "streams": [
+                    {
+                      "id": "st-9800e6bc93",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "A-League",
+            "team_a": "Auckland",
+            "team_b": "Sydney",
+            "logo_a": "https://media.api-sports.io/football/teams/24608.png",
+            "logo_b": "https://media.api-sports.io/football/teams/943.png",
+            "time": "15:10 23/05",
+            "blv": "BLV PHAN MÃ",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Auckland_Sydney_15-10 23-05_23b40b81_20260522.png?v=23b40b81",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "qc-fffbeab3b4",
           "name": "China PR U17 vs Japan U17 | 00:00 23/05",
           "type": "single",
@@ -3348,7 +3436,7 @@
     },
     {
       "id": "grp-tennis",
-      "name": "🎾 Tennis",
+      "name": "🎾 Tennis (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -3361,10 +3449,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -3379,7 +3467,25 @@
                     {
                       "id": "st-71e790017c",
                       "name": "HQ",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-f6231c6549",
+                          "name": "BLV PHAN CA",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanca/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -3394,7 +3500,7 @@
             "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Road_2_Australia_-_Navone_V_Burruchaga_Final_-_BugWarp_206_%28cropped%29.jpg/960px-Road_2_Australia_-_Navone_V_Burruchaga_Final_-_BugWarp_206_%28cropped%29.jpg",
             "time": "19:30 22/05",
             "blv": "BLV PHAN CA",
-            "is_live": false,
+            "is_live": true,
             "sport_slug": "tennis"
           },
           "image": {
