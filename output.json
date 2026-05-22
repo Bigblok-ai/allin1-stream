@@ -4897,11 +4897,121 @@
     },
     {
       "id": "grp-bóng-chuyền",
-      "name": "🏐 Bóng Chuyền",
+      "name": "🏐 Bóng Chuyền (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "gv-5698ef91f0",
+          "name": "Suwon City   vs Vietinbank | 17:00 22/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-5698ef91f0",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-5698ef91f0",
+                  "name": "Suwon City   vs Vietinbank",
+                  "streams": [
+                    {
+                      "id": "st-5698ef91f0",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-a455895958",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1779443890_hd/1779443890_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-5439d89ef9",
+              "name": "QuechoaTV",
+              "contents": [
+                {
+                  "id": "ct-5439d89ef9",
+                  "name": "Suwon City W vs Viettinbank ",
+                  "streams": [
+                    {
+                      "id": "st-5439d89ef9",
+                      "name": "Quechoa - VĂN MINH",
+                      "stream_links": [
+                        {
+                          "id": "lnk-75feca2dee",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ahghndtkyqmm-pull.bpmedialive.com/quechoa/blv_vanminh.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://quechoa10.live/"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://quechoa10.live"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "VTV Cup",
+            "team_a": "Suwon City  ",
+            "team_b": "Vietinbank",
+            "logo_a": "https://static.flashscore.com/res/image/data/EDhpvDCr-C8xz9kft.png",
+            "logo_b": "https://static.flashscore.com/res/image/empty-logo-team-share.gif",
+            "time": "17:00 22/05",
+            "blv": "BLV Điếc",
+            "is_live": true,
+            "cate_type": "bongchuyen"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-5698ef91f0_0e90ef8b_20260522.png?v=0e90ef8b",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "gv-176116ca8b",
           "name": "LP Bank Ninh Bình  vs Hanoi Tasco Auto | 20:00 22/05",
@@ -4969,82 +5079,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-176116ca8b_a1ad5003_20260522.png?v=a1ad5003",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "qc-5439d89ef9",
-          "name": "Suwon City W vs Viettinbank  | 17:00 22/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-5439d89ef9",
-              "name": "QuechoaTV",
-              "contents": [
-                {
-                  "id": "ct-5439d89ef9",
-                  "name": "Suwon City W vs Viettinbank ",
-                  "streams": [
-                    {
-                      "id": "st-5439d89ef9",
-                      "name": "QC",
-                      "stream_links": [
-                        {
-                          "id": "lnk-75feca2dee",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ahghndtkyqmm-pull.bpmedialive.com/quechoa/blv_vanminh.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://quechoa10.live/"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://quechoa10.live"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Cúp bóng chuyền nữ quốc tế VTV9 - Bình Điền 2026",
-            "team_a": "Suwon City W",
-            "team_b": "Viettinbank ",
-            "logo_a": "https://storage.quechoa2.live/logos/teams/1778833121372-igo7k1za-qmtm30d7.png",
-            "logo_b": "https://storage.quechoa2.live/logos/teams/1773868706402-viettinbank.png",
-            "time": "17:00",
-            "date": "22/05",
-            "blv": "VĂN MINH",
-            "is_live": false,
-            "sport_slug": "bong-chuyen"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/quechoa-stream/refs/heads/main/thumbs/qc-5439d89ef9_7edd0389_20260522.png?v=7edd0389",
             "width": 1600,
             "height": 1200
           }
