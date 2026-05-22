@@ -685,7 +685,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (7 LIVE)",
+      "name": "⚽ Bóng Đá (8 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1026,117 +1026,6 @@
           }
         },
         {
-          "id": "xc-69e8ffe4f7",
-          "name": "Spartak Varna vs Lokomotiv Sofia | 22:00 22/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-69e8ffe4f7",
-              "name": "XayConTV",
-              "contents": [
-                {
-                  "id": "ct-69e8ffe4f7",
-                  "name": "Spartak Varna vs Lokomotiv Sofia",
-                  "streams": [
-                    {
-                      "id": "st-69e8ffe4f7",
-                      "name": "XC",
-                      "stream_links": [
-                        {
-                          "id": "lnk-96278f5a95",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://xclive.yarncdn.live/live/xctv_blv_nguoikien/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.xaycon3.live/"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://sv2.xaycon3.live"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "src-f7c656acdf",
-              "name": "BonMuaTV",
-              "contents": [
-                {
-                  "id": "ct-f7c656acdf",
-                  "name": "Spartak Varna vs Lokomotiv Sofia",
-                  "streams": [
-                    {
-                      "id": "st-f7c656acdf",
-                      "name": "Bonmua - Mèo Béo",
-                      "stream_links": [
-                        {
-                          "id": "lnk-d5ac3bb39b",
-                          "name": "Mèo Béo",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://pull.globalcdnnetworksc2031.info/str01/blv-meo-beo-fb/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://bonmuatv.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "First League",
-            "team_a": "Spartak Varna",
-            "team_b": "Lokomotiv Sofia",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/en/e/e7/Spartak_Varna.png",
-            "logo_b": "https://media.api-sports.io/football/teams/1416.png",
-            "time": "22:00",
-            "date": "22/05",
-            "blv": "BLV Người Kiến",
-            "is_live": true,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/xaycon-stream/refs/heads/main/thumbs/xc-69e8ffe4f7_6e347d27_20260522.png?v=6e347d27",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "xc-0b6ebe3ddd",
           "name": "VPS vs HJK Helsinki | 23:00 22/05",
           "type": "single",
@@ -1355,6 +1244,77 @@
           }
         },
         {
+          "id": "bonmua-f7c656acdf",
+          "name": "Spartak Varna vs Lokomotiv Sofia | 22:00 22/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-f7c656acdf",
+              "name": "BonMuaTV",
+              "contents": [
+                {
+                  "id": "ct-f7c656acdf",
+                  "name": "Spartak Varna vs Lokomotiv Sofia",
+                  "streams": [
+                    {
+                      "id": "st-f7c656acdf",
+                      "name": "KT",
+                      "stream_links": [
+                        {
+                          "id": "lnk-d5ac3bb39b",
+                          "name": "Mèo Béo",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pull.globalcdnnetworksc2031.info/str01/blv-meo-beo-fb/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://bonmuatv.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "First League",
+            "team_a": "Spartak Varna",
+            "team_b": "Lokomotiv Sofia",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/en/e/e7/Spartak_Varna.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/en/thumb/9/91/Lokomotiv1929Sofia.png/250px-Lokomotiv1929Sofia.png",
+            "time": "22:00 22/05",
+            "blv": "Mèo Béo",
+            "is_live": true,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bonmua-stream/refs/heads/main/thumbs/bonmua-f7c656acdf_5d3af615_20260522.png?v=5d3af615",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "bonmua-f1204417a1",
           "name": "Future FC vs Ghazl El Mahallah | 00:00 23/05",
           "type": "single",
@@ -1362,10 +1322,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -1380,7 +1340,25 @@
                     {
                       "id": "st-f1204417a1",
                       "name": "KT",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-69b7eea853",
+                          "name": "A Tai",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pull.globalcdnnetworksc2031.info/str01/blv-gio-tai-fb/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://bonmuatv.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -1395,7 +1373,7 @@
             "logo_b": "https://upload.wikimedia.org/wikipedia/en/thumb/b/b0/Ghazl_El_Mahalla_SC_new_logo.png/250px-Ghazl_El_Mahalla_SC_new_logo.png",
             "time": "00:00 23/05",
             "blv": "A Tai",
-            "is_live": false,
+            "is_live": true,
             "cate_name": "Bóng đá"
           },
           "image": {
@@ -3174,6 +3152,77 @@
           }
         },
         {
+          "id": "gv-4feb37fdf0",
+          "name": "FK Makhachkala vs Ural S.r. | 20:00 23/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-4feb37fdf0",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-4feb37fdf0",
+                  "name": "FK Makhachkala vs Ural S.r.",
+                  "streams": [
+                    {
+                      "id": "st-4feb37fdf0",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-e6cf87aad8",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1779466922_hd/1779466922_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "VĐQG Nga",
+            "team_a": "FK Makhachkala",
+            "team_b": "Ural S.r.",
+            "logo_a": "https://images.keovip88.net/images/teams/fk-makhachkala.png",
+            "logo_b": "https://images.keovip88.net/images/teams/ural-sverdlovsk-oblast.png",
+            "time": "20:00 23/05",
+            "blv": "BLV Mason",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-4feb37fdf0_a33ace27_20260522.png?v=a33ace27",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "qc-4b1c1b4e2c",
           "name": "Trabzonspor vs Konyaspor | 00:45 23/05",
           "type": "single",
@@ -4496,41 +4545,6 @@
                             {
                               "key": "Referer",
                               "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "src-161d9b9060",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-161d9b9060",
-                  "name": "Olympiacos vs Fenerbahce",
-                  "streams": [
-                    {
-                      "id": "st-161d9b9060",
-                      "name": "Hoiquan - BLV PHAN MÃO",
-                      "stream_links": [
-                        {
-                          "id": "lnk-c2f1d53f75",
-                          "name": "BLV PHAN MÃO",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanbap/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
                             },
                             {
                               "key": "User-Agent",
