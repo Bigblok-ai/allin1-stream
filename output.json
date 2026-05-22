@@ -685,7 +685,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (5 LIVE)",
+      "name": "⚽ Bóng Đá (6 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -868,6 +868,82 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/xaycon-stream/refs/heads/main/thumbs/xc-4e4d36e3fc_435f8fb3_20260522.png?v=435f8fb3",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-69e8ffe4f7",
+          "name": "Spartak Varna vs Lokomotiv Sofia | 22:00 22/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-69e8ffe4f7",
+              "name": "XayConTV",
+              "contents": [
+                {
+                  "id": "ct-69e8ffe4f7",
+                  "name": "Spartak Varna vs Lokomotiv Sofia",
+                  "streams": [
+                    {
+                      "id": "st-69e8ffe4f7",
+                      "name": "XC",
+                      "stream_links": [
+                        {
+                          "id": "lnk-96278f5a95",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://xclive.yarncdn.live/live/xctv_blv_nguoikien/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.xaycon3.live/"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://sv2.xaycon3.live"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "First League",
+            "team_a": "Spartak Varna",
+            "team_b": "Lokomotiv Sofia",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/en/e/e7/Spartak_Varna.png",
+            "logo_b": "https://media.api-sports.io/football/teams/1416.png",
+            "time": "22:00",
+            "date": "22/05",
+            "blv": "BLV Người Kiến",
+            "is_live": true,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/xaycon-stream/refs/heads/main/thumbs/xc-69e8ffe4f7_6e347d27_20260522.png?v=6e347d27",
             "width": 1600,
             "height": 1200
           }
@@ -3506,82 +3582,6 @@
           }
         },
         {
-          "id": "xc-69e8ffe4f7",
-          "name": "Spartak Varna vs Lokomotiv Sofia | 22:00 22/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-69e8ffe4f7",
-              "name": "XayConTV",
-              "contents": [
-                {
-                  "id": "ct-69e8ffe4f7",
-                  "name": "Spartak Varna vs Lokomotiv Sofia",
-                  "streams": [
-                    {
-                      "id": "st-69e8ffe4f7",
-                      "name": "XC",
-                      "stream_links": [
-                        {
-                          "id": "lnk-96278f5a95",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://xclive.yarncdn.live/live/xctv_blv_nguoikien/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.xaycon3.live/"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://sv2.xaycon3.live"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "First League",
-            "team_a": "Spartak Varna",
-            "team_b": "Lokomotiv Sofia",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/en/e/e7/Spartak_Varna.png",
-            "logo_b": "https://media.api-sports.io/football/teams/1416.png",
-            "time": "22:00",
-            "date": "22/05",
-            "blv": "BLV Người Kiến",
-            "is_live": false,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/xaycon-stream/refs/heads/main/thumbs/xc-69e8ffe4f7_6e347d27_20260522.png?v=6e347d27",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "xc-0b6ebe3ddd",
           "name": "VPS vs HJK Helsinki | 23:00 22/05",
           "type": "single",
@@ -4185,7 +4185,7 @@
     },
     {
       "id": "grp-bóng-rổ",
-      "name": "🏀 Bóng Rổ",
+      "name": "🏀 Bóng Rổ (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -4198,10 +4198,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -4239,6 +4239,41 @@
                   ]
                 }
               ]
+            },
+            {
+              "id": "src-161d9b9060",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-161d9b9060",
+                  "name": "Olympiacos vs Fenerbahce",
+                  "streams": [
+                    {
+                      "id": "st-161d9b9060",
+                      "name": "Hoiquan - BLV PHAN MÃO",
+                      "stream_links": [
+                        {
+                          "id": "lnk-c2f1d53f75",
+                          "name": "BLV PHAN MÃO",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanbap/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
             }
           ],
           "org_metadata": {
@@ -4249,7 +4284,7 @@
             "logo_b": "https://static.flashscore.com/res/image/data/zPhuZDil-4O6TfMXl.png",
             "time": "22:00 22/05",
             "blv": "BLV Tôm",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "basketball"
           },
           "image": {
