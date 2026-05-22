@@ -1101,10 +1101,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -1152,7 +1152,7 @@
             "logo_b": "https://media.api-sports.io/football/teams/2865.png",
             "start_time": "2026-05-22T22:40:00",
             "blv": "BLV Tiểu Hạc",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football"
           },
           "image": {
@@ -5061,83 +5061,11 @@
     },
     {
       "id": "grp-bóng-chuyền",
-      "name": "🏐 Bóng Chuyền (1 LIVE)",
+      "name": "🏐 Bóng Chuyền",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
-      "channels": [
-        {
-          "id": "gv-176116ca8b",
-          "name": "LP Bank Ninh Bình  vs Hanoi Tasco Auto | 20:00 22/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-176116ca8b",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-176116ca8b",
-                  "name": "LP Bank Ninh Bình  vs Hanoi Tasco Auto",
-                  "streams": [
-                    {
-                      "id": "st-176116ca8b",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-187e2c2cce",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1779437940_hd/1779437940_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "VTV Cup",
-            "team_a": "LP Bank Ninh Bình ",
-            "team_b": "Hanoi Tasco Auto",
-            "logo_a": "https://static.flashscore.com/res/image/data/t25eVgWg-ABA0WcAD.png",
-            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQOe7s4iT8vz-yBkDR4Squs0YJC1LQgcdCAVw&s",
-            "time": "20:00 22/05",
-            "blv": "blv-sun",
-            "is_live": true,
-            "cate_type": "bongchuyen"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-176116ca8b_a1ad5003_20260522.png?v=a1ad5003",
-            "width": 1600,
-            "height": 1200
-          }
-        }
-      ]
+      "channels": []
     },
     {
       "id": "grp-đua-xe-f1",
