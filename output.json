@@ -685,7 +685,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (5 LIVE)",
+      "name": "⚽ Bóng Đá (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1197,77 +1197,6 @@
           }
         },
         {
-          "id": "bonmua-f1204417a1",
-          "name": "Future FC vs Ghazl El Mahallah | 00:00 23/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-f1204417a1",
-              "name": "BonMuaTV",
-              "contents": [
-                {
-                  "id": "ct-f1204417a1",
-                  "name": "Future FC vs Ghazl El Mahallah",
-                  "streams": [
-                    {
-                      "id": "st-f1204417a1",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-69b7eea853",
-                          "name": "A Tai",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://pull.globalcdnnetworksc2031.info/str01/blv-gio-tai-fb/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://bonmuatv.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Premier League",
-            "team_a": "Future FC",
-            "team_b": "Ghazl El Mahallah",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/fr/f/ff/Logo_du_Future_FC.png",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/en/thumb/b/b0/Ghazl_El_Mahalla_SC_new_logo.png/250px-Ghazl_El_Mahalla_SC_new_logo.png",
-            "time": "00:00 23/05",
-            "blv": "A Tai",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/bonmua-stream/refs/heads/main/thumbs/bonmua-f1204417a1_e3f52e0a_20260523.png?v=e3f52e0a",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "hqlive-5855283e20",
           "name": "Union Santa Fe vs Independiente | 06:00 23/05",
           "type": "single",
@@ -1435,6 +1364,41 @@
                             {
                               "key": "Origin",
                               "value": "https://sv2.xaycon3.live"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-62459f4e22",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-62459f4e22",
+                  "name": "Mexico vs Ghana",
+                  "streams": [
+                    {
+                      "id": "st-62459f4e22",
+                      "name": "Bugio - BLV Tiểu Hạc",
+                      "stream_links": [
+                        {
+                          "id": "lnk-02ff9c6e74",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_tieuhac/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
                             },
                             {
                               "key": "User-Agent",
