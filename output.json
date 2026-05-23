@@ -685,7 +685,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (11 LIVE)",
+      "name": "⚽ Bóng Đá (12 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -958,6 +958,41 @@
                   ]
                 }
               ]
+            },
+            {
+              "id": "src-f9582aed2f",
+              "name": "BonMuaTV",
+              "contents": [
+                {
+                  "id": "ct-f9582aed2f",
+                  "name": "Real Madrid vs Athletic Bilbao",
+                  "streams": [
+                    {
+                      "id": "st-f9582aed2f",
+                      "name": "Bonmua - Cháo Quẩy",
+                      "stream_links": [
+                        {
+                          "id": "lnk-7dbcd1a4f5",
+                          "name": "Cháo Quẩy",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pull.globalcdnnetworksc2031.info/str01/blv-chao-quay-fb/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://bonmuatv.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
             }
           ],
           "org_metadata": {
@@ -1165,6 +1200,41 @@
                             {
                               "key": "Referer",
                               "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-734c50a830",
+              "name": "BonMuaTV",
+              "contents": [
+                {
+                  "id": "ct-734c50a830",
+                  "name": "Valencia vs Barcelona",
+                  "streams": [
+                    {
+                      "id": "st-734c50a830",
+                      "name": "Bonmua - A Mập",
+                      "stream_links": [
+                        {
+                          "id": "lnk-e0f9603a0b",
+                          "name": "A Mập",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pull.globalcdnnetworksc2031.info/str01/blv-a-map-fb/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://bonmuatv.com/"
                             },
                             {
                               "key": "User-Agent",
@@ -1472,7 +1542,7 @@
                   "streams": [
                     {
                       "id": "st-9b76f656dd",
-                      "name": "Quechoa - PUMA, VỎ QUÝT",
+                      "name": "Quechoa - PUMA",
                       "stream_links": [
                         {
                           "id": "lnk-6cafe33b0c",
@@ -1903,10 +1973,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -1921,7 +1991,25 @@
                     {
                       "id": "st-fb769e67cf",
                       "name": "KT",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-7dbcd1a4f5",
+                          "name": "Cháo Quẩy",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pull.globalcdnnetworksc2031.info/str01/blv-chao-quay-fb/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://bonmuatv.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -1936,7 +2024,7 @@
             "logo_b": "https://upload.wikimedia.org/wikipedia/en/thumb/f/f9/Atletico_Madrid_Logo_2024.svg/960px-Atletico_Madrid_Logo_2024.svg.png",
             "time": "02:00 24/05",
             "blv": "Cháo Quẩy",
-            "is_live": false,
+            "is_live": true,
             "cate_name": "Bóng đá"
           },
           "image": {
