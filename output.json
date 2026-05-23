@@ -685,7 +685,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (3 LIVE)",
+      "name": "⚽ Bóng Đá (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -870,6 +870,121 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-513227ba05_eb2d3f86_20260523.png?v=eb2d3f86",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "qc-ab1303f443",
+          "name": "Persib Bandung vs Persijap | 16:00 23/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-ab1303f443",
+              "name": "QuechoaTV",
+              "contents": [
+                {
+                  "id": "ct-ab1303f443",
+                  "name": "Persib Bandung vs Persijap",
+                  "streams": [
+                    {
+                      "id": "st-ab1303f443",
+                      "name": "QC",
+                      "stream_links": [
+                        {
+                          "id": "lnk-67419b1cbc",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ahghndtkyqmm-pull.bpmedialive.com/quechoa/blv_khoaitay.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://quechoa10.live/"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://quechoa10.live"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-0fc7f158b8",
+              "name": "XayConTV",
+              "contents": [
+                {
+                  "id": "ct-0fc7f158b8",
+                  "name": "Persib Bandung vs Persijap",
+                  "streams": [
+                    {
+                      "id": "st-0fc7f158b8",
+                      "name": "Xaycon - BLV Văn Tích",
+                      "stream_links": [
+                        {
+                          "id": "lnk-22f0d2332d",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://xclive.yarncdn.live/live/xctv_blv_vantich/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.xaycon3.live/"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://sv2.xaycon3.live"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Liga 1",
+            "team_a": "Persib Bandung",
+            "team_b": "Persijap",
+            "logo_a": "https://media.api-sports.io/football/teams/2445.png",
+            "logo_b": "https://media.api-sports.io/football/teams/11132.png",
+            "time": "16:00",
+            "date": "23/05",
+            "blv": "VỎ QUÝT",
+            "is_live": true,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/quechoa-stream/refs/heads/main/thumbs/qc-ab1303f443_bad91fb7_20260523.png?v=bad91fb7",
             "width": 1600,
             "height": 1200
           }
@@ -3806,121 +3921,6 @@
           }
         },
         {
-          "id": "qc-ab1303f443",
-          "name": "Persib Bandung vs Persijap | 16:00 23/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-ab1303f443",
-              "name": "QuechoaTV",
-              "contents": [
-                {
-                  "id": "ct-ab1303f443",
-                  "name": "Persib Bandung vs Persijap",
-                  "streams": [
-                    {
-                      "id": "st-ab1303f443",
-                      "name": "QC",
-                      "stream_links": [
-                        {
-                          "id": "lnk-67419b1cbc",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ahghndtkyqmm-pull.bpmedialive.com/quechoa/blv_khoaitay.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://quechoa10.live/"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://quechoa10.live"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "src-0fc7f158b8",
-              "name": "XayConTV",
-              "contents": [
-                {
-                  "id": "ct-0fc7f158b8",
-                  "name": "Persib Bandung vs Persijap",
-                  "streams": [
-                    {
-                      "id": "st-0fc7f158b8",
-                      "name": "Xaycon - BLV Văn Tích",
-                      "stream_links": [
-                        {
-                          "id": "lnk-22f0d2332d",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://xclive.yarncdn.live/live/xctv_blv_vantich/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.xaycon3.live/"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://sv2.xaycon3.live"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Liga 1",
-            "team_a": "Persib Bandung",
-            "team_b": "Persijap",
-            "logo_a": "https://media.api-sports.io/football/teams/2445.png",
-            "logo_b": "https://media.api-sports.io/football/teams/11132.png",
-            "time": "16:00",
-            "date": "23/05",
-            "blv": "VỎ QUÝT",
-            "is_live": false,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/quechoa-stream/refs/heads/main/thumbs/qc-ab1303f443_bad91fb7_20260523.png?v=bad91fb7",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "qc-04428dab96",
           "name": "Binh Duong vs Song Lam Nghe An | 18:00 24/05",
           "type": "single",
@@ -5617,8 +5617,8 @@
           }
         },
         {
-          "id": "hqlive-b5b4923b7d",
-          "name": "Cleveland Cavaliers vs New York Knicks | 07:00 24/05",
+          "id": "gv-dbf17c056d",
+          "name": "Cavaliers vs Knicks | 07:00 24/05",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -5632,17 +5632,35 @@
           ],
           "sources": [
             {
-              "id": "src-b5b4923b7d",
-              "name": "HoiQuanTV",
+              "id": "src-dbf17c056d",
+              "name": "GiovangTV",
               "contents": [
                 {
-                  "id": "ct-b5b4923b7d",
-                  "name": "Cleveland Cavaliers vs New York Knicks",
+                  "id": "ct-dbf17c056d",
+                  "name": "Cavaliers vs Knicks",
                   "streams": [
                     {
-                      "id": "st-b5b4923b7d",
-                      "name": "HQ",
-                      "stream_links": []
+                      "id": "st-dbf17c056d",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-2d1271dcec",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1779524166_hd/1779524166_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -5651,20 +5669,20 @@
           ],
           "org_metadata": {
             "league": "NBA",
-            "team_a": "Cleveland Cavaliers",
-            "team_b": "New York Knicks",
-            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSON_xAXqlmVA6CaABNgxtXMaVaFZIg65IPrg&s",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/en/2/25/New_York_Knicks_logo.svg",
+            "team_a": "Cavaliers",
+            "team_b": "Knicks",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/ro/thumb/6/6a/ClevelandCavaliersMainLogo.svg/250px-ClevelandCavaliersMainLogo.svg.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/en/thumb/2/25/New_York_Knicks_logo.svg/1280px-New_York_Knicks_logo.svg.png",
             "time": "07:00 24/05",
-            "blv": "BLV PHAN MÃO",
+            "blv": "BLV Ben, blv-lac",
             "is_live": false,
-            "sport_slug": "bong-ro"
+            "cate_type": "basketball"
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Cleveland Cavaliers_New York Knicks_07-00 24-05_0d71be6e_20260523.png?v=0d71be6e",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-dbf17c056d_f39880c4_20260523.png?v=f39880c4",
             "width": 1600,
             "height": 1200
           }
