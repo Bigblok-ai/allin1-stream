@@ -685,11 +685,195 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (3 LIVE)",
+      "name": "⚽ Bóng Đá (5 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "gv-513227ba05",
+          "name": "Auckland FC vs Sydney FC | 15:10 23/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-513227ba05",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-513227ba05",
+                  "name": "Auckland FC vs Sydney FC",
+                  "streams": [
+                    {
+                      "id": "st-513227ba05",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-0f7925d2bc",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1779466633_hd/1779466633_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-9800e6bc93",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-9800e6bc93",
+                  "name": "Auckland vs Sydney",
+                  "streams": [
+                    {
+                      "id": "st-9800e6bc93",
+                      "name": "Hoiquan - BLV PHAN MÃ",
+                      "stream_links": [
+                        {
+                          "id": "lnk-c42241b387",
+                          "name": "BLV PHAN MÃ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanma/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-0069605647",
+              "name": "QuechoaTV",
+              "contents": [
+                {
+                  "id": "ct-0069605647",
+                  "name": "Auckland vs Sydney",
+                  "streams": [
+                    {
+                      "id": "st-0069605647",
+                      "name": "Quechoa - CHÈ XANH",
+                      "stream_links": [
+                        {
+                          "id": "lnk-bc172466c0",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ahghndtkyqmm-pull.bpmedialive.com/quechoa/blv2.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://quechoa10.live/"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://quechoa10.live"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-db9a31f406",
+              "name": "XayConTV",
+              "contents": [
+                {
+                  "id": "ct-db9a31f406",
+                  "name": "Auckland vs Sydney",
+                  "streams": [
+                    {
+                      "id": "st-db9a31f406",
+                      "name": "Xaycon - BLV Bịp Con",
+                      "stream_links": [
+                        {
+                          "id": "lnk-30319ba8f3",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://xclive.yarncdn.live/live/xctv_blv_bipcon/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.xaycon3.live/"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://sv2.xaycon3.live"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "VĐQG Úc",
+            "team_a": "Auckland FC",
+            "team_b": "Sydney FC",
+            "logo_a": "https://images.keovip88.net/images/teams/auckland-fc.png",
+            "logo_b": "https://images.keovip88.net/images/teams/sydney-fc.png",
+            "time": "15:10 23/05",
+            "blv": "BLV Hợi",
+            "is_live": true,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-513227ba05_eb2d3f86_20260523.png?v=eb2d3f86",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "hqlive-abb2991a2d",
           "name": "Avispa Fukuoka vs Vissel Kobe | 12:00 23/05",
@@ -757,6 +941,77 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Avispa Fukuoka_Vissel Kobe_12-00 23-05_da91f2a6_20260523.png?v=da91f2a6",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "bg-aea94dc1e6",
+          "name": "Kashima vs FC Tokyo | 15:30 23/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-aea94dc1e6",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-aea94dc1e6",
+                  "name": "Kashima vs FC Tokyo",
+                  "streams": [
+                    {
+                      "id": "st-aea94dc1e6",
+                      "name": "BG",
+                      "stream_links": [
+                        {
+                          "id": "lnk-431938c7dc",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_tieubao/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "J1 League",
+            "team_a": "Kashima",
+            "team_b": "FC Tokyo",
+            "logo_a": "https://media.api-sports.io/football/teams/290.png",
+            "logo_b": "https://media.api-sports.io/football/teams/292.png",
+            "start_time": "2026-05-23T15:30:00",
+            "blv": "BLV Tiểu Bảo",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-aea94dc1e6_6d3d1e8f_20260523.png?v=6d3d1e8f",
             "width": 1600,
             "height": 1200
           }
@@ -899,155 +1154,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/bonmua-stream/refs/heads/main/thumbs/bonmua-2b3ef33f82_37976b2f_20260523.png?v=37976b2f",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-513227ba05",
-          "name": "Auckland FC vs Sydney FC | 15:10 23/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-513227ba05",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-513227ba05",
-                  "name": "Auckland FC vs Sydney FC",
-                  "streams": [
-                    {
-                      "id": "st-513227ba05",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-0f7925d2bc",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1779466633_hd/1779466633_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "src-0069605647",
-              "name": "QuechoaTV",
-              "contents": [
-                {
-                  "id": "ct-0069605647",
-                  "name": "Auckland vs Sydney",
-                  "streams": [
-                    {
-                      "id": "st-0069605647",
-                      "name": "Quechoa - CHÈ XANH",
-                      "stream_links": [
-                        {
-                          "id": "lnk-bc172466c0",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ahghndtkyqmm-pull.bpmedialive.com/quechoa/blv2.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://quechoa10.live/"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://quechoa10.live"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "src-db9a31f406",
-              "name": "XayConTV",
-              "contents": [
-                {
-                  "id": "ct-db9a31f406",
-                  "name": "Auckland vs Sydney",
-                  "streams": [
-                    {
-                      "id": "st-db9a31f406",
-                      "name": "Xaycon - BLV Bịp Con",
-                      "stream_links": [
-                        {
-                          "id": "lnk-30319ba8f3",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://xclive.yarncdn.live/live/xctv_blv_bipcon/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.xaycon3.live/"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://sv2.xaycon3.live"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "VĐQG Úc",
-            "team_a": "Auckland FC",
-            "team_b": "Sydney FC",
-            "logo_a": "https://images.keovip88.net/images/teams/auckland-fc.png",
-            "logo_b": "https://images.keovip88.net/images/teams/sydney-fc.png",
-            "time": "15:10 23/05",
-            "blv": "BLV Hợi",
-            "is_live": false,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-513227ba05_eb2d3f86_20260523.png?v=eb2d3f86",
             "width": 1600,
             "height": 1200
           }
@@ -3802,117 +3908,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/quechoa-stream/refs/heads/main/thumbs/qc-ae184d3734_d53a55e0_20260523.png?v=d53a55e0",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "qc-0f79d18293",
-          "name": "Kashima vs FC Tokyo | 15:30 23/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-0f79d18293",
-              "name": "QuechoaTV",
-              "contents": [
-                {
-                  "id": "ct-0f79d18293",
-                  "name": "Kashima vs FC Tokyo",
-                  "streams": [
-                    {
-                      "id": "st-0f79d18293",
-                      "name": "QC",
-                      "stream_links": [
-                        {
-                          "id": "lnk-75feca2dee",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ahghndtkyqmm-pull.bpmedialive.com/quechoa/blv_vanminh.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://quechoa10.live/"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://quechoa10.live"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "src-aea94dc1e6",
-              "name": "BugioTV",
-              "contents": [
-                {
-                  "id": "ct-aea94dc1e6",
-                  "name": "Kashima vs FC Tokyo",
-                  "streams": [
-                    {
-                      "id": "st-aea94dc1e6",
-                      "name": "Bugio - BLV Tiểu Bảo",
-                      "stream_links": [
-                        {
-                          "id": "lnk-431938c7dc",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_tieubao/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv1.bugio9.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "J1 League",
-            "team_a": "Kashima",
-            "team_b": "FC Tokyo",
-            "logo_a": "https://media.api-sports.io/football/teams/290.png",
-            "logo_b": "https://media.api-sports.io/football/teams/292.png",
-            "time": "15:30",
-            "date": "23/05",
-            "blv": "VĂN MINH",
-            "is_live": false,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/quechoa-stream/refs/heads/main/thumbs/qc-0f79d18293_c4a34094_20260523.png?v=c4a34094",
             "width": 1600,
             "height": 1200
           }
