@@ -685,7 +685,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (3 LIVE)",
+      "name": "⚽ Bóng Đá (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -903,6 +903,77 @@
           }
         },
         {
+          "id": "gv-852e581fd8",
+          "name": "Auckland Tuatara vs Tauranga Whai | 14:30 23/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-852e581fd8",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-852e581fd8",
+                  "name": "Auckland Tuatara vs Tauranga Whai",
+                  "streams": [
+                    {
+                      "id": "st-852e581fd8",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-869a2da104",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1779467308_hd/1779467308_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "NBL",
+            "team_a": "Auckland Tuatara",
+            "team_b": "Tauranga Whai",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/en/d/d9/Auckland_tuatara_logo.jpg",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/en/e/ec/Whai_Basketball_logo.png?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=original",
+            "time": "14:30 23/05",
+            "blv": "blv-can",
+            "is_live": true,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-852e581fd8_a6d8d23e_20260523.png?v=a6d8d23e",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "bg-02b5b45ce7",
           "name": "Halmstad vs Orgryte IS | 20:00 23/05",
           "type": "single",
@@ -974,77 +1045,6 @@
           }
         },
         {
-          "id": "gv-852e581fd8",
-          "name": "Auckland Tuatara vs Tauranga Whai | 14:30 23/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-852e581fd8",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-852e581fd8",
-                  "name": "Auckland Tuatara vs Tauranga Whai",
-                  "streams": [
-                    {
-                      "id": "st-852e581fd8",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-869a2da104",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1779467308_hd/1779467308_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "NBL",
-            "team_a": "Auckland Tuatara",
-            "team_b": "Tauranga Whai",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/en/d/d9/Auckland_tuatara_logo.jpg",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/en/e/ec/Whai_Basketball_logo.png?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=original",
-            "time": "14:30 23/05",
-            "blv": "blv-can",
-            "is_live": false,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-852e581fd8_a6d8d23e_20260523.png?v=a6d8d23e",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "gv-513227ba05",
           "name": "Auckland FC vs Sydney FC | 15:10 23/05",
           "type": "single",
@@ -1081,6 +1081,45 @@
                             {
                               "key": "Referer",
                               "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-0069605647",
+              "name": "QuechoaTV",
+              "contents": [
+                {
+                  "id": "ct-0069605647",
+                  "name": "Auckland vs Sydney",
+                  "streams": [
+                    {
+                      "id": "st-0069605647",
+                      "name": "Quechoa - CHÈ XANH",
+                      "stream_links": [
+                        {
+                          "id": "lnk-bc172466c0",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ahghndtkyqmm-pull.bpmedialive.com/quechoa/blv2.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://quechoa10.live/"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://quechoa10.live"
                             },
                             {
                               "key": "User-Agent",
@@ -5560,7 +5599,7 @@
     },
     {
       "id": "grp-bóng-rổ",
-      "name": "🏀 Bóng Rổ",
+      "name": "🏀 Bóng Rổ (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -5573,10 +5612,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -5624,7 +5663,7 @@
             "logo_b": "https://static.flashscore.com/res/image/data/Y7fbrXg5-QDgyRBqE.png",
             "time": "14:30 23/05",
             "blv": "blv-can",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "basketball"
           },
           "image": {
@@ -6096,6 +6135,77 @@
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "gv-2e9339863a",
+          "name": "Giang Tô  vs VTV Bình Điền Long An | 20:00 23/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-2e9339863a",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-2e9339863a",
+                  "name": "Giang Tô  vs VTV Bình Điền Long An",
+                  "streams": [
+                    {
+                      "id": "st-2e9339863a",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-a0384cf5c7",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1779520263_hd/1779520263_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "VTV",
+            "team_a": "Giang Tô ",
+            "team_b": "VTV Bình Điền Long An",
+            "logo_a": "https://static.flashscore.com/res/image/data/8fKbdOyS-hzIVxGNk.png",
+            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzc9fOmXkUXVf-KqZbsR2bSRzsHH1VBglzbA&s",
+            "time": "20:00 23/05",
+            "blv": "blv-sun",
+            "is_live": false,
+            "cate_type": "bongchuyen"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-2e9339863a_30c1ee26_20260523.png?v=30c1ee26",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "qc-d240c8209a",
           "name": "Nữ Binh Chủng Thông Tin - BĐ19 vs Gunma Bank Green Wings W | 17:00 23/05",
