@@ -685,13 +685,13 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (4 LIVE)",
+      "name": "⚽ Bóng Đá (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
         {
-          "id": "gv-92abf2a0ea",
+          "id": "hqlive-abb2991a2d",
           "name": "Avispa Fukuoka vs Vissel Kobe | 12:00 23/05",
           "type": "single",
           "display": "thumbnail-only",
@@ -706,41 +706,6 @@
           ],
           "sources": [
             {
-              "id": "src-92abf2a0ea",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-92abf2a0ea",
-                  "name": "Avispa Fukuoka vs Vissel Kobe",
-                  "streams": [
-                    {
-                      "id": "st-92abf2a0ea",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-53fff75918",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1779441139_hd/1779441139_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
               "id": "src-abb2991a2d",
               "name": "HoiQuanTV",
               "contents": [
@@ -750,7 +715,7 @@
                   "streams": [
                     {
                       "id": "st-abb2991a2d",
-                      "name": "Hoiquan - BLV PHAN CA",
+                      "name": "HQ",
                       "stream_links": [
                         {
                           "id": "lnk-f6231c6549",
@@ -777,198 +742,21 @@
             }
           ],
           "org_metadata": {
-            "league": "VĐQG Nhật Bản",
+            "league": "J1 League",
             "team_a": "Avispa Fukuoka",
             "team_b": "Vissel Kobe",
-            "logo_a": "https://images.keovip88.net/images/teams/avispa-fukuoka.png",
-            "logo_b": "https://images.keovip88.net/images/teams/vissel-kobe.png",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/vi/a/a7/Avispa_Fukuoka_logo.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/8/8a/Vissel_Kobe_logo.svg",
             "time": "12:00 23/05",
-            "blv": "blv-tri",
+            "blv": "BLV PHAN CA",
             "is_live": true,
-            "cate_type": "football"
+            "sport_slug": "bong-da"
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-92abf2a0ea_b35fe5c6_20260523.png?v=b35fe5c6",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-31169b9ecf",
-          "name": "Sanfrecce Hiroshima vs Nagoya Grampus Eight | 12:00 23/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-31169b9ecf",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-31169b9ecf",
-                  "name": "Sanfrecce Hiroshima vs Nagoya Grampus Eight",
-                  "streams": [
-                    {
-                      "id": "st-31169b9ecf",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-8259a57b48",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1779441500_hd/1779441500_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "src-2b3ef33f82",
-              "name": "BonMuaTV",
-              "contents": [
-                {
-                  "id": "ct-2b3ef33f82",
-                  "name": "Sanfrecce Hiroshima vs Nagoya Grampus",
-                  "streams": [
-                    {
-                      "id": "st-2b3ef33f82",
-                      "name": "Bonmua - Táo",
-                      "stream_links": [
-                        {
-                          "id": "lnk-c425feb341",
-                          "name": "Táo",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://pull.globalcdnnetworksc2031.info/str01/blv-tao-fb/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://bonmuatv.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "VĐQG Nhật Bản",
-            "team_a": "Sanfrecce Hiroshima",
-            "team_b": "Nagoya Grampus Eight",
-            "logo_a": "https://images.keovip88.net/images/teams/hiroshima-sanfrecce.png",
-            "logo_b": "https://images.keovip88.net/images/teams/nagoya-grampus.png",
-            "time": "12:00 23/05",
-            "blv": "blv-bon",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-31169b9ecf_49a7074c_20260523.png?v=49a7074c",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-852e581fd8",
-          "name": "Auckland Tuatara vs Tauranga Whai | 14:30 23/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-852e581fd8",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-852e581fd8",
-                  "name": "Auckland Tuatara vs Tauranga Whai",
-                  "streams": [
-                    {
-                      "id": "st-852e581fd8",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-869a2da104",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1779467308_hd/1779467308_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "NBL",
-            "team_a": "Auckland Tuatara",
-            "team_b": "Tauranga Whai",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/en/d/d9/Auckland_tuatara_logo.jpg",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/en/e/ec/Whai_Basketball_logo.png?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=original",
-            "time": "14:30 23/05",
-            "blv": "blv-can",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-852e581fd8_a6d8d23e_20260523.png?v=a6d8d23e",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Avispa Fukuoka_Vissel Kobe_12-00 23-05_da91f2a6_20260523.png?v=da91f2a6",
             "width": 1600,
             "height": 1200
           }
@@ -1040,6 +828,77 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-02b5b45ce7_9acbaad7_20260523.png?v=9acbaad7",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "bonmua-2b3ef33f82",
+          "name": "Sanfrecce Hiroshima vs Nagoya Grampus | 12:00 23/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-2b3ef33f82",
+              "name": "BonMuaTV",
+              "contents": [
+                {
+                  "id": "ct-2b3ef33f82",
+                  "name": "Sanfrecce Hiroshima vs Nagoya Grampus",
+                  "streams": [
+                    {
+                      "id": "st-2b3ef33f82",
+                      "name": "KT",
+                      "stream_links": [
+                        {
+                          "id": "lnk-c425feb341",
+                          "name": "Táo",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pull.globalcdnnetworksc2031.info/str01/blv-tao-fb/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://bonmuatv.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "J1 League",
+            "team_a": "Sanfrecce Hiroshima",
+            "team_b": "Nagoya Grampus",
+            "logo_a": "https://img.uniscore.com/football/team/9dn1m1ghdp1moep/image/medium/dark",
+            "logo_b": "https://img.uniscore.com/football/team/v2y8m4zh915ql07/image/medium/dark",
+            "time": "12:00 23/05",
+            "blv": "Táo",
+            "is_live": true,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bonmua-stream/refs/heads/main/thumbs/bonmua-2b3ef33f82_37976b2f_20260523.png?v=37976b2f",
             "width": 1600,
             "height": 1200
           }
