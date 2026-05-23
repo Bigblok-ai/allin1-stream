@@ -1385,10 +1385,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -1436,7 +1436,7 @@
             "logo_b": "https://media.api-sports.io/football/teams/2166.png",
             "start_time": "2026-05-23T20:00:00",
             "blv": "BLV Lavie",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football"
           },
           "image": {
@@ -4616,7 +4616,7 @@
     },
     {
       "id": "grp-tennis",
-      "name": "🎾 Tennis (2 LIVE)",
+      "name": "🎾 Tennis (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -4771,10 +4771,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -4789,7 +4789,25 @@
                     {
                       "id": "st-cd0d1e28c7",
                       "name": "HQ",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-f6231c6549",
+                          "name": "BLV PHAN CA",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanca/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -4804,7 +4822,7 @@
             "logo_b": "https://upload.wikimedia.org/wikipedia/commons/c/c8/Learner_Tien_%282024_US_Open%29_04.jpg",
             "time": "20:00 23/05",
             "blv": "BLV PHAN CA",
-            "is_live": false,
+            "is_live": true,
             "sport_slug": "tennis"
           },
           "image": {
