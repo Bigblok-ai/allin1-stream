@@ -685,11 +685,156 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "gv-a531c055b4",
+          "name": "Shimizu S-Pulse vs Gamba Osaka | 15:00 24/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-a531c055b4",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-a531c055b4",
+                  "name": "Shimizu S-Pulse vs Gamba Osaka",
+                  "streams": [
+                    {
+                      "id": "st-a531c055b4",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-3451f66280",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1779603055_hd/1779603055_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-10f7b740ce",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-10f7b740ce",
+                  "name": "Shimizu S-pulse vs Gamba Osaka",
+                  "streams": [
+                    {
+                      "id": "st-10f7b740ce",
+                      "name": "Hoiquan - BLV PHAN MÃ",
+                      "stream_links": [
+                        {
+                          "id": "lnk-c42241b387",
+                          "name": "BLV PHAN MÃ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanma/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-ae184d3734",
+              "name": "QuechoaTV",
+              "contents": [
+                {
+                  "id": "ct-ae184d3734",
+                  "name": "Shimizu S-pulse vs Gamba Osaka",
+                  "streams": [
+                    {
+                      "id": "st-ae184d3734",
+                      "name": "Quechoa - VĂN MINH",
+                      "stream_links": [
+                        {
+                          "id": "lnk-75feca2dee",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ahghndtkyqmm-pull.bpmedialive.com/quechoa/blv_vanminh.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://quechoa10.live/"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://quechoa10.live"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "VĐQG Nhật Bản",
+            "team_a": "Shimizu S-Pulse",
+            "team_b": "Gamba Osaka",
+            "logo_a": "https://images.keovip88.net/images/teams/shimizu-s-pulse.png",
+            "logo_b": "https://images.keovip88.net/images/teams/gamba-osaka.png",
+            "time": "15:00 24/05",
+            "blv": "blv-bon",
+            "is_live": true,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-a531c055b4_61d32f80_20260524.png?v=61d32f80",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "bonmua-32e237f264",
           "name": "Tokyo Verdy vs Yokohama F Marinos | 12:00 24/05",
@@ -828,116 +973,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/bonmua-stream/refs/heads/main/thumbs/bonmua-14d8b559cf_43b056ed_20260524.png?v=43b056ed",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-a531c055b4",
-          "name": "Shimizu S-Pulse vs Gamba Osaka | 15:00 24/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-a531c055b4",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-a531c055b4",
-                  "name": "Shimizu S-Pulse vs Gamba Osaka",
-                  "streams": [
-                    {
-                      "id": "st-a531c055b4",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-3451f66280",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1779603055_hd/1779603055_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "src-ae184d3734",
-              "name": "QuechoaTV",
-              "contents": [
-                {
-                  "id": "ct-ae184d3734",
-                  "name": "Shimizu S-pulse vs Gamba Osaka",
-                  "streams": [
-                    {
-                      "id": "st-ae184d3734",
-                      "name": "Quechoa - VĂN MINH",
-                      "stream_links": [
-                        {
-                          "id": "lnk-75feca2dee",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ahghndtkyqmm-pull.bpmedialive.com/quechoa/blv_vanminh.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://quechoa10.live/"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://quechoa10.live"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "VĐQG Nhật Bản",
-            "team_a": "Shimizu S-Pulse",
-            "team_b": "Gamba Osaka",
-            "logo_a": "https://images.keovip88.net/images/teams/shimizu-s-pulse.png",
-            "logo_b": "https://images.keovip88.net/images/teams/gamba-osaka.png",
-            "time": "15:00 24/05",
-            "blv": "blv-bon",
-            "is_live": false,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-a531c055b4_61d32f80_20260524.png?v=61d32f80",
             "width": 1600,
             "height": 1200
           }
