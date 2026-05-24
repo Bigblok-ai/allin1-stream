@@ -685,7 +685,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (3 LIVE)",
+      "name": "⚽ Bóng Đá (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -863,6 +863,82 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-12f717ba3d_ffa2f4e3_20260524.png?v=ffa2f4e3",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-0922074ece",
+          "name": "Qingdao Jonoon vs Chongqing Tongliang Long | 16:00 24/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-0922074ece",
+              "name": "XayConTV",
+              "contents": [
+                {
+                  "id": "ct-0922074ece",
+                  "name": "Qingdao Jonoon vs Chongqing Tongliang Long",
+                  "streams": [
+                    {
+                      "id": "st-0922074ece",
+                      "name": "XC",
+                      "stream_links": [
+                        {
+                          "id": "lnk-30319ba8f3",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://xclive.yarncdn.live/live/xctv_blv_bipcon/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.xaycon3.live/"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://sv2.xaycon3.live"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Super League",
+            "team_a": "Qingdao Jonoon",
+            "team_b": "Chongqing Tongliang Long",
+            "logo_a": "https://media.api-sports.io/football/teams/1431.png",
+            "logo_b": "https://media.api-sports.io/football/teams/21262.png",
+            "time": "16:00",
+            "date": "24/05",
+            "blv": "BLV Bịp Con",
+            "is_live": true,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/xaycon-stream/refs/heads/main/thumbs/xc-0922074ece_48f39e85_20260524.png?v=48f39e85",
             "width": 1600,
             "height": 1200
           }
@@ -4136,82 +4212,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Los Angeles FC_Seattle Sounders_08-15 25-05_9c88d3dd_20260524.png?v=9c88d3dd",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "xc-0922074ece",
-          "name": "Qingdao Jonoon vs Chongqing Tongliang Long | 16:00 24/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-0922074ece",
-              "name": "XayConTV",
-              "contents": [
-                {
-                  "id": "ct-0922074ece",
-                  "name": "Qingdao Jonoon vs Chongqing Tongliang Long",
-                  "streams": [
-                    {
-                      "id": "st-0922074ece",
-                      "name": "XC",
-                      "stream_links": [
-                        {
-                          "id": "lnk-30319ba8f3",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://xclive.yarncdn.live/live/xctv_blv_bipcon/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.xaycon3.live/"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://sv2.xaycon3.live"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Super League",
-            "team_a": "Qingdao Jonoon",
-            "team_b": "Chongqing Tongliang Long",
-            "logo_a": "https://media.api-sports.io/football/teams/1431.png",
-            "logo_b": "https://media.api-sports.io/football/teams/21262.png",
-            "time": "16:00",
-            "date": "24/05",
-            "blv": "BLV Bịp Con",
-            "is_live": false,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/xaycon-stream/refs/heads/main/thumbs/xc-0922074ece_48f39e85_20260524.png?v=48f39e85",
             "width": 1600,
             "height": 1200
           }
