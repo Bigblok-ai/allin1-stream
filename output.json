@@ -685,7 +685,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (9 LIVE)",
+      "name": "⚽ Bóng Đá (10 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1014,6 +1014,41 @@
                             {
                               "key": "Referer",
                               "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-62c81ac08c",
+              "name": "BonMuaTV",
+              "contents": [
+                {
+                  "id": "ct-62c81ac08c",
+                  "name": "Hà Tĩnh vs Công An Hà Nội",
+                  "streams": [
+                    {
+                      "id": "st-62c81ac08c",
+                      "name": "Bonmua - A Mập",
+                      "stream_links": [
+                        {
+                          "id": "lnk-e0f9603a0b",
+                          "name": "A Mập",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pull.globalcdnnetworksc2031.info/str01/blv-a-map-fb/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://bonmuatv.com/"
                             },
                             {
                               "key": "User-Agent",
@@ -1495,10 +1530,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -1513,7 +1548,25 @@
                     {
                       "id": "st-82c5a751a4",
                       "name": "KT",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-7dbcd1a4f5",
+                          "name": "Cháo Quẩy",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pull.globalcdnnetworksc2031.info/str01/blv-chao-quay-fb/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://bonmuatv.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -1528,7 +1581,7 @@
             "logo_b": "https://img.uniscore.com/football/team/dj2ryohkz16q1zp/image/medium/dark",
             "time": "18:00 24/05",
             "blv": "Cháo Quẩy",
-            "is_live": false,
+            "is_live": true,
             "cate_name": "Bóng đá"
           },
           "image": {
@@ -4831,23 +4884,23 @@
     },
     {
       "id": "grp-tennis",
-      "name": "🎾 Tennis (1 LIVE)",
+      "name": "🎾 Tennis",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
         {
           "id": "gv-4c7e644269",
-          "name": "Tomás Martín Etcheverry  vs Nuno Borges | 18:00 24/05",
+          "name": "Benjamin Bonzi  vs Alexander Zverev  | 18:40 24/05",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "● LIVE",
+              "text": "🕐 Sắp",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#ff4444"
+              "text_color": "#aaaaaa"
             }
           ],
           "sources": [
@@ -4857,7 +4910,7 @@
               "contents": [
                 {
                   "id": "ct-4c7e644269",
-                  "name": "Tomás Martín Etcheverry  vs Nuno Borges",
+                  "name": "Benjamin Bonzi  vs Alexander Zverev ",
                   "streams": [
                     {
                       "id": "st-4c7e644269",
@@ -4889,20 +4942,20 @@
           ],
           "org_metadata": {
             "league": "The French Open( Roland Garros)",
-            "team_a": "Tomás Martín Etcheverry ",
-            "team_b": "Nuno Borges",
-            "logo_a": "https://static.flashscore.com/res/image/data/UVD79kXg-KYie9gca.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/4WdeaLYg-Mc0Ip3ar.png",
-            "time": "18:00 24/05",
+            "team_a": "Benjamin Bonzi ",
+            "team_b": "Alexander Zverev ",
+            "logo_a": "https://static.flashscore.com/res/image/data/MX6U7L9r-K21id9SP.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/tO5cePjl-2DqYxEbl.png",
+            "time": "18:40 24/05",
             "blv": "BLV Ben",
-            "is_live": true,
+            "is_live": false,
             "cate_type": "tennis"
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-4c7e644269_e96f85d8_20260524.png?v=e96f85d8",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-4c7e644269_24298dd0_20260524.png?v=24298dd0",
             "width": 1600,
             "height": 1200
           }
