@@ -4513,7 +4513,7 @@
     },
     {
       "id": "grp-cầu-lông",
-      "name": "🏸 Cầu Lông (1 LIVE)",
+      "name": "🏸 Cầu Lông (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -4597,10 +4597,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -4615,7 +4615,25 @@
                     {
                       "id": "st-f8c30b438b",
                       "name": "HQ",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-ee33939914",
+                          "name": "BLV PHAN TỪ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phantu/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -4630,7 +4648,7 @@
             "logo_b": "https://static.flashscore.com/res/image/data/O2nuZwRp-vaAM5VhK.png",
             "time": "13:30 24/05",
             "blv": "BLV PHAN TỪ",
-            "is_live": false,
+            "is_live": true,
             "sport_slug": "cau-long"
           },
           "image": {
@@ -4718,6 +4736,148 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-a1bdef8849_0255a728_20260524.png?v=0255a728",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-8f0fe5aa91",
+          "name": "Meralco Bolts  vs TNT Tropang 5G | 16:15 24/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-8f0fe5aa91",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-8f0fe5aa91",
+                  "name": "Meralco Bolts  vs TNT Tropang 5G",
+                  "streams": [
+                    {
+                      "id": "st-8f0fe5aa91",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-83089acdf7",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1779602542_hd/1779602542_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "PBA",
+            "team_a": "Meralco Bolts ",
+            "team_b": "TNT Tropang 5G",
+            "logo_a": "https://static.flashscore.com/res/image/data/EiX7h4yS-ddhMe2Bk.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/nTNHGwAr-hCospehC.png",
+            "time": "16:15 24/05",
+            "blv": "BLV Ben",
+            "is_live": false,
+            "cate_type": "basketball"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-8f0fe5aa91_a63d334e_20260524.png?v=a63d334e",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-65a3961840",
+          "name": "Barangay Ginebra San Miguel vs Rain or Shine | 18:30 24/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-65a3961840",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-65a3961840",
+                  "name": "Barangay Ginebra San Miguel vs Rain or Shine",
+                  "streams": [
+                    {
+                      "id": "st-65a3961840",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-ccec9cef1b",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1779602635_hd/1779602635_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "PBA",
+            "team_a": "Barangay Ginebra San Miguel",
+            "team_b": "Rain or Shine",
+            "logo_a": "https://static.flashscore.com/res/image/data/hWf7PfGG-67i7cfzM.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/WjIooAEG-CvPI3PRl.png",
+            "time": "18:30 24/05",
+            "blv": "BLV Cầy",
+            "is_live": false,
+            "cate_type": "basketball"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-65a3961840_2bb60c55_20260524.png?v=2bb60c55",
             "width": 1600,
             "height": 1200
           }
