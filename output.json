@@ -685,82 +685,11 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (10 LIVE)",
+      "name": "⚽ Bóng Đá (9 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-12f717ba3d",
-          "name": "Bắc Ninh  vs Hồ Chí Minh II | 16:00 24/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-12f717ba3d",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-12f717ba3d",
-                  "name": "Bắc Ninh  vs Hồ Chí Minh II",
-                  "streams": [
-                    {
-                      "id": "st-12f717ba3d",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-f8166c1804",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1779603349_hd/1779603349_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "V.League 2",
-            "team_a": "Bắc Ninh ",
-            "team_b": "Hồ Chí Minh II",
-            "logo_a": "https://static.flashscore.com/res/image/data/lQohgHCa-As3RA4Es.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/OWRRnYGG-xrxpVxK6.png",
-            "time": "16:00 24/05",
-            "blv": "BLV Hợi",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-12f717ba3d_ffa2f4e3_20260524.png?v=ffa2f4e3",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-329be4c4c4",
           "name": "Dynamo Kyiv vs Kudrivka | 17:00 24/05",
@@ -5599,8 +5528,8 @@
           }
         },
         {
-          "id": "hqlive-7b91653ae5",
-          "name": "San Antonio Spurs vs Oklahoma City Thunder | 07:00 25/05",
+          "id": "gv-60b43df51a",
+          "name": "Spurs vs Thunder | 07:00 25/05",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -5614,17 +5543,35 @@
           ],
           "sources": [
             {
-              "id": "src-7b91653ae5",
-              "name": "HoiQuanTV",
+              "id": "src-60b43df51a",
+              "name": "GiovangTV",
               "contents": [
                 {
-                  "id": "ct-7b91653ae5",
-                  "name": "San Antonio Spurs vs Oklahoma City Thunder",
+                  "id": "ct-60b43df51a",
+                  "name": "Spurs vs Thunder",
                   "streams": [
                     {
-                      "id": "st-7b91653ae5",
-                      "name": "HQ",
-                      "stream_links": []
+                      "id": "st-60b43df51a",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-f9e0d09dc8",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1779619795_hd/1779619795_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -5633,20 +5580,91 @@
           ],
           "org_metadata": {
             "league": "NBA",
-            "team_a": "San Antonio Spurs",
-            "team_b": "Oklahoma City Thunder",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/vi/e/ec/San_Antonio_Spurs_logo.png",
-            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0x_r4HXgpRt8N2PALEejkBLGLqf4VYCZmhg&s",
+            "team_a": "Spurs",
+            "team_b": "Thunder",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/en/a/a2/San_Antonio_Spurs.svg",
+            "logo_b": "https://1000logos.net/wp-content/uploads/2018/06/Oklahoma-City-Thunder-logo-1.jpg",
             "time": "07:00 25/05",
-            "blv": "BLV PHAN TỪ",
+            "blv": "blv-lac, blv-can",
             "is_live": false,
-            "sport_slug": "bong-ro"
+            "cate_type": "basketball"
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/San Antonio Spurs_Oklahoma City Thunder_07-00 25-05_247af912_20260524.png?v=247af912",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-60b43df51a_c126a2f5_20260524.png?v=c126a2f5",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-64f80cbffb",
+          "name": "Wellington Saints vs Bay Hawks | 14:00 25/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-64f80cbffb",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-64f80cbffb",
+                  "name": "Wellington Saints vs Bay Hawks",
+                  "streams": [
+                    {
+                      "id": "st-64f80cbffb",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-ffc1f59a73",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1779619872_hd/1779619872_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "NBL",
+            "team_a": "Wellington Saints",
+            "team_b": "Bay Hawks",
+            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9FlwdEq83b-y_wEgHqm4sz83hrXfQ8pUfgw&s",
+            "logo_b": "https://prodcdn.sporty.co.nz/cms/17686/1190263/1190264/41e03946-e0d1-4f43-bd3f-71d4167590a0_wo.png?t=638497254352670000",
+            "time": "14:00 25/05",
+            "blv": "BLV Cầy",
+            "is_live": false,
+            "cate_type": "basketball"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-64f80cbffb_265a7764_20260524.png?v=265a7764",
             "width": 1600,
             "height": 1200
           }
