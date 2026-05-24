@@ -685,7 +685,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (4 LIVE)",
+      "name": "⚽ Bóng Đá (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -884,6 +884,41 @@
                   ]
                 }
               ]
+            },
+            {
+              "id": "src-32e237f264",
+              "name": "BonMuaTV",
+              "contents": [
+                {
+                  "id": "ct-32e237f264",
+                  "name": "Tokyo Verdy vs Yokohama F Marinos",
+                  "streams": [
+                    {
+                      "id": "st-32e237f264",
+                      "name": "Bonmua - Táo",
+                      "stream_links": [
+                        {
+                          "id": "lnk-c425feb341",
+                          "name": "Táo",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pull.globalcdnnetworksc2031.info/str01/blv-tao-fb/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://bonmuatv.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
             }
           ],
           "org_metadata": {
@@ -973,82 +1008,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Fagiano Okayama_Cerezo Osaka_10-55 24-05_d127ebb5_20260524.png?v=d127ebb5",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "xc-22658a51c0",
-          "name": "Los Angeles Galaxy vs Houston Dynamo | 09:30 24/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-22658a51c0",
-              "name": "XayConTV",
-              "contents": [
-                {
-                  "id": "ct-22658a51c0",
-                  "name": "Los Angeles Galaxy vs Houston Dynamo",
-                  "streams": [
-                    {
-                      "id": "st-22658a51c0",
-                      "name": "XC",
-                      "stream_links": [
-                        {
-                          "id": "lnk-22f0d2332d",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://xclive.yarncdn.live/live/xctv_blv_vantich/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.xaycon3.live/"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://sv2.xaycon3.live"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Major League Soccer",
-            "team_a": "Los Angeles Galaxy",
-            "team_b": "Houston Dynamo",
-            "logo_a": "https://media.api-sports.io/football/teams/1605.png",
-            "logo_b": "https://media.api-sports.io/football/teams/1600.png",
-            "time": "09:30",
-            "date": "24/05",
-            "blv": "BLV Văn Tích",
-            "is_live": true,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/xaycon-stream/refs/heads/main/thumbs/xc-22658a51c0_3b0e5c12_20260524.png?v=3b0e5c12",
             "width": 1600,
             "height": 1200
           }
