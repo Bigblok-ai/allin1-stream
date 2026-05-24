@@ -685,7 +685,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (10 LIVE)",
+      "name": "⚽ Bóng Đá (11 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1410,6 +1410,116 @@
           }
         },
         {
+          "id": "hqlive-a4345ab917",
+          "name": "Parma vs Sassuolo | 20:00 24/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-a4345ab917",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-a4345ab917",
+                  "name": "Parma vs Sassuolo",
+                  "streams": [
+                    {
+                      "id": "st-a4345ab917",
+                      "name": "HQ",
+                      "stream_links": [
+                        {
+                          "id": "lnk-f6231c6549",
+                          "name": "BLV PHAN CA",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanca/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-1f83d1b277",
+              "name": "XayConTV",
+              "contents": [
+                {
+                  "id": "ct-1f83d1b277",
+                  "name": "Parma vs Sassuolo",
+                  "streams": [
+                    {
+                      "id": "st-1f83d1b277",
+                      "name": "Xaycon - BLV A Cỏ",
+                      "stream_links": [
+                        {
+                          "id": "lnk-19bab7f4de",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://xclive.yarncdn.live/live/xctv_blv_aco/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.xaycon3.live/"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://sv2.xaycon3.live"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Serie A",
+            "team_a": "Parma",
+            "team_b": "Sassuolo",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/4/40/Logo_Parma_Calcio_1913_%28adozione_2016%29.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/sco/1/1c/US_Sassuolo_Calcio_logo.svg",
+            "time": "20:00 24/05",
+            "blv": "BLV PHAN CA",
+            "is_live": true,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Parma_Sassuolo_20-00 24-05_9574029c_20260524.png?v=9574029c",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "qc-965d7133b2",
           "name": "Hồng Lĩnh Hà Tĩnh vs Công An Nhân Dân | 18:00 24/05",
           "type": "single",
@@ -1702,98 +1812,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/bonmua-stream/refs/heads/main/thumbs/bonmua-82c5a751a4_e0885b00_20260524.png?v=e0885b00",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "hqlive-a4345ab917",
-          "name": "Parma vs Sassuolo | 20:00 24/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-a4345ab917",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-a4345ab917",
-                  "name": "Parma vs Sassuolo",
-                  "streams": [
-                    {
-                      "id": "st-a4345ab917",
-                      "name": "HQ",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "src-1f83d1b277",
-              "name": "XayConTV",
-              "contents": [
-                {
-                  "id": "ct-1f83d1b277",
-                  "name": "Parma vs Sassuolo",
-                  "streams": [
-                    {
-                      "id": "st-1f83d1b277",
-                      "name": "Xaycon - BLV A Cỏ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-19bab7f4de",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://xclive.yarncdn.live/live/xctv_blv_aco/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.xaycon3.live/"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://sv2.xaycon3.live"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Serie A",
-            "team_a": "Parma",
-            "team_b": "Sassuolo",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/4/40/Logo_Parma_Calcio_1913_%28adozione_2016%29.png",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/sco/1/1c/US_Sassuolo_Calcio_logo.svg",
-            "time": "20:00 24/05",
-            "blv": "BLV PHAN CA",
-            "is_live": false,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Parma_Sassuolo_20-00 24-05_9574029c_20260524.png?v=9574029c",
             "width": 1600,
             "height": 1200
           }
