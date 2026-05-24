@@ -685,7 +685,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (5 LIVE)",
+      "name": "⚽ Bóng Đá (6 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -939,6 +939,77 @@
           }
         },
         {
+          "id": "hqlive-a768bf1492",
+          "name": "Ajax vs Utrecht | 17:15 24/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-a768bf1492",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-a768bf1492",
+                  "name": "Ajax vs Utrecht",
+                  "streams": [
+                    {
+                      "id": "st-a768bf1492",
+                      "name": "HQ",
+                      "stream_links": [
+                        {
+                          "id": "lnk-c2f1d53f75",
+                          "name": "BLV PHAN MÃO",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanbap/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Eredivisie",
+            "team_a": "Ajax",
+            "team_b": "Utrecht",
+            "logo_a": "https://media.api-sports.io/football/teams/194.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Logo_FC_Utrecht.svg/1920px-Logo_FC_Utrecht.svg.png",
+            "time": "17:15 24/05",
+            "blv": "BLV PHAN MÃO",
+            "is_live": true,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Ajax_Utrecht_17-15 24-05_9bdd3ca0_20260524.png?v=9bdd3ca0",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "xc-0922074ece",
           "name": "Qingdao Jonoon vs Chongqing Tongliang Long | 16:00 24/05",
           "type": "single",
@@ -1081,59 +1152,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/bonmua-stream/refs/heads/main/thumbs/bonmua-14d8b559cf_43b056ed_20260524.png?v=43b056ed",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "hqlive-a768bf1492",
-          "name": "Ajax vs Utrecht | 17:15 24/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-a768bf1492",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-a768bf1492",
-                  "name": "Ajax vs Utrecht",
-                  "streams": [
-                    {
-                      "id": "st-a768bf1492",
-                      "name": "HQ",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Eredivisie",
-            "team_a": "Ajax",
-            "team_b": "Utrecht",
-            "logo_a": "https://media.api-sports.io/football/teams/194.png",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Logo_FC_Utrecht.svg/1920px-Logo_FC_Utrecht.svg.png",
-            "time": "17:15 24/05",
-            "blv": "BLV PHAN MÃO",
-            "is_live": false,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Ajax_Utrecht_17-15 24-05_9bdd3ca0_20260524.png?v=9bdd3ca0",
             "width": 1600,
             "height": 1200
           }
