@@ -685,11 +685,82 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (1 LIVE)",
+      "name": "⚽ Bóng Đá (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "gv-430ced52dd",
+          "name": "Corinthians Paulista (SP) vs Atletico Mineiro | 04:30 25/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-430ced52dd",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-430ced52dd",
+                  "name": "Corinthians Paulista (SP) vs Atletico Mineiro",
+                  "streams": [
+                    {
+                      "id": "st-430ced52dd",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-5445732a61",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1779588816_hd/1779588816_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "VĐQG Brazil",
+            "team_a": "Corinthians Paulista (SP)",
+            "team_b": "Atletico Mineiro",
+            "logo_a": "https://images.keovip88.net/images/teams/corinthians-paulista-sp.png",
+            "logo_b": "https://images.keovip88.net/images/teams/atletico-mineiro.png",
+            "time": "04:30 25/05",
+            "blv": "BLV Dần",
+            "is_live": true,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-430ced52dd_03635f53_20260525.png?v=03635f53",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "hqlive-613b8cbef9",
           "name": "Torino vs Juventus | 01:45 25/05",
@@ -796,77 +867,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Torino_Juventus_01-45 25-05_ac60e465_20260525.png?v=ac60e465",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-430ced52dd",
-          "name": "Corinthians Paulista (SP) vs Atletico Mineiro | 04:30 25/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-430ced52dd",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-430ced52dd",
-                  "name": "Corinthians Paulista (SP) vs Atletico Mineiro",
-                  "streams": [
-                    {
-                      "id": "st-430ced52dd",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-5445732a61",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1779588816_hd/1779588816_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "VĐQG Brazil",
-            "team_a": "Corinthians Paulista (SP)",
-            "team_b": "Atletico Mineiro",
-            "logo_a": "https://images.keovip88.net/images/teams/corinthians-paulista-sp.png",
-            "logo_b": "https://images.keovip88.net/images/teams/atletico-mineiro.png",
-            "time": "04:30 25/05",
-            "blv": "BLV Dần",
-            "is_live": false,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-430ced52dd_03635f53_20260525.png?v=03635f53",
             "width": 1600,
             "height": 1200
           }
@@ -2546,6 +2546,165 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-228e98ba5d_431a4fae_20260525.png?v=431a4fae",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-1bfd4078c8",
+          "name": "Iga Swiatek vs Emilio Nava | 17:00 25/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-1bfd4078c8",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-1bfd4078c8",
+                  "name": "Iga Swiatek vs Emilio Nava",
+                  "streams": [
+                    {
+                      "id": "st-1bfd4078c8",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Roland Garros",
+            "team_a": "Iga Swiatek",
+            "team_b": "Emilio Nava",
+            "logo_a": "https://cdn.images.express.co.uk/img/dynamic/72/590x/secondary/4885381.jpg?r=1690841549720",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/4/47/Nava_BLO22_%2824%29_%2852157277484%29.jpg",
+            "time": "17:00 25/05",
+            "blv": "BLV PHAN TỪ",
+            "is_live": false,
+            "sport_slug": "tennis"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Iga Swiatek_Emilio Nava_17-00 25-05_1c73bb00_20260525.png?v=1c73bb00",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-0a2ca849d5",
+          "name": "Stan Wawrinka vs Jesper De Jong | 18:00 25/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-0a2ca849d5",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-0a2ca849d5",
+                  "name": "Stan Wawrinka vs Jesper De Jong",
+                  "streams": [
+                    {
+                      "id": "st-0a2ca849d5",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Roland Garros",
+            "team_a": "Stan Wawrinka",
+            "team_b": "Jesper De Jong",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Wawrinka_RG19_%2816%29_%2848199015787%29.jpg/960px-Wawrinka_RG19_%2816%29_%2848199015787%29.jpg",
+            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJcxagp0vS3vukoZ6vA2xY3KVhGTKDKtIP7w&s",
+            "time": "18:00 25/05",
+            "blv": "BLV PHAN CA",
+            "is_live": false,
+            "sport_slug": "tennis"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Stan Wawrinka_Jesper De Jong_18-00 25-05_f229e713_20260525.png?v=f229e713",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-53a86427ac",
+          "name": "Elena Rybakina vs Alexander Zverev | 19:00 25/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-53a86427ac",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-53a86427ac",
+                  "name": "Elena Rybakina vs Alexander Zverev",
+                  "streams": [
+                    {
+                      "id": "st-53a86427ac",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Roland Garros",
+            "team_a": "Elena Rybakina",
+            "team_b": "Alexander Zverev",
+            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxgbcQTwQftJppnCiKC9Wed1i6puDevH9m5Q&s",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Zverev_MCM23_%2820%29.jpg/960px-Zverev_MCM23_%2820%29.jpg",
+            "time": "19:00 25/05",
+            "blv": "BLV PHAN TỪ",
+            "is_live": false,
+            "sport_slug": "tennis"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Elena Rybakina_Alexander Zverev_19-00 25-05_a7e3a11e_20260525.png?v=a7e3a11e",
             "width": 1600,
             "height": 1200
           }
