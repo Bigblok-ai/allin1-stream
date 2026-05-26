@@ -685,7 +685,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (3 LIVE)",
+      "name": "⚽ Bóng Đá (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -796,82 +796,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Astana II_Khan Tengri_21-00 26-05_8334fddf_20260526.png?v=8334fddf",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "xc-b8bef057af",
-          "name": "Arys vs Sport Academy Kairat | 19:00 26/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-b8bef057af",
-              "name": "XayConTV",
-              "contents": [
-                {
-                  "id": "ct-b8bef057af",
-                  "name": "Arys vs Sport Academy Kairat",
-                  "streams": [
-                    {
-                      "id": "st-b8bef057af",
-                      "name": "XC",
-                      "stream_links": [
-                        {
-                          "id": "lnk-96278f5a95",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://xclive.yarncdn.live/live/xctv_blv_nguoikien/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.xaycon3.live/"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://sv2.xaycon3.live"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "1. Division",
-            "team_a": "Arys",
-            "team_b": "Sport Academy Kairat",
-            "logo_a": "https://media.api-sports.io/football/teams/10414.png",
-            "logo_b": "https://media.api-sports.io/football/teams/4556.png",
-            "time": "19:00",
-            "date": "26/05",
-            "blv": "BLV Người Kiến",
-            "is_live": true,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/xaycon-stream/refs/heads/main/thumbs/xc-b8bef057af_d73c5b35_20260526.png?v=d73c5b35",
             "width": 1600,
             "height": 1200
           }
@@ -1839,6 +1763,41 @@
                   ]
                 }
               ]
+            },
+            {
+              "id": "src-cf63547fad",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-cf63547fad",
+                  "name": "SpVgg Greuther Fürth vs Rot-Weiß Essen",
+                  "streams": [
+                    {
+                      "id": "st-cf63547fad",
+                      "name": "Bugio - BLV Tiểu Trà Đá",
+                      "stream_links": [
+                        {
+                          "id": "lnk-0ba3f9d037",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_trada/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
             }
           ],
           "org_metadata": {
@@ -2171,6 +2130,41 @@
                             {
                               "key": "Origin",
                               "value": "https://sv2.xaycon3.live"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-060afc8a56",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-060afc8a56",
+                  "name": "Saint Etienne vs Nice",
+                  "streams": [
+                    {
+                      "id": "st-060afc8a56",
+                      "name": "Bugio - BLV Tiểu Hạc",
+                      "stream_links": [
+                        {
+                          "id": "lnk-02ff9c6e74",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_tieuhac/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
                             },
                             {
                               "key": "User-Agent",
