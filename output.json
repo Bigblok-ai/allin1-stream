@@ -691,7 +691,7 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "xc-55b150b252",
+          "id": "hqlive-4159e45ef0",
           "name": "Astana II vs Khan Tengri | 21:00 26/05",
           "type": "single",
           "display": "thumbnail-only",
@@ -706,6 +706,41 @@
           ],
           "sources": [
             {
+              "id": "src-4159e45ef0",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-4159e45ef0",
+                  "name": "Astana II vs Khan Tengri",
+                  "streams": [
+                    {
+                      "id": "st-4159e45ef0",
+                      "name": "HQ",
+                      "stream_links": [
+                        {
+                          "id": "lnk-2ec820b9ff",
+                          "name": "BLV TÁO GIÀ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://w9lt1225.edgemaxcdn.org/live/tdtv_blv_taolu/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
               "id": "src-55b150b252",
               "name": "XayConTV",
               "contents": [
@@ -715,7 +750,7 @@
                   "streams": [
                     {
                       "id": "st-55b150b252",
-                      "name": "XC",
+                      "name": "Xaycon - BLV Bịp Con",
                       "stream_links": [
                         {
                           "id": "lnk-30319ba8f3",
@@ -751,9 +786,8 @@
             "team_b": "Khan Tengri",
             "logo_a": "https://media.api-sports.io/football/teams/4548.png",
             "logo_b": "https://media.api-sports.io/football/teams/18805.png",
-            "time": "21:00",
-            "date": "26/05",
-            "blv": "BLV Bịp Con",
+            "time": "21:00 26/05",
+            "blv": "BLV TÁO GIÀ",
             "is_live": true,
             "sport_slug": "bong-da"
           },
@@ -761,7 +795,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/xaycon-stream/refs/heads/main/thumbs/xc-55b150b252_539a3011_20260526.png?v=539a3011",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Astana II_Khan Tengri_21-00 26-05_8334fddf_20260526.png?v=8334fddf",
             "width": 1600,
             "height": 1200
           }
@@ -2591,8 +2625,8 @@
             "league": "WK-League",
             "team_a": "Gumi Sportstoto W",
             "team_b": "Gyeongju W",
-            "logo_a": "https://media.api-sports.io/football/teams/14374.png",
-            "logo_b": "https://media.api-sports.io/football/teams/14375.png",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/en/3/3c/Gumi_Sportstoto_WFC.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/en/e/e1/Daejeon_Hydro_%26_Nuclear_Power_FC_logo.png",
             "time": "17:00",
             "date": "27/05",
             "blv": "BLV Bịp Con",
@@ -2603,7 +2637,83 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/xaycon-stream/refs/heads/main/thumbs/xc-57d43532f0_ef4483bf_20260526.png?v=ef4483bf",
+            "url": "https://raw.githubusercontent.com/jasminliu98/xaycon-stream/refs/heads/main/thumbs/xc-57d43532f0_08e3af0e_20260526.png?v=08e3af0e",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-da2d22f5f5",
+          "name": "Seoul W vs Incheon Red Angels W | 17:00 27/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-da2d22f5f5",
+              "name": "XayConTV",
+              "contents": [
+                {
+                  "id": "ct-da2d22f5f5",
+                  "name": "Seoul W vs Incheon Red Angels W",
+                  "streams": [
+                    {
+                      "id": "st-da2d22f5f5",
+                      "name": "XC",
+                      "stream_links": [
+                        {
+                          "id": "lnk-19bab7f4de",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://xclive.yarncdn.live/live/xctv_blv_aco/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.xaycon3.live/"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://sv2.xaycon3.live"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "WK-League",
+            "team_a": "Seoul W",
+            "team_b": "Incheon Red Angels W",
+            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4MaoRq3dS2v_Z7ysN83fD4r1XqTtCfJsc5w&s",
+            "logo_b": "https://media.api-sports.io/football/teams/14377.png",
+            "time": "17:00",
+            "date": "27/05",
+            "blv": "BLV A Cỏ",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/xaycon-stream/refs/heads/main/thumbs/xc-da2d22f5f5_90dc9741_20260526.png?v=90dc9741",
             "width": 1600,
             "height": 1200
           }
@@ -3563,6 +3673,112 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-bbf14630ca_cf4dfc79_20260526.png?v=cf4dfc79",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-a57f4abec8",
+          "name": "Iga Swiatek vs Ugo Humbert | 17:00 27/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-a57f4abec8",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-a57f4abec8",
+                  "name": "Iga Swiatek vs Ugo Humbert",
+                  "streams": [
+                    {
+                      "id": "st-a57f4abec8",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Roland Garros",
+            "team_a": "Iga Swiatek",
+            "team_b": "Ugo Humbert",
+            "logo_a": "https://cdn.images.express.co.uk/img/dynamic/72/590x/secondary/4885381.jpg?r=1690841549720",
+            "logo_b": "https://tse2.mm.bing.net/th/id/OIP.D1Wm_duMfdDXKRp0UpKCmAHaFZ?pid=Api&P=0&h=220",
+            "time": "17:00 27/05",
+            "blv": "BLV PHAN TỪ",
+            "is_live": false,
+            "sport_slug": "tennis"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Iga Swiatek_Ugo Humbert_17-00 27-05_3dc4b508_20260526.png?v=3dc4b508",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-1d2be60056",
+          "name": "Elina Svitolina vs Kaitlin Quevedo | 19:00 27/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-1d2be60056",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-1d2be60056",
+                  "name": "Elina Svitolina vs Kaitlin Quevedo",
+                  "streams": [
+                    {
+                      "id": "st-1d2be60056",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Roland Garros",
+            "team_a": "Elina Svitolina",
+            "team_b": "Kaitlin Quevedo",
+            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQC5M9hwvSbtia3mudgiHt09H8e9t-mhfHQ9g&s",
+            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSODaL49Y5HQH6LlgmxI9-csYbnGl8grA_YAQ&s",
+            "time": "19:00 27/05",
+            "blv": "BLV PHAN TỪ",
+            "is_live": false,
+            "sport_slug": "tennis"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Elina Svitolina_Kaitlin Quevedo_19-00 27-05_40bf1034_20260526.png?v=40bf1034",
             "width": 1600,
             "height": 1200
           }
