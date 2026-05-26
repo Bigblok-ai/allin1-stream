@@ -875,112 +875,6 @@
           }
         },
         {
-          "id": "hqlive-1951c02a9a",
-          "name": "Morocco vs Burundi | 20:00 26/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-1951c02a9a",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-1951c02a9a",
-                  "name": "Morocco vs Burundi",
-                  "streams": [
-                    {
-                      "id": "st-1951c02a9a",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-2821a56f8c",
-                          "name": "BLV TÁO MÈO",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://tdlive.yarncdn.live/live/tdtv_blv_taomeo/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "src-0b846c55b4",
-              "name": "BugioTV",
-              "contents": [
-                {
-                  "id": "ct-0b846c55b4",
-                  "name": "Morocco vs Burundi",
-                  "streams": [
-                    {
-                      "id": "st-0b846c55b4",
-                      "name": "Bugio - BLV Lavie",
-                      "stream_links": [
-                        {
-                          "id": "lnk-a4a6a520ed",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_lavie/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv1.bugio9.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Friendlies",
-            "team_a": "Morocco",
-            "team_b": "Burundi",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Flag_of_Morocco.svg/1280px-Flag_of_Morocco.svg.png",
-            "logo_b": "https://media.api-sports.io/football/teams/1528.png",
-            "time": "20:00 26/05",
-            "blv": "BLV TÁO MÈO",
-            "is_live": true,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Morocco_Burundi_20-00 26-05_3712f716_20260526.png?v=3712f716",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "xc-b8bef057af",
           "name": "Arys vs Sport Academy Kairat | 19:00 26/05",
           "type": "single",
@@ -1052,6 +946,77 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/xaycon-stream/refs/heads/main/thumbs/xc-b8bef057af_d73c5b35_20260526.png?v=d73c5b35",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "bg-0b846c55b4",
+          "name": "Morocco vs Burundi | 23:00 26/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-0b846c55b4",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-0b846c55b4",
+                  "name": "Morocco vs Burundi",
+                  "streams": [
+                    {
+                      "id": "st-0b846c55b4",
+                      "name": "BG",
+                      "stream_links": [
+                        {
+                          "id": "lnk-a4a6a520ed",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_lavie/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Friendlies",
+            "team_a": "Morocco",
+            "team_b": "Burundi",
+            "logo_a": "https://media.api-sports.io/football/teams/31.png",
+            "logo_b": "https://media.api-sports.io/football/teams/1528.png",
+            "start_time": "2026-05-26T23:00:00",
+            "blv": "BLV Lavie",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-0b846c55b4_92065de5_20260526.png?v=92065de5",
             "width": 1600,
             "height": 1200
           }
