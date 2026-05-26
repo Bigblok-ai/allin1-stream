@@ -685,7 +685,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá",
+      "name": "⚽ Bóng Đá (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -698,10 +698,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -716,7 +716,25 @@
                     {
                       "id": "st-7cb70f8a0a",
                       "name": "HQ",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-b10e5b640b",
+                          "name": "BLV THẦN THÔNG",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://tdlive.yarncdn.live/live/tdtv_blv_taovannghe/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -844,7 +862,7 @@
             "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Flag_of_France.svg/1280px-Flag_of_France.svg.png",
             "time": "18:30 26/05",
             "blv": "BLV THẦN THÔNG",
-            "is_live": false,
+            "is_live": true,
             "sport_slug": "bong-da"
           },
           "image": {
@@ -864,10 +882,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -882,7 +900,25 @@
                     {
                       "id": "st-1951c02a9a",
                       "name": "HQ",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-2821a56f8c",
+                          "name": "BLV TÁO MÈO",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://tdlive.yarncdn.live/live/tdtv_blv_taomeo/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -932,7 +968,7 @@
             "logo_b": "https://media.api-sports.io/football/teams/1528.png",
             "time": "20:00 26/05",
             "blv": "BLV TÁO MÈO",
-            "is_live": false,
+            "is_live": true,
             "sport_slug": "bong-da"
           },
           "image": {
@@ -940,6 +976,82 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Morocco_Burundi_20-00 26-05_3712f716_20260526.png?v=3712f716",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-b8bef057af",
+          "name": "Arys vs Sport Academy Kairat | 19:00 26/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-b8bef057af",
+              "name": "XayConTV",
+              "contents": [
+                {
+                  "id": "ct-b8bef057af",
+                  "name": "Arys vs Sport Academy Kairat",
+                  "streams": [
+                    {
+                      "id": "st-b8bef057af",
+                      "name": "XC",
+                      "stream_links": [
+                        {
+                          "id": "lnk-96278f5a95",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://xclive.yarncdn.live/live/xctv_blv_nguoikien/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.xaycon3.live/"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://sv2.xaycon3.live"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "1. Division",
+            "team_a": "Arys",
+            "team_b": "Sport Academy Kairat",
+            "logo_a": "https://media.api-sports.io/football/teams/10414.png",
+            "logo_b": "https://media.api-sports.io/football/teams/4556.png",
+            "time": "19:00",
+            "date": "26/05",
+            "blv": "BLV Người Kiến",
+            "is_live": true,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/xaycon-stream/refs/heads/main/thumbs/xc-b8bef057af_d73c5b35_20260526.png?v=d73c5b35",
             "width": 1600,
             "height": 1200
           }
@@ -1749,60 +1861,7 @@
           }
         },
         {
-          "id": "hqlive-0a38d4e28f",
-          "name": "Santos vs Deportivo Cuenca | 07:30 27/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-0a38d4e28f",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-0a38d4e28f",
-                  "name": "Santos vs Deportivo Cuenca",
-                  "streams": [
-                    {
-                      "id": "st-0a38d4e28f",
-                      "name": "HQ",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "CONMEBOL Sudamericana",
-            "team_a": "Santos",
-            "team_b": "Deportivo Cuenca",
-            "logo_a": "https://media.api-sports.io/football/teams/128.png",
-            "logo_b": "https://media.api-sports.io/football/teams/1154.png",
-            "time": "07:30 27/05",
-            "blv": "BLV PHAN ANH",
-            "is_live": false,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Santos_Deportivo Cuenca_07-30 27-05_b9cfa90f_20260526.png?v=b9cfa90f",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "qc-741cc2c059",
+          "id": "hqlive-dcdba7556b",
           "name": "SpVgg Greuther Fürth vs Rot-Weiß Essen | 01:30 27/05",
           "type": "single",
           "display": "thumbnail-only",
@@ -1817,6 +1876,23 @@
           ],
           "sources": [
             {
+              "id": "src-dcdba7556b",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-dcdba7556b",
+                  "name": "SpVgg Greuther Fürth vs Rot-Weiß Essen",
+                  "streams": [
+                    {
+                      "id": "st-dcdba7556b",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
               "id": "src-741cc2c059",
               "name": "QuechoaTV",
               "contents": [
@@ -1826,7 +1902,7 @@
                   "streams": [
                     {
                       "id": "st-741cc2c059",
-                      "name": "QC",
+                      "name": "Quechoa - NEM CHUA",
                       "stream_links": [
                         {
                           "id": "lnk-9ecfdd7bcf",
@@ -1901,9 +1977,8 @@
             "team_b": "Rot-Weiß Essen",
             "logo_a": "https://media.api-sports.io/football/teams/178.png",
             "logo_b": "https://media.api-sports.io/football/teams/1621.png",
-            "time": "01:30",
-            "date": "27/05",
-            "blv": "NEM CHUA",
+            "time": "01:30 27/05",
+            "blv": "BLV TÁO MÈO",
             "is_live": false,
             "sport_slug": "bong-da"
           },
@@ -1911,7 +1986,113 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/quechoa-stream/refs/heads/main/thumbs/qc-741cc2c059_7b2dbd0b_20260526.png?v=7b2dbd0b",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/SpVgg Greuther Fürth_Rot-Weiß Essen_01-30 27-05_5169e0d1_20260526.png?v=5169e0d1",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-0a38d4e28f",
+          "name": "Santos vs Deportivo Cuenca | 07:30 27/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-0a38d4e28f",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-0a38d4e28f",
+                  "name": "Santos vs Deportivo Cuenca",
+                  "streams": [
+                    {
+                      "id": "st-0a38d4e28f",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "CONMEBOL Sudamericana",
+            "team_a": "Santos",
+            "team_b": "Deportivo Cuenca",
+            "logo_a": "https://media.api-sports.io/football/teams/128.png",
+            "logo_b": "https://media.api-sports.io/football/teams/1154.png",
+            "time": "07:30 27/05",
+            "blv": "BLV PHAN ANH",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Santos_Deportivo Cuenca_07-30 27-05_b9cfa90f_20260526.png?v=b9cfa90f",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-049bee3860",
+          "name": "Flamengo vs Cusco | 07:30 27/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-049bee3860",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-049bee3860",
+                  "name": "Flamengo vs Cusco",
+                  "streams": [
+                    {
+                      "id": "st-049bee3860",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "CONMEBOL Libertadores",
+            "team_a": "Flamengo",
+            "team_b": "Cusco",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/9/93/Flamengo-RJ_%28BRA%29.png",
+            "logo_b": "https://media.api-sports.io/football/teams/10013.png",
+            "time": "07:30 27/05",
+            "blv": "BLV TÁO GIÀ",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Flamengo_Cusco_07-30 27-05_dedd7ca8_20260526.png?v=dedd7ca8",
             "width": 1600,
             "height": 1200
           }
@@ -2108,8 +2289,8 @@
           }
         },
         {
-          "id": "qc-a6b1b4d223",
-          "name": "Buriram United vs Selangor | 19:00 27/05",
+          "id": "qc-cbc7a6c7d5",
+          "name": "Sri Lanka W vs Bhutan W | 18:00 28/05",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -2123,23 +2304,23 @@
           ],
           "sources": [
             {
-              "id": "src-a6b1b4d223",
+              "id": "src-cbc7a6c7d5",
               "name": "QuechoaTV",
               "contents": [
                 {
-                  "id": "ct-a6b1b4d223",
-                  "name": "Buriram United vs Selangor",
+                  "id": "ct-cbc7a6c7d5",
+                  "name": "Sri Lanka W vs Bhutan W",
                   "streams": [
                     {
-                      "id": "st-a6b1b4d223",
+                      "id": "st-cbc7a6c7d5",
                       "name": "QC",
                       "stream_links": [
                         {
-                          "id": "lnk-0e88644c2d",
+                          "id": "lnk-75feca2dee",
                           "name": "Link FHD",
                           "type": "hls",
                           "default": true,
-                          "url": "https://ahghndtkyqmm-pull.bpmedialive.com/quechoa/blv_duahau.m3u8",
+                          "url": "https://ahghndtkyqmm-pull.bpmedialive.com/quechoa/blv_vanminh.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -2163,14 +2344,14 @@
             }
           ],
           "org_metadata": {
-            "league": "ASEAN Club Championship",
-            "team_a": "Buriram United",
-            "team_b": "Selangor",
-            "logo_a": "https://media.api-sports.io/football/teams/2780.png",
-            "logo_b": "https://media.api-sports.io/football/teams/2526.png",
-            "time": "19:00",
-            "date": "27/05",
-            "blv": "DƯA HẤU",
+            "league": "SAFF Championship W",
+            "team_a": "Sri Lanka W",
+            "team_b": "Bhutan W",
+            "logo_a": "https://storage.quechoa2.live/logos/teams/1779687560554-anoeabf5-sch1ipaa.png",
+            "logo_b": "https://storage.quechoa2.live/logos/teams/1779687588425-0pixhrfg-i7bglz7i.png",
+            "time": "18:00",
+            "date": "28/05",
+            "blv": "VĂN MINH",
             "is_live": false,
             "sport_slug": "bong-da"
           },
@@ -2178,14 +2359,14 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/quechoa-stream/refs/heads/main/thumbs/qc-a6b1b4d223_3241401f_20260526.png?v=3241401f",
+            "url": "https://raw.githubusercontent.com/jasminliu98/quechoa-stream/refs/heads/main/thumbs/qc-cbc7a6c7d5_c3c0e95c_20260526.png?v=c3c0e95c",
             "width": 1600,
             "height": 1200
           }
         },
         {
-          "id": "xc-b8bef057af",
-          "name": "Arys vs Sport Academy Kairat | 19:00 26/05",
+          "id": "qc-d8a9b649cc",
+          "name": "Belgium U17 vs Spain U17 | 18:30 28/05",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -2199,31 +2380,31 @@
           ],
           "sources": [
             {
-              "id": "src-b8bef057af",
-              "name": "XayConTV",
+              "id": "src-d8a9b649cc",
+              "name": "QuechoaTV",
               "contents": [
                 {
-                  "id": "ct-b8bef057af",
-                  "name": "Arys vs Sport Academy Kairat",
+                  "id": "ct-d8a9b649cc",
+                  "name": "Belgium U17 vs Spain U17",
                   "streams": [
                     {
-                      "id": "st-b8bef057af",
-                      "name": "XC",
+                      "id": "st-d8a9b649cc",
+                      "name": "QC",
                       "stream_links": [
                         {
-                          "id": "lnk-96278f5a95",
+                          "id": "lnk-67419b1cbc",
                           "name": "Link FHD",
                           "type": "hls",
                           "default": true,
-                          "url": "https://xclive.yarncdn.live/live/xctv_blv_nguoikien/playlist.m3u8",
+                          "url": "https://ahghndtkyqmm-pull.bpmedialive.com/quechoa/blv_khoaitay.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://sv2.xaycon3.live/"
+                              "value": "https://quechoa10.live/"
                             },
                             {
                               "key": "Origin",
-                              "value": "https://sv2.xaycon3.live"
+                              "value": "https://quechoa10.live"
                             },
                             {
                               "key": "User-Agent",
@@ -2239,14 +2420,14 @@
             }
           ],
           "org_metadata": {
-            "league": "1. Division",
-            "team_a": "Arys",
-            "team_b": "Sport Academy Kairat",
-            "logo_a": "https://media.api-sports.io/football/teams/10414.png",
-            "logo_b": "https://media.api-sports.io/football/teams/4556.png",
-            "time": "19:00",
-            "date": "26/05",
-            "blv": "BLV Người Kiến",
+            "league": "UEFA U17 Championship - Qualification",
+            "team_a": "Belgium U17",
+            "team_b": "Spain U17",
+            "logo_a": "https://media.api-sports.io/football/teams/17942.png",
+            "logo_b": "https://media.api-sports.io/football/teams/12520.png",
+            "time": "18:30",
+            "date": "28/05",
+            "blv": "VỎ QUÝT",
             "is_live": false,
             "sport_slug": "bong-da"
           },
@@ -2254,7 +2435,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/xaycon-stream/refs/heads/main/thumbs/xc-b8bef057af_d73c5b35_20260526.png?v=d73c5b35",
+            "url": "https://raw.githubusercontent.com/jasminliu98/quechoa-stream/refs/heads/main/thumbs/qc-d8a9b649cc_84d0279f_20260526.png?v=84d0279f",
             "width": 1600,
             "height": 1200
           }
@@ -2604,41 +2785,6 @@
                             {
                               "key": "Referer",
                               "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "src-c6c87c040b",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-c6c87c040b",
-                  "name": "Aryna Sabalenka vs Jessica Bouzas Maneiro",
-                  "streams": [
-                    {
-                      "id": "st-c6c87c040b",
-                      "name": "Hoiquan - BLV PHAN TỪ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-ee33939914",
-                          "name": "BLV PHAN TỪ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phantu/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -3285,8 +3431,8 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "hqlive-8f168a9e76",
-          "name": "Tay cơ 1 vs Tay cơ 2 | 18:00 26/05",
+          "id": "hqlive-1e20bbb903",
+          "name": "Dương Quốc Hoàng vs Mohammed Baabad | 18:00 26/05",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -3300,15 +3446,15 @@
           ],
           "sources": [
             {
-              "id": "src-8f168a9e76",
+              "id": "src-1e20bbb903",
               "name": "HoiQuanTV",
               "contents": [
                 {
-                  "id": "ct-8f168a9e76",
-                  "name": "Tay cơ 1 vs Tay cơ 2",
+                  "id": "ct-1e20bbb903",
+                  "name": "Dương Quốc Hoàng vs Mohammed Baabad",
                   "streams": [
                     {
-                      "id": "st-8f168a9e76",
+                      "id": "st-1e20bbb903",
                       "name": "HQ",
                       "stream_links": [
                         {
@@ -3337,10 +3483,10 @@
           ],
           "org_metadata": {
             "league": "UK OPEN",
-            "team_a": "Tay cơ 1",
-            "team_b": "Tay cơ 2",
-            "logo_a": "https://img.freepik.com/vector-mien-phi/mau-thiet-ke-logo-billiard_23-2150883890.jpg",
-            "logo_b": "https://img.freepik.com/vector-mien-phi/mau-thiet-ke-logo-billiard_23-2150883890.jpg",
+            "team_a": "Dương Quốc Hoàng",
+            "team_b": "Mohammed Baabad",
+            "logo_a": "https://sv2.anhsieuviet.com/2026/03/04/signal-2026-03-04-151814.jpg",
+            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7wzU7Wnezbf8SPMVNgyIxpWHF5Wwu7UOZiQ&s",
             "time": "18:00 26/05",
             "blv": "BLV PHAN ANH",
             "is_live": true,
@@ -3350,7 +3496,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Tay cơ 1_Tay cơ 2_18-00 26-05_97f1b445_20260526.png?v=97f1b445",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Dương Quốc Hoàng_Mohammed Baabad_18-00 26-05_168a0319_20260526.png?v=168a0319",
             "width": 1600,
             "height": 1200
           }
