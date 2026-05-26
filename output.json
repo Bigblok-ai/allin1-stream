@@ -685,11 +685,82 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (5 LIVE)",
+      "name": "⚽ Bóng Đá (6 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "gv-c694d274b4",
+          "name": "Inter Turku vs EBK | 22:30 26/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-c694d274b4",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-c694d274b4",
+                  "name": "Inter Turku vs EBK",
+                  "streams": [
+                    {
+                      "id": "st-c694d274b4",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-0a19f91d8f",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1779732181_hd/1779732181_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Cúp Phần Lan",
+            "team_a": "Inter Turku",
+            "team_b": "EBK",
+            "logo_a": "https://static.flashscore.com/res/image/data/25XF6X9r-xpBmN8u1.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/xjdSUIyB-f70xif8j.png",
+            "time": "22:30 26/05",
+            "blv": "blv-leo",
+            "is_live": true,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-c694d274b4_77e63c36_20260526.png?v=77e63c36",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "hqlive-4159e45ef0",
           "name": "Astana II vs Khan Tengri | 21:00 26/05",
@@ -1085,77 +1156,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-0b846c55b4_92065de5_20260526.png?v=92065de5",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-c694d274b4",
-          "name": "Inter Turku vs EBK | 22:30 26/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-c694d274b4",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-c694d274b4",
-                  "name": "Inter Turku vs EBK",
-                  "streams": [
-                    {
-                      "id": "st-c694d274b4",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-0a19f91d8f",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1779732181_hd/1779732181_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Cúp Phần Lan",
-            "team_a": "Inter Turku",
-            "team_b": "EBK",
-            "logo_a": "https://static.flashscore.com/res/image/data/25XF6X9r-xpBmN8u1.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/xjdSUIyB-f70xif8j.png",
-            "time": "22:30 26/05",
-            "blv": "blv-leo",
-            "is_live": false,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-c694d274b4_77e63c36_20260526.png?v=77e63c36",
             "width": 1600,
             "height": 1200
           }
