@@ -685,7 +685,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (3 LIVE)",
+      "name": "⚽ Bóng Đá (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -833,8 +833,8 @@
           }
         },
         {
-          "id": "xc-da2d22f5f5",
-          "name": "Seoul W vs Incheon Red Angels W | 17:00 27/05",
+          "id": "hqlive-f36aedd162",
+          "name": "Altay vs FC Astana | 18:00 27/05",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -844,82 +844,6 @@
               "position": "top-left",
               "color": "#00000080",
               "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-da2d22f5f5",
-              "name": "XayConTV",
-              "contents": [
-                {
-                  "id": "ct-da2d22f5f5",
-                  "name": "Seoul W vs Incheon Red Angels W",
-                  "streams": [
-                    {
-                      "id": "st-da2d22f5f5",
-                      "name": "XC",
-                      "stream_links": [
-                        {
-                          "id": "lnk-19bab7f4de",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://xclive.yarncdn.live/live/xctv_blv_aco/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.xaycon3.live/"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://sv2.xaycon3.live"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "WK-League",
-            "team_a": "Seoul W",
-            "team_b": "Incheon Red Angels W",
-            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4MaoRq3dS2v_Z7ysN83fD4r1XqTtCfJsc5w&s",
-            "logo_b": "https://media.api-sports.io/football/teams/14377.png",
-            "time": "17:00",
-            "date": "27/05",
-            "blv": "BLV A Cỏ",
-            "is_live": true,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/xaycon-stream/refs/heads/main/thumbs/xc-da2d22f5f5_90dc9741_20260527.png?v=90dc9741",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "hqlive-f36aedd162",
-          "name": "Altay vs FC Astana | 18:00 27/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
             }
           ],
           "sources": [
@@ -934,7 +858,25 @@
                     {
                       "id": "st-f36aedd162",
                       "name": "HQ",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-c3ae00c22d",
+                          "name": "BLV TÁO KINH TẾ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://tdlive.yarncdn.live/live/tdtv_blv_taokinhte/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -1023,7 +965,7 @@
             "logo_b": "https://media.api-sports.io/football/teams/562.png",
             "time": "18:00 27/05",
             "blv": "BLV TÁO KINH TẾ",
-            "is_live": false,
+            "is_live": true,
             "sport_slug": "bong-da"
           },
           "image": {
@@ -1031,6 +973,82 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Altay_FC Astana_18-00 27-05_3cdea4ef_20260527.png?v=3cdea4ef",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-da2d22f5f5",
+          "name": "Seoul W vs Incheon Red Angels W | 17:00 27/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-da2d22f5f5",
+              "name": "XayConTV",
+              "contents": [
+                {
+                  "id": "ct-da2d22f5f5",
+                  "name": "Seoul W vs Incheon Red Angels W",
+                  "streams": [
+                    {
+                      "id": "st-da2d22f5f5",
+                      "name": "XC",
+                      "stream_links": [
+                        {
+                          "id": "lnk-19bab7f4de",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://xclive.yarncdn.live/live/xctv_blv_aco/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.xaycon3.live/"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://sv2.xaycon3.live"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "WK-League",
+            "team_a": "Seoul W",
+            "team_b": "Incheon Red Angels W",
+            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4MaoRq3dS2v_Z7ysN83fD4r1XqTtCfJsc5w&s",
+            "logo_b": "https://media.api-sports.io/football/teams/14377.png",
+            "time": "17:00",
+            "date": "27/05",
+            "blv": "BLV A Cỏ",
+            "is_live": true,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/xaycon-stream/refs/heads/main/thumbs/xc-da2d22f5f5_90dc9741_20260527.png?v=90dc9741",
             "width": 1600,
             "height": 1200
           }
