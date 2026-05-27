@@ -685,11 +685,87 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá",
+      "name": "⚽ Bóng Đá (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "xc-cb907300bf",
+          "name": "Xi'an Ronghai vs Qingdao Red Lions | 14:00 27/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-cb907300bf",
+              "name": "XayConTV",
+              "contents": [
+                {
+                  "id": "ct-cb907300bf",
+                  "name": "Xi'an Ronghai vs Qingdao Red Lions",
+                  "streams": [
+                    {
+                      "id": "st-cb907300bf",
+                      "name": "XC",
+                      "stream_links": [
+                        {
+                          "id": "lnk-30319ba8f3",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://xclive.yarncdn.live/live/xctv_blv_bipcon/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.xaycon3.live/"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://sv2.xaycon3.live"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "League Two",
+            "team_a": "Xi'an Ronghai",
+            "team_b": "Qingdao Red Lions",
+            "logo_a": "https://media.api-sports.io/football/teams/20674.png",
+            "logo_b": "https://media.api-sports.io/football/teams/5679.png",
+            "time": "14:00",
+            "date": "27/05",
+            "blv": "BLV Bịp Con",
+            "is_live": true,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/xaycon-stream/refs/heads/main/thumbs/xc-cb907300bf_c9eec79b_20260527.png?v=c9eec79b",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "gv-8f5365cbb1",
           "name": "Stallions vs Dynamic Herb Cebu | 14:30 27/05",
@@ -1955,82 +2031,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/xaycon-stream/refs/heads/main/thumbs/xc-8ff921dc4b_79ccddb0_20260527.png?v=79ccddb0",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "xc-cb907300bf",
-          "name": "Xi'an Ronghai vs Qingdao Red Lions | 14:00 27/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-cb907300bf",
-              "name": "XayConTV",
-              "contents": [
-                {
-                  "id": "ct-cb907300bf",
-                  "name": "Xi'an Ronghai vs Qingdao Red Lions",
-                  "streams": [
-                    {
-                      "id": "st-cb907300bf",
-                      "name": "XC",
-                      "stream_links": [
-                        {
-                          "id": "lnk-30319ba8f3",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://xclive.yarncdn.live/live/xctv_blv_bipcon/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.xaycon3.live/"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://sv2.xaycon3.live"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "League Two",
-            "team_a": "Xi'an Ronghai",
-            "team_b": "Qingdao Red Lions",
-            "logo_a": "https://media.api-sports.io/football/teams/20674.png",
-            "logo_b": "https://media.api-sports.io/football/teams/5679.png",
-            "time": "14:00",
-            "date": "27/05",
-            "blv": "BLV Bịp Con",
-            "is_live": false,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/xaycon-stream/refs/heads/main/thumbs/xc-cb907300bf_c9eec79b_20260527.png?v=c9eec79b",
             "width": 1600,
             "height": 1200
           }
