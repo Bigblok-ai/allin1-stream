@@ -685,11 +685,82 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (1 LIVE)",
+      "name": "⚽ Bóng Đá (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "gv-8f5365cbb1",
+          "name": "Stallions vs Dynamic Herb Cebu | 14:30 27/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-8f5365cbb1",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-8f5365cbb1",
+                  "name": "Stallions vs Dynamic Herb Cebu",
+                  "streams": [
+                    {
+                      "id": "st-8f5365cbb1",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-b24274cf66",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1779792212_hd/1779792212_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Philippines - PFL",
+            "team_a": "Stallions",
+            "team_b": "Dynamic Herb Cebu",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/en/5/5c/Stallion_Laguna_FC_Logo.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/en/c/c3/Dynamic_Herb_Cebu_F.C.png",
+            "time": "14:30 27/05",
+            "blv": "blv-tri",
+            "is_live": true,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-8f5365cbb1_4b790e43_20260527.png?v=4b790e43",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "xc-cb907300bf",
           "name": "Xi'an Ronghai vs Qingdao Red Lions | 14:00 27/05",
@@ -762,77 +833,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/xaycon-stream/refs/heads/main/thumbs/xc-cb907300bf_c9eec79b_20260527.png?v=c9eec79b",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-8f5365cbb1",
-          "name": "Stallions vs Dynamic Herb Cebu | 14:30 27/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-8f5365cbb1",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-8f5365cbb1",
-                  "name": "Stallions vs Dynamic Herb Cebu",
-                  "streams": [
-                    {
-                      "id": "st-8f5365cbb1",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-b24274cf66",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1779792212_hd/1779792212_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Philippines - PFL",
-            "team_a": "Stallions",
-            "team_b": "Dynamic Herb Cebu",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/en/5/5c/Stallion_Laguna_FC_Logo.png",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/en/c/c3/Dynamic_Herb_Cebu_F.C.png",
-            "time": "14:30 27/05",
-            "blv": "blv-tri",
-            "is_live": false,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-8f5365cbb1_4b790e43_20260527.png?v=4b790e43",
             "width": 1600,
             "height": 1200
           }
