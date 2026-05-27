@@ -3459,7 +3459,7 @@
     },
     {
       "id": "grp-cầu-lông",
-      "name": "🏸 Cầu Lông (1 LIVE)",
+      "name": "🏸 Cầu Lông (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -3543,10 +3543,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -3561,7 +3561,25 @@
                     {
                       "id": "st-99c216d0a1",
                       "name": "HQ",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-eae8482cb7",
+                          "name": "BLV PHAN BÁCH",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanchuot/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -3576,7 +3594,7 @@
             "logo_b": "https://static.flashscore.com/res/image/data/O2nuZwRp-vaAM5VhK.png",
             "time": "15:00 27/05",
             "blv": "BLV PHAN BÁCH",
-            "is_live": false,
+            "is_live": true,
             "sport_slug": "cau-long"
           },
           "image": {
@@ -3625,11 +3643,11 @@
                       "name": "GV",
                       "stream_links": [
                         {
-                          "id": "lnk-8e84b34282",
+                          "id": "lnk-3c764ab211",
                           "name": "Link HD 720p",
                           "type": "hls",
                           "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1779852559_hd/1779852559_hd@720p.m3u8",
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1779867287_hd/1779867287_hd@720p.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -3655,7 +3673,7 @@
             "logo_a": "https://static.flashscore.com/res/image/data/WjIooAEG-CvPI3PRl.png",
             "logo_b": "https://static.flashscore.com/res/image/data/hWf7PfGG-67i7cfzM.png",
             "time": "16:15 27/05",
-            "blv": "BLV Cầy",
+            "blv": "BLV Điếc",
             "is_live": false,
             "cate_type": "basketball"
           },
@@ -3696,11 +3714,11 @@
                       "name": "GV",
                       "stream_links": [
                         {
-                          "id": "lnk-5357cfebeb",
+                          "id": "lnk-e5d15c14b1",
                           "name": "Link HD 720p",
                           "type": "hls",
                           "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1779852687_hd/1779852687_hd@720p.m3u8",
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1779867307_hd/1779867307_hd@720p.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -3726,7 +3744,7 @@
             "logo_a": "https://static.flashscore.com/res/image/data/nTNHGwAr-hCospehC.png",
             "logo_b": "https://static.flashscore.com/res/image/data/EiX7h4yS-ddhMe2Bk.png",
             "time": "18:30 27/05",
-            "blv": "BLV Điếc",
+            "blv": "BLV Cầy",
             "is_live": false,
             "cate_type": "basketball"
           },
