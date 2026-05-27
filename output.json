@@ -2737,7 +2737,7 @@
     },
     {
       "id": "grp-cầu-lông",
-      "name": "🏸 Cầu Lông",
+      "name": "🏸 Cầu Lông (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -2750,10 +2750,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -2768,7 +2768,25 @@
                     {
                       "id": "st-432c38a656",
                       "name": "HQ",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-eae8482cb7",
+                          "name": "BLV PHAN BÁCH",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanchuot/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -2783,7 +2801,7 @@
             "logo_b": "https://images2.thanhnien.vn/528068263637045248/2025/1/23/202110101715thomasubercupfinals2020bpyn9301-173762638416540370629.jpg",
             "time": "09:00 27/05",
             "blv": "BLV PHAN BÁCH",
-            "is_live": false,
+            "is_live": true,
             "sport_slug": "cau-long"
           },
           "image": {
@@ -2945,6 +2963,77 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-1f16c57a17_ab879e6c_20260527.png?v=ab879e6c",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-76a884f990",
+          "name": "New York Liberty W  vs Phoenix Mercury W | 06:00 28/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-76a884f990",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-76a884f990",
+                  "name": "New York Liberty W  vs Phoenix Mercury W",
+                  "streams": [
+                    {
+                      "id": "st-76a884f990",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-a942a0ff09",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1779845655_hd/1779845655_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "WNBA",
+            "team_a": "New York Liberty W ",
+            "team_b": "Phoenix Mercury W",
+            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRnFsEkiU1gOwmarpw9ErB0OrMqNBZSXWNG6g&s",
+            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSm4o_ouucTY-8p7pkBPH_FufuVnPYbXFj3GA&s",
+            "time": "06:00 28/05",
+            "blv": "blv-can",
+            "is_live": false,
+            "cate_type": "basketball"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-76a884f990_00c3e73c_20260527.png?v=00c3e73c",
             "width": 1600,
             "height": 1200
           }
