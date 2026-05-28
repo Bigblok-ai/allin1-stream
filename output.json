@@ -685,11 +685,121 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (1 LIVE)",
+      "name": "⚽ Bóng Đá (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "hqlive-7d516852a6",
+          "name": "Okzhetpes vs Aktobe | 17:00 28/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-7d516852a6",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-7d516852a6",
+                  "name": "Okzhetpes vs Aktobe",
+                  "streams": [
+                    {
+                      "id": "st-7d516852a6",
+                      "name": "HQ",
+                      "stream_links": [
+                        {
+                          "id": "lnk-1cad2e4412",
+                          "name": "BLV TÁO GIÀ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://tdlive.yarncdn.live/live/tdtv_blv_taotinhtao/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-e3e288106f",
+              "name": "XayConTV",
+              "contents": [
+                {
+                  "id": "ct-e3e288106f",
+                  "name": "Okzhetpes vs Aktobe",
+                  "streams": [
+                    {
+                      "id": "st-e3e288106f",
+                      "name": "Xaycon - BLV Thợ Lặn",
+                      "stream_links": [
+                        {
+                          "id": "lnk-fa5c7698a5",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://xclive.yarncdn.live/live/xctv_blv_tholan/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.xaycon3.live/"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://sv2.xaycon3.live"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Ngoại hạng Kazakhstan",
+            "team_a": "Okzhetpes",
+            "team_b": "Aktobe",
+            "logo_a": "https://media.api-sports.io/football/teams/4558.png",
+            "logo_b": "https://media.api-sports.io/football/teams/4563.png",
+            "time": "17:00 28/05",
+            "blv": "BLV TÁO GIÀ",
+            "is_live": true,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Okzhetpes_Aktobe_17-00 28-05_23e41a8f_20260528.png?v=23e41a8f",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "xc-f8f9753e03",
           "name": "Truong Giang Gia Dinh\t-\tĐắk Lắk | 15:00 28/05",
@@ -762,98 +872,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/xaycon-stream/refs/heads/main/thumbs/xc-f8f9753e03_ace754b9_20260528.png?v=ace754b9",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "hqlive-7d516852a6",
-          "name": "Okzhetpes vs Aktobe | 17:00 28/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-7d516852a6",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-7d516852a6",
-                  "name": "Okzhetpes vs Aktobe",
-                  "streams": [
-                    {
-                      "id": "st-7d516852a6",
-                      "name": "HQ",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "src-e3e288106f",
-              "name": "XayConTV",
-              "contents": [
-                {
-                  "id": "ct-e3e288106f",
-                  "name": "Okzhetpes vs Aktobe",
-                  "streams": [
-                    {
-                      "id": "st-e3e288106f",
-                      "name": "Xaycon - BLV Thợ Lặn",
-                      "stream_links": [
-                        {
-                          "id": "lnk-fa5c7698a5",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://xclive.yarncdn.live/live/xctv_blv_tholan/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.xaycon3.live/"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://sv2.xaycon3.live"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Ngoại hạng Kazakhstan",
-            "team_a": "Okzhetpes",
-            "team_b": "Aktobe",
-            "logo_a": "https://media.api-sports.io/football/teams/4558.png",
-            "logo_b": "https://media.api-sports.io/football/teams/4563.png",
-            "time": "17:00 28/05",
-            "blv": "BLV TÁO GIÀ",
-            "is_live": false,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Okzhetpes_Aktobe_17-00 28-05_23e41a8f_20260528.png?v=23e41a8f",
             "width": 1600,
             "height": 1200
           }
@@ -2972,26 +2990,61 @@
     },
     {
       "id": "grp-tennis",
-      "name": "🎾 Tennis",
+      "name": "🎾 Tennis (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
         {
-          "id": "hqlive-b6854aece6",
+          "id": "gv-bf23589fd3",
           "name": "Jannik Sinner vs Juan Manuel Cerundolo | 17:00 28/05",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
+            {
+              "id": "src-bf23589fd3",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-bf23589fd3",
+                  "name": "Jannik Sinner vs Juan Manuel Cerundolo",
+                  "streams": [
+                    {
+                      "id": "st-bf23589fd3",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-e47cc9ee35",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1779960837_hd/1779960837_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
             {
               "id": "src-b6854aece6",
               "name": "HoiQuanTV",
@@ -3002,8 +3055,26 @@
                   "streams": [
                     {
                       "id": "st-b6854aece6",
-                      "name": "HQ",
-                      "stream_links": []
+                      "name": "Hoiquan - BLV PHAN TỪ",
+                      "stream_links": [
+                        {
+                          "id": "lnk-ee33939914",
+                          "name": "BLV PHAN TỪ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phantu/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -3011,21 +3082,21 @@
             }
           ],
           "org_metadata": {
-            "league": "Roland Garros",
+            "league": "The French Open( Roland Garros)",
             "team_a": "Jannik Sinner",
             "team_b": "Juan Manuel Cerundolo",
-            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtkuD4iDpTTtrKYv1EJ3LPjU01T_fPpfF-hg&s",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/6/64/Cerundolo_JM._RGQ22_%283%29_%2852128606242%29.jpg",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Jannik_Sinner_US_Open_2025_%28cropped%29.jpg/250px-Jannik_Sinner_US_Open_2025_%28cropped%29.jpg",
+            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTIggZhl9Nnbk6H5VCur_5XkuCuS8vVC9kBcA&s",
             "time": "17:00 28/05",
-            "blv": "BLV PHAN TỪ",
-            "is_live": false,
-            "sport_slug": "tennis"
+            "blv": "blv-sun",
+            "is_live": true,
+            "cate_type": "tennis"
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Jannik Sinner_Juan Manuel Cerundolo_17-00 28-05_240bdc5d_20260528.png?v=240bdc5d",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-bf23589fd3_4dcd033a_20260528.png?v=4dcd033a",
             "width": 1600,
             "height": 1200
           }
@@ -3548,11 +3619,82 @@
     },
     {
       "id": "grp-billiards",
-      "name": "🎱 Billiards",
+      "name": "🎱 Billiards (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "hqlive-3f643469f8",
+          "name": "Tay cơ 1 vs Tay cơ 2 | 17:00 28/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-3f643469f8",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-3f643469f8",
+                  "name": "Tay cơ 1 vs Tay cơ 2",
+                  "streams": [
+                    {
+                      "id": "st-3f643469f8",
+                      "name": "HQ",
+                      "stream_links": [
+                        {
+                          "id": "lnk-fd31283a76",
+                          "name": "BLV PHAN ANH",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phananh/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "UK OPEN",
+            "team_a": "Tay cơ 1",
+            "team_b": "Tay cơ 2",
+            "logo_a": "https://img.freepik.com/vector-mien-phi/mau-thiet-ke-logo-billiard_23-2150883890.jpg",
+            "logo_b": "https://img.freepik.com/vector-mien-phi/mau-thiet-ke-logo-billiard_23-2150883890.jpg",
+            "time": "17:00 28/05",
+            "blv": "BLV PHAN ANH",
+            "is_live": true,
+            "sport_slug": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Tay cơ 1_Tay cơ 2_17-00 28-05_97f1b445_20260528.png?v=97f1b445",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "qc-b613be0419",
           "name": "Dương Quốc Hoàng  vs CHƯA XÁC ĐỊNH | 18:00 28/05",
