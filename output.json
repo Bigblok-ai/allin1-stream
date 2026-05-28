@@ -2537,7 +2537,7 @@
     },
     {
       "id": "grp-tennis",
-      "name": "🎾 Tennis (3 LIVE)",
+      "name": "🎾 Tennis (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -2798,10 +2798,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -2816,7 +2816,25 @@
                     {
                       "id": "st-5cf11ed45b",
                       "name": "HQ",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-ee33939914",
+                          "name": "BLV PHAN TỪ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phantu/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -2831,7 +2849,7 @@
             "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZAP34FELKcVRfLnNP5teiNu2EsORc-UpkSw&s",
             "time": "21:00 28/05",
             "blv": "BLV PHAN TỪ",
-            "is_live": false,
+            "is_live": true,
             "sport_slug": "tennis"
           },
           "image": {
@@ -2980,82 +2998,11 @@
     },
     {
       "id": "grp-bóng-rổ",
-      "name": "🏀 Bóng Rổ (2 LIVE)",
+      "name": "🏀 Bóng Rổ (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-a7ed855544",
-          "name": "Shanghai vs Zhejiang Guangsha | 18:35 28/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-a7ed855544",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-a7ed855544",
-                  "name": "Shanghai vs Zhejiang Guangsha",
-                  "streams": [
-                    {
-                      "id": "st-a7ed855544",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-71b0bdbebb",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1779952427_hd/1779952427_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "CBA ",
-            "team_a": "Shanghai",
-            "team_b": "Zhejiang Guangsha",
-            "logo_a": "https://static.flashscore.com/res/image/data/Y3pRHKDa-8j2NKdiM.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/Qel3gyyB-4hG46oFE.png",
-            "time": "18:35 28/05",
-            "blv": "blv-can",
-            "is_live": true,
-            "cate_type": "basketball"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-a7ed855544_b920c9c9_20260528.png?v=b920c9c9",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-ce3e845a9a",
           "name": "Da Nang Dragons vs Ho Chi Minh City Wings | 19:30 28/05",
