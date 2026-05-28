@@ -685,14 +685,14 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (4 LIVE)",
+      "name": "⚽ Bóng Đá (6 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
         {
-          "id": "hqlive-ad9a930407",
-          "name": "Belgium U17 vs Spain U17 | 18:30 28/05",
+          "id": "gv-d1753e5c28",
+          "name": "Bangladesh vs Maldives | 21:00 28/05",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -706,23 +706,129 @@
           ],
           "sources": [
             {
-              "id": "src-ad9a930407",
+              "id": "src-d1753e5c28",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-d1753e5c28",
+                  "name": "Bangladesh vs Maldives",
+                  "streams": [
+                    {
+                      "id": "st-d1753e5c28",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-fe087e2d03",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1779952711_hd/1779952711_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-1770ae9e1b",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-1770ae9e1b",
+                  "name": "Bangladesh W vs Maldives W",
+                  "streams": [
+                    {
+                      "id": "st-1770ae9e1b",
+                      "name": "Bugio - BLV Lavie",
+                      "stream_links": [
+                        {
+                          "id": "lnk-a4a6a520ed",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_lavie/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Giải Vô địch Bóng đá nữ Nam Á",
+            "team_a": "Bangladesh",
+            "team_b": "Maldives",
+            "logo_a": "https://static.flashscore.com/res/image/data/vDW19LGG-0EYShBaD.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/KnrpXMDa-ldlFLEPm.png",
+            "time": "21:00 28/05",
+            "blv": "blv-mat",
+            "is_live": true,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-d1753e5c28_d9799c57_20260528.png?v=d9799c57",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-a0d6f8cd26",
+          "name": "Petrojet vs El Gouna FC | 21:00 28/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-a0d6f8cd26",
               "name": "HoiQuanTV",
               "contents": [
                 {
-                  "id": "ct-ad9a930407",
-                  "name": "Belgium U17 vs Spain U17",
+                  "id": "ct-a0d6f8cd26",
+                  "name": "Petrojet vs El Gouna FC",
                   "streams": [
                     {
-                      "id": "st-ad9a930407",
+                      "id": "st-a0d6f8cd26",
                       "name": "HQ",
                       "stream_links": [
                         {
-                          "id": "lnk-2821a56f8c",
-                          "name": "BLV TÁO MÈO",
+                          "id": "lnk-b10e5b640b",
+                          "name": "BLV THẦN THÔNG",
                           "type": "hls",
                           "default": true,
-                          "url": "https://tdlive.yarncdn.live/live/tdtv_blv_taomeo/playlist.m3u8",
+                          "url": "https://tdlive.yarncdn.live/live/tdtv_blv_taovannghe/playlist.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -739,16 +845,55 @@
                   ]
                 }
               ]
+            },
+            {
+              "id": "src-e3a3561849",
+              "name": "QuechoaTV",
+              "contents": [
+                {
+                  "id": "ct-e3a3561849",
+                  "name": "Petrojet vs El Gouna FC",
+                  "streams": [
+                    {
+                      "id": "st-e3a3561849",
+                      "name": "Quechoa - HẠT MÍT",
+                      "stream_links": [
+                        {
+                          "id": "lnk-2a9bebe48a",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ahghndtkyqmm-pull.bpmedialive.com/quechoa/blv_quechoa_1.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://quechoa10.live/"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://quechoa10.live"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
             }
           ],
           "org_metadata": {
-            "league": "UEFA U17 Championship",
-            "team_a": "Belgium U17",
-            "team_b": "Spain U17",
-            "logo_a": "https://media.api-sports.io/football/teams/1.png",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Bandera_de_Espa%C3%B1a.svg/1280px-Bandera_de_Espa%C3%B1a.svg.png",
-            "time": "18:30 28/05",
-            "blv": "BLV TÁO MÈO",
+            "league": "VĐQG Ai Cập",
+            "team_a": "Petrojet",
+            "team_b": "El Gouna FC",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/en/5/5d/Petrojet_SC_2017.png",
+            "logo_b": "https://media.api-sports.io/football/teams/1574.png",
+            "time": "21:00 28/05",
+            "blv": "BLV THẦN THÔNG",
             "is_live": true,
             "sport_slug": "bong-da"
           },
@@ -756,7 +901,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Belgium U17_Spain U17_18-30 28-05_5c58ad3b_20260528.png?v=5c58ad3b",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Petrojet_El Gouna FC_21-00 28-05_0414afec_20260528.png?v=0414afec",
             "width": 1600,
             "height": 1200
           }
@@ -833,6 +978,82 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/xaycon-stream/refs/heads/main/thumbs/xc-6b01ff10e7_70176580_20260528.png?v=70176580",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-a5ae7eafe5",
+          "name": "Septemvri Sofia vs Yantra 2019 | 21:00 28/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-a5ae7eafe5",
+              "name": "XayConTV",
+              "contents": [
+                {
+                  "id": "ct-a5ae7eafe5",
+                  "name": "Septemvri Sofia vs Yantra 2019",
+                  "streams": [
+                    {
+                      "id": "st-a5ae7eafe5",
+                      "name": "XC",
+                      "stream_links": [
+                        {
+                          "id": "lnk-bccd486b79",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://xclive.yarncdn.live/live/xctv_blv_tammao/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.xaycon3.live/"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://sv2.xaycon3.live"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "First League",
+            "team_a": "Septemvri Sofia",
+            "team_b": "Yantra 2019",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/en/a/a9/PFCSeptemvriSofia.png",
+            "logo_b": "https://media.api-sports.io/football/teams/8528.png",
+            "time": "21:00",
+            "date": "28/05",
+            "blv": "BLV Tam Mao",
+            "is_live": true,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/xaycon-stream/refs/heads/main/thumbs/xc-a5ae7eafe5_5e076d69_20260528.png?v=5e076d69",
             "width": 1600,
             "height": 1200
           }
@@ -975,204 +1196,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-e7a425c6ec_b097841d_20260528.png?v=b097841d",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-d1753e5c28",
-          "name": "Bangladesh vs Maldives | 21:00 28/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-d1753e5c28",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-d1753e5c28",
-                  "name": "Bangladesh vs Maldives",
-                  "streams": [
-                    {
-                      "id": "st-d1753e5c28",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-fe087e2d03",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1779952711_hd/1779952711_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "src-1770ae9e1b",
-              "name": "BugioTV",
-              "contents": [
-                {
-                  "id": "ct-1770ae9e1b",
-                  "name": "Bangladesh W vs Maldives W",
-                  "streams": [
-                    {
-                      "id": "st-1770ae9e1b",
-                      "name": "Bugio - BLV Lavie",
-                      "stream_links": [
-                        {
-                          "id": "lnk-a4a6a520ed",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_lavie/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv1.bugio9.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Giải Vô địch Bóng đá nữ Nam Á",
-            "team_a": "Bangladesh",
-            "team_b": "Maldives",
-            "logo_a": "https://static.flashscore.com/res/image/data/vDW19LGG-0EYShBaD.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/KnrpXMDa-ldlFLEPm.png",
-            "time": "21:00 28/05",
-            "blv": "blv-mat",
-            "is_live": false,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-d1753e5c28_d9799c57_20260528.png?v=d9799c57",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "hqlive-a0d6f8cd26",
-          "name": "Petrojet vs El Gouna FC | 21:00 28/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-a0d6f8cd26",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-a0d6f8cd26",
-                  "name": "Petrojet vs El Gouna FC",
-                  "streams": [
-                    {
-                      "id": "st-a0d6f8cd26",
-                      "name": "HQ",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "src-e3a3561849",
-              "name": "QuechoaTV",
-              "contents": [
-                {
-                  "id": "ct-e3a3561849",
-                  "name": "Petrojet vs El Gouna FC",
-                  "streams": [
-                    {
-                      "id": "st-e3a3561849",
-                      "name": "Quechoa - HẠT MÍT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-2a9bebe48a",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ahghndtkyqmm-pull.bpmedialive.com/quechoa/blv_quechoa_1.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://quechoa10.live/"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://quechoa10.live"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "VĐQG Ai Cập",
-            "team_a": "Petrojet",
-            "team_b": "El Gouna FC",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/en/5/5d/Petrojet_SC_2017.png",
-            "logo_b": "https://media.api-sports.io/football/teams/1574.png",
-            "time": "21:00 28/05",
-            "blv": "BLV THẦN THÔNG",
-            "is_live": false,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Petrojet_El Gouna FC_21-00 28-05_0414afec_20260528.png?v=0414afec",
             "width": 1600,
             "height": 1200
           }
@@ -2202,82 +2225,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/quechoa-stream/refs/heads/main/thumbs/qc-f78b2c8a39_53749e20_20260528.png?v=53749e20",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "xc-a5ae7eafe5",
-          "name": "Septemvri Sofia vs Yantra 2019 | 21:00 28/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-a5ae7eafe5",
-              "name": "XayConTV",
-              "contents": [
-                {
-                  "id": "ct-a5ae7eafe5",
-                  "name": "Septemvri Sofia vs Yantra 2019",
-                  "streams": [
-                    {
-                      "id": "st-a5ae7eafe5",
-                      "name": "XC",
-                      "stream_links": [
-                        {
-                          "id": "lnk-bccd486b79",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://xclive.yarncdn.live/live/xctv_blv_tammao/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.xaycon3.live/"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://sv2.xaycon3.live"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "First League",
-            "team_a": "Septemvri Sofia",
-            "team_b": "Yantra 2019",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/en/a/a9/PFCSeptemvriSofia.png",
-            "logo_b": "https://media.api-sports.io/football/teams/8528.png",
-            "time": "21:00",
-            "date": "28/05",
-            "blv": "BLV Tam Mao",
-            "is_live": false,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/xaycon-stream/refs/heads/main/thumbs/xc-a5ae7eafe5_5e076d69_20260528.png?v=5e076d69",
             "width": 1600,
             "height": 1200
           }
