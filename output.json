@@ -3592,83 +3592,11 @@
     },
     {
       "id": "grp-cầu-lông",
-      "name": "🏸 Cầu Lông (1 LIVE)",
+      "name": "🏸 Cầu Lông",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
-      "channels": [
-        {
-          "id": "hqlive-fe4e6a24b4",
-          "name": "Tay Vợt Số 1 vs Tay Vợt Số 2 | 17:30 28/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-fe4e6a24b4",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-fe4e6a24b4",
-                  "name": "Tay Vợt Số 1 vs Tay Vợt Số 2",
-                  "streams": [
-                    {
-                      "id": "st-fe4e6a24b4",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-f6231c6549",
-                          "name": "BLV PHAN CA",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanca/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "KFF Singapore Badminton Open 2026",
-            "team_a": "Tay Vợt Số 1",
-            "team_b": "Tay Vợt Số 2",
-            "logo_a": "https://static.flashscore.com/res/image/data/O2nuZwRp-vaAM5VhK.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/O2nuZwRp-vaAM5VhK.png",
-            "time": "17:30 28/05",
-            "blv": "BLV PHAN CA",
-            "is_live": true,
-            "sport_slug": "cau-long"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Tay Vợt Số 1_Tay Vợt Số 2_17-30 28-05_cacf1340_20260528.png?v=cacf1340",
-            "width": 1600,
-            "height": 1200
-          }
-        }
-      ]
+      "channels": []
     },
     {
       "id": "grp-bóng-rổ",
@@ -3895,6 +3823,82 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Tay cơ 1_Tay cơ 2_21-00 28-05_97f1b445_20260528.png?v=97f1b445",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "qc-626b6bd011",
+          "name": "Phạm Phương Nam vs Karl Gnadeberg | 22:00 28/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-626b6bd011",
+              "name": "QuechoaTV",
+              "contents": [
+                {
+                  "id": "ct-626b6bd011",
+                  "name": "Phạm Phương Nam vs Karl Gnadeberg",
+                  "streams": [
+                    {
+                      "id": "st-626b6bd011",
+                      "name": "QC",
+                      "stream_links": [
+                        {
+                          "id": "lnk-6cafe33b0c",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ahghndtkyqmm-pull.bpmedialive.com/quechoa/blv1.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://quechoa10.live/"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://quechoa10.live"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "UK OPEN POOL CHAMPIONSHIP",
+            "team_a": "Phạm Phương Nam",
+            "team_b": "Karl Gnadeberg",
+            "logo_a": "https://storage.quechoa2.live/logos/teams/1770339564775-t-i-xu-ng-2-.jpg",
+            "logo_b": "https://storage.quechoa2.live/logos/teams/1779979714833-img-0873.jpeg",
+            "time": "22:00",
+            "date": "28/05",
+            "blv": "PUMA",
+            "is_live": false,
+            "sport_slug": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/quechoa-stream/refs/heads/main/thumbs/qc-626b6bd011_cd2d3ebb_20260528.png?v=cd2d3ebb",
             "width": 1600,
             "height": 1200
           }
