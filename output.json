@@ -685,11 +685,82 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (4 LIVE)",
+      "name": "⚽ Bóng Đá (5 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "gv-e76f03f9e6",
+          "name": "Mexico U17 vs Anh U17 | 22:00 29/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-e76f03f9e6",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-e76f03f9e6",
+                  "name": "Mexico U17 vs Anh U17",
+                  "streams": [
+                    {
+                      "id": "st-e76f03f9e6",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-d4d547eb91",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1780023336_hd/1780023336_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Giao hữu quốc tế",
+            "team_a": "Mexico U17",
+            "team_b": "Anh U17",
+            "logo_a": "https://images.keovip88.net/images/teams/mexico-u17.png",
+            "logo_b": "https://images.keovip88.net/images/teams/england-u17.png",
+            "time": "22:00 29/05",
+            "blv": "blv-mat",
+            "is_live": true,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-e76f03f9e6_4014e05a_20260529.png?v=4014e05a",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "qc-f241072463",
           "name": "Riga vs Grobiņa | 22:00 29/05",
@@ -1020,77 +1091,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-457ded6f20_2bdca1c4_20260529.png?v=2bdca1c4",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-e76f03f9e6",
-          "name": "Mexico U17 vs Anh U17 | 22:00 29/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-e76f03f9e6",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-e76f03f9e6",
-                  "name": "Mexico U17 vs Anh U17",
-                  "streams": [
-                    {
-                      "id": "st-e76f03f9e6",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-d4d547eb91",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1780023336_hd/1780023336_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Giao hữu quốc tế",
-            "team_a": "Mexico U17",
-            "team_b": "Anh U17",
-            "logo_a": "https://images.keovip88.net/images/teams/mexico-u17.png",
-            "logo_b": "https://images.keovip88.net/images/teams/england-u17.png",
-            "time": "22:00 29/05",
-            "blv": "blv-mat",
-            "is_live": false,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-e76f03f9e6_4014e05a_20260529.png?v=4014e05a",
             "width": 1600,
             "height": 1200
           }
