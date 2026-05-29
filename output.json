@@ -685,11 +685,87 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (1 LIVE)",
+      "name": "⚽ Bóng Đá (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "xc-3df60e9176",
+          "name": "Brondby Reserve - Kobenhavn Reserve | 16:00 29/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-3df60e9176",
+              "name": "XayConTV",
+              "contents": [
+                {
+                  "id": "ct-3df60e9176",
+                  "name": "Brondby Reserve - Kobenhavn Reserve",
+                  "streams": [
+                    {
+                      "id": "st-3df60e9176",
+                      "name": "XC",
+                      "stream_links": [
+                        {
+                          "id": "lnk-fa5c7698a5",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://xclive.yarncdn.live/live/xctv_blv_tholan/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.xaycon3.live/"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://sv2.xaycon3.live"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": " Danish Reserves League",
+            "team_a": "Brondby Reserve",
+            "team_b": "Kobenhavn Reserve",
+            "logo_a": "https://img0.aiscore.com/football/team/9303ebf3fb4f726f3e1df962b6c5b762.png!w60",
+            "logo_b": "https://img0.aiscore.com/football/team/87d973a7e5ce2decda70d0d3833a73e1.png!w60",
+            "time": "16:00",
+            "date": "29/05",
+            "blv": "BLV Thợ Lặn",
+            "is_live": true,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/xaycon-stream/refs/heads/main/thumbs/xc-3df60e9176_9e8e3392_20260529.png?v=9e8e3392",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "bg-522e1ea438",
           "name": "Welayta Dicha vs Negelle Arsi | 20:00 29/05",
@@ -2075,82 +2151,6 @@
           }
         },
         {
-          "id": "xc-3df60e9176",
-          "name": "Brondby Reserve - Kobenhavn Reserve | 16:00 29/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-3df60e9176",
-              "name": "XayConTV",
-              "contents": [
-                {
-                  "id": "ct-3df60e9176",
-                  "name": "Brondby Reserve - Kobenhavn Reserve",
-                  "streams": [
-                    {
-                      "id": "st-3df60e9176",
-                      "name": "XC",
-                      "stream_links": [
-                        {
-                          "id": "lnk-fa5c7698a5",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://xclive.yarncdn.live/live/xctv_blv_tholan/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.xaycon3.live/"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://sv2.xaycon3.live"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": " Danish Reserves League",
-            "team_a": "Brondby Reserve",
-            "team_b": "Kobenhavn Reserve",
-            "logo_a": "https://img0.aiscore.com/football/team/9303ebf3fb4f726f3e1df962b6c5b762.png!w60",
-            "logo_b": "https://img0.aiscore.com/football/team/87d973a7e5ce2decda70d0d3833a73e1.png!w60",
-            "time": "16:00",
-            "date": "29/05",
-            "blv": "BLV Thợ Lặn",
-            "is_live": false,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/xaycon-stream/refs/heads/main/thumbs/xc-3df60e9176_9e8e3392_20260529.png?v=9e8e3392",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "xc-ef1c17195c",
           "name": "Ningbo Professional vs Nantong Zhiyun | 18:00 29/05",
           "type": "single",
@@ -3235,82 +3235,11 @@
     },
     {
       "id": "grp-cầu-lông",
-      "name": "🏸 Cầu Lông (2 LIVE)",
+      "name": "🏸 Cầu Lông (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-85d96789ab",
-          "name": "KFF Singapore Badminton Open 2026 vs KFF Singapore Badminton Open 2026 | 11:00 29/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-85d96789ab",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-85d96789ab",
-                  "name": "KFF Singapore Badminton Open 2026 vs KFF Singapore Badminton Open 2026",
-                  "streams": [
-                    {
-                      "id": "st-85d96789ab",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-7109df5874",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1779992074_hd/1779992074_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "KFF Singapore Badminton Open 2026",
-            "team_a": "KFF Singapore Badminton Open 2026",
-            "team_b": "KFF Singapore Badminton Open 2026",
-            "logo_a": "https://i.ytimg.com/vi/gKKHVi9b8Hk/maxresdefault.jpg",
-            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSw9aRb3qiZvF8z6LTFvpM_Xtb1WK4eHpONHg&s",
-            "time": "11:00 29/05",
-            "blv": "blv-sun",
-            "is_live": true,
-            "cate_type": "caulong"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-85d96789ab_9d6c6f65_20260529.png?v=9d6c6f65",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "hqlive-e50821a253",
           "name": "Tay Vợt Số 1 vs Tay Vợt Số 2 | 12:00 29/05",
