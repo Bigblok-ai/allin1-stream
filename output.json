@@ -685,11 +685,87 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá",
+      "name": "⚽ Bóng Đá (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "xc-4ecda45697",
+          "name": "Juventude vs America Mineiro | 07:00 30/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-4ecda45697",
+              "name": "XayConTV",
+              "contents": [
+                {
+                  "id": "ct-4ecda45697",
+                  "name": "Juventude vs America Mineiro",
+                  "streams": [
+                    {
+                      "id": "st-4ecda45697",
+                      "name": "XC",
+                      "stream_links": [
+                        {
+                          "id": "lnk-ab6de9170b",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://xclive.yarncdn.live/live/xctv_blv_quanvu/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.xaycon3.live/"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://sv2.xaycon3.live"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Serie B",
+            "team_a": "Juventude",
+            "team_b": "America Mineiro",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Juventude_crest.png/250px-Juventude_crest.png",
+            "logo_b": "https://media.api-sports.io/football/teams/125.png",
+            "time": "07:00",
+            "date": "30/05",
+            "blv": "BLV Quan Vũ",
+            "is_live": true,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/xaycon-stream/refs/heads/main/thumbs/xc-4ecda45697_71ff66f0_20260530.png?v=71ff66f0",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "gv-2c05e0d537",
           "name": "U.Concepcion vs Union La Calera | 07:30 30/05",
@@ -2120,82 +2196,6 @@
           }
         },
         {
-          "id": "xc-4ecda45697",
-          "name": "Juventude vs America Mineiro | 07:00 30/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-4ecda45697",
-              "name": "XayConTV",
-              "contents": [
-                {
-                  "id": "ct-4ecda45697",
-                  "name": "Juventude vs America Mineiro",
-                  "streams": [
-                    {
-                      "id": "st-4ecda45697",
-                      "name": "XC",
-                      "stream_links": [
-                        {
-                          "id": "lnk-ab6de9170b",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://xclive.yarncdn.live/live/xctv_blv_quanvu/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.xaycon3.live/"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://sv2.xaycon3.live"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Serie B",
-            "team_a": "Juventude",
-            "team_b": "America Mineiro",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Juventude_crest.png/250px-Juventude_crest.png",
-            "logo_b": "https://media.api-sports.io/football/teams/125.png",
-            "time": "07:00",
-            "date": "30/05",
-            "blv": "BLV Quan Vũ",
-            "is_live": false,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/xaycon-stream/refs/heads/main/thumbs/xc-4ecda45697_71ff66f0_20260530.png?v=71ff66f0",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "xc-34f97d4f5b",
           "name": "V-varen Nagasaki vs Mito Hollyhock | 15:00 30/05",
           "type": "single",
@@ -3242,7 +3242,7 @@
     },
     {
       "id": "grp-bóng-rổ",
-      "name": "🏀 Bóng Rổ (3 LIVE)",
+      "name": "🏀 Bóng Rổ (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -3314,77 +3314,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-f43b3b783d_6d49a662_20260530.png?v=6d49a662",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-c033047e3e",
-          "name": "New York Liberty W  vs Phoenix Mercury W | 06:30 30/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-c033047e3e",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-c033047e3e",
-                  "name": "New York Liberty W  vs Phoenix Mercury W",
-                  "streams": [
-                    {
-                      "id": "st-c033047e3e",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-05f7d1dfb9",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1780067495_hd/1780067495_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "WNBA",
-            "team_a": "New York Liberty W ",
-            "team_b": "Phoenix Mercury W",
-            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRnFsEkiU1gOwmarpw9ErB0OrMqNBZSXWNG6g&s",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/en/4/48/Phoenix_Mercury_logo_2025.svg",
-            "time": "06:30 30/05",
-            "blv": "blv-leo",
-            "is_live": true,
-            "cate_type": "basketball"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-c033047e3e_e2bc3bbc_20260530.png?v=e2bc3bbc",
             "width": 1600,
             "height": 1200
           }
