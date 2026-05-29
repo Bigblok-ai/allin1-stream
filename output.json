@@ -685,82 +685,11 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (1 LIVE)",
+      "name": "⚽ Bóng Đá (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "bg-522e1ea438",
-          "name": "Welayta Dicha vs Negelle Arsi | 20:00 29/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-522e1ea438",
-              "name": "BugioTV",
-              "contents": [
-                {
-                  "id": "ct-522e1ea438",
-                  "name": "Welayta Dicha vs Negelle Arsi",
-                  "streams": [
-                    {
-                      "id": "st-522e1ea438",
-                      "name": "BG",
-                      "stream_links": [
-                        {
-                          "id": "lnk-02ff9c6e74",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_tieuhac/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv1.bugio9.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Premier League",
-            "team_a": "Welayta Dicha",
-            "team_b": "Negelle Arsi",
-            "logo_a": "https://media.api-sports.io/football/teams/4124.png",
-            "logo_b": "https://media.api-sports.io/football/teams/26881.png",
-            "start_time": "2026-05-29T20:00:00",
-            "blv": "BLV Tiểu Hạc",
-            "is_live": false,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-522e1ea438_95a13577_20260529.png?v=95a13577",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-21beeb8470",
           "name": "Heidelberg United vs Dandenong Thunder | 16:30 29/05",
@@ -769,10 +698,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -859,7 +788,7 @@
             "logo_b": "https://images.keovip88.net/images/teams/dandenong-thunder.png",
             "time": "16:30 29/05",
             "blv": "blv-tri",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football"
           },
           "image": {
@@ -867,6 +796,77 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-21beeb8470_be570c7a_20260529.png?v=be570c7a",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "bg-522e1ea438",
+          "name": "Welayta Dicha vs Negelle Arsi | 20:00 29/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-522e1ea438",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-522e1ea438",
+                  "name": "Welayta Dicha vs Negelle Arsi",
+                  "streams": [
+                    {
+                      "id": "st-522e1ea438",
+                      "name": "BG",
+                      "stream_links": [
+                        {
+                          "id": "lnk-02ff9c6e74",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_tieuhac/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Premier League",
+            "team_a": "Welayta Dicha",
+            "team_b": "Negelle Arsi",
+            "logo_a": "https://media.api-sports.io/football/teams/4124.png",
+            "logo_b": "https://media.api-sports.io/football/teams/26881.png",
+            "start_time": "2026-05-29T20:00:00",
+            "blv": "BLV Tiểu Hạc",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-522e1ea438_95a13577_20260529.png?v=95a13577",
             "width": 1600,
             "height": 1200
           }
@@ -1382,6 +1382,41 @@
                             {
                               "key": "Referer",
                               "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-54c3d58c5e",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-54c3d58c5e",
+                  "name": "Mexico W U17 vs England U17",
+                  "streams": [
+                    {
+                      "id": "st-54c3d58c5e",
+                      "name": "Bugio - BLV Lavie",
+                      "stream_links": [
+                        {
+                          "id": "lnk-a4a6a520ed",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_lavie/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -3689,7 +3724,7 @@
     },
     {
       "id": "grp-bóng-rổ",
-      "name": "🏀 Bóng Rổ (1 LIVE)",
+      "name": "🏀 Bóng Rổ (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -3773,10 +3808,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -3824,7 +3859,7 @@
             "logo_b": "https://static.flashscore.com/res/image/data/nTNHGwAr-hCospehC.png",
             "time": "16:15 29/05",
             "blv": "blv-leo",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "basketball"
           },
           "image": {
