@@ -685,7 +685,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (10 LIVE)",
+      "name": "⚽ Bóng Đá (12 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1301,6 +1301,112 @@
           }
         },
         {
+          "id": "hqlive-c478f864f8",
+          "name": "Qingdao Youth Island vs Shanghai Shenhua | 17:00 30/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-c478f864f8",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-c478f864f8",
+                  "name": "Qingdao Youth Island vs Shanghai Shenhua",
+                  "streams": [
+                    {
+                      "id": "st-c478f864f8",
+                      "name": "HQ",
+                      "stream_links": [
+                        {
+                          "id": "lnk-b10e5b640b",
+                          "name": "BLV THẦN THÔNG",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://tdlive.yarncdn.live/live/tdtv_blv_taovannghe/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-86a2f353e1",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-86a2f353e1",
+                  "name": "Qingdao Youth Island vs Shanghai Shenhua",
+                  "streams": [
+                    {
+                      "id": "st-86a2f353e1",
+                      "name": "Bugio - BLV Lavie",
+                      "stream_links": [
+                        {
+                          "id": "lnk-a4a6a520ed",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_lavie/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Super League",
+            "team_a": "Qingdao Youth Island",
+            "team_b": "Shanghai Shenhua",
+            "logo_a": "https://media.api-sports.io/football/teams/17265.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/vi/d/dd/Shanghai_Shenhua_F.C.svg.png",
+            "time": "17:00 30/05",
+            "blv": "BLV THẦN THÔNG",
+            "is_live": true,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Qingdao Youth Island_Shanghai Shenhua_17-00 30-05_ed153083_20260530.png?v=ed153083",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "xc-0d020d3505",
           "name": "Kataller Toyama vs Tegevajaro Miyazaki | 16:00 30/05",
           "type": "single",
@@ -1372,6 +1478,82 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/xaycon-stream/refs/heads/main/thumbs/xc-0d020d3505_c65df2b3_20260530.png?v=c65df2b3",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-85afc02210",
+          "name": "Kyoto Sanga vs Kashiwa Reysol | 17:00 30/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-85afc02210",
+              "name": "XayConTV",
+              "contents": [
+                {
+                  "id": "ct-85afc02210",
+                  "name": "Kyoto Sanga vs Kashiwa Reysol",
+                  "streams": [
+                    {
+                      "id": "st-85afc02210",
+                      "name": "XC",
+                      "stream_links": [
+                        {
+                          "id": "lnk-bccd486b79",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://xclive.yarncdn.live/live/xctv_blv_tammao/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.xaycon3.live/"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://sv2.xaycon3.live"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "J1 League",
+            "team_a": "Kyoto Sanga",
+            "team_b": "Kashiwa Reysol",
+            "logo_a": "https://media.api-sports.io/football/teams/302.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/vi/e/e6/KashiwaReysol.png",
+            "time": "17:00",
+            "date": "30/05",
+            "blv": "BLV Tam Mao",
+            "is_live": true,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/xaycon-stream/refs/heads/main/thumbs/xc-85afc02210_114649d0_20260530.png?v=114649d0",
             "width": 1600,
             "height": 1200
           }
@@ -1514,94 +1696,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-f5e62af885_de835585_20260530.png?v=de835585",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "hqlive-c478f864f8",
-          "name": "Qingdao Youth Island vs Shanghai Shenhua | 17:00 30/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-c478f864f8",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-c478f864f8",
-                  "name": "Qingdao Youth Island vs Shanghai Shenhua",
-                  "streams": [
-                    {
-                      "id": "st-c478f864f8",
-                      "name": "HQ",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "src-86a2f353e1",
-              "name": "BugioTV",
-              "contents": [
-                {
-                  "id": "ct-86a2f353e1",
-                  "name": "Qingdao Youth Island vs Shanghai Shenhua",
-                  "streams": [
-                    {
-                      "id": "st-86a2f353e1",
-                      "name": "Bugio - BLV Lavie",
-                      "stream_links": [
-                        {
-                          "id": "lnk-a4a6a520ed",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_lavie/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv1.bugio9.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Super League",
-            "team_a": "Qingdao Youth Island",
-            "team_b": "Shanghai Shenhua",
-            "logo_a": "https://media.api-sports.io/football/teams/17265.png",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/vi/d/dd/Shanghai_Shenhua_F.C.svg.png",
-            "time": "17:00 30/05",
-            "blv": "BLV THẦN THÔNG",
-            "is_live": false,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Qingdao Youth Island_Shanghai Shenhua_17-00 30-05_ed153083_20260530.png?v=ed153083",
             "width": 1600,
             "height": 1200
           }
@@ -2834,82 +2928,6 @@
           }
         },
         {
-          "id": "xc-85afc02210",
-          "name": "Kyoto Sanga vs Kashiwa Reysol | 17:00 30/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-85afc02210",
-              "name": "XayConTV",
-              "contents": [
-                {
-                  "id": "ct-85afc02210",
-                  "name": "Kyoto Sanga vs Kashiwa Reysol",
-                  "streams": [
-                    {
-                      "id": "st-85afc02210",
-                      "name": "XC",
-                      "stream_links": [
-                        {
-                          "id": "lnk-bccd486b79",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://xclive.yarncdn.live/live/xctv_blv_tammao/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.xaycon3.live/"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://sv2.xaycon3.live"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "J1 League",
-            "team_a": "Kyoto Sanga",
-            "team_b": "Kashiwa Reysol",
-            "logo_a": "https://media.api-sports.io/football/teams/302.png",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/vi/e/e6/KashiwaReysol.png",
-            "time": "17:00",
-            "date": "30/05",
-            "blv": "BLV Tam Mao",
-            "is_live": false,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/xaycon-stream/refs/heads/main/thumbs/xc-85afc02210_114649d0_20260530.png?v=114649d0",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "xc-1c3860f024",
           "name": "Henan Jianye vs Hangzhou Greentown | 18:00 30/05",
           "type": "single",
@@ -3426,7 +3444,7 @@
     },
     {
       "id": "grp-cầu-lông",
-      "name": "🏸 Cầu Lông (1 LIVE)",
+      "name": "🏸 Cầu Lông (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -3510,10 +3528,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -3528,7 +3546,25 @@
                     {
                       "id": "st-7639a7830b",
                       "name": "HQ",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-c42241b387",
+                          "name": "BLV PHAN MÃ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanma/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -3543,7 +3579,7 @@
             "logo_b": "https://static.flashscore.com/res/image/data/O2nuZwRp-vaAM5VhK.png",
             "time": "17:00 30/05",
             "blv": "BLV PHAN MÃ",
-            "is_live": false,
+            "is_live": true,
             "sport_slug": "cau-long"
           },
           "image": {
