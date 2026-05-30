@@ -685,7 +685,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (1 LIVE)",
+      "name": "⚽ Bóng Đá (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -757,6 +757,82 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Ecuador_Saudi Arabia_06-30 31-05_8bcdd4cd_20260531.png?v=8bcdd4cd",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-d4a302899a",
+          "name": "Toluca vs Tigres UANL | 07:00 31/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-d4a302899a",
+              "name": "XayConTV",
+              "contents": [
+                {
+                  "id": "ct-d4a302899a",
+                  "name": "Toluca vs Tigres UANL",
+                  "streams": [
+                    {
+                      "id": "st-d4a302899a",
+                      "name": "XC",
+                      "stream_links": [
+                        {
+                          "id": "lnk-ab6de9170b",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://xclive.yarncdn.live/live/xctv_blv_quanvu/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.xaycon3.live/"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://sv2.xaycon3.live"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "CONCACAF Champions League",
+            "team_a": "Toluca",
+            "team_b": "Tigres UANL",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Club_Toluca_Logo.svg",
+            "logo_b": "https://i.pinimg.com/736x/25/76/86/257686e35e7375f804611f90b6d65e68.jpg",
+            "time": "07:00",
+            "date": "31/05",
+            "blv": "BLV Quan Vũ",
+            "is_live": true,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/xaycon-stream/refs/heads/main/thumbs/xc-d4a302899a_54a869c7_20260531.png?v=54a869c7",
             "width": 1600,
             "height": 1200
           }
@@ -2411,82 +2487,6 @@
           }
         },
         {
-          "id": "xc-d4a302899a",
-          "name": "Toluca vs Tigres UANL | 07:00 31/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-d4a302899a",
-              "name": "XayConTV",
-              "contents": [
-                {
-                  "id": "ct-d4a302899a",
-                  "name": "Toluca vs Tigres UANL",
-                  "streams": [
-                    {
-                      "id": "st-d4a302899a",
-                      "name": "XC",
-                      "stream_links": [
-                        {
-                          "id": "lnk-ab6de9170b",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://xclive.yarncdn.live/live/xctv_blv_quanvu/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.xaycon3.live/"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://sv2.xaycon3.live"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "CONCACAF Champions League",
-            "team_a": "Toluca",
-            "team_b": "Tigres UANL",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Club_Toluca_Logo.svg",
-            "logo_b": "https://i.pinimg.com/736x/25/76/86/257686e35e7375f804611f90b6d65e68.jpg",
-            "time": "07:00",
-            "date": "31/05",
-            "blv": "BLV Quan Vũ",
-            "is_live": false,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/xaycon-stream/refs/heads/main/thumbs/xc-d4a302899a_54a869c7_20260531.png?v=54a869c7",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "xc-b6e2c7b0c1",
           "name": "Wuhan Three Towns vs Yunnan Yukun | 18:35 31/05",
           "type": "single",
@@ -3206,7 +3206,7 @@
     },
     {
       "id": "grp-bóng-rổ",
-      "name": "🏀 Bóng Rổ (1 LIVE)",
+      "name": "🏀 Bóng Rổ (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -3290,10 +3290,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -3331,6 +3331,41 @@
                   ]
                 }
               ]
+            },
+            {
+              "id": "src-280ffd352d",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-280ffd352d",
+                  "name": "Oklahoma City Thunder vs San Antonio Spurs",
+                  "streams": [
+                    {
+                      "id": "st-280ffd352d",
+                      "name": "Hoiquan - BLV PHAN TỪ",
+                      "stream_links": [
+                        {
+                          "id": "lnk-ee33939914",
+                          "name": "BLV PHAN TỪ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phantu/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
             }
           ],
           "org_metadata": {
@@ -3341,7 +3376,7 @@
             "logo_b": "https://upload.wikimedia.org/wikipedia/en/a/a2/San_Antonio_Spurs.svg",
             "time": "07:00 31/05",
             "blv": "blv-leo, blv-can",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "basketball"
           },
           "image": {
