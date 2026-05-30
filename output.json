@@ -685,7 +685,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (8 LIVE)",
+      "name": "⚽ Bóng Đá (9 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1267,6 +1267,82 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/xaycon-stream/refs/heads/main/thumbs/xc-e1133e9978_12894b5b_20260530.png?v=12894b5b",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-165b1ecf75",
+          "name": "AIK Stockholm vs Sirius | 20:00 30/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-165b1ecf75",
+              "name": "XayConTV",
+              "contents": [
+                {
+                  "id": "ct-165b1ecf75",
+                  "name": "AIK Stockholm vs Sirius",
+                  "streams": [
+                    {
+                      "id": "st-165b1ecf75",
+                      "name": "XC",
+                      "stream_links": [
+                        {
+                          "id": "lnk-fa5c7698a5",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://xclive.yarncdn.live/live/xctv_blv_tholan/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.xaycon3.live/"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://sv2.xaycon3.live"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Allsvenskan",
+            "team_a": "AIK Stockholm",
+            "team_b": "Sirius",
+            "logo_a": "https://media.api-sports.io/football/teams/377.png",
+            "logo_b": "https://media.api-sports.io/football/teams/370.png",
+            "time": "20:00",
+            "date": "30/05",
+            "blv": "BLV Thợ Lặn",
+            "is_live": true,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/xaycon-stream/refs/heads/main/thumbs/xc-165b1ecf75_b49fc553_20260530.png?v=b49fc553",
             "width": 1600,
             "height": 1200
           }
@@ -2628,82 +2704,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/quechoa-stream/refs/heads/main/thumbs/qc-818a187caf_49b1f251_20260530.png?v=49b1f251",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "xc-165b1ecf75",
-          "name": "AIK Stockholm vs Sirius | 20:00 30/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-165b1ecf75",
-              "name": "XayConTV",
-              "contents": [
-                {
-                  "id": "ct-165b1ecf75",
-                  "name": "AIK Stockholm vs Sirius",
-                  "streams": [
-                    {
-                      "id": "st-165b1ecf75",
-                      "name": "XC",
-                      "stream_links": [
-                        {
-                          "id": "lnk-fa5c7698a5",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://xclive.yarncdn.live/live/xctv_blv_tholan/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.xaycon3.live/"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://sv2.xaycon3.live"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Allsvenskan",
-            "team_a": "AIK Stockholm",
-            "team_b": "Sirius",
-            "logo_a": "https://media.api-sports.io/football/teams/377.png",
-            "logo_b": "https://media.api-sports.io/football/teams/370.png",
-            "time": "20:00",
-            "date": "30/05",
-            "blv": "BLV Thợ Lặn",
-            "is_live": false,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/xaycon-stream/refs/heads/main/thumbs/xc-165b1ecf75_b49fc553_20260530.png?v=b49fc553",
             "width": 1600,
             "height": 1200
           }
