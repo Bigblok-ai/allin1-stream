@@ -685,7 +685,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (9 LIVE)",
+      "name": "⚽ Bóng Đá (10 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1265,6 +1265,77 @@
           }
         },
         {
+          "id": "hqlive-b6eb36ea64",
+          "name": "Trường Tươi Đồng Nai vs Long An | 16:00 30/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-b6eb36ea64",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-b6eb36ea64",
+                  "name": "Trường Tươi Đồng Nai vs Long An",
+                  "streams": [
+                    {
+                      "id": "st-b6eb36ea64",
+                      "name": "HQ",
+                      "stream_links": [
+                        {
+                          "id": "lnk-1cad2e4412",
+                          "name": "BLV TÁO GIÀ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://tdlive.yarncdn.live/live/tdtv_blv_taotinhtao/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "V.League 2",
+            "team_a": "Trường Tươi Đồng Nai",
+            "team_b": "Long An",
+            "logo_a": "https://vpf.vn/wp-content/uploads/2018/10/TRUONG-TUOI-DONG-NAI-1920x1854.png",
+            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbaynMw1lJOl1hU7wpcWGXGahjFbtj8Iid7Q&s",
+            "time": "16:00 30/05",
+            "blv": "BLV TÁO GIÀ",
+            "is_live": true,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Trường Tươi Đồng Nai_Long An_16-00 30-05_2c72ee12_20260530.png?v=2c72ee12",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "xc-0d020d3505",
           "name": "Kataller Toyama vs Tegevajaro Miyazaki | 16:00 30/05",
           "type": "single",
@@ -1801,59 +1872,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-a4608b00a5_fd56632d_20260530.png?v=fd56632d",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "hqlive-b6eb36ea64",
-          "name": "Trường Tươi Đồng Nai vs Long An | 16:00 30/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-b6eb36ea64",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-b6eb36ea64",
-                  "name": "Trường Tươi Đồng Nai vs Long An",
-                  "streams": [
-                    {
-                      "id": "st-b6eb36ea64",
-                      "name": "HQ",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "V.League 2",
-            "team_a": "Trường Tươi Đồng Nai",
-            "team_b": "Long An",
-            "logo_a": "https://vpf.vn/wp-content/uploads/2018/10/TRUONG-TUOI-DONG-NAI-1920x1854.png",
-            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbaynMw1lJOl1hU7wpcWGXGahjFbtj8Iid7Q&s",
-            "time": "16:00 30/05",
-            "blv": "BLV TÁO GIÀ",
-            "is_live": false,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Trường Tươi Đồng Nai_Long An_16-00 30-05_2c72ee12_20260530.png?v=2c72ee12",
             "width": 1600,
             "height": 1200
           }
@@ -3580,7 +3598,7 @@
     },
     {
       "id": "grp-tennis",
-      "name": "🎾 Tennis",
+      "name": "🎾 Tennis (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -3593,10 +3611,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -3611,7 +3629,25 @@
                     {
                       "id": "st-412d90bde0",
                       "name": "HQ",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-ee33939914",
+                          "name": "BLV PHAN TỪ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phantu/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -3626,7 +3662,7 @@
             "logo_b": "https://image.plo.vn/w1000/Uploaded/2026/vrwqzdjwp/2025_08_06/vo-dich-my-mo-rong-naomi-osaka-3829-689.jpg.webp",
             "time": "16:00 30/05",
             "blv": "BLV PHAN TỪ",
-            "is_live": false,
+            "is_live": true,
             "sport_slug": "tennis"
           },
           "image": {
