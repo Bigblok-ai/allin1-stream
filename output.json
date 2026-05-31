@@ -685,7 +685,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (9 LIVE)",
+      "name": "⚽ Bóng Đá (10 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1412,6 +1412,82 @@
           }
         },
         {
+          "id": "xc-dc6101625c",
+          "name": "Vllaznia Shkodër vs AF Elbasani | 00:00 01/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-dc6101625c",
+              "name": "XayConTV",
+              "contents": [
+                {
+                  "id": "ct-dc6101625c",
+                  "name": "Vllaznia Shkodër vs AF Elbasani",
+                  "streams": [
+                    {
+                      "id": "st-dc6101625c",
+                      "name": "XC",
+                      "stream_links": [
+                        {
+                          "id": "lnk-19bab7f4de",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://xclive.yarncdn.live/live/xctv_blv_aco/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.xaycon3.live/"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://sv2.xaycon3.live"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Superliga",
+            "team_a": "Vllaznia Shkodër",
+            "team_b": "AF Elbasani",
+            "logo_a": "https://media.api-sports.io/football/teams/3339.png",
+            "logo_b": "https://media.api-sports.io/football/teams/20406.png",
+            "time": "00:00",
+            "date": "01/06",
+            "blv": "BLV A Cỏ",
+            "is_live": true,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/xaycon-stream/refs/heads/main/thumbs/xc-dc6101625c_2248bba4_20260531.png?v=2248bba4",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "bg-50d2d22627",
           "name": "IBV Vestmannaeyjar vs Keflavik | 00:00 01/06",
           "type": "single",
@@ -1419,10 +1495,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -1470,7 +1546,7 @@
             "logo_b": "https://media.api-sports.io/football/teams/269.png",
             "start_time": "2026-06-01T00:00:00",
             "blv": "BLV khô Mực",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football"
           },
           "image": {
@@ -2795,82 +2871,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/France U17_Montenegro U17_18-30 01-06_4139486a_20260531.png?v=4139486a",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "xc-dc6101625c",
-          "name": "Vllaznia Shkodër vs AF Elbasani | 00:00 01/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-dc6101625c",
-              "name": "XayConTV",
-              "contents": [
-                {
-                  "id": "ct-dc6101625c",
-                  "name": "Vllaznia Shkodër vs AF Elbasani",
-                  "streams": [
-                    {
-                      "id": "st-dc6101625c",
-                      "name": "XC",
-                      "stream_links": [
-                        {
-                          "id": "lnk-19bab7f4de",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://xclive.yarncdn.live/live/xctv_blv_aco/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.xaycon3.live/"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://sv2.xaycon3.live"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Superliga",
-            "team_a": "Vllaznia Shkodër",
-            "team_b": "AF Elbasani",
-            "logo_a": "https://media.api-sports.io/football/teams/3339.png",
-            "logo_b": "https://media.api-sports.io/football/teams/20406.png",
-            "time": "00:00",
-            "date": "01/06",
-            "blv": "BLV A Cỏ",
-            "is_live": false,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/xaycon-stream/refs/heads/main/thumbs/xc-dc6101625c_2248bba4_20260531.png?v=2248bba4",
             "width": 1600,
             "height": 1200
           }
