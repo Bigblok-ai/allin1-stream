@@ -685,11 +685,82 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (8 LIVE)",
+      "name": "⚽ Bóng Đá (9 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "gv-230beddc63",
+          "name": "Zaragoza vs Malaga | 23:30 31/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-230beddc63",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-230beddc63",
+                  "name": "Zaragoza vs Malaga",
+                  "streams": [
+                    {
+                      "id": "st-230beddc63",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-b866882079",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1780233035_hd/1780233035_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Hạng 2 Tây Ban Nha",
+            "team_a": "Zaragoza",
+            "team_b": "Malaga",
+            "logo_a": "https://images.keovip88.net/images/teams/real-zaragoza.png",
+            "logo_b": "https://images.keovip88.net/images/teams/malaga.png",
+            "time": "23:30 31/05",
+            "blv": "BLV Câm",
+            "is_live": true,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-230beddc63_db279702_20260531.png?v=db279702",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "gv-32b3da4bfa",
           "name": "Racing Santander vs Cadiz | 23:30 31/05",
@@ -1407,77 +1478,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-50d2d22627_c0859fed_20260531.png?v=c0859fed",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-230beddc63",
-          "name": "Zaragoza vs Malaga | 23:30 31/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-230beddc63",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-230beddc63",
-                  "name": "Zaragoza vs Malaga",
-                  "streams": [
-                    {
-                      "id": "st-230beddc63",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-b866882079",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1780233035_hd/1780233035_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Hạng 2 Tây Ban Nha",
-            "team_a": "Zaragoza",
-            "team_b": "Malaga",
-            "logo_a": "https://images.keovip88.net/images/teams/real-zaragoza.png",
-            "logo_b": "https://images.keovip88.net/images/teams/malaga.png",
-            "time": "23:30 31/05",
-            "blv": "BLV Câm",
-            "is_live": false,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-230beddc63_db279702_20260531.png?v=db279702",
             "width": 1600,
             "height": 1200
           }
