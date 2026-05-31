@@ -685,11 +685,82 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (7 LIVE)",
+      "name": "⚽ Bóng Đá (9 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "gv-42e33dbdec",
+          "name": "Hoàng Anh Gia Lai vs Hà Nội | 18:00 31/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-42e33dbdec",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-42e33dbdec",
+                  "name": "Hoàng Anh Gia Lai vs Hà Nội",
+                  "streams": [
+                    {
+                      "id": "st-42e33dbdec",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-b10ea8f079",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1780184767_hd/1780184767_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "V-League",
+            "team_a": "Hoàng Anh Gia Lai",
+            "team_b": "Hà Nội",
+            "logo_a": "https://images.keovip88.net/images/teams/hoang-anh-gia-lai.png",
+            "logo_b": "https://images.keovip88.net/images/teams/hanoi-fc.png",
+            "time": "18:00 31/05",
+            "blv": "BLV Mason",
+            "is_live": true,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-42e33dbdec_f9496e6f_20260531.png?v=f9496e6f",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "gv-5f3eb4f1b2",
           "name": "TP Hồ Chí Minh vs Thể Công Viettel | 18:00 31/05",
@@ -863,77 +934,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-124a6d6d2f_be3b5e97_20260531.png?v=be3b5e97",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-42e33dbdec",
-          "name": "Hoàng Anh Gia Lai vs Hà Nội | 18:00 31/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-42e33dbdec",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-42e33dbdec",
-                  "name": "Hoàng Anh Gia Lai vs Hà Nội",
-                  "streams": [
-                    {
-                      "id": "st-42e33dbdec",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-b10ea8f079",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1780184767_hd/1780184767_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "V-League",
-            "team_a": "Hoàng Anh Gia Lai",
-            "team_b": "Hà Nội",
-            "logo_a": "https://images.keovip88.net/images/teams/hoang-anh-gia-lai.png",
-            "logo_b": "https://images.keovip88.net/images/teams/hanoi-fc.png",
-            "time": "18:00 31/05",
-            "blv": "BLV Mason",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-42e33dbdec_f9496e6f_20260531.png?v=f9496e6f",
             "width": 1600,
             "height": 1200
           }
@@ -1343,10 +1343,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -1361,7 +1361,25 @@
                     {
                       "id": "st-f10b58da6f",
                       "name": "HQ",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-fd31283a76",
+                          "name": "BLV PHAN ANH",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phananh/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -1376,7 +1394,7 @@
             "logo_b": "https://media.api-sports.io/football/teams/5534.png",
             "time": "18:30 31/05",
             "blv": "BLV PHAN ANH",
-            "is_live": false,
+            "is_live": true,
             "sport_slug": "bong-da"
           },
           "image": {
@@ -1384,6 +1402,77 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Singapore_Mongolia_18-30 31-05_22b2fa37_20260531.png?v=22b2fa37",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "bg-50d2d22627",
+          "name": "IBV Vestmannaeyjar vs Keflavik | 00:00 01/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-50d2d22627",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-50d2d22627",
+                  "name": "IBV Vestmannaeyjar vs Keflavik",
+                  "streams": [
+                    {
+                      "id": "st-50d2d22627",
+                      "name": "BG",
+                      "stream_links": [
+                        {
+                          "id": "lnk-41910bf543",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_khomuc/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Úrvalsdeild",
+            "team_a": "IBV Vestmannaeyjar",
+            "team_b": "Keflavik",
+            "logo_a": "https://media.api-sports.io/football/teams/268.png",
+            "logo_b": "https://media.api-sports.io/football/teams/269.png",
+            "start_time": "2026-06-01T00:00:00",
+            "blv": "BLV khô Mực",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-50d2d22627_c0859fed_20260531.png?v=c0859fed",
             "width": 1600,
             "height": 1200
           }
@@ -3604,79 +3693,7 @@
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
-      "channels": [
-        {
-          "id": "gv-f7c4ecb1ce",
-          "name": "Zhejiang Guangsha vs Shanghai | 18:35 31/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-f7c4ecb1ce",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-f7c4ecb1ce",
-                  "name": "Zhejiang Guangsha vs Shanghai",
-                  "streams": [
-                    {
-                      "id": "st-f7c4ecb1ce",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-c2a309c630",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1780184885_hd/1780184885_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "CBA",
-            "team_a": "Zhejiang Guangsha",
-            "team_b": "Shanghai",
-            "logo_a": "https://static.flashscore.com/res/image/data/Qel3gyyB-4hG46oFE.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/Y3pRHKDa-8j2NKdiM.png",
-            "time": "18:35 31/05",
-            "blv": "BLV Điếc",
-            "is_live": false,
-            "cate_type": "basketball"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-f7c4ecb1ce_6e078383_20260531.png?v=6e078383",
-            "width": 1600,
-            "height": 1200
-          }
-        }
-      ]
+      "channels": []
     },
     {
       "id": "grp-billiards",
