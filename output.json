@@ -691,77 +691,6 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "hqlive-d6b2d5059f",
-          "name": "Blaublitz Akita vs Consadole Sapporo | 12:00 31/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-d6b2d5059f",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-d6b2d5059f",
-                  "name": "Blaublitz Akita vs Consadole Sapporo",
-                  "streams": [
-                    {
-                      "id": "st-d6b2d5059f",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-fd31283a76",
-                          "name": "BLV PHAN ANH",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phananh/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "J2/J3 League",
-            "team_a": "Blaublitz Akita",
-            "team_b": "Consadole Sapporo",
-            "logo_a": "https://media.api-sports.io/football/teams/4315.png",
-            "logo_b": "https://media.api-sports.io/football/teams/279.png",
-            "time": "12:00 31/05",
-            "blv": "BLV PHAN ANH",
-            "is_live": true,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Blaublitz Akita_Consadole Sapporo_12-00 31-05_60a1f5ea_20260531.png?v=60a1f5ea",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "hqlive-ab243e5c9c",
           "name": "Jeonnam Dragons vs Seoul E-Land FC | 14:30 31/05",
           "type": "single",
@@ -833,6 +762,77 @@
           }
         },
         {
+          "id": "bg-79e785d63f",
+          "name": "Công An Nhân Dân vs Binh Duong | 18:00 31/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-79e785d63f",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-79e785d63f",
+                  "name": "Công An Nhân Dân vs Binh Duong",
+                  "streams": [
+                    {
+                      "id": "st-79e785d63f",
+                      "name": "BG",
+                      "stream_links": [
+                        {
+                          "id": "lnk-02ff9c6e74",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_tieuhac/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "V.League 1",
+            "team_a": "Công An Nhân Dân",
+            "team_b": "Binh Duong",
+            "logo_a": "https://media.api-sports.io/football/teams/16400.png",
+            "logo_b": "https://media.api-sports.io/football/teams/3668.png",
+            "start_time": "2026-05-31T18:00:00",
+            "blv": "BLV Tiểu Hạc",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-79e785d63f_b3a618cc_20260531.png?v=b3a618cc",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "hqlive-ee68b84c94",
           "name": "Japan vs Iceland | 17:25 31/05",
           "type": "single",
@@ -890,6 +890,41 @@
                             {
                               "key": "Origin",
                               "value": "https://quechoa10.live"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-d1942a3ab0",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-d1942a3ab0",
+                  "name": "Japan vs Iceland",
+                  "streams": [
+                    {
+                      "id": "st-d1942a3ab0",
+                      "name": "Bugio - BLV Tiểu Trà Đá",
+                      "stream_links": [
+                        {
+                          "id": "lnk-0ba3f9d037",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_trada/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -1614,6 +1649,41 @@
                       "id": "st-7496a5f241",
                       "name": "HQ",
                       "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-4fb8a7a22a",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-4fb8a7a22a",
+                  "name": "Switzerland vs Jordan",
+                  "streams": [
+                    {
+                      "id": "st-4fb8a7a22a",
+                      "name": "Bugio - BLV Tiểu Hạc",
+                      "stream_links": [
+                        {
+                          "id": "lnk-02ff9c6e74",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_tieuhac/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
