@@ -1144,6 +1144,129 @@
           }
         },
         {
+          "id": "hqlive-6d37f8d6ac",
+          "name": "USA vs Senegal | 02:30 01/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-6d37f8d6ac",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-6d37f8d6ac",
+                  "name": "USA vs Senegal",
+                  "streams": [
+                    {
+                      "id": "st-6d37f8d6ac",
+                      "name": "HQ",
+                      "stream_links": [
+                        {
+                          "id": "lnk-975fc55dd1",
+                          "name": "BLV LƯƠNG BỔNG",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanliem/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-c3ae00c22d",
+                          "name": "BLV TÁO KINH TẾ",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://tdlive.yarncdn.live/live/tdtv_blv_taokinhte/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-aba22f748b",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-aba22f748b",
+                  "name": "USA vs Senegal",
+                  "streams": [
+                    {
+                      "id": "st-aba22f748b",
+                      "name": "Bugio - BLV Dế Lửa",
+                      "stream_links": [
+                        {
+                          "id": "lnk-032da4a79f",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_delua/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Friendlies",
+            "team_a": "USA",
+            "team_b": "Senegal",
+            "logo_a": "https://media.api-sports.io/football/teams/2384.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Flag_of_Senegal.svg/1280px-Flag_of_Senegal.svg.png",
+            "time": "02:30 01/06",
+            "blv": "BLV LƯƠNG BỔNG, BLV TÁO KINH TẾ",
+            "is_live": true,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/USA_Senegal_02-30 01-06_ee930897_20260601.png?v=ee930897",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "xc-3bfe8bd94d",
           "name": "Gent vs Genk | 23:30 31/05",
           "type": "single",
@@ -1215,170 +1338,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/xaycon-stream/refs/heads/main/thumbs/xc-3bfe8bd94d_116ec9a3_20260601.png?v=116ec9a3",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "xc-dc6101625c",
-          "name": "Vllaznia Shkodër vs AF Elbasani | 00:00 01/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-dc6101625c",
-              "name": "XayConTV",
-              "contents": [
-                {
-                  "id": "ct-dc6101625c",
-                  "name": "Vllaznia Shkodër vs AF Elbasani",
-                  "streams": [
-                    {
-                      "id": "st-dc6101625c",
-                      "name": "XC",
-                      "stream_links": [
-                        {
-                          "id": "lnk-19bab7f4de",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://xclive.yarncdn.live/live/xctv_blv_aco/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.xaycon3.live/"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://sv2.xaycon3.live"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Superliga",
-            "team_a": "Vllaznia Shkodër",
-            "team_b": "AF Elbasani",
-            "logo_a": "https://media.api-sports.io/football/teams/3339.png",
-            "logo_b": "https://media.api-sports.io/football/teams/20406.png",
-            "time": "00:00",
-            "date": "01/06",
-            "blv": "BLV A Cỏ",
-            "is_live": true,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/xaycon-stream/refs/heads/main/thumbs/xc-dc6101625c_2248bba4_20260601.png?v=2248bba4",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "hqlive-6d37f8d6ac",
-          "name": "USA vs Senegal | 02:30 01/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-6d37f8d6ac",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-6d37f8d6ac",
-                  "name": "USA vs Senegal",
-                  "streams": [
-                    {
-                      "id": "st-6d37f8d6ac",
-                      "name": "HQ",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "src-aba22f748b",
-              "name": "BugioTV",
-              "contents": [
-                {
-                  "id": "ct-aba22f748b",
-                  "name": "USA vs Senegal",
-                  "streams": [
-                    {
-                      "id": "st-aba22f748b",
-                      "name": "Bugio - BLV Dế Lửa",
-                      "stream_links": [
-                        {
-                          "id": "lnk-032da4a79f",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_delua/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv1.bugio9.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Friendlies",
-            "team_a": "USA",
-            "team_b": "Senegal",
-            "logo_a": "https://media.api-sports.io/football/teams/2384.png",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Flag_of_Senegal.svg/1280px-Flag_of_Senegal.svg.png",
-            "time": "02:30 01/06",
-            "blv": "BLV LƯƠNG BỔNG, BLV TÁO KINH TẾ",
-            "is_live": false,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/USA_Senegal_02-30 01-06_ee930897_20260601.png?v=ee930897",
             "width": 1600,
             "height": 1200
           }
