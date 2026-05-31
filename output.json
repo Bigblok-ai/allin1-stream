@@ -685,7 +685,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (5 LIVE)",
+      "name": "⚽ Bóng Đá (6 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -833,8 +833,8 @@
           }
         },
         {
-          "id": "hqlive-d61e756e9c",
-          "name": "Germany vs Finland | 01:45 01/06",
+          "id": "gv-1c675559a4",
+          "name": "Brazil vs Panama | 04:30 01/06",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -848,23 +848,58 @@
           ],
           "sources": [
             {
-              "id": "src-d61e756e9c",
+              "id": "src-1c675559a4",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-1c675559a4",
+                  "name": "Brazil vs Panama",
+                  "streams": [
+                    {
+                      "id": "st-1c675559a4",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-2c2f51c57d",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1780236257_hd/1780236257_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-7b1c5b1358",
               "name": "HoiQuanTV",
               "contents": [
                 {
-                  "id": "ct-d61e756e9c",
-                  "name": "Germany vs Finland",
+                  "id": "ct-7b1c5b1358",
+                  "name": "Brazil vs Panama",
                   "streams": [
                     {
-                      "id": "st-d61e756e9c",
-                      "name": "HQ",
+                      "id": "st-7b1c5b1358",
+                      "name": "Hoiquan - BLV TÁO GIÀ, BLV LƯƠNG BỔNG",
                       "stream_links": [
                         {
-                          "id": "lnk-c42241b387",
-                          "name": "BLV PHAN MÃ",
+                          "id": "lnk-1cad2e4412",
+                          "name": "BLV TÁO GIÀ",
                           "type": "hls",
                           "default": true,
-                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanma/playlist.m3u8",
+                          "url": "https://tdlive.yarncdn.live/live/tdtv_blv_taotinhtao/playlist.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -877,11 +912,11 @@
                           ]
                         },
                         {
-                          "id": "lnk-1cad2e4412",
-                          "name": "BLV TÁO GIÀ",
+                          "id": "lnk-975fc55dd1",
+                          "name": "BLV LƯƠNG BỔNG",
                           "type": "hls",
                           "default": false,
-                          "url": "https://tdlive.yarncdn.live/live/tdtv_blv_taotinhtao/playlist.m3u8",
+                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanliem/playlist.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -900,70 +935,27 @@
               ]
             },
             {
-              "id": "src-cce8b5235a",
-              "name": "QuechoaTV",
+              "id": "src-8c53d30ad0",
+              "name": "BugioTV",
               "contents": [
                 {
-                  "id": "ct-cce8b5235a",
-                  "name": "Germany vs Finland",
+                  "id": "ct-8c53d30ad0",
+                  "name": "Brazil vs Panama",
                   "streams": [
                     {
-                      "id": "st-cce8b5235a",
-                      "name": "Quechoa - NEM CHUA",
+                      "id": "st-8c53d30ad0",
+                      "name": "Bugio - BLV khô Mực",
                       "stream_links": [
                         {
-                          "id": "lnk-9ecfdd7bcf",
+                          "id": "lnk-41910bf543",
                           "name": "Link FHD",
                           "type": "hls",
                           "default": true,
-                          "url": "https://ahghndtkyqmm-pull.bpmedialive.com/quechoa/blv_nemchua.m3u8",
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_khomuc/playlist.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://quechoa10.live/"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://quechoa10.live"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "src-9e504e8408",
-              "name": "XayConTV",
-              "contents": [
-                {
-                  "id": "ct-9e504e8408",
-                  "name": "Germany vs Finland",
-                  "streams": [
-                    {
-                      "id": "st-9e504e8408",
-                      "name": "Xaycon - BLV Bịp Con",
-                      "stream_links": [
-                        {
-                          "id": "lnk-30319ba8f3",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://xclive.yarncdn.live/live/xctv_blv_bipcon/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.xaycon3.live/"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://sv2.xaycon3.live"
+                              "value": "https://sv1.bugio9.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -979,21 +971,21 @@
             }
           ],
           "org_metadata": {
-            "league": "Friendlies",
-            "team_a": "Germany",
-            "team_b": "Finland",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Flag_of_Germany.svg/1920px-Flag_of_Germany.svg.png",
-            "logo_b": "https://media.api-sports.io/football/teams/1099.png",
-            "time": "01:45 01/06",
-            "blv": "BLV PHAN MÃ, BLV TÁO GIÀ",
+            "league": "Giao hữu quốc tế",
+            "team_a": "Brazil",
+            "team_b": "Panama",
+            "logo_a": "https://images.keovip88.net/images/teams/brazil.png",
+            "logo_b": "https://images.keovip88.net/images/teams/panama.png",
+            "time": "04:30 01/06",
+            "blv": "BLV Hợi",
             "is_live": true,
-            "sport_slug": "bong-da"
+            "cate_type": "football"
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Germany_Finland_01-45 01-06_0007f27b_20260601.png?v=0007f27b",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-1c675559a4_991148a6_20260601.png?v=991148a6",
             "width": 1600,
             "height": 1200
           }
@@ -1100,6 +1092,82 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/USA_Senegal_02-30 01-06_ee930897_20260601.png?v=ee930897",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "qc-cce8b5235a",
+          "name": "Germany vs Finland | 01:45 01/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-cce8b5235a",
+              "name": "QuechoaTV",
+              "contents": [
+                {
+                  "id": "ct-cce8b5235a",
+                  "name": "Germany vs Finland",
+                  "streams": [
+                    {
+                      "id": "st-cce8b5235a",
+                      "name": "QC",
+                      "stream_links": [
+                        {
+                          "id": "lnk-9ecfdd7bcf",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ahghndtkyqmm-pull.bpmedialive.com/quechoa/blv_nemchua.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://quechoa10.live/"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://quechoa10.live"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Friendlies",
+            "team_a": "Germany",
+            "team_b": "Finland",
+            "logo_a": "https://media.api-sports.io/football/teams/25.png",
+            "logo_b": "https://media.api-sports.io/football/teams/1099.png",
+            "time": "01:45",
+            "date": "01/06",
+            "blv": "NEM CHUA",
+            "is_live": true,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/quechoa-stream/refs/heads/main/thumbs/qc-cce8b5235a_3f8ed26a_20260601.png?v=3f8ed26a",
             "width": 1600,
             "height": 1200
           }
@@ -1247,112 +1315,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-e979fda27c_68798adc_20260601.png?v=68798adc",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-1c675559a4",
-          "name": "Brazil vs Panama | 04:30 01/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-1c675559a4",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-1c675559a4",
-                  "name": "Brazil vs Panama",
-                  "streams": [
-                    {
-                      "id": "st-1c675559a4",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-2c2f51c57d",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1780236257_hd/1780236257_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "src-8c53d30ad0",
-              "name": "BugioTV",
-              "contents": [
-                {
-                  "id": "ct-8c53d30ad0",
-                  "name": "Brazil vs Panama",
-                  "streams": [
-                    {
-                      "id": "st-8c53d30ad0",
-                      "name": "Bugio - BLV khô Mực",
-                      "stream_links": [
-                        {
-                          "id": "lnk-41910bf543",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_khomuc/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv1.bugio9.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Giao hữu quốc tế",
-            "team_a": "Brazil",
-            "team_b": "Panama",
-            "logo_a": "https://images.keovip88.net/images/teams/brazil.png",
-            "logo_b": "https://images.keovip88.net/images/teams/panama.png",
-            "time": "04:30 01/06",
-            "blv": "BLV Hợi",
-            "is_live": false,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-1c675559a4_991148a6_20260601.png?v=991148a6",
             "width": 1600,
             "height": 1200
           }
