@@ -1625,14 +1625,14 @@
                   "streams": [
                     {
                       "id": "st-4fb8a7a22a",
-                      "name": "Bugio - BLV Tiểu Hạc",
+                      "name": "Bugio - BLV Tiểu Trà Đá",
                       "stream_links": [
                         {
-                          "id": "lnk-02ff9c6e74",
+                          "id": "lnk-0ba3f9d037",
                           "name": "Link FHD",
                           "type": "hls",
                           "default": true,
-                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_tieuhac/playlist.m3u8",
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_trada/playlist.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -3357,7 +3357,7 @@
     },
     {
       "id": "grp-tennis",
-      "name": "🎾 Tennis",
+      "name": "🎾 Tennis (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -3370,10 +3370,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -3388,7 +3388,25 @@
                     {
                       "id": "st-ac09199127",
                       "name": "HQ",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-ee33939914",
+                          "name": "BLV PHAN TỪ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phantu/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -3403,7 +3421,7 @@
             "logo_b": "https://cdn.images.express.co.uk/img/dynamic/72/590x/secondary/4885381.jpg?r=1690841549720",
             "time": "16:00 31/05",
             "blv": "BLV PHAN TỪ",
-            "is_live": false,
+            "is_live": true,
             "sport_slug": "tennis"
           },
           "image": {
@@ -3631,82 +3649,11 @@
     },
     {
       "id": "grp-cầu-lông",
-      "name": "🏸 Cầu Lông (2 LIVE)",
+      "name": "🏸 Cầu Lông (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-19b796a32d",
-          "name": "KFF Singapore Badminton vs Open 2026 | 13:00 31/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-19b796a32d",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-19b796a32d",
-                  "name": "KFF Singapore Badminton vs Open 2026",
-                  "streams": [
-                    {
-                      "id": "st-19b796a32d",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-91ddc466d6",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1780194279_hd/1780194279_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Singapore Badminton Open 2026 Chung kết",
-            "team_a": "KFF Singapore Badminton",
-            "team_b": "Open 2026",
-            "logo_a": "https://static.ticketmaster.sg/images/activity/26sg_sgopen2026_7a9398b828b5619f87eda682e15e2fa2.jpg",
-            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSw9aRb3qiZvF8z6LTFvpM_Xtb1WK4eHpONHg&s",
-            "time": "13:00 31/05",
-            "blv": "blv-sun",
-            "is_live": true,
-            "cate_type": "caulong"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-19b796a32d_c683f159_20260531.png?v=c683f159",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "hqlive-004aff54f1",
           "name": "Tay Vợt Số 1 vs Tay Vợt Số 2 | 13:00 31/05",
