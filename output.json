@@ -685,7 +685,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (3 LIVE)",
+      "name": "⚽ Bóng Đá (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -938,6 +938,77 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Blaublitz Akita_Consadole Sapporo_12-00 31-05_60a1f5ea_20260531.png?v=60a1f5ea",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "bg-79e785d63f",
+          "name": "Công An Nhân Dân vs Binh Duong | 18:00 31/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-79e785d63f",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-79e785d63f",
+                  "name": "Công An Nhân Dân vs Binh Duong",
+                  "streams": [
+                    {
+                      "id": "st-79e785d63f",
+                      "name": "BG",
+                      "stream_links": [
+                        {
+                          "id": "lnk-02ff9c6e74",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_tieuhac/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "V.League 1",
+            "team_a": "Công An Nhân Dân",
+            "team_b": "Binh Duong",
+            "logo_a": "https://media.api-sports.io/football/teams/16400.png",
+            "logo_b": "https://media.api-sports.io/football/teams/3668.png",
+            "start_time": "2026-05-31T18:00:00",
+            "blv": "BLV Tiểu Hạc",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-79e785d63f_b3a618cc_20260531.png?v=b3a618cc",
             "width": 1600,
             "height": 1200
           }
@@ -3434,8 +3505,8 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "gv-11efcc3881",
-          "name": "Franklin Bulls vs Auckland Tuatara | 10:00 31/05",
+          "id": "gv-591835be5e",
+          "name": "Otago Nuggets vs  Southland Sharks | 13:00 31/05",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -3445,77 +3516,6 @@
               "position": "top-left",
               "color": "#00000080",
               "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-11efcc3881",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-11efcc3881",
-                  "name": "Franklin Bulls vs Auckland Tuatara",
-                  "streams": [
-                    {
-                      "id": "st-11efcc3881",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-6dd858a6dd",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1780135845_hd/1780135845_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "NBL",
-            "team_a": "Franklin Bulls",
-            "team_b": "Auckland Tuatara",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/en/b/b5/Franklin_Bulls_logo.png",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/en/thumb/6/61/Auckland_Tuatara_Basketball_logo.png/250px-Auckland_Tuatara_Basketball_logo.png",
-            "time": "10:00 31/05",
-            "blv": "BLV Cầy",
-            "is_live": true,
-            "cate_type": "basketball"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-11efcc3881_5d0b5cb4_20260531.png?v=5d0b5cb4",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-591835be5e",
-          "name": "Otago Nuggets vs  Southland Sharks | 13:00 31/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
             }
           ],
           "sources": [
@@ -3563,7 +3563,7 @@
             "logo_b": "https://upload.wikimedia.org/wikipedia/en/thumb/0/07/Southlandsharkslogo.png/250px-Southlandsharkslogo.png",
             "time": "13:00 31/05",
             "blv": "BLV Cầy",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "basketball"
           },
           "image": {
