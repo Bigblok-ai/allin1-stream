@@ -685,11 +685,82 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "gv-1248547696",
+          "name": "Hàn Quốc vs Trinidad & Tobago | 08:00 31/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-1248547696",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-1248547696",
+                  "name": "Hàn Quốc vs Trinidad & Tobago",
+                  "streams": [
+                    {
+                      "id": "st-1248547696",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-e764d03ac2",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1780150015_hd/1780150015_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Giao hữu quốc tế",
+            "team_a": "Hàn Quốc",
+            "team_b": "Trinidad & Tobago",
+            "logo_a": "https://images.keovip88.net/images/teams/south-korea.png",
+            "logo_b": "https://images.keovip88.net/images/teams/trinidad-and-tobago.png",
+            "time": "08:00 31/05",
+            "blv": "blv-tri",
+            "is_live": true,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-1248547696_c12f353b_20260531.png?v=c12f353b",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "hqlive-6afacd6dc0",
           "name": "Ecuador vs Saudi Arabia | 06:30 31/05",
@@ -757,6 +828,77 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Ecuador_Saudi Arabia_06-30 31-05_8bcdd4cd_20260531.png?v=8bcdd4cd",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-b5534174c7",
+          "name": "South Korea vs Trinidad and Tobago | 08:00 31/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-b5534174c7",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-b5534174c7",
+                  "name": "South Korea vs Trinidad and Tobago",
+                  "streams": [
+                    {
+                      "id": "st-b5534174c7",
+                      "name": "HQ",
+                      "stream_links": [
+                        {
+                          "id": "lnk-c3ae00c22d",
+                          "name": "BLV TÁO KINH TẾ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://tdlive.yarncdn.live/live/tdtv_blv_taokinhte/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Friendlies",
+            "team_a": "South Korea",
+            "team_b": "Trinidad and Tobago",
+            "logo_a": "https://media.api-sports.io/football/teams/1728.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Flag_of_Trinidad_and_Tobago.svg/1280px-Flag_of_Trinidad_and_Tobago.svg.png",
+            "time": "08:00 31/05",
+            "blv": "BLV TÁO KINH TẾ",
+            "is_live": true,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/South Korea_Trinidad and Tobago_08-00 31-05_30c6c3d1_20260531.png?v=30c6c3d1",
             "width": 1600,
             "height": 1200
           }
@@ -833,130 +975,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/xaycon-stream/refs/heads/main/thumbs/xc-d4a302899a_54a869c7_20260531.png?v=54a869c7",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-1248547696",
-          "name": "Hàn Quốc vs Trinidad & Tobago | 08:00 31/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-1248547696",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-1248547696",
-                  "name": "Hàn Quốc vs Trinidad & Tobago",
-                  "streams": [
-                    {
-                      "id": "st-1248547696",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-e764d03ac2",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1780150015_hd/1780150015_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Giao hữu quốc tế",
-            "team_a": "Hàn Quốc",
-            "team_b": "Trinidad & Tobago",
-            "logo_a": "https://images.keovip88.net/images/teams/south-korea.png",
-            "logo_b": "https://images.keovip88.net/images/teams/trinidad-and-tobago.png",
-            "time": "08:00 31/05",
-            "blv": "blv-tri",
-            "is_live": false,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-1248547696_c12f353b_20260531.png?v=c12f353b",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "hqlive-b5534174c7",
-          "name": "South Korea vs Trinidad and Tobago | 08:00 31/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-b5534174c7",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-b5534174c7",
-                  "name": "South Korea vs Trinidad and Tobago",
-                  "streams": [
-                    {
-                      "id": "st-b5534174c7",
-                      "name": "HQ",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Friendlies",
-            "team_a": "South Korea",
-            "team_b": "Trinidad and Tobago",
-            "logo_a": "https://media.api-sports.io/football/teams/1728.png",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Flag_of_Trinidad_and_Tobago.svg/1280px-Flag_of_Trinidad_and_Tobago.svg.png",
-            "time": "08:00 31/05",
-            "blv": "BLV TÁO KINH TẾ",
-            "is_live": false,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/South Korea_Trinidad and Tobago_08-00 31-05_30c6c3d1_20260531.png?v=30c6c3d1",
             "width": 1600,
             "height": 1200
           }
