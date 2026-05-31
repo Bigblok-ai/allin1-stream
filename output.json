@@ -685,7 +685,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (10 LIVE)",
+      "name": "⚽ Bóng Đá (11 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1227,6 +1227,77 @@
           }
         },
         {
+          "id": "hqlive-da80364ba7",
+          "name": "Cape Verde Islands vs Serbia | 22:00 31/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-da80364ba7",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-da80364ba7",
+                  "name": "Cape Verde Islands vs Serbia",
+                  "streams": [
+                    {
+                      "id": "st-da80364ba7",
+                      "name": "HQ",
+                      "stream_links": [
+                        {
+                          "id": "lnk-c3ae00c22d",
+                          "name": "BLV TÁO KINH TẾ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://tdlive.yarncdn.live/live/tdtv_blv_taokinhte/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Friendlies",
+            "team_a": "Cape Verde Islands",
+            "team_b": "Serbia",
+            "logo_a": "https://imgts.sportpulseapiz.com/football/team/9vjxm8ghdpdr6od/image/small",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Flag_of_Serbia.svg/250px-Flag_of_Serbia.svg.png",
+            "time": "22:00 31/05",
+            "blv": "BLV TÁO KINH TẾ",
+            "is_live": true,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Cape Verde Islands_Serbia_22-00 31-05_0529dc1c_20260531.png?v=0529dc1c",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "qc-f49738f8b4",
           "name": "Brighton W vs Manchester City W | 21:00 31/05",
           "type": "single",
@@ -1445,59 +1516,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-50d2d22627_c0859fed_20260531.png?v=c0859fed",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "hqlive-da80364ba7",
-          "name": "Cape Verde Islands vs Serbia | 22:00 31/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-da80364ba7",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-da80364ba7",
-                  "name": "Cape Verde Islands vs Serbia",
-                  "streams": [
-                    {
-                      "id": "st-da80364ba7",
-                      "name": "HQ",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Friendlies",
-            "team_a": "Cape Verde Islands",
-            "team_b": "Serbia",
-            "logo_a": "https://imgts.sportpulseapiz.com/football/team/9vjxm8ghdpdr6od/image/small",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Flag_of_Serbia.svg/250px-Flag_of_Serbia.svg.png",
-            "time": "22:00 31/05",
-            "blv": "BLV TÁO KINH TẾ",
-            "is_live": false,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Cape Verde Islands_Serbia_22-00 31-05_0529dc1c_20260531.png?v=0529dc1c",
             "width": 1600,
             "height": 1200
           }
