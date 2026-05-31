@@ -685,7 +685,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (10 LIVE)",
+      "name": "⚽ Bóng Đá (11 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1365,6 +1365,82 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/xaycon-stream/refs/heads/main/thumbs/xc-b6e2c7b0c1_25982830_20260531.png?v=25982830",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-015d079441",
+          "name": "Esbjerg vs Lyngby | 20:00 31/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-015d079441",
+              "name": "XayConTV",
+              "contents": [
+                {
+                  "id": "ct-015d079441",
+                  "name": "Esbjerg vs Lyngby",
+                  "streams": [
+                    {
+                      "id": "st-015d079441",
+                      "name": "XC",
+                      "stream_links": [
+                        {
+                          "id": "lnk-bccd486b79",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://xclive.yarncdn.live/live/xctv_blv_tammao/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.xaycon3.live/"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://sv2.xaycon3.live"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "1. Division",
+            "team_a": "Esbjerg",
+            "team_b": "Lyngby",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/b/bb/EfB-logo.png",
+            "logo_b": "https://media.api-sports.io/football/teams/625.png",
+            "time": "20:00",
+            "date": "31/05",
+            "blv": "BLV Tam Mao",
+            "is_live": true,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/xaycon-stream/refs/heads/main/thumbs/xc-015d079441_66a1281c_20260531.png?v=66a1281c",
             "width": 1600,
             "height": 1200
           }
@@ -2687,82 +2763,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/quechoa-stream/refs/heads/main/thumbs/qc-87b3fd7e6a_0a4d778d_20260531.png?v=0a4d778d",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "xc-015d079441",
-          "name": "Esbjerg vs Lyngby | 20:00 31/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-015d079441",
-              "name": "XayConTV",
-              "contents": [
-                {
-                  "id": "ct-015d079441",
-                  "name": "Esbjerg vs Lyngby",
-                  "streams": [
-                    {
-                      "id": "st-015d079441",
-                      "name": "XC",
-                      "stream_links": [
-                        {
-                          "id": "lnk-bccd486b79",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://xclive.yarncdn.live/live/xctv_blv_tammao/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.xaycon3.live/"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://sv2.xaycon3.live"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "1. Division",
-            "team_a": "Esbjerg",
-            "team_b": "Lyngby",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/b/bb/EfB-logo.png",
-            "logo_b": "https://media.api-sports.io/football/teams/625.png",
-            "time": "20:00",
-            "date": "31/05",
-            "blv": "BLV Tam Mao",
-            "is_live": false,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/xaycon-stream/refs/heads/main/thumbs/xc-015d079441_66a1281c_20260531.png?v=66a1281c",
             "width": 1600,
             "height": 1200
           }
