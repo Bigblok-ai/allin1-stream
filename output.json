@@ -685,11 +685,82 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (6 LIVE)",
+      "name": "⚽ Bóng Đá (7 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "gv-3e1af6cc1a",
+          "name": "Maldives vs Afghanistan | 23:00 01/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-3e1af6cc1a",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-3e1af6cc1a",
+                  "name": "Maldives vs Afghanistan",
+                  "streams": [
+                    {
+                      "id": "st-3e1af6cc1a",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-f89e6b2b29",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1780295469_hd/1780295469_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Giao hữu quốc tế",
+            "team_a": "Maldives",
+            "team_b": "Afghanistan",
+            "logo_a": "https://images.keovip88.net/images/teams/maldives.png",
+            "logo_b": "https://images.keovip88.net/images/teams/afghanistan.png",
+            "time": "23:00 01/06",
+            "blv": "blv-mat",
+            "is_live": true,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-3e1af6cc1a_6e18f2ea_20260601.png?v=6e18f2ea",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "gv-3767a8bb94",
           "name": "Slovakia vs Malta | 23:00 01/06",
@@ -1240,77 +1311,6 @@
           }
         },
         {
-          "id": "gv-3e1af6cc1a",
-          "name": "Maldives vs Afghanistan | 23:00 01/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-3e1af6cc1a",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-3e1af6cc1a",
-                  "name": "Maldives vs Afghanistan",
-                  "streams": [
-                    {
-                      "id": "st-3e1af6cc1a",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-f89e6b2b29",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1780295469_hd/1780295469_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Giao hữu quốc tế",
-            "team_a": "Maldives",
-            "team_b": "Afghanistan",
-            "logo_a": "https://images.keovip88.net/images/teams/maldives.png",
-            "logo_b": "https://images.keovip88.net/images/teams/afghanistan.png",
-            "time": "23:00 01/06",
-            "blv": "blv-mat",
-            "is_live": false,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-3e1af6cc1a_6e18f2ea_20260601.png?v=6e18f2ea",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "hqlive-2a155d777c",
           "name": "Türkiye vs FYR Macedonia | 23:30 01/06",
           "type": "single",
@@ -1337,45 +1337,6 @@
                       "id": "st-2a155d777c",
                       "name": "HQ",
                       "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "src-93d86b5567",
-              "name": "QuechoaTV",
-              "contents": [
-                {
-                  "id": "ct-93d86b5567",
-                  "name": "Türkiye vs FYR Macedonia",
-                  "streams": [
-                    {
-                      "id": "st-93d86b5567",
-                      "name": "Quechoa - DƯA HẤU",
-                      "stream_links": [
-                        {
-                          "id": "lnk-0e88644c2d",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ahghndtkyqmm-pull.bpmedialive.com/quechoa/blv_duahau.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://quechoa10.live/"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://quechoa10.live"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
                     }
                   ]
                 }
