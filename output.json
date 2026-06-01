@@ -685,7 +685,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (5 LIVE)",
+      "name": "⚽ Bóng Đá (6 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -960,6 +960,58 @@
               ]
             },
             {
+              "id": "src-77cc601e0d",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-77cc601e0d",
+                  "name": "Indonesia U19 vs Myanmar U19",
+                  "streams": [
+                    {
+                      "id": "st-77cc601e0d",
+                      "name": "Hoiquan - BLV TÁO GIÀ, BLV PHAN CA",
+                      "stream_links": [
+                        {
+                          "id": "lnk-1cad2e4412",
+                          "name": "BLV TÁO GIÀ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://tdlive.yarncdn.live/live/tdtv_blv_taotinhtao/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-f6231c6549",
+                          "name": "BLV PHAN CA",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanca/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
               "id": "src-87b3fd7e6a",
               "name": "QuechoaTV",
               "contents": [
@@ -1172,10 +1224,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -1223,7 +1275,7 @@
             "logo_b": "https://media.api-sports.io/football/teams/1562.png",
             "start_time": "2026-06-01T20:00:00",
             "blv": "BLV Lavie",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football"
           },
           "image": {
@@ -1302,6 +1354,77 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-57cd30d908_2537c9f0_20260601.png?v=2537c9f0",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "bg-9a3f263a5e",
+          "name": "Turkey vs North Macedonia | 00:30 02/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-9a3f263a5e",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-9a3f263a5e",
+                  "name": "Turkey vs North Macedonia",
+                  "streams": [
+                    {
+                      "id": "st-9a3f263a5e",
+                      "name": "BG",
+                      "stream_links": [
+                        {
+                          "id": "lnk-0ba3f9d037",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_trada/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Giao Hữu",
+            "team_a": "Turkey",
+            "team_b": "North Macedoniaedonia",
+            "logo_a": "https://ssl.gstatic.com/onebox/media/sports/logos/optimized/hYrtTF982kN3GcYNdSPL9g_96x96.png",
+            "logo_b": "https://ssl.gstatic.com/onebox/media/sports/logos/optimized/JCU93J9GUw6QWkH-RBNulg_96x96.png",
+            "start_time": "2026-06-02T00:30:00",
+            "blv": "BLV Tiểu Trà Đá",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-9a3f263a5e_9430dff4_20260601.png?v=9430dff4",
             "width": 1600,
             "height": 1200
           }
@@ -2639,77 +2762,6 @@
           }
         },
         {
-          "id": "hqlive-69d88dd551",
-          "name": "Flavio Coboli vs Zachary Svajda | 16:00 01/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-69d88dd551",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-69d88dd551",
-                  "name": "Flavio Coboli vs Zachary Svajda",
-                  "streams": [
-                    {
-                      "id": "st-69d88dd551",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-ee33939914",
-                          "name": "BLV PHAN TỪ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phantu/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Roland Garros",
-            "team_a": "Flavio Coboli",
-            "team_b": "Zachary Svajda",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/5/53/Cobolli_RGQ23_%2852944096963%29.jpg",
-            "logo_b": "https://www.atptour.com/-/media/images/news/2025/08/26/23/08/svajda-cincinnati-2024-serve.jpg",
-            "time": "16:00 01/06",
-            "blv": "BLV PHAN TỪ",
-            "is_live": true,
-            "sport_slug": "tennis"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Flavio Coboli_Zachary Svajda_16-00 01-06_aee47e9a_20260601.png?v=aee47e9a",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "hqlive-59a513450b",
           "name": "Madison Keys vs Diana Shnaider | 18:00 01/06",
           "type": "single",
@@ -2788,10 +2840,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -2806,7 +2858,25 @@
                     {
                       "id": "st-3324a94743",
                       "name": "HQ",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-eae8482cb7",
+                          "name": "BLV PHAN BÁCH",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanchuot/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -2821,7 +2891,7 @@
             "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzstp2VuHC_iVQ9pKmRuNMd8EHxGO-KtJgkQ&s",
             "time": "20:00 01/06",
             "blv": "BLV PHAN BÁCH",
-            "is_live": false,
+            "is_live": true,
             "sport_slug": "tennis"
           },
           "image": {
@@ -3075,82 +3145,11 @@
     },
     {
       "id": "grp-bóng-rổ",
-      "name": "🏀 Bóng Rổ (1 LIVE)",
+      "name": "🏀 Bóng Rổ",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-791588d10d",
-          "name": "Meycauayan vs  Marikina Shoemasters | 17:00 01/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-791588d10d",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-791588d10d",
-                  "name": "Meycauayan vs  Marikina Shoemasters",
-                  "streams": [
-                    {
-                      "id": "st-791588d10d",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-0ae30a504d",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1780232673_hd/1780232673_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "MPBL",
-            "team_a": "Meycauayan",
-            "team_b": " Marikina Shoemasters",
-            "logo_a": "https://static.flashscore.com/res/image/data/AmGwgEil-hM8LmeoS.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/tlCKGiAr-MXG9dGHE.png",
-            "time": "17:00 01/06",
-            "blv": "BLV Tôm",
-            "is_live": true,
-            "cate_type": "basketball"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-791588d10d_e6254daf_20260601.png?v=e6254daf",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-5dd4a5e683",
           "name": "Zenit Peterburgs vs Lokomotiv Kuban | 22:00 01/06",
