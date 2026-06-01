@@ -685,7 +685,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (6 LIVE)",
+      "name": "⚽ Bóng Đá (7 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -868,8 +868,8 @@
           }
         },
         {
-          "id": "hqlive-21bf999077",
-          "name": "Vietnam U19 vs Timor Leste U19 | 16:00 01/06",
+          "id": "gv-7f77998964",
+          "name": "France U17 vs Montenegro U17 | 18:30 01/06",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -883,56 +883,57 @@
           ],
           "sources": [
             {
-              "id": "src-21bf999077",
+              "id": "src-7f77998964",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-7f77998964",
+                  "name": "France U17 vs Montenegro U17",
+                  "streams": [
+                    {
+                      "id": "st-7f77998964",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-167289b70c",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1780279959_hd/1780279959_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-78b2cf5751",
               "name": "HoiQuanTV",
               "contents": [
                 {
-                  "id": "ct-21bf999077",
-                  "name": "Vietnam U19 vs Timor Leste U19",
+                  "id": "ct-78b2cf5751",
+                  "name": "France U17 vs Montenegro U17",
                   "streams": [
                     {
-                      "id": "st-21bf999077",
-                      "name": "HQ",
+                      "id": "st-78b2cf5751",
+                      "name": "Hoiquan - BLV PHAN QUẨY",
                       "stream_links": [
-                        {
-                          "id": "lnk-c42241b387",
-                          "name": "BLV PHAN MÃ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanma/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-c3ae00c22d",
-                          "name": "BLV TÁO KINH TẾ",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://tdlive.yarncdn.live/live/tdtv_blv_taokinhte/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
                         {
                           "id": "lnk-b0c182498f",
                           "name": "BLV PHAN QUẨY",
                           "type": "hls",
-                          "default": false,
+                          "default": true,
                           "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanquay/playlist.m3u8",
                           "request_headers": [
                             {
@@ -952,6 +953,155 @@
               ]
             },
             {
+              "id": "src-7fa7e6a3d9",
+              "name": "QuechoaTV",
+              "contents": [
+                {
+                  "id": "ct-7fa7e6a3d9",
+                  "name": "France U17 vs Montenegro U17",
+                  "streams": [
+                    {
+                      "id": "st-7fa7e6a3d9",
+                      "name": "Quechoa - CHÈ XANH",
+                      "stream_links": [
+                        {
+                          "id": "lnk-bc172466c0",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ahghndtkyqmm-pull.bpmedialive.com/quechoa/blv2.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://quechoa10.live/"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://quechoa10.live"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-3dd5d74d13",
+              "name": "XayConTV",
+              "contents": [
+                {
+                  "id": "ct-3dd5d74d13",
+                  "name": "France U17 vs Montenegro U17",
+                  "streams": [
+                    {
+                      "id": "st-3dd5d74d13",
+                      "name": "Xaycon - BLV Quan Vũ",
+                      "stream_links": [
+                        {
+                          "id": "lnk-ab6de9170b",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://xclive.yarncdn.live/live/xctv_blv_quanvu/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.xaycon3.live/"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://sv2.xaycon3.live"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-4dc3ed26a2",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-4dc3ed26a2",
+                  "name": "France U17 vs Montenegro U17",
+                  "streams": [
+                    {
+                      "id": "st-4dc3ed26a2",
+                      "name": "Bugio - BLV Tiểu Hạc",
+                      "stream_links": [
+                        {
+                          "id": "lnk-02ff9c6e74",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_tieuhac/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "UEFA U17 European Championship",
+            "team_a": "France U17",
+            "team_b": "Montenegro U17",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Ensign_of_France.svg/250px-Ensign_of_France.svg.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Flag_of_Montenegro.svg/1280px-Flag_of_Montenegro.svg.png",
+            "time": "18:30 01/06",
+            "blv": "blv-mat",
+            "is_live": true,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-7f77998964_0aa5f1ca_20260601.png?v=0aa5f1ca",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "qc-80e3eb2ad0",
+          "name": "Vietnam U19 vs Timor-Leste U19 | 16:00 01/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
               "id": "src-80e3eb2ad0",
               "name": "QuechoaTV",
               "contents": [
@@ -961,7 +1111,7 @@
                   "streams": [
                     {
                       "id": "st-80e3eb2ad0",
-                      "name": "Quechoa - VỎ QUÝT",
+                      "name": "QC",
                       "stream_links": [
                         {
                           "id": "lnk-67419b1cbc",
@@ -994,11 +1144,12 @@
           "org_metadata": {
             "league": "ASEAN Championship U19",
             "team_a": "Vietnam U19",
-            "team_b": "Timor Leste U19",
+            "team_b": "Timor-Leste U19",
             "logo_a": "https://media.api-sports.io/football/teams/19157.png",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Flag_of_East_Timor.svg/1280px-Flag_of_East_Timor.svg.png",
-            "time": "16:00 01/06",
-            "blv": "BLV PHAN MÃ, BLV TÁO KINH TẾ, BLV PHAN QUẨY",
+            "logo_b": "https://storage.quechoa2.live/logos/teams/1780212050059-img-0424.png",
+            "time": "16:00",
+            "date": "01/06",
+            "blv": "VỎ QUÝT",
             "is_live": true,
             "sport_slug": "bong-da"
           },
@@ -1006,7 +1157,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Vietnam U19_Timor Leste U19_16-00 01-06_088fa9df_20260601.png?v=088fa9df",
+            "url": "https://raw.githubusercontent.com/jasminliu98/quechoa-stream/refs/heads/main/thumbs/qc-80e3eb2ad0_bab7f9f0_20260601.png?v=bab7f9f0",
             "width": 1600,
             "height": 1200
           }
@@ -1220,190 +1371,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-57cd30d908_2537c9f0_20260601.png?v=2537c9f0",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-7f77998964",
-          "name": "France U17 vs Montenegro U17 | 18:30 01/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-7f77998964",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-7f77998964",
-                  "name": "France U17 vs Montenegro U17",
-                  "streams": [
-                    {
-                      "id": "st-7f77998964",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-167289b70c",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1780279959_hd/1780279959_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "src-7fa7e6a3d9",
-              "name": "QuechoaTV",
-              "contents": [
-                {
-                  "id": "ct-7fa7e6a3d9",
-                  "name": "France U17 vs Montenegro U17",
-                  "streams": [
-                    {
-                      "id": "st-7fa7e6a3d9",
-                      "name": "Quechoa - CHÈ XANH",
-                      "stream_links": [
-                        {
-                          "id": "lnk-bc172466c0",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ahghndtkyqmm-pull.bpmedialive.com/quechoa/blv2.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://quechoa10.live/"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://quechoa10.live"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "src-3dd5d74d13",
-              "name": "XayConTV",
-              "contents": [
-                {
-                  "id": "ct-3dd5d74d13",
-                  "name": "France U17 vs Montenegro U17",
-                  "streams": [
-                    {
-                      "id": "st-3dd5d74d13",
-                      "name": "Xaycon - BLV Quan Vũ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-ab6de9170b",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://xclive.yarncdn.live/live/xctv_blv_quanvu/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.xaycon3.live/"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://sv2.xaycon3.live"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "src-4dc3ed26a2",
-              "name": "BugioTV",
-              "contents": [
-                {
-                  "id": "ct-4dc3ed26a2",
-                  "name": "France U17 vs Montenegro U17",
-                  "streams": [
-                    {
-                      "id": "st-4dc3ed26a2",
-                      "name": "Bugio - BLV Tiểu Hạc",
-                      "stream_links": [
-                        {
-                          "id": "lnk-02ff9c6e74",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_tieuhac/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv1.bugio9.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "UEFA U17 European Championship",
-            "team_a": "France U17",
-            "team_b": "Montenegro U17",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Ensign_of_France.svg/250px-Ensign_of_France.svg.png",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Flag_of_Montenegro.svg/1280px-Flag_of_Montenegro.svg.png",
-            "time": "18:30 01/06",
-            "blv": "blv-mat",
-            "is_live": false,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-7f77998964_0aa5f1ca_20260601.png?v=0aa5f1ca",
             "width": 1600,
             "height": 1200
           }
@@ -2073,6 +2040,41 @@
                       "id": "st-5548c2cd9a",
                       "name": "HQ",
                       "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-ec16c57ed3",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-ec16c57ed3",
+                  "name": "Norway vs Sweden",
+                  "streams": [
+                    {
+                      "id": "st-ec16c57ed3",
+                      "name": "Bugio - BLV Tiểu Hạc",
+                      "stream_links": [
+                        {
+                          "id": "lnk-02ff9c6e74",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_tieuhac/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
