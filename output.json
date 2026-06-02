@@ -2436,7 +2436,7 @@
     },
     {
       "id": "grp-tennis",
-      "name": "🎾 Tennis (2 LIVE)",
+      "name": "🎾 Tennis (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -2478,41 +2478,6 @@
                             {
                               "key": "Referer",
                               "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "src-cd830b2318",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-cd830b2318",
-                  "name": "Mirra Andreeva vs Sorana Cirstea",
-                  "streams": [
-                    {
-                      "id": "st-cd830b2318",
-                      "name": "Hoiquan - BLV PHAN TỪ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-ee33939914",
-                          "name": "BLV PHAN TỪ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phantu/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -2619,32 +2584,50 @@
           }
         },
         {
-          "id": "hqlive-38ca1989bc",
-          "name": "Elina Svitolina vs Marta Kostuyk | 18:00 02/06",
+          "id": "hqlive-8334e9bfb5",
+          "name": "Elina Svitolina vs Marta Kostuyk | 17:30 02/06",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
             {
-              "id": "src-38ca1989bc",
+              "id": "src-8334e9bfb5",
               "name": "HoiQuanTV",
               "contents": [
                 {
-                  "id": "ct-38ca1989bc",
+                  "id": "ct-8334e9bfb5",
                   "name": "Elina Svitolina vs Marta Kostuyk",
                   "streams": [
                     {
-                      "id": "st-38ca1989bc",
+                      "id": "st-8334e9bfb5",
                       "name": "HQ",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-ee33939914",
+                          "name": "BLV PHAN TỪ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phantu/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -2657,16 +2640,16 @@
             "team_b": "Marta Kostuyk",
             "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQC5M9hwvSbtia3mudgiHt09H8e9t-mhfHQ9g&s",
             "logo_b": "https://www.tennisnerd.net/wp-content/uploads/2025/05/Marta-Kostyuk-1024x546.webp",
-            "time": "18:00 02/06",
+            "time": "17:30 02/06",
             "blv": "BLV PHAN TỪ",
-            "is_live": false,
+            "is_live": true,
             "sport_slug": "tennis"
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Elina Svitolina_Marta Kostuyk_18-00 02-06_fe144618_20260602.png?v=fe144618",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Elina Svitolina_Marta Kostuyk_17-30 02-06_fe144618_20260602.png?v=fe144618",
             "width": 1600,
             "height": 1200
           }
