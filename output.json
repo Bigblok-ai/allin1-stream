@@ -685,7 +685,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (3 LIVE)",
+      "name": "⚽ Bóng Đá (5 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1002,10 +1002,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -1020,7 +1020,25 @@
                     {
                       "id": "st-86c960726f",
                       "name": "HQ",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-1cad2e4412",
+                          "name": "BLV TÁO GIÀ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://tdlive.yarncdn.live/live/tdtv_blv_taotinhtao/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -1070,7 +1088,7 @@
             "logo_b": "https://media.api-sports.io/football/teams/25063.png",
             "time": "22:00 02/06",
             "blv": "BLV TÁO GIÀ",
-            "is_live": false,
+            "is_live": true,
             "sport_slug": "bong-da"
           },
           "image": {
@@ -1078,6 +1096,82 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Al Kahrabaa_Al-Karma_22-00 02-06_ad76260d_20260602.png?v=ad76260d",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-5e8231eb96",
+          "name": "Erbil vs Baghdad | 22:00 02/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-5e8231eb96",
+              "name": "XayConTV",
+              "contents": [
+                {
+                  "id": "ct-5e8231eb96",
+                  "name": "Erbil vs Baghdad",
+                  "streams": [
+                    {
+                      "id": "st-5e8231eb96",
+                      "name": "XC",
+                      "stream_links": [
+                        {
+                          "id": "lnk-19bab7f4de",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://xclive.yarncdn.live/live/xctv_blv_aco/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.xaycon3.live/"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://sv2.xaycon3.live"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Iraqi League",
+            "team_a": "Erbil",
+            "team_b": "Baghdad",
+            "logo_a": "https://media.api-sports.io/football/teams/11070.png",
+            "logo_b": "https://media.api-sports.io/football/teams/11069.png",
+            "time": "22:00",
+            "date": "02/06",
+            "blv": "BLV A Cỏ",
+            "is_live": true,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/xaycon-stream/refs/heads/main/thumbs/xc-5e8231eb96_2e1130e4_20260602.png?v=2e1130e4",
             "width": 1600,
             "height": 1200
           }
@@ -2941,82 +3035,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/quechoa-stream/refs/heads/main/thumbs/qc-2f3e960da1_2f853719_20260602.png?v=2f853719",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "xc-5e8231eb96",
-          "name": "Erbil vs Baghdad | 22:00 02/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-5e8231eb96",
-              "name": "XayConTV",
-              "contents": [
-                {
-                  "id": "ct-5e8231eb96",
-                  "name": "Erbil vs Baghdad",
-                  "streams": [
-                    {
-                      "id": "st-5e8231eb96",
-                      "name": "XC",
-                      "stream_links": [
-                        {
-                          "id": "lnk-19bab7f4de",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://xclive.yarncdn.live/live/xctv_blv_aco/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.xaycon3.live/"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://sv2.xaycon3.live"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Iraqi League",
-            "team_a": "Erbil",
-            "team_b": "Baghdad",
-            "logo_a": "https://media.api-sports.io/football/teams/11070.png",
-            "logo_b": "https://media.api-sports.io/football/teams/11069.png",
-            "time": "22:00",
-            "date": "02/06",
-            "blv": "BLV A Cỏ",
-            "is_live": false,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/xaycon-stream/refs/heads/main/thumbs/xc-5e8231eb96_2e1130e4_20260602.png?v=2e1130e4",
             "width": 1600,
             "height": 1200
           }
