@@ -685,7 +685,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -919,6 +919,82 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Thailand U19_Brunei U19_16-00 02-06_62bb2b75_20260602.png?v=62bb2b75",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-d5fdc535bd",
+          "name": "Podbeskidzie vs Śląsk Wrocław II | 18:00 02/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-d5fdc535bd",
+              "name": "XayConTV",
+              "contents": [
+                {
+                  "id": "ct-d5fdc535bd",
+                  "name": "Podbeskidzie vs Śląsk Wrocław II",
+                  "streams": [
+                    {
+                      "id": "st-d5fdc535bd",
+                      "name": "XC",
+                      "stream_links": [
+                        {
+                          "id": "lnk-19bab7f4de",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://xclive.yarncdn.live/live/xctv_blv_aco/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.xaycon3.live/"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://sv2.xaycon3.live"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "II Liga - East",
+            "team_a": "Podbeskidzie",
+            "team_b": "Śląsk Wrocław II",
+            "logo_a": "https://media.api-sports.io/football/teams/3489.png",
+            "logo_b": "https://media.api-sports.io/football/teams/12900.png",
+            "time": "18:00",
+            "date": "02/06",
+            "blv": "BLV A Cỏ",
+            "is_live": true,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/xaycon-stream/refs/heads/main/thumbs/xc-d5fdc535bd_1edb0bd1_20260602.png?v=1edb0bd1",
             "width": 1600,
             "height": 1200
           }
@@ -2281,82 +2357,6 @@
           }
         },
         {
-          "id": "xc-d5fdc535bd",
-          "name": "Podbeskidzie vs Śląsk Wrocław II | 18:00 02/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-d5fdc535bd",
-              "name": "XayConTV",
-              "contents": [
-                {
-                  "id": "ct-d5fdc535bd",
-                  "name": "Podbeskidzie vs Śląsk Wrocław II",
-                  "streams": [
-                    {
-                      "id": "st-d5fdc535bd",
-                      "name": "XC",
-                      "stream_links": [
-                        {
-                          "id": "lnk-19bab7f4de",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://xclive.yarncdn.live/live/xctv_blv_aco/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.xaycon3.live/"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://sv2.xaycon3.live"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "II Liga - East",
-            "team_a": "Podbeskidzie",
-            "team_b": "Śląsk Wrocław II",
-            "logo_a": "https://media.api-sports.io/football/teams/3489.png",
-            "logo_b": "https://media.api-sports.io/football/teams/12900.png",
-            "time": "18:00",
-            "date": "02/06",
-            "blv": "BLV A Cỏ",
-            "is_live": false,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/xaycon-stream/refs/heads/main/thumbs/xc-d5fdc535bd_1edb0bd1_20260602.png?v=1edb0bd1",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "xc-5e8231eb96",
           "name": "Erbil vs Baghdad | 22:00 02/06",
           "type": "single",
@@ -3057,7 +3057,7 @@
     },
     {
       "id": "grp-bóng-rổ",
-      "name": "🏀 Bóng Rổ (1 LIVE)",
+      "name": "🏀 Bóng Rổ (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -3141,10 +3141,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -3192,7 +3192,7 @@
             "logo_b": "https://upload.wikimedia.org/wikipedia/en/0/08/New_Taipei_Kings_logo.png",
             "time": "18:00 02/06",
             "blv": "BLV Tôm",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "basketball"
           },
           "image": {
