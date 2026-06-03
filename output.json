@@ -685,7 +685,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (11 LIVE)",
+      "name": "⚽ Bóng Đá (12 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1806,6 +1806,82 @@
           }
         },
         {
+          "id": "xc-da8dbf4745",
+          "name": "Santa Clara U23 vs Gil Vicente U23 | 02:00 04/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-da8dbf4745",
+              "name": "XayConTV",
+              "contents": [
+                {
+                  "id": "ct-da8dbf4745",
+                  "name": "Santa Clara U23 vs Gil Vicente U23",
+                  "streams": [
+                    {
+                      "id": "st-da8dbf4745",
+                      "name": "XC",
+                      "stream_links": [
+                        {
+                          "id": "lnk-bccd486b79",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://xclive.yarncdn.live/live/xctv_blv_tammao/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.xaycon3.live/"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://sv2.xaycon3.live"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Taça Revelação U23",
+            "team_a": "Santa Clara U23",
+            "team_b": "Gil Vicente U23",
+            "logo_a": "https://media.api-sports.io/football/teams/21719.png",
+            "logo_b": "https://imgts.sportpulseapiz.com/football/team/vjxm8ghp83dr6od/image/small",
+            "time": "02:00",
+            "date": "04/06",
+            "blv": "BLV Tam Mao",
+            "is_live": true,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/xaycon-stream/refs/heads/main/thumbs/xc-da8dbf4745_61d018eb_20260604.png?v=61d018eb",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "bg-60ce36723c",
           "name": "Gibraltar vs British Virgin Islands | 00:00 04/06",
           "type": "single",
@@ -2734,82 +2810,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/quechoa-stream/refs/heads/main/thumbs/qc-4076ae5e0c_3d051d08_20260604.png?v=3d051d08",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "xc-da8dbf4745",
-          "name": "Santa Clara U23 vs Gil Vicente U23 | 02:00 04/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-da8dbf4745",
-              "name": "XayConTV",
-              "contents": [
-                {
-                  "id": "ct-da8dbf4745",
-                  "name": "Santa Clara U23 vs Gil Vicente U23",
-                  "streams": [
-                    {
-                      "id": "st-da8dbf4745",
-                      "name": "XC",
-                      "stream_links": [
-                        {
-                          "id": "lnk-bccd486b79",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://xclive.yarncdn.live/live/xctv_blv_tammao/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.xaycon3.live/"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://sv2.xaycon3.live"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Taça Revelação U23",
-            "team_a": "Santa Clara U23",
-            "team_b": "Gil Vicente U23",
-            "logo_a": "https://media.api-sports.io/football/teams/21719.png",
-            "logo_b": "https://imgts.sportpulseapiz.com/football/team/vjxm8ghp83dr6od/image/small",
-            "time": "02:00",
-            "date": "04/06",
-            "blv": "BLV Tam Mao",
-            "is_live": false,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/xaycon-stream/refs/heads/main/thumbs/xc-da8dbf4745_61d018eb_20260604.png?v=61d018eb",
             "width": 1600,
             "height": 1200
           }
