@@ -685,7 +685,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (3 LIVE)",
+      "name": "⚽ Bóng Đá (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -954,6 +954,82 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Portugal U19_Kazakhstan U19_16-00 03-06_4a0849ad_20260603.png?v=4a0849ad",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-28564ca7e8",
+          "name": "China W vs Russia W | 18:35 03/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-28564ca7e8",
+              "name": "XayConTV",
+              "contents": [
+                {
+                  "id": "ct-28564ca7e8",
+                  "name": "China W vs Russia W",
+                  "streams": [
+                    {
+                      "id": "st-28564ca7e8",
+                      "name": "XC",
+                      "stream_links": [
+                        {
+                          "id": "lnk-ab6de9170b",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://xclive.yarncdn.live/live/xctv_blv_quanvu/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.xaycon3.live/"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://sv2.xaycon3.live"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Friendlies Women",
+            "team_a": "China W",
+            "team_b": "Russia W",
+            "logo_a": "https://media.api-sports.io/football/teams/1723.png",
+            "logo_b": "https://media.api-sports.io/football/teams/1776.png",
+            "time": "18:35",
+            "date": "03/06",
+            "blv": "BLV Quan Vũ",
+            "is_live": true,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/xaycon-stream/refs/heads/main/thumbs/xc-28564ca7e8_d43528f4_20260603.png?v=d43528f4",
             "width": 1600,
             "height": 1200
           }
@@ -3037,82 +3113,6 @@
           }
         },
         {
-          "id": "xc-28564ca7e8",
-          "name": "China W vs Russia W | 18:35 03/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-28564ca7e8",
-              "name": "XayConTV",
-              "contents": [
-                {
-                  "id": "ct-28564ca7e8",
-                  "name": "China W vs Russia W",
-                  "streams": [
-                    {
-                      "id": "st-28564ca7e8",
-                      "name": "XC",
-                      "stream_links": [
-                        {
-                          "id": "lnk-ab6de9170b",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://xclive.yarncdn.live/live/xctv_blv_quanvu/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.xaycon3.live/"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://sv2.xaycon3.live"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Friendlies Women",
-            "team_a": "China W",
-            "team_b": "Russia W",
-            "logo_a": "https://media.api-sports.io/football/teams/1723.png",
-            "logo_b": "https://media.api-sports.io/football/teams/1776.png",
-            "time": "18:35",
-            "date": "03/06",
-            "blv": "BLV Quan Vũ",
-            "is_live": false,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/xaycon-stream/refs/heads/main/thumbs/xc-28564ca7e8_d43528f4_20260603.png?v=d43528f4",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "xc-a9c31500a8",
           "name": "Indonesia W vs Singapore W | 19:00 03/06",
           "type": "single",
@@ -3550,14 +3550,14 @@
     },
     {
       "id": "grp-tennis",
-      "name": "🎾 Tennis (3 LIVE)",
+      "name": "🎾 Tennis (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
         {
-          "id": "gv-2357c3da2b",
-          "name": "Kalinskaya A vs Chwalinska M | 16:00 03/06",
+          "id": "gv-189b8f957d",
+          "name": "Sabalenka A vs Shnaider D | 18:30 03/06",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -3571,23 +3571,23 @@
           ],
           "sources": [
             {
-              "id": "src-2357c3da2b",
+              "id": "src-189b8f957d",
               "name": "GiovangTV",
               "contents": [
                 {
-                  "id": "ct-2357c3da2b",
-                  "name": "Kalinskaya A vs Chwalinska M",
+                  "id": "ct-189b8f957d",
+                  "name": "Sabalenka A vs Shnaider D",
                   "streams": [
                     {
-                      "id": "st-2357c3da2b",
+                      "id": "st-189b8f957d",
                       "name": "GV",
                       "stream_links": [
                         {
-                          "id": "lnk-bbcee08f90",
+                          "id": "lnk-959ace05d2",
                           "name": "Link HD 720p",
                           "type": "hls",
                           "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1780451611_hd/1780451611_hd@720p.m3u8",
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1780470680_hd/1780470680_hd@720p.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -3608,11 +3608,11 @@
           ],
           "org_metadata": {
             "league": "WTA Roland Garros",
-            "team_a": "Kalinskaya A",
-            "team_b": "Chwalinska M",
-            "logo_a": "https://photoresources.wtatennis.com/photo-resources/2026/04/08/d97404e3-d9ca-4022-9cd3-2d6af9c9053d/Kalinskaya-Torso_323942.png?width=790&height=740",
-            "logo_b": "https://photoresources.wtatennis.com/photo-resources/2025/05/08/38799882-1ffd-4469-b008-24f70b7ba557/Chwalinska-Torso_325639.png?width=790&height=740",
-            "time": "16:00 03/06",
+            "team_a": "Sabalenka A",
+            "team_b": "Shnaider D",
+            "logo_a": "https://photo-assets.usopen.org/images/pics/large/f_20250831_USO_0H1A8929_a.jpg",
+            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQRMiX9US4jtfktRl1yDa6XD_YUTHiTohZHZQ&s",
+            "time": "18:30 03/06",
             "blv": "blv-lac",
             "is_live": true,
             "cate_type": "tennis"
@@ -3621,78 +3621,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-2357c3da2b_3380408e_20260603.png?v=3380408e",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "hqlive-f39ed39e65",
-          "name": "Anna Kalinskaya vs Maja Chwalińska | 16:00 03/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-f39ed39e65",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-f39ed39e65",
-                  "name": "Anna Kalinskaya vs Maja Chwalińska",
-                  "streams": [
-                    {
-                      "id": "st-f39ed39e65",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-ee33939914",
-                          "name": "BLV PHAN TỪ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phantu/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Roland Garros",
-            "team_a": "Anna Kalinskaya",
-            "team_b": "Maja Chwalińska",
-            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRd0dI-lMVvSjBfoPdjAwZtTWnSAV4xjeVAPQ&s",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/c/cf/Qualifying_TransylvaniaOpen_Maja_Chwalinska_vs_Ilinca_Dalina_Amariei_6-1%2C6-1_%2854320887214%29_%28cropped_Maja_Chwalinska%29.jpg",
-            "time": "16:00 03/06",
-            "blv": "BLV PHAN TỪ",
-            "is_live": true,
-            "sport_slug": "tennis"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Anna Kalinskaya_Maja Chwalińska_16-00 03-06_c337af09_20260603.png?v=c337af09",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-189b8f957d_a3f4ef6a_20260603.png?v=a3f4ef6a",
             "width": 1600,
             "height": 1200
           }
@@ -3764,77 +3693,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Aryna Sabalenka_Diana Shnaider_18-00 03-06_dc7730c5_20260603.png?v=dc7730c5",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-189b8f957d",
-          "name": "Sabalenka A vs Shnaider D | 18:30 03/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-189b8f957d",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-189b8f957d",
-                  "name": "Sabalenka A vs Shnaider D",
-                  "streams": [
-                    {
-                      "id": "st-189b8f957d",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-959ace05d2",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1780470680_hd/1780470680_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "WTA Roland Garros",
-            "team_a": "Sabalenka A",
-            "team_b": "Shnaider D",
-            "logo_a": "https://photo-assets.usopen.org/images/pics/large/f_20250831_USO_0H1A8929_a.jpg",
-            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQRMiX9US4jtfktRl1yDa6XD_YUTHiTohZHZQ&s",
-            "time": "18:30 03/06",
-            "blv": "blv-lac",
-            "is_live": false,
-            "cate_type": "tennis"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-189b8f957d_a3f4ef6a_20260603.png?v=a3f4ef6a",
             "width": 1600,
             "height": 1200
           }
@@ -4100,7 +3958,7 @@
     },
     {
       "id": "grp-bóng-rổ",
-      "name": "🏀 Bóng Rổ (1 LIVE)",
+      "name": "🏀 Bóng Rổ (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -4184,10 +4042,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -4235,7 +4093,7 @@
             "logo_b": "https://static.flashscore.com/res/image/data/nTNHGwAr-hCospehC.png",
             "time": "18:30 03/06",
             "blv": "blv-can",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "basketball"
           },
           "image": {
