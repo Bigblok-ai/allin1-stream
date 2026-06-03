@@ -1873,6 +1873,137 @@
           }
         },
         {
+          "id": "hqlive-610ad45228",
+          "name": "France vs Ivory Coast | 02:10 05/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-610ad45228",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-610ad45228",
+                  "name": "France vs Ivory Coast",
+                  "streams": [
+                    {
+                      "id": "st-610ad45228",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-66bc47f1f6",
+              "name": "QuechoaTV",
+              "contents": [
+                {
+                  "id": "ct-66bc47f1f6",
+                  "name": "France vs Ivory Coast",
+                  "streams": [
+                    {
+                      "id": "st-66bc47f1f6",
+                      "name": "Quechoa - VỎ QUÝT",
+                      "stream_links": [
+                        {
+                          "id": "lnk-67419b1cbc",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ahghndtkyqmm-pull.bpmedialive.com/quechoa/blv_khoaitay.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://quechoa10.live/"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://quechoa10.live"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-8ca3b1cf1a",
+              "name": "XayConTV",
+              "contents": [
+                {
+                  "id": "ct-8ca3b1cf1a",
+                  "name": "France vs Ivory Coast",
+                  "streams": [
+                    {
+                      "id": "st-8ca3b1cf1a",
+                      "name": "Xaycon - BLV Tam Mao",
+                      "stream_links": [
+                        {
+                          "id": "lnk-bccd486b79",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://xclive.yarncdn.live/live/xctv_blv_tammao/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.xaycon3.live/"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://sv2.xaycon3.live"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Friendlies",
+            "team_a": "France",
+            "team_b": "Ivory Coast",
+            "logo_a": "https://media.api-sports.io/football/teams/2.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Flag_of_C%C3%B4te_d%27Ivoire.svg/1280px-Flag_of_C%C3%B4te_d%27Ivoire.svg.png",
+            "time": "02:10 05/06",
+            "blv": "BLV PHAN QUẨY, BLV TÁO KINH TẾ",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/France_Ivory Coast_02-10 05-06_bc778f65_20260604.png?v=bc778f65",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "qc-4076ae5e0c",
           "name": "Italy U17 vs Spain U17 | 00:00 05/06",
           "type": "single",
@@ -2893,7 +3024,7 @@
     },
     {
       "id": "grp-bóng-rổ",
-      "name": "🏀 Bóng Rổ",
+      "name": "🏀 Bóng Rổ (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -2906,10 +3037,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -2957,7 +3088,7 @@
             "logo_b": "https://upload.wikimedia.org/wikipedia/en/thumb/1/1b/Toronto_Tempo_logo.svg/1280px-Toronto_Tempo_logo.svg.png",
             "time": "06:30 04/06",
             "blv": "BLV Cầy",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "basketball"
           },
           "image": {
