@@ -685,11 +685,208 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (1 LIVE)",
+      "name": "⚽ Bóng Đá (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "gv-c32b7057bd",
+          "name": "Philippines vs Guam | 18:30 03/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-c32b7057bd",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-c32b7057bd",
+                  "name": "Philippines vs Guam",
+                  "streams": [
+                    {
+                      "id": "st-c32b7057bd",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-dd7d9ef60b",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1780392969_hd/1780392969_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-ca1e7e49e2",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-ca1e7e49e2",
+                  "name": "Philippines vs Guam",
+                  "streams": [
+                    {
+                      "id": "st-ca1e7e49e2",
+                      "name": "Hoiquan - BLV THẦN THÔNG, BLV PHAN MÃ",
+                      "stream_links": [
+                        {
+                          "id": "lnk-b10e5b640b",
+                          "name": "BLV THẦN THÔNG",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://tdlive.yarncdn.live/live/tdtv_blv_taovannghe/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-c42241b387",
+                          "name": "BLV PHAN MÃ",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanma/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-a5e02edf27",
+              "name": "XayConTV",
+              "contents": [
+                {
+                  "id": "ct-a5e02edf27",
+                  "name": "Philippines vs Guam",
+                  "streams": [
+                    {
+                      "id": "st-a5e02edf27",
+                      "name": "Xaycon - BLV A Cỏ",
+                      "stream_links": [
+                        {
+                          "id": "lnk-19bab7f4de",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://xclive.yarncdn.live/live/xctv_blv_aco/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.xaycon3.live/"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://sv2.xaycon3.live"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-8cbe9ce23f",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-8cbe9ce23f",
+                  "name": "Philippines vs Guam",
+                  "streams": [
+                    {
+                      "id": "st-8cbe9ce23f",
+                      "name": "Bugio - BLV Tiểu Hạc",
+                      "stream_links": [
+                        {
+                          "id": "lnk-02ff9c6e74",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_tieuhac/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Giao hữu quốc tế",
+            "team_a": "Philippines",
+            "team_b": "Guam",
+            "logo_a": "https://images.keovip88.net/images/teams/philippines.png",
+            "logo_b": "https://images.keovip88.net/images/teams/guam-island.png",
+            "time": "18:30 03/06",
+            "blv": "BLV Mason",
+            "is_live": true,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-c32b7057bd_c194aeb1_20260603.png?v=c194aeb1",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "hqlive-5300505bbe",
           "name": "Portugal U19 vs Kazakhstan U19 | 16:00 03/06",
@@ -831,151 +1028,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Portugal U19_Kazakhstan U19_16-00 03-06_4a0849ad_20260603.png?v=4a0849ad",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-c32b7057bd",
-          "name": "Philippines vs Guam | 18:30 03/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-c32b7057bd",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-c32b7057bd",
-                  "name": "Philippines vs Guam",
-                  "streams": [
-                    {
-                      "id": "st-c32b7057bd",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-dd7d9ef60b",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1780392969_hd/1780392969_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "src-a5e02edf27",
-              "name": "XayConTV",
-              "contents": [
-                {
-                  "id": "ct-a5e02edf27",
-                  "name": "Philippines vs Guam",
-                  "streams": [
-                    {
-                      "id": "st-a5e02edf27",
-                      "name": "Xaycon - BLV A Cỏ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-19bab7f4de",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://xclive.yarncdn.live/live/xctv_blv_aco/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.xaycon3.live/"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://sv2.xaycon3.live"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "src-8cbe9ce23f",
-              "name": "BugioTV",
-              "contents": [
-                {
-                  "id": "ct-8cbe9ce23f",
-                  "name": "Philippines vs Guam",
-                  "streams": [
-                    {
-                      "id": "st-8cbe9ce23f",
-                      "name": "Bugio - BLV Tiểu Hạc",
-                      "stream_links": [
-                        {
-                          "id": "lnk-02ff9c6e74",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_tieuhac/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv1.bugio9.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Giao hữu quốc tế",
-            "team_a": "Philippines",
-            "team_b": "Guam",
-            "logo_a": "https://images.keovip88.net/images/teams/philippines.png",
-            "logo_b": "https://images.keovip88.net/images/teams/guam-island.png",
-            "time": "18:30 03/06",
-            "blv": "BLV Mason",
-            "is_live": false,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-c32b7057bd_c194aeb1_20260603.png?v=c194aeb1",
             "width": 1600,
             "height": 1200
           }
