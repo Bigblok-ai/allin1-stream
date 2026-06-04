@@ -685,7 +685,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (3 LIVE)",
+      "name": "⚽ Bóng Đá (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -796,6 +796,116 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-3ada6e6afe_b431a959_20260604.png?v=b431a959",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-d2f03fb914",
+          "name": "Belgium U17 vs France U17 | 18:30 04/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-d2f03fb914",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-d2f03fb914",
+                  "name": "Belgium U17 vs France U17",
+                  "streams": [
+                    {
+                      "id": "st-d2f03fb914",
+                      "name": "HQ",
+                      "stream_links": [
+                        {
+                          "id": "lnk-f6231c6549",
+                          "name": "BLV PHAN CA",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanca/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-b76ef94969",
+              "name": "XayConTV",
+              "contents": [
+                {
+                  "id": "ct-b76ef94969",
+                  "name": "Belgium U17 vs France U17",
+                  "streams": [
+                    {
+                      "id": "st-b76ef94969",
+                      "name": "Xaycon - BLV Quan Vũ",
+                      "stream_links": [
+                        {
+                          "id": "lnk-ab6de9170b",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://xclive.yarncdn.live/live/xctv_blv_quanvu/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.xaycon3.live/"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://sv2.xaycon3.live"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "UEFA U17 Championship",
+            "team_a": "Belgium U17",
+            "team_b": "France U17",
+            "logo_a": "https://media.api-sports.io/football/teams/1.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Flag_of_France.svg/1280px-Flag_of_France.svg.png",
+            "time": "18:30 04/06",
+            "blv": "BLV PHAN CA",
+            "is_live": true,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Belgium U17_France U17_18-30 04-06_ebc28338_20260604.png?v=ebc28338",
             "width": 1600,
             "height": 1200
           }
@@ -948,98 +1058,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/quechoa-stream/refs/heads/main/thumbs/qc-6b2856da51_232e7d4c_20260604.png?v=232e7d4c",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "hqlive-d2f03fb914",
-          "name": "Belgium U17 vs France U17 | 18:30 04/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-d2f03fb914",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-d2f03fb914",
-                  "name": "Belgium U17 vs France U17",
-                  "streams": [
-                    {
-                      "id": "st-d2f03fb914",
-                      "name": "HQ",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "src-b76ef94969",
-              "name": "XayConTV",
-              "contents": [
-                {
-                  "id": "ct-b76ef94969",
-                  "name": "Belgium U17 vs France U17",
-                  "streams": [
-                    {
-                      "id": "st-b76ef94969",
-                      "name": "Xaycon - BLV Quan Vũ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-ab6de9170b",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://xclive.yarncdn.live/live/xctv_blv_quanvu/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.xaycon3.live/"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://sv2.xaycon3.live"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "UEFA U17 Championship",
-            "team_a": "Belgium U17",
-            "team_b": "France U17",
-            "logo_a": "https://media.api-sports.io/football/teams/1.png",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Flag_of_France.svg/1280px-Flag_of_France.svg.png",
-            "time": "18:30 04/06",
-            "blv": "BLV PHAN CA",
-            "is_live": false,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Belgium U17_France U17_18-30 04-06_ebc28338_20260604.png?v=ebc28338",
             "width": 1600,
             "height": 1200
           }
@@ -4274,7 +4292,7 @@
     },
     {
       "id": "grp-bóng-chuyền",
-      "name": "🏐 Bóng Chuyền (1 LIVE)",
+      "name": "🏐 Bóng Chuyền (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -4358,10 +4376,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -4376,7 +4394,25 @@
                     {
                       "id": "st-d22d40f55a",
                       "name": "HQ",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-c3ae00c22d",
+                          "name": "BLV TÁO KINH TẾ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://tdlive.yarncdn.live/live/tdtv_blv_taokinhte/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -4391,7 +4427,7 @@
             "logo_b": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Flag_of_Thailand.svg",
             "time": "18:30 04/06",
             "blv": "BLV TÁO KINH TẾ",
-            "is_live": false,
+            "is_live": true,
             "sport_slug": "bong-chuyen"
           },
           "image": {
