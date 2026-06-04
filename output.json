@@ -685,121 +685,11 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (1 LIVE)",
+      "name": "⚽ Bóng Đá",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "hqlive-4c56742870",
-          "name": "South Korea vs El Salvador | 08:00 04/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-4c56742870",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-4c56742870",
-                  "name": "South Korea vs El Salvador",
-                  "streams": [
-                    {
-                      "id": "st-4c56742870",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-c42241b387",
-                          "name": "BLV PHAN MÃ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanma/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "src-4115b48283",
-              "name": "XayConTV",
-              "contents": [
-                {
-                  "id": "ct-4115b48283",
-                  "name": "South Korea vs El Salvador",
-                  "streams": [
-                    {
-                      "id": "st-4115b48283",
-                      "name": "Xaycon - BLV Quan Vũ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-ab6de9170b",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://xclive.yarncdn.live/live/xctv_blv_quanvu/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.xaycon3.live/"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://sv2.xaycon3.live"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Friendlies",
-            "team_a": "South Korea",
-            "team_b": "El Salvador",
-            "logo_a": "https://media.api-sports.io/football/teams/1728.png",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Flag_of_El_Salvador.svg/250px-Flag_of_El_Salvador.svg.png",
-            "time": "08:00 04/06",
-            "blv": "BLV PHAN MÃ",
-            "is_live": true,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/South Korea_El Salvador_08-00 04-06_cc6dda4a_20260604.png?v=cc6dda4a",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "hqlive-26cc401ec9",
           "name": "Myanmar U19 vs Vietnam U19 | 16:00 04/06",
@@ -897,6 +787,76 @@
                             {
                               "key": "Origin",
                               "value": "https://sv2.xaycon3.live"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-04992c5115",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-04992c5115",
+                  "name": "Myanmar U19 vs Vietnam U19",
+                  "streams": [
+                    {
+                      "id": "st-04992c5115",
+                      "name": "Bugio - BLV Tiểu Trà Đá",
+                      "stream_links": [
+                        {
+                          "id": "lnk-0ba3f9d037",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_trada/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-66bf858e11",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-66bf858e11",
+                  "name": "Myanmar U19 vs Vietnam U19",
+                  "streams": [
+                    {
+                      "id": "st-66bf858e11",
+                      "name": "Bugio - BLV Mason",
+                      "stream_links": [
+                        {
+                          "id": "lnk-51a73d71ba",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_mason/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -2072,6 +2032,41 @@
                   ]
                 }
               ]
+            },
+            {
+              "id": "src-1216a1bca4",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-1216a1bca4",
+                  "name": "Văn Hiến vs Sanna Khanh Hoa",
+                  "streams": [
+                    {
+                      "id": "st-1216a1bca4",
+                      "name": "Bugio - BLV khô Mực",
+                      "stream_links": [
+                        {
+                          "id": "lnk-41910bf543",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_khomuc/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
             }
           ],
           "org_metadata": {
@@ -2479,11 +2474,82 @@
     },
     {
       "id": "grp-tennis",
-      "name": "🎾 Tennis",
+      "name": "🎾 Tennis (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "gv-b5e8902d7d",
+          "name": "Berretini vs Arnaldi | 01:25 04/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-b5e8902d7d",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-b5e8902d7d",
+                  "name": "Berretini vs Arnaldi",
+                  "streams": [
+                    {
+                      "id": "st-b5e8902d7d",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-e8ace99006",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1780510417_hd/1780510417_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Roland Garros",
+            "team_a": "Berretini",
+            "team_b": "Arnaldi",
+            "logo_a": "https://static.flashscore.com/res/image/data/KvZNhNZA-8rO8nrm4.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/Aa61VTcM-Cb5l6dVL.png",
+            "time": "01:25 04/06",
+            "blv": "BLV Ben",
+            "is_live": true,
+            "cate_type": "tennis"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-b5e8902d7d_2a51d49a_20260604.png?v=2a51d49a",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "hqlive-6222b4d175",
           "name": "Marta Kostuyk vs Mirra Andreeva | 20:00 04/06",
@@ -2833,14 +2899,14 @@
     },
     {
       "id": "grp-bóng-rổ",
-      "name": "🏀 Bóng Rổ (1 LIVE)",
+      "name": "🏀 Bóng Rổ (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
         {
-          "id": "hqlive-bacca17512",
-          "name": "San Antonio Spurs vs New York Knicks | 07:30 04/06",
+          "id": "gv-c942c424e3",
+          "name": "New York Knicks  vs San Antonio Spurs | 07:30 04/06",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -2854,6 +2920,41 @@
           ],
           "sources": [
             {
+              "id": "src-c942c424e3",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-c942c424e3",
+                  "name": "New York Knicks  vs San Antonio Spurs",
+                  "streams": [
+                    {
+                      "id": "st-c942c424e3",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-136f87df28",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1780332695_hd/1780332695_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
               "id": "src-bacca17512",
               "name": "HoiQuanTV",
               "contents": [
@@ -2863,7 +2964,7 @@
                   "streams": [
                     {
                       "id": "st-bacca17512",
-                      "name": "HQ",
+                      "name": "Hoiquan - BLV PHAN TỪ",
                       "stream_links": [
                         {
                           "id": "lnk-ee33939914",
@@ -2890,21 +2991,163 @@
             }
           ],
           "org_metadata": {
-            "league": "NBA",
-            "team_a": "San Antonio Spurs",
-            "team_b": "New York Knicks",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/vi/e/ec/San_Antonio_Spurs_logo.png",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/en/2/25/New_York_Knicks_logo.svg",
+            "league": "NBA Final",
+            "team_a": "New York Knicks ",
+            "team_b": "San Antonio Spurs",
+            "logo_a": "https://static.flashscore.com/res/image/data/8f2WVCFG-SrHHDGUm.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/UBTxFpcM-I30Q0K9l.png",
             "time": "07:30 04/06",
-            "blv": "BLV PHAN TỪ",
+            "blv": "blv-lac, blv-can, BLV Tôm",
             "is_live": true,
-            "sport_slug": "bong-ro"
+            "cate_type": "basketball"
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/San Antonio Spurs_New York Knicks_07-30 04-06_3e9ff35c_20260604.png?v=3e9ff35c",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-c942c424e3_0c5173d0_20260604.png?v=0c5173d0",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-27dd16e28b",
+          "name": "Seattle Storm W  vs Phoenix Mercury W | 09:00 04/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-27dd16e28b",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-27dd16e28b",
+                  "name": "Seattle Storm W  vs Phoenix Mercury W",
+                  "streams": [
+                    {
+                      "id": "st-27dd16e28b",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-37df2eedeb",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1780332769_hd/1780332769_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "WNBA",
+            "team_a": "Seattle Storm W ",
+            "team_b": "Phoenix Mercury W",
+            "logo_a": "https://static.flashscore.com/res/image/data/WAtvfmDa-tCILA0mK.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/IZ04YpAr-rPdnEwGr.png",
+            "time": "09:00 04/06",
+            "blv": "BLV Cầy",
+            "is_live": true,
+            "cate_type": "basketball"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-27dd16e28b_dfcd7070_20260604.png?v=dfcd7070",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-d45160f76e",
+          "name": "Bay Hawks  vs Nelson Giants | 14:00 04/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-d45160f76e",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-d45160f76e",
+                  "name": "Bay Hawks  vs Nelson Giants",
+                  "streams": [
+                    {
+                      "id": "st-d45160f76e",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-ff2049823c",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1780332905_hd/1780332905_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "NBL",
+            "team_a": "Bay Hawks ",
+            "team_b": "Nelson Giants",
+            "logo_a": "https://static.flashscore.com/res/image/data/Sx3DVvdM-jyq13zia.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/EF4NkwHG-OfUSnxa4.png",
+            "time": "14:00 04/06",
+            "blv": "blv-lac",
+            "is_live": false,
+            "cate_type": "basketball"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-d45160f76e_9e24ceee_20260604.png?v=9e24ceee",
             "width": 1600,
             "height": 1200
           }
