@@ -685,7 +685,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (1 LIVE)",
+      "name": "⚽ Bóng Đá (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -779,6 +779,116 @@
           }
         },
         {
+          "id": "hqlive-58afba4f7f",
+          "name": "Czech Republic vs Guatemala | 07:00 05/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-58afba4f7f",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-58afba4f7f",
+                  "name": "Czech Republic vs Guatemala",
+                  "streams": [
+                    {
+                      "id": "st-58afba4f7f",
+                      "name": "HQ",
+                      "stream_links": [
+                        {
+                          "id": "lnk-1cad2e4412",
+                          "name": "BLV TÁO GIÀ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://tdlive.yarncdn.live/live/tdtv_blv_taotinhtao/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-b3acd16ad2",
+              "name": "XayConTV",
+              "contents": [
+                {
+                  "id": "ct-b3acd16ad2",
+                  "name": "Czech Republic vs Guatemala",
+                  "streams": [
+                    {
+                      "id": "st-b3acd16ad2",
+                      "name": "Xaycon - BLV Quan Vũ",
+                      "stream_links": [
+                        {
+                          "id": "lnk-ab6de9170b",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://xclive.yarncdn.live/live/xctv_blv_quanvu/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.xaycon3.live/"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://sv2.xaycon3.live"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Friendlies",
+            "team_a": "Czech Republic",
+            "team_b": "Guatemala",
+            "logo_a": "https://media.api-sports.io/football/teams/770.png",
+            "logo_b": "https://media.api-sports.io/football/teams/5161.png",
+            "time": "07:00 05/06",
+            "blv": "BLV TÁO GIÀ",
+            "is_live": true,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Czech Republic_Guatemala_07-00 05-06_dbee7ab3_20260605.png?v=dbee7ab3",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "gv-2dc1bb524c",
           "name": "Cộng hòa Séc vs Guatemala | 07:00 05/06",
           "type": "single",
@@ -845,98 +955,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-2dc1bb524c_8a6aea47_20260605.png?v=8a6aea47",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "hqlive-58afba4f7f",
-          "name": "Czech Republic vs Guatemala | 07:00 05/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-58afba4f7f",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-58afba4f7f",
-                  "name": "Czech Republic vs Guatemala",
-                  "streams": [
-                    {
-                      "id": "st-58afba4f7f",
-                      "name": "HQ",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "src-b3acd16ad2",
-              "name": "XayConTV",
-              "contents": [
-                {
-                  "id": "ct-b3acd16ad2",
-                  "name": "Czech Republic vs Guatemala",
-                  "streams": [
-                    {
-                      "id": "st-b3acd16ad2",
-                      "name": "Xaycon - BLV Quan Vũ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-ab6de9170b",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://xclive.yarncdn.live/live/xctv_blv_quanvu/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.xaycon3.live/"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://sv2.xaycon3.live"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Friendlies",
-            "team_a": "Czech Republic",
-            "team_b": "Guatemala",
-            "logo_a": "https://media.api-sports.io/football/teams/770.png",
-            "logo_b": "https://media.api-sports.io/football/teams/5161.png",
-            "time": "07:00 05/06",
-            "blv": "BLV TÁO GIÀ",
-            "is_live": false,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Czech Republic_Guatemala_07-00 05-06_dbee7ab3_20260605.png?v=dbee7ab3",
             "width": 1600,
             "height": 1200
           }
@@ -3895,7 +3913,7 @@
     },
     {
       "id": "grp-bóng-chuyền",
-      "name": "🏐 Bóng Chuyền (1 LIVE)",
+      "name": "🏐 Bóng Chuyền (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -3972,6 +3990,77 @@
           }
         },
         {
+          "id": "hqlive-b85fc67762",
+          "name": "Canada vs Mỹ | 07:00 05/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-b85fc67762",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-b85fc67762",
+                  "name": "Canada vs Mỹ",
+                  "streams": [
+                    {
+                      "id": "st-b85fc67762",
+                      "name": "HQ",
+                      "stream_links": [
+                        {
+                          "id": "lnk-ee33939914",
+                          "name": "BLV PHAN TỪ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phantu/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Nation League Women",
+            "team_a": "Canada",
+            "team_b": "Mỹ",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/c/cf/Flag_of_Canada.svg",
+            "logo_b": "https://www.englisch-hilfen.de/images/flags/248.gif",
+            "time": "07:00 05/06",
+            "blv": "BLV PHAN TỪ",
+            "is_live": true,
+            "sport_slug": "bong-chuyen"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Canada_Mỹ_07-00 05-06_8dec0b13_20260605.png?v=8dec0b13",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "gv-461ed4cbf6",
           "name": "Canada  vs USA | 07:00 05/06",
           "type": "single",
@@ -4038,59 +4127,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-461ed4cbf6_ba7f1930_20260605.png?v=ba7f1930",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "hqlive-b85fc67762",
-          "name": "Canada vs Mỹ | 07:00 05/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-b85fc67762",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-b85fc67762",
-                  "name": "Canada vs Mỹ",
-                  "streams": [
-                    {
-                      "id": "st-b85fc67762",
-                      "name": "HQ",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Nation League Women",
-            "team_a": "Canada",
-            "team_b": "Mỹ",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/c/cf/Flag_of_Canada.svg",
-            "logo_b": "https://www.englisch-hilfen.de/images/flags/248.gif",
-            "time": "07:00 05/06",
-            "blv": "BLV PHAN TỪ",
-            "is_live": false,
-            "sport_slug": "bong-chuyen"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Canada_Mỹ_07-00 05-06_8dec0b13_20260605.png?v=8dec0b13",
             "width": 1600,
             "height": 1200
           }
