@@ -4187,11 +4187,82 @@
     },
     {
       "id": "grp-tennis",
-      "name": "🎾 Tennis (1 LIVE)",
+      "name": "🎾 Tennis (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "gv-70de02006e",
+          "name": "Jakub Mensik  vs Alexander Zverev | 19:50 05/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-70de02006e",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-70de02006e",
+                  "name": "Jakub Mensik  vs Alexander Zverev",
+                  "streams": [
+                    {
+                      "id": "st-70de02006e",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-ea0775d401",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1780663726_hd/1780663726_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "The French Open( Roland Garros)",
+            "team_a": "Jakub Mensik ",
+            "team_b": "Alexander Zverev",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Jakub_Men%C5%A1%C3%ADk_%282023_US_Open%29_14_%28cropped%29.jpg/960px-Jakub_Men%C5%A1%C3%ADk_%282023_US_Open%29_14_%28cropped%29.jpg",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Alexander_Zverev.jpg/250px-Alexander_Zverev.jpg",
+            "time": "19:50 05/06",
+            "blv": "BLV Dory",
+            "is_live": true,
+            "cate_type": "tennis"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-70de02006e_ea35f986_20260605.png?v=ea35f986",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "hqlive-638c68369a",
           "name": "Jakub Mensik vs Alexandet Zverev | 19:30 05/06",
