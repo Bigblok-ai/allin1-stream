@@ -685,7 +685,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (1 LIVE)",
+      "name": "⚽ Bóng Đá (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -762,6 +762,77 @@
           }
         },
         {
+          "id": "hqlive-b489b398dc",
+          "name": "Puerto Rico vs Saudi Arabia | 06:00 06/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-b489b398dc",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-b489b398dc",
+                  "name": "Puerto Rico vs Saudi Arabia",
+                  "streams": [
+                    {
+                      "id": "st-b489b398dc",
+                      "name": "HQ",
+                      "stream_links": [
+                        {
+                          "id": "lnk-1cad2e4412",
+                          "name": "BLV TÁO GIÀ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://tdlive.yarncdn.live/live/tdtv_blv_taotinhtao/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Friendlies",
+            "team_a": "Puerto Rico",
+            "team_b": "Saudi Arabia",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Flag_of_Puerto_Rico.svg/1280px-Flag_of_Puerto_Rico.svg.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Flag_of_Saudi_Arabia.svg/330px-Flag_of_Saudi_Arabia.svg.png",
+            "time": "06:00 06/06",
+            "blv": "BLV TÁO GIÀ",
+            "is_live": true,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Puerto Rico_Saudi Arabia_06-00 06-06_c6cc6e11_20260606.png?v=c6cc6e11",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "gv-19df2c4735",
           "name": "Puerto Rico vs Ả Rập Xê Út | 06:00 06/06",
           "type": "single",
@@ -828,59 +899,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-19df2c4735_a3a66785_20260606.png?v=a3a66785",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "hqlive-b489b398dc",
-          "name": "Puerto Rico vs Saudi Arabia | 06:00 06/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-b489b398dc",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-b489b398dc",
-                  "name": "Puerto Rico vs Saudi Arabia",
-                  "streams": [
-                    {
-                      "id": "st-b489b398dc",
-                      "name": "HQ",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Friendlies",
-            "team_a": "Puerto Rico",
-            "team_b": "Saudi Arabia",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Flag_of_Puerto_Rico.svg/1280px-Flag_of_Puerto_Rico.svg.png",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Flag_of_Saudi_Arabia.svg/330px-Flag_of_Saudi_Arabia.svg.png",
-            "time": "06:00 06/06",
-            "blv": "BLV TÁO GIÀ",
-            "is_live": false,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Puerto Rico_Saudi Arabia_06-00 06-06_c6cc6e11_20260606.png?v=c6cc6e11",
             "width": 1600,
             "height": 1200
           }
@@ -4668,8 +4686,8 @@
           }
         },
         {
-          "id": "hqlive-efe4b8d1d2",
-          "name": "Ukraina vs Nhật Bản | 03:30 06/06",
+          "id": "gv-b9492d3039",
+          "name": "Hà Lan vs Ý | 06:00 06/06",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -4679,77 +4697,6 @@
               "position": "top-left",
               "color": "#00000080",
               "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-efe4b8d1d2",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-efe4b8d1d2",
-                  "name": "Ukraina vs Nhật Bản",
-                  "streams": [
-                    {
-                      "id": "st-efe4b8d1d2",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-07fa7a18bb",
-                          "name": "BLV PHAN HẢI",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanhai/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Nation League Women",
-            "team_a": "Ukraina",
-            "team_b": "Nhật Bản",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/4/49/Flag_of_Ukraine.svg",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Flag_of_Japan.svg/960px-Flag_of_Japan.svg.png",
-            "time": "03:30 06/06",
-            "blv": "BLV PHAN HẢI",
-            "is_live": true,
-            "sport_slug": "bong-chuyen"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Ukraina_Nhật Bản_03-30 06-06_1f4a6376_20260606.png?v=1f4a6376",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-b9492d3039",
-          "name": "Hà Lan vs Ý | 06:00 06/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
             }
           ],
           "sources": [
@@ -4787,6 +4734,41 @@
                   ]
                 }
               ]
+            },
+            {
+              "id": "src-e4c123a29c",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-e4c123a29c",
+                  "name": "Hà Lan vs Italy",
+                  "streams": [
+                    {
+                      "id": "st-e4c123a29c",
+                      "name": "Hoiquan - BLV PHAN CA",
+                      "stream_links": [
+                        {
+                          "id": "lnk-f6231c6549",
+                          "name": "BLV PHAN CA",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanca/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
             }
           ],
           "org_metadata": {
@@ -4797,7 +4779,7 @@
             "logo_b": "https://upload.wikimedia.org/wikipedia/commons/0/03/Flag_of_Italy.svg",
             "time": "06:00 06/06",
             "blv": "BLV Điếc",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "bongchuyen"
           },
           "image": {
