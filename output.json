@@ -685,7 +685,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (8 LIVE)",
+      "name": "⚽ Bóng Đá (9 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1303,6 +1303,116 @@
           }
         },
         {
+          "id": "hqlive-0f25cd719f",
+          "name": "Moldova vs Bulgaria | 00:00 06/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-0f25cd719f",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-0f25cd719f",
+                  "name": "Moldova vs Bulgaria",
+                  "streams": [
+                    {
+                      "id": "st-0f25cd719f",
+                      "name": "HQ",
+                      "stream_links": [
+                        {
+                          "id": "lnk-c3ae00c22d",
+                          "name": "BLV TÁO KINH TẾ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://tdlive.yarncdn.live/live/tdtv_blv_taokinhte/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-4ca7b6b758",
+              "name": "QuechoaTV",
+              "contents": [
+                {
+                  "id": "ct-4ca7b6b758",
+                  "name": "Moldova vs Bulgaria",
+                  "streams": [
+                    {
+                      "id": "st-4ca7b6b758",
+                      "name": "Quechoa - VĂN MINH",
+                      "stream_links": [
+                        {
+                          "id": "lnk-75feca2dee",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ahghndtkyqmm-pull.bpmedialive.com/quechoa/blv_vanminh.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://quechoa10.live/"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://quechoa10.live"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Friendlies",
+            "team_a": "Moldova",
+            "team_b": "Bulgaria",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Flag_of_Moldova.svg/330px-Flag_of_Moldova.svg.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Flag_of_Bulgaria.svg/250px-Flag_of_Bulgaria.svg.png",
+            "time": "00:00 06/06",
+            "blv": "BLV TÁO KINH TẾ",
+            "is_live": true,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Moldova_Bulgaria_00-00 06-06_f4b71892_20260605.png?v=f4b71892",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "xc-1b88a392fa",
           "name": "Bosnia-Herzegovina W vs Lithuania W | 22:00 05/06",
           "type": "single",
@@ -1526,98 +1636,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/xaycon-stream/refs/heads/main/thumbs/xc-8931589dad_37938bd6_20260605.png?v=37938bd6",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "hqlive-0f25cd719f",
-          "name": "Moldova vs Bulgaria | 00:00 06/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-0f25cd719f",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-0f25cd719f",
-                  "name": "Moldova vs Bulgaria",
-                  "streams": [
-                    {
-                      "id": "st-0f25cd719f",
-                      "name": "HQ",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "src-4ca7b6b758",
-              "name": "QuechoaTV",
-              "contents": [
-                {
-                  "id": "ct-4ca7b6b758",
-                  "name": "Moldova vs Bulgaria",
-                  "streams": [
-                    {
-                      "id": "st-4ca7b6b758",
-                      "name": "Quechoa - VĂN MINH",
-                      "stream_links": [
-                        {
-                          "id": "lnk-75feca2dee",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ahghndtkyqmm-pull.bpmedialive.com/quechoa/blv_vanminh.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://quechoa10.live/"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://quechoa10.live"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Friendlies",
-            "team_a": "Moldova",
-            "team_b": "Bulgaria",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Flag_of_Moldova.svg/330px-Flag_of_Moldova.svg.png",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Flag_of_Bulgaria.svg/250px-Flag_of_Bulgaria.svg.png",
-            "time": "00:00 06/06",
-            "blv": "BLV TÁO KINH TẾ",
-            "is_live": false,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Moldova_Bulgaria_00-00 06-06_f4b71892_20260605.png?v=f4b71892",
             "width": 1600,
             "height": 1200
           }
@@ -4894,7 +4912,7 @@
     },
     {
       "id": "grp-tennis",
-      "name": "🎾 Tennis (1 LIVE)",
+      "name": "🎾 Tennis (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -4971,42 +4989,42 @@
           }
         },
         {
-          "id": "gv-4c2469e224",
-          "name": "Matteo Arnaldi vs Flavio Cobolli | 00:00 06/06",
+          "id": "hqlive-0fa4dd3ac1",
+          "name": "Matteo Arnaldi vs Flavio Coboli | 00:00 06/06",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
             {
-              "id": "src-4c2469e224",
-              "name": "GiovangTV",
+              "id": "src-0fa4dd3ac1",
+              "name": "HoiQuanTV",
               "contents": [
                 {
-                  "id": "ct-4c2469e224",
-                  "name": "Matteo Arnaldi vs Flavio Cobolli",
+                  "id": "ct-0fa4dd3ac1",
+                  "name": "Matteo Arnaldi vs Flavio Coboli",
                   "streams": [
                     {
-                      "id": "st-4c2469e224",
-                      "name": "GV",
+                      "id": "st-0fa4dd3ac1",
+                      "name": "HQ",
                       "stream_links": [
                         {
-                          "id": "lnk-208fa4503d",
-                          "name": "Link HD 720p",
+                          "id": "lnk-ee33939914",
+                          "name": "BLV PHAN TỪ",
                           "type": "hls",
                           "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1780643066_hd/1780643066_hd@720p.m3u8",
+                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phantu/playlist.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://giovang.fun/"
+                              "value": "https://sv2.hoiquan3.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -5024,65 +5042,12 @@
           "org_metadata": {
             "league": "Roland Garros",
             "team_a": "Matteo Arnaldi",
-            "team_b": "Flavio Cobolli",
-            "logo_a": "https://static.flashscore.com/res/image/data/Aa61VTcM-Cb5l6dVL.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/E1rCFmCr-4rBjn5Su.png",
-            "time": "00:00 06/06",
-            "blv": "BLV Ben",
-            "is_live": false,
-            "cate_type": "tennis"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-4c2469e224_038f265e_20260605.png?v=038f265e",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "hqlive-0fa4dd3ac1",
-          "name": "Matteo Arnaldi vs Flavio Coboli | 00:00 06/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-0fa4dd3ac1",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-0fa4dd3ac1",
-                  "name": "Matteo Arnaldi vs Flavio Coboli",
-                  "streams": [
-                    {
-                      "id": "st-0fa4dd3ac1",
-                      "name": "HQ",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Roland Garros",
-            "team_a": "Matteo Arnaldi",
             "team_b": "Flavio Coboli",
             "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSkVTMBm_ZQ3cK3w-vD5WzcH22bN_22bTc7iw&s",
             "logo_b": "https://upload.wikimedia.org/wikipedia/commons/5/53/Cobolli_RGQ23_%2852944096963%29.jpg",
             "time": "00:00 06/06",
             "blv": "BLV PHAN TỪ",
-            "is_live": false,
+            "is_live": true,
             "sport_slug": "tennis"
           },
           "image": {
