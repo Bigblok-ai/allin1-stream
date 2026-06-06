@@ -691,112 +691,6 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "gv-5fe0e1e281",
-          "name": "Canada vs Ireland | 06:30 06/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-5fe0e1e281",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-5fe0e1e281",
-                  "name": "Canada vs Ireland",
-                  "streams": [
-                    {
-                      "id": "st-5fe0e1e281",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-7e8dc267f6",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1780701814_hd/1780701814_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "src-da65e2061c",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-da65e2061c",
-                  "name": "Canada vs Rep. Of Ireland",
-                  "streams": [
-                    {
-                      "id": "st-da65e2061c",
-                      "name": "Hoiquan - BLV PHAN MÃ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-c42241b387",
-                          "name": "BLV PHAN MÃ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanma/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Giao hữu quốc tế",
-            "team_a": "Canada",
-            "team_b": "Ireland",
-            "logo_a": "https://images.keovip88.net/images/teams/canada.png",
-            "logo_b": "https://images.keovip88.net/images/teams/ireland.png",
-            "time": "06:30 06/06",
-            "blv": "blv-ngong",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-5fe0e1e281_d56abaf4_20260606.png?v=d56abaf4",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "hqlive-b489b398dc",
           "name": "Puerto Rico vs Saudi Arabia | 06:00 06/06",
           "type": "single",
@@ -863,6 +757,77 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Puerto Rico_Saudi Arabia_06-00 06-06_c6cc6e11_20260606.png?v=c6cc6e11",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-da65e2061c",
+          "name": "Canada vs Rep. Of Ireland | 06:30 06/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-da65e2061c",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-da65e2061c",
+                  "name": "Canada vs Rep. Of Ireland",
+                  "streams": [
+                    {
+                      "id": "st-da65e2061c",
+                      "name": "HQ",
+                      "stream_links": [
+                        {
+                          "id": "lnk-c42241b387",
+                          "name": "BLV PHAN MÃ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanma/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Friendlies",
+            "team_a": "Canada",
+            "team_b": "Rep. Of Ireland",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/c/cf/Flag_of_Canada.svg",
+            "logo_b": "https://media.api-sports.io/football/teams/776.png",
+            "time": "06:30 06/06",
+            "blv": "BLV PHAN MÃ",
+            "is_live": true,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Canada_Rep. Of Ireland_06-30 06-06_a8ecc79d_20260606.png?v=a8ecc79d",
             "width": 1600,
             "height": 1200
           }
@@ -4243,7 +4208,7 @@
     },
     {
       "id": "grp-bóng-rổ",
-      "name": "🏀 Bóng Rổ (2 LIVE)",
+      "name": "🏀 Bóng Rổ (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -4433,10 +4398,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -4484,7 +4449,7 @@
             "logo_b": "https://static.flashscore.com/res/image/data/APCDxNCr-rDAmagRK.png",
             "time": "09:00 06/06",
             "blv": "BLV Điếc",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "basketball"
           },
           "image": {
@@ -4504,10 +4469,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -4555,7 +4520,7 @@
             "logo_b": "https://static.flashscore.com/res/image/data/IZ04YpAr-rPdnEwGr.png",
             "time": "09:00 06/06",
             "blv": "BLV Ben",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "basketball"
           },
           "image": {
