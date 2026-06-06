@@ -685,7 +685,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (8 LIVE)",
+      "name": "⚽ Bóng Đá (10 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1269,6 +1269,153 @@
           }
         },
         {
+          "id": "hqlive-f579fc55a9",
+          "name": "Portugal U19 vs Greece U19 | 22:00 06/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-f579fc55a9",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-f579fc55a9",
+                  "name": "Portugal U19 vs Greece U19",
+                  "streams": [
+                    {
+                      "id": "st-f579fc55a9",
+                      "name": "HQ",
+                      "stream_links": [
+                        {
+                          "id": "lnk-b0c182498f",
+                          "name": "BLV PHAN QUẨY",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanquay/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "UEFA U19 Championship - Qualification",
+            "team_a": "Portugal U19",
+            "team_b": "Greece U19",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Flag_of_Portugal_%28official%29.svg/1280px-Flag_of_Portugal_%28official%29.svg.png",
+            "logo_b": "https://media.api-sports.io/football/teams/10364.png",
+            "time": "22:00 06/06",
+            "blv": "BLV PHAN QUẨY",
+            "is_live": true,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Portugal U19_Greece U19_22-00 06-06_9815e565_20260606.png?v=9815e565",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-400f23d28a",
+          "name": "Jordan U20 vs Panama U20 | 22:00 06/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-400f23d28a",
+              "name": "XayConTV",
+              "contents": [
+                {
+                  "id": "ct-400f23d28a",
+                  "name": "Jordan U20 vs Panama U20",
+                  "streams": [
+                    {
+                      "id": "st-400f23d28a",
+                      "name": "XC",
+                      "stream_links": [
+                        {
+                          "id": "lnk-bccd486b79",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://xclive.yarncdn.live/live/xctv_blv_tammao/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.xaycon3.live/"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://sv2.xaycon3.live"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Friendlies",
+            "team_a": "Jordan U20",
+            "team_b": "Panama U20",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Flag_of_Jordan.svg/960px-Flag_of_Jordan.svg.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/fr/5/5a/Logo_Federaci%C3%B3n_Paname%C3%B1a_F%C3%BAtbol_-_2024.svg",
+            "time": "22:00",
+            "date": "06/06",
+            "blv": "BLV Tam Mao",
+            "is_live": true,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/xaycon-stream/refs/heads/main/thumbs/xc-400f23d28a_16fe2fa3_20260606.png?v=16fe2fa3",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "bg-43b9787b8a",
           "name": "Campuchia U19 vs Philippines U19 | 20:00 06/06",
           "type": "single",
@@ -1347,10 +1494,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -1398,7 +1545,7 @@
             "logo_b": "https://media.api-sports.io/football/teams/10364.png",
             "start_time": "2026-06-06T22:00:00",
             "blv": "BLV Tiểu Trà Đá",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football"
           },
           "image": {
@@ -1406,59 +1553,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-8e0384779e_a32c44ab_20260606.png?v=a32c44ab",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "hqlive-f579fc55a9",
-          "name": "Portugal U19 vs Greece U19 | 22:00 06/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-f579fc55a9",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-f579fc55a9",
-                  "name": "Portugal U19 vs Greece U19",
-                  "streams": [
-                    {
-                      "id": "st-f579fc55a9",
-                      "name": "HQ",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "UEFA U19 Championship - Qualification",
-            "team_a": "Portugal U19",
-            "team_b": "Greece U19",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Flag_of_Portugal_%28official%29.svg/1280px-Flag_of_Portugal_%28official%29.svg.png",
-            "logo_b": "https://media.api-sports.io/football/teams/10364.png",
-            "time": "22:00 06/06",
-            "blv": "BLV PHAN QUẨY",
-            "is_live": false,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Portugal U19_Greece U19_22-00 06-06_9815e565_20260606.png?v=9815e565",
             "width": 1600,
             "height": 1200
           }
@@ -3963,82 +4057,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/xaycon-stream/refs/heads/main/thumbs/xc-cbd612e114_9845951d_20260606.png?v=9845951d",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "xc-400f23d28a",
-          "name": "Jordan U20 vs Panama U20 | 22:00 06/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-400f23d28a",
-              "name": "XayConTV",
-              "contents": [
-                {
-                  "id": "ct-400f23d28a",
-                  "name": "Jordan U20 vs Panama U20",
-                  "streams": [
-                    {
-                      "id": "st-400f23d28a",
-                      "name": "XC",
-                      "stream_links": [
-                        {
-                          "id": "lnk-bccd486b79",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://xclive.yarncdn.live/live/xctv_blv_tammao/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.xaycon3.live/"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://sv2.xaycon3.live"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Friendlies",
-            "team_a": "Jordan U20",
-            "team_b": "Panama U20",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Flag_of_Jordan.svg/960px-Flag_of_Jordan.svg.png",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/fr/5/5a/Logo_Federaci%C3%B3n_Paname%C3%B1a_F%C3%BAtbol_-_2024.svg",
-            "time": "22:00",
-            "date": "06/06",
-            "blv": "BLV Tam Mao",
-            "is_live": false,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/xaycon-stream/refs/heads/main/thumbs/xc-400f23d28a_16fe2fa3_20260606.png?v=16fe2fa3",
             "width": 1600,
             "height": 1200
           }
