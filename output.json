@@ -1027,45 +1027,6 @@
               ]
             },
             {
-              "id": "src-4a4d5519c0",
-              "name": "QuechoaTV",
-              "contents": [
-                {
-                  "id": "ct-4a4d5519c0",
-                  "name": "USA vs Germany",
-                  "streams": [
-                    {
-                      "id": "st-4a4d5519c0",
-                      "name": "Quechoa - VỎ QUÝT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-67419b1cbc",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ahghndtkyqmm-pull.bpmedialive.com/quechoa/blv_khoaitay.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://quechoa10.live/"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://quechoa10.live"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
               "id": "src-033824b44b",
               "name": "XayConTV",
               "contents": [
@@ -6685,7 +6646,79 @@
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
-      "channels": []
+      "channels": [
+        {
+          "id": "gv-3e13d3be66",
+          "name": "Muhammad vs Bonfim | 04:00 07/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-3e13d3be66",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-3e13d3be66",
+                  "name": "Muhammad vs Bonfim",
+                  "streams": [
+                    {
+                      "id": "st-3e13d3be66",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-7017fa4a86",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1780777612_hd/1780777612_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "UFC Fight Night",
+            "team_a": "Muhammad",
+            "team_b": "Bonfim",
+            "logo_a": "https://static.flashscore.com/res/image/data/Mg6zb0eM-xQOIhAcl.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/Sj1U7Qhl-KrL8gKXj.png",
+            "time": "04:00 07/06",
+            "blv": "BLV Dory",
+            "is_live": false,
+            "cate_type": "vothuat"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-3e13d3be66_91ab2929_20260607.png?v=91ab2929",
+            "width": 1600,
+            "height": 1200
+          }
+        }
+      ]
     },
     {
       "id": "grp-pickleball",
