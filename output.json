@@ -685,11 +685,121 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "gv-5c1c6f3608",
+          "name": "Kashima Antlers vs Vissel Kobe | 12:00 06/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-5c1c6f3608",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-5c1c6f3608",
+                  "name": "Kashima Antlers vs Vissel Kobe",
+                  "streams": [
+                    {
+                      "id": "st-5c1c6f3608",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-1ad85c1c08",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1780675759_hd/1780675759_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-4dc08816d7",
+              "name": "QuechoaTV",
+              "contents": [
+                {
+                  "id": "ct-4dc08816d7",
+                  "name": "Kashima vs Vissel Kobe",
+                  "streams": [
+                    {
+                      "id": "st-4dc08816d7",
+                      "name": "Quechoa - CHÈ XANH",
+                      "stream_links": [
+                        {
+                          "id": "lnk-bc172466c0",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ahghndtkyqmm-pull.bpmedialive.com/quechoa/blv2.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://quechoa10.live/"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://quechoa10.live"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "VĐQG Nhật Bản",
+            "team_a": "Kashima Antlers",
+            "team_b": "Vissel Kobe",
+            "logo_a": "https://images.keovip88.net/images/teams/kashima-antlers.png",
+            "logo_b": "https://images.keovip88.net/images/teams/vissel-kobe.png",
+            "time": "12:00 06/06",
+            "blv": "blv-bon",
+            "is_live": true,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-5c1c6f3608_cf049141_20260606.png?v=cf049141",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "bg-4ffbd5c822",
           "name": "Xuan Thien Phu Tho vs Trường Tươi Đồng Nai | 16:00 06/06",
@@ -828,116 +938,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-8396b14c5d_3bf6e5f3_20260606.png?v=3bf6e5f3",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-5c1c6f3608",
-          "name": "Kashima Antlers vs Vissel Kobe | 12:00 06/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-5c1c6f3608",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-5c1c6f3608",
-                  "name": "Kashima Antlers vs Vissel Kobe",
-                  "streams": [
-                    {
-                      "id": "st-5c1c6f3608",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-1ad85c1c08",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1780675759_hd/1780675759_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "src-4dc08816d7",
-              "name": "QuechoaTV",
-              "contents": [
-                {
-                  "id": "ct-4dc08816d7",
-                  "name": "Kashima vs Vissel Kobe",
-                  "streams": [
-                    {
-                      "id": "st-4dc08816d7",
-                      "name": "Quechoa - CHÈ XANH",
-                      "stream_links": [
-                        {
-                          "id": "lnk-bc172466c0",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ahghndtkyqmm-pull.bpmedialive.com/quechoa/blv2.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://quechoa10.live/"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://quechoa10.live"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "VĐQG Nhật Bản",
-            "team_a": "Kashima Antlers",
-            "team_b": "Vissel Kobe",
-            "logo_a": "https://images.keovip88.net/images/teams/kashima-antlers.png",
-            "logo_b": "https://images.keovip88.net/images/teams/vissel-kobe.png",
-            "time": "12:00 06/06",
-            "blv": "blv-bon",
-            "is_live": false,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-5c1c6f3608_cf049141_20260606.png?v=cf049141",
             "width": 1600,
             "height": 1200
           }
@@ -4384,153 +4384,11 @@
     },
     {
       "id": "grp-bóng-rổ",
-      "name": "🏀 Bóng Rổ (3 LIVE)",
+      "name": "🏀 Bóng Rổ (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-b5ba597e61",
-          "name": "Los Angeles Sparks W  vs Dallas Wings W | 09:00 06/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-b5ba597e61",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-b5ba597e61",
-                  "name": "Los Angeles Sparks W  vs Dallas Wings W",
-                  "streams": [
-                    {
-                      "id": "st-b5ba597e61",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-0f05904ad3",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1780673931_hd/1780673931_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "WNBA",
-            "team_a": "Los Angeles Sparks W ",
-            "team_b": "Dallas Wings W",
-            "logo_a": "https://static.flashscore.com/res/image/data/WAzKCQf5-pj48zN6q.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/APCDxNCr-rDAmagRK.png",
-            "time": "09:00 06/06",
-            "blv": "BLV Điếc",
-            "is_live": true,
-            "cate_type": "basketball"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-b5ba597e61_72b28fb6_20260606.png?v=72b28fb6",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-d2f0fa8772",
-          "name": "Portland Fire W  vs Phoenix Mercury W | 09:00 06/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-d2f0fa8772",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-d2f0fa8772",
-                  "name": "Portland Fire W  vs Phoenix Mercury W",
-                  "streams": [
-                    {
-                      "id": "st-d2f0fa8772",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-db1729cb84",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1780674046_hd/1780674046_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "WNBA",
-            "team_a": "Portland Fire W ",
-            "team_b": "Phoenix Mercury W",
-            "logo_a": "https://static.flashscore.com/res/image/data/fZ4wHkg5-t4jSif69.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/IZ04YpAr-rPdnEwGr.png",
-            "time": "09:00 06/06",
-            "blv": "BLV Ben",
-            "is_live": true,
-            "cate_type": "basketball"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-d2f0fa8772_7dc2655c_20260606.png?v=7dc2655c",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-bc915b5e2a",
           "name": "Tauranga Whai  vs Nelson Giants | 11:00 06/06",
