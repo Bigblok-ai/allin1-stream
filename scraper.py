@@ -18,7 +18,7 @@ CATEGORIES = {
     "Bóng rổ": "🏀 Bóng Rổ",
     "Billiards": "🎱 Billiards",
     "Bóng chuyền": "🏐 Bóng Chuyền",
-    "Đua xe F1": "🏎️ Đua Xe F1",
+    "Đua xe F1": "🏎️ Đua Xe",
     "Bóng bàn": "🏓 Bóng Bàn",
     "Võ Thuật": "🥊 Võ Thuật",
     "Pickleball": "🏸 Pickleball"
