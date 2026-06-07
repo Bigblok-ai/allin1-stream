@@ -3029,6 +3029,41 @@
                   ]
                 }
               ]
+            },
+            {
+              "id": "src-1d6408264d",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-1d6408264d",
+                  "name": "Croatia vs Slovenia",
+                  "streams": [
+                    {
+                      "id": "st-1d6408264d",
+                      "name": "Bugio - BLV Mason",
+                      "stream_links": [
+                        {
+                          "id": "lnk-51a73d71ba",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_mason/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
             }
           ],
           "org_metadata": {
@@ -3524,6 +3559,45 @@
                             {
                               "key": "Referer",
                               "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-2e8e137ae6",
+              "name": "XayConTV",
+              "contents": [
+                {
+                  "id": "ct-2e8e137ae6",
+                  "name": "Colombia vs Jordan",
+                  "streams": [
+                    {
+                      "id": "st-2e8e137ae6",
+                      "name": "Xaycon - BLV Quan Vũ",
+                      "stream_links": [
+                        {
+                          "id": "lnk-ab6de9170b",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://xclive.yarncdn.live/live/xctv_blv_quanvu/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.xaycon3.live/"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://sv2.xaycon3.live"
                             },
                             {
                               "key": "User-Agent",
@@ -4498,7 +4572,7 @@
     },
     {
       "id": "grp-bóng-rổ",
-      "name": "🏀 Bóng Rổ (2 LIVE)",
+      "name": "🏀 Bóng Rổ (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -4653,10 +4727,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -4704,7 +4778,7 @@
             "logo_b": "https://static.flashscore.com/res/image/data/pIOQ9IyS-AZSW9Pcf.png",
             "time": "20:00 07/06",
             "blv": "BLV Tôm",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "basketball"
           },
           "image": {
@@ -6045,8 +6119,8 @@
           }
         },
         {
-          "id": "hqlive-90bb447500",
-          "name": "Kazakhstan vs Iran | 08:00 09/06",
+          "id": "hqlive-13ae8b9256",
+          "name": "Kazakhstan vs Iran | 11:00 09/06",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -6060,15 +6134,15 @@
           ],
           "sources": [
             {
-              "id": "src-90bb447500",
+              "id": "src-13ae8b9256",
               "name": "HoiQuanTV",
               "contents": [
                 {
-                  "id": "ct-90bb447500",
+                  "id": "ct-13ae8b9256",
                   "name": "Kazakhstan vs Iran",
                   "streams": [
                     {
-                      "id": "st-90bb447500",
+                      "id": "st-13ae8b9256",
                       "name": "HQ",
                       "stream_links": []
                     }
@@ -6083,7 +6157,7 @@
             "team_b": "Iran",
             "logo_a": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Flag_of_Kazakhstan.svg",
             "logo_b": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Flag_of_Iran.svg",
-            "time": "08:00 09/06",
+            "time": "11:00 09/06",
             "blv": "BLV PHAN CA",
             "is_live": false,
             "sport_slug": "bong-chuyen"
@@ -6092,7 +6166,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Kazakhstan_Iran_08-00 09-06_6edbe422_20260607.png?v=6edbe422",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Kazakhstan_Iran_11-00 09-06_6edbe422_20260607.png?v=6edbe422",
             "width": 1600,
             "height": 1200
           }
