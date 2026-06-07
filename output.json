@@ -685,7 +685,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (6 LIVE)",
+      "name": "⚽ Bóng Đá (7 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -836,8 +836,8 @@
           }
         },
         {
-          "id": "hqlive-4bab16a52e",
-          "name": "Denmark vs Ukraine | 23:30 07/06",
+          "id": "gv-587200b809",
+          "name": "Croatia vs Slovenia | 01:45 08/06",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -851,23 +851,58 @@
           ],
           "sources": [
             {
-              "id": "src-4bab16a52e",
+              "id": "src-587200b809",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-587200b809",
+                  "name": "Croatia vs Slovenia",
+                  "streams": [
+                    {
+                      "id": "st-587200b809",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-3f07f5534a",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1780814970_hd/1780814970_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-3d3f6330b2",
               "name": "HoiQuanTV",
               "contents": [
                 {
-                  "id": "ct-4bab16a52e",
-                  "name": "Denmark vs Ukraine",
+                  "id": "ct-3d3f6330b2",
+                  "name": "Croatia vs Slovenia",
                   "streams": [
                     {
-                      "id": "st-4bab16a52e",
-                      "name": "HQ",
+                      "id": "st-3d3f6330b2",
+                      "name": "Hoiquan - BLV PHAN QUẨY",
                       "stream_links": [
                         {
-                          "id": "lnk-975fc55dd1",
-                          "name": "BLV LƯƠNG BỔNG",
+                          "id": "lnk-b0c182498f",
+                          "name": "BLV PHAN QUẨY",
                           "type": "hls",
                           "default": true,
-                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanliem/playlist.m3u8",
+                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanquay/playlist.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -886,23 +921,23 @@
               ]
             },
             {
-              "id": "src-27ab7f00d0",
+              "id": "src-5da93c073c",
               "name": "QuechoaTV",
               "contents": [
                 {
-                  "id": "ct-27ab7f00d0",
-                  "name": "Denmark vs Ukraine",
+                  "id": "ct-5da93c073c",
+                  "name": "Croatia vs Slovenia",
                   "streams": [
                     {
-                      "id": "st-27ab7f00d0",
-                      "name": "Quechoa - NEM CHUA",
+                      "id": "st-5da93c073c",
+                      "name": "Quechoa - CHÈ XANH",
                       "stream_links": [
                         {
-                          "id": "lnk-9ecfdd7bcf",
+                          "id": "lnk-bc172466c0",
                           "name": "Link FHD",
                           "type": "hls",
                           "default": true,
-                          "url": "https://ahghndtkyqmm-pull.bpmedialive.com/quechoa/blv_nemchua.m3u8",
+                          "url": "https://ahghndtkyqmm-pull.bpmedialive.com/quechoa/blv2.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -925,23 +960,23 @@
               ]
             },
             {
-              "id": "src-7541547716",
+              "id": "src-5cddc50ebd",
               "name": "XayConTV",
               "contents": [
                 {
-                  "id": "ct-7541547716",
-                  "name": "Denmark vs Ukraine",
+                  "id": "ct-5cddc50ebd",
+                  "name": "Croatia vs Slovenia",
                   "streams": [
                     {
-                      "id": "st-7541547716",
-                      "name": "Xaycon - BLV Tam Mao",
+                      "id": "st-5cddc50ebd",
+                      "name": "Xaycon - BLV Bịp Con",
                       "stream_links": [
                         {
-                          "id": "lnk-bccd486b79",
+                          "id": "lnk-30319ba8f3",
                           "name": "Link FHD",
                           "type": "hls",
                           "default": true,
-                          "url": "https://xclive.yarncdn.live/live/xctv_blv_tammao/playlist.m3u8",
+                          "url": "https://xclive.yarncdn.live/live/xctv_blv_bipcon/playlist.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -962,24 +997,59 @@
                   ]
                 }
               ]
+            },
+            {
+              "id": "src-1d6408264d",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-1d6408264d",
+                  "name": "Croatia vs Slovenia",
+                  "streams": [
+                    {
+                      "id": "st-1d6408264d",
+                      "name": "Bugio - BLV Mason",
+                      "stream_links": [
+                        {
+                          "id": "lnk-51a73d71ba",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_mason/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
             }
           ],
           "org_metadata": {
-            "league": "Friendlies",
-            "team_a": "Denmark",
-            "team_b": "Ukraine",
-            "logo_a": "https://media.api-sports.io/football/teams/21.png",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/4/49/Flag_of_Ukraine.svg",
-            "time": "23:30 07/06",
-            "blv": "BLV LƯƠNG BỔNG",
+            "league": "Giao hữu quốc tế",
+            "team_a": "Croatia",
+            "team_b": "Slovenia",
+            "logo_a": "https://images.keovip88.net/images/teams/croatia.png",
+            "logo_b": "https://images.keovip88.net/images/teams/slovenia.png",
+            "time": "01:45 08/06",
+            "blv": "BLV Mason",
             "is_live": true,
-            "sport_slug": "bong-da"
+            "cate_type": "football"
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Denmark_Ukraine_23-30 07-06_fe647675_20260608.png?v=fe647675",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-587200b809_fa6a6a92_20260608.png?v=fa6a6a92",
             "width": 1600,
             "height": 1200
           }
@@ -1090,6 +1160,82 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Belgium U17_Italy U17_00-00 08-06_ba46f070_20260608.png?v=ba46f070",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "qc-27ab7f00d0",
+          "name": "Denmark vs Ukraine | 23:30 07/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-27ab7f00d0",
+              "name": "QuechoaTV",
+              "contents": [
+                {
+                  "id": "ct-27ab7f00d0",
+                  "name": "Denmark vs Ukraine",
+                  "streams": [
+                    {
+                      "id": "st-27ab7f00d0",
+                      "name": "QC",
+                      "stream_links": [
+                        {
+                          "id": "lnk-9ecfdd7bcf",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ahghndtkyqmm-pull.bpmedialive.com/quechoa/blv_nemchua.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://quechoa10.live/"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://quechoa10.live"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Friendlies",
+            "team_a": "Denmark",
+            "team_b": "Ukraine",
+            "logo_a": "https://media.api-sports.io/football/teams/21.png",
+            "logo_b": "https://media.api-sports.io/football/teams/772.png",
+            "time": "23:30",
+            "date": "07/06",
+            "blv": "NEM CHUA",
+            "is_live": true,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/quechoa-stream/refs/heads/main/thumbs/qc-27ab7f00d0_5b2b3cd8_20260608.png?v=5b2b3cd8",
             "width": 1600,
             "height": 1200
           }
@@ -1308,190 +1454,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-3202111cf9_385495c3_20260608.png?v=385495c3",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-587200b809",
-          "name": "Croatia vs Slovenia | 01:45 08/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-587200b809",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-587200b809",
-                  "name": "Croatia vs Slovenia",
-                  "streams": [
-                    {
-                      "id": "st-587200b809",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-3f07f5534a",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1780814970_hd/1780814970_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "src-5da93c073c",
-              "name": "QuechoaTV",
-              "contents": [
-                {
-                  "id": "ct-5da93c073c",
-                  "name": "Croatia vs Slovenia",
-                  "streams": [
-                    {
-                      "id": "st-5da93c073c",
-                      "name": "Quechoa - CHÈ XANH",
-                      "stream_links": [
-                        {
-                          "id": "lnk-bc172466c0",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ahghndtkyqmm-pull.bpmedialive.com/quechoa/blv2.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://quechoa10.live/"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://quechoa10.live"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "src-5cddc50ebd",
-              "name": "XayConTV",
-              "contents": [
-                {
-                  "id": "ct-5cddc50ebd",
-                  "name": "Croatia vs Slovenia",
-                  "streams": [
-                    {
-                      "id": "st-5cddc50ebd",
-                      "name": "Xaycon - BLV Bịp Con",
-                      "stream_links": [
-                        {
-                          "id": "lnk-30319ba8f3",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://xclive.yarncdn.live/live/xctv_blv_bipcon/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.xaycon3.live/"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://sv2.xaycon3.live"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "src-1d6408264d",
-              "name": "BugioTV",
-              "contents": [
-                {
-                  "id": "ct-1d6408264d",
-                  "name": "Croatia vs Slovenia",
-                  "streams": [
-                    {
-                      "id": "st-1d6408264d",
-                      "name": "Bugio - BLV Mason",
-                      "stream_links": [
-                        {
-                          "id": "lnk-51a73d71ba",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_mason/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv1.bugio9.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Giao hữu quốc tế",
-            "team_a": "Croatia",
-            "team_b": "Slovenia",
-            "logo_a": "https://images.keovip88.net/images/teams/croatia.png",
-            "logo_b": "https://images.keovip88.net/images/teams/slovenia.png",
-            "time": "01:45 08/06",
-            "blv": "BLV Mason",
-            "is_live": false,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-587200b809_fa6a6a92_20260608.png?v=fa6a6a92",
             "width": 1600,
             "height": 1200
           }
@@ -3592,7 +3554,7 @@
     },
     {
       "id": "grp-tennis",
-      "name": "🎾 Tennis (2 LIVE)",
+      "name": "🎾 Tennis (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -3664,77 +3626,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-b58c4b89b3_8a9cc473_20260608.png?v=8a9cc473",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "hqlive-316333fd26",
-          "name": "Alexandet Zverev vs Flavio Coboli | 20:00 07/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-316333fd26",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-316333fd26",
-                  "name": "Alexandet Zverev vs Flavio Coboli",
-                  "streams": [
-                    {
-                      "id": "st-316333fd26",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-ee33939914",
-                          "name": "BLV PHAN TỪ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phantu/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Roland Garros",
-            "team_a": "Alexandet Zverev",
-            "team_b": "Flavio Coboli",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/2/2e/Zverev_MCM23_%2820%29.jpg",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/5/53/Cobolli_RGQ23_%2852944096963%29.jpg",
-            "time": "20:00 07/06",
-            "blv": "BLV PHAN TỪ",
-            "is_live": true,
-            "sport_slug": "tennis"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Alexandet Zverev_Flavio Coboli_20-00 07-06_e443bbe8_20260608.png?v=e443bbe8",
             "width": 1600,
             "height": 1200
           }
