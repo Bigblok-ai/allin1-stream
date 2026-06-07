@@ -3855,7 +3855,7 @@
     },
     {
       "id": "grp-bóng-chuyền",
-      "name": "🏐 Bóng Chuyền (1 LIVE)",
+      "name": "🏐 Bóng Chuyền (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -3939,10 +3939,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -3957,7 +3957,25 @@
                     {
                       "id": "st-c0a1e53757",
                       "name": "HQ",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-f6231c6549",
+                          "name": "BLV PHAN CA",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanca/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -3972,7 +3990,7 @@
             "logo_b": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Flag_of_the_Czech_Republic.svg",
             "time": "10:30 07/06",
             "blv": "BLV PHAN CA",
-            "is_live": false,
+            "is_live": true,
             "sport_slug": "bong-chuyen"
           },
           "image": {
@@ -5283,8 +5301,8 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "gv-f46059131e",
-          "name": "Muhammad  vs Bonfim  | 04:00 07/06",
+          "id": "gv-3e13d3be66",
+          "name": "Muhammad vs Bonfim | 04:00 07/06",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -5298,41 +5316,6 @@
           ],
           "sources": [
             {
-              "id": "src-f46059131e",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-f46059131e",
-                  "name": "Muhammad  vs Bonfim ",
-                  "streams": [
-                    {
-                      "id": "st-f46059131e",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-c87f19ea5c",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1780788845_hd/1780788845_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
               "id": "src-3e13d3be66",
               "name": "GiovangTV",
               "contents": [
@@ -5342,7 +5325,7 @@
                   "streams": [
                     {
                       "id": "st-3e13d3be66",
-                      "name": "Giovang - BLV Dory",
+                      "name": "GV",
                       "stream_links": [
                         {
                           "id": "lnk-7017fa4a86",
@@ -5369,9 +5352,9 @@
             }
           ],
           "org_metadata": {
-            "league": "UFC",
-            "team_a": "Muhammad ",
-            "team_b": "Bonfim ",
+            "league": "UFC Fight Night",
+            "team_a": "Muhammad",
+            "team_b": "Bonfim",
             "logo_a": "https://static.flashscore.com/res/image/data/Mg6zb0eM-xQOIhAcl.png",
             "logo_b": "https://static.flashscore.com/res/image/data/Sj1U7Qhl-KrL8gKXj.png",
             "time": "04:00 07/06",
@@ -5383,7 +5366,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-f46059131e_91ab2929_20260607.png?v=91ab2929",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-3e13d3be66_91ab2929_20260607.png?v=91ab2929",
             "width": 1600,
             "height": 1200
           }
