@@ -685,11 +685,340 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (3 LIVE)",
+      "name": "⚽ Bóng Đá (5 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "hqlive-a0f62a9e00",
+          "name": "Thailand U19 vs Malaysia U19 | 20:00 08/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-a0f62a9e00",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-a0f62a9e00",
+                  "name": "Thailand U19 vs Malaysia U19",
+                  "streams": [
+                    {
+                      "id": "st-a0f62a9e00",
+                      "name": "HQ",
+                      "stream_links": [
+                        {
+                          "id": "lnk-c42241b387",
+                          "name": "BLV PHAN MÃ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanma/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-b1c1d3029d",
+              "name": "QuechoaTV",
+              "contents": [
+                {
+                  "id": "ct-b1c1d3029d",
+                  "name": "Thailand U19 vs Malaysia U19",
+                  "streams": [
+                    {
+                      "id": "st-b1c1d3029d",
+                      "name": "Quechoa - VỎ QUÝT",
+                      "stream_links": [
+                        {
+                          "id": "lnk-67419b1cbc",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ahghndtkyqmm-pull.bpmedialive.com/quechoa/blv_khoaitay.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://quechoa10.live/"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://quechoa10.live"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-ade5b01668",
+              "name": "XayConTV",
+              "contents": [
+                {
+                  "id": "ct-ade5b01668",
+                  "name": "Thailand U19 vs Malaysia U19",
+                  "streams": [
+                    {
+                      "id": "st-ade5b01668",
+                      "name": "Xaycon - BLV Rồng Đất",
+                      "stream_links": [
+                        {
+                          "id": "lnk-221ed1ffcc",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://xclive.yarncdn.live/live/xctv_blv_rongdat/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.xaycon3.live/"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://sv2.xaycon3.live"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-f0873a91b4",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-f0873a91b4",
+                  "name": "Thái Lan U19 vs Malaysia U19",
+                  "streams": [
+                    {
+                      "id": "st-f0873a91b4",
+                      "name": "Bugio - BLV Tiểu Trà Đá",
+                      "stream_links": [
+                        {
+                          "id": "lnk-0ba3f9d037",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_trada/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "ASEAN Championship U19",
+            "team_a": "Thailand U19",
+            "team_b": "Malaysia U19",
+            "logo_a": "https://media.api-sports.io/football/teams/19155.png",
+            "logo_b": "https://media.api-sports.io/football/teams/19151.png",
+            "time": "20:00 08/06",
+            "blv": "BLV PHAN MÃ",
+            "is_live": true,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Thailand U19_Malaysia U19_20-00 08-06_75e186b1_20260608.png?v=75e186b1",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-8f09c1542e",
+          "name": "Singapore U19 vs Brunei U19 | 20:00 08/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-8f09c1542e",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-8f09c1542e",
+                  "name": "Singapore U19 vs Brunei U19",
+                  "streams": [
+                    {
+                      "id": "st-8f09c1542e",
+                      "name": "HQ",
+                      "stream_links": [
+                        {
+                          "id": "lnk-b0c182498f",
+                          "name": "BLV PHAN QUẨY",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanquay/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-3ef18c490f",
+              "name": "QuechoaTV",
+              "contents": [
+                {
+                  "id": "ct-3ef18c490f",
+                  "name": "Singapore U19 vs Brunei U19",
+                  "streams": [
+                    {
+                      "id": "st-3ef18c490f",
+                      "name": "Quechoa - VĂN MINH",
+                      "stream_links": [
+                        {
+                          "id": "lnk-75feca2dee",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ahghndtkyqmm-pull.bpmedialive.com/quechoa/blv_vanminh.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://quechoa10.live/"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://quechoa10.live"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-0342c9a7b5",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-0342c9a7b5",
+                  "name": "Singapore U19 vs Brunei U19",
+                  "streams": [
+                    {
+                      "id": "st-0342c9a7b5",
+                      "name": "Bugio - BLV Cúc Cu",
+                      "stream_links": [
+                        {
+                          "id": "lnk-378f040fcb",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_cuccu/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "ASEAN Championship U19",
+            "team_a": "Singapore U19",
+            "team_b": "Brunei U19",
+            "logo_a": "https://static.flashscore.com/res/image/data/A5Yr66oG-Qq89lvZJ.png",
+            "logo_b": "https://media.api-sports.io/football/teams/19147.png",
+            "time": "20:00 08/06",
+            "blv": "BLV PHAN QUẨY",
+            "is_live": true,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Singapore U19_Brunei U19_20-00 08-06_5b8f71c7_20260608.png?v=5b8f71c7",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "xc-639496e680",
           "name": "Sri Lanka vs Bhutan | 18:30 08/06",
@@ -1188,299 +1517,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-2ec6ad23c9_57878354_20260608.png?v=57878354",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "hqlive-a0f62a9e00",
-          "name": "Thailand U19 vs Malaysia U19 | 20:00 08/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-a0f62a9e00",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-a0f62a9e00",
-                  "name": "Thailand U19 vs Malaysia U19",
-                  "streams": [
-                    {
-                      "id": "st-a0f62a9e00",
-                      "name": "HQ",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "src-b1c1d3029d",
-              "name": "QuechoaTV",
-              "contents": [
-                {
-                  "id": "ct-b1c1d3029d",
-                  "name": "Thailand U19 vs Malaysia U19",
-                  "streams": [
-                    {
-                      "id": "st-b1c1d3029d",
-                      "name": "Quechoa - VỎ QUÝT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-67419b1cbc",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ahghndtkyqmm-pull.bpmedialive.com/quechoa/blv_khoaitay.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://quechoa10.live/"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://quechoa10.live"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "src-ade5b01668",
-              "name": "XayConTV",
-              "contents": [
-                {
-                  "id": "ct-ade5b01668",
-                  "name": "Thailand U19 vs Malaysia U19",
-                  "streams": [
-                    {
-                      "id": "st-ade5b01668",
-                      "name": "Xaycon - BLV Rồng Đất",
-                      "stream_links": [
-                        {
-                          "id": "lnk-221ed1ffcc",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://xclive.yarncdn.live/live/xctv_blv_rongdat/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.xaycon3.live/"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://sv2.xaycon3.live"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "src-f0873a91b4",
-              "name": "BugioTV",
-              "contents": [
-                {
-                  "id": "ct-f0873a91b4",
-                  "name": "Thái Lan U19 vs Malaysia U19",
-                  "streams": [
-                    {
-                      "id": "st-f0873a91b4",
-                      "name": "Bugio - BLV Tiểu Trà Đá",
-                      "stream_links": [
-                        {
-                          "id": "lnk-0ba3f9d037",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_trada/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv1.bugio9.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "ASEAN Championship U19",
-            "team_a": "Thailand U19",
-            "team_b": "Malaysia U19",
-            "logo_a": "https://media.api-sports.io/football/teams/19155.png",
-            "logo_b": "https://media.api-sports.io/football/teams/19151.png",
-            "time": "20:00 08/06",
-            "blv": "BLV PHAN MÃ",
-            "is_live": false,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Thailand U19_Malaysia U19_20-00 08-06_75e186b1_20260608.png?v=75e186b1",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "hqlive-8f09c1542e",
-          "name": "Singapore U19 vs Brunei U19 | 20:00 08/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-8f09c1542e",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-8f09c1542e",
-                  "name": "Singapore U19 vs Brunei U19",
-                  "streams": [
-                    {
-                      "id": "st-8f09c1542e",
-                      "name": "HQ",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "src-3ef18c490f",
-              "name": "QuechoaTV",
-              "contents": [
-                {
-                  "id": "ct-3ef18c490f",
-                  "name": "Singapore U19 vs Brunei U19",
-                  "streams": [
-                    {
-                      "id": "st-3ef18c490f",
-                      "name": "Quechoa - VĂN MINH",
-                      "stream_links": [
-                        {
-                          "id": "lnk-75feca2dee",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ahghndtkyqmm-pull.bpmedialive.com/quechoa/blv_vanminh.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://quechoa10.live/"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://quechoa10.live"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "src-0342c9a7b5",
-              "name": "BugioTV",
-              "contents": [
-                {
-                  "id": "ct-0342c9a7b5",
-                  "name": "Singapore U19 vs Brunei U19",
-                  "streams": [
-                    {
-                      "id": "st-0342c9a7b5",
-                      "name": "Bugio - BLV Cúc Cu",
-                      "stream_links": [
-                        {
-                          "id": "lnk-378f040fcb",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_cuccu/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv1.bugio9.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "ASEAN Championship U19",
-            "team_a": "Singapore U19",
-            "team_b": "Brunei U19",
-            "logo_a": "https://static.flashscore.com/res/image/data/A5Yr66oG-Qq89lvZJ.png",
-            "logo_b": "https://media.api-sports.io/football/teams/19147.png",
-            "time": "20:00 08/06",
-            "blv": "BLV PHAN QUẨY",
-            "is_live": false,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Singapore U19_Brunei U19_20-00 08-06_5b8f71c7_20260608.png?v=5b8f71c7",
             "width": 1600,
             "height": 1200
           }
@@ -3574,8 +3610,8 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "hqlive-b171a56ed5",
-          "name": "Việt Nam vs Indonesia | 17:00 08/06",
+          "id": "hqlive-f22c45d4a9",
+          "name": "Đài Loan vs Úc | 20:00 08/06",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -3589,23 +3625,23 @@
           ],
           "sources": [
             {
-              "id": "src-b171a56ed5",
+              "id": "src-f22c45d4a9",
               "name": "HoiQuanTV",
               "contents": [
                 {
-                  "id": "ct-b171a56ed5",
-                  "name": "Việt Nam vs Indonesia",
+                  "id": "ct-f22c45d4a9",
+                  "name": "Đài Loan vs Úc",
                   "streams": [
                     {
-                      "id": "st-b171a56ed5",
+                      "id": "st-f22c45d4a9",
                       "name": "HQ",
                       "stream_links": [
                         {
-                          "id": "lnk-975fc55dd1",
-                          "name": "BLV LƯƠNG BỔNG",
+                          "id": "lnk-c3ae00c22d",
+                          "name": "BLV TÁO KINH TẾ",
                           "type": "hls",
                           "default": true,
-                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanliem/playlist.m3u8",
+                          "url": "https://tdlive.yarncdn.live/live/tdtv_blv_taokinhte/playlist.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -3626,66 +3662,13 @@
           ],
           "org_metadata": {
             "league": "AVC Nations Cup 2026",
-            "team_a": "Việt Nam",
-            "team_b": "Indonesia",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Flag_of_North_Vietnam_%281955%E2%80%931976%29.svg/250px-Flag_of_North_Vietnam_%281955%E2%80%931976%29.svg.png",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Flag_of_Indonesia.svg/960px-Flag_of_Indonesia.svg.png",
-            "time": "17:00 08/06",
-            "blv": "BLV LƯƠNG BỔNG",
-            "is_live": true,
-            "sport_slug": "bong-chuyen"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Việt Nam_Indonesia_17-00 08-06_bdc8733e_20260608.png?v=bdc8733e",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "hqlive-f22c45d4a9",
-          "name": "Đài Loan vs Úc | 20:00 08/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-f22c45d4a9",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-f22c45d4a9",
-                  "name": "Đài Loan vs Úc",
-                  "streams": [
-                    {
-                      "id": "st-f22c45d4a9",
-                      "name": "HQ",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "AVC Nations Cup 2026",
             "team_a": "Đài Loan",
             "team_b": "Úc",
             "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1r0k1Lgj9INFJXffXF2kk8So8HKDYQMeJfw&s",
             "logo_b": "https://upload.wikimedia.org/wikipedia/commons/8/88/Flag_of_Australia_%28converted%29.svg",
             "time": "20:00 08/06",
             "blv": "BLV TÁO KINH TẾ",
-            "is_live": false,
+            "is_live": true,
             "sport_slug": "bong-chuyen"
           },
           "image": {
