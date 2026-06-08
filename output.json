@@ -685,7 +685,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (1 LIVE)",
+      "name": "⚽ Bóng Đá (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -757,6 +757,77 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-e9470886ec_24bd7538_20260608.png?v=24bd7538",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "bg-999028872c",
+          "name": "North Macedonia U21 vs Mỹ U20 | 19:00 08/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-999028872c",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-999028872c",
+                  "name": "North Macedonia U21 vs Mỹ U20",
+                  "streams": [
+                    {
+                      "id": "st-999028872c",
+                      "name": "BG",
+                      "stream_links": [
+                        {
+                          "id": "lnk-02ff9c6e74",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_tieuhac/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Giao Hữu",
+            "team_a": "North Macedonia U21",
+            "team_b": "Mỹ U20",
+            "logo_a": "https://static.flashscore.com/res/image/data/G8TPGWBr-pWJEuGxm.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/fXPurPjl-0GeLpvqA.png",
+            "start_time": "2026-06-08T19:00:00",
+            "blv": "BLV Tiểu Hạc",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-999028872c_d2dc2f14_20260608.png?v=d2dc2f14",
             "width": 1600,
             "height": 1200
           }
@@ -3185,82 +3256,11 @@
     },
     {
       "id": "grp-bóng-chuyền",
-      "name": "🏐 Bóng Chuyền (1 LIVE)",
+      "name": "🏐 Bóng Chuyền",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "hqlive-78d89a3698",
-          "name": "Kazakhstan vs Iran | 11:00 08/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-78d89a3698",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-78d89a3698",
-                  "name": "Kazakhstan vs Iran",
-                  "streams": [
-                    {
-                      "id": "st-78d89a3698",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-f6231c6549",
-                          "name": "BLV PHAN CA",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanca/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "AVC Nations Cup 2026",
-            "team_a": "Kazakhstan",
-            "team_b": "Iran",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Flag_of_Kazakhstan.svg",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Flag_of_Iran.svg",
-            "time": "11:00 08/06",
-            "blv": "BLV PHAN CA",
-            "is_live": true,
-            "sport_slug": "bong-chuyen"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Kazakhstan_Iran_11-00 08-06_6edbe422_20260608.png?v=6edbe422",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "hqlive-1bbcb6cef5",
           "name": "Philippines vs Kyrgyzstan | 14:00 08/06",
