@@ -3376,11 +3376,82 @@
     },
     {
       "id": "grp-bóng-rổ",
-      "name": "🏀 Bóng Rổ",
+      "name": "🏀 Bóng Rổ (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "gv-261f780c4e",
+          "name": "Connecticut Sun W  vs New York Liberty W | 06:00 09/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-261f780c4e",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-261f780c4e",
+                  "name": "Connecticut Sun W  vs New York Liberty W",
+                  "streams": [
+                    {
+                      "id": "st-261f780c4e",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-ae00bfaf2f",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1780930507_hd/1780930507_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "WNBA",
+            "team_a": "Connecticut Sun W ",
+            "team_b": "New York Liberty W",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/en/0/09/Connecticut_Sun_logo.svg",
+            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRnFsEkiU1gOwmarpw9ErB0OrMqNBZSXWNG6g&s",
+            "time": "06:00 09/06",
+            "blv": "BLV Điếc",
+            "is_live": true,
+            "cate_type": "basketball"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-261f780c4e_ecf38798_20260609.png?v=ecf38798",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "gv-5b3c7ae7f3",
           "name": "New York Knicks vs San Antonio Spurs | 07:30 09/06",
