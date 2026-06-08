@@ -1304,8 +1304,8 @@
           }
         },
         {
-          "id": "xc-639496e680",
-          "name": "Sri Lanka vs Bhutan | 18:30 08/06",
+          "id": "hqlive-830649a210",
+          "name": "Masr vs Wadi Degla | 21:00 08/06",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1319,23 +1319,58 @@
           ],
           "sources": [
             {
-              "id": "src-639496e680",
+              "id": "src-830649a210",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-830649a210",
+                  "name": "Masr vs Wadi Degla",
+                  "streams": [
+                    {
+                      "id": "st-830649a210",
+                      "name": "HQ",
+                      "stream_links": [
+                        {
+                          "id": "lnk-b10e5b640b",
+                          "name": "BLV THẦN THÔNG",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://tdlive.yarncdn.live/live/tdtv_blv_taovannghe/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-35f9c4a503",
               "name": "XayConTV",
               "contents": [
                 {
-                  "id": "ct-639496e680",
-                  "name": "Sri Lanka vs Bhutan",
+                  "id": "ct-35f9c4a503",
+                  "name": "Masr vs Wadi Degla",
                   "streams": [
                     {
-                      "id": "st-639496e680",
-                      "name": "XC",
+                      "id": "st-35f9c4a503",
+                      "name": "Xaycon - BLV A Cỏ",
                       "stream_links": [
                         {
-                          "id": "lnk-fa5c7698a5",
+                          "id": "lnk-19bab7f4de",
                           "name": "Link FHD",
                           "type": "hls",
                           "default": true,
-                          "url": "https://xclive.yarncdn.live/live/xctv_blv_tholan/playlist.m3u8",
+                          "url": "https://xclive.yarncdn.live/live/xctv_blv_aco/playlist.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -1359,14 +1394,13 @@
             }
           ],
           "org_metadata": {
-            "league": "Friendlies",
-            "team_a": "Sri Lanka",
-            "team_b": "Bhutan",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Flag_of_Sri_Lanka.svg/1280px-Flag_of_Sri_Lanka.svg.png",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Flag_of_Bhutan.svg/1280px-Flag_of_Bhutan.svg.png",
-            "time": "18:30",
-            "date": "08/06",
-            "blv": "BLV Thợ Lặn",
+            "league": "League Cup",
+            "team_a": "Masr",
+            "team_b": "Wadi Degla",
+            "logo_a": "https://media.api-sports.io/football/teams/7520.png",
+            "logo_b": "https://media.api-sports.io/football/teams/1046.png",
+            "time": "21:00 08/06",
+            "blv": "BLV THẦN THÔNG",
             "is_live": true,
             "sport_slug": "bong-da"
           },
@@ -1374,7 +1408,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/xaycon-stream/refs/heads/main/thumbs/xc-639496e680_0388ab2f_20260608.png?v=0388ab2f",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Masr_Wadi Degla_21-00 08-06_e69627da_20260608.png?v=e69627da",
             "width": 1600,
             "height": 1200
           }
@@ -1547,25 +1581,7 @@
                     {
                       "id": "st-db8e4ef49e",
                       "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-ac68d461a4",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1780863961_hd/1780863961_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
+                      "stream_links": []
                     }
                   ]
                 }
@@ -1588,98 +1604,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-db8e4ef49e_021d7723_20260608.png?v=021d7723",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "hqlive-830649a210",
-          "name": "Masr vs Wadi Degla | 21:00 08/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-830649a210",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-830649a210",
-                  "name": "Masr vs Wadi Degla",
-                  "streams": [
-                    {
-                      "id": "st-830649a210",
-                      "name": "HQ",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "src-35f9c4a503",
-              "name": "XayConTV",
-              "contents": [
-                {
-                  "id": "ct-35f9c4a503",
-                  "name": "Masr vs Wadi Degla",
-                  "streams": [
-                    {
-                      "id": "st-35f9c4a503",
-                      "name": "Xaycon - BLV A Cỏ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-19bab7f4de",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://xclive.yarncdn.live/live/xctv_blv_aco/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.xaycon3.live/"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://sv2.xaycon3.live"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "League Cup",
-            "team_a": "Masr",
-            "team_b": "Wadi Degla",
-            "logo_a": "https://media.api-sports.io/football/teams/7520.png",
-            "logo_b": "https://media.api-sports.io/football/teams/1046.png",
-            "time": "21:00 08/06",
-            "blv": "BLV THẦN THÔNG",
-            "is_live": false,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Masr_Wadi Degla_21-00 08-06_e69627da_20260608.png?v=e69627da",
             "width": 1600,
             "height": 1200
           }
