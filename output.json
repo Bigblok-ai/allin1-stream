@@ -685,11 +685,82 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (4 LIVE)",
+      "name": "⚽ Bóng Đá (5 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "gv-ffdf877238",
+          "name": "Uganda vs Madagascar | 19:00 08/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-ffdf877238",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-ffdf877238",
+                  "name": "Uganda vs Madagascar",
+                  "streams": [
+                    {
+                      "id": "st-ffdf877238",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-c094d2795b",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1780863136_hd/1780863136_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Giao hữu quốc tế",
+            "team_a": "Uganda",
+            "team_b": "Madagascar",
+            "logo_a": "https://images.keovip88.net/images/teams/uganda.png",
+            "logo_b": "https://images.keovip88.net/images/teams/madagascar.png",
+            "time": "19:00 08/06",
+            "blv": "blv-leo",
+            "is_live": true,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-ffdf877238_d87ca8ca_20260608.png?v=d87ca8ca",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "xc-639496e680",
           "name": "Sri Lanka vs Bhutan | 18:30 08/06",
@@ -975,77 +1046,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-4424d2deec_f101f77f_20260608.png?v=f101f77f",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-ffdf877238",
-          "name": "Uganda vs Madagascar | 19:00 08/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-ffdf877238",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-ffdf877238",
-                  "name": "Uganda vs Madagascar",
-                  "streams": [
-                    {
-                      "id": "st-ffdf877238",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-c094d2795b",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1780863136_hd/1780863136_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Giao hữu quốc tế",
-            "team_a": "Uganda",
-            "team_b": "Madagascar",
-            "logo_a": "https://images.keovip88.net/images/teams/uganda.png",
-            "logo_b": "https://images.keovip88.net/images/teams/madagascar.png",
-            "time": "19:00 08/06",
-            "blv": "blv-leo",
-            "is_live": false,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-ffdf877238_d87ca8ca_20260608.png?v=d87ca8ca",
             "width": 1600,
             "height": 1200
           }
@@ -3498,7 +3498,7 @@
     },
     {
       "id": "grp-bóng-rổ",
-      "name": "🏀 Bóng Rổ (1 LIVE)",
+      "name": "🏀 Bóng Rổ (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -3582,10 +3582,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -3633,7 +3633,7 @@
             "logo_b": "https://static.flashscore.com/res/image/data/UiJBsUXg-UPjtK31f.png",
             "time": "19:00 08/06",
             "blv": "BLV Cầy",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "basketball"
           },
           "image": {
