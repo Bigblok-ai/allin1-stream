@@ -685,7 +685,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (6 LIVE)",
+      "name": "⚽ Bóng Đá (9 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -757,6 +757,77 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-495324c59d_443321dc_20260608.png?v=443321dc",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-8b4fe0265e",
+          "name": "U21 Na Uy vs U21 Phần Lan | 23:00 08/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-8b4fe0265e",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-8b4fe0265e",
+                  "name": "U21 Na Uy vs U21 Phần Lan",
+                  "streams": [
+                    {
+                      "id": "st-8b4fe0265e",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-dca4c7f6ec",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1780929548_hd/1780929548_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Giao hữu quốc tế",
+            "team_a": "U21 Na Uy",
+            "team_b": "U21 Phần Lan",
+            "logo_a": "https://images.keovip88.net/images/teams/norway-u21.png",
+            "logo_b": "https://images.keovip88.net/images/teams/finland-u21.png",
+            "time": "23:00 08/06",
+            "blv": "BLV Dory",
+            "is_live": true,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-8b4fe0265e_f9e59e2e_20260608.png?v=f9e59e2e",
             "width": 1600,
             "height": 1200
           }
@@ -872,8 +943,8 @@
           }
         },
         {
-          "id": "hqlive-3a75c09ae0",
-          "name": "Baghdad vs Karbala | 22:30 08/06",
+          "id": "hqlive-09b9ee3284",
+          "name": "Kooteepee vs Haka | 22:30 08/06",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -887,15 +958,15 @@
           ],
           "sources": [
             {
-              "id": "src-3a75c09ae0",
+              "id": "src-09b9ee3284",
               "name": "HoiQuanTV",
               "contents": [
                 {
-                  "id": "ct-3a75c09ae0",
-                  "name": "Baghdad vs Karbala",
+                  "id": "ct-09b9ee3284",
+                  "name": "Kooteepee vs Haka",
                   "streams": [
                     {
-                      "id": "st-3a75c09ae0",
+                      "id": "st-09b9ee3284",
                       "name": "HQ",
                       "stream_links": [
                         {
@@ -920,53 +991,14 @@
                   ]
                 }
               ]
-            },
-            {
-              "id": "src-9ff8381dcc",
-              "name": "XayConTV",
-              "contents": [
-                {
-                  "id": "ct-9ff8381dcc",
-                  "name": "Baghdad vs Karbala",
-                  "streams": [
-                    {
-                      "id": "st-9ff8381dcc",
-                      "name": "Xaycon - BLV Bịp Con",
-                      "stream_links": [
-                        {
-                          "id": "lnk-30319ba8f3",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://xclive.yarncdn.live/live/xctv_blv_bipcon/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.xaycon3.live/"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://sv2.xaycon3.live"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
             }
           ],
           "org_metadata": {
-            "league": "Iraqi League",
-            "team_a": "Baghdad",
-            "team_b": "Karbala",
-            "logo_a": "https://media.api-sports.io/football/teams/11069.png",
-            "logo_b": "https://media.api-sports.io/football/teams/20464.png",
+            "league": "Ykkösliiga",
+            "team_a": "Kooteepee",
+            "team_b": "Haka",
+            "logo_a": "https://media.api-sports.io/football/teams/2076.png",
+            "logo_b": "https://media.api-sports.io/football/teams/2080.png",
             "time": "22:30 08/06",
             "blv": "BLV LƯƠNG BỔNG",
             "is_live": true,
@@ -976,7 +1008,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Baghdad_Karbala_22-30 08-06_342767d4_20260608.png?v=342767d4",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Kooteepee_Haka_22-30 08-06_eccac371_20260608.png?v=eccac371",
             "width": 1600,
             "height": 1200
           }
@@ -1053,6 +1085,158 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/xaycon-stream/refs/heads/main/thumbs/xc-f22f8b6b79_a1095b2c_20260608.png?v=a1095b2c",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-9ff8381dcc",
+          "name": "Baghdad vs Karbala | 22:30 08/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-9ff8381dcc",
+              "name": "XayConTV",
+              "contents": [
+                {
+                  "id": "ct-9ff8381dcc",
+                  "name": "Baghdad vs Karbala",
+                  "streams": [
+                    {
+                      "id": "st-9ff8381dcc",
+                      "name": "XC",
+                      "stream_links": [
+                        {
+                          "id": "lnk-30319ba8f3",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://xclive.yarncdn.live/live/xctv_blv_bipcon/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.xaycon3.live/"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://sv2.xaycon3.live"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Iraqi League",
+            "team_a": "Baghdad",
+            "team_b": "Karbala",
+            "logo_a": "https://media.api-sports.io/football/teams/11069.png",
+            "logo_b": "https://media.api-sports.io/football/teams/20464.png",
+            "time": "22:30",
+            "date": "08/06",
+            "blv": "BLV Bịp Con",
+            "is_live": true,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/xaycon-stream/refs/heads/main/thumbs/xc-9ff8381dcc_ec9c146a_20260608.png?v=ec9c146a",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-220851bdb9",
+          "name": "Wydad AC vs Olympique Safi | 23:00 08/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-220851bdb9",
+              "name": "XayConTV",
+              "contents": [
+                {
+                  "id": "ct-220851bdb9",
+                  "name": "Wydad AC vs Olympique Safi",
+                  "streams": [
+                    {
+                      "id": "st-220851bdb9",
+                      "name": "XC",
+                      "stream_links": [
+                        {
+                          "id": "lnk-221ed1ffcc",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://xclive.yarncdn.live/live/xctv_blv_rongdat/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.xaycon3.live/"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://sv2.xaycon3.live"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Botola Pro",
+            "team_a": "Wydad AC",
+            "team_b": "Olympique Safi",
+            "logo_a": "https://media.api-sports.io/football/teams/968.png",
+            "logo_b": "https://media.api-sports.io/football/teams/975.png",
+            "time": "23:00",
+            "date": "08/06",
+            "blv": "BLV Rồng Đất",
+            "is_live": true,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/xaycon-stream/refs/heads/main/thumbs/xc-220851bdb9_666155cd_20260608.png?v=666155cd",
             "width": 1600,
             "height": 1200
           }
@@ -1195,77 +1379,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-4424d2deec_f101f77f_20260608.png?v=f101f77f",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-8b4fe0265e",
-          "name": "U21 Na Uy vs U21 Phần Lan | 23:00 08/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-8b4fe0265e",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-8b4fe0265e",
-                  "name": "U21 Na Uy vs U21 Phần Lan",
-                  "streams": [
-                    {
-                      "id": "st-8b4fe0265e",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-dca4c7f6ec",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1780929548_hd/1780929548_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Giao hữu quốc tế",
-            "team_a": "U21 Na Uy",
-            "team_b": "U21 Phần Lan",
-            "logo_a": "https://images.keovip88.net/images/teams/norway-u21.png",
-            "logo_b": "https://images.keovip88.net/images/teams/finland-u21.png",
-            "time": "23:00 08/06",
-            "blv": "BLV Dory",
-            "is_live": false,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-8b4fe0265e_f9e59e2e_20260608.png?v=f9e59e2e",
             "width": 1600,
             "height": 1200
           }
@@ -1509,25 +1622,7 @@
                     {
                       "id": "st-d719668752",
                       "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-21dba36847",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1780929986_hd/1780929986_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
+                      "stream_links": []
                     }
                   ]
                 }
@@ -2967,82 +3062,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/xaycon-stream/refs/heads/main/thumbs/xc-eedcd1a3c2_dba46b23_20260608.png?v=dba46b23",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "xc-220851bdb9",
-          "name": "Wydad AC vs Olympique Safi | 23:00 08/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-220851bdb9",
-              "name": "XayConTV",
-              "contents": [
-                {
-                  "id": "ct-220851bdb9",
-                  "name": "Wydad AC vs Olympique Safi",
-                  "streams": [
-                    {
-                      "id": "st-220851bdb9",
-                      "name": "XC",
-                      "stream_links": [
-                        {
-                          "id": "lnk-221ed1ffcc",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://xclive.yarncdn.live/live/xctv_blv_rongdat/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.xaycon3.live/"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://sv2.xaycon3.live"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Botola Pro",
-            "team_a": "Wydad AC",
-            "team_b": "Olympique Safi",
-            "logo_a": "https://media.api-sports.io/football/teams/968.png",
-            "logo_b": "https://media.api-sports.io/football/teams/975.png",
-            "time": "23:00",
-            "date": "08/06",
-            "blv": "BLV Rồng Đất",
-            "is_live": false,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/xaycon-stream/refs/heads/main/thumbs/xc-220851bdb9_666155cd_20260608.png?v=666155cd",
             "width": 1600,
             "height": 1200
           }
