@@ -685,11 +685,82 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "gv-48f67e1f98",
+          "name": "Ả Rập Xê Út vs Senegal | 06:00 10/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-48f67e1f98",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-48f67e1f98",
+                  "name": "Ả Rập Xê Út vs Senegal",
+                  "streams": [
+                    {
+                      "id": "st-48f67e1f98",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-80bd99548b",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1781045671_hd/1781045671_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Giao hữu quốc tế",
+            "team_a": "Ả Rập Xê Út",
+            "team_b": "Senegal",
+            "logo_a": "https://images.keovip88.net/images/teams/saudi-arabia.png",
+            "logo_b": "https://images.keovip88.net/images/teams/senegal.png",
+            "time": "06:00 10/06",
+            "blv": "blv-mat",
+            "is_live": true,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-48f67e1f98_185830ea_20260610.png?v=185830ea",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "hqlive-baecdab14e",
           "name": "Nautico Recife vs Fortaleza EC | 05:00 10/06",
@@ -1504,6 +1575,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Falu BS_Gefle IF_23-00 10-06_2749a9a3_20260610.png?v=2749a9a3",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-4ba7661ac6",
+          "name": "Malaga vs Las Palmas | 02:00 11/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-4ba7661ac6",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-4ba7661ac6",
+                  "name": "Malaga vs Las Palmas",
+                  "streams": [
+                    {
+                      "id": "st-4ba7661ac6",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Segunda División",
+            "team_a": "Malaga",
+            "team_b": "Las Palmas",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/vi/c/c3/M%C3%A1laga_CF.png",
+            "logo_b": "https://media.api-sports.io/football/teams/534.png",
+            "time": "02:00 11/06",
+            "blv": "BLV TÁO KINH TẾ",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Malaga_Las Palmas_02-00 11-06_2ec1c50c_20260610.png?v=2ec1c50c",
             "width": 1600,
             "height": 1200
           }
