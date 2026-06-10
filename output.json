@@ -685,7 +685,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (4 LIVE)",
+      "name": "⚽ Bóng Đá (5 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -757,6 +757,82 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-fc57fc6e57_03187fe0_20260610.png?v=03187fe0",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-f3c942f9f2",
+          "name": "Saudi Arabia W vs Laos W | 19:00 10/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-f3c942f9f2",
+              "name": "XayConTV",
+              "contents": [
+                {
+                  "id": "ct-f3c942f9f2",
+                  "name": "Saudi Arabia W vs Laos W",
+                  "streams": [
+                    {
+                      "id": "st-f3c942f9f2",
+                      "name": "XC",
+                      "stream_links": [
+                        {
+                          "id": "lnk-bccd486b79",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://xclive.yarncdn.live/live/xctv_blv_tammao/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.xaycon3.live/"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://sv2.xaycon3.live"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Friendlies Women",
+            "team_a": "Saudi Arabia W",
+            "team_b": "Laos W",
+            "logo_a": "https://media.api-sports.io/football/teams/20453.png",
+            "logo_b": "https://media.api-sports.io/football/teams/18267.png",
+            "time": "19:00",
+            "date": "10/06",
+            "blv": "BLV Tam Mao",
+            "is_live": true,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/xaycon-stream/refs/heads/main/thumbs/xc-f3c942f9f2_17bf4c7f_20260610.png?v=17bf4c7f",
             "width": 1600,
             "height": 1200
           }
@@ -840,10 +916,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -891,7 +967,7 @@
             "logo_b": "https://static.flashscore.com/res/image/data/f552VMEa-E1YhvyqD.png",
             "start_time": "2026-06-10T19:00:00",
             "blv": "BLV Cúc Cu",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football"
           },
           "image": {
@@ -2295,82 +2371,6 @@
           }
         },
         {
-          "id": "xc-f3c942f9f2",
-          "name": "Saudi Arabia W vs Laos W | 19:00 10/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-f3c942f9f2",
-              "name": "XayConTV",
-              "contents": [
-                {
-                  "id": "ct-f3c942f9f2",
-                  "name": "Saudi Arabia W vs Laos W",
-                  "streams": [
-                    {
-                      "id": "st-f3c942f9f2",
-                      "name": "XC",
-                      "stream_links": [
-                        {
-                          "id": "lnk-bccd486b79",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://xclive.yarncdn.live/live/xctv_blv_tammao/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.xaycon3.live/"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://sv2.xaycon3.live"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Friendlies Women",
-            "team_a": "Saudi Arabia W",
-            "team_b": "Laos W",
-            "logo_a": "https://media.api-sports.io/football/teams/20453.png",
-            "logo_b": "https://media.api-sports.io/football/teams/18267.png",
-            "time": "19:00",
-            "date": "10/06",
-            "blv": "BLV Tam Mao",
-            "is_live": false,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/xaycon-stream/refs/heads/main/thumbs/xc-f3c942f9f2_17bf4c7f_20260610.png?v=17bf4c7f",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "xc-c6c0381e78",
           "name": "SJK vs Inter Turku | 22:00 10/06",
           "type": "single",
@@ -3137,19 +3137,162 @@
     },
     {
       "id": "grp-billiards",
-      "name": "🎱 Billiards",
-      "display": "vertical",
-      "grid_number": 2,
-      "enable_detail": false,
-      "channels": []
-    },
-    {
-      "id": "grp-bóng-chuyền",
-      "name": "🏐 Bóng Chuyền",
+      "name": "🎱 Billiards (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "hqlive-0ed5c06b5b",
+          "name": "Dương Quốc Hoàng vs Dương Quốc Hoàng | 19:00 10/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-0ed5c06b5b",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-0ed5c06b5b",
+                  "name": "Dương Quốc Hoàng vs Dương Quốc Hoàng",
+                  "streams": [
+                    {
+                      "id": "st-0ed5c06b5b",
+                      "name": "HQ",
+                      "stream_links": [
+                        {
+                          "id": "lnk-6568b58b01",
+                          "name": "BLV PHAN BỐNG",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanbong/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Peri 9 Ball Open 2025",
+            "team_a": "Dương Quốc Hoàng",
+            "team_b": "Dương Quốc Hoàng",
+            "logo_a": "https://sv2.anhsieuviet.com/2026/03/04/signal-2026-03-04-151814.jpg",
+            "logo_b": "https://sv2.anhsieuviet.com/2026/03/04/signal-2026-03-04-151814.jpg",
+            "time": "19:00 10/06",
+            "blv": "BLV PHAN BỐNG",
+            "is_live": true,
+            "sport_slug": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Dương Quốc Hoàng_Dương Quốc Hoàng_19-00 10-06_051c6437_20260610.png?v=051c6437",
+            "width": 1600,
+            "height": 1200
+          }
+        }
+      ]
+    },
+    {
+      "id": "grp-bóng-chuyền",
+      "name": "🏐 Bóng Chuyền (1 LIVE)",
+      "display": "vertical",
+      "grid_number": 2,
+      "enable_detail": false,
+      "channels": [
+        {
+          "id": "hqlive-254659aa0d",
+          "name": "Ukraina vs Nhật Bản | 19:00 10/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-254659aa0d",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-254659aa0d",
+                  "name": "Ukraina vs Nhật Bản",
+                  "streams": [
+                    {
+                      "id": "st-254659aa0d",
+                      "name": "HQ",
+                      "stream_links": [
+                        {
+                          "id": "lnk-07fa7a18bb",
+                          "name": "BLV PHAN HẢI",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanhai/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Nation League Women",
+            "team_a": "Ukraina",
+            "team_b": "Nhật Bản",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/4/49/Flag_of_Ukraine.svg",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Flag_of_Japan.svg/960px-Flag_of_Japan.svg.png",
+            "time": "19:00 10/06",
+            "blv": "BLV PHAN HẢI",
+            "is_live": true,
+            "sport_slug": "bong-chuyen"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Ukraina_Nhật Bản_19-00 10-06_1f4a6376_20260610.png?v=1f4a6376",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "gv-667512a05e",
           "name": "Ukraine vs Japan | 19:00 10/06",
@@ -3217,59 +3360,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-667512a05e_1825f108_20260610.png?v=1825f108",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "hqlive-254659aa0d",
-          "name": "Ukraina vs Nhật Bản | 19:00 10/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-254659aa0d",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-254659aa0d",
-                  "name": "Ukraina vs Nhật Bản",
-                  "streams": [
-                    {
-                      "id": "st-254659aa0d",
-                      "name": "HQ",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Nation League Women",
-            "team_a": "Ukraina",
-            "team_b": "Nhật Bản",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/4/49/Flag_of_Ukraine.svg",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Flag_of_Japan.svg/960px-Flag_of_Japan.svg.png",
-            "time": "19:00 10/06",
-            "blv": "BLV PHAN HẢI",
-            "is_live": false,
-            "sport_slug": "bong-chuyen"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Ukraina_Nhật Bản_19-00 10-06_1f4a6376_20260610.png?v=1f4a6376",
             "width": 1600,
             "height": 1200
           }
