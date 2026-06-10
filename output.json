@@ -2376,25 +2376,7 @@
                     {
                       "id": "st-2a5aef91f2",
                       "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-578862ab0c",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1781101982_hd/1781101982_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
+                      "stream_links": []
                     }
                   ]
                 }
@@ -4067,11 +4049,82 @@
     },
     {
       "id": "grp-bóng-chuyền",
-      "name": "🏐 Bóng Chuyền (1 LIVE)",
+      "name": "🏐 Bóng Chuyền (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "gv-ae9d9e0ca7",
+          "name": "Turkey vs USA | 22:00 10/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-ae9d9e0ca7",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-ae9d9e0ca7",
+                  "name": "Turkey vs USA",
+                  "streams": [
+                    {
+                      "id": "st-ae9d9e0ca7",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-102e1a60a4",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1781099404_hd/1781099404_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Nations League",
+            "team_a": "Turkey",
+            "team_b": "USA",
+            "logo_a": "https://static.flashscore.com/res/image/data/lAFdyowS-6ys9CWQj.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/xpZWyhzB-rZcDn0Ec.png",
+            "time": "22:00 10/06",
+            "blv": "blv-can",
+            "is_live": true,
+            "cate_type": "bongchuyen"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-ae9d9e0ca7_75430e1a_20260610.png?v=75430e1a",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "hqlive-fa7c706a18",
           "name": "Thổ Nhĩ Kỳ vs Mỹ | 22:00 10/06",
@@ -4139,77 +4192,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Thổ Nhĩ Kỳ_Mỹ_22-00 10-06_f5de85d0_20260610.png?v=f5de85d0",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-ae9d9e0ca7",
-          "name": "Turkey vs USA | 22:00 10/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-ae9d9e0ca7",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-ae9d9e0ca7",
-                  "name": "Turkey vs USA",
-                  "streams": [
-                    {
-                      "id": "st-ae9d9e0ca7",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-102e1a60a4",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1781099404_hd/1781099404_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Nations League",
-            "team_a": "Turkey",
-            "team_b": "USA",
-            "logo_a": "https://static.flashscore.com/res/image/data/lAFdyowS-6ys9CWQj.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/xpZWyhzB-rZcDn0Ec.png",
-            "time": "22:00 10/06",
-            "blv": "blv-can",
-            "is_live": false,
-            "cate_type": "bongchuyen"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-ae9d9e0ca7_75430e1a_20260610.png?v=75430e1a",
             "width": 1600,
             "height": 1200
           }
@@ -4339,8 +4321,8 @@
           }
         },
         {
-          "id": "hqlive-c6dccf7e44",
-          "name": "Serbia vs Argentina | 02:30 11/06",
+          "id": "gv-cc296a5dbd",
+          "name": "Serbia  vs Argentina | 02:30 11/06",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -4354,17 +4336,35 @@
           ],
           "sources": [
             {
-              "id": "src-c6dccf7e44",
-              "name": "HoiQuanTV",
+              "id": "src-cc296a5dbd",
+              "name": "GiovangTV",
               "contents": [
                 {
-                  "id": "ct-c6dccf7e44",
-                  "name": "Serbia vs Argentina",
+                  "id": "ct-cc296a5dbd",
+                  "name": "Serbia  vs Argentina",
                   "streams": [
                     {
-                      "id": "st-c6dccf7e44",
-                      "name": "HQ",
-                      "stream_links": []
+                      "id": "st-cc296a5dbd",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-0a7f8a228c",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1781102508_hd/1781102508_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -4372,28 +4372,28 @@
             }
           ],
           "org_metadata": {
-            "league": "Nation League Men",
-            "team_a": "Serbia",
+            "league": "Nations League ",
+            "team_a": "Serbia ",
             "team_b": "Argentina",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Flag_of_Serbia.svg/250px-Flag_of_Serbia.svg.png",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Flag_of_Argentina.svg",
+            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQibnV-ybMmNWDvYhAr4E9GdiY6e37cz8SAdQ&s",
+            "logo_b": "https://ih1.redbubble.net/image.2547012324.9091/st,small,507x507-pad,600x600,f8f8f8.jpg",
             "time": "02:30 11/06",
-            "blv": "BLV TÁO GIÀ",
+            "blv": "BLV Điếc",
             "is_live": false,
-            "sport_slug": "bong-chuyen"
+            "cate_type": "bongchuyen"
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Serbia_Argentina_02-30 11-06_656ebce7_20260610.png?v=656ebce7",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-cc296a5dbd_f01ef9bc_20260610.png?v=f01ef9bc",
             "width": 1600,
             "height": 1200
           }
         },
         {
-          "id": "hqlive-1635f06405",
-          "name": "Pháp vs Italy | 03:00 11/06",
+          "id": "gv-3b7374fc1f",
+          "name": "France  vs Italy | 03:00 11/06",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -4407,17 +4407,35 @@
           ],
           "sources": [
             {
-              "id": "src-1635f06405",
-              "name": "HoiQuanTV",
+              "id": "src-3b7374fc1f",
+              "name": "GiovangTV",
               "contents": [
                 {
-                  "id": "ct-1635f06405",
-                  "name": "Pháp vs Italy",
+                  "id": "ct-3b7374fc1f",
+                  "name": "France  vs Italy",
                   "streams": [
                     {
-                      "id": "st-1635f06405",
-                      "name": "HQ",
-                      "stream_links": []
+                      "id": "st-3b7374fc1f",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-e1c1b1cca1",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1781102611_hd/1781102611_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -4425,21 +4443,21 @@
             }
           ],
           "org_metadata": {
-            "league": "Nation League Men",
-            "team_a": "Pháp",
+            "league": "Nations League ",
+            "team_a": "France ",
             "team_b": "Italy",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Ensign_of_France.svg/250px-Ensign_of_France.svg.png",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/0/03/Flag_of_Italy.svg",
+            "logo_a": "https://static.flashscore.com/res/image/data/dnoZORwS-rcthslVl.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/8GPRc1yB-xCsenx2O.png",
             "time": "03:00 11/06",
-            "blv": "BLV PHAN HẢI",
+            "blv": "blv-sun",
             "is_live": false,
-            "sport_slug": "bong-chuyen"
+            "cate_type": "bongchuyen"
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Pháp_Italy_03-00 11-06_d77f4229_20260610.png?v=d77f4229",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-3b7374fc1f_e4957cb6_20260610.png?v=e4957cb6",
             "width": 1600,
             "height": 1200
           }
