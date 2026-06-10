@@ -685,7 +685,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (6 LIVE)",
+      "name": "⚽ Bóng Đá (7 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -727,6 +727,41 @@
                             {
                               "key": "Referer",
                               "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-bf81922171",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-bf81922171",
+                  "name": "Pakistan vs Afghanistan",
+                  "streams": [
+                    {
+                      "id": "st-bf81922171",
+                      "name": "Hoiquan - BLV PHAN QUẨY",
+                      "stream_links": [
+                        {
+                          "id": "lnk-b0c182498f",
+                          "name": "BLV PHAN QUẨY",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanquay/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -937,6 +972,77 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/KuPS_VPS_21-00 10-06_24b62454_20260610.png?v=24b62454",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-9f0c4d605d",
+          "name": "Falu BS vs Gefle IF | 23:00 10/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-9f0c4d605d",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-9f0c4d605d",
+                  "name": "Falu BS vs Gefle IF",
+                  "streams": [
+                    {
+                      "id": "st-9f0c4d605d",
+                      "name": "HQ",
+                      "stream_links": [
+                        {
+                          "id": "lnk-c3ae00c22d",
+                          "name": "BLV TÁO KINH TẾ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://tdlive.yarncdn.live/live/tdtv_blv_taokinhte/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Svenska Cupen",
+            "team_a": "Falu BS",
+            "team_b": "Gefle IF",
+            "logo_a": "https://media.api-sports.io/football/teams/22932.png",
+            "logo_b": "https://media.api-sports.io/football/teams/813.png",
+            "time": "23:00 10/06",
+            "blv": "BLV TÁO KINH TẾ",
+            "is_live": true,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Falu BS_Gefle IF_23-00 10-06_2749a9a3_20260610.png?v=2749a9a3",
             "width": 1600,
             "height": 1200
           }
@@ -1231,59 +1337,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-ba6d843eb4_4f48f410_20260610.png?v=4f48f410",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "hqlive-9f0c4d605d",
-          "name": "Falu BS vs Gefle IF | 23:00 10/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-9f0c4d605d",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-9f0c4d605d",
-                  "name": "Falu BS vs Gefle IF",
-                  "streams": [
-                    {
-                      "id": "st-9f0c4d605d",
-                      "name": "HQ",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Svenska Cupen",
-            "team_a": "Falu BS",
-            "team_b": "Gefle IF",
-            "logo_a": "https://media.api-sports.io/football/teams/22932.png",
-            "logo_b": "https://media.api-sports.io/football/teams/813.png",
-            "time": "23:00 10/06",
-            "blv": "BLV TÁO KINH TẾ",
-            "is_live": false,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Falu BS_Gefle IF_23-00 10-06_2749a9a3_20260610.png?v=2749a9a3",
             "width": 1600,
             "height": 1200
           }
@@ -3928,7 +3981,7 @@
     },
     {
       "id": "grp-tennis",
-      "name": "🎾 Tennis (1 LIVE)",
+      "name": "🎾 Tennis (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -4012,10 +4065,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -4030,7 +4083,25 @@
                     {
                       "id": "st-911228591f",
                       "name": "HQ",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-ee33939914",
+                          "name": "BLV PHAN TỪ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phantu/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -4045,7 +4116,7 @@
             "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNZSDJOk9zmiEAUd932qtYHbrfQcbE7f50zQ&s",
             "time": "23:00 10/06",
             "blv": "BLV PHAN TỪ",
-            "is_live": false,
+            "is_live": true,
             "sport_slug": "tennis"
           },
           "image": {
@@ -4334,7 +4405,7 @@
     },
     {
       "id": "grp-bóng-chuyền",
-      "name": "🏐 Bóng Chuyền (2 LIVE)",
+      "name": "🏐 Bóng Chuyền (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -4482,6 +4553,77 @@
           }
         },
         {
+          "id": "hqlive-08abe38459",
+          "name": "Bỉ vs Bulgaria | 23:00 10/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-08abe38459",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-08abe38459",
+                  "name": "Bỉ vs Bulgaria",
+                  "streams": [
+                    {
+                      "id": "st-08abe38459",
+                      "name": "HQ",
+                      "stream_links": [
+                        {
+                          "id": "lnk-07fa7a18bb",
+                          "name": "BLV PHAN HẢI",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanhai/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Nation League Men",
+            "team_a": "Bỉ",
+            "team_b": "Bulgaria",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Flag_of_Belgium.svg/250px-Flag_of_Belgium.svg.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Flag_of_Bulgaria.svg/250px-Flag_of_Bulgaria.svg.png",
+            "time": "23:00 10/06",
+            "blv": "BLV PHAN HẢI",
+            "is_live": true,
+            "sport_slug": "bong-chuyen"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Bỉ_Bulgaria_23-00 10-06_4173d4eb_20260610.png?v=4173d4eb",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "gv-fa7d1019ac",
           "name": "Belgium  vs Bulgaria | 23:00 10/06",
           "type": "single",
@@ -4548,59 +4690,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-fa7d1019ac_c50d44a3_20260610.png?v=c50d44a3",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "hqlive-08abe38459",
-          "name": "Bỉ vs Bulgaria | 23:00 10/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-08abe38459",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-08abe38459",
-                  "name": "Bỉ vs Bulgaria",
-                  "streams": [
-                    {
-                      "id": "st-08abe38459",
-                      "name": "HQ",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Nation League Men",
-            "team_a": "Bỉ",
-            "team_b": "Bulgaria",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Flag_of_Belgium.svg/250px-Flag_of_Belgium.svg.png",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Flag_of_Bulgaria.svg/250px-Flag_of_Bulgaria.svg.png",
-            "time": "23:00 10/06",
-            "blv": "BLV PHAN HẢI",
-            "is_live": false,
-            "sport_slug": "bong-chuyen"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Bỉ_Bulgaria_23-00 10-06_4173d4eb_20260610.png?v=4173d4eb",
             "width": 1600,
             "height": 1200
           }
