@@ -3108,11 +3108,82 @@
     },
     {
       "id": "grp-bóng-chuyền",
-      "name": "🏐 Bóng Chuyền (1 LIVE)",
+      "name": "🏐 Bóng Chuyền (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "gv-ac3bf641e9",
+          "name": "China vs Slovenia | 15:30 10/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-ac3bf641e9",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-ac3bf641e9",
+                  "name": "China vs Slovenia",
+                  "streams": [
+                    {
+                      "id": "st-ac3bf641e9",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-7645dd42ef",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1781072872_hd/1781072872_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Nations League",
+            "team_a": "China",
+            "team_b": "Slovenia",
+            "logo_a": "https://static.flashscore.com/res/image/data/nc9uS3HG-QDuM2WrS.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/fBWBjchl-dWxvhZJm.png",
+            "time": "15:30 10/06",
+            "blv": "blv-can",
+            "is_live": true,
+            "cate_type": "bongchuyen"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-ac3bf641e9_7824be03_20260610.png?v=7824be03",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "hqlive-332cd209fd",
           "name": "Trung Quốc vs Slovenia | 15:00 10/06",
@@ -3180,77 +3251,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Trung Quốc_Slovenia_15-00 10-06_585f30e6_20260610.png?v=585f30e6",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-ac3bf641e9",
-          "name": "China vs Slovenia | 15:30 10/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-ac3bf641e9",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-ac3bf641e9",
-                  "name": "China vs Slovenia",
-                  "streams": [
-                    {
-                      "id": "st-ac3bf641e9",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-7645dd42ef",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1781072872_hd/1781072872_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Nations League",
-            "team_a": "China",
-            "team_b": "Slovenia",
-            "logo_a": "https://static.flashscore.com/res/image/data/nc9uS3HG-QDuM2WrS.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/fBWBjchl-dWxvhZJm.png",
-            "time": "15:30 10/06",
-            "blv": "blv-can",
-            "is_live": false,
-            "cate_type": "bongchuyen"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-ac3bf641e9_7824be03_20260610.png?v=7824be03",
             "width": 1600,
             "height": 1200
           }
