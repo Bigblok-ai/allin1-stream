@@ -698,10 +698,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -749,7 +749,7 @@
             "logo_b": "https://static.flashscore.com/res/image/data/WnW15DfM-6ys9CWQj.png",
             "start_time": "2026-06-10T12:00:00",
             "blv": "BLV Cúc Cu",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football"
           },
           "image": {
@@ -2736,11 +2736,82 @@
     },
     {
       "id": "grp-bóng-chuyền",
-      "name": "🏐 Bóng Chuyền",
+      "name": "🏐 Bóng Chuyền (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "hqlive-8904b5c0d2",
+          "name": "Cuba vs Ba Lan | 12:00 10/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-8904b5c0d2",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-8904b5c0d2",
+                  "name": "Cuba vs Ba Lan",
+                  "streams": [
+                    {
+                      "id": "st-8904b5c0d2",
+                      "name": "HQ",
+                      "stream_links": [
+                        {
+                          "id": "lnk-07fa7a18bb",
+                          "name": "BLV PHAN HẢI",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanhai/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Nation League Women",
+            "team_a": "Cuba",
+            "team_b": "Ba Lan",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/b/bd/Flag_of_Cuba.svg",
+            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxLkHp8_KNZVw1jCYb3bu1mvTTOxYcnl5yQQ&s",
+            "time": "12:00 10/06",
+            "blv": "BLV PHAN HẢI",
+            "is_live": true,
+            "sport_slug": "bong-chuyen"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Cuba_Ba Lan_12-00 10-06_47ec31b7_20260610.png?v=47ec31b7",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "gv-17f1c2104f",
           "name": "Cuba vs Poland | 12:00 10/06",
@@ -2808,59 +2879,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-17f1c2104f_6d3ab4f4_20260610.png?v=6d3ab4f4",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "hqlive-8904b5c0d2",
-          "name": "Cuba vs Ba Lan | 12:00 10/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-8904b5c0d2",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-8904b5c0d2",
-                  "name": "Cuba vs Ba Lan",
-                  "streams": [
-                    {
-                      "id": "st-8904b5c0d2",
-                      "name": "HQ",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Nation League Women",
-            "team_a": "Cuba",
-            "team_b": "Ba Lan",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/b/bd/Flag_of_Cuba.svg",
-            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxLkHp8_KNZVw1jCYb3bu1mvTTOxYcnl5yQQ&s",
-            "time": "12:00 10/06",
-            "blv": "BLV PHAN HẢI",
-            "is_live": false,
-            "sport_slug": "bong-chuyen"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Cuba_Ba Lan_12-00 10-06_47ec31b7_20260610.png?v=47ec31b7",
             "width": 1600,
             "height": 1200
           }
