@@ -685,7 +685,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (3 LIVE)",
+      "name": "⚽ Bóng Đá (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -904,6 +904,77 @@
           }
         },
         {
+          "id": "bg-c7502c55f8",
+          "name": "Thổ Nhĩ Kỳ – Mỹ | 22:00 10/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-c7502c55f8",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-c7502c55f8",
+                  "name": "Thổ Nhĩ Kỳ – Mỹ",
+                  "streams": [
+                    {
+                      "id": "st-c7502c55f8",
+                      "name": "BG",
+                      "stream_links": [
+                        {
+                          "id": "lnk-21936c1c94",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_tieumeo/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Nations League Men's",
+            "team_a": "Thổ Nhĩ Kỳ",
+            "team_b": "Mỹ",
+            "logo_a": "https://images.volleyballworld.com/image/upload/f_png/t_flag/assets/flags/flag_tur",
+            "logo_b": "https://images.volleyballworld.com/image/upload/f_png/t_flag/assets/flags/flag_usa",
+            "start_time": "2026-06-10T22:00:00",
+            "blv": "BLV Tiểu Mèo",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-c7502c55f8_e9887e87_20260610.png?v=e9887e87",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "gv-fc57fc6e57",
           "name": "D.R. Congo U20 vs Ả Rập Saudi U21 | 18:30 10/06",
           "type": "single",
@@ -1014,7 +1085,7 @@
             "logo_a": "https://media.api-sports.io/football/teams/2697.png",
             "logo_b": "https://media.api-sports.io/football/teams/19999.png",
             "time": "20:00 10/06",
-            "blv": "BLV PHAN CA",
+            "blv": "BLV PHAN ANH",
             "is_live": false,
             "sport_slug": "bong-da"
           },
