@@ -799,7 +799,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (4 LIVE)",
+      "name": "⚽ Bóng Đá (5 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1400,6 +1400,77 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-64eec0c3fb_9fc147c2_20260612.png?v=9fc147c2",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "bg-c7b4bb942f",
+          "name": "Việt Nam W vs Kazakhstan W | 08:00 12/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-c7b4bb942f",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-c7b4bb942f",
+                  "name": "Việt Nam W vs Kazakhstan W",
+                  "streams": [
+                    {
+                      "id": "st-c7b4bb942f",
+                      "name": "BG",
+                      "stream_links": [
+                        {
+                          "id": "lnk-970b2a547c",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_phaothan/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "AVC Nations Cup 2026 ",
+            "team_a": "Việt Nam W",
+            "team_b": "Kazakhstan W",
+            "logo_a": "https://static.flashscore.com/res/image/data/KCwtxRAr-vHPB6bx7.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/zsPfSEEG-WhR3QOha.png",
+            "start_time": "2026-06-12T08:00:00",
+            "blv": "BLV Pháo",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-c7b4bb942f_6033395b_20260612.png?v=6033395b",
             "width": 1600,
             "height": 1200
           }
@@ -2065,8 +2136,8 @@
           }
         },
         {
-          "id": "qc-9b7a2e9486",
-          "name": "Canada vs Bosnia & Herzegovina | 02:00 13/06",
+          "id": "qc-1610e09ffa",
+          "name": "Qatar vs Switzerland | 02:00 14/06",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -2080,23 +2151,23 @@
           ],
           "sources": [
             {
-              "id": "src-9b7a2e9486",
+              "id": "src-1610e09ffa",
               "name": "QuechoaTV",
               "contents": [
                 {
-                  "id": "ct-9b7a2e9486",
-                  "name": "Canada vs Bosnia & Herzegovina",
+                  "id": "ct-1610e09ffa",
+                  "name": "Qatar vs Switzerland",
                   "streams": [
                     {
-                      "id": "st-9b7a2e9486",
+                      "id": "st-1610e09ffa",
                       "name": "QC",
                       "stream_links": [
                         {
-                          "id": "lnk-6cafe33b0c",
+                          "id": "lnk-bc172466c0",
                           "name": "Link FHD",
                           "type": "hls",
                           "default": true,
-                          "url": "https://ahghndtkyqmm-pull.bpmedialive.com/quechoa/blv1.m3u8",
+                          "url": "https://ahghndtkyqmm-pull.bpmedialive.com/quechoa/blv2.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -2117,134 +2188,17 @@
                   ]
                 }
               ]
-            },
-            {
-              "id": "src-de85de5f3d",
-              "name": "XayConTV",
-              "contents": [
-                {
-                  "id": "ct-de85de5f3d",
-                  "name": "Canada vs Bosnia & Herzegovina",
-                  "streams": [
-                    {
-                      "id": "st-de85de5f3d",
-                      "name": "Xaycon - BLV Thợ Lặn",
-                      "stream_links": [
-                        {
-                          "id": "lnk-fa5c7698a5",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://xclive.yarncdn.live/live/xctv_blv_tholan/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.xaycon3.live/"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://sv2.xaycon3.live"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "src-269cb7ec2f",
-              "name": "XayConTV",
-              "contents": [
-                {
-                  "id": "ct-269cb7ec2f",
-                  "name": "Canada vs Bosnia & Herzegovina",
-                  "streams": [
-                    {
-                      "id": "st-269cb7ec2f",
-                      "name": "Xaycon - BLV Bịp Con",
-                      "stream_links": [
-                        {
-                          "id": "lnk-30319ba8f3",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://xclive.yarncdn.live/live/xctv_blv_bipcon/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.xaycon3.live/"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://sv2.xaycon3.live"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "src-5712b51789",
-              "name": "XayConTV",
-              "contents": [
-                {
-                  "id": "ct-5712b51789",
-                  "name": "Canada vs Bosnia & Herzegovina",
-                  "streams": [
-                    {
-                      "id": "st-5712b51789",
-                      "name": "Xaycon - BLV Tam Mao",
-                      "stream_links": [
-                        {
-                          "id": "lnk-bccd486b79",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://xclive.yarncdn.live/live/xctv_blv_tammao/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.xaycon3.live/"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://sv2.xaycon3.live"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
             }
           ],
           "org_metadata": {
             "league": "World Cup",
-            "team_a": "Canada",
-            "team_b": "Bosnia & Herzegovina",
-            "logo_a": "https://media.api-sports.io/football/teams/5529.png",
-            "logo_b": "https://media.api-sports.io/football/teams/1113.png",
+            "team_a": "Qatar",
+            "team_b": "Switzerland",
+            "logo_a": "https://media.api-sports.io/football/teams/1569.png",
+            "logo_b": "https://media.api-sports.io/football/teams/15.png",
             "time": "02:00",
-            "date": "13/06",
-            "blv": "PUMA, VỎ QUÝT",
+            "date": "14/06",
+            "blv": "CHÈ XANH, NEM CHUA",
             "is_live": false,
             "sport_slug": "bong-da"
           },
@@ -2252,7 +2206,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/quechoa-stream/refs/heads/main/thumbs/qc-9b7a2e9486_9617bf9e_20260612.png?v=9617bf9e",
+            "url": "https://raw.githubusercontent.com/jasminliu98/quechoa-stream/refs/heads/main/thumbs/qc-1610e09ffa_b0b59c3a_20260612.png?v=b0b59c3a",
             "width": 1600,
             "height": 1200
           }
@@ -2984,83 +2938,11 @@
     },
     {
       "id": "grp-tennis",
-      "name": "🎾 Tennis (1 LIVE)",
+      "name": "🎾 Tennis",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
-      "channels": [
-        {
-          "id": "hqlive-fe60f94d9e",
-          "name": "Ben Shelton vs Marcos Giron | 23:30 11/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-fe60f94d9e",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-fe60f94d9e",
-                  "name": "Ben Shelton vs Marcos Giron",
-                  "streams": [
-                    {
-                      "id": "st-fe60f94d9e",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-ee33939914",
-                          "name": "BLV PHAN TỪ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phantu/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "ATP250 Stuttgart",
-            "team_a": "Ben Shelton",
-            "team_b": "Marcos Giron",
-            "logo_a": "https://www.thesecondserve.com/wp-content/uploads/2025/08/ben-shelton-toronto-cincinnati-open2-1.jpg",
-            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQB34VlL8eZjCBZd_sDLStI-keeGNMPUx5b-w&s",
-            "time": "23:30 11/06",
-            "blv": "BLV PHAN TỪ",
-            "is_live": true,
-            "sport_slug": "tennis"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Ben Shelton_Marcos Giron_23-30 11-06_82a02c83_20260612.png?v=82a02c83",
-            "width": 1600,
-            "height": 1200
-          }
-        }
-      ]
+      "channels": []
     },
     {
       "id": "grp-cầu-lông",
@@ -3409,7 +3291,7 @@
     },
     {
       "id": "grp-bóng-chuyền",
-      "name": "🏐 Bóng Chuyền",
+      "name": "🏐 Bóng Chuyền (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -3422,10 +3304,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -3440,7 +3322,25 @@
                     {
                       "id": "st-90a3fab0b4",
                       "name": "HQ",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-1cad2e4412",
+                          "name": "BLV TÁO GIÀ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://tdlive.yarncdn.live/live/tdtv_blv_taotinhtao/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -3455,7 +3355,7 @@
             "logo_b": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Flag_of_Iran.svg",
             "time": "02:30 12/06",
             "blv": "BLV TÁO GIÀ",
-            "is_live": false,
+            "is_live": true,
             "sport_slug": "bong-chuyen"
           },
           "image": {
