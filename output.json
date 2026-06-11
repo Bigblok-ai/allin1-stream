@@ -840,8 +840,8 @@
           }
         },
         {
-          "id": "bg-996740de91",
-          "name": "Slovenia – Ba Lan | 19:00 11/06",
+          "id": "xc-fe90f0fdd5",
+          "name": "Abdish-Ata vs Neftchi | 22:00 11/06",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -855,27 +855,31 @@
           ],
           "sources": [
             {
-              "id": "src-996740de91",
-              "name": "BugioTV",
+              "id": "src-fe90f0fdd5",
+              "name": "XayConTV",
               "contents": [
                 {
-                  "id": "ct-996740de91",
-                  "name": "Slovenia – Ba Lan",
+                  "id": "ct-fe90f0fdd5",
+                  "name": "Abdish-Ata vs Neftchi",
                   "streams": [
                     {
-                      "id": "st-996740de91",
-                      "name": "BG",
+                      "id": "st-fe90f0fdd5",
+                      "name": "XC",
                       "stream_links": [
                         {
-                          "id": "lnk-378f040fcb",
+                          "id": "lnk-30319ba8f3",
                           "name": "Link FHD",
                           "type": "hls",
                           "default": true,
-                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_cuccu/playlist.m3u8",
+                          "url": "https://xclive.yarncdn.live/live/xctv_blv_bipcon/playlist.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://sv1.bugio9.live/"
+                              "value": "https://sv2.xaycon3.live/"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://sv2.xaycon3.live"
                             },
                             {
                               "key": "User-Agent",
@@ -891,21 +895,22 @@
             }
           ],
           "org_metadata": {
-            "league": "Nations League Men's",
-            "team_a": "Slovenia",
-            "team_b": "Ba Lan",
-            "logo_a": "https://static.flashscore.com/res/image/data/fBWBjchl-dWxvhZJm.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/WnW15DfM-6ys9CWQj.png",
-            "start_time": "2026-06-11T19:00:00",
-            "blv": "BLV Cúc Cu",
+            "league": "Premier League",
+            "team_a": "Abdish-Ata",
+            "team_b": "Neftchi",
+            "logo_a": "https://media.api-sports.io/football/teams/12234.png",
+            "logo_b": "https://media.api-sports.io/football/teams/12240.png",
+            "time": "22:00",
+            "date": "11/06",
+            "blv": "BLV Bịp Con",
             "is_live": true,
-            "cate_type": "football"
+            "sport_slug": "bong-da"
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-996740de91_a971be7c_20260611.png?v=a971be7c",
+            "url": "https://raw.githubusercontent.com/jasminliu98/xaycon-stream/refs/heads/main/thumbs/xc-fe90f0fdd5_5dfed48f_20260611.png?v=5dfed48f",
             "width": 1600,
             "height": 1200
           }
@@ -3093,82 +3098,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/quechoa-stream/refs/heads/main/thumbs/qc-81a89b5454_5309e42d_20260611.png?v=5309e42d",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "xc-fe90f0fdd5",
-          "name": "Abdish-Ata vs Neftchi | 22:00 11/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-fe90f0fdd5",
-              "name": "XayConTV",
-              "contents": [
-                {
-                  "id": "ct-fe90f0fdd5",
-                  "name": "Abdish-Ata vs Neftchi",
-                  "streams": [
-                    {
-                      "id": "st-fe90f0fdd5",
-                      "name": "XC",
-                      "stream_links": [
-                        {
-                          "id": "lnk-30319ba8f3",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://xclive.yarncdn.live/live/xctv_blv_bipcon/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.xaycon3.live/"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://sv2.xaycon3.live"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Premier League",
-            "team_a": "Abdish-Ata",
-            "team_b": "Neftchi",
-            "logo_a": "https://media.api-sports.io/football/teams/12234.png",
-            "logo_b": "https://media.api-sports.io/football/teams/12240.png",
-            "time": "22:00",
-            "date": "11/06",
-            "blv": "BLV Bịp Con",
-            "is_live": false,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/xaycon-stream/refs/heads/main/thumbs/xc-fe90f0fdd5_5dfed48f_20260611.png?v=5dfed48f",
             "width": 1600,
             "height": 1200
           }
