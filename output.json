@@ -685,7 +685,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (9 LIVE)",
+      "name": "⚽ Bóng Đá (8 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -970,77 +970,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-2a5aef91f2_4ab08be8_20260611.png?v=4ab08be8",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-10a5ca6cf2",
-          "name": "Bolivia vs Algeria | 07:00 11/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-10a5ca6cf2",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-10a5ca6cf2",
-                  "name": "Bolivia vs Algeria",
-                  "streams": [
-                    {
-                      "id": "st-10a5ca6cf2",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-736fbca47f",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1781113405_hd/1781113405_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Giao hữu quốc tế",
-            "team_a": "Bolivia",
-            "team_b": "Algeria",
-            "logo_a": "https://static.flashscore.com/res/image/data/voJCcZf5-Ik5Zg8Xj.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/OGRs7nwS-YFbDUeTh.png",
-            "time": "07:00 11/06",
-            "blv": "BLV Hợi",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-10a5ca6cf2_cb7a3c76_20260611.png?v=cb7a3c76",
             "width": 1600,
             "height": 1200
           }
@@ -3711,7 +3640,7 @@
     },
     {
       "id": "grp-bóng-rổ",
-      "name": "🏀 Bóng Rổ (1 LIVE)",
+      "name": "🏀 Bóng Rổ (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -3795,10 +3724,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -3836,6 +3765,58 @@
                   ]
                 }
               ]
+            },
+            {
+              "id": "src-56a3a4ca71",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-56a3a4ca71",
+                  "name": "San Antonio Spurs vs New York Knicks",
+                  "streams": [
+                    {
+                      "id": "st-56a3a4ca71",
+                      "name": "Hoiquan - BLV PHAN TỪ, BLV PHAN PHÉP",
+                      "stream_links": [
+                        {
+                          "id": "lnk-ee33939914",
+                          "name": "BLV PHAN TỪ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phantu/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-bc9866f74f",
+                          "name": "BLV PHAN PHÉP",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanphep/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
             }
           ],
           "org_metadata": {
@@ -3846,7 +3827,7 @@
             "logo_b": "https://static.flashscore.com/res/image/data/8f2WVCFG-SrHHDGUm.png",
             "time": "07:30 11/06",
             "blv": "blv-lac, blv-can, BLV Điếc",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "basketball"
           },
           "image": {
