@@ -3094,7 +3094,7 @@
     },
     {
       "id": "grp-bóng-rổ",
-      "name": "🏀 Bóng Rổ (1 LIVE)",
+      "name": "🏀 Bóng Rổ (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -3178,10 +3178,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -3229,7 +3229,7 @@
             "logo_b": "https://static.flashscore.com/res/image/data/hv2p2cjl-nuxDTkWK.png",
             "time": "19:00 11/06",
             "blv": "BLV Cầy",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "basketball"
           },
           "image": {
@@ -3537,11 +3537,82 @@
     },
     {
       "id": "grp-bóng-chuyền",
-      "name": "🏐 Bóng Chuyền (1 LIVE)",
+      "name": "🏐 Bóng Chuyền (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "gv-fb7e03d9d9",
+          "name": "Slovenia  vs Poland | 19:00 11/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-fb7e03d9d9",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-fb7e03d9d9",
+                  "name": "Slovenia  vs Poland",
+                  "streams": [
+                    {
+                      "id": "st-fb7e03d9d9",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-321d6db6f3",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1781164225_hd/1781164225_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Nations League ",
+            "team_a": "Slovenia ",
+            "team_b": "Poland",
+            "logo_a": "https://static.flashscore.com/res/image/data/fBWBjchl-dWxvhZJm.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/WKTUghyB-612vZEE1.png",
+            "time": "19:00 11/06",
+            "blv": "blv-mat",
+            "is_live": true,
+            "cate_type": "bongchuyen"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-fb7e03d9d9_eebe1446_20260611.png?v=eebe1446",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "hqlive-e74543f28c",
           "name": "Slovenia vs Ba Lan | 19:00 11/06",
@@ -3609,77 +3680,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Slovenia_Ba Lan_19-00 11-06_a3857661_20260611.png?v=a3857661",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-fb7e03d9d9",
-          "name": "Slovenia  vs Poland | 19:00 11/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-fb7e03d9d9",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-fb7e03d9d9",
-                  "name": "Slovenia  vs Poland",
-                  "streams": [
-                    {
-                      "id": "st-fb7e03d9d9",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-321d6db6f3",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1781164225_hd/1781164225_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Nations League ",
-            "team_a": "Slovenia ",
-            "team_b": "Poland",
-            "logo_a": "https://static.flashscore.com/res/image/data/fBWBjchl-dWxvhZJm.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/WKTUghyB-612vZEE1.png",
-            "time": "19:00 11/06",
-            "blv": "blv-mat",
-            "is_live": false,
-            "cate_type": "bongchuyen"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-fb7e03d9d9_eebe1446_20260611.png?v=eebe1446",
             "width": 1600,
             "height": 1200
           }
