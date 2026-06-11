@@ -691,8 +691,8 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "gv-0bb058949b",
-          "name": "Countdown vs WorldCup | 13:30 11/06",
+          "id": "hqlive-48e132fefd",
+          "name": "Thailand U19 vs Cambodia U19 | 16:00 11/06",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -706,27 +706,66 @@
           ],
           "sources": [
             {
-              "id": "src-0bb058949b",
-              "name": "GiovangTV",
+              "id": "src-48e132fefd",
+              "name": "HoiQuanTV",
               "contents": [
                 {
-                  "id": "ct-0bb058949b",
-                  "name": "Countdown vs WorldCup",
+                  "id": "ct-48e132fefd",
+                  "name": "Thailand U19 vs Cambodia U19",
                   "streams": [
                     {
-                      "id": "st-0bb058949b",
-                      "name": "GV",
+                      "id": "st-48e132fefd",
+                      "name": "HQ",
                       "stream_links": [
                         {
-                          "id": "lnk-827e560726",
-                          "name": "Link HD 720p",
+                          "id": "lnk-f6231c6549",
+                          "name": "BLV PHAN CA",
                           "type": "hls",
                           "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1781158422_hd/1781158422_hd@720p.m3u8",
+                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanca/playlist.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://giovang.fun/"
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-8cf9129488",
+              "name": "XayConTV",
+              "contents": [
+                {
+                  "id": "ct-8cf9129488",
+                  "name": "U19 Thái Lan(N) - U19 Cambodia",
+                  "streams": [
+                    {
+                      "id": "st-8cf9129488",
+                      "name": "Xaycon - BLV Thợ Lặn",
+                      "stream_links": [
+                        {
+                          "id": "lnk-fa5c7698a5",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://xclive.yarncdn.live/live/xctv_blv_tholan/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.xaycon3.live/"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://sv2.xaycon3.live"
                             },
                             {
                               "key": "User-Agent",
@@ -742,21 +781,21 @@
             }
           ],
           "org_metadata": {
-            "league": "2026 World Cup Kickoff Countdown",
-            "team_a": "Countdown",
-            "team_b": "WorldCup",
-            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQa6zv0F17t0yBFEhMuNZmLz1Ui28aZ2NWohw&s",
-            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSsG6NN2myIkRTG9Fvn6fT6qOviBGI-RaKAYA&s",
-            "time": "13:30 11/06",
-            "blv": "BLV Dory",
+            "league": "ASEAN Championship U19",
+            "team_a": "Thailand U19",
+            "team_b": "Cambodia U19",
+            "logo_a": "https://media.api-sports.io/football/teams/19155.png",
+            "logo_b": "https://media.api-sports.io/football/teams/19148.png",
+            "time": "16:00 11/06",
+            "blv": "BLV PHAN CA",
             "is_live": true,
-            "cate_type": "football"
+            "sport_slug": "bong-da"
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-0bb058949b_1f4cf2d4_20260611.png?v=1f4cf2d4",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Thailand U19_Cambodia U19_16-00 11-06_c2794edb_20260611.png?v=c2794edb",
             "width": 1600,
             "height": 1200
           }
@@ -1046,98 +1085,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-3c4d934859_b14e1259_20260611.png?v=b14e1259",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "hqlive-48e132fefd",
-          "name": "Thailand U19 vs Cambodia U19 | 16:00 11/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-48e132fefd",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-48e132fefd",
-                  "name": "Thailand U19 vs Cambodia U19",
-                  "streams": [
-                    {
-                      "id": "st-48e132fefd",
-                      "name": "HQ",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "src-8cf9129488",
-              "name": "XayConTV",
-              "contents": [
-                {
-                  "id": "ct-8cf9129488",
-                  "name": "U19 Thái Lan(N) - U19 Cambodia",
-                  "streams": [
-                    {
-                      "id": "st-8cf9129488",
-                      "name": "Xaycon - BLV Thợ Lặn",
-                      "stream_links": [
-                        {
-                          "id": "lnk-fa5c7698a5",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://xclive.yarncdn.live/live/xctv_blv_tholan/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.xaycon3.live/"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://sv2.xaycon3.live"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "ASEAN Championship U19",
-            "team_a": "Thailand U19",
-            "team_b": "Cambodia U19",
-            "logo_a": "https://media.api-sports.io/football/teams/19155.png",
-            "logo_b": "https://media.api-sports.io/football/teams/19148.png",
-            "time": "16:00 11/06",
-            "blv": "BLV PHAN CA",
-            "is_live": false,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Thailand U19_Cambodia U19_16-00 11-06_c2794edb_20260611.png?v=c2794edb",
             "width": 1600,
             "height": 1200
           }
@@ -1841,7 +1788,7 @@
             "logo_a": "https://media.api-sports.io/football/teams/9190.png",
             "logo_b": "https://media.api-sports.io/football/teams/9195.png",
             "time": "22:30 11/06",
-            "blv": "BLV TÁO GIÀ, BLV PHAN CA",
+            "blv": "BLV TÁO GIÀ",
             "is_live": false,
             "sport_slug": "bong-da"
           },
@@ -3008,7 +2955,7 @@
     },
     {
       "id": "grp-tennis",
-      "name": "🎾 Tennis",
+      "name": "🎾 Tennis (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -3021,10 +2968,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -3039,7 +2986,25 @@
                     {
                       "id": "st-2f9ebed29e",
                       "name": "HQ",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-6568b58b01",
+                          "name": "BLV PHAN BỐNG",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanbong/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -3054,7 +3019,7 @@
             "logo_b": "https://upload.wikimedia.org/wikipedia/commons/a/a3/FrancesTiafo.jpg",
             "time": "16:00 11/06",
             "blv": "BLV PHAN BỐNG",
-            "is_live": false,
+            "is_live": true,
             "sport_slug": "tennis"
           },
           "image": {
@@ -3074,10 +3039,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -3092,7 +3057,25 @@
                     {
                       "id": "st-24f4d7552f",
                       "name": "HQ",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-ee33939914",
+                          "name": "BLV PHAN TỪ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phantu/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -3107,7 +3090,7 @@
             "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTIanuCn51nriYFO_79zQZpBS9ousE6-KauBQ&s",
             "time": "16:00 11/06",
             "blv": "BLV PHAN TỪ",
-            "is_live": false,
+            "is_live": true,
             "sport_slug": "tennis"
           },
           "image": {
@@ -4612,7 +4595,7 @@
             "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Flag_of_North_Vietnam_%281955%E2%80%931976%29.svg/250px-Flag_of_North_Vietnam_%281955%E2%80%931976%29.svg.png",
             "logo_b": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Flag_of_Kazakhstan.svg",
             "time": "08:00 12/06",
-            "blv": "BLV PHAN HẢI",
+            "blv": "BLV PHAN CHỚP",
             "is_live": false,
             "sport_slug": "bong-chuyen"
           },
@@ -5326,7 +5309,7 @@
     },
     {
       "id": "grp-bóng-bàn",
-      "name": "🏓 Bóng Bàn",
+      "name": "🏓 Bóng Bàn (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -5339,10 +5322,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -5357,7 +5340,25 @@
                     {
                       "id": "st-03f2586ddb",
                       "name": "HQ",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-c42241b387",
+                          "name": "BLV PHAN MÃ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanma/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -5372,7 +5373,7 @@
             "logo_b": "https://png.pngtree.com/png-clipart/20190904/original/pngtree-red-table-tennis-racket-illustration-png-image_4502882.jpg",
             "time": "16:00 11/06",
             "blv": "BLV PHAN MÃ",
-            "is_live": false,
+            "is_live": true,
             "sport_slug": "bong-ban"
           },
           "image": {
