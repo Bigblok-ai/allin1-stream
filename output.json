@@ -12,7 +12,7 @@
   "groups": [
     {
       "id": "grp-tv-hoiquan",
-      "name": "📺 Kênh Truyền Hình (8 LIVE)",
+      "name": "📺 Kênh Truyền Hình (9 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -34,7 +34,7 @@
           "sources": [
             {
               "id": "src-tv-0-0",
-              "name": "Source 1 - duckdns",
+              "name": "Source 1 - fptplay53",
               "contents": [
                 {
                   "id": "ct-tv-0-0",
@@ -49,7 +49,7 @@
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
-                          "url": "https://sgclient.duckdns.org/source/tv360.m3u8?id=2",
+                          "url": "https://live.fptplay53.net/live/media/vtv1/live247-hls-avc/vtv1-avc1_5600000=10000-mp4a_131600=20000.m3u8",
                           "request_headers": []
                         }
                       ]
@@ -60,7 +60,7 @@
             },
             {
               "id": "src-tv-0-1",
-              "name": "Source 2 - fptplay53",
+              "name": "Source 2 - dpdns",
               "contents": [
                 {
                   "id": "ct-tv-0-1",
@@ -73,32 +73,6 @@
                         {
                           "id": "lnk-tv-0-1",
                           "name": "Link 2",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://live-a.fptplay53.net/live/media/VTV1HD/live_hls_avc/index.m3u8",
-                          "request_headers": []
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "src-tv-0-2",
-              "name": "Source 3 - dpdns",
-              "contents": [
-                {
-                  "id": "ct-tv-0-2",
-                  "name": "VTV1",
-                  "streams": [
-                    {
-                      "id": "st-tv-0-2",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-tv-0-2",
-                          "name": "Link 3",
                           "type": "hls",
                           "default": false,
                           "url": "https://toiyeuvietnam.dpdns.org/TuyetDoiKhongKinhDoanh/vtv1-hd/KenhCoBan.m3u8",
@@ -158,7 +132,7 @@
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
-                          "url": "https://live.fptplay53.net/fnxch2/vtv2hd_abr.smil/chunklist.m3u8",
+                          "url": "https://live.fptplay53.net/live/media/vtv2/live247-hls-avc/vtv2-avc1_5600000=10000-mp4a_131600=20000.m3u8",
                           "request_headers": []
                         }
                       ]
@@ -241,7 +215,7 @@
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
-                          "url": "https://live-a.fptplay53.net/live/media/VTV3HD/live_hls_avc/index.m3u8",
+                          "url": "https://live-a.fptplay53.net/live/media/vtv3/live247-hls-avc/vtv3-avc1_5600000=10000-mp4a_131600=20000.m3u8",
                           "request_headers": []
                         }
                       ]
@@ -324,7 +298,7 @@
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
-                          "url": "https://live-a.fptplay53.net/live/media/VTV5HD/live_hls_avc/index.m3u8",
+                          "url": "https://live.fptplay53.net/live/media/vtv5/live247-hls-avc/vtv5-avc1_5600000=10000-mp4a_131600=20000.m3u8",
                           "request_headers": []
                         }
                       ]
@@ -434,7 +408,7 @@
         },
         {
           "id": "tv-5",
-          "name": "VTV7",
+          "name": "VTV6",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -453,7 +427,7 @@
               "contents": [
                 {
                   "id": "ct-tv-5-0",
-                  "name": "VTV7",
+                  "name": "VTV6",
                   "streams": [
                     {
                       "id": "st-tv-5-0",
@@ -464,7 +438,7 @@
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
-                          "url": "https://live.fptplay53.net/fnxhd1/vtv7hd_vhls.smil/chunklist_b5000000.m3u8",
+                          "url": "https://live.fptplay53.net/live/media/vtv7/live247-hls-avc/vtv7-avc1_5600000=10000-mp4a_131600=20000.m3u8",
                           "request_headers": []
                         }
                       ]
@@ -479,7 +453,7 @@
               "contents": [
                 {
                   "id": "ct-tv-5-1",
-                  "name": "VTV7",
+                  "name": "VTV6",
                   "streams": [
                     {
                       "id": "st-tv-5-1",
@@ -487,6 +461,89 @@
                       "stream_links": [
                         {
                           "id": "lnk-tv-5-1",
+                          "name": "Link 2",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://toiyeuvietnam.dpdns.org/TuyetDoiKhongKinhDoanh/vtv6-hd/KenhCoBan.m3u8",
+                          "request_headers": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "is_live": true,
+            "time": "",
+            "team_a": "VTV6",
+            "team_b": ""
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://toiyeuvietnam.dpdns.org/Logo/vtv6-hd-2/KenhBoSung.png",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "tv-6",
+          "name": "VTV7",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-tv-6-0",
+              "name": "Source 1 - fptplay53",
+              "contents": [
+                {
+                  "id": "ct-tv-6-0",
+                  "name": "VTV7",
+                  "streams": [
+                    {
+                      "id": "st-tv-6-0",
+                      "name": "KT",
+                      "stream_links": [
+                        {
+                          "id": "lnk-tv-6-0",
+                          "name": "Link 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://live.fptplay53.net/live/media/vtv7/live247-hls-avc/vtv7-avc1_5600000=10000-mp4a_131600=20000.m3u8",
+                          "request_headers": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-tv-6-1",
+              "name": "Source 2 - dpdns",
+              "contents": [
+                {
+                  "id": "ct-tv-6-1",
+                  "name": "VTV7",
+                  "streams": [
+                    {
+                      "id": "st-tv-6-1",
+                      "name": "KT",
+                      "stream_links": [
+                        {
+                          "id": "lnk-tv-6-1",
                           "name": "Link 2",
                           "type": "hls",
                           "default": false,
@@ -516,7 +573,7 @@
           }
         },
         {
-          "id": "tv-6",
+          "id": "tv-7",
           "name": "VTV9",
           "type": "single",
           "display": "thumbnail-only",
@@ -531,23 +588,23 @@
           ],
           "sources": [
             {
-              "id": "src-tv-6-0",
-              "name": "Source 1 - dpdns",
+              "id": "src-tv-7-0",
+              "name": "Source 1 - fptplay53",
               "contents": [
                 {
-                  "id": "ct-tv-6-0",
+                  "id": "ct-tv-7-0",
                   "name": "VTV9",
                   "streams": [
                     {
-                      "id": "st-tv-6-0",
+                      "id": "st-tv-7-0",
                       "name": "KT",
                       "stream_links": [
                         {
-                          "id": "lnk-tv-6-0",
+                          "id": "lnk-tv-7-0",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
-                          "url": "https://toiyeuvietnam.dpdns.org/TuyetDoiKhongKinhDoanh/vtv9-hd/KenhCoBan.m3u8",
+                          "url": "https://live.fptplay53.net/live/media/vtv9/live247-hls-avc/vtv9-avc1_5600000=10000-mp4a_131600=20000.m3u8",
                           "request_headers": []
                         }
                       ]
@@ -557,19 +614,19 @@
               ]
             },
             {
-              "id": "src-tv-6-1",
+              "id": "src-tv-7-1",
               "name": "Source 2 - dpdns",
               "contents": [
                 {
-                  "id": "ct-tv-6-1",
+                  "id": "ct-tv-7-1",
                   "name": "VTV9",
                   "streams": [
                     {
-                      "id": "st-tv-6-1",
+                      "id": "st-tv-7-1",
                       "name": "KT",
                       "stream_links": [
                         {
-                          "id": "lnk-tv-6-1",
+                          "id": "lnk-tv-7-1",
                           "name": "Link 2",
                           "type": "hls",
                           "default": false,
@@ -599,7 +656,7 @@
           }
         },
         {
-          "id": "tv-7",
+          "id": "tv-8",
           "name": "HTV Thể Thao",
           "type": "single",
           "display": "thumbnail-only",
@@ -614,19 +671,19 @@
           ],
           "sources": [
             {
-              "id": "src-tv-7-0",
+              "id": "src-tv-8-0",
               "name": "Source 1 - fptplay53",
               "contents": [
                 {
-                  "id": "ct-tv-7-0",
+                  "id": "ct-tv-8-0",
                   "name": "HTV Thể Thao",
                   "streams": [
                     {
-                      "id": "st-tv-7-0",
+                      "id": "st-tv-8-0",
                       "name": "KT",
                       "stream_links": [
                         {
-                          "id": "lnk-tv-7-0",
+                          "id": "lnk-tv-8-0",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
@@ -640,19 +697,19 @@
               ]
             },
             {
-              "id": "src-tv-7-1",
+              "id": "src-tv-8-1",
               "name": "Source 2 - duckdns",
               "contents": [
                 {
-                  "id": "ct-tv-7-1",
+                  "id": "ct-tv-8-1",
                   "name": "HTV Thể Thao",
                   "streams": [
                     {
-                      "id": "st-tv-7-1",
+                      "id": "st-tv-8-1",
                       "name": "KT",
                       "stream_links": [
                         {
-                          "id": "lnk-tv-7-1",
+                          "id": "lnk-tv-8-1",
                           "name": "Link 2",
                           "type": "hls",
                           "default": false,
