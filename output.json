@@ -12,7 +12,7 @@
   "groups": [
     {
       "id": "grp-tv-hoiquan",
-      "name": "📺 Kênh Truyền Hình (9 LIVE)",
+      "name": "📺 Kênh Truyền Hình (10 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -657,7 +657,7 @@
         },
         {
           "id": "tv-8",
-          "name": "HTV Thể Thao",
+          "name": "VTV10",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -676,7 +676,7 @@
               "contents": [
                 {
                   "id": "ct-tv-8-0",
-                  "name": "HTV Thể Thao",
+                  "name": "VTV10",
                   "streams": [
                     {
                       "id": "st-tv-8-0",
@@ -684,6 +684,63 @@
                       "stream_links": [
                         {
                           "id": "lnk-tv-8-0",
+                          "name": "Link 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://live.fptplay53.net/live/media/vtv10/live247-hls-avc/vtv10-avc1_5600000=10000-mp4a_131600=20000.m3u8",
+                          "request_headers": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "is_live": true,
+            "time": "",
+            "team_a": "VTV10",
+            "team_b": ""
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://toiyeuvietnam.dpdns.org/Logo/vtv10-hd/KenhCoBan.png",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "tv-9",
+          "name": "HTV Thể Thao",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-tv-9-0",
+              "name": "Source 1 - fptplay53",
+              "contents": [
+                {
+                  "id": "ct-tv-9-0",
+                  "name": "HTV Thể Thao",
+                  "streams": [
+                    {
+                      "id": "st-tv-9-0",
+                      "name": "KT",
+                      "stream_links": [
+                        {
+                          "id": "lnk-tv-9-0",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
@@ -697,19 +754,19 @@
               ]
             },
             {
-              "id": "src-tv-8-1",
+              "id": "src-tv-9-1",
               "name": "Source 2 - duckdns",
               "contents": [
                 {
-                  "id": "ct-tv-8-1",
+                  "id": "ct-tv-9-1",
                   "name": "HTV Thể Thao",
                   "streams": [
                     {
-                      "id": "st-tv-8-1",
+                      "id": "st-tv-9-1",
                       "name": "KT",
                       "stream_links": [
                         {
-                          "id": "lnk-tv-8-1",
+                          "id": "lnk-tv-9-1",
                           "name": "Link 2",
                           "type": "hls",
                           "default": false,
@@ -773,25 +830,7 @@
                     {
                       "id": "st-83105985d2",
                       "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-cd2ba195fa",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1781113407_hd/1781113407_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
+                      "stream_links": []
                     }
                   ]
                 }
@@ -844,25 +883,7 @@
                     {
                       "id": "st-167f22b013",
                       "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-ee407a2421",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1781113422_hd/1781113422_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
+                      "stream_links": []
                     }
                   ]
                 }
@@ -915,25 +936,7 @@
                     {
                       "id": "st-193da5a586",
                       "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-db232818c6",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1781169327_hd/1781169327_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
+                      "stream_links": []
                     }
                   ]
                 }
@@ -1589,25 +1592,7 @@
                     {
                       "id": "st-9296e2775b",
                       "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-5bd267da64",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1781200316_hd/1781200316_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
+                      "stream_links": []
                     }
                   ]
                 }
@@ -3369,25 +3354,7 @@
                     {
                       "id": "st-dcbac194e6",
                       "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-49d4504a0d",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1781144473_hd/1781144473_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
+                      "stream_links": []
                     }
                   ]
                 }
@@ -3440,25 +3407,7 @@
                     {
                       "id": "st-f49045725f",
                       "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-8024636931",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1781144517_hd/1781144517_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
+                      "stream_links": []
                     }
                   ]
                 }
@@ -3511,25 +3460,7 @@
                     {
                       "id": "st-3fb130acac",
                       "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-3733b05f3c",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1781144576_hd/1781144576_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
+                      "stream_links": []
                     }
                   ]
                 }
@@ -3652,25 +3583,7 @@
                     {
                       "id": "st-e02b8d42bb",
                       "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-4309412f09",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1781144246_hd/1781144246_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
+                      "stream_links": []
                     }
                   ]
                 }
@@ -3723,25 +3636,7 @@
                     {
                       "id": "st-930464f955",
                       "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-fb1df4edc5",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1781144311_hd/1781144311_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
+                      "stream_links": []
                     }
                   ]
                 }
@@ -3847,25 +3742,7 @@
                     {
                       "id": "st-a65a4742e7",
                       "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-81557b1622",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1781144386_hd/1781144386_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
+                      "stream_links": []
                     }
                   ]
                 }
