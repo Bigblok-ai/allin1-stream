@@ -685,7 +685,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (5 LIVE)",
+      "name": "⚽ Bóng Đá (6 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1341,6 +1341,77 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-996740de91_a971be7c_20260611.png?v=a971be7c",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "bg-c731077c04",
+          "name": "Aktobe Jas vs Akademiya Ontustik | 20:00 11/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-c731077c04",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-c731077c04",
+                  "name": "Aktobe Jas vs Akademiya Ontustik",
+                  "streams": [
+                    {
+                      "id": "st-c731077c04",
+                      "name": "BG",
+                      "stream_links": [
+                        {
+                          "id": "lnk-a4a6a520ed",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_lavie/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "1. Division",
+            "team_a": "Aktobe Jas",
+            "team_b": "Akademiya Ontustik",
+            "logo_a": "https://media.api-sports.io/football/teams/4546.png",
+            "logo_b": "https://media.api-sports.io/football/teams/4545.png",
+            "start_time": "2026-06-11T20:00:00",
+            "blv": "BLV Lavie",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-c731077c04_ec269645_20260611.png?v=ec269645",
             "width": 1600,
             "height": 1200
           }
@@ -2722,117 +2793,6 @@
           }
         },
         {
-          "id": "xc-f9a9acc55a",
-          "name": "Aktobe Jas vs Akademiya Ontustik | 20:00 11/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-f9a9acc55a",
-              "name": "XayConTV",
-              "contents": [
-                {
-                  "id": "ct-f9a9acc55a",
-                  "name": "Aktobe Jas vs Akademiya Ontustik",
-                  "streams": [
-                    {
-                      "id": "st-f9a9acc55a",
-                      "name": "XC",
-                      "stream_links": [
-                        {
-                          "id": "lnk-30319ba8f3",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://xclive.yarncdn.live/live/xctv_blv_bipcon/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.xaycon3.live/"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://sv2.xaycon3.live"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "src-c731077c04",
-              "name": "BugioTV",
-              "contents": [
-                {
-                  "id": "ct-c731077c04",
-                  "name": "Aktobe Jas vs Akademiya Ontustik",
-                  "streams": [
-                    {
-                      "id": "st-c731077c04",
-                      "name": "Bugio - BLV Lavie",
-                      "stream_links": [
-                        {
-                          "id": "lnk-a4a6a520ed",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_lavie/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv1.bugio9.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "1. Division",
-            "team_a": "Aktobe Jas",
-            "team_b": "Akademiya Ontustik",
-            "logo_a": "https://media.api-sports.io/football/teams/4546.png",
-            "logo_b": "https://media.api-sports.io/football/teams/4545.png",
-            "time": "20:00",
-            "date": "11/06",
-            "blv": "BLV Bịp Con",
-            "is_live": false,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/xaycon-stream/refs/heads/main/thumbs/xc-f9a9acc55a_05b0411e_20260611.png?v=05b0411e",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "qc-81a89b5454",
           "name": "Tukums vs BFC Daugavpils | 22:00 12/06",
           "type": "single",
@@ -2904,6 +2864,82 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/quechoa-stream/refs/heads/main/thumbs/qc-81a89b5454_5309e42d_20260611.png?v=5309e42d",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-358517530a",
+          "name": "Ordabasy - Altay FK | 22:00 11/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-358517530a",
+              "name": "XayConTV",
+              "contents": [
+                {
+                  "id": "ct-358517530a",
+                  "name": "Ordabasy - Altay FK",
+                  "streams": [
+                    {
+                      "id": "st-358517530a",
+                      "name": "XC",
+                      "stream_links": [
+                        {
+                          "id": "lnk-30319ba8f3",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://xclive.yarncdn.live/live/xctv_blv_bipcon/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.xaycon3.live/"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://sv2.xaycon3.live"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Kazakhstan Cup",
+            "team_a": "Ordabasy",
+            "team_b": "Altay",
+            "logo_a": "https://media.api-sports.io/football/teams/692.png",
+            "logo_b": "https://media.api-sports.io/football/teams/4544.png",
+            "time": "22:00",
+            "date": "11/06",
+            "blv": "BLV Bịp Con",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/xaycon-stream/refs/heads/main/thumbs/xc-358517530a_03fd8b60_20260611.png?v=03fd8b60",
             "width": 1600,
             "height": 1200
           }
@@ -3507,8 +3543,8 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "hqlive-67474ddbc8",
-          "name": "Hàn Quốc vs Úc | 17:00 11/06",
+          "id": "hqlive-e74543f28c",
+          "name": "Slovenia vs Ba Lan | 19:00 11/06",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -3522,15 +3558,15 @@
           ],
           "sources": [
             {
-              "id": "src-67474ddbc8",
+              "id": "src-e74543f28c",
               "name": "HoiQuanTV",
               "contents": [
                 {
-                  "id": "ct-67474ddbc8",
-                  "name": "Hàn Quốc vs Úc",
+                  "id": "ct-e74543f28c",
+                  "name": "Slovenia vs Ba Lan",
                   "streams": [
                     {
-                      "id": "st-67474ddbc8",
+                      "id": "st-e74543f28c",
                       "name": "HQ",
                       "stream_links": [
                         {
@@ -3558,12 +3594,12 @@
             }
           ],
           "org_metadata": {
-            "league": "AVC Nations Cup 2026",
-            "team_a": "Hàn Quốc",
-            "team_b": "Úc",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Flag_of_South_Korea.svg/1280px-Flag_of_South_Korea.svg.png",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/8/88/Flag_of_Australia_%28converted%29.svg",
-            "time": "17:00 11/06",
+            "league": "Nation League Men",
+            "team_a": "Slovenia",
+            "team_b": "Ba Lan",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Flag_of_Slovenia.svg",
+            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxLkHp8_KNZVw1jCYb3bu1mvTTOxYcnl5yQQ&s",
+            "time": "19:00 11/06",
             "blv": "BLV TÁO GIÀ",
             "is_live": true,
             "sport_slug": "bong-chuyen"
@@ -3572,7 +3608,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Hàn Quốc_Úc_17-00 11-06_0ad42f04_20260611.png?v=0ad42f04",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Slovenia_Ba Lan_19-00 11-06_a3857661_20260611.png?v=a3857661",
             "width": 1600,
             "height": 1200
           }
@@ -3644,59 +3680,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-fb7e03d9d9_eebe1446_20260611.png?v=eebe1446",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "hqlive-e74543f28c",
-          "name": "Slovenia vs Ba Lan | 19:00 11/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-e74543f28c",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-e74543f28c",
-                  "name": "Slovenia vs Ba Lan",
-                  "streams": [
-                    {
-                      "id": "st-e74543f28c",
-                      "name": "HQ",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Nation League Men",
-            "team_a": "Slovenia",
-            "team_b": "Ba Lan",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Flag_of_Slovenia.svg",
-            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxLkHp8_KNZVw1jCYb3bu1mvTTOxYcnl5yQQ&s",
-            "time": "19:00 11/06",
-            "blv": "BLV TÁO GIÀ",
-            "is_live": false,
-            "sport_slug": "bong-chuyen"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Slovenia_Ba Lan_19-00 11-06_a3857661_20260611.png?v=a3857661",
             "width": 1600,
             "height": 1200
           }
