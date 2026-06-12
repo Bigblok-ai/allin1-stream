@@ -5057,11 +5057,83 @@
     },
     {
       "id": "grp-đua-xe",
-      "name": "🏎️ Đua Xe",
+      "name": "🏎️ Đua Xe (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
-      "channels": []
+      "channels": [
+        {
+          "id": "gv-d0e947625c",
+          "name": "Barcelona vs Catalunya | 22:00 12/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-d0e947625c",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-d0e947625c",
+                  "name": "Barcelona vs Catalunya",
+                  "streams": [
+                    {
+                      "id": "st-d0e947625c",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-14f1259c72",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1781275610_hd/1781275610_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "F1",
+            "team_a": "Barcelona",
+            "team_b": "Catalunya",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/pt/1/19/Circuit_de_Barcelona-Catalunya_logo.jpg",
+            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSW8q5-ezZI4KGFrwSGmL-tC1HxItS3U84dvVGobGoNdw&s=10",
+            "time": "22:00 12/06",
+            "blv": "blv-ngu",
+            "is_live": true,
+            "cate_type": "duaxe"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-d0e947625c_247c7e53_20260612.png?v=247c7e53",
+            "width": 1600,
+            "height": 1200
+          }
+        }
+      ]
     },
     {
       "id": "grp-bóng-bàn",
