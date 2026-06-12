@@ -799,7 +799,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -911,6 +911,188 @@
           }
         },
         {
+          "id": "hqlive-e8b903d9b8",
+          "name": "Khai Mạc WC vs Khai Mạc WC | 06:30 13/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-e8b903d9b8",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-e8b903d9b8",
+                  "name": "Khai Mạc WC vs Khai Mạc WC",
+                  "streams": [
+                    {
+                      "id": "st-e8b903d9b8",
+                      "name": "HQ",
+                      "stream_links": [
+                        {
+                          "id": "lnk-c42241b387",
+                          "name": "BLV PHAN MÃ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanma/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "World Cup",
+            "team_a": "Khai Mạc WC",
+            "team_b": "Khai Mạc WC",
+            "logo_a": "https://www.shutterstock.com/image-vector/official-fifa-world-cup-2026-260nw-2696081651.jpg",
+            "logo_b": "https://www.shutterstock.com/image-vector/official-fifa-world-cup-2026-260nw-2696081651.jpg",
+            "time": "06:30 13/06",
+            "blv": "BLV PHAN MÃ",
+            "is_live": true,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Khai Mạc WC_Khai Mạc WC_06-30 13-06_e5e81a22_20260613.png?v=e5e81a22",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-69ff417c82",
+          "name": "Lễ Khai Mạc World Cup 2026 | 06:30 13/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-69ff417c82",
+              "name": "XayConTV",
+              "contents": [
+                {
+                  "id": "ct-69ff417c82",
+                  "name": "Lễ Khai Mạc World Cup 2026",
+                  "streams": [
+                    {
+                      "id": "st-69ff417c82",
+                      "name": "XC",
+                      "stream_links": [
+                        {
+                          "id": "lnk-221ed1ffcc",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://xclive.yarncdn.live/live/xctv_blv_rongdat/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.xaycon3.live/"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://sv2.xaycon3.live"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-23685a2431",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-23685a2431",
+                  "name": "World Cup",
+                  "streams": [
+                    {
+                      "id": "st-23685a2431",
+                      "name": "Bugio - BLV Cúc Cu",
+                      "stream_links": [
+                        {
+                          "id": "lnk-378f040fcb",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_cuccu/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "World Cup",
+            "team_a": "Lễ Khai Mạc World Cup 2026",
+            "team_b": "Lễ Khai Mạc World Cup 2026",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/vi/thumb/1/17/2026_FIFA_World_Cup_emblem.svg/250px-2026_FIFA_World_Cup_emblem.svg.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/vi/thumb/1/17/2026_FIFA_World_Cup_emblem.svg/250px-2026_FIFA_World_Cup_emblem.svg.png",
+            "time": "06:30",
+            "date": "13/06",
+            "blv": "BLV Rồng Đất",
+            "is_live": true,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/xaycon-stream/refs/heads/main/thumbs/xc-69ff417c82_2052b42b_20260613.png?v=2052b42b",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "bg-8074856808",
           "name": "SmackDown vs SmackDown | 07:00 13/06",
           "type": "single",
@@ -977,59 +1159,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-8074856808_8bbf75c0_20260613.png?v=8bbf75c0",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "hqlive-e8b903d9b8",
-          "name": "Khai Mạc WC vs Khai Mạc WC | 06:30 13/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-e8b903d9b8",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-e8b903d9b8",
-                  "name": "Khai Mạc WC vs Khai Mạc WC",
-                  "streams": [
-                    {
-                      "id": "st-e8b903d9b8",
-                      "name": "HQ",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "World Cup",
-            "team_a": "Khai Mạc WC",
-            "team_b": "Khai Mạc WC",
-            "logo_a": "https://www.shutterstock.com/image-vector/official-fifa-world-cup-2026-260nw-2696081651.jpg",
-            "logo_b": "https://www.shutterstock.com/image-vector/official-fifa-world-cup-2026-260nw-2696081651.jpg",
-            "time": "06:30 13/06",
-            "blv": "BLV PHAN MÃ",
-            "is_live": false,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Khai Mạc WC_Khai Mạc WC_06-30 13-06_e5e81a22_20260613.png?v=e5e81a22",
             "width": 1600,
             "height": 1200
           }
@@ -3279,117 +3408,6 @@
           }
         },
         {
-          "id": "xc-69ff417c82",
-          "name": "Lễ Khai Mạc World Cup 2026 | 06:30 13/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-69ff417c82",
-              "name": "XayConTV",
-              "contents": [
-                {
-                  "id": "ct-69ff417c82",
-                  "name": "Lễ Khai Mạc World Cup 2026",
-                  "streams": [
-                    {
-                      "id": "st-69ff417c82",
-                      "name": "XC",
-                      "stream_links": [
-                        {
-                          "id": "lnk-221ed1ffcc",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://xclive.yarncdn.live/live/xctv_blv_rongdat/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.xaycon3.live/"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://sv2.xaycon3.live"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "src-23685a2431",
-              "name": "BugioTV",
-              "contents": [
-                {
-                  "id": "ct-23685a2431",
-                  "name": "World Cup",
-                  "streams": [
-                    {
-                      "id": "st-23685a2431",
-                      "name": "Bugio - BLV Cúc Cu",
-                      "stream_links": [
-                        {
-                          "id": "lnk-378f040fcb",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_cuccu/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv1.bugio9.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "World Cup",
-            "team_a": "Lễ Khai Mạc World Cup 2026",
-            "team_b": "Lễ Khai Mạc World Cup 2026",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/vi/thumb/1/17/2026_FIFA_World_Cup_emblem.svg/250px-2026_FIFA_World_Cup_emblem.svg.png",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/vi/thumb/1/17/2026_FIFA_World_Cup_emblem.svg/250px-2026_FIFA_World_Cup_emblem.svg.png",
-            "time": "06:30",
-            "date": "13/06",
-            "blv": "BLV Rồng Đất",
-            "is_live": false,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/xaycon-stream/refs/heads/main/thumbs/xc-69ff417c82_2052b42b_20260613.png?v=2052b42b",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "qc-d18a7b2511",
           "name": "Haiti vs Scotland | 08:00 14/06",
           "type": "single",
@@ -4140,7 +4158,7 @@
     },
     {
       "id": "grp-bóng-rổ",
-      "name": "🏀 Bóng Rổ",
+      "name": "🏀 Bóng Rổ (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -4153,10 +4171,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -4204,7 +4222,7 @@
             "logo_b": "https://static.flashscore.com/res/image/data/bs4BkvzB-KOUexDHq.png",
             "time": "06:30 13/06",
             "blv": "BLV Ben",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "basketball"
           },
           "image": {
@@ -4512,7 +4530,7 @@
     },
     {
       "id": "grp-bóng-chuyền",
-      "name": "🏐 Bóng Chuyền (1 LIVE)",
+      "name": "🏐 Bóng Chuyền (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -4631,10 +4649,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -4649,7 +4667,25 @@
                     {
                       "id": "st-2cb2886f2e",
                       "name": "HQ",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-f6231c6549",
+                          "name": "BLV PHAN CA",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanca/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -4664,7 +4700,7 @@
             "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Ensign_of_France.svg/250px-Ensign_of_France.svg.png",
             "time": "06:30 13/06",
             "blv": "BLV PHAN CA",
-            "is_live": false,
+            "is_live": true,
             "sport_slug": "bong-chuyen"
           },
           "image": {
