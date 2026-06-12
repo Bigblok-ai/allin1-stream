@@ -954,10 +954,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -1005,7 +1005,7 @@
             "logo_b": "https://static.flashscore.com/res/image/data/zsPfSEEG-WhR3QOha.png",
             "start_time": "2026-06-12T08:00:00",
             "blv": "BLV Pháo",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football"
           },
           "image": {
@@ -3312,7 +3312,7 @@
     },
     {
       "id": "grp-bóng-chuyền",
-      "name": "🏐 Bóng Chuyền (3 LIVE)",
+      "name": "🏐 Bóng Chuyền (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -3495,6 +3495,112 @@
           }
         },
         {
+          "id": "gv-d31fae7ecc",
+          "name": "Vietnam vs Kazakhstan | 08:00 12/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-d31fae7ecc",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-d31fae7ecc",
+                  "name": "Vietnam vs Kazakhstan",
+                  "streams": [
+                    {
+                      "id": "st-d31fae7ecc",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-00a9e7056e",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1781206598_hd/1781206598_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-c00f7219be",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-c00f7219be",
+                  "name": "Việt Nam vs Kazakhstan",
+                  "streams": [
+                    {
+                      "id": "st-c00f7219be",
+                      "name": "Hoiquan - BLV PHAN CHỚP",
+                      "stream_links": [
+                        {
+                          "id": "lnk-b3ac35be40",
+                          "name": "BLV PHAN CHỚP",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanchop/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "AVC Women's Cup",
+            "team_a": "Vietnam",
+            "team_b": "Kazakhstan",
+            "logo_a": "https://static.flashscore.com/res/image/data/Q3QYIP9r-CS4moGMJ.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/hMQTrXVg-Cfuwb3yH.png",
+            "time": "08:00 12/06",
+            "blv": "BLV Điếc",
+            "is_live": true,
+            "cate_type": "bongchuyen"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-d31fae7ecc_fa2126b9_20260612.png?v=fa2126b9",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "hqlive-ace28e821c",
           "name": "Brazil vs Bỉ | 06:00 12/06",
           "type": "single",
@@ -3561,77 +3667,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Brazil_Bỉ_06-00 12-06_4ea808b2_20260612.png?v=4ea808b2",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-d31fae7ecc",
-          "name": "Vietnam vs Kazakhstan | 08:00 12/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-d31fae7ecc",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-d31fae7ecc",
-                  "name": "Vietnam vs Kazakhstan",
-                  "streams": [
-                    {
-                      "id": "st-d31fae7ecc",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-00a9e7056e",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1781206598_hd/1781206598_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "AVC Women's Cup",
-            "team_a": "Vietnam",
-            "team_b": "Kazakhstan",
-            "logo_a": "https://static.flashscore.com/res/image/data/Q3QYIP9r-CS4moGMJ.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/hMQTrXVg-Cfuwb3yH.png",
-            "time": "08:00 12/06",
-            "blv": "BLV Điếc",
-            "is_live": false,
-            "cate_type": "bongchuyen"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-d31fae7ecc_fa2126b9_20260612.png?v=fa2126b9",
             "width": 1600,
             "height": 1200
           }
