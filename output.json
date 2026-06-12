@@ -799,7 +799,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (5 LIVE)",
+      "name": "⚽ Bóng Đá (6 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -986,6 +986,117 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/xaycon-stream/refs/heads/main/thumbs/xc-5f44703c2d_8c779a0f_20260612.png?v=8c779a0f",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-a5bc2a85c0",
+          "name": "Saburtalo vs Spaeri | 22:00 12/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-a5bc2a85c0",
+              "name": "XayConTV",
+              "contents": [
+                {
+                  "id": "ct-a5bc2a85c0",
+                  "name": "Saburtalo vs Spaeri",
+                  "streams": [
+                    {
+                      "id": "st-a5bc2a85c0",
+                      "name": "XC",
+                      "stream_links": [
+                        {
+                          "id": "lnk-19bab7f4de",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://xclive.yarncdn.live/live/xctv_blv_aco/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.xaycon3.live/"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://sv2.xaycon3.live"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-4aeae10ea1",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-4aeae10ea1",
+                  "name": "Saburtalo vs Spaeri",
+                  "streams": [
+                    {
+                      "id": "st-4aeae10ea1",
+                      "name": "Bugio - BLV Tiểu Mèo",
+                      "stream_links": [
+                        {
+                          "id": "lnk-21936c1c94",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_tieumeo/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Erovnuli Liga",
+            "team_a": "Saburtalo",
+            "team_b": "Spaeri",
+            "logo_a": "https://media.api-sports.io/football/teams/3502.png",
+            "logo_b": "https://media.api-sports.io/football/teams/14864.png",
+            "time": "22:00",
+            "date": "12/06",
+            "blv": "BLV A Cỏ",
+            "is_live": true,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/xaycon-stream/refs/heads/main/thumbs/xc-a5bc2a85c0_12b37652_20260612.png?v=12b37652",
             "width": 1600,
             "height": 1200
           }
@@ -3342,117 +3453,6 @@
           }
         },
         {
-          "id": "xc-a5bc2a85c0",
-          "name": "Saburtalo vs Spaeri | 22:00 12/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-a5bc2a85c0",
-              "name": "XayConTV",
-              "contents": [
-                {
-                  "id": "ct-a5bc2a85c0",
-                  "name": "Saburtalo vs Spaeri",
-                  "streams": [
-                    {
-                      "id": "st-a5bc2a85c0",
-                      "name": "XC",
-                      "stream_links": [
-                        {
-                          "id": "lnk-19bab7f4de",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://xclive.yarncdn.live/live/xctv_blv_aco/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.xaycon3.live/"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://sv2.xaycon3.live"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "src-4aeae10ea1",
-              "name": "BugioTV",
-              "contents": [
-                {
-                  "id": "ct-4aeae10ea1",
-                  "name": "Saburtalo vs Spaeri",
-                  "streams": [
-                    {
-                      "id": "st-4aeae10ea1",
-                      "name": "Bugio - BLV Tiểu Mèo",
-                      "stream_links": [
-                        {
-                          "id": "lnk-21936c1c94",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_tieumeo/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv1.bugio9.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Erovnuli Liga",
-            "team_a": "Saburtalo",
-            "team_b": "Spaeri",
-            "logo_a": "https://media.api-sports.io/football/teams/3502.png",
-            "logo_b": "https://media.api-sports.io/football/teams/14864.png",
-            "time": "22:00",
-            "date": "12/06",
-            "blv": "BLV A Cỏ",
-            "is_live": false,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/xaycon-stream/refs/heads/main/thumbs/xc-a5bc2a85c0_12b37652_20260612.png?v=12b37652",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "xc-73054f98ee",
           "name": "Rustavi vs Meshakhte | 22:00 13/06",
           "type": "single",
@@ -3864,83 +3864,11 @@
     },
     {
       "id": "grp-bóng-rổ",
-      "name": "🏀 Bóng Rổ (1 LIVE)",
+      "name": "🏀 Bóng Rổ",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
-      "channels": [
-        {
-          "id": "gv-054d77b198",
-          "name": "Barangay Ginebra San Miguel vs TNT Tropang 5G | 18:30 12/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-054d77b198",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-054d77b198",
-                  "name": "Barangay Ginebra San Miguel vs TNT Tropang 5G",
-                  "streams": [
-                    {
-                      "id": "st-054d77b198",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-ea15a95479",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1781245116_hd/1781245116_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "MPBL",
-            "team_a": "Barangay Ginebra San Miguel",
-            "team_b": "TNT Tropang 5G",
-            "logo_a": "https://static.flashscore.com/res/image/data/hWf7PfGG-67i7cfzM.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/nTNHGwAr-hCospehC.png",
-            "time": "18:30 12/06",
-            "blv": "BLV Cầy",
-            "is_live": true,
-            "cate_type": "basketball"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-054d77b198_ac04151b_20260612.png?v=ac04151b",
-            "width": 1600,
-            "height": 1200
-          }
-        }
-      ]
+      "channels": []
     },
     {
       "id": "grp-billiards",
@@ -4906,7 +4834,7 @@
     },
     {
       "id": "grp-bóng-bàn",
-      "name": "🏓 Bóng Bàn",
+      "name": "🏓 Bóng Bàn (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -4919,10 +4847,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -4937,7 +4865,25 @@
                     {
                       "id": "st-7013373053",
                       "name": "HQ",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-eae8482cb7",
+                          "name": "BLV PHAN BÁCH",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanchuot/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -4952,7 +4898,7 @@
             "logo_b": "https://png.pngtree.com/png-clipart/20190904/original/pngtree-red-table-tennis-racket-illustration-png-image_4502882.jpg",
             "time": "22:00 12/06",
             "blv": "BLV PHAN BÁCH",
-            "is_live": false,
+            "is_live": true,
             "sport_slug": "bong-ban"
           },
           "image": {
