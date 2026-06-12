@@ -3880,82 +3880,11 @@
     },
     {
       "id": "grp-bóng-chuyền",
-      "name": "🏐 Bóng Chuyền (2 LIVE)",
+      "name": "🏐 Bóng Chuyền (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-2a954f7e81",
-          "name": "Nhật Bản vs Ba Lan | 19:00 12/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-2a954f7e81",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-2a954f7e81",
-                  "name": "Nhật Bản vs Ba Lan",
-                  "streams": [
-                    {
-                      "id": "st-2a954f7e81",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-a0e22f9ce4",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1781245633_hd/1781245633_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Nations League",
-            "team_a": "Nhật Bản",
-            "team_b": "Ba Lan",
-            "logo_a": "https://media.istockphoto.com/id/537287287/vi/vec-to/qu%E1%BB%91c-k%E1%BB%B3-nh%E1%BA%ADt-b%E1%BA%A3n.jpg?s=612x612&w=0&k=20&c=UFlQjmlucz-9jk2T19E2oZesmjnwSpE3Mc5Sn8Q-GK4=",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/1/12/Flag_of_Poland.svg",
-            "time": "19:00 12/06",
-            "blv": "blv-sun",
-            "is_live": true,
-            "cate_type": "bongchuyen"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-2a954f7e81_5b5a75d9_20260612.png?v=5b5a75d9",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "hqlive-d440041ea7",
           "name": "Hàn Quốc vs Đài Loan | 20:00 12/06",
@@ -4826,11 +4755,83 @@
     },
     {
       "id": "grp-đua-xe",
-      "name": "🏎️ Đua Xe",
+      "name": "🏎️ Đua Xe (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
-      "channels": []
+      "channels": [
+        {
+          "id": "gv-d0e947625c",
+          "name": "Barcelona vs Catalunya | 22:00 12/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-d0e947625c",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-d0e947625c",
+                  "name": "Barcelona vs Catalunya",
+                  "streams": [
+                    {
+                      "id": "st-d0e947625c",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-14f1259c72",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1781275610_hd/1781275610_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "F1",
+            "team_a": "Barcelona",
+            "team_b": "Catalunya",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/pt/1/19/Circuit_de_Barcelona-Catalunya_logo.jpg",
+            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSW8q5-ezZI4KGFrwSGmL-tC1HxItS3U84dvVGobGoNdw&s=10",
+            "time": "22:00 12/06",
+            "blv": "blv-ngu",
+            "is_live": true,
+            "cate_type": "duaxe"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-d0e947625c_247c7e53_20260612.png?v=247c7e53",
+            "width": 1600,
+            "height": 1200
+          }
+        }
+      ]
     },
     {
       "id": "grp-bóng-bàn",
