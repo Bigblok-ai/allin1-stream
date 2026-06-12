@@ -1266,8 +1266,8 @@
           }
         },
         {
-          "id": "hqlive-c87aa9c115",
-          "name": "PVF-CAND vs Bắc Ninh | 18:00 12/06",
+          "id": "gv-a992597b7c",
+          "name": "PVF-CAND vs TDTT Bac Ninh | 18:00 12/06",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1281,17 +1281,35 @@
           ],
           "sources": [
             {
-              "id": "src-c87aa9c115",
-              "name": "HoiQuanTV",
+              "id": "src-a992597b7c",
+              "name": "GiovangTV",
               "contents": [
                 {
-                  "id": "ct-c87aa9c115",
-                  "name": "PVF-CAND vs Bắc Ninh",
+                  "id": "ct-a992597b7c",
+                  "name": "PVF-CAND vs TDTT Bac Ninh",
                   "streams": [
                     {
-                      "id": "st-c87aa9c115",
-                      "name": "HQ",
-                      "stream_links": []
+                      "id": "st-a992597b7c",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-9832cc59f6",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1781245193_hd/1781245193_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -1334,21 +1352,21 @@
             }
           ],
           "org_metadata": {
-            "league": "V.League 1",
+            "league": "Hạng Nhất Việt Nam",
             "team_a": "PVF-CAND",
-            "team_b": "Bắc Ninh",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/vi/d/db/Logo_CLB_PVF-CAND.svg",
-            "logo_b": "https://media.api-sports.io/football/teams/26601.png",
+            "team_b": "TDTT Bac Ninh",
+            "logo_a": "https://images.keovip88.net/images/teams/pvf-cand.png",
+            "logo_b": "https://images.keovip88.net/images/teams/tdtt-bac-ninh.PNG",
             "time": "18:00 12/06",
-            "blv": "BLV PHAN MÃ",
+            "blv": "blv-ngong",
             "is_live": false,
-            "sport_slug": "bong-da"
+            "cate_type": "football"
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/PVF-CAND_Bắc Ninh_18-00 12-06_cae398b9_20260612.png?v=cae398b9",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-a992597b7c_5fde8018_20260612.png?v=5fde8018",
             "width": 1600,
             "height": 1200
           }
@@ -3504,6 +3522,77 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-a5cf2ef240_908ed64a_20260612.png?v=908ed64a",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-054d77b198",
+          "name": "Barangay Ginebra San Miguel vs TNT Tropang 5G | 18:30 12/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-054d77b198",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-054d77b198",
+                  "name": "Barangay Ginebra San Miguel vs TNT Tropang 5G",
+                  "streams": [
+                    {
+                      "id": "st-054d77b198",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-ea15a95479",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1781245116_hd/1781245116_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "MPBL",
+            "team_a": "Barangay Ginebra San Miguel",
+            "team_b": "TNT Tropang 5G",
+            "logo_a": "https://static.flashscore.com/res/image/data/hWf7PfGG-67i7cfzM.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/nTNHGwAr-hCospehC.png",
+            "time": "18:30 12/06",
+            "blv": "BLV Cầy",
+            "is_live": false,
+            "cate_type": "basketball"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-054d77b198_ac04151b_20260612.png?v=ac04151b",
             "width": 1600,
             "height": 1200
           }
