@@ -799,11 +799,82 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (6 LIVE)",
+      "name": "⚽ Bóng Đá (7 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "gv-98ff13ae9b",
+          "name": "Derry City  vs Bohemians | 01:45 13/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-98ff13ae9b",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-98ff13ae9b",
+                  "name": "Derry City  vs Bohemians",
+                  "streams": [
+                    {
+                      "id": "st-98ff13ae9b",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-52512bc59f",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1781282410_hd/1781282410_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Ireland Republic - Premier Division",
+            "team_a": "Derry City ",
+            "team_b": "Bohemians",
+            "logo_a": "https://ssl.gstatic.com/onebox/media/sports/logos/optimized/9-uKz_UEfQ1_UB6Mk2tCVw_96x96.png",
+            "logo_b": "https://ssl.gstatic.com/onebox/media/sports/logos/optimized/wy5v9UcNTxO6pWf77S9nKQ_96x96.png",
+            "time": "01:45 13/06",
+            "blv": "blv-ngong",
+            "is_live": true,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-98ff13ae9b_458808ff_20260613.png?v=458808ff",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "hqlive-339eb4349e",
           "name": "Khai Mạc WC vs Khai Mạc WC | 00:30 13/06",
@@ -871,121 +942,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Khai Mạc WC_Khai Mạc WC_00-30 13-06_e5e81a22_20260613.png?v=e5e81a22",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "qc-295446e7c0",
-          "name": "FK Liepaja vs Super Nova | 23:00 12/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-295446e7c0",
-              "name": "QuechoaTV",
-              "contents": [
-                {
-                  "id": "ct-295446e7c0",
-                  "name": "FK Liepaja vs Super Nova",
-                  "streams": [
-                    {
-                      "id": "st-295446e7c0",
-                      "name": "QC",
-                      "stream_links": [
-                        {
-                          "id": "lnk-9ecfdd7bcf",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ahghndtkyqmm-pull.bpmedialive.com/quechoa/blv_nemchua.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://quechoa10.live/"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://quechoa10.live"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "src-6bf17bfd44",
-              "name": "XayConTV",
-              "contents": [
-                {
-                  "id": "ct-6bf17bfd44",
-                  "name": "FK Liepaja vs Super Nova",
-                  "streams": [
-                    {
-                      "id": "st-6bf17bfd44",
-                      "name": "Xaycon - BLV Bịp Con",
-                      "stream_links": [
-                        {
-                          "id": "lnk-30319ba8f3",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://xclive.yarncdn.live/live/xctv_blv_bipcon/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.xaycon3.live/"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://sv2.xaycon3.live"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Virsliga",
-            "team_a": "FK Liepaja",
-            "team_b": "Super Nova",
-            "logo_a": "https://media.api-sports.io/football/teams/661.png",
-            "logo_b": "https://media.api-sports.io/football/teams/4143.png",
-            "time": "23:00",
-            "date": "12/06",
-            "blv": "NEM CHUA",
-            "is_live": true,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/quechoa-stream/refs/heads/main/thumbs/qc-295446e7c0_81d6b428_20260613.png?v=81d6b428",
             "width": 1600,
             "height": 1200
           }
@@ -1320,8 +1276,8 @@
           }
         },
         {
-          "id": "gv-98ff13ae9b",
-          "name": "Derry City  vs Bohemians | 01:45 13/06",
+          "id": "bg-8074856808",
+          "name": "SmackDown vs SmackDown | 07:00 13/06",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1335,27 +1291,27 @@
           ],
           "sources": [
             {
-              "id": "src-98ff13ae9b",
-              "name": "GiovangTV",
+              "id": "src-8074856808",
+              "name": "BugioTV",
               "contents": [
                 {
-                  "id": "ct-98ff13ae9b",
-                  "name": "Derry City  vs Bohemians",
+                  "id": "ct-8074856808",
+                  "name": "SmackDown vs SmackDown",
                   "streams": [
                     {
-                      "id": "st-98ff13ae9b",
-                      "name": "GV",
+                      "id": "st-8074856808",
+                      "name": "BG",
                       "stream_links": [
                         {
-                          "id": "lnk-52512bc59f",
-                          "name": "Link HD 720p",
+                          "id": "lnk-970b2a547c",
+                          "name": "Link FHD",
                           "type": "hls",
                           "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1781282410_hd/1781282410_hd@720p.m3u8",
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_phaothan/playlist.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://giovang.fun/"
+                              "value": "https://sv1.bugio9.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -1371,13 +1327,13 @@
             }
           ],
           "org_metadata": {
-            "league": "Ireland Republic - Premier Division",
-            "team_a": "Derry City ",
-            "team_b": "Bohemians",
-            "logo_a": "https://ssl.gstatic.com/onebox/media/sports/logos/optimized/9-uKz_UEfQ1_UB6Mk2tCVw_96x96.png",
-            "logo_b": "https://ssl.gstatic.com/onebox/media/sports/logos/optimized/wy5v9UcNTxO6pWf77S9nKQ_96x96.png",
-            "time": "01:45 13/06",
-            "blv": "blv-ngong",
+            "league": "WWE",
+            "team_a": "SmackDown",
+            "team_b": "SmackDown",
+            "logo_a": "https://www.wwe.com/f/styles/wwe_16_9_l/public/2026/06/20260605_SD.jpg",
+            "logo_b": "https://www.wwe.com/f/styles/wwe_16_9_l/public/2026/06/20260605_SD.jpg",
+            "start_time": "2026-06-13T07:00:00",
+            "blv": "BLV Pháo",
             "is_live": false,
             "cate_type": "football"
           },
@@ -1385,7 +1341,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-98ff13ae9b_458808ff_20260613.png?v=458808ff",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-8074856808_8bbf75c0_20260613.png?v=8bbf75c0",
             "width": 1600,
             "height": 1200
           }
@@ -3858,83 +3814,11 @@
     },
     {
       "id": "grp-tennis",
-      "name": "🎾 Tennis (1 LIVE)",
+      "name": "🎾 Tennis",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
-      "channels": [
-        {
-          "id": "hqlive-2ef7aaa126",
-          "name": "Mattia Bellucci vs Taylor Fritz | 22:00 12/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-2ef7aaa126",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-2ef7aaa126",
-                  "name": "Mattia Bellucci vs Taylor Fritz",
-                  "streams": [
-                    {
-                      "id": "st-2ef7aaa126",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-6568b58b01",
-                          "name": "BLV PHAN BỐNG",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanbong/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "ATP250 Stuttgart",
-            "team_a": "Mattia Bellucci",
-            "team_b": "Taylor Fritz",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Mattia_Bellucci_%282024_DC_Open%29_02_%28cropped%29.jpg/960px-Mattia_Bellucci_%282024_DC_Open%29_02_%28cropped%29.jpg",
-            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNZSDJOk9zmiEAUd932qtYHbrfQcbE7f50zQ&s",
-            "time": "22:00 12/06",
-            "blv": "BLV PHAN BỐNG",
-            "is_live": true,
-            "sport_slug": "tennis"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Mattia Bellucci_Taylor Fritz_22-00 12-06_08f88dea_20260613.png?v=08f88dea",
-            "width": 1600,
-            "height": 1200
-          }
-        }
-      ]
+      "channels": []
     },
     {
       "id": "grp-cầu-lông",
