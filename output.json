@@ -799,11 +799,87 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "xc-eaab2806f7",
+          "name": "Zigong Black White - Yunnan Cuanhe | 15:00 12/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-eaab2806f7",
+              "name": "XayConTV",
+              "contents": [
+                {
+                  "id": "ct-eaab2806f7",
+                  "name": "Zigong Black White - Yunnan Cuanhe",
+                  "streams": [
+                    {
+                      "id": "st-eaab2806f7",
+                      "name": "XC",
+                      "stream_links": [
+                        {
+                          "id": "lnk-ab6de9170b",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://xclive.yarncdn.live/live/xctv_blv_quanvu/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.xaycon3.live/"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://sv2.xaycon3.live"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "CFA Member Champions League",
+            "team_a": "Zigong Black White",
+            "team_b": "Yunnan Cuanhe",
+            "logo_a": "https://img0.aiscore.com/football/team/118d228916cacef62b8569fb87d19796.png!w100",
+            "logo_b": "https://static.flashscore.com/res/image/data/CKUbzrzB-pG5LOQr8.png",
+            "time": "15:00",
+            "date": "12/06",
+            "blv": "BLV Quan Vũ",
+            "is_live": true,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/xaycon-stream/refs/heads/main/thumbs/xc-eaab2806f7_7ab0f5ec_20260612.png?v=7ab0f5ec",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "bg-be6ad8761f",
           "name": "Ukraine vs Cuba | 15:30 12/06",
@@ -1114,25 +1190,7 @@
                     {
                       "id": "st-3bfb5b931f",
                       "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-5492a63b6b",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1781244738_hd/1781244738_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
+                      "stream_links": []
                     }
                   ]
                 }
@@ -2375,82 +2433,6 @@
           }
         },
         {
-          "id": "xc-eaab2806f7",
-          "name": "Zigong Black White - Yunnan Cuanhe | 15:00 12/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-eaab2806f7",
-              "name": "XayConTV",
-              "contents": [
-                {
-                  "id": "ct-eaab2806f7",
-                  "name": "Zigong Black White - Yunnan Cuanhe",
-                  "streams": [
-                    {
-                      "id": "st-eaab2806f7",
-                      "name": "XC",
-                      "stream_links": [
-                        {
-                          "id": "lnk-ab6de9170b",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://xclive.yarncdn.live/live/xctv_blv_quanvu/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.xaycon3.live/"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://sv2.xaycon3.live"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "CFA Member Champions League",
-            "team_a": "Zigong Black White",
-            "team_b": "Yunnan Cuanhe",
-            "logo_a": "https://img0.aiscore.com/football/team/118d228916cacef62b8569fb87d19796.png!w100",
-            "logo_b": "https://static.flashscore.com/res/image/data/CKUbzrzB-pG5LOQr8.png",
-            "time": "15:00",
-            "date": "12/06",
-            "blv": "BLV Quan Vũ",
-            "is_live": false,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/xaycon-stream/refs/heads/main/thumbs/xc-eaab2806f7_7ab0f5ec_20260612.png?v=7ab0f5ec",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "xc-be94959099",
           "name": "Blacktown Spartans vs Bankstown City Lions | 17:15 12/06",
           "type": "single",
@@ -3490,82 +3472,11 @@
     },
     {
       "id": "grp-bóng-rổ",
-      "name": "🏀 Bóng Rổ (1 LIVE)",
+      "name": "🏀 Bóng Rổ",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-972878679e",
-          "name": "Taranaki Airs vs Tauranga Whai | 14:30 12/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-972878679e",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-972878679e",
-                  "name": "Taranaki Airs vs Tauranga Whai",
-                  "streams": [
-                    {
-                      "id": "st-972878679e",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-62e9e66ffc",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1781249015_hd/1781249015_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "NBL",
-            "team_a": "Taranaki Airs",
-            "team_b": "Tauranga Whai",
-            "logo_a": "https://static.flashscore.com/res/image/data/2Zt8d9il-G6Uuq8ZG.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/Y7fbrXg5-QDgyRBqE.png",
-            "time": "14:30 12/06",
-            "blv": "blv-leo",
-            "is_live": true,
-            "cate_type": "basketball"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-972878679e_88319b4d_20260612.png?v=88319b4d",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-39bacc83d5",
           "name": "Paranaque Patriots vs Imus Braderhood | 15:00 12/06",
@@ -3862,7 +3773,7 @@
     },
     {
       "id": "grp-bóng-chuyền",
-      "name": "🏐 Bóng Chuyền (1 LIVE)",
+      "name": "🏐 Bóng Chuyền (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -3946,10 +3857,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -3964,7 +3875,25 @@
                     {
                       "id": "st-633d5f9cdb",
                       "name": "HQ",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-1cad2e4412",
+                          "name": "BLV TÁO GIÀ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://tdlive.yarncdn.live/live/tdtv_blv_taotinhtao/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -3979,7 +3908,7 @@
             "logo_b": "https://upload.wikimedia.org/wikipedia/commons/b/bd/Flag_of_Cuba.svg",
             "time": "15:00 12/06",
             "blv": "BLV TÁO GIÀ",
-            "is_live": false,
+            "is_live": true,
             "sport_slug": "bong-chuyen"
           },
           "image": {
