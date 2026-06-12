@@ -799,7 +799,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (6 LIVE)",
+      "name": "⚽ Bóng Đá (5 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1132,82 +1132,6 @@
           }
         },
         {
-          "id": "xc-b3d583b1e6",
-          "name": "Foutoua vs Al Karama | 20:00 12/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-b3d583b1e6",
-              "name": "XayConTV",
-              "contents": [
-                {
-                  "id": "ct-b3d583b1e6",
-                  "name": "Foutoua vs Al Karama",
-                  "streams": [
-                    {
-                      "id": "st-b3d583b1e6",
-                      "name": "XC",
-                      "stream_links": [
-                        {
-                          "id": "lnk-30319ba8f3",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://xclive.yarncdn.live/live/xctv_blv_bipcon/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.xaycon3.live/"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://sv2.xaycon3.live"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Premier League",
-            "team_a": "Foutoua",
-            "team_b": "Al Karama",
-            "logo_a": "https://media.api-sports.io/football/teams/9114.png",
-            "logo_b": "https://media.api-sports.io/football/teams/9111.png",
-            "time": "20:00",
-            "date": "12/06",
-            "blv": "BLV Bịp Con",
-            "is_live": true,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/xaycon-stream/refs/heads/main/thumbs/xc-b3d583b1e6_3a3404a3_20260612.png?v=3a3404a3",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "bg-2654d1a3f1",
           "name": "Ba Lan vs Nhật Bản | 19:00 12/06",
           "type": "single",
@@ -1376,6 +1300,45 @@
                       "id": "st-4caa5d0686",
                       "name": "HQ",
                       "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-ef604bb72c",
+              "name": "XayConTV",
+              "contents": [
+                {
+                  "id": "ct-ef604bb72c",
+                  "name": "FC Isloch Minsk R. vs Naftan",
+                  "streams": [
+                    {
+                      "id": "st-ef604bb72c",
+                      "name": "Xaycon - BLV Bịp Con",
+                      "stream_links": [
+                        {
+                          "id": "lnk-30319ba8f3",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://xclive.yarncdn.live/live/xctv_blv_bipcon/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.xaycon3.live/"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://sv2.xaycon3.live"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -1701,6 +1664,76 @@
                             {
                               "key": "Origin",
                               "value": "https://sv2.xaycon3.live"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-70117ee3c0",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-70117ee3c0",
+                  "name": "Canada vs Bosnia & Herzegovina",
+                  "streams": [
+                    {
+                      "id": "st-70117ee3c0",
+                      "name": "Bugio - BLV Lềnh",
+                      "stream_links": [
+                        {
+                          "id": "lnk-448842e236",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_lenh/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-785736838d",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-785736838d",
+                  "name": "Canada vs Bosnia & Herzegovina",
+                  "streams": [
+                    {
+                      "id": "st-785736838d",
+                      "name": "Bugio - BLV Phi MC",
+                      "stream_links": [
+                        {
+                          "id": "lnk-d5c8f635fc",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_phimc/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
                             },
                             {
                               "key": "User-Agent",
