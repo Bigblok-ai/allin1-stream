@@ -799,82 +799,11 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (7 LIVE)",
+      "name": "⚽ Bóng Đá (8 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-507d6015ff",
-          "name": "Campuchia U19  vs Indonesia U19 | 16:00 13/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-507d6015ff",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-507d6015ff",
-                  "name": "Campuchia U19  vs Indonesia U19",
-                  "streams": [
-                    {
-                      "id": "st-507d6015ff",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-a9cba1a6f5",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1781326569_hd/1781326569_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "ASEAN Championship U19 - Play Offs",
-            "team_a": "Campuchia U19 ",
-            "team_b": "Indonesia U19",
-            "logo_a": "https://static.flashscore.com/res/image/data/fByr5Mhl-4KC2ERh1.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/SKAde5wS-rPhMvARt.png",
-            "time": "16:00 13/06",
-            "blv": "BLV Hợi",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-507d6015ff_1022aed8_20260613.png?v=1022aed8",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "hqlive-d779617e2c",
           "name": "Cambodia U19 vs Indonesia U19 | 16:00 13/06",
@@ -1048,6 +977,94 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Laagri_Kuressaare_16-30 13-06_749c1e37_20260613.png?v=749c1e37",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-433960c594",
+          "name": "Hebei Kungfu vs Suzhou Dongwu | 18:30 13/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-433960c594",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-433960c594",
+                  "name": "Hebei Kungfu vs Suzhou Dongwu",
+                  "streams": [
+                    {
+                      "id": "st-433960c594",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-05c7ac9468",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-05c7ac9468",
+                  "name": "Hebei Kungfu vs Suzhou Dongwu",
+                  "streams": [
+                    {
+                      "id": "st-05c7ac9468",
+                      "name": "Bugio - BLV khô Mực",
+                      "stream_links": [
+                        {
+                          "id": "lnk-41910bf543",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_khomuc/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "League One",
+            "team_a": "Hebei Kungfu",
+            "team_b": "Suzhou Dongwu",
+            "logo_a": "https://media.api-sports.io/football/teams/17264.png",
+            "logo_b": "https://media.api-sports.io/football/teams/5688.png",
+            "time": "18:30 13/06",
+            "blv": "BLV TÁO GIÀ",
+            "is_live": true,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Hebei Kungfu_Suzhou Dongwu_18-30 13-06_cf8676ee_20260613.png?v=cf8676ee",
             "width": 1600,
             "height": 1200
           }
@@ -1381,6 +1398,77 @@
           }
         },
         {
+          "id": "bg-a714ec6796",
+          "name": "Ukraine - Ba Lan | 00:00 14/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-a714ec6796",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-a714ec6796",
+                  "name": "Ukraine - Ba Lan",
+                  "streams": [
+                    {
+                      "id": "st-a714ec6796",
+                      "name": "BG",
+                      "stream_links": [
+                        {
+                          "id": "lnk-970b2a547c",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_phaothan/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Nations League Men's",
+            "team_a": "Ukraine",
+            "team_b": "Ba Lan",
+            "logo_a": "https://ssl.gstatic.com/onebox/media/sports/logos/optimized/DQIQtK7N4yrDIqw75pxFHg_96x96.png",
+            "logo_b": "https://ssl.gstatic.com/onebox/media/sports/logos/optimized/yTS_Piy3M1wUBnqU0n5aAw_96x96.png",
+            "start_time": "2026-06-14T00:00:00",
+            "blv": "BLV Pháo",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-a714ec6796_106b3af3_20260613.png?v=106b3af3",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "gv-1684decc8c",
           "name": "Hebei Gongfu vs Suzhou Dongwu | 18:30 13/06",
           "type": "single",
@@ -1500,94 +1588,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Nanjing City_Ningbo Professional_18-30 13-06_d5fb1061_20260613.png?v=d5fb1061",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "hqlive-433960c594",
-          "name": "Hebei Kungfu vs Suzhou Dongwu | 18:30 13/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-433960c594",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-433960c594",
-                  "name": "Hebei Kungfu vs Suzhou Dongwu",
-                  "streams": [
-                    {
-                      "id": "st-433960c594",
-                      "name": "HQ",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "src-05c7ac9468",
-              "name": "BugioTV",
-              "contents": [
-                {
-                  "id": "ct-05c7ac9468",
-                  "name": "Hebei Kungfu vs Suzhou Dongwu",
-                  "streams": [
-                    {
-                      "id": "st-05c7ac9468",
-                      "name": "Bugio - BLV khô Mực",
-                      "stream_links": [
-                        {
-                          "id": "lnk-41910bf543",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_khomuc/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv1.bugio9.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "League One",
-            "team_a": "Hebei Kungfu",
-            "team_b": "Suzhou Dongwu",
-            "logo_a": "https://media.api-sports.io/football/teams/17264.png",
-            "logo_b": "https://media.api-sports.io/football/teams/5688.png",
-            "time": "18:30 13/06",
-            "blv": "BLV TÁO GIÀ",
-            "is_live": false,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Hebei Kungfu_Suzhou Dongwu_18-30 13-06_cf8676ee_20260613.png?v=cf8676ee",
             "width": 1600,
             "height": 1200
           }
@@ -2882,25 +2882,7 @@
                     {
                       "id": "st-10c547ec52",
                       "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-6f9a18440b",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1781258450_hd/1781258450_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
+                      "stream_links": []
                     }
                   ]
                 }
