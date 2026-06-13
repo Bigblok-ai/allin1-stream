@@ -799,7 +799,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (8 LIVE)",
+      "name": "⚽ Bóng Đá (9 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -982,6 +982,77 @@
           }
         },
         {
+          "id": "hqlive-d73212445d",
+          "name": "Nanjing City vs Ningbo Professional | 18:30 13/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-d73212445d",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-d73212445d",
+                  "name": "Nanjing City vs Ningbo Professional",
+                  "streams": [
+                    {
+                      "id": "st-d73212445d",
+                      "name": "HQ",
+                      "stream_links": [
+                        {
+                          "id": "lnk-fd31283a76",
+                          "name": "BLV PHAN ANH",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phananh/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "League One",
+            "team_a": "Nanjing City",
+            "team_b": "Ningbo Professional",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/en/6/63/Nanjing_City_F.C.svg",
+            "logo_b": "https://media.api-sports.io/football/teams/27556.png",
+            "time": "18:30 13/06",
+            "blv": "BLV PHAN ANH",
+            "is_live": true,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Nanjing City_Ningbo Professional_18-30 13-06_d5fb1061_20260613.png?v=d5fb1061",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "hqlive-433960c594",
           "name": "Hebei Kungfu vs Suzhou Dongwu | 18:30 13/06",
           "type": "single",
@@ -1007,7 +1078,25 @@
                     {
                       "id": "st-433960c594",
                       "name": "HQ",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-1cad2e4412",
+                          "name": "BLV TÁO GIÀ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://tdlive.yarncdn.live/live/tdtv_blv_taotinhtao/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -1535,59 +1624,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-1684decc8c_82bd41e7_20260613.png?v=82bd41e7",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "hqlive-d73212445d",
-          "name": "Nanjing City vs Ningbo Professional | 18:30 13/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-d73212445d",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-d73212445d",
-                  "name": "Nanjing City vs Ningbo Professional",
-                  "streams": [
-                    {
-                      "id": "st-d73212445d",
-                      "name": "HQ",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "League One",
-            "team_a": "Nanjing City",
-            "team_b": "Ningbo Professional",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/en/6/63/Nanjing_City_F.C.svg",
-            "logo_b": "https://media.api-sports.io/football/teams/27556.png",
-            "time": "18:30 13/06",
-            "blv": "BLV PHAN ANH",
-            "is_live": false,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Nanjing City_Ningbo Professional_18-30 13-06_d5fb1061_20260613.png?v=d5fb1061",
             "width": 1600,
             "height": 1200
           }
@@ -2882,7 +2918,25 @@
                     {
                       "id": "st-10c547ec52",
                       "name": "GV",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-6f9a18440b",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1781258450_hd/1781258450_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -5649,56 +5703,38 @@
     },
     {
       "id": "grp-bóng-bàn",
-      "name": "🏓 Bóng Bàn (1 LIVE)",
+      "name": "🏓 Bóng Bàn",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
         {
-          "id": "hqlive-4747e542f5",
-          "name": "Tay Vợt 1 vs Tay Vợt 2 | 18:00 13/06",
+          "id": "hqlive-f0dd31b54e",
+          "name": "Tay Vợt 1 vs Tay Vợt 2 | 23:00 13/06",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "● LIVE",
+              "text": "🕐 Sắp",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#ff4444"
+              "text_color": "#aaaaaa"
             }
           ],
           "sources": [
             {
-              "id": "src-4747e542f5",
+              "id": "src-f0dd31b54e",
               "name": "HoiQuanTV",
               "contents": [
                 {
-                  "id": "ct-4747e542f5",
+                  "id": "ct-f0dd31b54e",
                   "name": "Tay Vợt 1 vs Tay Vợt 2",
                   "streams": [
                     {
-                      "id": "st-4747e542f5",
+                      "id": "st-f0dd31b54e",
                       "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-eae8482cb7",
-                          "name": "BLV PHAN BÁCH",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanchuot/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
+                      "stream_links": []
                     }
                   ]
                 }
@@ -5711,16 +5747,16 @@
             "team_b": "Tay Vợt 2",
             "logo_a": "https://png.pngtree.com/png-clipart/20190904/original/pngtree-red-table-tennis-racket-illustration-png-image_4502882.jpg",
             "logo_b": "https://png.pngtree.com/png-clipart/20190904/original/pngtree-red-table-tennis-racket-illustration-png-image_4502882.jpg",
-            "time": "18:00 13/06",
+            "time": "23:00 13/06",
             "blv": "BLV PHAN BÁCH",
-            "is_live": true,
+            "is_live": false,
             "sport_slug": "bong-ban"
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Tay Vợt 1_Tay Vợt 2_18-00 13-06_3e80d90a_20260613.png?v=3e80d90a",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Tay Vợt 1_Tay Vợt 2_23-00 13-06_3e80d90a_20260613.png?v=3e80d90a",
             "width": 1600,
             "height": 1200
           }
