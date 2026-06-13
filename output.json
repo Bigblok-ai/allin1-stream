@@ -3839,7 +3839,7 @@
     },
     {
       "id": "grp-tennis",
-      "name": "🎾 Tennis (1 LIVE)",
+      "name": "🎾 Tennis (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -3923,10 +3923,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -3941,7 +3941,25 @@
                     {
                       "id": "st-e0fd865200",
                       "name": "HQ",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-6568b58b01",
+                          "name": "BLV PHAN BỐNG",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanbong/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -3956,7 +3974,7 @@
             "logo_b": "https://upload.wikimedia.org/wikipedia/commons/6/62/Lehecka_MCM23_%285%29_%2852883527310%29.jpg",
             "time": "20:00 13/06",
             "blv": "BLV PHAN BỐNG",
-            "is_live": false,
+            "is_live": true,
             "sport_slug": "tennis"
           },
           "image": {
@@ -4269,6 +4287,59 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "hqlive-a102745c43",
+          "name": "San Antonio Spurs vs New York Knicks | 07:30 14/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-a102745c43",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-a102745c43",
+                  "name": "San Antonio Spurs vs New York Knicks",
+                  "streams": [
+                    {
+                      "id": "st-a102745c43",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "NBA",
+            "team_a": "San Antonio Spurs",
+            "team_b": "New York Knicks",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/vi/e/ec/San_Antonio_Spurs_logo.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/en/2/25/New_York_Knicks_logo.svg",
+            "time": "07:30 14/06",
+            "blv": "BLV PHAN PHÉP",
+            "is_live": false,
+            "sport_slug": "bong-ro"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/San Antonio Spurs_New York Knicks_07-30 14-06_3e9ff35c_20260613.png?v=3e9ff35c",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     },
@@ -4324,58 +4395,6 @@
                             {
                               "key": "Referer",
                               "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "src-f688c136c6",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-f688c136c6",
-                  "name": "Hàn Quốc vs Việt Nam",
-                  "streams": [
-                    {
-                      "id": "st-f688c136c6",
-                      "name": "Hoiquan - BLV PHAN CHỚP, BLV PHAN HẢI",
-                      "stream_links": [
-                        {
-                          "id": "lnk-b3ac35be40",
-                          "name": "BLV PHAN CHỚP",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanchop/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-07fa7a18bb",
-                          "name": "BLV PHAN HẢI",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanhai/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
                             },
                             {
                               "key": "User-Agent",
