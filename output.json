@@ -799,7 +799,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (4 LIVE)",
+      "name": "⚽ Bóng Đá (5 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -954,10 +954,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -1005,7 +1005,7 @@
             "logo_b": "https://media.api-sports.io/football/teams/16765.png",
             "start_time": "2026-06-13T12:30:00",
             "blv": "BLV Phi MC",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football"
           },
           "image": {
@@ -1084,6 +1084,77 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-08048a9c56_fe196f33_20260613.png?v=fe196f33",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "bg-a6e8ad4904",
+          "name": "Việt Nam vs Hàn Quốc  | 18:00 13/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-a6e8ad4904",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-a6e8ad4904",
+                  "name": "Việt Nam vs Hàn Quốc ",
+                  "streams": [
+                    {
+                      "id": "st-a6e8ad4904",
+                      "name": "BG",
+                      "stream_links": [
+                        {
+                          "id": "lnk-378f040fcb",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_cuccu/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "AVC Nations Cup 2026 ",
+            "team_a": "Việt Nam",
+            "team_b": "Hàn Quốc",
+            "logo_a": "https://static.flashscore.com/res/image/data/StTKbSzS-A9PcSp30.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/6ZpGvVEa-C0A1Du90.png",
+            "start_time": "2026-06-13T18:00:00",
+            "blv": "BLV Cúc Cu",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-a6e8ad4904_08afa5fd_20260613.png?v=08afa5fd",
             "width": 1600,
             "height": 1200
           }
@@ -1247,6 +1318,77 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Changchun Yatai_Dalian Huayi_14-30 13-06_82d12109_20260613.png?v=82d12109",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-507d6015ff",
+          "name": "Campuchia U19  vs Indonesia U19 | 16:00 13/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-507d6015ff",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-507d6015ff",
+                  "name": "Campuchia U19  vs Indonesia U19",
+                  "streams": [
+                    {
+                      "id": "st-507d6015ff",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-a9cba1a6f5",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1781326569_hd/1781326569_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "ASEAN Championship U19 - Play Offs",
+            "team_a": "Campuchia U19 ",
+            "team_b": "Indonesia U19",
+            "logo_a": "https://static.flashscore.com/res/image/data/fByr5Mhl-4KC2ERh1.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/SKAde5wS-rPhMvARt.png",
+            "time": "16:00 13/06",
+            "blv": "BLV Hợi",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-507d6015ff_1022aed8_20260613.png?v=1022aed8",
             "width": 1600,
             "height": 1200
           }
