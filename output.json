@@ -799,7 +799,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (7 LIVE)",
+      "name": "⚽ Bóng Đá (8 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -994,41 +994,6 @@
                   ]
                 }
               ]
-            },
-            {
-              "id": "src-73d915c91b",
-              "name": "BugioTV",
-              "contents": [
-                {
-                  "id": "ct-73d915c91b",
-                  "name": "Nanjing City vs Ningbo Professional",
-                  "streams": [
-                    {
-                      "id": "st-73d915c91b",
-                      "name": "Bugio - BLV khô Mực",
-                      "stream_links": [
-                        {
-                          "id": "lnk-41910bf543",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_khomuc/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv1.bugio9.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
             }
           ],
           "org_metadata": {
@@ -1123,8 +1088,8 @@
           }
         },
         {
-          "id": "hqlive-74960f90a4",
-          "name": "Thailand U19 vs Australia U19 | 20:15 13/06",
+          "id": "hqlive-ebde73fb95",
+          "name": "VPS vs KuPS | 21:00 13/06",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1138,58 +1103,40 @@
           ],
           "sources": [
             {
-              "id": "src-74960f90a4",
+              "id": "src-ebde73fb95",
               "name": "HoiQuanTV",
               "contents": [
                 {
-                  "id": "ct-74960f90a4",
-                  "name": "Thailand U19 vs Australia U19",
+                  "id": "ct-ebde73fb95",
+                  "name": "VPS vs KuPS",
                   "streams": [
                     {
-                      "id": "st-74960f90a4",
+                      "id": "st-ebde73fb95",
                       "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-c42241b387",
-                          "name": "BLV PHAN MÃ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanma/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
+                      "stream_links": []
                     }
                   ]
                 }
               ]
             },
             {
-              "id": "src-2cf9152db0",
+              "id": "src-009353c90a",
               "name": "XayConTV",
               "contents": [
                 {
-                  "id": "ct-2cf9152db0",
-                  "name": "Thailand U19 vs Australia U19",
+                  "id": "ct-009353c90a",
+                  "name": "VPS vs KuPS",
                   "streams": [
                     {
-                      "id": "st-2cf9152db0",
-                      "name": "Xaycon - BLV Bịp Con",
+                      "id": "st-009353c90a",
+                      "name": "Xaycon - BLV Rồng Đất",
                       "stream_links": [
                         {
-                          "id": "lnk-30319ba8f3",
+                          "id": "lnk-221ed1ffcc",
                           "name": "Link FHD",
                           "type": "hls",
                           "default": true,
-                          "url": "https://xclive.yarncdn.live/live/xctv_blv_bipcon/playlist.m3u8",
+                          "url": "https://xclive.yarncdn.live/live/xctv_blv_rongdat/playlist.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -1210,16 +1157,51 @@
                   ]
                 }
               ]
+            },
+            {
+              "id": "src-1e747ddbea",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-1e747ddbea",
+                  "name": "VPS vs KuPS",
+                  "streams": [
+                    {
+                      "id": "st-1e747ddbea",
+                      "name": "Bugio - BLV Lavie",
+                      "stream_links": [
+                        {
+                          "id": "lnk-a4a6a520ed",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_lavie/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
             }
           ],
           "org_metadata": {
-            "league": "ASEAN Championship U19",
-            "team_a": "Thailand U19",
-            "team_b": "Australia U19",
-            "logo_a": "https://media.api-sports.io/football/teams/19155.png",
-            "logo_b": "https://media.api-sports.io/football/teams/22591.png",
-            "time": "20:15 13/06",
-            "blv": "BLV PHAN MÃ",
+            "league": "Veikkausliiga",
+            "team_a": "VPS",
+            "team_b": "KuPS",
+            "logo_a": "https://media.api-sports.io/football/teams/650.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/en/b/bd/KuPS_logo.svg",
+            "time": "21:00 13/06",
+            "blv": "BLV TÁO GIÀ",
             "is_live": true,
             "sport_slug": "bong-da"
           },
@@ -1227,7 +1209,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Thailand U19_Australia U19_20-15 13-06_7767ab27_20260613.png?v=7767ab27",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/VPS_KuPS_21-00 13-06_f01a87d2_20260613.png?v=f01a87d2",
             "width": 1600,
             "height": 1200
           }
@@ -1309,6 +1291,82 @@
           }
         },
         {
+          "id": "xc-2cf9152db0",
+          "name": "Thailand U19 vs Australia U19 | 20:15 13/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-2cf9152db0",
+              "name": "XayConTV",
+              "contents": [
+                {
+                  "id": "ct-2cf9152db0",
+                  "name": "Thailand U19 vs Australia U19",
+                  "streams": [
+                    {
+                      "id": "st-2cf9152db0",
+                      "name": "XC",
+                      "stream_links": [
+                        {
+                          "id": "lnk-30319ba8f3",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://xclive.yarncdn.live/live/xctv_blv_bipcon/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.xaycon3.live/"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://sv2.xaycon3.live"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "ASEAN Championship U19",
+            "team_a": "Thailand U19",
+            "team_b": "Australia U19",
+            "logo_a": "https://media.api-sports.io/football/teams/19155.png",
+            "logo_b": "https://media.api-sports.io/football/teams/22591.png",
+            "time": "20:15",
+            "date": "13/06",
+            "blv": "BLV Bịp Con",
+            "is_live": true,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/xaycon-stream/refs/heads/main/thumbs/xc-2cf9152db0_d320119f_20260613.png?v=d320119f",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "bg-9f4768b4bd",
           "name": "Brazil vs Serbia | 21:00 13/06",
           "type": "single",
@@ -1316,10 +1374,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -1367,7 +1425,7 @@
             "logo_b": "https://ssl.gstatic.com/onebox/media/sports/logos/optimized/xyh1vmZ-xJH2iJCKjqS1Ow_96x96.png",
             "start_time": "2026-06-13T21:00:00",
             "blv": "BLV Tiểu Mèo",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football"
           },
           "image": {
@@ -1517,133 +1575,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-f6e068d2ed_f74f9f28_20260613.png?v=f74f9f28",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "hqlive-ebde73fb95",
-          "name": "VPS vs KuPS | 21:00 13/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-ebde73fb95",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-ebde73fb95",
-                  "name": "VPS vs KuPS",
-                  "streams": [
-                    {
-                      "id": "st-ebde73fb95",
-                      "name": "HQ",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "src-009353c90a",
-              "name": "XayConTV",
-              "contents": [
-                {
-                  "id": "ct-009353c90a",
-                  "name": "VPS vs KuPS",
-                  "streams": [
-                    {
-                      "id": "st-009353c90a",
-                      "name": "Xaycon - BLV Rồng Đất",
-                      "stream_links": [
-                        {
-                          "id": "lnk-221ed1ffcc",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://xclive.yarncdn.live/live/xctv_blv_rongdat/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.xaycon3.live/"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://sv2.xaycon3.live"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "src-1e747ddbea",
-              "name": "BugioTV",
-              "contents": [
-                {
-                  "id": "ct-1e747ddbea",
-                  "name": "VPS vs KuPS",
-                  "streams": [
-                    {
-                      "id": "st-1e747ddbea",
-                      "name": "Bugio - BLV Lavie",
-                      "stream_links": [
-                        {
-                          "id": "lnk-a4a6a520ed",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_lavie/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv1.bugio9.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Veikkausliiga",
-            "team_a": "VPS",
-            "team_b": "KuPS",
-            "logo_a": "https://media.api-sports.io/football/teams/650.png",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/en/b/bd/KuPS_logo.svg",
-            "time": "21:00 13/06",
-            "blv": "BLV TÁO GIÀ",
-            "is_live": false,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/VPS_KuPS_21-00 13-06_f01a87d2_20260613.png?v=f01a87d2",
             "width": 1600,
             "height": 1200
           }
@@ -2693,7 +2624,7 @@
             "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Flag_of_Brazil.svg/1280px-Flag_of_Brazil.svg.png",
             "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Flag_of_Morocco.svg/1280px-Flag_of_Morocco.svg.png",
             "time": "05:00 14/06",
-            "blv": "BLV PHAN MÃ, BLV PHAN QUẨY, BLV PHAN CHỚP",
+            "blv": "BLV PHAN QUẨY, BLV PHAN CHỚP",
             "is_live": false,
             "sport_slug": "bong-da"
           },
@@ -3288,7 +3219,7 @@
             "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Flag_of_Australia_%28converted%29.svg/330px-Flag_of_Australia_%28converted%29.svg.png",
             "logo_b": "https://media.api-sports.io/football/teams/777.png",
             "time": "11:00 14/06",
-            "blv": "BLV PHAN MÃ, BLV THẦN THÔNG, BLV PHAN QUẨY",
+            "blv": "BLV THẦN THÔNG, BLV PHAN QUẨY",
             "is_live": false,
             "sport_slug": "bong-da"
           },
@@ -5092,7 +5023,7 @@
     },
     {
       "id": "grp-bóng-chuyền",
-      "name": "🏐 Bóng Chuyền (1 LIVE)",
+      "name": "🏐 Bóng Chuyền (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -5211,10 +5142,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -5252,6 +5183,41 @@
                   ]
                 }
               ]
+            },
+            {
+              "id": "src-b9df930b91",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-b9df930b91",
+                  "name": "Brazil vs Serbia",
+                  "streams": [
+                    {
+                      "id": "st-b9df930b91",
+                      "name": "Hoiquan - BLV PHAN BÁCH",
+                      "stream_links": [
+                        {
+                          "id": "lnk-eae8482cb7",
+                          "name": "BLV PHAN BÁCH",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanchuot/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
             }
           ],
           "org_metadata": {
@@ -5262,7 +5228,7 @@
             "logo_b": "https://static.flashscore.com/res/image/data/vDiyVxhl-6ys9CWQj.png",
             "time": "21:00 13/06",
             "blv": "blv-sun",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "bongchuyen"
           },
           "image": {
