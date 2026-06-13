@@ -799,11 +799,82 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (3 LIVE)",
+      "name": "⚽ Bóng Đá (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "gv-8763871740",
+          "name": "Qatar vs Thụy Sĩ | 02:00 14/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-8763871740",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-8763871740",
+                  "name": "Qatar vs Thụy Sĩ",
+                  "streams": [
+                    {
+                      "id": "st-8763871740",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-f45fe98654",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1781258431_hd/1781258431_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "FIFA World Cup",
+            "team_a": "Qatar",
+            "team_b": "Thụy Sĩ",
+            "logo_a": "https://images.keovip88.net/images/teams/qatar.png",
+            "logo_b": "https://images.keovip88.net/images/teams/switzerland.png",
+            "time": "02:00 14/06",
+            "blv": "mason-ngọng",
+            "is_live": true,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-8763871740_84c5a340_20260614.png?v=84c5a340",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "hqlive-f063a48c72",
           "name": "Dinamo Brest vs Neman | 01:00 14/06",
@@ -1221,77 +1292,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-a01dfc715d_73a6b4fc_20260614.png?v=73a6b4fc",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-8763871740",
-          "name": "Qatar vs Thụy Sĩ | 02:00 14/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-8763871740",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-8763871740",
-                  "name": "Qatar vs Thụy Sĩ",
-                  "streams": [
-                    {
-                      "id": "st-8763871740",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-f45fe98654",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1781258431_hd/1781258431_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "FIFA World Cup",
-            "team_a": "Qatar",
-            "team_b": "Thụy Sĩ",
-            "logo_a": "https://images.keovip88.net/images/teams/qatar.png",
-            "logo_b": "https://images.keovip88.net/images/teams/switzerland.png",
-            "time": "02:00 14/06",
-            "blv": "mason-ngọng",
-            "is_live": false,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-8763871740_84c5a340_20260614.png?v=84c5a340",
             "width": 1600,
             "height": 1200
           }
@@ -3157,25 +3157,7 @@
                     {
                       "id": "st-ff4cd54b4c",
                       "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-9dde3719ae",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1781371717_hd/1781371717_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
+                      "stream_links": []
                     }
                   ]
                 }
