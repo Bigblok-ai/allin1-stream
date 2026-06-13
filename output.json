@@ -2355,6 +2355,41 @@
                   ]
                 }
               ]
+            },
+            {
+              "id": "src-ac0b236e34",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-ac0b236e34",
+                  "name": "Lahti vs SJK",
+                  "streams": [
+                    {
+                      "id": "st-ac0b236e34",
+                      "name": "Bugio - BLV Lavie",
+                      "stream_links": [
+                        {
+                          "id": "lnk-a4a6a520ed",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_lavie/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
             }
           ],
           "org_metadata": {
@@ -3124,11 +3159,11 @@
                       "name": "GV",
                       "stream_links": [
                         {
-                          "id": "lnk-9c47046145",
+                          "id": "lnk-46d37b5f9b",
                           "name": "Link HD 720p",
                           "type": "hls",
                           "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1781255300_hd/1781255300_hd@720p.m3u8",
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1781344703_hd/1781344703_hd@720p.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -3154,7 +3189,7 @@
             "logo_a": "https://images.keovip88.net/images/teams/tampa-bay-rowdies.png",
             "logo_b": "https://images.keovip88.net/images/teams/hartford-athletic.png",
             "time": "06:30 14/06",
-            "blv": "BLV Hợi",
+            "blv": "blv Mù",
             "is_live": false,
             "cate_type": "football"
           },
@@ -4184,7 +4219,7 @@
     },
     {
       "id": "grp-tennis",
-      "name": "🎾 Tennis",
+      "name": "🎾 Tennis (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -4197,10 +4232,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -4215,7 +4250,25 @@
                     {
                       "id": "st-61f6c8b0cc",
                       "name": "HQ",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-6568b58b01",
+                          "name": "BLV PHAN BỐNG",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanbong/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -4230,7 +4283,7 @@
             "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNZSDJOk9zmiEAUd932qtYHbrfQcbE7f50zQ&s",
             "time": "18:00 13/06",
             "blv": "BLV PHAN BỐNG",
-            "is_live": false,
+            "is_live": true,
             "sport_slug": "tennis"
           },
           "image": {
