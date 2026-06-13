@@ -799,7 +799,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (5 LIVE)",
+      "name": "⚽ Bóng Đá (6 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1057,6 +1057,77 @@
           }
         },
         {
+          "id": "hqlive-f063a48c72",
+          "name": "Dinamo Brest vs Neman | 01:00 14/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-f063a48c72",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-f063a48c72",
+                  "name": "Dinamo Brest vs Neman",
+                  "streams": [
+                    {
+                      "id": "st-f063a48c72",
+                      "name": "HQ",
+                      "stream_links": [
+                        {
+                          "id": "lnk-bc9866f74f",
+                          "name": "BLV PHAN PHÉP",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanphep/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "VĐQG Belarus",
+            "team_a": "Dinamo Brest",
+            "team_b": "Neman",
+            "logo_a": "https://media.api-sports.io/football/teams/386.png",
+            "logo_b": "https://media.api-sports.io/football/teams/387.png",
+            "time": "01:00 14/06",
+            "blv": "BLV PHAN PHÉP",
+            "is_live": true,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Dinamo Brest_Neman_01-00 14-06_85d55996_20260614.png?v=85d55996",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "bg-ac0b236e34",
           "name": "Lahti vs SJK | 23:00 13/06",
           "type": "single",
@@ -1194,59 +1265,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-a714ec6796_106b3af3_20260614.png?v=106b3af3",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "hqlive-f063a48c72",
-          "name": "Dinamo Brest vs Neman | 01:00 14/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-f063a48c72",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-f063a48c72",
-                  "name": "Dinamo Brest vs Neman",
-                  "streams": [
-                    {
-                      "id": "st-f063a48c72",
-                      "name": "HQ",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "VĐQG Belarus",
-            "team_a": "Dinamo Brest",
-            "team_b": "Neman",
-            "logo_a": "https://media.api-sports.io/football/teams/386.png",
-            "logo_b": "https://media.api-sports.io/football/teams/387.png",
-            "time": "01:00 14/06",
-            "blv": "BLV PHAN PHÉP",
-            "is_live": false,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Dinamo Brest_Neman_01-00 14-06_85d55996_20260614.png?v=85d55996",
             "width": 1600,
             "height": 1200
           }
@@ -5632,7 +5650,79 @@
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
-      "channels": []
+      "channels": [
+        {
+          "id": "gv-c2fce02faa",
+          "name": " Topuria vs Gaethje | 07:00 15/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-c2fce02faa",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-c2fce02faa",
+                  "name": " Topuria vs Gaethje",
+                  "streams": [
+                    {
+                      "id": "st-c2fce02faa",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-75802e2c5f",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1781371297_hd/1781371297_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "UFC Freedom 250",
+            "team_a": " Topuria",
+            "team_b": "Gaethje",
+            "logo_a": "https://ufc.com/images/styles/athlete_bio_full_body/s3/2026-06/TOPURIA_ILIA_L_2BELT_06-14.png?itok=zS0sFGU0",
+            "logo_b": "https://i.namu.wiki/i/sKDyqyq918iweCKAIbV5rV6QjHuBvZS0Or8-sG5brIkdvZ4xQTH0IJCPNwf0ZSYeSlT3_EY5QDuq2Omr-XR8-A.webp",
+            "time": "07:00 15/06",
+            "blv": "BLV Dory",
+            "is_live": false,
+            "cate_type": "vothuat"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-c2fce02faa_abc7ac2b_20260614.png?v=abc7ac2b",
+            "width": 1600,
+            "height": 1200
+          }
+        }
+      ]
     },
     {
       "id": "grp-pickleball",
