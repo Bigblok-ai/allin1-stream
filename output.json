@@ -799,7 +799,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (6 LIVE)",
+      "name": "⚽ Bóng Đá (8 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -981,6 +981,192 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Changchun Yatai_Dalian Huayi_14-30 13-06_82d12109_20260613.png?v=82d12109",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-d779617e2c",
+          "name": "Cambodia U19 vs Indonesia U19 | 16:00 13/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-d779617e2c",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-d779617e2c",
+                  "name": "Cambodia U19 vs Indonesia U19",
+                  "streams": [
+                    {
+                      "id": "st-d779617e2c",
+                      "name": "HQ",
+                      "stream_links": [
+                        {
+                          "id": "lnk-b0c182498f",
+                          "name": "BLV PHAN QUẨY",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanquay/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-67a902e205",
+              "name": "XayConTV",
+              "contents": [
+                {
+                  "id": "ct-67a902e205",
+                  "name": "Cambodia U19 vs Indonesia U19",
+                  "streams": [
+                    {
+                      "id": "st-67a902e205",
+                      "name": "Xaycon - BLV Thợ Lặn",
+                      "stream_links": [
+                        {
+                          "id": "lnk-fa5c7698a5",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://xclive.yarncdn.live/live/xctv_blv_tholan/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.xaycon3.live/"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://sv2.xaycon3.live"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "ASEAN Championship U19",
+            "team_a": "Cambodia U19",
+            "team_b": "Indonesia U19",
+            "logo_a": "https://media.api-sports.io/football/teams/19148.png",
+            "logo_b": "https://media.api-sports.io/football/teams/19149.png",
+            "time": "16:00 13/06",
+            "blv": "BLV PHAN QUẨY",
+            "is_live": true,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Cambodia U19_Indonesia U19_16-00 13-06_1109fac1_20260613.png?v=1109fac1",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-e64a899466",
+          "name": "Bulls Academy vs Rydalmere Lions | 16:00 13/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-e64a899466",
+              "name": "XayConTV",
+              "contents": [
+                {
+                  "id": "ct-e64a899466",
+                  "name": "Bulls Academy vs Rydalmere Lions",
+                  "streams": [
+                    {
+                      "id": "st-e64a899466",
+                      "name": "XC",
+                      "stream_links": [
+                        {
+                          "id": "lnk-19bab7f4de",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://xclive.yarncdn.live/live/xctv_blv_aco/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.xaycon3.live/"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://sv2.xaycon3.live"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "New South Wales NPL 2",
+            "team_a": "Bulls Academy",
+            "team_b": "Rydalmere Lions",
+            "logo_a": "https://media.api-sports.io/football/teams/20798.png",
+            "logo_b": "https://media.api-sports.io/football/teams/20797.png",
+            "time": "16:00",
+            "date": "13/06",
+            "blv": "BLV A Cỏ",
+            "is_live": true,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/xaycon-stream/refs/heads/main/thumbs/xc-e64a899466_7d1b4859_20260613.png?v=7d1b4859",
             "width": 1600,
             "height": 1200
           }
@@ -1341,98 +1527,6 @@
           }
         },
         {
-          "id": "hqlive-d779617e2c",
-          "name": "Cambodia U19 vs Indonesia U19 | 16:00 13/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-d779617e2c",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-d779617e2c",
-                  "name": "Cambodia U19 vs Indonesia U19",
-                  "streams": [
-                    {
-                      "id": "st-d779617e2c",
-                      "name": "HQ",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "src-67a902e205",
-              "name": "XayConTV",
-              "contents": [
-                {
-                  "id": "ct-67a902e205",
-                  "name": "Cambodia U19 vs Indonesia U19",
-                  "streams": [
-                    {
-                      "id": "st-67a902e205",
-                      "name": "Xaycon - BLV Thợ Lặn",
-                      "stream_links": [
-                        {
-                          "id": "lnk-fa5c7698a5",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://xclive.yarncdn.live/live/xctv_blv_tholan/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.xaycon3.live/"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://sv2.xaycon3.live"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "ASEAN Championship U19",
-            "team_a": "Cambodia U19",
-            "team_b": "Indonesia U19",
-            "logo_a": "https://media.api-sports.io/football/teams/19148.png",
-            "logo_b": "https://media.api-sports.io/football/teams/19149.png",
-            "time": "16:00 13/06",
-            "blv": "BLV PHAN QUẨY",
-            "is_live": false,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Cambodia U19_Indonesia U19_16-00 13-06_1109fac1_20260613.png?v=1109fac1",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "hqlive-3791eb395e",
           "name": "Laagri vs Kuressaare | 16:30 13/06",
           "type": "single",
@@ -1481,6 +1575,77 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Laagri_Kuressaare_16-30 13-06_749c1e37_20260613.png?v=749c1e37",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-1684decc8c",
+          "name": "Hebei Gongfu vs Suzhou Dongwu | 18:30 13/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-1684decc8c",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-1684decc8c",
+                  "name": "Hebei Gongfu vs Suzhou Dongwu",
+                  "streams": [
+                    {
+                      "id": "st-1684decc8c",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-4f324f78c4",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1781339530_hd/1781339530_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Hạng Nhất Trung Quốc",
+            "team_a": "Hebei Gongfu",
+            "team_b": "Suzhou Dongwu",
+            "logo_a": "https://images.keovip88.net/images/teams/shijiazhuang-kungfu.png",
+            "logo_b": "https://images.keovip88.net/images/teams/suzhou-dongwu.png",
+            "time": "18:30 13/06",
+            "blv": "blv-mat",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-1684decc8c_82bd41e7_20260613.png?v=82bd41e7",
             "width": 1600,
             "height": 1200
           }
@@ -1622,6 +1787,77 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Hebei Kungfu_Suzhou Dongwu_18-30 13-06_cf8676ee_20260613.png?v=cf8676ee",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-9c9b45e5c4",
+          "name": "Ilves Tampere vs TPS Turku | 19:00 13/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-9c9b45e5c4",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-9c9b45e5c4",
+                  "name": "Ilves Tampere vs TPS Turku",
+                  "streams": [
+                    {
+                      "id": "st-9c9b45e5c4",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-33179672de",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1781339676_hd/1781339676_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "VĐQG Phần Lan",
+            "team_a": "Ilves Tampere",
+            "team_b": "TPS Turku",
+            "logo_a": "https://images.keovip88.net/images/teams/ilves-tampere.png",
+            "logo_b": "https://images.keovip88.net/images/teams/tps-turku.png",
+            "time": "19:00 13/06",
+            "blv": "BLV Ben",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-9c9b45e5c4_b4c692f5_20260613.png?v=b4c692f5",
             "width": 1600,
             "height": 1200
           }
@@ -3646,82 +3882,6 @@
           }
         },
         {
-          "id": "xc-e64a899466",
-          "name": "Bulls Academy vs Rydalmere Lions | 16:00 13/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-e64a899466",
-              "name": "XayConTV",
-              "contents": [
-                {
-                  "id": "ct-e64a899466",
-                  "name": "Bulls Academy vs Rydalmere Lions",
-                  "streams": [
-                    {
-                      "id": "st-e64a899466",
-                      "name": "XC",
-                      "stream_links": [
-                        {
-                          "id": "lnk-19bab7f4de",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://xclive.yarncdn.live/live/xctv_blv_aco/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.xaycon3.live/"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://sv2.xaycon3.live"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "New South Wales NPL 2",
-            "team_a": "Bulls Academy",
-            "team_b": "Rydalmere Lions",
-            "logo_a": "https://media.api-sports.io/football/teams/20798.png",
-            "logo_b": "https://media.api-sports.io/football/teams/20797.png",
-            "time": "16:00",
-            "date": "13/06",
-            "blv": "BLV A Cỏ",
-            "is_live": false,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/xaycon-stream/refs/heads/main/thumbs/xc-e64a899466_7d1b4859_20260613.png?v=7d1b4859",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "qc-1038ba529e",
           "name": "Ogre United vs Riga | 18:00 13/06",
           "type": "single",
@@ -5013,8 +5173,8 @@
           }
         },
         {
-          "id": "hqlive-9e5981dbaa",
-          "name": "Cuba vs Slovenia | 19:00 13/06",
+          "id": "gv-ec63ad859b",
+          "name": "Cuba  vs Slovenia | 19:00 13/06",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -5028,17 +5188,35 @@
           ],
           "sources": [
             {
-              "id": "src-9e5981dbaa",
-              "name": "HoiQuanTV",
+              "id": "src-ec63ad859b",
+              "name": "GiovangTV",
               "contents": [
                 {
-                  "id": "ct-9e5981dbaa",
-                  "name": "Cuba vs Slovenia",
+                  "id": "ct-ec63ad859b",
+                  "name": "Cuba  vs Slovenia",
                   "streams": [
                     {
-                      "id": "st-9e5981dbaa",
-                      "name": "HQ",
-                      "stream_links": []
+                      "id": "st-ec63ad859b",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-40300ee110",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1781339445_hd/1781339445_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -5046,21 +5224,21 @@
             }
           ],
           "org_metadata": {
-            "league": "Nation League Men",
-            "team_a": "Cuba",
+            "league": "Nations League ",
+            "team_a": "Cuba ",
             "team_b": "Slovenia",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/b/bd/Flag_of_Cuba.svg",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Flag_of_Slovenia.svg",
+            "logo_a": "https://static.flashscore.com/res/image/data/AmSqkKjl-hIzfuNSD.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/fBWBjchl-dWxvhZJm.png",
             "time": "19:00 13/06",
-            "blv": "BLV PHAN BỐNG",
+            "blv": "BLV Điếc",
             "is_live": false,
-            "sport_slug": "bong-chuyen"
+            "cate_type": "bongchuyen"
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Cuba_Slovenia_19-00 13-06_fe7d43b6_20260613.png?v=fe7d43b6",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-ec63ad859b_a8989fd2_20260613.png?v=a8989fd2",
             "width": 1600,
             "height": 1200
           }
@@ -5857,7 +6035,7 @@
     },
     {
       "id": "grp-bóng-bàn",
-      "name": "🏓 Bóng Bàn",
+      "name": "🏓 Bóng Bàn (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -5870,10 +6048,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -5888,7 +6066,25 @@
                     {
                       "id": "st-66aebf6ba8",
                       "name": "HQ",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-eae8482cb7",
+                          "name": "BLV PHAN BÁCH",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanchuot/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -5903,7 +6099,7 @@
             "logo_b": "https://png.pngtree.com/png-clipart/20190904/original/pngtree-red-table-tennis-racket-illustration-png-image_4502882.jpg",
             "time": "16:00 13/06",
             "blv": "BLV PHAN BÁCH",
-            "is_live": false,
+            "is_live": true,
             "sport_slug": "bong-ban"
           },
           "image": {
