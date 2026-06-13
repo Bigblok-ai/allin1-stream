@@ -799,7 +799,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (8 LIVE)",
+      "name": "⚽ Bóng Đá (7 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -946,77 +946,6 @@
           }
         },
         {
-          "id": "hqlive-d73212445d",
-          "name": "Nanjing City vs Ningbo Professional | 18:30 13/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-d73212445d",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-d73212445d",
-                  "name": "Nanjing City vs Ningbo Professional",
-                  "streams": [
-                    {
-                      "id": "st-d73212445d",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-fd31283a76",
-                          "name": "BLV PHAN ANH",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phananh/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "League One",
-            "team_a": "Nanjing City",
-            "team_b": "Ningbo Professional",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/en/6/63/Nanjing_City_F.C.svg",
-            "logo_b": "https://media.api-sports.io/football/teams/27556.png",
-            "time": "18:30 13/06",
-            "blv": "BLV PHAN ANH",
-            "is_live": true,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Nanjing City_Ningbo Professional_18-30 13-06_d5fb1061_20260613.png?v=d5fb1061",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "hqlive-abd79e6a3b",
           "name": "Ilves vs Turku PS | 19:00 13/06",
           "type": "single",
@@ -1088,6 +1017,116 @@
           }
         },
         {
+          "id": "hqlive-74960f90a4",
+          "name": "Thailand U19 vs Australia U19 | 20:15 13/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-74960f90a4",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-74960f90a4",
+                  "name": "Thailand U19 vs Australia U19",
+                  "streams": [
+                    {
+                      "id": "st-74960f90a4",
+                      "name": "HQ",
+                      "stream_links": [
+                        {
+                          "id": "lnk-c42241b387",
+                          "name": "BLV PHAN MÃ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanma/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-2cf9152db0",
+              "name": "XayConTV",
+              "contents": [
+                {
+                  "id": "ct-2cf9152db0",
+                  "name": "Thailand U19 vs Australia U19",
+                  "streams": [
+                    {
+                      "id": "st-2cf9152db0",
+                      "name": "Xaycon - BLV Bịp Con",
+                      "stream_links": [
+                        {
+                          "id": "lnk-30319ba8f3",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://xclive.yarncdn.live/live/xctv_blv_bipcon/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.xaycon3.live/"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://sv2.xaycon3.live"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "ASEAN Championship U19",
+            "team_a": "Thailand U19",
+            "team_b": "Australia U19",
+            "logo_a": "https://media.api-sports.io/football/teams/19155.png",
+            "logo_b": "https://media.api-sports.io/football/teams/22591.png",
+            "time": "20:15 13/06",
+            "blv": "BLV PHAN MÃ",
+            "is_live": true,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Thailand U19_Australia U19_20-15 13-06_7767ab27_20260613.png?v=7767ab27",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "hqlive-ebde73fb95",
           "name": "VPS vs KuPS | 21:00 13/06",
           "type": "single",
@@ -1113,7 +1152,25 @@
                     {
                       "id": "st-ebde73fb95",
                       "name": "HQ",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-1cad2e4412",
+                          "name": "BLV TÁO GIÀ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://tdlive.yarncdn.live/live/tdtv_blv_taotinhtao/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -1286,82 +1343,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/quechoa-stream/refs/heads/main/thumbs/qc-7119324932_deec56fd_20260613.png?v=deec56fd",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "xc-2cf9152db0",
-          "name": "Thailand U19 vs Australia U19 | 20:15 13/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-2cf9152db0",
-              "name": "XayConTV",
-              "contents": [
-                {
-                  "id": "ct-2cf9152db0",
-                  "name": "Thailand U19 vs Australia U19",
-                  "streams": [
-                    {
-                      "id": "st-2cf9152db0",
-                      "name": "XC",
-                      "stream_links": [
-                        {
-                          "id": "lnk-30319ba8f3",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://xclive.yarncdn.live/live/xctv_blv_bipcon/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.xaycon3.live/"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://sv2.xaycon3.live"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "ASEAN Championship U19",
-            "team_a": "Thailand U19",
-            "team_b": "Australia U19",
-            "logo_a": "https://media.api-sports.io/football/teams/19155.png",
-            "logo_b": "https://media.api-sports.io/football/teams/22591.png",
-            "time": "20:15",
-            "date": "13/06",
-            "blv": "BLV Bịp Con",
-            "is_live": true,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/xaycon-stream/refs/heads/main/thumbs/xc-2cf9152db0_d320119f_20260613.png?v=d320119f",
             "width": 1600,
             "height": 1200
           }
@@ -2624,7 +2605,7 @@
             "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Flag_of_Brazil.svg/1280px-Flag_of_Brazil.svg.png",
             "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Flag_of_Morocco.svg/1280px-Flag_of_Morocco.svg.png",
             "time": "05:00 14/06",
-            "blv": "BLV PHAN QUẨY, BLV PHAN CHỚP",
+            "blv": "BLV PHAN MÃ, BLV PHAN QUẨY, BLV PHAN CHỚP",
             "is_live": false,
             "sport_slug": "bong-da"
           },
@@ -3219,7 +3200,7 @@
             "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Flag_of_Australia_%28converted%29.svg/330px-Flag_of_Australia_%28converted%29.svg.png",
             "logo_b": "https://media.api-sports.io/football/teams/777.png",
             "time": "11:00 14/06",
-            "blv": "BLV THẦN THÔNG, BLV PHAN QUẨY",
+            "blv": "BLV PHAN MÃ, BLV THẦN THÔNG, BLV PHAN QUẨY",
             "is_live": false,
             "sport_slug": "bong-da"
           },
