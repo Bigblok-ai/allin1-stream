@@ -1795,7 +1795,25 @@
                     {
                       "id": "st-330ef5cf98",
                       "name": "GV",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-96c8a8211f",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1781373268_hd/1781373268_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -4905,11 +4923,117 @@
     },
     {
       "id": "grp-bóng-chuyền",
-      "name": "🏐 Bóng Chuyền (1 LIVE)",
+      "name": "🏐 Bóng Chuyền (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "hqlive-a9a8042fe3",
+          "name": "Thổ Nhĩ Kỳ vs Italy | 06:30 14/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-a9a8042fe3",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-a9a8042fe3",
+                  "name": "Thổ Nhĩ Kỳ vs Italy",
+                  "streams": [
+                    {
+                      "id": "st-a9a8042fe3",
+                      "name": "HQ",
+                      "stream_links": [
+                        {
+                          "id": "lnk-f6231c6549",
+                          "name": "BLV PHAN CA",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanca/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-a01dfc715d",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-a01dfc715d",
+                  "name": "Thổ Nhĩ Kỳ -  Ý ",
+                  "streams": [
+                    {
+                      "id": "st-a01dfc715d",
+                      "name": "Bugio - BLV Tiểu Mèo",
+                      "stream_links": [
+                        {
+                          "id": "lnk-21936c1c94",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_tieumeo/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Nation League Men",
+            "team_a": "Thổ Nhĩ Kỳ",
+            "team_b": "Italy",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/b/b4/Flag_of_Turkey.svg",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/0/03/Flag_of_Italy.svg",
+            "time": "06:30 14/06",
+            "blv": "BLV PHAN CA",
+            "is_live": true,
+            "sport_slug": "bong-chuyen"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Thổ Nhĩ Kỳ_Italy_06-30 14-06_05454102_20260614.png?v=05454102",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "bg-a714ec6796",
           "name": "Ukraine - Ba Lan | 12:00 14/06",
@@ -5048,94 +5172,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-6a76002d51_50718af6_20260614.png?v=50718af6",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "hqlive-a9a8042fe3",
-          "name": "Thổ Nhĩ Kỳ vs Italy | 06:30 14/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-a9a8042fe3",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-a9a8042fe3",
-                  "name": "Thổ Nhĩ Kỳ vs Italy",
-                  "streams": [
-                    {
-                      "id": "st-a9a8042fe3",
-                      "name": "HQ",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "src-a01dfc715d",
-              "name": "BugioTV",
-              "contents": [
-                {
-                  "id": "ct-a01dfc715d",
-                  "name": "Thổ Nhĩ Kỳ -  Ý ",
-                  "streams": [
-                    {
-                      "id": "st-a01dfc715d",
-                      "name": "Bugio - BLV Tiểu Mèo",
-                      "stream_links": [
-                        {
-                          "id": "lnk-21936c1c94",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_tieumeo/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv1.bugio9.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Nation League Men",
-            "team_a": "Thổ Nhĩ Kỳ",
-            "team_b": "Italy",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/b/b4/Flag_of_Turkey.svg",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/0/03/Flag_of_Italy.svg",
-            "time": "06:30 14/06",
-            "blv": "BLV PHAN CA",
-            "is_live": false,
-            "sport_slug": "bong-chuyen"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Thổ Nhĩ Kỳ_Italy_06-30 14-06_05454102_20260614.png?v=05454102",
             "width": 1600,
             "height": 1200
           }
