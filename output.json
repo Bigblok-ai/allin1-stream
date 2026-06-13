@@ -799,7 +799,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1099,41 +1099,6 @@
               ]
             },
             {
-              "id": "src-4a64d91322",
-              "name": "BugioTV",
-              "contents": [
-                {
-                  "id": "ct-4a64d91322",
-                  "name": "Qatar vs Switzerland",
-                  "streams": [
-                    {
-                      "id": "st-4a64d91322",
-                      "name": "Bugio - BLV Tiểu Trà Đá",
-                      "stream_links": [
-                        {
-                          "id": "lnk-0ba3f9d037",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_trada/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv1.bugio9.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
               "id": "src-98c56bce74",
               "name": "BugioTV",
               "contents": [
@@ -1197,10 +1162,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -1215,7 +1180,25 @@
                     {
                       "id": "st-446a7e165c",
                       "name": "HQ",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-fd31283a76",
+                          "name": "BLV PHAN ANH",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phananh/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -1230,7 +1213,7 @@
             "logo_b": "https://media.api-sports.io/football/teams/2331.png",
             "time": "04:30 14/06",
             "blv": "BLV PHAN ANH",
-            "is_live": false,
+            "is_live": true,
             "sport_slug": "bong-da"
           },
           "image": {
