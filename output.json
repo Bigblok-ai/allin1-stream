@@ -799,7 +799,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (6 LIVE)",
+      "name": "⚽ Bóng Đá (7 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1202,6 +1202,82 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/quechoa-stream/refs/heads/main/thumbs/qc-7119324932_deec56fd_20260613.png?v=deec56fd",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-73054f98ee",
+          "name": "Rustavi vs Meshakhte | 22:00 13/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-73054f98ee",
+              "name": "XayConTV",
+              "contents": [
+                {
+                  "id": "ct-73054f98ee",
+                  "name": "Rustavi vs Meshakhte",
+                  "streams": [
+                    {
+                      "id": "st-73054f98ee",
+                      "name": "XC",
+                      "stream_links": [
+                        {
+                          "id": "lnk-ab6de9170b",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://xclive.yarncdn.live/live/xctv_blv_quanvu/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.xaycon3.live/"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://sv2.xaycon3.live"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Erovnuli Liga",
+            "team_a": "Rustavi",
+            "team_b": "Meshakhte",
+            "logo_a": "https://media.api-sports.io/football/teams/3501.png",
+            "logo_b": "https://media.api-sports.io/football/teams/13847.png",
+            "time": "22:00",
+            "date": "13/06",
+            "blv": "BLV Quan Vũ",
+            "is_live": true,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/xaycon-stream/refs/heads/main/thumbs/xc-73054f98ee_dd3b002b_20260613.png?v=dd3b002b",
             "width": 1600,
             "height": 1200
           }
@@ -4194,82 +4270,6 @@
           }
         },
         {
-          "id": "xc-73054f98ee",
-          "name": "Rustavi vs Meshakhte | 22:00 13/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-73054f98ee",
-              "name": "XayConTV",
-              "contents": [
-                {
-                  "id": "ct-73054f98ee",
-                  "name": "Rustavi vs Meshakhte",
-                  "streams": [
-                    {
-                      "id": "st-73054f98ee",
-                      "name": "XC",
-                      "stream_links": [
-                        {
-                          "id": "lnk-ab6de9170b",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://xclive.yarncdn.live/live/xctv_blv_quanvu/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.xaycon3.live/"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://sv2.xaycon3.live"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Erovnuli Liga",
-            "team_a": "Rustavi",
-            "team_b": "Meshakhte",
-            "logo_a": "https://media.api-sports.io/football/teams/3501.png",
-            "logo_b": "https://media.api-sports.io/football/teams/13847.png",
-            "time": "22:00",
-            "date": "13/06",
-            "blv": "BLV Quan Vũ",
-            "is_live": false,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/xaycon-stream/refs/heads/main/thumbs/xc-73054f98ee_dd3b002b_20260613.png?v=dd3b002b",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "xc-c0372aa949",
           "name": "Sandviken vs IK brage | 22:00 14/06",
           "type": "single",
@@ -4823,7 +4823,25 @@
                     {
                       "id": "st-7073198ce8",
                       "name": "GV",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-3bd5770136",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1781339008_hd/1781339008_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
