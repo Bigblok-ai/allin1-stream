@@ -799,7 +799,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (8 LIVE)",
+      "name": "⚽ Bóng Đá (10 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -876,6 +876,112 @@
           }
         },
         {
+          "id": "gv-c04f357933",
+          "name": "Inter Turku vs AC Oulu | 19:00 13/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-c04f357933",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-c04f357933",
+                  "name": "Inter Turku vs AC Oulu",
+                  "streams": [
+                    {
+                      "id": "st-c04f357933",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-5410712c32",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1781339854_hd/1781339854_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-d09acd1b9d",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-d09acd1b9d",
+                  "name": "Inter Turku vs AC Oulu",
+                  "streams": [
+                    {
+                      "id": "st-d09acd1b9d",
+                      "name": "Hoiquan - BLV THẦN THÔNG",
+                      "stream_links": [
+                        {
+                          "id": "lnk-b10e5b640b",
+                          "name": "BLV THẦN THÔNG",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://tdlive.yarncdn.live/live/tdtv_blv_taovannghe/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "VĐQG Phần Lan",
+            "team_a": "Inter Turku",
+            "team_b": "AC Oulu",
+            "logo_a": "https://images.keovip88.net/images/teams/inter-turku.png",
+            "logo_b": "https://images.keovip88.net/images/teams/ac-oulu.png",
+            "time": "19:00 13/06",
+            "blv": "BLV Dory",
+            "is_live": true,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-c04f357933_51a470e5_20260613.png?v=51a470e5",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "hqlive-d73212445d",
           "name": "Nanjing City vs Ningbo Professional | 18:30 13/06",
           "type": "single",
@@ -947,8 +1053,8 @@
           }
         },
         {
-          "id": "hqlive-433960c594",
-          "name": "Hebei Kungfu vs Suzhou Dongwu | 18:30 13/06",
+          "id": "hqlive-abd79e6a3b",
+          "name": "Ilves vs Turku PS | 19:00 13/06",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -962,23 +1068,23 @@
           ],
           "sources": [
             {
-              "id": "src-433960c594",
+              "id": "src-abd79e6a3b",
               "name": "HoiQuanTV",
               "contents": [
                 {
-                  "id": "ct-433960c594",
-                  "name": "Hebei Kungfu vs Suzhou Dongwu",
+                  "id": "ct-abd79e6a3b",
+                  "name": "Ilves vs Turku PS",
                   "streams": [
                     {
-                      "id": "st-433960c594",
+                      "id": "st-abd79e6a3b",
                       "name": "HQ",
                       "stream_links": [
                         {
-                          "id": "lnk-1cad2e4412",
-                          "name": "BLV TÁO GIÀ",
+                          "id": "lnk-975fc55dd1",
+                          "name": "BLV LƯƠNG BỔNG",
                           "type": "hls",
                           "default": true,
-                          "url": "https://tdlive.yarncdn.live/live/tdtv_blv_taotinhtao/playlist.m3u8",
+                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanliem/playlist.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -995,51 +1101,16 @@
                   ]
                 }
               ]
-            },
-            {
-              "id": "src-05c7ac9468",
-              "name": "BugioTV",
-              "contents": [
-                {
-                  "id": "ct-05c7ac9468",
-                  "name": "Hebei Kungfu vs Suzhou Dongwu",
-                  "streams": [
-                    {
-                      "id": "st-05c7ac9468",
-                      "name": "Bugio - BLV khô Mực",
-                      "stream_links": [
-                        {
-                          "id": "lnk-41910bf543",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_khomuc/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv1.bugio9.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
             }
           ],
           "org_metadata": {
-            "league": "League One",
-            "team_a": "Hebei Kungfu",
-            "team_b": "Suzhou Dongwu",
-            "logo_a": "https://media.api-sports.io/football/teams/17264.png",
-            "logo_b": "https://media.api-sports.io/football/teams/5688.png",
-            "time": "18:30 13/06",
-            "blv": "BLV TÁO GIÀ",
+            "league": "Veikkausliiga",
+            "team_a": "Ilves",
+            "team_b": "Turku PS",
+            "logo_a": "https://media.api-sports.io/football/teams/1163.png",
+            "logo_b": "https://media.api-sports.io/football/teams/1168.png",
+            "time": "19:00 13/06",
+            "blv": "BLV LƯƠNG BỔNG",
             "is_live": true,
             "sport_slug": "bong-da"
           },
@@ -1047,7 +1118,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Hebei Kungfu_Suzhou Dongwu_18-30 13-06_cf8676ee_20260613.png?v=cf8676ee",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Ilves_Turku PS_19-00 13-06_73da97a2_20260613.png?v=73da97a2",
             "width": 1600,
             "height": 1200
           }
@@ -1239,6 +1310,77 @@
           }
         },
         {
+          "id": "bg-05c7ac9468",
+          "name": "Hebei Kungfu vs Suzhou Dongwu | 18:30 13/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-05c7ac9468",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-05c7ac9468",
+                  "name": "Hebei Kungfu vs Suzhou Dongwu",
+                  "streams": [
+                    {
+                      "id": "st-05c7ac9468",
+                      "name": "BG",
+                      "stream_links": [
+                        {
+                          "id": "lnk-41910bf543",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_khomuc/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "League One",
+            "team_a": "Hebei Kungfu",
+            "team_b": "Suzhou Dongwu",
+            "logo_a": "https://media.api-sports.io/football/teams/17264.png",
+            "logo_b": "https://media.api-sports.io/football/teams/5688.png",
+            "start_time": "2026-06-13T18:30:00",
+            "blv": "BLV khô Mực",
+            "is_live": true,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-05c7ac9468_568eefe1_20260613.png?v=568eefe1",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "bg-35a0f19634",
           "name": "Saudi Arabia W vs Laos W | 19:00 13/06",
           "type": "single",
@@ -1246,10 +1388,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -1297,7 +1439,7 @@
             "logo_b": "https://media.api-sports.io/football/teams/18267.png",
             "start_time": "2026-06-13T19:00:00",
             "blv": "BLV Phi MC",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football"
           },
           "image": {
@@ -1518,130 +1660,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-9c9b45e5c4_b4c692f5_20260613.png?v=b4c692f5",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-c04f357933",
-          "name": "Inter Turku vs AC Oulu | 19:00 13/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-c04f357933",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-c04f357933",
-                  "name": "Inter Turku vs AC Oulu",
-                  "streams": [
-                    {
-                      "id": "st-c04f357933",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-5410712c32",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1781339854_hd/1781339854_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "VĐQG Phần Lan",
-            "team_a": "Inter Turku",
-            "team_b": "AC Oulu",
-            "logo_a": "https://images.keovip88.net/images/teams/inter-turku.png",
-            "logo_b": "https://images.keovip88.net/images/teams/ac-oulu.png",
-            "time": "19:00 13/06",
-            "blv": "BLV Dory",
-            "is_live": false,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-c04f357933_51a470e5_20260613.png?v=51a470e5",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "hqlive-abd79e6a3b",
-          "name": "Ilves vs Turku PS | 19:00 13/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-abd79e6a3b",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-abd79e6a3b",
-                  "name": "Ilves vs Turku PS",
-                  "streams": [
-                    {
-                      "id": "st-abd79e6a3b",
-                      "name": "HQ",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Veikkausliiga",
-            "team_a": "Ilves",
-            "team_b": "Turku PS",
-            "logo_a": "https://media.api-sports.io/football/teams/1163.png",
-            "logo_b": "https://media.api-sports.io/football/teams/1168.png",
-            "time": "19:00 13/06",
-            "blv": "BLV LƯƠNG BỔNG",
-            "is_live": false,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Ilves_Turku PS_19-00 13-06_73da97a2_20260613.png?v=73da97a2",
             "width": 1600,
             "height": 1200
           }
@@ -4606,7 +4624,7 @@
     },
     {
       "id": "grp-bóng-chuyền",
-      "name": "🏐 Bóng Chuyền (1 LIVE)",
+      "name": "🏐 Bóng Chuyền (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -4742,10 +4760,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -4783,6 +4801,41 @@
                   ]
                 }
               ]
+            },
+            {
+              "id": "src-9e5981dbaa",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-9e5981dbaa",
+                  "name": "Cuba vs Slovenia",
+                  "streams": [
+                    {
+                      "id": "st-9e5981dbaa",
+                      "name": "Hoiquan - BLV TÁO GIÀ",
+                      "stream_links": [
+                        {
+                          "id": "lnk-1cad2e4412",
+                          "name": "BLV TÁO GIÀ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://tdlive.yarncdn.live/live/tdtv_blv_taotinhtao/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
             }
           ],
           "org_metadata": {
@@ -4793,7 +4846,7 @@
             "logo_b": "https://static.flashscore.com/res/image/data/fBWBjchl-dWxvhZJm.png",
             "time": "19:00 13/06",
             "blv": "BLV Điếc",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "bongchuyen"
           },
           "image": {
