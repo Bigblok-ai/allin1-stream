@@ -799,7 +799,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (5 LIVE)",
+      "name": "⚽ Bóng Đá (6 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -871,6 +871,77 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-23737134f9_d8846879_20260614.png?v=d8846879",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-fcdd04afb6",
+          "name": "Thór  vs ÍBV | 23:59 14/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-fcdd04afb6",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-fcdd04afb6",
+                  "name": "Thór  vs ÍBV",
+                  "streams": [
+                    {
+                      "id": "st-fcdd04afb6",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-599f70ad5d",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1781451117_hd/1781451117_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "VĐQG Iceland",
+            "team_a": "Thór ",
+            "team_b": "ÍBV",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/en/5/55/Thorsmerki.jpg",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/en/0/07/%C3%8D%C3%BEr%C3%B3ttabandalag_Vestmannaeyja.png",
+            "time": "23:59 14/06",
+            "blv": "blv Mù",
+            "is_live": true,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-fcdd04afb6_50bab90e_20260614.png?v=50bab90e",
             "width": 1600,
             "height": 1200
           }
@@ -974,27 +1045,10 @@
                       "name": "HQ",
                       "stream_links": [
                         {
-                          "id": "lnk-b0c182498f",
-                          "name": "BLV PHAN QUẨY",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanquay/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
                           "id": "lnk-c42241b387",
                           "name": "BLV PHAN MÃ",
                           "type": "hls",
-                          "default": false,
+                          "default": true,
                           "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanma/playlist.m3u8",
                           "request_headers": [
                             {
@@ -1264,7 +1318,7 @@
             "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Flag_of_Germany.svg/1920px-Flag_of_Germany.svg.png",
             "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Flag_of_Cura%C3%A7ao.svg/250px-Flag_of_Cura%C3%A7ao.svg.png",
             "time": "00:00 15/06",
-            "blv": "BLV PHAN QUẨY, BLV PHAN MÃ, BLV PHAN CHỚP",
+            "blv": "BLV PHAN MÃ, BLV PHAN CHỚP",
             "is_live": true,
             "sport_slug": "bong-da"
           },
@@ -1420,77 +1474,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-12b668a1ad_55709bb2_20260614.png?v=55709bb2",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-fcdd04afb6",
-          "name": "Thór  vs ÍBV | 23:59 14/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-fcdd04afb6",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-fcdd04afb6",
-                  "name": "Thór  vs ÍBV",
-                  "streams": [
-                    {
-                      "id": "st-fcdd04afb6",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-599f70ad5d",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1781451117_hd/1781451117_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "VĐQG Iceland",
-            "team_a": "Thór ",
-            "team_b": "ÍBV",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/en/5/55/Thorsmerki.jpg",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/en/0/07/%C3%8D%C3%BEr%C3%B3ttabandalag_Vestmannaeyja.png",
-            "time": "23:59 14/06",
-            "blv": "blv Mù",
-            "is_live": false,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-fcdd04afb6_50bab90e_20260614.png?v=50bab90e",
             "width": 1600,
             "height": 1200
           }
