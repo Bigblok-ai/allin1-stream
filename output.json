@@ -799,7 +799,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (5 LIVE)",
+      "name": "⚽ Bóng Đá (6 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1433,6 +1433,77 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Nublense_Huachipato_07-00 14-06_b8b7ef7a_20260614.png?v=b8b7ef7a",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "bg-197838c579",
+          "name": "Nữ Việt Nam vs Nữ Kazakhstan | 14:30 14/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-197838c579",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-197838c579",
+                  "name": "Nữ Việt Nam vs Nữ Kazakhstan",
+                  "streams": [
+                    {
+                      "id": "st-197838c579",
+                      "name": "BG",
+                      "stream_links": [
+                        {
+                          "id": "lnk-378f040fcb",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_cuccu/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "AVC Nations Cup 2026 ",
+            "team_a": "Nữ Việt Nam",
+            "team_b": "Nữ Kazakhstan",
+            "logo_a": "https://static.flashscore.com/res/image/data/rZCKbaFa-QHeKqeWC.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/hMQTrXVg-Cfuwb3yH.png",
+            "start_time": "2026-06-14T14:30:00",
+            "blv": "BLV Cúc Cu",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-197838c579_2dab26f0_20260614.png?v=2dab26f0",
             "width": 1600,
             "height": 1200
           }
@@ -4841,8 +4912,8 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "hqlive-a9a8042fe3",
-          "name": "Thổ Nhĩ Kỳ vs Italy | 06:30 14/06",
+          "id": "bg-a01dfc715d",
+          "name": "Thổ Nhĩ Kỳ -  Ý  | 06:30 14/06",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -4856,41 +4927,6 @@
           ],
           "sources": [
             {
-              "id": "src-a9a8042fe3",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-a9a8042fe3",
-                  "name": "Thổ Nhĩ Kỳ vs Italy",
-                  "streams": [
-                    {
-                      "id": "st-a9a8042fe3",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-f6231c6549",
-                          "name": "BLV PHAN CA",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanca/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
               "id": "src-a01dfc715d",
               "name": "BugioTV",
               "contents": [
@@ -4900,7 +4936,7 @@
                   "streams": [
                     {
                       "id": "st-a01dfc715d",
-                      "name": "Bugio - BLV Tiểu Mèo",
+                      "name": "BG",
                       "stream_links": [
                         {
                           "id": "lnk-21936c1c94",
@@ -4927,21 +4963,21 @@
             }
           ],
           "org_metadata": {
-            "league": "Nation League Men",
+            "league": "Nations League Men's",
             "team_a": "Thổ Nhĩ Kỳ",
-            "team_b": "Italy",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/b/b4/Flag_of_Turkey.svg",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/0/03/Flag_of_Italy.svg",
-            "time": "06:30 14/06",
-            "blv": "BLV PHAN CA",
+            "team_b": "Ý",
+            "logo_a": "https://static.flashscore.com/res/image/data/byFAJXzS-vBKZiE2j.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/0IAL5Rkl-xCsenx2O.png",
+            "start_time": "2026-06-14T06:30:00",
+            "blv": "BLV Tiểu Mèo",
             "is_live": true,
-            "sport_slug": "bong-chuyen"
+            "cate_type": "bongchuyen"
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Thổ Nhĩ Kỳ_Italy_06-30 14-06_05454102_20260614.png?v=05454102",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-a01dfc715d_73a6b4fc_20260614.png?v=73a6b4fc",
             "width": 1600,
             "height": 1200
           }
