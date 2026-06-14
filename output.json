@@ -799,7 +799,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (4 LIVE)",
+      "name": "⚽ Bóng Đá (5 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -982,6 +982,77 @@
           }
         },
         {
+          "id": "hqlive-a4cd2bd173",
+          "name": "FC Dnepr Mogilev vs Arsenal Dzerzhinsk | 22:00 14/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-a4cd2bd173",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-a4cd2bd173",
+                  "name": "FC Dnepr Mogilev vs Arsenal Dzerzhinsk",
+                  "streams": [
+                    {
+                      "id": "st-a4cd2bd173",
+                      "name": "HQ",
+                      "stream_links": [
+                        {
+                          "id": "lnk-fd31283a76",
+                          "name": "BLV PHAN ANH",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phananh/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "VĐQG Belarus",
+            "team_a": "FC Dnepr Mogilev",
+            "team_b": "Arsenal Dzerzhinsk",
+            "logo_a": "https://media.api-sports.io/football/teams/384.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/3/3b/%D0%A4%D0%9A_%D0%90%D1%80%D1%81%D0%B5%D0%BD%D0%B0%D0%BB_%D0%94%D0%B7%D1%8F%D1%80%D0%B6%D1%8B%D0%BD%D1%81%D0%BA.gif?utm_source=www.wikidata.org&utm_campaign=index&utm_content=thumbnail_unscaled",
+            "time": "22:00 14/06",
+            "blv": "BLV PHAN ANH",
+            "is_live": true,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/FC Dnepr Mogilev_Arsenal Dzerzhinsk_22-00 14-06_681f0c21_20260614.png?v=681f0c21",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "xc-df4f9c56b8",
           "name": "FC Dnepr Mogilev vs Arsenal | 22:00 14/06",
           "type": "single",
@@ -1065,10 +1136,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -1116,7 +1187,7 @@
             "logo_b": "https://media.api-sports.io/football/teams/4544.png",
             "start_time": "2026-06-14T22:00:00",
             "blv": "BLV Lavie",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football"
           },
           "image": {
@@ -1124,59 +1195,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-12b668a1ad_55709bb2_20260614.png?v=55709bb2",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "hqlive-a4cd2bd173",
-          "name": "FC Dnepr Mogilev vs Arsenal Dzerzhinsk | 22:00 14/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-a4cd2bd173",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-a4cd2bd173",
-                  "name": "FC Dnepr Mogilev vs Arsenal Dzerzhinsk",
-                  "streams": [
-                    {
-                      "id": "st-a4cd2bd173",
-                      "name": "HQ",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "VĐQG Belarus",
-            "team_a": "FC Dnepr Mogilev",
-            "team_b": "Arsenal Dzerzhinsk",
-            "logo_a": "https://media.api-sports.io/football/teams/384.png",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/3/3b/%D0%A4%D0%9A_%D0%90%D1%80%D1%81%D0%B5%D0%BD%D0%B0%D0%BB_%D0%94%D0%B7%D1%8F%D1%80%D0%B6%D1%8B%D0%BD%D1%81%D0%BA.gif?utm_source=www.wikidata.org&utm_campaign=index&utm_content=thumbnail_unscaled",
-            "time": "22:00 14/06",
-            "blv": "BLV PHAN ANH",
-            "is_live": false,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/FC Dnepr Mogilev_Arsenal Dzerzhinsk_22-00 14-06_681f0c21_20260614.png?v=681f0c21",
             "width": 1600,
             "height": 1200
           }
@@ -1540,25 +1558,7 @@
                     {
                       "id": "st-d72ed53841",
                       "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-30d4e3f3cd",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1781366554_hd/1781366554_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
+                      "stream_links": []
                     }
                   ]
                 }
@@ -2032,25 +2032,7 @@
                     {
                       "id": "st-99240ec685",
                       "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-45fa4cfe09",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1781366797_hd/1781366797_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
+                      "stream_links": []
                     }
                   ]
                 }
