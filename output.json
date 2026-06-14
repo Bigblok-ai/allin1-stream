@@ -799,7 +799,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (9 LIVE)",
+      "name": "⚽ Bóng Đá (10 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1270,6 +1270,112 @@
           }
         },
         {
+          "id": "hqlive-7cf8b1fad3",
+          "name": "Ulytau vs Zhenys | 19:00 14/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-7cf8b1fad3",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-7cf8b1fad3",
+                  "name": "Ulytau vs Zhenys",
+                  "streams": [
+                    {
+                      "id": "st-7cf8b1fad3",
+                      "name": "HQ",
+                      "stream_links": [
+                        {
+                          "id": "lnk-bc9866f74f",
+                          "name": "BLV PHAN PHÉP",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanphep/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-71e63ef5b7",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-71e63ef5b7",
+                  "name": "Ulytau vs Zhenys",
+                  "streams": [
+                    {
+                      "id": "st-71e63ef5b7",
+                      "name": "Bugio - BLV Mao Từn",
+                      "stream_links": [
+                        {
+                          "id": "lnk-51a73d71ba",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_mason/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Ngoại hạng Kazakhstan",
+            "team_a": "Ulytau",
+            "team_b": "Zhenys",
+            "logo_a": "https://media.api-sports.io/football/teams/21010.png",
+            "logo_b": "https://media.api-sports.io/football/teams/16611.png",
+            "time": "19:00 14/06",
+            "blv": "BLV PHAN PHÉP",
+            "is_live": true,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Ulytau_Zhenys_19-00 14-06_83624105_20260614.png?v=83624105",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "bg-358f9e7be0",
           "name": "Nữ Đài Loan ( Trung Quốc ) vs Nữ Hàn Quốc | 18:00 14/06",
           "type": "single",
@@ -1478,94 +1584,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-12b668a1ad_55709bb2_20260614.png?v=55709bb2",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "hqlive-7cf8b1fad3",
-          "name": "Ulytau vs Zhenys | 19:00 14/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-7cf8b1fad3",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-7cf8b1fad3",
-                  "name": "Ulytau vs Zhenys",
-                  "streams": [
-                    {
-                      "id": "st-7cf8b1fad3",
-                      "name": "HQ",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "src-71e63ef5b7",
-              "name": "BugioTV",
-              "contents": [
-                {
-                  "id": "ct-71e63ef5b7",
-                  "name": "Ulytau vs Zhenys",
-                  "streams": [
-                    {
-                      "id": "st-71e63ef5b7",
-                      "name": "Bugio - BLV Mao Từn",
-                      "stream_links": [
-                        {
-                          "id": "lnk-51a73d71ba",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_mason/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv1.bugio9.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Ngoại hạng Kazakhstan",
-            "team_a": "Ulytau",
-            "team_b": "Zhenys",
-            "logo_a": "https://media.api-sports.io/football/teams/21010.png",
-            "logo_b": "https://media.api-sports.io/football/teams/16611.png",
-            "time": "19:00 14/06",
-            "blv": "BLV PHAN PHÉP",
-            "is_live": false,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Ulytau_Zhenys_19-00 14-06_83624105_20260614.png?v=83624105",
             "width": 1600,
             "height": 1200
           }
@@ -3728,7 +3746,7 @@
     },
     {
       "id": "grp-tennis",
-      "name": "🎾 Tennis",
+      "name": "🎾 Tennis (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -3741,10 +3759,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -3759,7 +3777,25 @@
                     {
                       "id": "st-bc5b8f5588",
                       "name": "HQ",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-6568b58b01",
+                          "name": "BLV PHAN BỐNG",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanbong/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -3774,7 +3810,7 @@
             "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNZSDJOk9zmiEAUd932qtYHbrfQcbE7f50zQ&s",
             "time": "19:00 14/06",
             "blv": "BLV PHAN BỐNG",
-            "is_live": false,
+            "is_live": true,
             "sport_slug": "tennis"
           },
           "image": {
@@ -4205,11 +4241,152 @@
     },
     {
       "id": "grp-bóng-chuyền",
-      "name": "🏐 Bóng Chuyền (2 LIVE)",
+      "name": "🏐 Bóng Chuyền (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "gv-f1a8e11cac",
+          "name": "Slovenia vs Japan | 19:00 14/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-f1a8e11cac",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-f1a8e11cac",
+                  "name": "Slovenia vs Japan",
+                  "streams": [
+                    {
+                      "id": "st-f1a8e11cac",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-7d72fe9178",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1781372926_hd/1781372926_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-d1a07f67db",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-d1a07f67db",
+                  "name": "Slovenia vs Nhật Bản",
+                  "streams": [
+                    {
+                      "id": "st-d1a07f67db",
+                      "name": "Hoiquan - BLV PHAN CHỚP",
+                      "stream_links": [
+                        {
+                          "id": "lnk-b3ac35be40",
+                          "name": "BLV PHAN CHỚP",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanchop/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-043c2ec6c6",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-043c2ec6c6",
+                  "name": "Slovenia - Nhật Bản ",
+                  "streams": [
+                    {
+                      "id": "st-043c2ec6c6",
+                      "name": "Bugio - BLV Cúc Cu",
+                      "stream_links": [
+                        {
+                          "id": "lnk-378f040fcb",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_cuccu/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Nations League",
+            "team_a": "Slovenia",
+            "team_b": "Japan",
+            "logo_a": "https://static.flashscore.com/res/image/data/fBWBjchl-dWxvhZJm.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/f552VMEa-E1YhvyqD.png",
+            "time": "19:00 14/06",
+            "blv": "blv-sun",
+            "is_live": true,
+            "cate_type": "bongchuyen"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-f1a8e11cac_d574a545_20260614.png?v=d574a545",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "hqlive-049e12b216",
           "name": "Hàn Quốc vs Đài Loan | 18:00 14/06",
@@ -4348,112 +4525,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-9f93557d30_063cd0c4_20260614.png?v=063cd0c4",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-f1a8e11cac",
-          "name": "Slovenia vs Japan | 19:00 14/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-f1a8e11cac",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-f1a8e11cac",
-                  "name": "Slovenia vs Japan",
-                  "streams": [
-                    {
-                      "id": "st-f1a8e11cac",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-7d72fe9178",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1781372926_hd/1781372926_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "src-043c2ec6c6",
-              "name": "BugioTV",
-              "contents": [
-                {
-                  "id": "ct-043c2ec6c6",
-                  "name": "Slovenia - Nhật Bản ",
-                  "streams": [
-                    {
-                      "id": "st-043c2ec6c6",
-                      "name": "Bugio - BLV Cúc Cu",
-                      "stream_links": [
-                        {
-                          "id": "lnk-378f040fcb",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_cuccu/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv1.bugio9.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Nations League",
-            "team_a": "Slovenia",
-            "team_b": "Japan",
-            "logo_a": "https://static.flashscore.com/res/image/data/fBWBjchl-dWxvhZJm.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/f552VMEa-E1YhvyqD.png",
-            "time": "19:00 14/06",
-            "blv": "blv-sun",
-            "is_live": false,
-            "cate_type": "bongchuyen"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-f1a8e11cac_d574a545_20260614.png?v=d574a545",
             "width": 1600,
             "height": 1200
           }
