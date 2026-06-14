@@ -799,7 +799,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (6 LIVE)",
+      "name": "⚽ Bóng Đá (7 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1438,6 +1438,77 @@
           }
         },
         {
+          "id": "hqlive-da805abcde",
+          "name": "Oakland Roots vs Miami FC | 09:00 14/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-da805abcde",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-da805abcde",
+                  "name": "Oakland Roots vs Miami FC",
+                  "streams": [
+                    {
+                      "id": "st-da805abcde",
+                      "name": "HQ",
+                      "stream_links": [
+                        {
+                          "id": "lnk-f6231c6549",
+                          "name": "BLV PHAN CA",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanca/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "USL Championship",
+            "team_a": "Oakland Roots",
+            "team_b": "Miami FC",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/en/thumb/e/e6/Oakland_Roots_SC_logo.svg/250px-Oakland_Roots_SC_logo.svg.png",
+            "logo_b": "https://media.api-sports.io/football/teams/9030.png",
+            "time": "09:00 14/06",
+            "blv": "BLV PHAN CA",
+            "is_live": true,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Oakland Roots_Miami FC_09-00 14-06_d49508c6_20260614.png?v=d49508c6",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "bg-197838c579",
           "name": "Nữ Việt Nam vs Nữ Kazakhstan | 14:30 14/06",
           "type": "single",
@@ -1504,59 +1575,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-197838c579_2dab26f0_20260614.png?v=2dab26f0",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "hqlive-da805abcde",
-          "name": "Oakland Roots vs Miami FC | 09:00 14/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-da805abcde",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-da805abcde",
-                  "name": "Oakland Roots vs Miami FC",
-                  "streams": [
-                    {
-                      "id": "st-da805abcde",
-                      "name": "HQ",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "USL Championship",
-            "team_a": "Oakland Roots",
-            "team_b": "Miami FC",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/en/thumb/e/e6/Oakland_Roots_SC_logo.svg/250px-Oakland_Roots_SC_logo.svg.png",
-            "logo_b": "https://media.api-sports.io/football/teams/9030.png",
-            "time": "09:00 14/06",
-            "blv": "BLV PHAN CA",
-            "is_live": false,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Oakland Roots_Miami FC_09-00 14-06_d49508c6_20260614.png?v=d49508c6",
             "width": 1600,
             "height": 1200
           }
