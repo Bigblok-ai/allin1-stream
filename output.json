@@ -799,7 +799,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (10 LIVE)",
+      "name": "⚽ Bóng Đá (12 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1376,6 +1376,192 @@
           }
         },
         {
+          "id": "hqlive-a72005a059",
+          "name": "Ljungskile SK vs Ostersunds FK | 20:00 14/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-a72005a059",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-a72005a059",
+                  "name": "Ljungskile SK vs Ostersunds FK",
+                  "streams": [
+                    {
+                      "id": "st-a72005a059",
+                      "name": "HQ",
+                      "stream_links": [
+                        {
+                          "id": "lnk-b10e5b640b",
+                          "name": "BLV THẦN THÔNG",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://tdlive.yarncdn.live/live/tdtv_blv_taovannghe/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-fd12d166a8",
+              "name": "XayConTV",
+              "contents": [
+                {
+                  "id": "ct-fd12d166a8",
+                  "name": "Ljungskile SK vs Ostersunds FK",
+                  "streams": [
+                    {
+                      "id": "st-fd12d166a8",
+                      "name": "Xaycon - BLV Bịp Con",
+                      "stream_links": [
+                        {
+                          "id": "lnk-30319ba8f3",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://xclive.yarncdn.live/live/xctv_blv_bipcon/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.xaycon3.live/"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://sv2.xaycon3.live"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Superettan",
+            "team_a": "Ljungskile SK",
+            "team_b": "Ostersunds FK",
+            "logo_a": "https://media.api-sports.io/football/teams/2165.png",
+            "logo_b": "https://media.api-sports.io/football/teams/376.png",
+            "time": "20:00 14/06",
+            "blv": "BLV THẦN THÔNG",
+            "is_live": true,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Ljungskile SK_Ostersunds FK_20-00 14-06_252e188a_20260614.png?v=252e188a",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-c8e2edaae6",
+          "name": "Falkenbergs FF vs Orebro SK | 20:00 14/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-c8e2edaae6",
+              "name": "XayConTV",
+              "contents": [
+                {
+                  "id": "ct-c8e2edaae6",
+                  "name": "Falkenbergs FF vs Orebro SK",
+                  "streams": [
+                    {
+                      "id": "st-c8e2edaae6",
+                      "name": "XC",
+                      "stream_links": [
+                        {
+                          "id": "lnk-fa5c7698a5",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://xclive.yarncdn.live/live/xctv_blv_tholan/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.xaycon3.live/"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://sv2.xaycon3.live"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Superettan",
+            "team_a": "Falkenbergs FF",
+            "team_b": "Orebro SK",
+            "logo_a": "https://media.api-sports.io/football/teams/812.png",
+            "logo_b": "https://media.api-sports.io/football/teams/365.png",
+            "time": "20:00",
+            "date": "14/06",
+            "blv": "BLV Thợ Lặn",
+            "is_live": true,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/xaycon-stream/refs/heads/main/thumbs/xc-c8e2edaae6_e6eac2f5_20260614.png?v=e6eac2f5",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "bg-358f9e7be0",
           "name": "Nữ Đài Loan ( Trung Quốc ) vs Nữ Hàn Quốc | 18:00 14/06",
           "type": "single",
@@ -1454,10 +1640,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -1505,7 +1691,7 @@
             "logo_b": "https://media.api-sports.io/football/teams/8035.png",
             "start_time": "2026-06-14T20:00:00",
             "blv": "BLV Lavie",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football"
           },
           "image": {
@@ -1584,98 +1770,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-12b668a1ad_55709bb2_20260614.png?v=55709bb2",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "hqlive-a72005a059",
-          "name": "Ljungskile SK vs Ostersunds FK | 20:00 14/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-a72005a059",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-a72005a059",
-                  "name": "Ljungskile SK vs Ostersunds FK",
-                  "streams": [
-                    {
-                      "id": "st-a72005a059",
-                      "name": "HQ",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "src-fd12d166a8",
-              "name": "XayConTV",
-              "contents": [
-                {
-                  "id": "ct-fd12d166a8",
-                  "name": "Ljungskile SK vs Ostersunds FK",
-                  "streams": [
-                    {
-                      "id": "st-fd12d166a8",
-                      "name": "Xaycon - BLV Bịp Con",
-                      "stream_links": [
-                        {
-                          "id": "lnk-30319ba8f3",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://xclive.yarncdn.live/live/xctv_blv_bipcon/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.xaycon3.live/"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://sv2.xaycon3.live"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Superettan",
-            "team_a": "Ljungskile SK",
-            "team_b": "Ostersunds FK",
-            "logo_a": "https://media.api-sports.io/football/teams/2165.png",
-            "logo_b": "https://media.api-sports.io/football/teams/376.png",
-            "time": "20:00 14/06",
-            "blv": "BLV THẦN THÔNG",
-            "is_live": false,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Ljungskile SK_Ostersunds FK_20-00 14-06_252e188a_20260614.png?v=252e188a",
             "width": 1600,
             "height": 1200
           }
@@ -3393,82 +3487,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/xaycon-stream/refs/heads/main/thumbs/xc-6a555bab98_b89bc67a_20260614.png?v=b89bc67a",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "xc-c8e2edaae6",
-          "name": "Falkenbergs FF vs Orebro SK | 20:00 14/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-c8e2edaae6",
-              "name": "XayConTV",
-              "contents": [
-                {
-                  "id": "ct-c8e2edaae6",
-                  "name": "Falkenbergs FF vs Orebro SK",
-                  "streams": [
-                    {
-                      "id": "st-c8e2edaae6",
-                      "name": "XC",
-                      "stream_links": [
-                        {
-                          "id": "lnk-fa5c7698a5",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://xclive.yarncdn.live/live/xctv_blv_tholan/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.xaycon3.live/"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://sv2.xaycon3.live"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Superettan",
-            "team_a": "Falkenbergs FF",
-            "team_b": "Orebro SK",
-            "logo_a": "https://media.api-sports.io/football/teams/812.png",
-            "logo_b": "https://media.api-sports.io/football/teams/365.png",
-            "time": "20:00",
-            "date": "14/06",
-            "blv": "BLV Thợ Lặn",
-            "is_live": false,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/xaycon-stream/refs/heads/main/thumbs/xc-c8e2edaae6_e6eac2f5_20260614.png?v=e6eac2f5",
             "width": 1600,
             "height": 1200
           }
