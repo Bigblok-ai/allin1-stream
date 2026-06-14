@@ -799,7 +799,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (3 LIVE)",
+      "name": "⚽ Bóng Đá (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -977,6 +977,82 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/São Bernardo_Sport Recife_21-00 14-06_d22b4f20_20260614.png?v=d22b4f20",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-df4f9c56b8",
+          "name": "FC Dnepr Mogilev vs Arsenal | 22:00 14/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-df4f9c56b8",
+              "name": "XayConTV",
+              "contents": [
+                {
+                  "id": "ct-df4f9c56b8",
+                  "name": "FC Dnepr Mogilev vs Arsenal",
+                  "streams": [
+                    {
+                      "id": "st-df4f9c56b8",
+                      "name": "XC",
+                      "stream_links": [
+                        {
+                          "id": "lnk-bccd486b79",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://xclive.yarncdn.live/live/xctv_blv_tammao/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.xaycon3.live/"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://sv2.xaycon3.live"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Premier League",
+            "team_a": "FC Dnepr Mogilev",
+            "team_b": "Arsenal Dzyarzhynsk",
+            "logo_a": "https://media.api-sports.io/football/teams/384.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/en/2/20/FC_Arsenal_Dzerzhinsk.png",
+            "time": "22:00",
+            "date": "14/06",
+            "blv": "BLV Tam Mao",
+            "is_live": true,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/xaycon-stream/refs/heads/main/thumbs/xc-df4f9c56b8_bc2b3828_20260614.png?v=bc2b3828",
             "width": 1600,
             "height": 1200
           }
@@ -2835,82 +2911,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/xaycon-stream/refs/heads/main/thumbs/xc-6a555bab98_b89bc67a_20260614.png?v=b89bc67a",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "xc-df4f9c56b8",
-          "name": "FC Dnepr Mogilev vs Arsenal | 22:00 14/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-df4f9c56b8",
-              "name": "XayConTV",
-              "contents": [
-                {
-                  "id": "ct-df4f9c56b8",
-                  "name": "FC Dnepr Mogilev vs Arsenal",
-                  "streams": [
-                    {
-                      "id": "st-df4f9c56b8",
-                      "name": "XC",
-                      "stream_links": [
-                        {
-                          "id": "lnk-bccd486b79",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://xclive.yarncdn.live/live/xctv_blv_tammao/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.xaycon3.live/"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://sv2.xaycon3.live"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Premier League",
-            "team_a": "FC Dnepr Mogilev",
-            "team_b": "Arsenal Dzyarzhynsk",
-            "logo_a": "https://media.api-sports.io/football/teams/384.png",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/en/2/20/FC_Arsenal_Dzerzhinsk.png",
-            "time": "22:00",
-            "date": "14/06",
-            "blv": "BLV Tam Mao",
-            "is_live": false,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/xaycon-stream/refs/heads/main/thumbs/xc-df4f9c56b8_bc2b3828_20260614.png?v=bc2b3828",
             "width": 1600,
             "height": 1200
           }
