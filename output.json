@@ -799,7 +799,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (4 LIVE)",
+      "name": "⚽ Bóng Đá (5 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1123,6 +1123,77 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-04fcc65450_c33a0e52_20260614.png?v=c33a0e52",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "bg-12b668a1ad",
+          "name": "Aktobe vs Altay | 22:00 14/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-12b668a1ad",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-12b668a1ad",
+                  "name": "Aktobe vs Altay",
+                  "streams": [
+                    {
+                      "id": "st-12b668a1ad",
+                      "name": "BG",
+                      "stream_links": [
+                        {
+                          "id": "lnk-a4a6a520ed",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_lavie/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Premier League",
+            "team_a": "Aktobe",
+            "team_b": "Altay",
+            "logo_a": "https://media.api-sports.io/football/teams/4563.png",
+            "logo_b": "https://media.api-sports.io/football/teams/4544.png",
+            "start_time": "2026-06-14T22:00:00",
+            "blv": "BLV Lavie",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-12b668a1ad_55709bb2_20260614.png?v=55709bb2",
             "width": 1600,
             "height": 1200
           }
@@ -3420,7 +3491,7 @@
             "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSl9R6kSUaK1IniSCig02CElBV4VocnB6wxA-E8XyDHBA&s",
             "logo_b": "https://pbs.twimg.com/media/Gr5VwgSXoAA3ipY?format=jpg&name=large",
             "time": "19:30 14/06",
-            "blv": "BLV PHAN BỐNG",
+            "blv": "BLV PHAN CA",
             "is_live": false,
             "sport_slug": "tennis"
           },
