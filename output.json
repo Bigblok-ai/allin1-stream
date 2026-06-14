@@ -4423,7 +4423,7 @@
     },
     {
       "id": "grp-bóng-rổ",
-      "name": "🏀 Bóng Rổ (2 LIVE)",
+      "name": "🏀 Bóng Rổ (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -4578,10 +4578,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -4619,6 +4619,41 @@
                   ]
                 }
               ]
+            },
+            {
+              "id": "src-a102745c43",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-a102745c43",
+                  "name": "San Antonio Spurs vs New York Knicks",
+                  "streams": [
+                    {
+                      "id": "st-a102745c43",
+                      "name": "Hoiquan - BLV PHAN PHÉP",
+                      "stream_links": [
+                        {
+                          "id": "lnk-bc9866f74f",
+                          "name": "BLV PHAN PHÉP",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanphep/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
             }
           ],
           "org_metadata": {
@@ -4629,7 +4664,7 @@
             "logo_b": "https://static.flashscore.com/res/image/data/UBTxFpcM-I30Q0K9l.png",
             "time": "07:30 14/06",
             "blv": "BLV Cầy, blv-lac",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "basketball"
           },
           "image": {
