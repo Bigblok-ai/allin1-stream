@@ -799,7 +799,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (4 LIVE)",
+      "name": "⚽ Bóng Đá (5 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -954,10 +954,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -1005,7 +1005,7 @@
             "logo_b": "https://static.flashscore.com/res/image/data/hMQTrXVg-Cfuwb3yH.png",
             "start_time": "2026-06-14T14:30:00",
             "blv": "BLV Cúc Cu",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football"
           },
           "image": {
@@ -1084,6 +1084,77 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-358f9e7be0_30c53834_20260614.png?v=30c53834",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "bg-04fcc65450",
+          "name": "Al Taliya vs Al Wahda | 20:00 14/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-04fcc65450",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-04fcc65450",
+                  "name": "Al Taliya vs Al Wahda",
+                  "streams": [
+                    {
+                      "id": "st-04fcc65450",
+                      "name": "BG",
+                      "stream_links": [
+                        {
+                          "id": "lnk-a4a6a520ed",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_lavie/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Premier League",
+            "team_a": "Al Taliya",
+            "team_b": "Al Wahda",
+            "logo_a": "https://media.api-sports.io/football/teams/9113.png",
+            "logo_b": "https://media.api-sports.io/football/teams/8035.png",
+            "start_time": "2026-06-14T20:00:00",
+            "blv": "BLV Lavie",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-04fcc65450_c33a0e52_20260614.png?v=c33a0e52",
             "width": 1600,
             "height": 1200
           }
@@ -4085,7 +4156,7 @@
     },
     {
       "id": "grp-bóng-chuyền",
-      "name": "🏐 Bóng Chuyền (4 LIVE)",
+      "name": "🏐 Bóng Chuyền (5 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -4157,6 +4228,112 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-3b30af6ad3_5dd642f8_20260614.png?v=5dd642f8",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-db2873d035",
+          "name": "Việt Nam vs Kazakhstan | 14:30 14/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-db2873d035",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-db2873d035",
+                  "name": "Việt Nam vs Kazakhstan",
+                  "streams": [
+                    {
+                      "id": "st-db2873d035",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-1ea287eca6",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1781373876_hd/1781373876_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-ebfd24a524",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-ebfd24a524",
+                  "name": "Việt Nam vs Kazakhstan",
+                  "streams": [
+                    {
+                      "id": "st-ebfd24a524",
+                      "name": "Hoiquan - BLV PHAN BÁCH",
+                      "stream_links": [
+                        {
+                          "id": "lnk-eae8482cb7",
+                          "name": "BLV PHAN BÁCH",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanchuot/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "AVC Women's Cup",
+            "team_a": "Việt Nam",
+            "team_b": "Kazakhstan",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Flag_of_Vietnam.svg/1280px-Flag_of_Vietnam.svg.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/hMQTrXVg-Cfuwb3yH.png",
+            "time": "14:30 14/06",
+            "blv": "blv-sun",
+            "is_live": true,
+            "cate_type": "bongchuyen"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-db2873d035_689b200f_20260614.png?v=689b200f",
             "width": 1600,
             "height": 1200
           }
@@ -4370,77 +4547,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-9f93557d30_063cd0c4_20260614.png?v=063cd0c4",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-db2873d035",
-          "name": "Việt Nam vs Kazakhstan | 14:30 14/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-db2873d035",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-db2873d035",
-                  "name": "Việt Nam vs Kazakhstan",
-                  "streams": [
-                    {
-                      "id": "st-db2873d035",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-1ea287eca6",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1781373876_hd/1781373876_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "AVC Women's Cup",
-            "team_a": "Việt Nam",
-            "team_b": "Kazakhstan",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Flag_of_Vietnam.svg/1280px-Flag_of_Vietnam.svg.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/hMQTrXVg-Cfuwb3yH.png",
-            "time": "14:30 14/06",
-            "blv": "blv-sun",
-            "is_live": false,
-            "cate_type": "bongchuyen"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-db2873d035_689b200f_20260614.png?v=689b200f",
             "width": 1600,
             "height": 1200
           }
