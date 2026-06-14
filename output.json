@@ -2858,7 +2858,7 @@
     },
     {
       "id": "grp-bóng-rổ",
-      "name": "🏀 Bóng Rổ",
+      "name": "🏀 Bóng Rổ (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -2871,10 +2871,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -2922,7 +2922,7 @@
             "logo_b": "https://static.flashscore.com/res/image/data/UFmsOtyB-0xo9H7fm.png",
             "time": "01:00 15/06",
             "blv": "BLV Tôm",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "basketball"
           },
           "image": {
@@ -3017,117 +3017,11 @@
     },
     {
       "id": "grp-bóng-chuyền",
-      "name": "🏐 Bóng Chuyền (3 LIVE)",
+      "name": "🏐 Bóng Chuyền (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-7584033a6b",
-          "name": "Đức vs Pháp | 22:00 14/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-7584033a6b",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-7584033a6b",
-                  "name": "Đức vs Pháp",
-                  "streams": [
-                    {
-                      "id": "st-7584033a6b",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-93b0d75077",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1781434565_hd/1781434565_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "src-cae737147b",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-cae737147b",
-                  "name": "Đức vs Pháp",
-                  "streams": [
-                    {
-                      "id": "st-cae737147b",
-                      "name": "Hoiquan - BLV PHAN BỐNG",
-                      "stream_links": [
-                        {
-                          "id": "lnk-6568b58b01",
-                          "name": "BLV PHAN BỐNG",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanbong/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Nations League",
-            "team_a": "Đức",
-            "team_b": "Pháp",
-            "logo_a": "https://static.flashscore.com/res/image/data/zP226aXg-fB4vYUZp.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/I5PqTkcM-U3HPIwDq.png",
-            "time": "22:00 14/06",
-            "blv": "BLV Tôm",
-            "is_live": true,
-            "cate_type": "bongchuyen"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-7584033a6b_08da5686_20260615.png?v=08da5686",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-14f6a76431",
           "name": "Bulgaria  vs Serbia | 00:30 15/06",
