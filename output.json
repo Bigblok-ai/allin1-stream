@@ -799,7 +799,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1066,7 +1066,7 @@
           }
         },
         {
-          "id": "bg-91bc333f69",
+          "id": "bg-48f7d3043b",
           "name": "Thụy Điển vs Tunisia | 09:00 15/06",
           "type": "single",
           "display": "thumbnail-only",
@@ -1081,41 +1081,6 @@
           ],
           "sources": [
             {
-              "id": "src-91bc333f69",
-              "name": "BugioTV",
-              "contents": [
-                {
-                  "id": "ct-91bc333f69",
-                  "name": "Thụy Điển vs Tunisia",
-                  "streams": [
-                    {
-                      "id": "st-91bc333f69",
-                      "name": "BG",
-                      "stream_links": [
-                        {
-                          "id": "lnk-448842e236",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_lenh/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv1.bugio9.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
               "id": "src-48f7d3043b",
               "name": "BugioTV",
               "contents": [
@@ -1125,7 +1090,7 @@
                   "streams": [
                     {
                       "id": "st-48f7d3043b",
-                      "name": "Bugio - BLV Mao Từn",
+                      "name": "BG",
                       "stream_links": [
                         {
                           "id": "lnk-51a73d71ba",
@@ -1158,7 +1123,7 @@
             "logo_a": "https://media.api-sports.io/football/teams/5.png",
             "logo_b": "https://media.api-sports.io/football/teams/28.png",
             "start_time": "2026-06-15T09:00:00",
-            "blv": "BLV Lềnh",
+            "blv": "BLV Mao Từn",
             "is_live": true,
             "cate_type": "football"
           },
@@ -1166,7 +1131,78 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-91bc333f69_b794fc3c_20260615.png?v=b794fc3c",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-48f7d3043b_b794fc3c_20260615.png?v=b794fc3c",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "bg-2c26f9a59b",
+          "name": "Negelle Arsi vs Awassa Kenema | 17:00 15/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-2c26f9a59b",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-2c26f9a59b",
+                  "name": "Negelle Arsi vs Awassa Kenema",
+                  "streams": [
+                    {
+                      "id": "st-2c26f9a59b",
+                      "name": "BG",
+                      "stream_links": [
+                        {
+                          "id": "lnk-a4a6a520ed",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_lavie/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Premier League",
+            "team_a": "Negelle Arsi",
+            "team_b": "Awassa Kenema",
+            "logo_a": "https://media.api-sports.io/football/teams/26881.png",
+            "logo_b": "https://media.api-sports.io/football/teams/4111.png",
+            "start_time": "2026-06-15T17:00:00",
+            "blv": "BLV Lavie",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-2c26f9a59b_f539cb5e_20260615.png?v=f539cb5e",
             "width": 1600,
             "height": 1200
           }
@@ -2725,11 +2761,65 @@
     },
     {
       "id": "grp-võ-thuật",
-      "name": "🥊 Võ Thuật",
+      "name": "🥊 Võ Thuật (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
-      "channels": []
+      "channels": [
+        {
+          "id": "gv-4c3b89d59b",
+          "name": " Topuria vs Gaethje | 07:00 15/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-4c3b89d59b",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-4c3b89d59b",
+                  "name": " Topuria vs Gaethje",
+                  "streams": [
+                    {
+                      "id": "st-4c3b89d59b",
+                      "name": "GV",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "UFC Freedom 250",
+            "team_a": " Topuria",
+            "team_b": "Gaethje",
+            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFb_FffrNJBhL2KFESyttfRzIZsyB_e9ZiT0jAZaaHzw&s",
+            "logo_b": "https://www.denverpost.com/wp-content/uploads/2022/05/GettyImages-1351766118.jpg?w=1800&resize=1800,1800",
+            "time": "07:00 15/06",
+            "blv": "BLV Dory",
+            "is_live": true,
+            "cate_type": "vothuat"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-4c3b89d59b_664f4174_20260615.png?v=664f4174",
+            "width": 1600,
+            "height": 1200
+          }
+        }
+      ]
     },
     {
       "id": "grp-pickleball",
