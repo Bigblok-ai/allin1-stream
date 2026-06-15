@@ -799,14 +799,14 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (3 LIVE)",
+      "name": "⚽ Bóng Đá (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
         {
-          "id": "bg-03a3655fff",
-          "name": "Arba Minch Kenema vs Suhul Shire | 19:00 15/06",
+          "id": "bg-6a6610feab",
+          "name": "Fard Alborz vs Sanat Naft | 21:30 15/06",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -816,77 +816,6 @@
               "position": "top-left",
               "color": "#00000080",
               "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-03a3655fff",
-              "name": "BugioTV",
-              "contents": [
-                {
-                  "id": "ct-03a3655fff",
-                  "name": "Arba Minch Kenema vs Suhul Shire",
-                  "streams": [
-                    {
-                      "id": "st-03a3655fff",
-                      "name": "BG",
-                      "stream_links": [
-                        {
-                          "id": "lnk-21936c1c94",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_tieumeo/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv1.bugio9.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Premier League",
-            "team_a": "Arba Minch Kenema",
-            "team_b": "Suhul Shire",
-            "logo_a": "https://media.api-sports.io/football/teams/4126.png",
-            "logo_b": "https://media.api-sports.io/football/teams/9986.png",
-            "start_time": "2026-06-15T19:00:00",
-            "blv": "BLV Tiểu Mèo",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-03a3655fff_26be5e74_20260615.png?v=26be5e74",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "bg-6a6610feab",
-          "name": "Fard Alborz vs Sanat Naft | 21:30 15/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
             }
           ],
           "sources": [
@@ -934,7 +863,7 @@
             "logo_b": "https://media.api-sports.io/football/teams/2743.png",
             "start_time": "2026-06-15T21:30:00",
             "blv": "BLV Lavie",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football"
           },
           "image": {
@@ -3207,7 +3136,7 @@
     },
     {
       "id": "grp-tennis",
-      "name": "🎾 Tennis (2 LIVE)",
+      "name": "🎾 Tennis (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -3362,10 +3291,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -3380,7 +3309,25 @@
                     {
                       "id": "st-c5396d3a63",
                       "name": "HQ",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-bc9866f74f",
+                          "name": "BLV PHAN PHÉP",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanphep/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -3395,7 +3342,7 @@
             "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTz3IKAmkvIcIyX5_cPP_OEmEMtdVHUdhxLBQ&s",
             "time": "21:30 15/06",
             "blv": "BLV PHAN PHÉP",
-            "is_live": false,
+            "is_live": true,
             "sport_slug": "tennis"
           },
           "image": {
@@ -3525,7 +3472,7 @@
     },
     {
       "id": "grp-bóng-rổ",
-      "name": "🏀 Bóng Rổ (3 LIVE)",
+      "name": "🏀 Bóng Rổ (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -3668,77 +3615,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-fe6cef1d02_ba370a0a_20260615.png?v=ba370a0a",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-36f1e12cfe",
-          "name": "Valenzuela City Darkhorse vs Bacolod Masskara | 19:00 15/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-36f1e12cfe",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-36f1e12cfe",
-                  "name": "Valenzuela City Darkhorse vs Bacolod Masskara",
-                  "streams": [
-                    {
-                      "id": "st-36f1e12cfe",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-67c66aad19",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1781509673_hd/1781509673_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "MPBL",
-            "team_a": "Valenzuela City Darkhorse",
-            "team_b": "Bacolod Masskara",
-            "logo_a": "https://static.flashscore.com/res/image/data/tG0jm0Zg-0Wgovdc6.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/OpyGG0g5-n3r25xjS.png",
-            "time": "19:00 15/06",
-            "blv": "BLV Ben",
-            "is_live": true,
-            "cate_type": "basketball"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-36f1e12cfe_c1807143_20260615.png?v=c1807143",
             "width": 1600,
             "height": 1200
           }
