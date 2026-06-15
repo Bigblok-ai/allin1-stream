@@ -864,14 +864,14 @@
                   "streams": [
                     {
                       "id": "st-58155fc7f5",
-                      "name": "Bugio - BLV Lavie",
+                      "name": "Bugio - BLV Mao Từn",
                       "stream_links": [
                         {
-                          "id": "lnk-a4a6a520ed",
+                          "id": "lnk-51a73d71ba",
                           "name": "Link FHD",
                           "type": "hls",
                           "default": true,
-                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_lavie/playlist.m3u8",
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_mason/playlist.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -1679,6 +1679,41 @@
                           "type": "hls",
                           "default": true,
                           "url": "https://bglive.yarncdn.live/live/bgtv_blv_cuccu/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-a19744e268",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-a19744e268",
+                  "name": "Belgium vs Egypt",
+                  "streams": [
+                    {
+                      "id": "st-a19744e268",
+                      "name": "Bugio - BLV Mao Từn",
+                      "stream_links": [
+                        {
+                          "id": "lnk-51a73d71ba",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_mason/playlist.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -3192,82 +3227,11 @@
     },
     {
       "id": "grp-tennis",
-      "name": "🎾 Tennis (3 LIVE)",
+      "name": "🎾 Tennis (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "hqlive-3693d68d2b",
-          "name": "Tommy Paul vs Zachary Svajda | 19:30 15/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-3693d68d2b",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-3693d68d2b",
-                  "name": "Tommy Paul vs Zachary Svajda",
-                  "streams": [
-                    {
-                      "id": "st-3693d68d2b",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-f6231c6549",
-                          "name": "BLV PHAN CA",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanca/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "ATP500 London",
-            "team_a": "Tommy Paul",
-            "team_b": "Zachary Svajda",
-            "logo_a": "https://www.datocms-assets.com/110926/1770148201-20-paul_full_2024.png?auto=format%2Ccompress&fit=crop&h=470&w=0&ixlib=react-9.8.1",
-            "logo_b": "https://www.atptour.com/-/media/images/news/2025/08/26/23/08/svajda-cincinnati-2024-serve.jpg",
-            "time": "19:30 15/06",
-            "blv": "BLV PHAN CA",
-            "is_live": true,
-            "sport_slug": "tennis"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Tommy Paul_Zachary Svajda_19-30 15-06_62983752_20260615.png?v=62983752",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "hqlive-897c56c68d",
           "name": "Nuno Borges vs Felix Auger-Aliassime | 20:00 15/06",
