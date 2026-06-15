@@ -799,11 +799,82 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "hqlive-e51b892897",
+          "name": "Changchun Dazhong Nữ vs Shaanxi Changan Nữ | 16:00 15/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-e51b892897",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-e51b892897",
+                  "name": "Changchun Dazhong Nữ vs Shaanxi Changan Nữ",
+                  "streams": [
+                    {
+                      "id": "st-e51b892897",
+                      "name": "HQ",
+                      "stream_links": [
+                        {
+                          "id": "lnk-fd31283a76",
+                          "name": "BLV PHAN ANH",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phananh/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Super League Nữ",
+            "team_a": "Changchun Dazhong Nữ",
+            "team_b": "Shaanxi Changan Nữ",
+            "logo_a": "https://static.flashscore.com/res/image/data/WKc6mHyS-tEXwrGhb.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/C8nTZQ9r-YaMzy9gF.png",
+            "time": "16:00 15/06",
+            "blv": "BLV PHAN ANH",
+            "is_live": true,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Changchun Dazhong Nữ_Shaanxi Changan Nữ_16-00 15-06_ba1aae5f_20260615.png?v=ba1aae5f",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "bg-2c26f9a59b",
           "name": "Negelle Arsi vs Awassa Kenema | 17:00 15/06",
@@ -947,8 +1018,8 @@
           }
         },
         {
-          "id": "hqlive-e51b892897",
-          "name": "Changchun Dazhong Nữ vs Shaanxi Changan Nữ | 16:00 15/06",
+          "id": "bg-6a6610feab",
+          "name": "Fard Alborz vs Sanat Naft | 21:30 15/06",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -962,17 +1033,35 @@
           ],
           "sources": [
             {
-              "id": "src-e51b892897",
-              "name": "HoiQuanTV",
+              "id": "src-6a6610feab",
+              "name": "BugioTV",
               "contents": [
                 {
-                  "id": "ct-e51b892897",
-                  "name": "Changchun Dazhong Nữ vs Shaanxi Changan Nữ",
+                  "id": "ct-6a6610feab",
+                  "name": "Fard Alborz vs Sanat Naft",
                   "streams": [
                     {
-                      "id": "st-e51b892897",
-                      "name": "HQ",
-                      "stream_links": []
+                      "id": "st-6a6610feab",
+                      "name": "BG",
+                      "stream_links": [
+                        {
+                          "id": "lnk-a4a6a520ed",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_lavie/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -980,21 +1069,21 @@
             }
           ],
           "org_metadata": {
-            "league": "Super League Nữ",
-            "team_a": "Changchun Dazhong Nữ",
-            "team_b": "Shaanxi Changan Nữ",
-            "logo_a": "https://static.flashscore.com/res/image/data/WKc6mHyS-tEXwrGhb.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/C8nTZQ9r-YaMzy9gF.png",
-            "time": "16:00 15/06",
-            "blv": "BLV PHAN ANH",
+            "league": "Azadegan League",
+            "team_a": "Fard Alborz",
+            "team_b": "Sanat Naft",
+            "logo_a": "https://media.api-sports.io/football/teams/25364.png",
+            "logo_b": "https://media.api-sports.io/football/teams/2743.png",
+            "start_time": "2026-06-15T21:30:00",
+            "blv": "BLV Lavie",
             "is_live": false,
-            "sport_slug": "bong-da"
+            "cate_type": "football"
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Changchun Dazhong Nữ_Shaanxi Changan Nữ_16-00 15-06_ba1aae5f_20260615.png?v=ba1aae5f",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-6a6610feab_2827db2b_20260615.png?v=2827db2b",
             "width": 1600,
             "height": 1200
           }
