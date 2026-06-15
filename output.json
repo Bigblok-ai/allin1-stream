@@ -805,112 +805,6 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "gv-bc9587f447",
-          "name": "KA  vs Fram | 01:00 16/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-bc9587f447",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-bc9587f447",
-                  "name": "KA  vs Fram",
-                  "streams": [
-                    {
-                      "id": "st-bc9587f447",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-8f2c380456",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1781517818_hd/1781517818_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "src-0e0c4ce894",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-0e0c4ce894",
-                  "name": "KA Akureyri vs Fram Reykjavik",
-                  "streams": [
-                    {
-                      "id": "st-0e0c4ce894",
-                      "name": "Hoiquan - BLV TÁO GIÀ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-1cad2e4412",
-                          "name": "BLV TÁO GIÀ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://tdlive.yarncdn.live/live/tdtv_blv_taotinhtao/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "VĐQG Iceland",
-            "team_a": "KA ",
-            "team_b": "Fram",
-            "logo_a": "https://static.flashscore.com/res/image/data/WxFKbFAr-IP5ctvAE.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/CErCm3Ar-fL3dmxxd.png",
-            "time": "01:00 16/06",
-            "blv": "blv Mù",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-bc9587f447_7c702337_20260616.png?v=7c702337",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "gv-4393321cc3",
           "name": "Belgium  vs Egypt | 02:00 16/06",
           "type": "single",
@@ -1307,6 +1201,77 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-4393321cc3_344fc66c_20260616.png?v=344fc66c",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-0e0c4ce894",
+          "name": "KA Akureyri vs Fram Reykjavik | 01:00 16/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-0e0c4ce894",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-0e0c4ce894",
+                  "name": "KA Akureyri vs Fram Reykjavik",
+                  "streams": [
+                    {
+                      "id": "st-0e0c4ce894",
+                      "name": "HQ",
+                      "stream_links": [
+                        {
+                          "id": "lnk-1cad2e4412",
+                          "name": "BLV TÁO GIÀ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://tdlive.yarncdn.live/live/tdtv_blv_taotinhtao/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Úrvalsdeild",
+            "team_a": "KA Akureyri",
+            "team_b": "Fram Reykjavik",
+            "logo_a": "https://media.api-sports.io/football/teams/272.png",
+            "logo_b": "https://media.api-sports.io/football/teams/2117.png",
+            "time": "01:00 16/06",
+            "blv": "BLV TÁO GIÀ",
+            "is_live": true,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/KA Akureyri_Fram Reykjavik_01-00 16-06_67277bb4_20260616.png?v=67277bb4",
             "width": 1600,
             "height": 1200
           }
@@ -2228,6 +2193,112 @@
           }
         },
         {
+          "id": "hqlive-1f5b93689f",
+          "name": "Vaprus vs Flora Tallinn | 23:00 16/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-1f5b93689f",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-1f5b93689f",
+                  "name": "Vaprus vs Flora Tallinn",
+                  "streams": [
+                    {
+                      "id": "st-1f5b93689f",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Meistriliiga",
+            "team_a": "Vaprus",
+            "team_b": "Flora Tallinn",
+            "logo_a": "https://media.api-sports.io/football/teams/3525.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/en/thumb/e/ee/FC_Flora_logo.svg/250px-FC_Flora_logo.svg.png",
+            "time": "23:00 16/06",
+            "blv": "BLV PHAN CA",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Vaprus_Flora Tallinn_23-00 16-06_5bd5f476_20260616.png?v=5bd5f476",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-cd1f00afd1",
+          "name": "Kuressaare vs Trans Narva | 23:00 16/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-cd1f00afd1",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-cd1f00afd1",
+                  "name": "Kuressaare vs Trans Narva",
+                  "streams": [
+                    {
+                      "id": "st-cd1f00afd1",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Meistriliiga",
+            "team_a": "Kuressaare",
+            "team_b": "Trans Narva",
+            "logo_a": "https://media.api-sports.io/football/teams/3526.png",
+            "logo_b": "https://media.api-sports.io/football/teams/2274.png",
+            "time": "23:00 16/06",
+            "blv": "BLV TÁO GIÀ",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Kuressaare_Trans Narva_23-00 16-06_6c2c0991_20260616.png?v=6c2c0991",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "xc-603f6f7f62",
           "name": "IFK Varnamo vs Helsingborg | 00:00 17/06",
           "type": "single",
@@ -2804,83 +2875,11 @@
     },
     {
       "id": "grp-tennis",
-      "name": "🎾 Tennis (1 LIVE)",
+      "name": "🎾 Tennis",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
-      "channels": [
-        {
-          "id": "hqlive-445a99c3eb",
-          "name": "Giovanni Mpetshi Perricard vs Corentin Moutet | 23:30 15/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-445a99c3eb",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-445a99c3eb",
-                  "name": "Giovanni Mpetshi Perricard vs Corentin Moutet",
-                  "streams": [
-                    {
-                      "id": "st-445a99c3eb",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-bc9866f74f",
-                          "name": "BLV PHAN PHÉP",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanphep/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "ATP500 London",
-            "team_a": "Giovanni Mpetshi Perricard",
-            "team_b": "Corentin Moutet",
-            "logo_a": "https://tse3.mm.bing.net/th/id/OIP.XMh8tEXh8HFLtQesMG5vHQHaFv?pid=Api&P=0&h=220",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Corentin_Moutet_%282025_DC_Open%29_01_%28cropped%29.jpg/1280px-Corentin_Moutet_%282025_DC_Open%29_01_%28cropped%29.jpg",
-            "time": "23:30 15/06",
-            "blv": "BLV PHAN PHÉP",
-            "is_live": true,
-            "sport_slug": "tennis"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Giovanni Mpetshi Perricard_Corentin Moutet_23-30 15-06_bdc0af25_20260616.png?v=bdc0af25",
-            "width": 1600,
-            "height": 1200
-          }
-        }
-      ]
+      "channels": []
     },
     {
       "id": "grp-cầu-lông",
