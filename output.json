@@ -799,7 +799,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -841,6 +841,41 @@
                             {
                               "key": "Referer",
                               "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-e92813c257",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-e92813c257",
+                  "name": "SJK Akatemia vs Haka",
+                  "streams": [
+                    {
+                      "id": "st-e92813c257",
+                      "name": "Hoiquan - BLV TÁO GIÀ",
+                      "stream_links": [
+                        {
+                          "id": "lnk-1cad2e4412",
+                          "name": "BLV TÁO GIÀ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://tdlive.yarncdn.live/live/tdtv_blv_taotinhtao/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -906,77 +941,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-325c68f91b_c38fb1c8_20260615.png?v=c38fb1c8",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "bg-0ebb145bdf",
-          "name": "Mageense vs Ceres | 01:00 16/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-0ebb145bdf",
-              "name": "BugioTV",
-              "contents": [
-                {
-                  "id": "ct-0ebb145bdf",
-                  "name": "Mageense vs Ceres",
-                  "streams": [
-                    {
-                      "id": "st-0ebb145bdf",
-                      "name": "BG",
-                      "stream_links": [
-                        {
-                          "id": "lnk-a4a6a520ed",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_lavie/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv1.bugio9.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Carioca C",
-            "team_a": "Mageense",
-            "team_b": "Ceres",
-            "logo_a": "https://media.api-sports.io/football/teams/25178.png",
-            "logo_b": "https://media.api-sports.io/football/teams/27824.png",
-            "start_time": "2026-06-16T01:00:00",
-            "blv": "BLV Lavie",
-            "is_live": false,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-0ebb145bdf_b523bf83_20260615.png?v=b523bf83",
             "width": 1600,
             "height": 1200
           }
@@ -1265,7 +1229,7 @@
             "logo_a": "https://ssl.gstatic.com/onebox/media/sports/logos/optimized/5hLkf7KFHhmpaiOJQv8LmA_96x96.png",
             "logo_b": "https://ssl.gstatic.com/onebox/media/sports/logos/optimized/VHI7nuXNqeMELbBEsPkvjQ_96x96.png",
             "time": "23:00 15/06",
-            "blv": "mason-mat",
+            "blv": "mason-mat, blv-leo",
             "is_live": false,
             "cate_type": "football"
           },
@@ -2104,7 +2068,7 @@
           }
         },
         {
-          "id": "hqlive-218a73555e",
+          "id": "gv-f5fa8936ef",
           "name": "Iran vs New Zealand | 08:00 16/06",
           "type": "single",
           "display": "thumbnail-only",
@@ -2119,17 +2083,35 @@
           ],
           "sources": [
             {
-              "id": "src-218a73555e",
-              "name": "HoiQuanTV",
+              "id": "src-f5fa8936ef",
+              "name": "GiovangTV",
               "contents": [
                 {
-                  "id": "ct-218a73555e",
+                  "id": "ct-f5fa8936ef",
                   "name": "Iran vs New Zealand",
                   "streams": [
                     {
-                      "id": "st-218a73555e",
-                      "name": "HQ",
-                      "stream_links": []
+                      "id": "st-f5fa8936ef",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-83e5a3308e",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1781535733_hd/1781535733_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -2293,21 +2275,21 @@
             }
           ],
           "org_metadata": {
-            "league": "World Cup",
+            "league": "FIFA World Cup",
             "team_a": "Iran",
             "team_b": "New Zealand",
-            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcHjuJwQinnq7yrEdYTZNb6xYpuKE2zdRCXg&s",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Flag_of_New_Zealand.svg",
+            "logo_a": "https://images.keovip88.net/images/teams/iran.png",
+            "logo_b": "https://images.keovip88.net/images/teams/new-zealand.png",
             "time": "08:00 16/06",
-            "blv": "BLV LƯƠNG BỔNG, BLV THẦN THÔNG",
+            "blv": "blv-bon, BLV Hợi",
             "is_live": false,
-            "sport_slug": "bong-da"
+            "cate_type": "football"
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Iran_New Zealand_08-00 16-06_65238eeb_20260615.png?v=65238eeb",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-f5fa8936ef_9de1ebbe_20260615.png?v=9de1ebbe",
             "width": 1600,
             "height": 1200
           }
@@ -3227,7 +3209,7 @@
     },
     {
       "id": "grp-tennis",
-      "name": "🎾 Tennis (2 LIVE)",
+      "name": "🎾 Tennis (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -3382,10 +3364,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -3400,7 +3382,25 @@
                     {
                       "id": "st-6b4fefbb05",
                       "name": "HQ",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-eae8482cb7",
+                          "name": "BLV PHAN BÁCH",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanchuot/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -3415,7 +3415,7 @@
             "logo_b": "https://upload.wikimedia.org/wikipedia/commons/a/a3/FrancesTiafo.jpg",
             "time": "22:30 15/06",
             "blv": "BLV PHAN BÁCH",
-            "is_live": false,
+            "is_live": true,
             "sport_slug": "tennis"
           },
           "image": {
