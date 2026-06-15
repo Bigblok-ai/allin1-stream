@@ -2176,11 +2176,82 @@
     },
     {
       "id": "grp-bóng-chuyền",
-      "name": "🏐 Bóng Chuyền",
+      "name": "🏐 Bóng Chuyền (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "bg-4928e7510f",
+          "name": "Nữ Cộng hòa Séc vs Nữ Ý  | 15:00 17/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-4928e7510f",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-4928e7510f",
+                  "name": "Nữ Cộng hòa Séc vs Nữ Ý ",
+                  "streams": [
+                    {
+                      "id": "st-4928e7510f",
+                      "name": "BG",
+                      "stream_links": [
+                        {
+                          "id": "lnk-970b2a547c",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_phaothan/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Nations League Women's",
+            "team_a": "Nữ Cộng hòa Séc",
+            "team_b": "Nữ Ý ",
+            "logo_a": "https://static.flashscore.com/res/image/data/AaIpRDFG-zPOppuN2.png",
+            "logo_b": "https://img0.aiscore.com/basketball/team/adf2cddc94aa43e13dce1b7ce9e5c557.jpg!w250",
+            "start_time": "2026-06-17T15:00:00",
+            "blv": "BLV Pháo",
+            "is_live": false,
+            "cate_type": "bongchuyen"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-4928e7510f_e5990219_20260615.png?v=e5990219",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "hqlive-35599971f3",
           "name": "Cộng Hòa Dominicana vs Mỹ | 11:00 17/06",
@@ -2261,6 +2332,41 @@
                       "id": "st-d398c18075",
                       "name": "HQ",
                       "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-c831e9b5f6",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-c831e9b5f6",
+                  "name": "Nữ Canada -  Nữ Hà Lan",
+                  "streams": [
+                    {
+                      "id": "st-c831e9b5f6",
+                      "name": "Bugio - BLV Tiểu Mèo",
+                      "stream_links": [
+                        {
+                          "id": "lnk-21936c1c94",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_tieumeo/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -2367,6 +2473,41 @@
                       "id": "st-5fbbba4853",
                       "name": "HQ",
                       "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-15212f2432",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-15212f2432",
+                  "name": "Nữ Đức vs Nữ Trung Quốc",
+                  "streams": [
+                    {
+                      "id": "st-15212f2432",
+                      "name": "Bugio - BLV Cúc Cu",
+                      "stream_links": [
+                        {
+                          "id": "lnk-378f040fcb",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_cuccu/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
