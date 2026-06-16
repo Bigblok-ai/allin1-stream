@@ -799,117 +799,11 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (4 LIVE)",
+      "name": "⚽ Bóng Đá (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-1620fda470",
-          "name": "Kuressaare vs Narva | 23:00 16/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-1620fda470",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-1620fda470",
-                  "name": "Kuressaare vs Narva",
-                  "streams": [
-                    {
-                      "id": "st-1620fda470",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-b4852d1a37",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1781591601_hd/1781591601_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "src-cd1f00afd1",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-cd1f00afd1",
-                  "name": "Kuressaare vs Trans Narva",
-                  "streams": [
-                    {
-                      "id": "st-cd1f00afd1",
-                      "name": "Hoiquan - BLV PHAN CA",
-                      "stream_links": [
-                        {
-                          "id": "lnk-f6231c6549",
-                          "name": "BLV PHAN CA",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanca/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Giải Vô địch Quốc gia Estonia",
-            "team_a": "Kuressaare",
-            "team_b": "Narva",
-            "logo_a": "https://static.flashscore.com/res/image/data/tOU14wZg-tf1sAOHr.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/vZJ4W5dM-Q9o5ZqI5.png",
-            "time": "23:00 16/06",
-            "blv": "BLV Dần",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-1620fda470_147063ac_20260617.png?v=147063ac",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-78e97dfccf",
           "name": "Landskrona vs Nordic United | 00:00 17/06",
@@ -977,6 +871,77 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-78e97dfccf_98600d87_20260617.png?v=98600d87",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-cd1f00afd1",
+          "name": "Kuressaare vs Trans Narva | 23:00 16/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-cd1f00afd1",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-cd1f00afd1",
+                  "name": "Kuressaare vs Trans Narva",
+                  "streams": [
+                    {
+                      "id": "st-cd1f00afd1",
+                      "name": "HQ",
+                      "stream_links": [
+                        {
+                          "id": "lnk-f6231c6549",
+                          "name": "BLV PHAN CA",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanca/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Meistriliiga",
+            "team_a": "Kuressaare",
+            "team_b": "Trans Narva",
+            "logo_a": "https://media.api-sports.io/football/teams/3526.png",
+            "logo_b": "https://media.api-sports.io/football/teams/2274.png",
+            "time": "23:00 16/06",
+            "blv": "BLV PHAN CA",
+            "is_live": true,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Kuressaare_Trans Narva_23-00 16-06_6c2c0991_20260617.png?v=6c2c0991",
             "width": 1600,
             "height": 1200
           }
@@ -1122,82 +1087,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/IFK Varnamo_Helsingborg_00-00 17-06_d0d30038_20260617.png?v=d0d30038",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "xc-52a6ebbfe5",
-          "name": "Grobiņa vs FK Liepaja | 23:00 16/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-52a6ebbfe5",
-              "name": "XayConTV",
-              "contents": [
-                {
-                  "id": "ct-52a6ebbfe5",
-                  "name": "Grobiņa vs FK Liepaja",
-                  "streams": [
-                    {
-                      "id": "st-52a6ebbfe5",
-                      "name": "XC",
-                      "stream_links": [
-                        {
-                          "id": "lnk-30319ba8f3",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://xclive.yarncdn.live/live/xctv_blv_bipcon/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.xaycon3.live/"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://sv2.xaycon3.live"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Virsliga",
-            "team_a": "Grobiņa",
-            "team_b": "FK Liepaja",
-            "logo_a": "https://media.api-sports.io/football/teams/4138.png",
-            "logo_b": "https://media.api-sports.io/football/teams/661.png",
-            "time": "23:00",
-            "date": "16/06",
-            "blv": "BLV Bịp Con",
-            "is_live": true,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/xaycon-stream/refs/heads/main/thumbs/xc-52a6ebbfe5_fa5de88d_20260617.png?v=fa5de88d",
             "width": 1600,
             "height": 1200
           }
@@ -2463,6 +2352,59 @@
           }
         },
         {
+          "id": "hqlive-d6d4ade83b",
+          "name": "Kairat Almaty vs Kyzyl-Zhar | 21:00 17/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-d6d4ade83b",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-d6d4ade83b",
+                  "name": "Kairat Almaty vs Kyzyl-Zhar",
+                  "streams": [
+                    {
+                      "id": "st-d6d4ade83b",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Ngoại hạng Kazakhstan",
+            "team_a": "Kairat Almaty",
+            "team_b": "Kyzyl-Zhar",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/FCKairat_logo.png/250px-FCKairat_logo.png",
+            "logo_b": "https://media.api-sports.io/football/teams/4554.png",
+            "time": "21:00 17/06",
+            "blv": "BLV TÁO GIÀ",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Kairat Almaty_Kyzyl-Zhar_21-00 17-06_785ec34e_20260617.png?v=785ec34e",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "xc-06dbe4f2f4",
           "name": "England vs Croatia | 03:00 18/06",
           "type": "single",
@@ -2973,6 +2915,271 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Kamil Majchrzak_Jiri Lehecka_01-30 17-06_98208ed5_20260617.png?v=98208ed5",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-350bdde991",
+          "name": "Zizou Bergs vs Taylor Fritz | 16:30 17/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-350bdde991",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-350bdde991",
+                  "name": "Zizou Bergs vs Taylor Fritz",
+                  "streams": [
+                    {
+                      "id": "st-350bdde991",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "ATP500 Halle",
+            "team_a": "Zizou Bergs",
+            "team_b": "Taylor Fritz",
+            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRnFEEpUH4GyiUFgY5u-Dgiqc0hqecM0NTHIA&s",
+            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNZSDJOk9zmiEAUd932qtYHbrfQcbE7f50zQ&s",
+            "time": "16:30 17/06",
+            "blv": "BLV PHAN BÁCH",
+            "is_live": false,
+            "sport_slug": "tennis"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Zizou Bergs_Taylor Fritz_16-30 17-06_c42604c6_20260617.png?v=c42604c6",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-0f18686f63",
+          "name": "Frances Tiafoe vs Sho Shimabukuro | 18:00 17/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-0f18686f63",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-0f18686f63",
+                  "name": "Frances Tiafoe vs Sho Shimabukuro",
+                  "streams": [
+                    {
+                      "id": "st-0f18686f63",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "ATP500 Halle",
+            "team_a": "Frances Tiafoe",
+            "team_b": "Sho Shimabukuro",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/a/a3/FrancesTiafo.jpg",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Shimabukuro_WMQ23_%2853062069285%29.jpg",
+            "time": "18:00 17/06",
+            "blv": "BLV PHAN PHÉP",
+            "is_live": false,
+            "sport_slug": "tennis"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Frances Tiafoe_Sho Shimabukuro_18-00 17-06_517fca7c_20260617.png?v=517fca7c",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-d52ea55c99",
+          "name": "Ben Shelton vs Lorenzo Sonego | 18:30 17/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-d52ea55c99",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-d52ea55c99",
+                  "name": "Ben Shelton vs Lorenzo Sonego",
+                  "streams": [
+                    {
+                      "id": "st-d52ea55c99",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "ATP500 Halle",
+            "team_a": "Ben Shelton",
+            "team_b": "Lorenzo Sonego",
+            "logo_a": "https://www.thesecondserve.com/wp-content/uploads/2025/08/ben-shelton-toronto-cincinnati-open2-1.jpg",
+            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2Xp6R6nfpFwhEpBeHln9klK2IKYhtFAyZ9w&s",
+            "time": "18:30 17/06",
+            "blv": "BLV PHAN BÁCH",
+            "is_live": false,
+            "sport_slug": "tennis"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Ben Shelton_Lorenzo Sonego_18-30 17-06_81d33aad_20260617.png?v=81d33aad",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-9f7334c4e3",
+          "name": "Learner Tien vs Felix Auger-Aliassime | 20:30 17/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-9f7334c4e3",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-9f7334c4e3",
+                  "name": "Learner Tien vs Felix Auger-Aliassime",
+                  "streams": [
+                    {
+                      "id": "st-9f7334c4e3",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "ATP500 Halle",
+            "team_a": "Learner Tien",
+            "team_b": "Felix Auger-Aliassime",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/c/c8/Learner_Tien_%282024_US_Open%29_04.jpg",
+            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgyDXXFrntQ8oD-0ScBeI4o43O2rcgU2dsjQ&s",
+            "time": "20:30 17/06",
+            "blv": "BLV PHAN BÁCH",
+            "is_live": false,
+            "sport_slug": "tennis"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Learner Tien_Felix Auger-Aliassime_20-30 17-06_9f478e0f_20260617.png?v=9f478e0f",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-55e6b6011b",
+          "name": "Terence Atmane vs Daniil Medvedev | 22:30 17/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-55e6b6011b",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-55e6b6011b",
+                  "name": "Terence Atmane vs Daniil Medvedev",
+                  "streams": [
+                    {
+                      "id": "st-55e6b6011b",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "ATP500 Halle",
+            "team_a": "Terence Atmane",
+            "team_b": "Daniil Medvedev",
+            "logo_a": "https://image.sggp.org.vn/w1000/Uploaded/2026/ldfnyrykxq/2025_08_15/atmane-5203-3906.jpeg.webp",
+            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRU-ThUSVRA1sgqwj_Qe4f22lmchMKp66MuBg&s",
+            "time": "22:30 17/06",
+            "blv": "BLV PHAN PHÉP",
+            "is_live": false,
+            "sport_slug": "tennis"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Terence Atmane_Daniil Medvedev_22-30 17-06_89f9ec11_20260617.png?v=89f9ec11",
             "width": 1600,
             "height": 1200
           }
@@ -3504,6 +3711,77 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-4928e7510f_e5990219_20260617.png?v=e5990219",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-f418d00eee",
+          "name": "Dominican Republic vs USA | 11:00 17/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-f418d00eee",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-f418d00eee",
+                  "name": "Dominican Republic vs USA",
+                  "streams": [
+                    {
+                      "id": "st-f418d00eee",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-0112124ebc",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1781632424_hd/1781632424_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Nations League Women",
+            "team_a": "Dominican Republic",
+            "team_b": "USA",
+            "logo_a": "https://static.flashscore.com/res/image/data/hWkRwuZA-YwmRHSUk.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/IoeNdfwS-MPdHoKT3.png",
+            "time": "11:00 17/06",
+            "blv": "BLV Điếc",
+            "is_live": false,
+            "cate_type": "bongchuyen"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-f418d00eee_29fef30e_20260617.png?v=29fef30e",
             "width": 1600,
             "height": 1200
           }
