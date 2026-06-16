@@ -799,7 +799,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (1 LIVE)",
+      "name": "⚽ Bóng Đá (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -950,6 +950,153 @@
           }
         },
         {
+          "id": "hqlive-1f5b93689f",
+          "name": "Vaprus vs Flora Tallinn | 23:00 16/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-1f5b93689f",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-1f5b93689f",
+                  "name": "Vaprus vs Flora Tallinn",
+                  "streams": [
+                    {
+                      "id": "st-1f5b93689f",
+                      "name": "HQ",
+                      "stream_links": [
+                        {
+                          "id": "lnk-f6231c6549",
+                          "name": "BLV PHAN CA",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanca/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Meistriliiga",
+            "team_a": "Vaprus",
+            "team_b": "Flora Tallinn",
+            "logo_a": "https://media.api-sports.io/football/teams/3525.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/en/thumb/e/ee/FC_Flora_logo.svg/250px-FC_Flora_logo.svg.png",
+            "time": "23:00 16/06",
+            "blv": "BLV PHAN CA",
+            "is_live": true,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Vaprus_Flora Tallinn_23-00 16-06_5bd5f476_20260616.png?v=5bd5f476",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-52a6ebbfe5",
+          "name": "Grobiņa vs FK Liepaja | 23:00 16/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-52a6ebbfe5",
+              "name": "XayConTV",
+              "contents": [
+                {
+                  "id": "ct-52a6ebbfe5",
+                  "name": "Grobiņa vs FK Liepaja",
+                  "streams": [
+                    {
+                      "id": "st-52a6ebbfe5",
+                      "name": "XC",
+                      "stream_links": [
+                        {
+                          "id": "lnk-30319ba8f3",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://xclive.yarncdn.live/live/xctv_blv_bipcon/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.xaycon3.live/"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://sv2.xaycon3.live"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Virsliga",
+            "team_a": "Grobiņa",
+            "team_b": "FK Liepaja",
+            "logo_a": "https://media.api-sports.io/football/teams/4138.png",
+            "logo_b": "https://media.api-sports.io/football/teams/661.png",
+            "time": "23:00",
+            "date": "16/06",
+            "blv": "BLV Bịp Con",
+            "is_live": true,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/xaycon-stream/refs/heads/main/thumbs/xc-52a6ebbfe5_fa5de88d_20260616.png?v=fa5de88d",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "gv-1620fda470",
           "name": "Kuressaare vs Narva | 23:00 16/06",
           "type": "single",
@@ -1016,59 +1163,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-1620fda470_147063ac_20260616.png?v=147063ac",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "hqlive-1f5b93689f",
-          "name": "Vaprus vs Flora Tallinn | 23:00 16/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-1f5b93689f",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-1f5b93689f",
-                  "name": "Vaprus vs Flora Tallinn",
-                  "streams": [
-                    {
-                      "id": "st-1f5b93689f",
-                      "name": "HQ",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Meistriliiga",
-            "team_a": "Vaprus",
-            "team_b": "Flora Tallinn",
-            "logo_a": "https://media.api-sports.io/football/teams/3525.png",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/en/thumb/e/ee/FC_Flora_logo.svg/250px-FC_Flora_logo.svg.png",
-            "time": "23:00 16/06",
-            "blv": "BLV PHAN CA",
-            "is_live": false,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Vaprus_Flora Tallinn_23-00 16-06_5bd5f476_20260616.png?v=5bd5f476",
             "width": 1600,
             "height": 1200
           }
@@ -2993,82 +3087,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/xaycon-stream/refs/heads/main/thumbs/xc-14c8a2072d_7aef067e_20260616.png?v=7aef067e",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "xc-52a6ebbfe5",
-          "name": "Grobiņa vs FK Liepaja | 23:00 16/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-52a6ebbfe5",
-              "name": "XayConTV",
-              "contents": [
-                {
-                  "id": "ct-52a6ebbfe5",
-                  "name": "Grobiņa vs FK Liepaja",
-                  "streams": [
-                    {
-                      "id": "st-52a6ebbfe5",
-                      "name": "XC",
-                      "stream_links": [
-                        {
-                          "id": "lnk-30319ba8f3",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://xclive.yarncdn.live/live/xctv_blv_bipcon/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.xaycon3.live/"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://sv2.xaycon3.live"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Virsliga",
-            "team_a": "Grobiņa",
-            "team_b": "FK Liepaja",
-            "logo_a": "https://media.api-sports.io/football/teams/4138.png",
-            "logo_b": "https://media.api-sports.io/football/teams/661.png",
-            "time": "23:00",
-            "date": "16/06",
-            "blv": "BLV Bịp Con",
-            "is_live": false,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/xaycon-stream/refs/heads/main/thumbs/xc-52a6ebbfe5_fa5de88d_20260616.png?v=fa5de88d",
             "width": 1600,
             "height": 1200
           }
