@@ -1030,10 +1030,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -1081,7 +1081,7 @@
             "logo_b": "https://media.api-sports.io/football/teams/4125.png",
             "start_time": "2026-06-16T20:00:00",
             "blv": "BLV Mao Từn",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football"
           },
           "image": {
@@ -2585,14 +2585,14 @@
                   "streams": [
                     {
                       "id": "st-2406a0a94c",
-                      "name": "Bugio - BLV Tiểu Mèo",
+                      "name": "Bugio - BLV Phi MC",
                       "stream_links": [
                         {
-                          "id": "lnk-21936c1c94",
+                          "id": "lnk-d5c8f635fc",
                           "name": "Link FHD",
                           "type": "hls",
                           "default": true,
-                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_tieumeo/playlist.m3u8",
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_phimc/playlist.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -3324,7 +3324,7 @@
     },
     {
       "id": "grp-tennis",
-      "name": "🎾 Tennis (3 LIVE)",
+      "name": "🎾 Tennis (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -3550,10 +3550,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -3568,7 +3568,25 @@
                     {
                       "id": "st-9953e579c6",
                       "name": "HQ",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-eae8482cb7",
+                          "name": "BLV PHAN BÁCH",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanchuot/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -3583,7 +3601,7 @@
             "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQv-2IZ7SBXWpljhH4rIu-Tye97B1v9D03HKw&s",
             "time": "20:00 16/06",
             "blv": "BLV PHAN BÁCH",
-            "is_live": false,
+            "is_live": true,
             "sport_slug": "tennis"
           },
           "image": {
