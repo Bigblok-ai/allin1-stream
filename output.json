@@ -799,7 +799,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (3 LIVE)",
+      "name": "⚽ Bóng Đá (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -871,6 +871,82 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-d74b9693de_8df27ed0_20260616.png?v=8df27ed0",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-86502bfc1a",
+          "name": "Al Ahed vs Al Hikma | 19:30 16/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-86502bfc1a",
+              "name": "XayConTV",
+              "contents": [
+                {
+                  "id": "ct-86502bfc1a",
+                  "name": "Al Ahed vs Al Hikma",
+                  "streams": [
+                    {
+                      "id": "st-86502bfc1a",
+                      "name": "XC",
+                      "stream_links": [
+                        {
+                          "id": "lnk-bccd486b79",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://xclive.yarncdn.live/live/xctv_blv_tammao/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.xaycon3.live/"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://sv2.xaycon3.live"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Premier League",
+            "team_a": "Al Ahed",
+            "team_b": "Al Hikma",
+            "logo_a": "https://media.api-sports.io/football/teams/4567.png",
+            "logo_b": "https://media.api-sports.io/football/teams/11879.png",
+            "time": "19:30",
+            "date": "16/06",
+            "blv": "BLV Tam Mao",
+            "is_live": true,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/xaycon-stream/refs/heads/main/thumbs/xc-86502bfc1a_ffdb691e_20260616.png?v=ffdb691e",
             "width": 1600,
             "height": 1200
           }
@@ -3012,82 +3088,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/xaycon-stream/refs/heads/main/thumbs/xc-3f4fe14c79_04c4c985_20260616.png?v=04c4c985",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "xc-86502bfc1a",
-          "name": "Al Ahed vs Al Hikma | 19:30 16/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-86502bfc1a",
-              "name": "XayConTV",
-              "contents": [
-                {
-                  "id": "ct-86502bfc1a",
-                  "name": "Al Ahed vs Al Hikma",
-                  "streams": [
-                    {
-                      "id": "st-86502bfc1a",
-                      "name": "XC",
-                      "stream_links": [
-                        {
-                          "id": "lnk-bccd486b79",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://xclive.yarncdn.live/live/xctv_blv_tammao/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.xaycon3.live/"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://sv2.xaycon3.live"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Premier League",
-            "team_a": "Al Ahed",
-            "team_b": "Al Hikma",
-            "logo_a": "https://media.api-sports.io/football/teams/4567.png",
-            "logo_b": "https://media.api-sports.io/football/teams/11879.png",
-            "time": "19:30",
-            "date": "16/06",
-            "blv": "BLV Tam Mao",
-            "is_live": false,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/xaycon-stream/refs/heads/main/thumbs/xc-86502bfc1a_ffdb691e_20260616.png?v=ffdb691e",
             "width": 1600,
             "height": 1200
           }
