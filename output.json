@@ -799,7 +799,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (3 LIVE)",
+      "name": "⚽ Bóng Đá (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1056,6 +1056,151 @@
           }
         },
         {
+          "id": "hqlive-d26bd8f980",
+          "name": "IFK Varnamo vs Helsingborg | 00:00 17/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-d26bd8f980",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-d26bd8f980",
+                  "name": "IFK Varnamo vs Helsingborg",
+                  "streams": [
+                    {
+                      "id": "st-d26bd8f980",
+                      "name": "HQ",
+                      "stream_links": [
+                        {
+                          "id": "lnk-1cad2e4412",
+                          "name": "BLV TÁO GIÀ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://tdlive.yarncdn.live/live/tdtv_blv_taotinhtao/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-603f6f7f62",
+              "name": "XayConTV",
+              "contents": [
+                {
+                  "id": "ct-603f6f7f62",
+                  "name": "IFK Varnamo vs Helsingborg",
+                  "streams": [
+                    {
+                      "id": "st-603f6f7f62",
+                      "name": "Xaycon - BLV Quan Vũ",
+                      "stream_links": [
+                        {
+                          "id": "lnk-ab6de9170b",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://xclive.yarncdn.live/live/xctv_blv_quanvu/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.xaycon3.live/"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://sv2.xaycon3.live"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-2406a0a94c",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-2406a0a94c",
+                  "name": "IFK Varnamo vs Helsingborg",
+                  "streams": [
+                    {
+                      "id": "st-2406a0a94c",
+                      "name": "Bugio - BLV Phi MC",
+                      "stream_links": [
+                        {
+                          "id": "lnk-d5c8f635fc",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_phimc/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Superettan",
+            "team_a": "IFK Varnamo",
+            "team_b": "Helsingborg",
+            "logo_a": "https://media.api-sports.io/football/teams/2163.png",
+            "logo_b": "https://media.api-sports.io/football/teams/811.png",
+            "time": "00:00 17/06",
+            "blv": "BLV TÁO GIÀ",
+            "is_live": true,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/IFK Varnamo_Helsingborg_00-00 17-06_d0d30038_20260616.png?v=d0d30038",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "xc-52a6ebbfe5",
           "name": "Grobiņa vs FK Liepaja | 23:00 16/06",
           "type": "single",
@@ -1198,133 +1343,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-78e97dfccf_98600d87_20260616.png?v=98600d87",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "hqlive-d26bd8f980",
-          "name": "IFK Varnamo vs Helsingborg | 00:00 17/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-d26bd8f980",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-d26bd8f980",
-                  "name": "IFK Varnamo vs Helsingborg",
-                  "streams": [
-                    {
-                      "id": "st-d26bd8f980",
-                      "name": "HQ",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "src-603f6f7f62",
-              "name": "XayConTV",
-              "contents": [
-                {
-                  "id": "ct-603f6f7f62",
-                  "name": "IFK Varnamo vs Helsingborg",
-                  "streams": [
-                    {
-                      "id": "st-603f6f7f62",
-                      "name": "Xaycon - BLV Quan Vũ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-ab6de9170b",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://xclive.yarncdn.live/live/xctv_blv_quanvu/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.xaycon3.live/"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://sv2.xaycon3.live"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "src-2406a0a94c",
-              "name": "BugioTV",
-              "contents": [
-                {
-                  "id": "ct-2406a0a94c",
-                  "name": "IFK Varnamo vs Helsingborg",
-                  "streams": [
-                    {
-                      "id": "st-2406a0a94c",
-                      "name": "Bugio - BLV Phi MC",
-                      "stream_links": [
-                        {
-                          "id": "lnk-d5c8f635fc",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_phimc/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv1.bugio9.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Superettan",
-            "team_a": "IFK Varnamo",
-            "team_b": "Helsingborg",
-            "logo_a": "https://media.api-sports.io/football/teams/2163.png",
-            "logo_b": "https://media.api-sports.io/football/teams/811.png",
-            "time": "00:00 17/06",
-            "blv": "BLV TÁO GIÀ",
-            "is_live": false,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/IFK Varnamo_Helsingborg_00-00 17-06_d0d30038_20260616.png?v=d0d30038",
             "width": 1600,
             "height": 1200
           }
