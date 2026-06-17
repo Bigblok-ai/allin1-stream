@@ -799,11 +799,82 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá",
+      "name": "⚽ Bóng Đá (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "bg-037a595e6f",
+          "name": "Simba vs Vita Club | 18:00 17/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-037a595e6f",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-037a595e6f",
+                  "name": "Simba vs Vita Club",
+                  "streams": [
+                    {
+                      "id": "st-037a595e6f",
+                      "name": "BG",
+                      "stream_links": [
+                        {
+                          "id": "lnk-51a73d71ba",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_mason/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Ligue 1",
+            "team_a": "Simba",
+            "team_b": "Vita Club",
+            "logo_a": "https://media.api-sports.io/football/teams/8572.png",
+            "logo_b": "https://media.api-sports.io/football/teams/6437.png",
+            "start_time": "2026-06-17T18:00:00",
+            "blv": "BLV Mao Từn",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-037a595e6f_f552904d_20260617.png?v=f552904d",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "hqlive-76f5c57f2f",
           "name": "Changnyeong W vs Suwon FMC | 17:00 17/06",
@@ -831,6 +902,41 @@
                       "id": "st-76f5c57f2f",
                       "name": "HQ",
                       "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-5516adb142",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-5516adb142",
+                  "name": "Changnyeong W vs Suwon FMC W",
+                  "streams": [
+                    {
+                      "id": "st-5516adb142",
+                      "name": "Bugio - BLV Phi MC",
+                      "stream_links": [
+                        {
+                          "id": "lnk-d5c8f635fc",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_phimc/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -2718,7 +2824,25 @@
                     {
                       "id": "st-f1ef93b6cb",
                       "name": "GV",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-9f0bff4167",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1781632580_hd/1781632580_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -2757,7 +2881,7 @@
     },
     {
       "id": "grp-bóng-chuyền",
-      "name": "🏐 Bóng Chuyền (2 LIVE)",
+      "name": "🏐 Bóng Chuyền (7 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -2788,25 +2912,7 @@
                     {
                       "id": "st-3b9e5da6f3",
                       "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-a2292496d8",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1781632506_hd/1781632506_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
+                      "stream_links": []
                     }
                   ]
                 }
@@ -2882,6 +2988,41 @@
                   ]
                 }
               ]
+            },
+            {
+              "id": "src-c831e9b5f6",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-c831e9b5f6",
+                  "name": "Nữ Canada -  Nữ Hà Lan",
+                  "streams": [
+                    {
+                      "id": "st-c831e9b5f6",
+                      "name": "Bugio - BLV Tiểu Mèo",
+                      "stream_links": [
+                        {
+                          "id": "lnk-21936c1c94",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_tieumeo/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
             }
           ],
           "org_metadata": {
@@ -2912,10 +3053,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -2930,7 +3071,25 @@
                     {
                       "id": "st-3e9f45c3d4",
                       "name": "HQ",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-6568b58b01",
+                          "name": "BLV PHAN BỐNG",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanbong/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -2945,7 +3104,7 @@
             "logo_b": "https://upload.wikimedia.org/wikipedia/commons/0/03/Flag_of_Italy.svg",
             "time": "15:00 17/06",
             "blv": "BLV PHAN BỐNG",
-            "is_live": false,
+            "is_live": true,
             "sport_slug": "bong-chuyen"
           },
           "image": {
@@ -2953,6 +3112,290 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/CH Séc_Italy_15-00 17-06_50ee3e3a_20260617.png?v=50ee3e3a",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "bg-4928e7510f",
+          "name": "Nữ Cộng hòa Séc vs Nữ Ý  | 15:00 17/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-4928e7510f",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-4928e7510f",
+                  "name": "Nữ Cộng hòa Séc vs Nữ Ý ",
+                  "streams": [
+                    {
+                      "id": "st-4928e7510f",
+                      "name": "BG",
+                      "stream_links": [
+                        {
+                          "id": "lnk-970b2a547c",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_phaothan/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Nations League Women's",
+            "team_a": "Nữ Cộng hòa Séc",
+            "team_b": "Nữ Ý ",
+            "logo_a": "https://static.flashscore.com/res/image/data/AaIpRDFG-zPOppuN2.png",
+            "logo_b": "https://img0.aiscore.com/basketball/team/adf2cddc94aa43e13dce1b7ce9e5c557.jpg!w250",
+            "start_time": "2026-06-17T15:00:00",
+            "blv": "BLV Pháo",
+            "is_live": true,
+            "cate_type": "bongchuyen"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-4928e7510f_e5990219_20260617.png?v=e5990219",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "bg-2dfe1946b3",
+          "name": "Czech W - USA W | 15:00 18/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-2dfe1946b3",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-2dfe1946b3",
+                  "name": "Czech W - USA W",
+                  "streams": [
+                    {
+                      "id": "st-2dfe1946b3",
+                      "name": "BG",
+                      "stream_links": [
+                        {
+                          "id": "lnk-378f040fcb",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_cuccu/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Nations League Women's",
+            "team_a": "Czech W",
+            "team_b": "USA W",
+            "logo_a": "https://static.flashscore.com/res/image/data/hjWOdNcM-xhy3Lep2.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/IoeNdfwS-MPdHoKT3.png",
+            "start_time": "2026-06-18T15:00:00",
+            "blv": "BLV Chim Nhỏ",
+            "is_live": false,
+            "cate_type": "bongchuyen"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-2dfe1946b3_4e99ca07_20260617.png?v=4e99ca07",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "bg-265eceb6d4",
+          "name": "Ukraine W - Poland W | 17:00 18/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-265eceb6d4",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-265eceb6d4",
+                  "name": "Ukraine W - Poland W",
+                  "streams": [
+                    {
+                      "id": "st-265eceb6d4",
+                      "name": "BG",
+                      "stream_links": [
+                        {
+                          "id": "lnk-21936c1c94",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_tieumeo/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Nations League Women's",
+            "team_a": "Ukraine W",
+            "team_b": "Poland W",
+            "logo_a": "https://static.flashscore.com/res/image/data/IyzbKwXg-8KJ0tcMR.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/x4akJeGG-SA3zzeae.png",
+            "start_time": "2026-06-18T17:00:00",
+            "blv": "BLV Tiểu Mèo",
+            "is_live": false,
+            "cate_type": "bongchuyen"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-265eceb6d4_700837de_20260617.png?v=700837de",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "bg-8452a95c40",
+          "name": "Turkey W - France W  | 23:30 18/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-8452a95c40",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-8452a95c40",
+                  "name": "Turkey W - France W ",
+                  "streams": [
+                    {
+                      "id": "st-8452a95c40",
+                      "name": "BG",
+                      "stream_links": [
+                        {
+                          "id": "lnk-21936c1c94",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_tieumeo/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Nations League Women's",
+            "team_a": "Turkey W",
+            "team_b": "France W ",
+            "logo_a": "https://static.flashscore.com/res/image/data/xj2CEkf5-4W8hcela.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/n9L75XEa-rcthslVl.png",
+            "start_time": "2026-06-18T23:30:00",
+            "blv": "BLV Tiểu Mèo",
+            "is_live": false,
+            "cate_type": "bongchuyen"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-8452a95c40_a90ace28_20260617.png?v=a90ace28",
             "width": 1600,
             "height": 1200
           }
@@ -2984,6 +3427,41 @@
                       "id": "st-5fbbba4853",
                       "name": "HQ",
                       "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-15212f2432",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-15212f2432",
+                  "name": "Nữ Đức vs Nữ Trung Quốc",
+                  "streams": [
+                    {
+                      "id": "st-15212f2432",
+                      "name": "Bugio - BLV Chim Nhỏ",
+                      "stream_links": [
+                        {
+                          "id": "lnk-378f040fcb",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_cuccu/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -3094,6 +3572,41 @@
                   ]
                 }
               ]
+            },
+            {
+              "id": "src-c64a9829fa",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-c64a9829fa",
+                  "name": "Nữ Nhật Bản vs Nữ Serbia",
+                  "streams": [
+                    {
+                      "id": "st-c64a9829fa",
+                      "name": "Bugio - BLV Chim Nhỏ",
+                      "stream_links": [
+                        {
+                          "id": "lnk-378f040fcb",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_cuccu/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
             }
           ],
           "org_metadata": {
@@ -3196,6 +3709,41 @@
                       "id": "st-7c9424220a",
                       "name": "HQ",
                       "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-8744cf92c8",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-8744cf92c8",
+                  "name": "Nữ Thổ Nhĩ Kỳ vs Nữ Bỉ",
+                  "streams": [
+                    {
+                      "id": "st-8744cf92c8",
+                      "name": "Bugio - BLV Tiểu Mèo",
+                      "stream_links": [
+                        {
+                          "id": "lnk-21936c1c94",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_tieumeo/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -3355,6 +3903,41 @@
                       "id": "st-f936e7ff1e",
                       "name": "HQ",
                       "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-fb642b7810",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-fb642b7810",
+                  "name": "Serbia W - Italy W",
+                  "streams": [
+                    {
+                      "id": "st-fb642b7810",
+                      "name": "Bugio - BLV Pháo",
+                      "stream_links": [
+                        {
+                          "id": "lnk-970b2a547c",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_phaothan/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
