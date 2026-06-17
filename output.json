@@ -2760,7 +2760,7 @@
     },
     {
       "id": "grp-tennis",
-      "name": "🎾 Tennis",
+      "name": "🎾 Tennis (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -2773,10 +2773,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -2814,6 +2814,41 @@
                   ]
                 }
               ]
+            },
+            {
+              "id": "src-350bdde991",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-350bdde991",
+                  "name": "Zizou Bergs vs Taylor Fritz",
+                  "streams": [
+                    {
+                      "id": "st-350bdde991",
+                      "name": "Hoiquan - BLV PHAN BÁCH",
+                      "stream_links": [
+                        {
+                          "id": "lnk-eae8482cb7",
+                          "name": "BLV PHAN BÁCH",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanchuot/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
             }
           ],
           "org_metadata": {
@@ -2824,7 +2859,7 @@
             "logo_b": "https://static.flashscore.com/res/image/data/vDLwcnCa-8AMTtzu5.png",
             "time": "16:30 17/06",
             "blv": "BLV Ben",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "tennis"
           },
           "image": {
@@ -3308,82 +3343,11 @@
     },
     {
       "id": "grp-bóng-rổ",
-      "name": "🏀 Bóng Rổ (1 LIVE)",
+      "name": "🏀 Bóng Rổ",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-f1ef93b6cb",
-          "name": "Nelson Giants vs Manawatu Jets | 14:00 17/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-f1ef93b6cb",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-f1ef93b6cb",
-                  "name": "Nelson Giants vs Manawatu Jets",
-                  "streams": [
-                    {
-                      "id": "st-f1ef93b6cb",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-9f0bff4167",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1781632580_hd/1781632580_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "NBL",
-            "team_a": "Nelson Giants",
-            "team_b": "Manawatu Jets",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/en/6/63/Nelson_Giants_logo.webp",
-            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzuv8y15b3-foTJEu5m5hq8u1jvDwdVslefA&s",
-            "time": "14:00 17/06",
-            "blv": "leo",
-            "is_live": true,
-            "cate_type": "basketball"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-f1ef93b6cb_c73fa2ca_20260617.png?v=c73fa2ca",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-0831a2ff31",
           "name": "Bataan Risers vs Batang Kankaloo | 17:00 17/06",
@@ -3609,7 +3573,7 @@
     },
     {
       "id": "grp-bóng-chuyền",
-      "name": "🏐 Bóng Chuyền (6 LIVE)",
+      "name": "🏐 Bóng Chuyền (7 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -3681,6 +3645,147 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-d785f12a81_8ca5636f_20260617.png?v=8ca5636f",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-af4807cceb",
+          "name": "Germany vs China | 16:30 17/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-af4807cceb",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-af4807cceb",
+                  "name": "Germany vs China",
+                  "streams": [
+                    {
+                      "id": "st-af4807cceb",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-0400b9ece1",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1781500360_hd/1781500360_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-5fbbba4853",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-5fbbba4853",
+                  "name": "Đức vs Trung Quốc",
+                  "streams": [
+                    {
+                      "id": "st-5fbbba4853",
+                      "name": "Hoiquan - BLV TÁO GIÀ",
+                      "stream_links": [
+                        {
+                          "id": "lnk-1cad2e4412",
+                          "name": "BLV TÁO GIÀ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://tdlive.yarncdn.live/live/tdtv_blv_taotinhtao/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-15212f2432",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-15212f2432",
+                  "name": "Nữ Đức vs Nữ Trung Quốc",
+                  "streams": [
+                    {
+                      "id": "st-15212f2432",
+                      "name": "Bugio - BLV Chim Nhỏ",
+                      "stream_links": [
+                        {
+                          "id": "lnk-378f040fcb",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_cuccu/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Nations League Women",
+            "team_a": "Germany",
+            "team_b": "China",
+            "logo_a": "https://static.flashscore.com/res/image/data/OfOVK7il-jwMhrJiF.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/UFsHESEa-dUwawdyp.png",
+            "time": "16:30 17/06",
+            "blv": "blv-sun",
+            "is_live": true,
+            "cate_type": "bongchuyen"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-af4807cceb_88ea3c13_20260617.png?v=88ea3c13",
             "width": 1600,
             "height": 1200
           }
@@ -4036,112 +4141,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-8452a95c40_a90ace28_20260617.png?v=a90ace28",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-af4807cceb",
-          "name": "Germany vs China | 16:30 17/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-af4807cceb",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-af4807cceb",
-                  "name": "Germany vs China",
-                  "streams": [
-                    {
-                      "id": "st-af4807cceb",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-0400b9ece1",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1781500360_hd/1781500360_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "src-15212f2432",
-              "name": "BugioTV",
-              "contents": [
-                {
-                  "id": "ct-15212f2432",
-                  "name": "Nữ Đức vs Nữ Trung Quốc",
-                  "streams": [
-                    {
-                      "id": "st-15212f2432",
-                      "name": "Bugio - BLV Chim Nhỏ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-378f040fcb",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_cuccu/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv1.bugio9.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Nations League Women",
-            "team_a": "Germany",
-            "team_b": "China",
-            "logo_a": "https://static.flashscore.com/res/image/data/OfOVK7il-jwMhrJiF.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/UFsHESEa-dUwawdyp.png",
-            "time": "16:30 17/06",
-            "blv": "blv-sun",
-            "is_live": false,
-            "cate_type": "bongchuyen"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-af4807cceb_88ea3c13_20260617.png?v=88ea3c13",
             "width": 1600,
             "height": 1200
           }
