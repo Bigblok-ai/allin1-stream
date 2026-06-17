@@ -3469,7 +3469,7 @@
     },
     {
       "id": "grp-tennis",
-      "name": "🎾 Tennis (1 LIVE)",
+      "name": "🎾 Tennis (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -3581,6 +3581,77 @@
           }
         },
         {
+          "id": "hqlive-0f18686f63",
+          "name": "Frances Tiafoe vs Sho Shimabukuro | 18:00 17/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-0f18686f63",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-0f18686f63",
+                  "name": "Frances Tiafoe vs Sho Shimabukuro",
+                  "streams": [
+                    {
+                      "id": "st-0f18686f63",
+                      "name": "HQ",
+                      "stream_links": [
+                        {
+                          "id": "lnk-bc9866f74f",
+                          "name": "BLV PHAN PHÉP",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanphep/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "ATP500 Halle",
+            "team_a": "Frances Tiafoe",
+            "team_b": "Sho Shimabukuro",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/a/a3/FrancesTiafo.jpg",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Shimabukuro_WMQ23_%2853062069285%29.jpg",
+            "time": "18:00 17/06",
+            "blv": "BLV PHAN PHÉP",
+            "is_live": true,
+            "sport_slug": "tennis"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Frances Tiafoe_Sho Shimabukuro_18-00 17-06_517fca7c_20260617.png?v=517fca7c",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "gv-578fe357b6",
           "name": "Ben Shelton vs Lorenzo Sonego  | 18:00 17/06",
           "type": "single",
@@ -3647,59 +3718,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-578fe357b6_1d95dd25_20260617.png?v=1d95dd25",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "hqlive-0f18686f63",
-          "name": "Frances Tiafoe vs Sho Shimabukuro | 18:00 17/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-0f18686f63",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-0f18686f63",
-                  "name": "Frances Tiafoe vs Sho Shimabukuro",
-                  "streams": [
-                    {
-                      "id": "st-0f18686f63",
-                      "name": "HQ",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "ATP500 Halle",
-            "team_a": "Frances Tiafoe",
-            "team_b": "Sho Shimabukuro",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/a/a3/FrancesTiafo.jpg",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Shimabukuro_WMQ23_%2853062069285%29.jpg",
-            "time": "18:00 17/06",
-            "blv": "BLV PHAN PHÉP",
-            "is_live": false,
-            "sport_slug": "tennis"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Frances Tiafoe_Sho Shimabukuro_18-00 17-06_517fca7c_20260617.png?v=517fca7c",
             "width": 1600,
             "height": 1200
           }
