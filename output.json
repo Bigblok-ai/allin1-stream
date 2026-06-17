@@ -799,11 +799,269 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (1 LIVE)",
+      "name": "⚽ Bóng Đá (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "hqlive-76f5c57f2f",
+          "name": "Changnyeong W vs Suwon FMC | 17:00 17/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-76f5c57f2f",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-76f5c57f2f",
+                  "name": "Changnyeong W vs Suwon FMC",
+                  "streams": [
+                    {
+                      "id": "st-76f5c57f2f",
+                      "name": "HQ",
+                      "stream_links": [
+                        {
+                          "id": "lnk-f6231c6549",
+                          "name": "BLV PHAN CA",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanca/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-5516adb142",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-5516adb142",
+                  "name": "Changnyeong W vs Suwon FMC W",
+                  "streams": [
+                    {
+                      "id": "st-5516adb142",
+                      "name": "Bugio - BLV Phi MC",
+                      "stream_links": [
+                        {
+                          "id": "lnk-d5c8f635fc",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_phimc/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "WK-League",
+            "team_a": "Changnyeong W",
+            "team_b": "Suwon FMC",
+            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmfukJLwd8XgLwZE2GQ7K66yFXmCwwjY5kLg&s",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/en/thumb/0/01/Suwon_FC_2016.svg/1280px-Suwon_FC_2016.svg.png",
+            "time": "17:00 17/06",
+            "blv": "BLV PHAN CA",
+            "is_live": true,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Changnyeong W_Suwon FMC_17-00 17-06_f18e1d50_20260617.png?v=f18e1d50",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-43671afcac",
+          "name": "Seoul W vs Boeun Sangmu W | 17:00 17/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-43671afcac",
+              "name": "XayConTV",
+              "contents": [
+                {
+                  "id": "ct-43671afcac",
+                  "name": "Seoul W vs Boeun Sangmu W",
+                  "streams": [
+                    {
+                      "id": "st-43671afcac",
+                      "name": "XC",
+                      "stream_links": [
+                        {
+                          "id": "lnk-19bab7f4de",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://xclive.yarncdn.live/live/xctv_blv_aco/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.xaycon3.live/"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://sv2.xaycon3.live"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "WK-League",
+            "team_a": "Seoul W",
+            "team_b": "Boeun Sangmu W",
+            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4MaoRq3dS2v_Z7ysN83fD4r1XqTtCfJsc5w&s",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/en/9/91/Mungyeong_Sangmu_WFC.png",
+            "time": "17:00",
+            "date": "17/06",
+            "blv": "BLV A Cỏ",
+            "is_live": true,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/xaycon-stream/refs/heads/main/thumbs/xc-43671afcac_ea846dc8_20260617.png?v=ea846dc8",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-3f4fe14c79",
+          "name": "Gyeongju W vs Hwacheon KSPO W | 17:00 17/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-3f4fe14c79",
+              "name": "XayConTV",
+              "contents": [
+                {
+                  "id": "ct-3f4fe14c79",
+                  "name": "Gyeongju W vs Hwacheon KSPO W",
+                  "streams": [
+                    {
+                      "id": "st-3f4fe14c79",
+                      "name": "XC",
+                      "stream_links": [
+                        {
+                          "id": "lnk-fa5c7698a5",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://xclive.yarncdn.live/live/xctv_blv_tholan/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.xaycon3.live/"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://sv2.xaycon3.live"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "WK-League",
+            "team_a": "Gyeongju W",
+            "team_b": "Hwacheon KSPO W",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/en/e/e1/Daejeon_Hydro_%26_Nuclear_Power_FC_logo.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/en/8/8d/KSPO_WFC.png",
+            "time": "17:00",
+            "date": "17/06",
+            "blv": "BLV Thợ Lặn",
+            "is_live": true,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/xaycon-stream/refs/heads/main/thumbs/xc-3f4fe14c79_04c4c985_20260617.png?v=04c4c985",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "bg-037a595e6f",
           "name": "Simba vs Vita Club | 18:00 17/06",
@@ -871,94 +1129,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-037a595e6f_f552904d_20260617.png?v=f552904d",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "hqlive-76f5c57f2f",
-          "name": "Changnyeong W vs Suwon FMC | 17:00 17/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-76f5c57f2f",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-76f5c57f2f",
-                  "name": "Changnyeong W vs Suwon FMC",
-                  "streams": [
-                    {
-                      "id": "st-76f5c57f2f",
-                      "name": "HQ",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "src-5516adb142",
-              "name": "BugioTV",
-              "contents": [
-                {
-                  "id": "ct-5516adb142",
-                  "name": "Changnyeong W vs Suwon FMC W",
-                  "streams": [
-                    {
-                      "id": "st-5516adb142",
-                      "name": "Bugio - BLV Phi MC",
-                      "stream_links": [
-                        {
-                          "id": "lnk-d5c8f635fc",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_phimc/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv1.bugio9.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "WK-League",
-            "team_a": "Changnyeong W",
-            "team_b": "Suwon FMC",
-            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmfukJLwd8XgLwZE2GQ7K66yFXmCwwjY5kLg&s",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/en/thumb/0/01/Suwon_FC_2016.svg/1280px-Suwon_FC_2016.svg.png",
-            "time": "17:00 17/06",
-            "blv": "BLV PHAN CA",
-            "is_live": false,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Changnyeong W_Suwon FMC_17-00 17-06_f18e1d50_20260617.png?v=f18e1d50",
             "width": 1600,
             "height": 1200
           }
@@ -2880,158 +3050,6 @@
           }
         },
         {
-          "id": "xc-43671afcac",
-          "name": "Seoul W vs Boeun Sangmu W | 17:00 17/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-43671afcac",
-              "name": "XayConTV",
-              "contents": [
-                {
-                  "id": "ct-43671afcac",
-                  "name": "Seoul W vs Boeun Sangmu W",
-                  "streams": [
-                    {
-                      "id": "st-43671afcac",
-                      "name": "XC",
-                      "stream_links": [
-                        {
-                          "id": "lnk-19bab7f4de",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://xclive.yarncdn.live/live/xctv_blv_aco/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.xaycon3.live/"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://sv2.xaycon3.live"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "WK-League",
-            "team_a": "Seoul W",
-            "team_b": "Boeun Sangmu W",
-            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4MaoRq3dS2v_Z7ysN83fD4r1XqTtCfJsc5w&s",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/en/9/91/Mungyeong_Sangmu_WFC.png",
-            "time": "17:00",
-            "date": "17/06",
-            "blv": "BLV A Cỏ",
-            "is_live": false,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/xaycon-stream/refs/heads/main/thumbs/xc-43671afcac_ea846dc8_20260617.png?v=ea846dc8",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "xc-3f4fe14c79",
-          "name": "Gyeongju W vs Hwacheon KSPO W | 17:00 17/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-3f4fe14c79",
-              "name": "XayConTV",
-              "contents": [
-                {
-                  "id": "ct-3f4fe14c79",
-                  "name": "Gyeongju W vs Hwacheon KSPO W",
-                  "streams": [
-                    {
-                      "id": "st-3f4fe14c79",
-                      "name": "XC",
-                      "stream_links": [
-                        {
-                          "id": "lnk-fa5c7698a5",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://xclive.yarncdn.live/live/xctv_blv_tholan/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.xaycon3.live/"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://sv2.xaycon3.live"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "WK-League",
-            "team_a": "Gyeongju W",
-            "team_b": "Hwacheon KSPO W",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/en/e/e1/Daejeon_Hydro_%26_Nuclear_Power_FC_logo.png",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/en/8/8d/KSPO_WFC.png",
-            "time": "17:00",
-            "date": "17/06",
-            "blv": "BLV Thợ Lặn",
-            "is_live": false,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/xaycon-stream/refs/heads/main/thumbs/xc-3f4fe14c79_04c4c985_20260617.png?v=04c4c985",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "xc-ef92925ea7",
           "name": "Akademiya Ontustik vs Yelimay Semey 2 | 19:00 18/06",
           "type": "single",
@@ -4269,7 +4287,7 @@
     },
     {
       "id": "grp-bóng-chuyền",
-      "name": "🏐 Bóng Chuyền (7 LIVE)",
+      "name": "🏐 Bóng Chuyền (8 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -4553,6 +4571,77 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/CH Séc_Italy_15-00 17-06_50ee3e3a_20260617.png?v=50ee3e3a",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-b7696229c5",
+          "name": "Bulgaria vs Ba Lan | 17:00 17/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-b7696229c5",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-b7696229c5",
+                  "name": "Bulgaria vs Ba Lan",
+                  "streams": [
+                    {
+                      "id": "st-b7696229c5",
+                      "name": "HQ",
+                      "stream_links": [
+                        {
+                          "id": "lnk-6568b58b01",
+                          "name": "BLV PHAN BỐNG",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanbong/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Nation League Women",
+            "team_a": "Bulgaria",
+            "team_b": "Ba Lan",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Flag_of_Bulgaria.svg/250px-Flag_of_Bulgaria.svg.png",
+            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxLkHp8_KNZVw1jCYb3bu1mvTTOxYcnl5yQQ&s",
+            "time": "17:00 17/06",
+            "blv": "BLV PHAN BỐNG",
+            "is_live": true,
+            "sport_slug": "bong-chuyen"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Bulgaria_Ba Lan_17-00 17-06_52fa7b2d_20260617.png?v=52fa7b2d",
             "width": 1600,
             "height": 1200
           }
@@ -4908,59 +4997,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-df244a290e_4ebecdd2_20260617.png?v=4ebecdd2",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "hqlive-b7696229c5",
-          "name": "Bulgaria vs Ba Lan | 17:00 17/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-b7696229c5",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-b7696229c5",
-                  "name": "Bulgaria vs Ba Lan",
-                  "streams": [
-                    {
-                      "id": "st-b7696229c5",
-                      "name": "HQ",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Nation League Women",
-            "team_a": "Bulgaria",
-            "team_b": "Ba Lan",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Flag_of_Bulgaria.svg/250px-Flag_of_Bulgaria.svg.png",
-            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxLkHp8_KNZVw1jCYb3bu1mvTTOxYcnl5yQQ&s",
-            "time": "17:00 17/06",
-            "blv": "BLV PHAN BỐNG",
-            "is_live": false,
-            "sport_slug": "bong-chuyen"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Bulgaria_Ba Lan_17-00 17-06_52fa7b2d_20260617.png?v=52fa7b2d",
             "width": 1600,
             "height": 1200
           }
