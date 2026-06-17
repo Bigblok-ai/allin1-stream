@@ -830,7 +830,25 @@
                     {
                       "id": "st-d6d4ade83b",
                       "name": "HQ",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-1cad2e4412",
+                          "name": "BLV TÁO GIÀ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://tdlive.yarncdn.live/live/tdtv_blv_taotinhtao/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -3293,82 +3311,11 @@
     },
     {
       "id": "grp-tennis",
-      "name": "🎾 Tennis (6 LIVE)",
+      "name": "🎾 Tennis (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-578fe357b6",
-          "name": "Ben Shelton vs Lorenzo Sonego  | 19:40 17/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-578fe357b6",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-578fe357b6",
-                  "name": "Ben Shelton vs Lorenzo Sonego ",
-                  "streams": [
-                    {
-                      "id": "st-578fe357b6",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-6ef13e9299",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1781662173_hd/1781662173_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Halle Open",
-            "team_a": "Ben Shelton",
-            "team_b": "Lorenzo Sonego ",
-            "logo_a": "https://static.flashscore.com/res/image/data/UBXM3cXg-fgTOwTv9.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/WfbI2IDa-xYdWWVqk.png",
-            "time": "19:40 17/06",
-            "blv": "BLV Ben",
-            "is_live": true,
-            "cate_type": "tennis"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-578fe357b6_1d95dd25_20260617.png?v=1d95dd25",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-7a8c9a9f11",
           "name": "Learner Tien vs Felix Auger-Aliassime | 20:40 17/06",
@@ -3436,77 +3383,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-7a8c9a9f11_cba50c27_20260617.png?v=cba50c27",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "hqlive-d52ea55c99",
-          "name": "Ben Shelton vs Lorenzo Sonego | 18:30 17/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-d52ea55c99",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-d52ea55c99",
-                  "name": "Ben Shelton vs Lorenzo Sonego",
-                  "streams": [
-                    {
-                      "id": "st-d52ea55c99",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-eae8482cb7",
-                          "name": "BLV PHAN BÁCH",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanchuot/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "ATP500 Halle",
-            "team_a": "Ben Shelton",
-            "team_b": "Lorenzo Sonego",
-            "logo_a": "https://www.thesecondserve.com/wp-content/uploads/2025/08/ben-shelton-toronto-cincinnati-open2-1.jpg",
-            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2Xp6R6nfpFwhEpBeHln9klK2IKYhtFAyZ9w&s",
-            "time": "18:30 17/06",
-            "blv": "BLV PHAN BÁCH",
-            "is_live": true,
-            "sport_slug": "tennis"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Ben Shelton_Lorenzo Sonego_18-30 17-06_81d33aad_20260617.png?v=81d33aad",
             "width": 1600,
             "height": 1200
           }
@@ -3932,6 +3808,219 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-ab75178ebd_0b148753_20260617.png?v=0b148753",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-a08b65482b",
+          "name": "Chicago Sky W vs New York Liberty W | 07:00 18/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-a08b65482b",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-a08b65482b",
+                  "name": "Chicago Sky W vs New York Liberty W",
+                  "streams": [
+                    {
+                      "id": "st-a08b65482b",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-c431474279",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1781702815_hd/1781702815_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "WNBA",
+            "team_a": "Chicago Sky W",
+            "team_b": "New York Liberty W",
+            "logo_a": "https://static.flashscore.com/res/image/data/ID1vxUZA-t67FITyc.png",
+            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRnFsEkiU1gOwmarpw9ErB0OrMqNBZSXWNG6g&s",
+            "time": "07:00 18/06",
+            "blv": "blv-lac",
+            "is_live": false,
+            "cate_type": "basketball"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-a08b65482b_ea365656_20260617.png?v=ea365656",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-46629e573e",
+          "name": "Los Angeles Sparks W  vs Minnesota Lynx W | 09:00 18/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-46629e573e",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-46629e573e",
+                  "name": "Los Angeles Sparks W  vs Minnesota Lynx W",
+                  "streams": [
+                    {
+                      "id": "st-46629e573e",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-90c652ad6d",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1781703287_hd/1781703287_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "WNBA",
+            "team_a": "Los Angeles Sparks W ",
+            "team_b": "Minnesota Lynx W",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/en/thumb/9/9f/Los_Angeles_Sparks_logo.svg/1280px-Los_Angeles_Sparks_logo.svg.png",
+            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4TmNsNSGfAyGiZMvP1lXbfMBURhcSrt2dxA&s",
+            "time": "09:00 18/06",
+            "blv": "BLV Cầy",
+            "is_live": false,
+            "cate_type": "basketball"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-46629e573e_9d249507_20260617.png?v=9d249507",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-0a32d936a7",
+          "name": "Golden State Valkyries W vs  Dallas Wings W | 09:00 18/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-0a32d936a7",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-0a32d936a7",
+                  "name": "Golden State Valkyries W vs  Dallas Wings W",
+                  "streams": [
+                    {
+                      "id": "st-0a32d936a7",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-47aece2f7c",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1781703238_hd/1781703238_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "WNBA",
+            "team_a": "Golden State Valkyries W",
+            "team_b": " Dallas Wings W",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/en/thumb/0/00/Golden_State_Valkyries_logo.svg/960px-Golden_State_Valkyries_logo.svg.png",
+            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRk0nmYNUbdu_irSbIj1ZZVdI5JJsQnb6UGKw&s",
+            "time": "09:00 18/06",
+            "blv": "BLV Ben",
+            "is_live": false,
+            "cate_type": "basketball"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-0a32d936a7_22380768_20260617.png?v=22380768",
             "width": 1600,
             "height": 1200
           }
