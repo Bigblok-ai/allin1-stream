@@ -799,11 +799,99 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "hqlive-d6d4ade83b",
+          "name": "Kairat Almaty vs Kyzyl-Zhar | 21:00 17/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-d6d4ade83b",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-d6d4ade83b",
+                  "name": "Kairat Almaty vs Kyzyl-Zhar",
+                  "streams": [
+                    {
+                      "id": "st-d6d4ade83b",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-a1c3ae6c49",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-a1c3ae6c49",
+                  "name": "Kairat Almaty vs Kyzyl-Zhar",
+                  "streams": [
+                    {
+                      "id": "st-a1c3ae6c49",
+                      "name": "Bugio - BLV Mao Từn",
+                      "stream_links": [
+                        {
+                          "id": "lnk-51a73d71ba",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_mason/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Ngoại hạng Kazakhstan",
+            "team_a": "Kairat Almaty",
+            "team_b": "Kyzyl-Zhar",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/FCKairat_logo.png/250px-FCKairat_logo.png",
+            "logo_b": "https://media.api-sports.io/football/teams/4554.png",
+            "time": "21:00 17/06",
+            "blv": "BLV TÁO GIÀ",
+            "is_live": true,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Kairat Almaty_Kyzyl-Zhar_21-00 17-06_785ec34e_20260617.png?v=785ec34e",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "xc-0fcae1c878",
           "name": "Molodechno-DYuSSh 4 vs Bate Borisov | 20:00 17/06",
@@ -947,94 +1035,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-37f65c068b_3ae2daac_20260617.png?v=3ae2daac",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "hqlive-d6d4ade83b",
-          "name": "Kairat Almaty vs Kyzyl-Zhar | 21:00 17/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-d6d4ade83b",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-d6d4ade83b",
-                  "name": "Kairat Almaty vs Kyzyl-Zhar",
-                  "streams": [
-                    {
-                      "id": "st-d6d4ade83b",
-                      "name": "HQ",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "src-a1c3ae6c49",
-              "name": "BugioTV",
-              "contents": [
-                {
-                  "id": "ct-a1c3ae6c49",
-                  "name": "Kairat Almaty vs Kyzyl-Zhar",
-                  "streams": [
-                    {
-                      "id": "st-a1c3ae6c49",
-                      "name": "Bugio - BLV Mao Từn",
-                      "stream_links": [
-                        {
-                          "id": "lnk-51a73d71ba",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_mason/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv1.bugio9.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Ngoại hạng Kazakhstan",
-            "team_a": "Kairat Almaty",
-            "team_b": "Kyzyl-Zhar",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/FCKairat_logo.png/250px-FCKairat_logo.png",
-            "logo_b": "https://media.api-sports.io/football/teams/4554.png",
-            "time": "21:00 17/06",
-            "blv": "BLV TÁO GIÀ",
-            "is_live": false,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Kairat Almaty_Kyzyl-Zhar_21-00 17-06_785ec34e_20260617.png?v=785ec34e",
             "width": 1600,
             "height": 1200
           }
