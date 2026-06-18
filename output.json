@@ -2890,25 +2890,7 @@
                     {
                       "id": "st-e33b34a41e",
                       "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-0014a09cde",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1781703490_hd/1781703490_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
+                      "stream_links": []
                     }
                   ]
                 }
@@ -3089,11 +3071,82 @@
     },
     {
       "id": "grp-bóng-chuyền",
-      "name": "🏐 Bóng Chuyền (1 LIVE)",
+      "name": "🏐 Bóng Chuyền (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "hqlive-6f6b872fc6",
+          "name": "CH Séc vs Mỹ | 15:00 18/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-6f6b872fc6",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-6f6b872fc6",
+                  "name": "CH Séc vs Mỹ",
+                  "streams": [
+                    {
+                      "id": "st-6f6b872fc6",
+                      "name": "HQ",
+                      "stream_links": [
+                        {
+                          "id": "lnk-1cad2e4412",
+                          "name": "BLV TÁO GIÀ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://tdlive.yarncdn.live/live/tdtv_blv_taotinhtao/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Nation League Women",
+            "team_a": "CH Séc",
+            "team_b": "Mỹ",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Flag_of_the_Czech_Republic.svg",
+            "logo_b": "https://www.englisch-hilfen.de/images/flags/248.gif",
+            "time": "15:00 18/06",
+            "blv": "BLV TÁO GIÀ",
+            "is_live": true,
+            "sport_slug": "bong-chuyen"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/CH Séc_Mỹ_15-00 18-06_e435fa29_20260618.png?v=e435fa29",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "bg-2dfe1946b3",
           "name": "Czech W - USA W | 15:00 18/06",
@@ -3102,10 +3155,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -3153,7 +3206,7 @@
             "logo_b": "https://static.flashscore.com/res/image/data/IoeNdfwS-MPdHoKT3.png",
             "start_time": "2026-06-18T15:00:00",
             "blv": "BLV Chim Nhỏ",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "bongchuyen"
           },
           "image": {
@@ -3232,59 +3285,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-d3dddd8353_56d4fb04_20260618.png?v=56d4fb04",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "hqlive-6f6b872fc6",
-          "name": "CH Séc vs Mỹ | 15:00 18/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-6f6b872fc6",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-6f6b872fc6",
-                  "name": "CH Séc vs Mỹ",
-                  "streams": [
-                    {
-                      "id": "st-6f6b872fc6",
-                      "name": "HQ",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Nation League Women",
-            "team_a": "CH Séc",
-            "team_b": "Mỹ",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Flag_of_the_Czech_Republic.svg",
-            "logo_b": "https://www.englisch-hilfen.de/images/flags/248.gif",
-            "time": "15:00 18/06",
-            "blv": "BLV TÁO GIÀ",
-            "is_live": false,
-            "sport_slug": "bong-chuyen"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/CH Séc_Mỹ_15-00 18-06_e435fa29_20260618.png?v=e435fa29",
             "width": 1600,
             "height": 1200
           }
