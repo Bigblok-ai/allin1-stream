@@ -3089,11 +3089,82 @@
     },
     {
       "id": "grp-bóng-chuyền",
-      "name": "🏐 Bóng Chuyền (2 LIVE)",
+      "name": "🏐 Bóng Chuyền (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "gv-d3dddd8353",
+          "name": "Czechia vs USA | 15:00 18/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-d3dddd8353",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-d3dddd8353",
+                  "name": "Czechia vs USA",
+                  "streams": [
+                    {
+                      "id": "st-d3dddd8353",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-2225e79be8",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1781725564_hd/1781725564_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Nations League Women",
+            "team_a": "Czechia",
+            "team_b": "USA",
+            "logo_a": "https://static.flashscore.com/res/image/data/hjWOdNcM-xhy3Lep2.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/IoeNdfwS-MPdHoKT3.png",
+            "time": "15:00 18/06",
+            "blv": "blv-sun",
+            "is_live": true,
+            "cate_type": "bongchuyen"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-d3dddd8353_56d4fb04_20260618.png?v=56d4fb04",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "hqlive-6f6b872fc6",
           "name": "CH Séc vs Mỹ | 15:00 18/06",
@@ -3232,77 +3303,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-2dfe1946b3_4e99ca07_20260618.png?v=4e99ca07",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-d3dddd8353",
-          "name": "Czechia vs USA | 15:00 18/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-d3dddd8353",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-d3dddd8353",
-                  "name": "Czechia vs USA",
-                  "streams": [
-                    {
-                      "id": "st-d3dddd8353",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-2225e79be8",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1781725564_hd/1781725564_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Nations League Women",
-            "team_a": "Czechia",
-            "team_b": "USA",
-            "logo_a": "https://static.flashscore.com/res/image/data/hjWOdNcM-xhy3Lep2.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/IoeNdfwS-MPdHoKT3.png",
-            "time": "15:00 18/06",
-            "blv": "blv-sun",
-            "is_live": false,
-            "cate_type": "bongchuyen"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-d3dddd8353_56d4fb04_20260618.png?v=56d4fb04",
             "width": 1600,
             "height": 1200
           }
