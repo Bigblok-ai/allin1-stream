@@ -3559,7 +3559,7 @@
     },
     {
       "id": "grp-tennis",
-      "name": "🎾 Tennis (1 LIVE)",
+      "name": "🎾 Tennis (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -3643,10 +3643,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -3661,7 +3661,25 @@
                     {
                       "id": "st-a8697ce2c1",
                       "name": "HQ",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-6568b58b01",
+                          "name": "BLV PHAN BỐNG",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanbong/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -3676,7 +3694,7 @@
             "logo_b": "https://upload.wikimedia.org/wikipedia/commons/6/62/Lehecka_MCM23_%285%29_%2852883527310%29.jpg",
             "time": "21:30 18/06",
             "blv": "BLV PHAN BỐNG",
-            "is_live": false,
+            "is_live": true,
             "sport_slug": "tennis"
           },
           "image": {
@@ -4054,152 +4072,11 @@
     },
     {
       "id": "grp-bóng-chuyền",
-      "name": "🏐 Bóng Chuyền (7 LIVE)",
+      "name": "🏐 Bóng Chuyền (6 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-0c5f046b94",
-          "name": "Serbia vs Italy | 19:00 18/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-0c5f046b94",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-0c5f046b94",
-                  "name": "Serbia vs Italy",
-                  "streams": [
-                    {
-                      "id": "st-0c5f046b94",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-1e579d894b",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1781725722_hd/1781725722_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "src-f936e7ff1e",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-f936e7ff1e",
-                  "name": "Serbia vs Italy",
-                  "streams": [
-                    {
-                      "id": "st-f936e7ff1e",
-                      "name": "Hoiquan - BLV LƯƠNG BỔNG",
-                      "stream_links": [
-                        {
-                          "id": "lnk-975fc55dd1",
-                          "name": "BLV LƯƠNG BỔNG",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanliem/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "src-fb642b7810",
-              "name": "BugioTV",
-              "contents": [
-                {
-                  "id": "ct-fb642b7810",
-                  "name": "Serbia W - Italy W",
-                  "streams": [
-                    {
-                      "id": "st-fb642b7810",
-                      "name": "Bugio - BLV Pháo",
-                      "stream_links": [
-                        {
-                          "id": "lnk-970b2a547c",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_phaothan/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv1.bugio9.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Nations League Women",
-            "team_a": "Serbia",
-            "team_b": "Italy",
-            "logo_a": "https://static.flashscore.com/res/image/data/x4FgDryB-zLx3xGjj.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/0IAL5Rkl-xCsenx2O.png",
-            "time": "19:00 18/06",
-            "blv": "blv-can",
-            "is_live": true,
-            "cate_type": "bongchuyen"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-0c5f046b94_5f7f4ec0_20260618.png?v=5f7f4ec0",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-a598c85f2b",
           "name": "Belgium vs Brazil | 20:00 18/06",
