@@ -799,7 +799,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (6 LIVE)",
+      "name": "⚽ Bóng Đá (5 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1053,6 +1053,45 @@
               ]
             },
             {
+              "id": "src-47ec336337",
+              "name": "XayConTV",
+              "contents": [
+                {
+                  "id": "ct-47ec336337",
+                  "name": "Czechia vs South Africa",
+                  "streams": [
+                    {
+                      "id": "st-47ec336337",
+                      "name": "Xaycon - BLV Tam Mao",
+                      "stream_links": [
+                        {
+                          "id": "lnk-bccd486b79",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://xclive.yarncdn.live/live/xctv_blv_tammao/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.xaycon3.live/"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://sv2.xaycon3.live"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
               "id": "src-57037ae40a",
               "name": "XayConTV",
               "contents": [
@@ -1129,45 +1168,6 @@
                   ]
                 }
               ]
-            },
-            {
-              "id": "src-47ec336337",
-              "name": "XayConTV",
-              "contents": [
-                {
-                  "id": "ct-47ec336337",
-                  "name": "Czechia vs South Africa",
-                  "streams": [
-                    {
-                      "id": "st-47ec336337",
-                      "name": "Xaycon - BLV Tam Mao",
-                      "stream_links": [
-                        {
-                          "id": "lnk-bccd486b79",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://xclive.yarncdn.live/live/xctv_blv_tammao/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.xaycon3.live/"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://sv2.xaycon3.live"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
             }
           ],
           "org_metadata": {
@@ -1186,82 +1186,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Czech Republic_South Africa_23-00 18-06_5de77a66_20260618.png?v=5de77a66",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "xc-f609754d19",
-          "name": "Meshakhte vs Gagra | 20:30 18/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-f609754d19",
-              "name": "XayConTV",
-              "contents": [
-                {
-                  "id": "ct-f609754d19",
-                  "name": "Meshakhte vs Gagra",
-                  "streams": [
-                    {
-                      "id": "st-f609754d19",
-                      "name": "XC",
-                      "stream_links": [
-                        {
-                          "id": "lnk-bccd486b79",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://xclive.yarncdn.live/live/xctv_blv_tammao/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.xaycon3.live/"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://sv2.xaycon3.live"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Erovnuli Liga",
-            "team_a": "Meshakhte",
-            "team_b": "Gagra",
-            "logo_a": "https://media.api-sports.io/football/teams/13847.png",
-            "logo_b": "https://media.api-sports.io/football/teams/3505.png",
-            "time": "20:30",
-            "date": "18/06",
-            "blv": "BLV Tam Mao",
-            "is_live": true,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/xaycon-stream/refs/heads/main/thumbs/xc-f609754d19_d11d2ee7_20260618.png?v=d11d2ee7",
             "width": 1600,
             "height": 1200
           }
