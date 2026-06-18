@@ -799,7 +799,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (5 LIVE)",
+      "name": "⚽ Bóng Đá (6 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -871,6 +871,77 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-e266da8ecb_8aa492ee_20260618.png?v=8aa492ee",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-9c7e5253bb",
+          "name": "Cộng hòa Séc vs Nam Phi | 23:00 18/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-9c7e5253bb",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-9c7e5253bb",
+                  "name": "Cộng hòa Séc vs Nam Phi",
+                  "streams": [
+                    {
+                      "id": "st-9c7e5253bb",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-8220098730",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1781720056_hd/1781720056_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "FIFA World Cup",
+            "team_a": "Cộng hòa Séc",
+            "team_b": "Nam Phi",
+            "logo_a": "https://images.keovip88.net/images/teams/czech-republic.png",
+            "logo_b": "https://images.keovip88.net/images/teams/south-africa.png",
+            "time": "23:00 18/06",
+            "blv": "Leo-mat, cay-lac",
+            "is_live": true,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-9c7e5253bb_b8e6e266_20260618.png?v=b8e6e266",
             "width": 1600,
             "height": 1200
           }
@@ -1023,7 +1094,7 @@
                   "streams": [
                     {
                       "id": "st-87ce25948c",
-                      "name": "Quechoa - DƯA HẤU, NEM CHUA",
+                      "name": "Quechoa - DƯA HẤU, Nhà Đài",
                       "stream_links": [
                         {
                           "id": "lnk-0e88644c2d",
@@ -1039,45 +1110,6 @@
                             {
                               "key": "Origin",
                               "value": "https://quechoa10.live"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "src-47ec336337",
-              "name": "XayConTV",
-              "contents": [
-                {
-                  "id": "ct-47ec336337",
-                  "name": "Czechia vs South Africa",
-                  "streams": [
-                    {
-                      "id": "st-47ec336337",
-                      "name": "Xaycon - BLV Tam Mao",
-                      "stream_links": [
-                        {
-                          "id": "lnk-bccd486b79",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://xclive.yarncdn.live/live/xctv_blv_tammao/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.xaycon3.live/"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://sv2.xaycon3.live"
                             },
                             {
                               "key": "User-Agent",
@@ -1148,6 +1180,45 @@
                           "type": "hls",
                           "default": true,
                           "url": "https://xclive.yarncdn.live/live/xctv_blv_tholan/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.xaycon3.live/"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://sv2.xaycon3.live"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-47ec336337",
+              "name": "XayConTV",
+              "contents": [
+                {
+                  "id": "ct-47ec336337",
+                  "name": "Czechia vs South Africa",
+                  "streams": [
+                    {
+                      "id": "st-47ec336337",
+                      "name": "Xaycon - BLV Tam Mao",
+                      "stream_links": [
+                        {
+                          "id": "lnk-bccd486b79",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://xclive.yarncdn.live/live/xctv_blv_tammao/playlist.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -1262,7 +1333,7 @@
           }
         },
         {
-          "id": "bg-cb8a08a240",
+          "id": "bg-19d19f93a4",
           "name": "Czechia vs South Africa | 23:00 18/06",
           "type": "single",
           "display": "thumbnail-only",
@@ -1277,23 +1348,23 @@
           ],
           "sources": [
             {
-              "id": "src-cb8a08a240",
+              "id": "src-19d19f93a4",
               "name": "BugioTV",
               "contents": [
                 {
-                  "id": "ct-cb8a08a240",
+                  "id": "ct-19d19f93a4",
                   "name": "Czechia vs South Africa",
                   "streams": [
                     {
-                      "id": "st-cb8a08a240",
+                      "id": "st-19d19f93a4",
                       "name": "BG",
                       "stream_links": [
                         {
-                          "id": "lnk-448842e236",
+                          "id": "lnk-d5c8f635fc",
                           "name": "Link FHD",
                           "type": "hls",
                           "default": true,
-                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_lenh/playlist.m3u8",
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_phimc/playlist.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -1312,23 +1383,23 @@
               ]
             },
             {
-              "id": "src-19d19f93a4",
+              "id": "src-cb8a08a240",
               "name": "BugioTV",
               "contents": [
                 {
-                  "id": "ct-19d19f93a4",
+                  "id": "ct-cb8a08a240",
                   "name": "Czechia vs South Africa",
                   "streams": [
                     {
-                      "id": "st-19d19f93a4",
-                      "name": "Bugio - BLV Phi MC",
+                      "id": "st-cb8a08a240",
+                      "name": "Bugio - BLV Lềnh",
                       "stream_links": [
                         {
-                          "id": "lnk-d5c8f635fc",
+                          "id": "lnk-448842e236",
                           "name": "Link FHD",
                           "type": "hls",
                           "default": true,
-                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_phimc/playlist.m3u8",
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_lenh/playlist.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -1354,7 +1425,7 @@
             "logo_a": "https://media.api-sports.io/football/teams/770.png",
             "logo_b": "https://media.api-sports.io/football/teams/1531.png",
             "start_time": "2026-06-18T23:00:00",
-            "blv": "BLV Lềnh",
+            "blv": "BLV Phi MC",
             "is_live": true,
             "cate_type": "football"
           },
@@ -1362,78 +1433,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-cb8a08a240_4e9e323c_20260618.png?v=4e9e323c",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-9c7e5253bb",
-          "name": "Cộng hòa Séc vs Nam Phi | 23:00 18/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-9c7e5253bb",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-9c7e5253bb",
-                  "name": "Cộng hòa Séc vs Nam Phi",
-                  "streams": [
-                    {
-                      "id": "st-9c7e5253bb",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-8220098730",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1781720056_hd/1781720056_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "FIFA World Cup",
-            "team_a": "Cộng hòa Séc",
-            "team_b": "Nam Phi",
-            "logo_a": "https://images.keovip88.net/images/teams/czech-republic.png",
-            "logo_b": "https://images.keovip88.net/images/teams/south-africa.png",
-            "time": "23:00 18/06",
-            "blv": "Leo-mat, cay-lac",
-            "is_live": false,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-9c7e5253bb_b8e6e266_20260618.png?v=b8e6e266",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-19d19f93a4_4e9e323c_20260618.png?v=4e9e323c",
             "width": 1600,
             "height": 1200
           }
@@ -3848,7 +3848,7 @@
     },
     {
       "id": "grp-bóng-chuyền",
-      "name": "🏐 Bóng Chuyền (5 LIVE)",
+      "name": "🏐 Bóng Chuyền (6 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -3920,6 +3920,112 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-a598c85f2b_f2f5690d_20260618.png?v=f2f5690d",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-b4ea82c6ad",
+          "name": "Turkey vs France | 23:30 18/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-b4ea82c6ad",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-b4ea82c6ad",
+                  "name": "Turkey vs France",
+                  "streams": [
+                    {
+                      "id": "st-b4ea82c6ad",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-2f20f66dd1",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1781721285_hd/1781721285_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-8452a95c40",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-8452a95c40",
+                  "name": "Turkey W - France W ",
+                  "streams": [
+                    {
+                      "id": "st-8452a95c40",
+                      "name": "Bugio - BLV Tiểu Mèo",
+                      "stream_links": [
+                        {
+                          "id": "lnk-21936c1c94",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_tieumeo/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Nations League Women",
+            "team_a": "Turkey",
+            "team_b": "France",
+            "logo_a": "https://static.flashscore.com/res/image/data/lAFdyowS-6ys9CWQj.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/dnoZORwS-rcthslVl.png",
+            "time": "23:30 18/06",
+            "blv": "BLV Mason",
+            "is_live": true,
+            "cate_type": "bongchuyen"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-b4ea82c6ad_0b1d1cc5_20260618.png?v=0b1d1cc5",
             "width": 1600,
             "height": 1200
           }
@@ -4204,112 +4310,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-fa3dade3a4_2c1234e0_20260618.png?v=2c1234e0",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-b4ea82c6ad",
-          "name": "Turkey vs France | 23:30 18/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-b4ea82c6ad",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-b4ea82c6ad",
-                  "name": "Turkey vs France",
-                  "streams": [
-                    {
-                      "id": "st-b4ea82c6ad",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-2f20f66dd1",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1781721285_hd/1781721285_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "src-8452a95c40",
-              "name": "BugioTV",
-              "contents": [
-                {
-                  "id": "ct-8452a95c40",
-                  "name": "Turkey W - France W ",
-                  "streams": [
-                    {
-                      "id": "st-8452a95c40",
-                      "name": "Bugio - BLV Tiểu Mèo",
-                      "stream_links": [
-                        {
-                          "id": "lnk-21936c1c94",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_tieumeo/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv1.bugio9.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Nations League Women",
-            "team_a": "Turkey",
-            "team_b": "France",
-            "logo_a": "https://static.flashscore.com/res/image/data/lAFdyowS-6ys9CWQj.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/dnoZORwS-rcthslVl.png",
-            "time": "23:30 18/06",
-            "blv": "BLV Mason",
-            "is_live": false,
-            "cate_type": "bongchuyen"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-b4ea82c6ad_0b1d1cc5_20260618.png?v=0b1d1cc5",
             "width": 1600,
             "height": 1200
           }
