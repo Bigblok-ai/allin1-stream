@@ -1345,7 +1345,7 @@
             "logo_a": "https://media.api-sports.io/football/teams/18805.png",
             "logo_b": "https://media.api-sports.io/football/teams/4559.png",
             "time": "21:00 19/06",
-            "blv": "BLV TÁO GIÀ",
+            "blv": "BLV THẦN THÔNG",
             "is_live": false,
             "sport_slug": "bong-da"
           },
@@ -3719,112 +3719,6 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "gv-f5d048122c",
-          "name": "Ben Shelton vs Taylor Fritz | 16:30 19/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-f5d048122c",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-f5d048122c",
-                  "name": "Ben Shelton vs Taylor Fritz",
-                  "streams": [
-                    {
-                      "id": "st-f5d048122c",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-850b875371",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1781848584_hd/1781848584_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "src-7ce754f6c0",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-7ce754f6c0",
-                  "name": "Ben Shelton vs Taylor Fritz",
-                  "streams": [
-                    {
-                      "id": "st-7ce754f6c0",
-                      "name": "Hoiquan - BLV PHAN PHÉP",
-                      "stream_links": [
-                        {
-                          "id": "lnk-bc9866f74f",
-                          "name": "BLV PHAN PHÉP",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanphep/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Halle Open",
-            "team_a": "Ben Shelton",
-            "team_b": "Taylor Fritz",
-            "logo_a": "https://static.flashscore.com/res/image/data/UBXM3cXg-fgTOwTv9.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/vDLwcnCa-8AMTtzu5.png",
-            "time": "16:30 19/06",
-            "blv": "BLV Điếc",
-            "is_live": true,
-            "cate_type": "tennis"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-f5d048122c_bc2bf37e_20260619.png?v=bc2bf37e",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "gv-02ff23ba6e",
           "name": "Alexander Zverev vs Raphael Collignon | 19:30 19/06",
           "type": "single",
@@ -3891,6 +3785,77 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-02ff23ba6e_6163ee2f_20260619.png?v=6163ee2f",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-7ce754f6c0",
+          "name": "Ben Shelton vs Taylor Fritz | 16:30 19/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-7ce754f6c0",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-7ce754f6c0",
+                  "name": "Ben Shelton vs Taylor Fritz",
+                  "streams": [
+                    {
+                      "id": "st-7ce754f6c0",
+                      "name": "HQ",
+                      "stream_links": [
+                        {
+                          "id": "lnk-bc9866f74f",
+                          "name": "BLV PHAN PHÉP",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanphep/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "ATP500 Halle",
+            "team_a": "Ben Shelton",
+            "team_b": "Taylor Fritz",
+            "logo_a": "https://www.thesecondserve.com/wp-content/uploads/2025/08/ben-shelton-toronto-cincinnati-open2-1.jpg",
+            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNZSDJOk9zmiEAUd932qtYHbrfQcbE7f50zQ&s",
+            "time": "16:30 19/06",
+            "blv": "BLV PHAN PHÉP",
+            "is_live": true,
+            "sport_slug": "tennis"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Ben Shelton_Taylor Fritz_16-30 19-06_987c534d_20260619.png?v=987c534d",
             "width": 1600,
             "height": 1200
           }
