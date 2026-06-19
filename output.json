@@ -799,7 +799,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (1 LIVE)",
+      "name": "⚽ Bóng Đá (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -906,6 +906,82 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-4167c44142_94698af7_20260619.png?v=94698af7",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-3c4e7add4b",
+          "name": "Dalian Yingbo B vs Nantong Haimen Codion | 17:00 19/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-3c4e7add4b",
+              "name": "XayConTV",
+              "contents": [
+                {
+                  "id": "ct-3c4e7add4b",
+                  "name": "Dalian Yingbo B vs Nantong Haimen Codion",
+                  "streams": [
+                    {
+                      "id": "st-3c4e7add4b",
+                      "name": "XC",
+                      "stream_links": [
+                        {
+                          "id": "lnk-fa5c7698a5",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://xclive.yarncdn.live/live/xctv_blv_tholan/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.xaycon3.live/"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://sv2.xaycon3.live"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "League Two",
+            "team_a": "Dalian Yingbo B",
+            "team_b": "Nantong Haimen Codion",
+            "logo_a": "https://media.api-sports.io/football/teams/27621.png",
+            "logo_b": "https://media.api-sports.io/football/teams/19319.png",
+            "time": "17:00",
+            "date": "19/06",
+            "blv": "BLV Thợ Lặn",
+            "is_live": true,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/xaycon-stream/refs/heads/main/thumbs/xc-3c4e7add4b_2efd287a_20260619.png?v=2efd287a",
             "width": 1600,
             "height": 1200
           }
@@ -3164,82 +3240,6 @@
           }
         },
         {
-          "id": "xc-3c4e7add4b",
-          "name": "Dalian Yingbo B vs Nantong Haimen Codion | 17:00 19/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-3c4e7add4b",
-              "name": "XayConTV",
-              "contents": [
-                {
-                  "id": "ct-3c4e7add4b",
-                  "name": "Dalian Yingbo B vs Nantong Haimen Codion",
-                  "streams": [
-                    {
-                      "id": "st-3c4e7add4b",
-                      "name": "XC",
-                      "stream_links": [
-                        {
-                          "id": "lnk-fa5c7698a5",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://xclive.yarncdn.live/live/xctv_blv_tholan/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.xaycon3.live/"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://sv2.xaycon3.live"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "League Two",
-            "team_a": "Dalian Yingbo B",
-            "team_b": "Nantong Haimen Codion",
-            "logo_a": "https://media.api-sports.io/football/teams/27621.png",
-            "logo_b": "https://media.api-sports.io/football/teams/19319.png",
-            "time": "17:00",
-            "date": "19/06",
-            "blv": "BLV Thợ Lặn",
-            "is_live": false,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/xaycon-stream/refs/heads/main/thumbs/xc-3c4e7add4b_2efd287a_20260619.png?v=2efd287a",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "xc-6491e42350",
           "name": "Tai'an Tiankuang vs Shandong Taishan II | 18:00 20/06",
           "type": "single",
@@ -3615,82 +3615,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/xaycon-stream/refs/heads/main/thumbs/xc-aa5a35c585_a805ab9c_20260619.png?v=a805ab9c",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "xc-7345b888ac",
-          "name": "Zhenys vs Irtysh | 20:00 20/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-7345b888ac",
-              "name": "XayConTV",
-              "contents": [
-                {
-                  "id": "ct-7345b888ac",
-                  "name": "Zhenys vs Irtysh",
-                  "streams": [
-                    {
-                      "id": "st-7345b888ac",
-                      "name": "XC",
-                      "stream_links": [
-                        {
-                          "id": "lnk-ab6de9170b",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://xclive.yarncdn.live/live/xctv_blv_quanvu/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.xaycon3.live/"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://sv2.xaycon3.live"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Premier League",
-            "team_a": "Zhenys",
-            "team_b": "Irtysh",
-            "logo_a": "https://media.api-sports.io/football/teams/16611.png",
-            "logo_b": "https://media.api-sports.io/football/teams/4565.png",
-            "time": "20:00",
-            "date": "20/06",
-            "blv": "BLV Quan Vũ",
-            "is_live": false,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/xaycon-stream/refs/heads/main/thumbs/xc-7345b888ac_513c1f83_20260619.png?v=513c1f83",
             "width": 1600,
             "height": 1200
           }
@@ -4192,77 +4116,6 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "gv-79aa857f86",
-          "name": "Dominican Republic vs Serbia | 15:00 19/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-79aa857f86",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-79aa857f86",
-                  "name": "Dominican Republic vs Serbia",
-                  "streams": [
-                    {
-                      "id": "st-79aa857f86",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-4cab673936",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1781746904_hd/1781746904_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Nations League Women",
-            "team_a": "Dominican Republic",
-            "team_b": "Serbia",
-            "logo_a": "https://static.flashscore.com/res/image/data/hWkRwuZA-YwmRHSUk.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/x4FgDryB-zLx3xGjj.png",
-            "time": "15:00 19/06",
-            "blv": "blv-sun",
-            "is_live": true,
-            "cate_type": "bongchuyen"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-79aa857f86_631a2d7a_20260619.png?v=631a2d7a",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "gv-0d97f0eb3d",
           "name": "Ukraine vs Netherlands | 17:00 19/06",
           "type": "single",
@@ -4364,6 +4217,77 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-0d97f0eb3d_ba70ed3a_20260619.png?v=ba70ed3a",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-52d96b420d",
+          "name": "Ukraina vs Hà Lan | 17:00 19/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-52d96b420d",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-52d96b420d",
+                  "name": "Ukraina vs Hà Lan",
+                  "streams": [
+                    {
+                      "id": "st-52d96b420d",
+                      "name": "HQ",
+                      "stream_links": [
+                        {
+                          "id": "lnk-6568b58b01",
+                          "name": "BLV PHAN BỐNG",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanbong/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Nation League Women",
+            "team_a": "Ukraina",
+            "team_b": "Hà Lan",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/4/49/Flag_of_Ukraine.svg",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/2/20/Flag_of_the_Netherlands.svg",
+            "time": "17:00 19/06",
+            "blv": "BLV PHAN BỐNG",
+            "is_live": true,
+            "sport_slug": "bong-chuyen"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Ukraina_Hà Lan_17-00 19-06_8be663c0_20260619.png?v=8be663c0",
             "width": 1600,
             "height": 1200
           }
@@ -4719,59 +4643,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-2cc73b2408_4474c2eb_20260619.png?v=4474c2eb",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "hqlive-52d96b420d",
-          "name": "Ukraina vs Hà Lan | 17:00 19/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-52d96b420d",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-52d96b420d",
-                  "name": "Ukraina vs Hà Lan",
-                  "streams": [
-                    {
-                      "id": "st-52d96b420d",
-                      "name": "HQ",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Nation League Women",
-            "team_a": "Ukraina",
-            "team_b": "Hà Lan",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/4/49/Flag_of_Ukraine.svg",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/2/20/Flag_of_the_Netherlands.svg",
-            "time": "17:00 19/06",
-            "blv": "BLV PHAN BỐNG",
-            "is_live": false,
-            "sport_slug": "bong-chuyen"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Ukraina_Hà Lan_17-00 19-06_8be663c0_20260619.png?v=8be663c0",
             "width": 1600,
             "height": 1200
           }
