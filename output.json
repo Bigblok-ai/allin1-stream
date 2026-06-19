@@ -799,82 +799,11 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (5 LIVE)",
+      "name": "⚽ Bóng Đá (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-4e5e528280",
-          "name": "Trakai  vs Hegelmann | 23:00 19/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-4e5e528280",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-4e5e528280",
-                  "name": "Trakai  vs Hegelmann",
-                  "streams": [
-                    {
-                      "id": "st-4e5e528280",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-47be7e7896",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1781882243_hd/1781882243_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "VĐQG Lithuania",
-            "team_a": "Trakai ",
-            "team_b": "Hegelmann",
-            "logo_a": "https://cdn.footystats.org/img/teams/lithuania-fk-trakai.png",
-            "logo_b": "https://cdn.footystats.org/img/teams/lithuania-fc-hegelmann-litauen-kaunas.png",
-            "time": "23:00 19/06",
-            "blv": "BLV Dần",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-4e5e528280_a2168c4c_20260620.png?v=a2168c4c",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-052424208a",
           "name": "Waterford United  vs Shamrock Rovers | 01:45 20/06",
@@ -2864,6 +2793,82 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/quechoa-stream/refs/heads/main/thumbs/qc-1b7e1ae909_6b20f209_20260620.png?v=6b20f209",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "qc-6f70fd1c0f",
+          "name": "Uruguay vs Cape Verde Islands | 05:00 22/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-6f70fd1c0f",
+              "name": "QuechoaTV",
+              "contents": [
+                {
+                  "id": "ct-6f70fd1c0f",
+                  "name": "Uruguay vs Cape Verde Islands",
+                  "streams": [
+                    {
+                      "id": "st-6f70fd1c0f",
+                      "name": "QC",
+                      "stream_links": [
+                        {
+                          "id": "lnk-9ecfdd7bcf",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ahghndtkyqmm-pull.bpmedialive.com/quechoa/blv_nemchua.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://quechoa10.live/"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://quechoa10.live"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "World Cup",
+            "team_a": "Uruguay",
+            "team_b": "Cape Verde Islands",
+            "logo_a": "https://media.api-sports.io/football/teams/7.png",
+            "logo_b": "https://media.api-sports.io/football/teams/1533.png",
+            "time": "05:00",
+            "date": "22/06",
+            "blv": "NEM CHUA",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/quechoa-stream/refs/heads/main/thumbs/qc-6f70fd1c0f_a21444de_20260620.png?v=a21444de",
             "width": 1600,
             "height": 1200
           }
