@@ -936,7 +936,25 @@
                     {
                       "id": "st-5a3c7e9503",
                       "name": "HQ",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-fd31283a76",
+                          "name": "BLV PHAN ANH",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phananh/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -3701,117 +3719,11 @@
     },
     {
       "id": "grp-bóng-chuyền",
-      "name": "🏐 Bóng Chuyền (6 LIVE)",
+      "name": "🏐 Bóng Chuyền (5 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-aa7c3dbcd9",
-          "name": "France vs China | 20:00 19/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-aa7c3dbcd9",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-aa7c3dbcd9",
-                  "name": "France vs China",
-                  "streams": [
-                    {
-                      "id": "st-aa7c3dbcd9",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-dd381e05cb",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1781747337_hd/1781747337_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "src-275e338825",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-275e338825",
-                  "name": "Pháp vs Trung Quốc",
-                  "streams": [
-                    {
-                      "id": "st-275e338825",
-                      "name": "Hoiquan - BLV TÁO GIÀ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-1cad2e4412",
-                          "name": "BLV TÁO GIÀ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://tdlive.yarncdn.live/live/tdtv_blv_taotinhtao/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Nations League Women",
-            "team_a": "France",
-            "team_b": "China",
-            "logo_a": "https://static.flashscore.com/res/image/data/ne4FVih5-rcthslVl.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/UFsHESEa-dUwawdyp.png",
-            "time": "20:00 19/06",
-            "blv": "blv-can",
-            "is_live": true,
-            "cate_type": "bongchuyen"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-aa7c3dbcd9_ea2d3299_20260619.png?v=ea2d3299",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-506b09850a",
           "name": "Bulgaria vs Canada | 20:30 19/06",
