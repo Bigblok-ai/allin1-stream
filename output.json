@@ -799,7 +799,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -947,6 +947,183 @@
           }
         },
         {
+          "id": "hqlive-8d79ad5579",
+          "name": "Hebei Kungfu vs Shanghai Shenhua | 18:30 20/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-8d79ad5579",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-8d79ad5579",
+                  "name": "Hebei Kungfu vs Shanghai Shenhua",
+                  "streams": [
+                    {
+                      "id": "st-8d79ad5579",
+                      "name": "HQ",
+                      "stream_links": [
+                        {
+                          "id": "lnk-f6231c6549",
+                          "name": "BLV PHAN CA",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanca/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-9d03333181",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-9d03333181",
+                  "name": "Hebei Kungfu vs Shanghai Shenhua",
+                  "streams": [
+                    {
+                      "id": "st-9d03333181",
+                      "name": "Bugio - BLV Phi MC",
+                      "stream_links": [
+                        {
+                          "id": "lnk-d5c8f635fc",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_phimc/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Cúp FA Trung Quốc",
+            "team_a": "Hebei Kungfu",
+            "team_b": "Shanghai Shenhua",
+            "logo_a": "https://media.api-sports.io/football/teams/17264.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/vi/d/dd/Shanghai_Shenhua_F.C.svg.png",
+            "time": "18:30 20/06",
+            "blv": "BLV PHAN CA",
+            "is_live": true,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Hebei Kungfu_Shanghai Shenhua_18-30 20-06_6b52a8d3_20260620.png?v=6b52a8d3",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-b100ada184",
+          "name": "Chengdu Rongcheng II vs Yichun Grand Tiger | 18:30 20/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-b100ada184",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-b100ada184",
+                  "name": "Chengdu Rongcheng II vs Yichun Grand Tiger",
+                  "streams": [
+                    {
+                      "id": "st-b100ada184",
+                      "name": "HQ",
+                      "stream_links": [
+                        {
+                          "id": "lnk-fd31283a76",
+                          "name": "BLV PHAN ANH",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phananh/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "League Two",
+            "team_a": "Chengdu Rongcheng II",
+            "team_b": "Yichun Grand Tiger",
+            "logo_a": "https://media.api-sports.io/football/teams/25839.png",
+            "logo_b": "https://media.api-sports.io/football/teams/17272.png",
+            "time": "18:30 20/06",
+            "blv": "BLV PHAN ANH",
+            "is_live": true,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Chengdu Rongcheng II_Yichun Grand Tiger_18-30 20-06_bad37247_20260620.png?v=bad37247",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "gv-d23ade7578",
           "name": "Tp. Hồ Chí Minh 2 Nữ vs Hồ Chí Minh Nữ | 16:00 20/06",
           "type": "single",
@@ -1084,186 +1261,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-7f6aaafb33_cbf28f61_20260620.png?v=cbf28f61",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "hqlive-8d79ad5579",
-          "name": "Hebei Kungfu vs Shanghai Shenhua | 18:30 20/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-8d79ad5579",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-8d79ad5579",
-                  "name": "Hebei Kungfu vs Shanghai Shenhua",
-                  "streams": [
-                    {
-                      "id": "st-8d79ad5579",
-                      "name": "HQ",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "src-9d03333181",
-              "name": "BugioTV",
-              "contents": [
-                {
-                  "id": "ct-9d03333181",
-                  "name": "Hebei Kungfu vs Shanghai Shenhua",
-                  "streams": [
-                    {
-                      "id": "st-9d03333181",
-                      "name": "Bugio - BLV Phi MC",
-                      "stream_links": [
-                        {
-                          "id": "lnk-d5c8f635fc",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_phimc/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv1.bugio9.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Cúp FA Trung Quốc",
-            "team_a": "Hebei Kungfu",
-            "team_b": "Shanghai Shenhua",
-            "logo_a": "https://media.api-sports.io/football/teams/17264.png",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/vi/d/dd/Shanghai_Shenhua_F.C.svg.png",
-            "time": "18:30 20/06",
-            "blv": "BLV PHAN CA",
-            "is_live": false,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Hebei Kungfu_Shanghai Shenhua_18-30 20-06_6b52a8d3_20260620.png?v=6b52a8d3",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "hqlive-0fd978651b",
-          "name": "Chengdu Rongcheng II vs Yichun Grand Tiger | 19:00 20/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-0fd978651b",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-0fd978651b",
-                  "name": "Chengdu Rongcheng II vs Yichun Grand Tiger",
-                  "streams": [
-                    {
-                      "id": "st-0fd978651b",
-                      "name": "HQ",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "src-45148daa36",
-              "name": "XayConTV",
-              "contents": [
-                {
-                  "id": "ct-45148daa36",
-                  "name": "Chengdu Rongcheng II vs Yichun Grand Tiger",
-                  "streams": [
-                    {
-                      "id": "st-45148daa36",
-                      "name": "Xaycon - BLV Tam Mao",
-                      "stream_links": [
-                        {
-                          "id": "lnk-bccd486b79",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://xclive.yarncdn.live/live/xctv_blv_tammao/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.xaycon3.live/"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://sv2.xaycon3.live"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "League Two",
-            "team_a": "Chengdu Rongcheng II",
-            "team_b": "Yichun Grand Tiger",
-            "logo_a": "https://media.api-sports.io/football/teams/25839.png",
-            "logo_b": "https://media.api-sports.io/football/teams/17272.png",
-            "time": "19:00 20/06",
-            "blv": "BLV PHAN ANH",
-            "is_live": false,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Chengdu Rongcheng II_Yichun Grand Tiger_19-00 20-06_bad37247_20260620.png?v=bad37247",
             "width": 1600,
             "height": 1200
           }
@@ -2867,6 +2864,82 @@
           }
         },
         {
+          "id": "xc-45148daa36",
+          "name": "Chengdu Rongcheng II vs Yichun Grand Tiger | 19:00 20/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-45148daa36",
+              "name": "XayConTV",
+              "contents": [
+                {
+                  "id": "ct-45148daa36",
+                  "name": "Chengdu Rongcheng II vs Yichun Grand Tiger",
+                  "streams": [
+                    {
+                      "id": "st-45148daa36",
+                      "name": "XC",
+                      "stream_links": [
+                        {
+                          "id": "lnk-bccd486b79",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://xclive.yarncdn.live/live/xctv_blv_tammao/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.xaycon3.live/"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://sv2.xaycon3.live"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "League Two",
+            "team_a": "Chengdu Rongcheng II",
+            "team_b": "Yichun Grand Tiger",
+            "logo_a": "https://media.api-sports.io/football/teams/25839.png",
+            "logo_b": "https://media.api-sports.io/football/teams/17272.png",
+            "time": "19:00",
+            "date": "20/06",
+            "blv": "BLV Tam Mao",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/xaycon-stream/refs/heads/main/thumbs/xc-45148daa36_98b7cf69_20260620.png?v=98b7cf69",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "xc-84714f34d9",
           "name": "BFC Daugavpils vs Grobiņa | 20:00 20/06",
           "type": "single",
@@ -3859,7 +3932,7 @@
     },
     {
       "id": "grp-bóng-chuyền",
-      "name": "🏐 Bóng Chuyền (5 LIVE)",
+      "name": "🏐 Bóng Chuyền (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -4073,77 +4146,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-9b523b0c92_c2d9edba_20260620.png?v=c2d9edba",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "bg-2cc73b2408",
-          "name": "Turkey W - Germany W | 23:30 20/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-2cc73b2408",
-              "name": "BugioTV",
-              "contents": [
-                {
-                  "id": "ct-2cc73b2408",
-                  "name": "Turkey W - Germany W",
-                  "streams": [
-                    {
-                      "id": "st-2cc73b2408",
-                      "name": "BG",
-                      "stream_links": [
-                        {
-                          "id": "lnk-21936c1c94",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_tieumeo/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv1.bugio9.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Nations League Women's",
-            "team_a": "Turkey W ",
-            "team_b": "Germany W",
-            "logo_a": "https://static.flashscore.com/res/image/data/byFAJXzS-vBKZiE2j.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/OfOVK7il-jwMhrJiF.png",
-            "start_time": "2026-06-20T23:30:00",
-            "blv": "BLV Tiểu Mèo",
-            "is_live": false,
-            "cate_type": "bongchuyen"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-2cc73b2408_4474c2eb_20260620.png?v=4474c2eb",
             "width": 1600,
             "height": 1200
           }
@@ -4582,6 +4584,41 @@
                       "id": "st-4b46761a4d",
                       "name": "HQ",
                       "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-2cc73b2408",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-2cc73b2408",
+                  "name": "Nữ Thổ Nhĩ Kỳ vs Nữ Đức",
+                  "streams": [
+                    {
+                      "id": "st-2cc73b2408",
+                      "name": "Bugio - BLV Tiểu Mèo",
+                      "stream_links": [
+                        {
+                          "id": "lnk-21936c1c94",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_tieumeo/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
