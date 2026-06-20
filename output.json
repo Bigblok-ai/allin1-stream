@@ -3127,11 +3127,82 @@
     },
     {
       "id": "grp-bóng-chuyền",
-      "name": "🏐 Bóng Chuyền (4 LIVE)",
+      "name": "🏐 Bóng Chuyền (5 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "hqlive-60993e4e5d",
+          "name": "Mỹ vs Italy | 15:00 20/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-60993e4e5d",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-60993e4e5d",
+                  "name": "Mỹ vs Italy",
+                  "streams": [
+                    {
+                      "id": "st-60993e4e5d",
+                      "name": "HQ",
+                      "stream_links": [
+                        {
+                          "id": "lnk-07fa7a18bb",
+                          "name": "BLV PHAN HẢI",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanhai/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Nation League Women",
+            "team_a": "Mỹ",
+            "team_b": "Italy",
+            "logo_a": "https://www.englisch-hilfen.de/images/flags/248.gif",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/0/03/Flag_of_Italy.svg",
+            "time": "15:00 20/06",
+            "blv": "BLV PHAN HẢI",
+            "is_live": true,
+            "sport_slug": "bong-chuyen"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Mỹ_Italy_15-00 20-06_d4eda8a1_20260620.png?v=d4eda8a1",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "bg-47698c15fb",
           "name": "USA W - Italy W | 15:00 20/06",
@@ -3140,10 +3211,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -3191,7 +3262,7 @@
             "logo_b": "https://static.flashscore.com/res/image/data/h6v1tOAr-xCsenx2O.png",
             "start_time": "2026-06-20T15:00:00",
             "blv": "BLV Pháo",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "bongchuyen"
           },
           "image": {
@@ -3412,59 +3483,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-246a3c5544_20f72067_20260620.png?v=20f72067",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "hqlive-60993e4e5d",
-          "name": "Mỹ vs Italy | 15:00 20/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-60993e4e5d",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-60993e4e5d",
-                  "name": "Mỹ vs Italy",
-                  "streams": [
-                    {
-                      "id": "st-60993e4e5d",
-                      "name": "HQ",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Nation League Women",
-            "team_a": "Mỹ",
-            "team_b": "Italy",
-            "logo_a": "https://www.englisch-hilfen.de/images/flags/248.gif",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/0/03/Flag_of_Italy.svg",
-            "time": "15:00 20/06",
-            "blv": "BLV PHAN HẢI",
-            "is_live": false,
-            "sport_slug": "bong-chuyen"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Mỹ_Italy_15-00 20-06_d4eda8a1_20260620.png?v=d4eda8a1",
             "width": 1600,
             "height": 1200
           }
