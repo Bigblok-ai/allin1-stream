@@ -799,7 +799,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (5 LIVE)",
+      "name": "⚽ Bóng Đá (6 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1018,6 +1018,77 @@
           }
         },
         {
+          "id": "hqlive-1c75536090",
+          "name": "FC Vitebsk vs Dinamo Brest | 22:30 20/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-1c75536090",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-1c75536090",
+                  "name": "FC Vitebsk vs Dinamo Brest",
+                  "streams": [
+                    {
+                      "id": "st-1c75536090",
+                      "name": "HQ",
+                      "stream_links": [
+                        {
+                          "id": "lnk-1cad2e4412",
+                          "name": "BLV TÁO GIÀ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://tdlive.yarncdn.live/live/tdtv_blv_taotinhtao/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "VĐQG Belarus",
+            "team_a": "FC Vitebsk",
+            "team_b": "Dinamo Brest",
+            "logo_a": "https://media.api-sports.io/football/teams/382.png",
+            "logo_b": "https://media.api-sports.io/football/teams/386.png",
+            "time": "22:30 20/06",
+            "blv": "BLV TÁO GIÀ",
+            "is_live": true,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/FC Vitebsk_Dinamo Brest_22-30 20-06_eba13c4f_20260620.png?v=eba13c4f",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "xc-79b6029933",
           "name": "Shakhter Soligorsk vs Ostrovets FC | 21:00 20/06",
           "type": "single",
@@ -1165,59 +1236,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/xaycon-stream/refs/heads/main/thumbs/xc-94caee4a6e_54e816c4_20260620.png?v=54e816c4",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "hqlive-1c75536090",
-          "name": "FC Vitebsk vs Dinamo Brest | 22:30 20/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-1c75536090",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-1c75536090",
-                  "name": "FC Vitebsk vs Dinamo Brest",
-                  "streams": [
-                    {
-                      "id": "st-1c75536090",
-                      "name": "HQ",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "VĐQG Belarus",
-            "team_a": "FC Vitebsk",
-            "team_b": "Dinamo Brest",
-            "logo_a": "https://media.api-sports.io/football/teams/382.png",
-            "logo_b": "https://media.api-sports.io/football/teams/386.png",
-            "time": "22:30 20/06",
-            "blv": "BLV TÁO GIÀ",
-            "is_live": false,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/FC Vitebsk_Dinamo Brest_22-30 20-06_eba13c4f_20260620.png?v=eba13c4f",
             "width": 1600,
             "height": 1200
           }
@@ -3821,7 +3839,7 @@
     },
     {
       "id": "grp-tennis",
-      "name": "🎾 Tennis (5 LIVE)",
+      "name": "🎾 Tennis (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -3964,77 +3982,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-8549ef9bce_6d9a0a72_20260620.png?v=6d9a0a72",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "hqlive-5856f5c0f5",
-          "name": "Brandon Nakashima vs Francisco Cerundolo | 19:00 20/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-5856f5c0f5",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-5856f5c0f5",
-                  "name": "Brandon Nakashima vs Francisco Cerundolo",
-                  "streams": [
-                    {
-                      "id": "st-5856f5c0f5",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-6568b58b01",
-                          "name": "BLV PHAN BỐNG",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanbong/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "WTA500 Berlin",
-            "team_a": "Brandon Nakashima",
-            "team_b": "Francisco Cerundolo",
-            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTr4-YHRQ624RtkZtKttfJY-s7lAZ24Pk4jw&s",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/7/77/Cerundolo_MCM23_%2821%29_%2852883527185%29.jpg",
-            "time": "19:00 20/06",
-            "blv": "BLV PHAN BỐNG",
-            "is_live": true,
-            "sport_slug": "tennis"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Brandon Nakashima_Francisco Cerundolo_19-00 20-06_792d8602_20260620.png?v=792d8602",
             "width": 1600,
             "height": 1200
           }
@@ -4565,82 +4512,11 @@
     },
     {
       "id": "grp-bóng-chuyền",
-      "name": "🏐 Bóng Chuyền (3 LIVE)",
+      "name": "🏐 Bóng Chuyền (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-6147cffe2f",
-          "name": "China vs Brazil | 20:00 20/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-6147cffe2f",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-6147cffe2f",
-                  "name": "China vs Brazil",
-                  "streams": [
-                    {
-                      "id": "st-6147cffe2f",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-3fb9704a7f",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1781942102_hd/1781942102_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Nations League Women",
-            "team_a": "China",
-            "team_b": "Brazil",
-            "logo_a": "https://static.flashscore.com/res/image/data/UFsHESEa-dUwawdyp.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/WG7ZbYdM-dlhXsxTS.png",
-            "time": "20:00 20/06",
-            "blv": "BLV Điếc",
-            "is_live": true,
-            "cate_type": "bongchuyen"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-6147cffe2f_1c9a92a9_20260620.png?v=1c9a92a9",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-cbebeec4cb",
           "name": "Thailand vs Canada | 20:30 20/06",
