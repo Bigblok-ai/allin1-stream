@@ -799,11 +799,82 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (5 LIVE)",
+      "name": "⚽ Bóng Đá (6 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "gv-0047f3e5b8",
+          "name": "Riga vs Liepāja | 22:00 21/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-0047f3e5b8",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-0047f3e5b8",
+                  "name": "Riga vs Liepāja",
+                  "streams": [
+                    {
+                      "id": "st-0047f3e5b8",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-4adfbeaebd",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1781843278_hd/1781843278_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "VĐQG Latvia",
+            "team_a": "Riga",
+            "team_b": "Liepāja",
+            "logo_a": "https://static.flashscore.com/res/image/data/lr6E8YDa-EmoyoZps.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/fXKTrpXg-2HZIU7mj.png",
+            "time": "22:00 21/06",
+            "blv": "blv-ngu",
+            "is_live": true,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-0047f3e5b8_e641f76a_20260621.png?v=e641f76a",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "hqlive-f47c45dbec",
           "name": "FS Jelgava vs Tukums | 20:00 21/06",
@@ -1165,77 +1236,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/xaycon-stream/refs/heads/main/thumbs/xc-0263eda07c_e1bab24d_20260621.png?v=e1bab24d",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-0047f3e5b8",
-          "name": "Riga vs Liepāja | 22:00 21/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-0047f3e5b8",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-0047f3e5b8",
-                  "name": "Riga vs Liepāja",
-                  "streams": [
-                    {
-                      "id": "st-0047f3e5b8",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-4adfbeaebd",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1781843278_hd/1781843278_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "VĐQG Latvia",
-            "team_a": "Riga",
-            "team_b": "Liepāja",
-            "logo_a": "https://static.flashscore.com/res/image/data/lr6E8YDa-EmoyoZps.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/fXKTrpXg-2HZIU7mj.png",
-            "time": "22:00 21/06",
-            "blv": "blv-ngu",
-            "is_live": false,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-0047f3e5b8_e641f76a_20260621.png?v=e641f76a",
             "width": 1600,
             "height": 1200
           }
