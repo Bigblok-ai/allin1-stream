@@ -799,7 +799,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (3 LIVE)",
+      "name": "⚽ Bóng Đá (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1091,6 +1091,82 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Suzhou Dongwu_Yunnan Yukun_18-00 21-06_b2e7fef7_20260621.png?v=b2e7fef7",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-7785ae7218",
+          "name": "Okzhetpes vs FK Tobol Kostanay | 19:00 21/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-7785ae7218",
+              "name": "XayConTV",
+              "contents": [
+                {
+                  "id": "ct-7785ae7218",
+                  "name": "Okzhetpes vs FK Tobol Kostanay",
+                  "streams": [
+                    {
+                      "id": "st-7785ae7218",
+                      "name": "XC",
+                      "stream_links": [
+                        {
+                          "id": "lnk-bccd486b79",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://xclive.yarncdn.live/live/xctv_blv_tammao/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.xaycon3.live/"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://sv2.xaycon3.live"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Premier League",
+            "team_a": "Okzhetpes",
+            "team_b": "FK Tobol Kostanay",
+            "logo_a": "https://media.api-sports.io/football/teams/4558.png",
+            "logo_b": "https://media.api-sports.io/football/teams/2259.png",
+            "time": "19:00",
+            "date": "21/06",
+            "blv": "BLV Tam Mao",
+            "is_live": true,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/xaycon-stream/refs/heads/main/thumbs/xc-7785ae7218_c0eeb11c_20260621.png?v=c0eeb11c",
             "width": 1600,
             "height": 1200
           }
@@ -2940,82 +3016,6 @@
           }
         },
         {
-          "id": "xc-7785ae7218",
-          "name": "Okzhetpes vs FK Tobol Kostanay | 19:00 21/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-7785ae7218",
-              "name": "XayConTV",
-              "contents": [
-                {
-                  "id": "ct-7785ae7218",
-                  "name": "Okzhetpes vs FK Tobol Kostanay",
-                  "streams": [
-                    {
-                      "id": "st-7785ae7218",
-                      "name": "XC",
-                      "stream_links": [
-                        {
-                          "id": "lnk-bccd486b79",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://xclive.yarncdn.live/live/xctv_blv_tammao/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.xaycon3.live/"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://sv2.xaycon3.live"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Premier League",
-            "team_a": "Okzhetpes",
-            "team_b": "FK Tobol Kostanay",
-            "logo_a": "https://media.api-sports.io/football/teams/4558.png",
-            "logo_b": "https://media.api-sports.io/football/teams/2259.png",
-            "time": "19:00",
-            "date": "21/06",
-            "blv": "BLV Tam Mao",
-            "is_live": false,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/xaycon-stream/refs/heads/main/thumbs/xc-7785ae7218_c0eeb11c_20260621.png?v=c0eeb11c",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "xc-2ae911662c",
           "name": "Thimphu vs Tsirang | 19:00 22/06",
           "type": "single",
@@ -3895,6 +3895,41 @@
                   ]
                 }
               ]
+            },
+            {
+              "id": "src-bcc98ef2bf",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-bcc98ef2bf",
+                  "name": "Nhật Bản vs Italy",
+                  "streams": [
+                    {
+                      "id": "st-bcc98ef2bf",
+                      "name": "Hoiquan - BLV PHAN CHỚP",
+                      "stream_links": [
+                        {
+                          "id": "lnk-b3ac35be40",
+                          "name": "BLV PHAN CHỚP",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanchop/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
             }
           ],
           "org_metadata": {
@@ -4137,10 +4172,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -4188,7 +4223,7 @@
             "logo_b": "https://ssl.gstatic.com/onebox/media/sports/logos/optimized/joYpsiaYi4GDCqhSRAq5Zg_96x96.png",
             "start_time": "2026-06-21T19:00:00",
             "blv": "BLV Chim Nhỏ",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "bongchuyen"
           },
           "image": {
