@@ -799,7 +799,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (4 LIVE)",
+      "name": "⚽ Bóng Đá (6 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1096,6 +1096,77 @@
           }
         },
         {
+          "id": "hqlive-f47c45dbec",
+          "name": "FS Jelgava vs Tukums | 20:00 21/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-f47c45dbec",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-f47c45dbec",
+                  "name": "FS Jelgava vs Tukums",
+                  "streams": [
+                    {
+                      "id": "st-f47c45dbec",
+                      "name": "HQ",
+                      "stream_links": [
+                        {
+                          "id": "lnk-f6231c6549",
+                          "name": "BLV PHAN CA",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanca/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Virsliga",
+            "team_a": "FS Jelgava",
+            "team_b": "Tukums",
+            "logo_a": "https://media.api-sports.io/football/teams/18834.png",
+            "logo_b": "https://media.api-sports.io/football/teams/4144.png",
+            "time": "20:00 21/06",
+            "blv": "BLV PHAN CA",
+            "is_live": true,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/FS Jelgava_Tukums_20-00 21-06_f3582883_20260621.png?v=f3582883",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "xc-7785ae7218",
           "name": "Okzhetpes vs FK Tobol Kostanay | 19:00 21/06",
           "type": "single",
@@ -1172,32 +1243,54 @@
           }
         },
         {
-          "id": "hqlive-f47c45dbec",
-          "name": "FS Jelgava vs Tukums | 20:00 21/06",
+          "id": "xc-1c6838c4b6",
+          "name": "IK brage vs IFK Varnamo | 20:00 21/06",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
             {
-              "id": "src-f47c45dbec",
-              "name": "HoiQuanTV",
+              "id": "src-1c6838c4b6",
+              "name": "XayConTV",
               "contents": [
                 {
-                  "id": "ct-f47c45dbec",
-                  "name": "FS Jelgava vs Tukums",
+                  "id": "ct-1c6838c4b6",
+                  "name": "IK brage vs IFK Varnamo",
                   "streams": [
                     {
-                      "id": "st-f47c45dbec",
-                      "name": "HQ",
-                      "stream_links": []
+                      "id": "st-1c6838c4b6",
+                      "name": "XC",
+                      "stream_links": [
+                        {
+                          "id": "lnk-221ed1ffcc",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://xclive.yarncdn.live/live/xctv_blv_rongdat/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.xaycon3.live/"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://sv2.xaycon3.live"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -1205,21 +1298,22 @@
             }
           ],
           "org_metadata": {
-            "league": "Virsliga",
-            "team_a": "FS Jelgava",
-            "team_b": "Tukums",
-            "logo_a": "https://media.api-sports.io/football/teams/18834.png",
-            "logo_b": "https://media.api-sports.io/football/teams/4144.png",
-            "time": "20:00 21/06",
-            "blv": "BLV PHAN CA",
-            "is_live": false,
+            "league": "Superettan",
+            "team_a": "IK brage",
+            "team_b": "IFK Varnamo",
+            "logo_a": "https://media.api-sports.io/football/teams/2175.png",
+            "logo_b": "https://media.api-sports.io/football/teams/2163.png",
+            "time": "20:00",
+            "date": "21/06",
+            "blv": "BLV Rồng Đất",
+            "is_live": true,
             "sport_slug": "bong-da"
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/FS Jelgava_Tukums_20-00 21-06_f3582883_20260621.png?v=f3582883",
+            "url": "https://raw.githubusercontent.com/jasminliu98/xaycon-stream/refs/heads/main/thumbs/xc-1c6838c4b6_a9e9ec95_20260621.png?v=a9e9ec95",
             "width": 1600,
             "height": 1200
           }
@@ -3092,82 +3186,6 @@
           }
         },
         {
-          "id": "xc-1c6838c4b6",
-          "name": "IK brage vs IFK Varnamo | 20:00 21/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-1c6838c4b6",
-              "name": "XayConTV",
-              "contents": [
-                {
-                  "id": "ct-1c6838c4b6",
-                  "name": "IK brage vs IFK Varnamo",
-                  "streams": [
-                    {
-                      "id": "st-1c6838c4b6",
-                      "name": "XC",
-                      "stream_links": [
-                        {
-                          "id": "lnk-221ed1ffcc",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://xclive.yarncdn.live/live/xctv_blv_rongdat/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.xaycon3.live/"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://sv2.xaycon3.live"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Superettan",
-            "team_a": "IK brage",
-            "team_b": "IFK Varnamo",
-            "logo_a": "https://media.api-sports.io/football/teams/2175.png",
-            "logo_b": "https://media.api-sports.io/football/teams/2163.png",
-            "time": "20:00",
-            "date": "21/06",
-            "blv": "BLV Rồng Đất",
-            "is_live": false,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/xaycon-stream/refs/heads/main/thumbs/xc-1c6838c4b6_a9e9ec95_20260621.png?v=a9e9ec95",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "xc-3d4336be24",
           "name": "Gareji vs Odishi 1919 | 20:00 22/06",
           "type": "single",
@@ -3699,7 +3717,7 @@
     },
     {
       "id": "grp-bóng-chuyền",
-      "name": "🏐 Bóng Chuyền (2 LIVE)",
+      "name": "🏐 Bóng Chuyền (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -3811,6 +3829,147 @@
           }
         },
         {
+          "id": "gv-c9450a596d",
+          "name": "Germany vs Brazil | 20:00 21/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-c9450a596d",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-c9450a596d",
+                  "name": "Germany vs Brazil",
+                  "streams": [
+                    {
+                      "id": "st-c9450a596d",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-40ca000dd0",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1781942324_hd/1781942324_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-f15ccb9f10",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-f15ccb9f10",
+                  "name": "Đức vs Brazil",
+                  "streams": [
+                    {
+                      "id": "st-f15ccb9f10",
+                      "name": "Hoiquan - BLV LƯƠNG BỔNG",
+                      "stream_links": [
+                        {
+                          "id": "lnk-975fc55dd1",
+                          "name": "BLV LƯƠNG BỔNG",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanliem/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-59b1deff34",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-59b1deff34",
+                  "name": "Nữ Đức vs Nữ Brazil",
+                  "streams": [
+                    {
+                      "id": "st-59b1deff34",
+                      "name": "Bugio - BLV Pháo",
+                      "stream_links": [
+                        {
+                          "id": "lnk-970b2a547c",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_phaothan/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Nations League Women",
+            "team_a": "Germany",
+            "team_b": "Brazil",
+            "logo_a": "https://static.flashscore.com/res/image/data/OfOVK7il-jwMhrJiF.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/WG7ZbYdM-dlhXsxTS.png",
+            "time": "20:00 21/06",
+            "blv": "BLV Điếc",
+            "is_live": true,
+            "cate_type": "bongchuyen"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-c9450a596d_22d9d249_20260621.png?v=22d9d249",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "bg-246a3c5544",
           "name": "Nữ Nhật Bản vs Nữ Ý | 19:00 21/06",
           "type": "single",
@@ -3877,112 +4036,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-246a3c5544_20f72067_20260621.png?v=20f72067",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-c9450a596d",
-          "name": "Germany vs Brazil | 20:00 21/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-c9450a596d",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-c9450a596d",
-                  "name": "Germany vs Brazil",
-                  "streams": [
-                    {
-                      "id": "st-c9450a596d",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-40ca000dd0",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1781942324_hd/1781942324_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "src-59b1deff34",
-              "name": "BugioTV",
-              "contents": [
-                {
-                  "id": "ct-59b1deff34",
-                  "name": "Nữ Đức vs Nữ Brazil",
-                  "streams": [
-                    {
-                      "id": "st-59b1deff34",
-                      "name": "Bugio - BLV Pháo",
-                      "stream_links": [
-                        {
-                          "id": "lnk-970b2a547c",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_phaothan/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv1.bugio9.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Nations League Women",
-            "team_a": "Germany",
-            "team_b": "Brazil",
-            "logo_a": "https://static.flashscore.com/res/image/data/OfOVK7il-jwMhrJiF.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/WG7ZbYdM-dlhXsxTS.png",
-            "time": "20:00 21/06",
-            "blv": "BLV Điếc",
-            "is_live": false,
-            "cate_type": "bongchuyen"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-c9450a596d_22d9d249_20260621.png?v=22d9d249",
             "width": 1600,
             "height": 1200
           }
