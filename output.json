@@ -3452,7 +3452,7 @@
     },
     {
       "id": "grp-tennis",
-      "name": "🎾 Tennis",
+      "name": "🎾 Tennis (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -3465,10 +3465,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -3483,7 +3483,25 @@
                     {
                       "id": "st-ddde024285",
                       "name": "HQ",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-bc9866f74f",
+                          "name": "BLV PHAN PHÉP",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanphep/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -3498,7 +3516,7 @@
             "logo_b": "https://www.datocms-assets.com/110926/1770148201-20-paul_full_2024.png?auto=format%2Ccompress&fit=crop&h=470&w=0&ixlib=react-9.8.1",
             "time": "19:30 21/06",
             "blv": "BLV PHAN PHÉP",
-            "is_live": false,
+            "is_live": true,
             "sport_slug": "tennis"
           },
           "image": {
