@@ -799,7 +799,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1167,6 +1167,77 @@
           }
         },
         {
+          "id": "gv-e87535db93",
+          "name": "St Albans Saints vs Altona Magic | 14:00 21/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-e87535db93",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-e87535db93",
+                  "name": "St Albans Saints vs Altona Magic",
+                  "streams": [
+                    {
+                      "id": "st-e87535db93",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-420c6e1923",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1781882163_hd/1781882163_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "NPL Victoria Úc",
+            "team_a": "St Albans Saints",
+            "team_b": "Altona Magic",
+            "logo_a": "https://images.keovip88.net/images/teams/st-albans-saints.png",
+            "logo_b": "https://images.keovip88.net/images/teams/altona-magic.png",
+            "time": "14:00 21/06",
+            "blv": "blv-bon",
+            "is_live": true,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-e87535db93_3e9af779_20260621.png?v=3e9af779",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "hqlive-78c4d50cf2",
           "name": "Olympic vs Peninsula Power | 13:00 21/06",
           "type": "single",
@@ -1233,77 +1304,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Olympic_Peninsula Power_13-00 21-06_8e2c5b27_20260621.png?v=8e2c5b27",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-e87535db93",
-          "name": "St Albans Saints vs Altona Magic | 14:00 21/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-e87535db93",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-e87535db93",
-                  "name": "St Albans Saints vs Altona Magic",
-                  "streams": [
-                    {
-                      "id": "st-e87535db93",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-420c6e1923",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1781882163_hd/1781882163_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "NPL Victoria Úc",
-            "team_a": "St Albans Saints",
-            "team_b": "Altona Magic",
-            "logo_a": "https://images.keovip88.net/images/teams/st-albans-saints.png",
-            "logo_b": "https://images.keovip88.net/images/teams/altona-magic.png",
-            "time": "14:00 21/06",
-            "blv": "blv-bon",
-            "is_live": false,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-e87535db93_3e9af779_20260621.png?v=3e9af779",
             "width": 1600,
             "height": 1200
           }
@@ -3585,11 +3585,82 @@
     },
     {
       "id": "grp-bóng-chuyền",
-      "name": "🏐 Bóng Chuyền (3 LIVE)",
+      "name": "🏐 Bóng Chuyền (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "gv-b465185daf",
+          "name": "Bulgaria vs Ukraine | 13:00 21/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-b465185daf",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-b465185daf",
+                  "name": "Bulgaria vs Ukraine",
+                  "streams": [
+                    {
+                      "id": "st-b465185daf",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-5271b108e9",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1781882462_hd/1781882462_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Nations League Women",
+            "team_a": "Bulgaria",
+            "team_b": "Ukraine",
+            "logo_a": "https://static.flashscore.com/res/image/data/trgkvtFa-p8cOXAXu.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/Q3dsHxe5-8KJ0tcMR.png",
+            "time": "13:00 21/06",
+            "blv": "BLV Tôm",
+            "is_live": true,
+            "cate_type": "bongchuyen"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-b465185daf_2eee21cb_20260621.png?v=2eee21cb",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "hqlive-d3ceff6cda",
           "name": "Serbia vs Mỹ | 11:00 21/06",
@@ -3799,77 +3870,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-246a3c5544_20f72067_20260621.png?v=20f72067",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-b465185daf",
-          "name": "Bulgaria vs Ukraine | 13:00 21/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-b465185daf",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-b465185daf",
-                  "name": "Bulgaria vs Ukraine",
-                  "streams": [
-                    {
-                      "id": "st-b465185daf",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-5271b108e9",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1781882462_hd/1781882462_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Nations League Women",
-            "team_a": "Bulgaria",
-            "team_b": "Ukraine",
-            "logo_a": "https://static.flashscore.com/res/image/data/trgkvtFa-p8cOXAXu.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/Q3dsHxe5-8KJ0tcMR.png",
-            "time": "13:00 21/06",
-            "blv": "BLV Tôm",
-            "is_live": false,
-            "cate_type": "bongchuyen"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-b465185daf_2eee21cb_20260621.png?v=2eee21cb",
             "width": 1600,
             "height": 1200
           }
