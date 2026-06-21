@@ -3924,7 +3924,7 @@
     },
     {
       "id": "grp-bóng-chuyền",
-      "name": "🏐 Bóng Chuyền (1 LIVE)",
+      "name": "🏐 Bóng Chuyền (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -4001,6 +4001,94 @@
           }
         },
         {
+          "id": "hqlive-602bd3d5b3",
+          "name": "Thổ Nhĩ Kỳ vs Trung Quốc | 23:30 21/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-602bd3d5b3",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-602bd3d5b3",
+                  "name": "Thổ Nhĩ Kỳ vs Trung Quốc",
+                  "streams": [
+                    {
+                      "id": "st-602bd3d5b3",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-e7d4c8d4fe",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-e7d4c8d4fe",
+                  "name": "Nữ Thổ Nhĩ Kỳ vs Nữ Trung Quốc",
+                  "streams": [
+                    {
+                      "id": "st-e7d4c8d4fe",
+                      "name": "Bugio - BLV Tiểu Mèo",
+                      "stream_links": [
+                        {
+                          "id": "lnk-21936c1c94",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_tieumeo/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Nation League Women",
+            "team_a": "Thổ Nhĩ Kỳ",
+            "team_b": "Trung Quốc",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/b/b4/Flag_of_Turkey.svg",
+            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZQOuJBhheUKikHwopx5J3hD7olyljs3suGQ&s",
+            "time": "23:30 21/06",
+            "blv": "BLV PHAN PHÉP",
+            "is_live": true,
+            "sport_slug": "bong-chuyen"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Thổ Nhĩ Kỳ_Trung Quốc_23-30 21-06_8fb69f2a_20260621.png?v=8fb69f2a",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "gv-83ceb33798",
           "name": "Türkiye  vs China | 23:30 21/06",
           "type": "single",
@@ -4067,94 +4155,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-83ceb33798_3e8ceaff_20260621.png?v=3e8ceaff",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "hqlive-602bd3d5b3",
-          "name": "Thổ Nhĩ Kỳ vs Trung Quốc | 23:30 21/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-602bd3d5b3",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-602bd3d5b3",
-                  "name": "Thổ Nhĩ Kỳ vs Trung Quốc",
-                  "streams": [
-                    {
-                      "id": "st-602bd3d5b3",
-                      "name": "HQ",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "src-e7d4c8d4fe",
-              "name": "BugioTV",
-              "contents": [
-                {
-                  "id": "ct-e7d4c8d4fe",
-                  "name": "Nữ Thổ Nhĩ Kỳ vs Nữ Trung Quốc",
-                  "streams": [
-                    {
-                      "id": "st-e7d4c8d4fe",
-                      "name": "Bugio - BLV Tiểu Mèo",
-                      "stream_links": [
-                        {
-                          "id": "lnk-21936c1c94",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_tieumeo/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv1.bugio9.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Nation League Women",
-            "team_a": "Thổ Nhĩ Kỳ",
-            "team_b": "Trung Quốc",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/b/b4/Flag_of_Turkey.svg",
-            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZQOuJBhheUKikHwopx5J3hD7olyljs3suGQ&s",
-            "time": "23:30 21/06",
-            "blv": "BLV PHAN PHÉP",
-            "is_live": false,
-            "sport_slug": "bong-chuyen"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Thổ Nhĩ Kỳ_Trung Quốc_23-30 21-06_8fb69f2a_20260621.png?v=8fb69f2a",
             "width": 1600,
             "height": 1200
           }
