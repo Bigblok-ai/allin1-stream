@@ -799,7 +799,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (4 LIVE)",
+      "name": "⚽ Bóng Đá (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -942,77 +942,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-3f9cf692e7_89854e8c_20260622.png?v=89854e8c",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "hqlive-f80258a823",
-          "name": "Neman vs Dinamo Minsk | 00:00 22/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-f80258a823",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-f80258a823",
-                  "name": "Neman vs Dinamo Minsk",
-                  "streams": [
-                    {
-                      "id": "st-f80258a823",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-1cad2e4412",
-                          "name": "BLV TÁO GIÀ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://tdlive.yarncdn.live/live/tdtv_blv_taotinhtao/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "VĐQG Belarus",
-            "team_a": "Neman",
-            "team_b": "Dinamo Minsk",
-            "logo_a": "https://media.api-sports.io/football/teams/387.png",
-            "logo_b": "https://media.api-sports.io/football/teams/394.png",
-            "time": "00:00 22/06",
-            "blv": "BLV TÁO GIÀ",
-            "is_live": true,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Neman_Dinamo Minsk_00-00 22-06_f388ba1f_20260622.png?v=f388ba1f",
             "width": 1600,
             "height": 1200
           }
@@ -2079,6 +2008,76 @@
                             {
                               "key": "Origin",
                               "value": "https://sv2.xaycon3.live"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-12780ea688",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-12780ea688",
+                  "name": "New Zealand vs Egypt",
+                  "streams": [
+                    {
+                      "id": "st-12780ea688",
+                      "name": "Bugio - BLV Lềnh",
+                      "stream_links": [
+                        {
+                          "id": "lnk-448842e236",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_lenh/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-9e7ba617ad",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-9e7ba617ad",
+                  "name": "New Zealand vs Egypt",
+                  "streams": [
+                    {
+                      "id": "st-9e7ba617ad",
+                      "name": "Bugio - BLV Tiểu Trà Đá",
+                      "stream_links": [
+                        {
+                          "id": "lnk-0ba3f9d037",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_trada/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
                             },
                             {
                               "key": "User-Agent",
