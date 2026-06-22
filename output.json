@@ -799,7 +799,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (4 LIVE)",
+      "name": "⚽ Bóng Đá (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -876,8 +876,8 @@
           }
         },
         {
-          "id": "hqlive-d3c146cb2d",
-          "name": "Uruguay vs Cape Verde Islands | 05:00 22/06",
+          "id": "hqlive-a3f9ed4928",
+          "name": "Austin II vs Sporting KC II | 07:30 22/06",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -891,15 +891,86 @@
           ],
           "sources": [
             {
-              "id": "src-d3c146cb2d",
+              "id": "src-a3f9ed4928",
               "name": "HoiQuanTV",
               "contents": [
                 {
-                  "id": "ct-d3c146cb2d",
-                  "name": "Uruguay vs Cape Verde Islands",
+                  "id": "ct-a3f9ed4928",
+                  "name": "Austin II vs Sporting KC II",
                   "streams": [
                     {
-                      "id": "st-d3c146cb2d",
+                      "id": "st-a3f9ed4928",
+                      "name": "HQ",
+                      "stream_links": [
+                        {
+                          "id": "lnk-fd31283a76",
+                          "name": "BLV PHAN ANH",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phananh/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "MLS Next Pro",
+            "team_a": "Austin II",
+            "team_b": "Sporting KC II",
+            "logo_a": "https://media.api-sports.io/football/teams/21138.png",
+            "logo_b": "https://media.api-sports.io/football/teams/4019.png",
+            "time": "07:30 22/06",
+            "blv": "BLV PHAN ANH",
+            "is_live": true,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Austin II_Sporting KC II_07-30 22-06_24a76485_20260622.png?v=24a76485",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-73a1fce08c",
+          "name": "New Zealand vs Egypt | 08:00 22/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-73a1fce08c",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-73a1fce08c",
+                  "name": "New Zealand vs Egypt",
+                  "streams": [
+                    {
+                      "id": "st-73a1fce08c",
                       "name": "HQ",
                       "stream_links": [
                         {
@@ -937,286 +1008,6 @@
                           ]
                         }
                       ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "src-6f70fd1c0f",
-              "name": "QuechoaTV",
-              "contents": [
-                {
-                  "id": "ct-6f70fd1c0f",
-                  "name": "Uruguay vs Cape Verde Islands",
-                  "streams": [
-                    {
-                      "id": "st-6f70fd1c0f",
-                      "name": "Quechoa - NEM CHUA, VĂN MINH",
-                      "stream_links": [
-                        {
-                          "id": "lnk-9ecfdd7bcf",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ahghndtkyqmm-pull.bpmedialive.com/quechoa/blv_nemchua.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://quechoa10.live/"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://quechoa10.live"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "src-eb698b6069",
-              "name": "XayConTV",
-              "contents": [
-                {
-                  "id": "ct-eb698b6069",
-                  "name": "Uruguay vs Cape Verde Islands",
-                  "streams": [
-                    {
-                      "id": "st-eb698b6069",
-                      "name": "Xaycon - BLV Phong Vân",
-                      "stream_links": [
-                        {
-                          "id": "lnk-0fa0d01abf",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://xclive.yarncdn.live/live/xctv_blv_vanca/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.xaycon3.live/"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://sv2.xaycon3.live"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "src-e60efabd62",
-              "name": "XayConTV",
-              "contents": [
-                {
-                  "id": "ct-e60efabd62",
-                  "name": "Uruguay vs Cape Verde Islands",
-                  "streams": [
-                    {
-                      "id": "st-e60efabd62",
-                      "name": "Xaycon - BLV Rồng Đất",
-                      "stream_links": [
-                        {
-                          "id": "lnk-221ed1ffcc",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://xclive.yarncdn.live/live/xctv_blv_rongdat/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.xaycon3.live/"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://sv2.xaycon3.live"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "src-847c69431a",
-              "name": "XayConTV",
-              "contents": [
-                {
-                  "id": "ct-847c69431a",
-                  "name": "Uruguay vs Cape Verde Islands",
-                  "streams": [
-                    {
-                      "id": "st-847c69431a",
-                      "name": "Xaycon - BLV Quan Vũ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-ab6de9170b",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://xclive.yarncdn.live/live/xctv_blv_quanvu/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.xaycon3.live/"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://sv2.xaycon3.live"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "World Cup",
-            "team_a": "Uruguay",
-            "team_b": "Cape Verde Islands",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Flag_of_Uruguay.svg/1280px-Flag_of_Uruguay.svg.png",
-            "logo_b": "https://imgts.sportpulseapiz.com/football/team/9vjxm8ghdpdr6od/image/small",
-            "time": "05:00 22/06",
-            "blv": "BLV THẦN THÔNG, BLV LƯƠNG BỔNG",
-            "is_live": true,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Uruguay_Cape Verde Islands_05-00 22-06_2133fccc_20260622.png?v=2133fccc",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "hqlive-1ccfd786e1",
-          "name": "Oriente Petrolero vs Nacional Potosí | 07:30 22/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-1ccfd786e1",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-1ccfd786e1",
-                  "name": "Oriente Petrolero vs Nacional Potosí",
-                  "streams": [
-                    {
-                      "id": "st-1ccfd786e1",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-fd31283a76",
-                          "name": "BLV PHAN ANH",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phananh/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Primera División",
-            "team_a": "Oriente Petrolero",
-            "team_b": "Nacional Potosí",
-            "logo_a": "https://media.api-sports.io/football/teams/3707.png",
-            "logo_b": "https://media.api-sports.io/football/teams/3706.png",
-            "time": "07:30 22/06",
-            "blv": "BLV PHAN ANH",
-            "is_live": true,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Oriente Petrolero_Nacional Potosí_07-30 22-06_320ba263_20260622.png?v=320ba263",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "hqlive-73a1fce08c",
-          "name": "New Zealand vs Egypt | 08:00 22/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-73a1fce08c",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-73a1fce08c",
-                  "name": "New Zealand vs Egypt",
-                  "streams": [
-                    {
-                      "id": "st-73a1fce08c",
-                      "name": "HQ",
-                      "stream_links": []
                     }
                   ]
                 }
