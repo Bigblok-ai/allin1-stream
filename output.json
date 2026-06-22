@@ -799,87 +799,11 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (3 LIVE)",
+      "name": "⚽ Bóng Đá (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "xc-2ae911662c",
-          "name": "Thimphu vs Tsirang | 19:00 22/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-2ae911662c",
-              "name": "XayConTV",
-              "contents": [
-                {
-                  "id": "ct-2ae911662c",
-                  "name": "Thimphu vs Tsirang",
-                  "streams": [
-                    {
-                      "id": "st-2ae911662c",
-                      "name": "XC",
-                      "stream_links": [
-                        {
-                          "id": "lnk-30319ba8f3",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://xclive.yarncdn.live/live/xctv_blv_bipcon/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.xaycon3.live/"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://sv2.xaycon3.live"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Premier League",
-            "team_a": "Thimphu",
-            "team_b": "Tsirang",
-            "logo_a": "https://media.api-sports.io/football/teams/5591.png",
-            "logo_b": "https://media.api-sports.io/football/teams/21277.png",
-            "time": "19:00",
-            "date": "22/06",
-            "blv": "BLV Bịp Con",
-            "is_live": true,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/xaycon-stream/refs/heads/main/thumbs/xc-2ae911662c_acff644a_20260622.png?v=acff644a",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "bg-23e8466386",
           "name": "Alay vs OshMU Aldier | 21:30 22/06",
@@ -1801,8 +1725,8 @@
           }
         },
         {
-          "id": "hqlive-01fefa1ba6",
-          "name": "France vs Iraq | 04:00 23/06",
+          "id": "gv-35b1eb1832",
+          "name": "KR vs IA | 02:15 23/06",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1816,17 +1740,106 @@
           ],
           "sources": [
             {
-              "id": "src-01fefa1ba6",
-              "name": "HoiQuanTV",
+              "id": "src-35b1eb1832",
+              "name": "GiovangTV",
               "contents": [
                 {
-                  "id": "ct-01fefa1ba6",
-                  "name": "France vs Iraq",
+                  "id": "ct-35b1eb1832",
+                  "name": "KR vs IA",
                   "streams": [
                     {
-                      "id": "st-01fefa1ba6",
-                      "name": "HQ",
-                      "stream_links": []
+                      "id": "st-35b1eb1832",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-e54596dda1",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1782135871_hd/1782135871_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "VĐQG Iceland",
+            "team_a": "KR",
+            "team_b": "IA",
+            "logo_a": "https://images.keovip88.net/images/teams/shamrock-rovers.png",
+            "logo_b": "https://images.keovip88.net/images/teams/galway-united.png",
+            "time": "02:15 23/06",
+            "blv": "blv Mù",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-35b1eb1832_845cd95d_20260622.png?v=845cd95d",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-806580d7a3",
+          "name": "Pháp vs Iraq | 04:00 23/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-806580d7a3",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-806580d7a3",
+                  "name": "Pháp vs Iraq",
+                  "streams": [
+                    {
+                      "id": "st-806580d7a3",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-771a656e08",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1782136023_hd/1782136023_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -1990,28 +2003,28 @@
             }
           ],
           "org_metadata": {
-            "league": "World Cup",
-            "team_a": "France",
+            "league": "FIFA World Cup",
+            "team_a": "Pháp",
             "team_b": "Iraq",
-            "logo_a": "https://media.api-sports.io/football/teams/2.png",
-            "logo_b": "https://media.api-sports.io/football/teams/1567.png",
+            "logo_a": "https://images.keovip88.net/images/teams/france.png",
+            "logo_b": "https://images.keovip88.net/images/teams/iraq.png",
             "time": "04:00 23/06",
-            "blv": "BLV PHAN MÃ, BLV LƯƠNG BỔNG, BLV PHAN QUẨY",
+            "blv": "blv-tri",
             "is_live": false,
-            "sport_slug": "bong-da"
+            "cate_type": "football"
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/France_Iraq_04-00 23-06_2e7bb4e0_20260622.png?v=2e7bb4e0",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-806580d7a3_4ac2955c_20260622.png?v=4ac2955c",
             "width": 1600,
             "height": 1200
           }
         },
         {
-          "id": "hqlive-ab3290f0d4",
-          "name": "Ponte Preta vs Novorizontino | 06:00 23/06",
+          "id": "gv-474bc6206d",
+          "name": "Ponte Preta vs Gremio Novorizontino | 06:00 23/06",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -2025,17 +2038,35 @@
           ],
           "sources": [
             {
-              "id": "src-ab3290f0d4",
-              "name": "HoiQuanTV",
+              "id": "src-474bc6206d",
+              "name": "GiovangTV",
               "contents": [
                 {
-                  "id": "ct-ab3290f0d4",
-                  "name": "Ponte Preta vs Novorizontino",
+                  "id": "ct-474bc6206d",
+                  "name": "Ponte Preta vs Gremio Novorizontino",
                   "streams": [
                     {
-                      "id": "st-ab3290f0d4",
-                      "name": "HQ",
-                      "stream_links": []
+                      "id": "st-474bc6206d",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-1ab535e34a",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1782136048_hd/1782136048_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -2043,21 +2074,21 @@
             }
           ],
           "org_metadata": {
-            "league": "Serie B",
+            "league": "Brazil Serie B",
             "team_a": "Ponte Preta",
-            "team_b": "Novorizontino",
-            "logo_a": "https://media.api-sports.io/football/teams/139.png",
-            "logo_b": "https://media.api-sports.io/football/teams/7834.png",
+            "team_b": "Gremio Novorizontino",
+            "logo_a": "https://images.keovip88.net/images/teams/ponte-preta.png",
+            "logo_b": "https://images.keovip88.net/images/teams/gremio-novorizontin.png",
             "time": "06:00 23/06",
-            "blv": "BLV PHAN ANH",
+            "blv": "BLV Dần",
             "is_live": false,
-            "sport_slug": "bong-da"
+            "cate_type": "football"
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Ponte Preta_Novorizontino_06-00 23-06_f263791b_20260622.png?v=f263791b",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-474bc6206d_c1d39e1e_20260622.png?v=c1d39e1e",
             "width": 1600,
             "height": 1200
           }
@@ -2824,6 +2855,77 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-289ed0bb55_527ed878_20260622.png?v=527ed878",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-34c511b9cd",
+          "name": "Connecticut Sun W vs Chicago Sky W | 06:00 23/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-34c511b9cd",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-34c511b9cd",
+                  "name": "Connecticut Sun W vs Chicago Sky W",
+                  "streams": [
+                    {
+                      "id": "st-34c511b9cd",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-76af8f1d71",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1782136076_hd/1782136076_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "WNBA",
+            "team_a": "Connecticut Sun W",
+            "team_b": "Chicago Sky W",
+            "logo_a": "https://static.flashscore.com/res/image/data/GpwFHTYA-bam8o1Nj.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/ID1vxUZA-t67FITyc.png",
+            "time": "06:00 23/06",
+            "blv": "BLV Tôm",
+            "is_live": false,
+            "cate_type": "basketball"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-34c511b9cd_c2eb0916_20260622.png?v=c2eb0916",
             "width": 1600,
             "height": 1200
           }
