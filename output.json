@@ -799,7 +799,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1157,7 +1157,7 @@
             "logo_a": "https://images.keovip88.net/images/teams/france.png",
             "logo_b": "https://images.keovip88.net/images/teams/iraq.png",
             "time": "04:00 23/06",
-            "blv": "leo-tri-24, tom-diec",
+            "blv": "leo-tri-24",
             "is_live": true,
             "cate_type": "football"
           },
@@ -1277,77 +1277,6 @@
           }
         },
         {
-          "id": "gv-7e33474a44",
-          "name": "Na Uy vs Senegal | 07:00 23/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-7e33474a44",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-7e33474a44",
-                  "name": "Na Uy vs Senegal",
-                  "streams": [
-                    {
-                      "id": "st-7e33474a44",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-29ca40de89",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1782150112_hd/1782150112_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "FIFA World Cup",
-            "team_a": "Na Uy",
-            "team_b": "Senegal",
-            "logo_a": "https://images.keovip88.net/images/teams/norway.png",
-            "logo_b": "https://images.keovip88.net/images/teams/senegal.png",
-            "time": "07:00 23/06",
-            "blv": "BLV Mason, blv-ngu",
-            "is_live": false,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-7e33474a44_b9956fbf_20260623.png?v=b9956fbf",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "hqlive-a6e6fb09e3",
           "name": "Norway vs Senegal | 07:00 23/06",
           "type": "single",
@@ -1355,10 +1284,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -1373,7 +1302,42 @@
                     {
                       "id": "st-a6e6fb09e3",
                       "name": "HQ",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-c42241b387",
+                          "name": "BLV PHAN MÃ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanma/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-b10e5b640b",
+                          "name": "BLV THẦN THÔNG",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://tdlive.yarncdn.live/live/tdtv_blv_taovannghe/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -1614,7 +1578,7 @@
             "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Flag_of_Senegal.svg/1280px-Flag_of_Senegal.svg.png",
             "time": "07:00 23/06",
             "blv": "BLV PHAN MÃ, BLV THẦN THÔNG",
-            "is_live": false,
+            "is_live": true,
             "sport_slug": "bong-da"
           },
           "image": {
@@ -1622,6 +1586,77 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Norway_Senegal_07-00 23-06_4bd280a2_20260623.png?v=4bd280a2",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-7e33474a44",
+          "name": "Na Uy vs Senegal | 07:00 23/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-7e33474a44",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-7e33474a44",
+                  "name": "Na Uy vs Senegal",
+                  "streams": [
+                    {
+                      "id": "st-7e33474a44",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-29ca40de89",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1782150112_hd/1782150112_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "FIFA World Cup",
+            "team_a": "Na Uy",
+            "team_b": "Senegal",
+            "logo_a": "https://images.keovip88.net/images/teams/norway.png",
+            "logo_b": "https://images.keovip88.net/images/teams/senegal.png",
+            "time": "07:00 23/06",
+            "blv": "BLV Mason, blv-ngu",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-7e33474a44_b9956fbf_20260623.png?v=b9956fbf",
             "width": 1600,
             "height": 1200
           }
