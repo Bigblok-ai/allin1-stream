@@ -799,11 +799,87 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "xc-db47c7f592",
+          "name": "Asiagoal vs Bishkek City | 21:30 22/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-db47c7f592",
+              "name": "XayConTV",
+              "contents": [
+                {
+                  "id": "ct-db47c7f592",
+                  "name": "Asiagoal vs Bishkek City",
+                  "streams": [
+                    {
+                      "id": "st-db47c7f592",
+                      "name": "XC",
+                      "stream_links": [
+                        {
+                          "id": "lnk-fa5c7698a5",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://xclive.yarncdn.live/live/xctv_blv_tholan/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.xaycon3.live/"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://sv2.xaycon3.live"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Premier League",
+            "team_a": "Asiagoal",
+            "team_b": "Bishkek City",
+            "logo_a": "https://media.api-sports.io/football/teams/25764.png",
+            "logo_b": "https://media.api-sports.io/football/teams/25766.png",
+            "time": "21:30",
+            "date": "22/06",
+            "blv": "BLV Thợ Lặn",
+            "is_live": true,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/xaycon-stream/refs/heads/main/thumbs/xc-db47c7f592_5f63fdc8_20260622.png?v=5f63fdc8",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "bg-23e8466386",
           "name": "Alay vs OshMU Aldier | 21:30 22/06",
@@ -2163,6 +2239,123 @@
                   ]
                 }
               ]
+            },
+            {
+              "id": "src-35a3f4476e",
+              "name": "XayConTV",
+              "contents": [
+                {
+                  "id": "ct-35a3f4476e",
+                  "name": "Norway vs Senegal",
+                  "streams": [
+                    {
+                      "id": "st-35a3f4476e",
+                      "name": "Xaycon - BLV Quan Vũ",
+                      "stream_links": [
+                        {
+                          "id": "lnk-ab6de9170b",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://xclive.yarncdn.live/live/xctv_blv_quanvu/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.xaycon3.live/"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://sv2.xaycon3.live"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-d35162b2ef",
+              "name": "XayConTV",
+              "contents": [
+                {
+                  "id": "ct-d35162b2ef",
+                  "name": "Norway vs Senegal",
+                  "streams": [
+                    {
+                      "id": "st-d35162b2ef",
+                      "name": "Xaycon - BLV Rồng Đất",
+                      "stream_links": [
+                        {
+                          "id": "lnk-221ed1ffcc",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://xclive.yarncdn.live/live/xctv_blv_rongdat/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.xaycon3.live/"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://sv2.xaycon3.live"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-40448a5b0e",
+              "name": "XayConTV",
+              "contents": [
+                {
+                  "id": "ct-40448a5b0e",
+                  "name": "Norway vs Senegal",
+                  "streams": [
+                    {
+                      "id": "st-40448a5b0e",
+                      "name": "Xaycon - BLV Phong Vân",
+                      "stream_links": [
+                        {
+                          "id": "lnk-0fa0d01abf",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://xclive.yarncdn.live/live/xctv_blv_vanca/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.xaycon3.live/"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://sv2.xaycon3.live"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
             }
           ],
           "org_metadata": {
@@ -2243,6 +2436,123 @@
                             {
                               "key": "Origin",
                               "value": "https://quechoa10.live"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-d026b9423f",
+              "name": "XayConTV",
+              "contents": [
+                {
+                  "id": "ct-d026b9423f",
+                  "name": "Jordan vs Algeria",
+                  "streams": [
+                    {
+                      "id": "st-d026b9423f",
+                      "name": "Xaycon - BLV Quan Vũ",
+                      "stream_links": [
+                        {
+                          "id": "lnk-ab6de9170b",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://xclive.yarncdn.live/live/xctv_blv_quanvu/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.xaycon3.live/"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://sv2.xaycon3.live"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-e4c52263d7",
+              "name": "XayConTV",
+              "contents": [
+                {
+                  "id": "ct-e4c52263d7",
+                  "name": "Jordan vs Algeria",
+                  "streams": [
+                    {
+                      "id": "st-e4c52263d7",
+                      "name": "Xaycon - BLV Rồng Đất",
+                      "stream_links": [
+                        {
+                          "id": "lnk-221ed1ffcc",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://xclive.yarncdn.live/live/xctv_blv_rongdat/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.xaycon3.live/"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://sv2.xaycon3.live"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-8166919af7",
+              "name": "XayConTV",
+              "contents": [
+                {
+                  "id": "ct-8166919af7",
+                  "name": "Jordan vs Algeria",
+                  "streams": [
+                    {
+                      "id": "st-8166919af7",
+                      "name": "Xaycon - BLV Phong Vân",
+                      "stream_links": [
+                        {
+                          "id": "lnk-0fa0d01abf",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://xclive.yarncdn.live/live/xctv_blv_vanca/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.xaycon3.live/"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://sv2.xaycon3.live"
                             },
                             {
                               "key": "User-Agent",
@@ -2475,6 +2785,84 @@
                   ]
                 }
               ]
+            },
+            {
+              "id": "src-963ff5ba82",
+              "name": "XayConTV",
+              "contents": [
+                {
+                  "id": "ct-963ff5ba82",
+                  "name": "Portugal vs Uzbekistan",
+                  "streams": [
+                    {
+                      "id": "st-963ff5ba82",
+                      "name": "Xaycon - BLV Thợ Lặn",
+                      "stream_links": [
+                        {
+                          "id": "lnk-fa5c7698a5",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://xclive.yarncdn.live/live/xctv_blv_tholan/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.xaycon3.live/"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://sv2.xaycon3.live"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-298756d626",
+              "name": "XayConTV",
+              "contents": [
+                {
+                  "id": "ct-298756d626",
+                  "name": "Portugal vs Uzbekistan",
+                  "streams": [
+                    {
+                      "id": "st-298756d626",
+                      "name": "Xaycon - BLV Tam Mao",
+                      "stream_links": [
+                        {
+                          "id": "lnk-bccd486b79",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://xclive.yarncdn.live/live/xctv_blv_tammao/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.xaycon3.live/"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://sv2.xaycon3.live"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
             }
           ],
           "org_metadata": {
@@ -2570,6 +2958,84 @@
                           "type": "hls",
                           "default": true,
                           "url": "https://xclive.yarncdn.live/live/xctv_blv_bipcon/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.xaycon3.live/"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://sv2.xaycon3.live"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-f49ef8ab3a",
+              "name": "XayConTV",
+              "contents": [
+                {
+                  "id": "ct-f49ef8ab3a",
+                  "name": "England vs Ghana",
+                  "streams": [
+                    {
+                      "id": "st-f49ef8ab3a",
+                      "name": "Xaycon - BLV Thợ Lặn",
+                      "stream_links": [
+                        {
+                          "id": "lnk-fa5c7698a5",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://xclive.yarncdn.live/live/xctv_blv_tholan/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.xaycon3.live/"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://sv2.xaycon3.live"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-077ad3da8a",
+              "name": "XayConTV",
+              "contents": [
+                {
+                  "id": "ct-077ad3da8a",
+                  "name": "England vs Ghana",
+                  "streams": [
+                    {
+                      "id": "st-077ad3da8a",
+                      "name": "Xaycon - BLV Tam Mao",
+                      "stream_links": [
+                        {
+                          "id": "lnk-bccd486b79",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://xclive.yarncdn.live/live/xctv_blv_tammao/playlist.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -2766,8 +3232,8 @@
           }
         },
         {
-          "id": "xc-db47c7f592",
-          "name": "Asiagoal vs Bishkek City | 21:30 22/06",
+          "id": "xc-27207f2c87",
+          "name": "Nantong Haimen Codion vs Shanghai Port II | 18:30 23/06",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -2781,23 +3247,23 @@
           ],
           "sources": [
             {
-              "id": "src-db47c7f592",
+              "id": "src-27207f2c87",
               "name": "XayConTV",
               "contents": [
                 {
-                  "id": "ct-db47c7f592",
-                  "name": "Asiagoal vs Bishkek City",
+                  "id": "ct-27207f2c87",
+                  "name": "Nantong Haimen Codion vs Shanghai Port II",
                   "streams": [
                     {
-                      "id": "st-db47c7f592",
+                      "id": "st-27207f2c87",
                       "name": "XC",
                       "stream_links": [
                         {
-                          "id": "lnk-fa5c7698a5",
+                          "id": "lnk-bccd486b79",
                           "name": "Link FHD",
                           "type": "hls",
                           "default": true,
-                          "url": "https://xclive.yarncdn.live/live/xctv_blv_tholan/playlist.m3u8",
+                          "url": "https://xclive.yarncdn.live/live/xctv_blv_tammao/playlist.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -2821,14 +3287,14 @@
             }
           ],
           "org_metadata": {
-            "league": "Premier League",
-            "team_a": "Asiagoal",
-            "team_b": "Bishkek City",
-            "logo_a": "https://media.api-sports.io/football/teams/25764.png",
-            "logo_b": "https://media.api-sports.io/football/teams/25766.png",
-            "time": "21:30",
-            "date": "22/06",
-            "blv": "BLV Thợ Lặn",
+            "league": "League Two",
+            "team_a": "Nantong Haimen Codion",
+            "team_b": "Shanghai Port II",
+            "logo_a": "https://media.api-sports.io/football/teams/19319.png",
+            "logo_b": "https://media.api-sports.io/football/teams/23289.png",
+            "time": "18:30",
+            "date": "23/06",
+            "blv": "BLV Tam Mao",
             "is_live": false,
             "sport_slug": "bong-da"
           },
@@ -2836,7 +3302,83 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/xaycon-stream/refs/heads/main/thumbs/xc-db47c7f592_5f63fdc8_20260622.png?v=5f63fdc8",
+            "url": "https://raw.githubusercontent.com/jasminliu98/xaycon-stream/refs/heads/main/thumbs/xc-27207f2c87_24cd6c29_20260622.png?v=24cd6c29",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-4c9ed93e05",
+          "name": "Lahti vs Turku PS | 22:00 23/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-4c9ed93e05",
+              "name": "XayConTV",
+              "contents": [
+                {
+                  "id": "ct-4c9ed93e05",
+                  "name": "Lahti vs Turku PS",
+                  "streams": [
+                    {
+                      "id": "st-4c9ed93e05",
+                      "name": "XC",
+                      "stream_links": [
+                        {
+                          "id": "lnk-221ed1ffcc",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://xclive.yarncdn.live/live/xctv_blv_rongdat/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.xaycon3.live/"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://sv2.xaycon3.live"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Veikkausliiga",
+            "team_a": "Lahti",
+            "team_b": "Turku PS",
+            "logo_a": "https://media.api-sports.io/football/teams/1166.png",
+            "logo_b": "https://media.api-sports.io/football/teams/1168.png",
+            "time": "22:00",
+            "date": "23/06",
+            "blv": "BLV Rồng Đất",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/xaycon-stream/refs/heads/main/thumbs/xc-4c9ed93e05_ea93e521_20260622.png?v=ea93e521",
             "width": 1600,
             "height": 1200
           }
@@ -3176,25 +3718,7 @@
                     {
                       "id": "st-1a7fb485cf",
                       "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-faf8eb2d14",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1782049184_hd/1782049184_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
+                      "stream_links": []
                     }
                   ]
                 }
@@ -3381,6 +3905,112 @@
           }
         },
         {
+          "id": "hqlive-84563c4f53",
+          "name": "New Zealand vs Úc | 13:30 23/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-84563c4f53",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-84563c4f53",
+                  "name": "New Zealand vs Úc",
+                  "streams": [
+                    {
+                      "id": "st-84563c4f53",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "AVC Nations Cup 2026",
+            "team_a": "New Zealand",
+            "team_b": "Úc",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Flag_of_New_Zealand.svg",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/8/88/Flag_of_Australia_%28converted%29.svg",
+            "time": "13:30 23/06",
+            "blv": "BLV PHAN BÁCH",
+            "is_live": false,
+            "sport_slug": "bong-chuyen"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/New Zealand_Úc_13-30 23-06_038a6ce8_20260622.png?v=038a6ce8",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-5ff407607b",
+          "name": "Đài Loan vs Kazakhstan | 16:30 23/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-5ff407607b",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-5ff407607b",
+                  "name": "Đài Loan vs Kazakhstan",
+                  "streams": [
+                    {
+                      "id": "st-5ff407607b",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "AVC Nations Cup 2026",
+            "team_a": "Đài Loan",
+            "team_b": "Kazakhstan",
+            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1r0k1Lgj9INFJXffXF2kk8So8HKDYQMeJfw&s",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Flag_of_Kazakhstan.svg",
+            "time": "16:30 23/06",
+            "blv": "BLV PHAN BÁCH",
+            "is_live": false,
+            "sport_slug": "bong-chuyen"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Đài Loan_Kazakhstan_16-30 23-06_39032649_20260622.png?v=39032649",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "hqlive-548e06cd81",
           "name": "Indonesia vs Thái Lan | 19:30 23/06",
           "type": "single",
@@ -3429,6 +4059,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Indonesia_Thái Lan_19-30 23-06_36c91cda_20260622.png?v=36c91cda",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-eff15ab2b1",
+          "name": "Ấn Độ vs Bahrain | 22:30 23/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-eff15ab2b1",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-eff15ab2b1",
+                  "name": "Ấn Độ vs Bahrain",
+                  "streams": [
+                    {
+                      "id": "st-eff15ab2b1",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "AVC Nations Cup 2026",
+            "team_a": "Ấn Độ",
+            "team_b": "Bahrain",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/4/41/Flag_of_India.svg",
+            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSeAGBhp1HE5UVIXpgvIuh1BFlvaWpErs2iiw&s",
+            "time": "22:30 23/06",
+            "blv": "BLV PHAN BỐNG",
+            "is_live": false,
+            "sport_slug": "bong-chuyen"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Ấn Độ_Bahrain_22-30 23-06_a4eafcb0_20260622.png?v=a4eafcb0",
             "width": 1600,
             "height": 1200
           }
