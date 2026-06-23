@@ -855,6 +855,58 @@
               ]
             },
             {
+              "id": "src-4d488c5d22",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-4d488c5d22",
+                  "name": "Jordan vs Algeria",
+                  "streams": [
+                    {
+                      "id": "st-4d488c5d22",
+                      "name": "Hoiquan - BLV THẦN THÔNG, BLV PHAN QUẨY",
+                      "stream_links": [
+                        {
+                          "id": "lnk-b10e5b640b",
+                          "name": "BLV THẦN THÔNG",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://tdlive.yarncdn.live/live/tdtv_blv_taovannghe/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-b0c182498f",
+                          "name": "BLV PHAN QUẨY",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanquay/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
               "id": "src-6f96a2e835",
               "name": "QuechoaTV",
               "contents": [
@@ -3495,10 +3547,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -3546,7 +3598,7 @@
             "logo_b": "https://static.flashscore.com/res/image/data/tlRg5VFG-COd4S2x5.png",
             "start_time": "2026-06-23T10:00:00",
             "blv": "BLV Pháo",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "bongchuyen"
           },
           "image": {
