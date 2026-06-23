@@ -799,7 +799,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (4 LIVE)",
+      "name": "⚽ Bóng Đá (6 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1018,6 +1018,188 @@
           }
         },
         {
+          "id": "hqlive-2ed0224f6a",
+          "name": "Guangdong Mingtu vs Guizhou Zhucheng | 18:30 23/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-2ed0224f6a",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-2ed0224f6a",
+                  "name": "Guangdong Mingtu vs Guizhou Zhucheng",
+                  "streams": [
+                    {
+                      "id": "st-2ed0224f6a",
+                      "name": "HQ",
+                      "stream_links": [
+                        {
+                          "id": "lnk-f6231c6549",
+                          "name": "BLV PHAN CA",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanca/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-c5ab6cebac",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-c5ab6cebac",
+                  "name": "Guangdong Mingtu vs Guizhou Zhucheng",
+                  "streams": [
+                    {
+                      "id": "st-c5ab6cebac",
+                      "name": "Bugio - BLV Tiểu Mèo",
+                      "stream_links": [
+                        {
+                          "id": "lnk-21936c1c94",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_tieumeo/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "League Two",
+            "team_a": "Guangdong Mingtu",
+            "team_b": "Guizhou Zhucheng",
+            "logo_a": "https://media.api-sports.io/football/teams/25773.png",
+            "logo_b": "https://media.api-sports.io/football/teams/25775.png",
+            "time": "18:30 23/06",
+            "blv": "BLV PHAN CA",
+            "is_live": true,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Guangdong Mingtu_Guizhou Zhucheng_18-30 23-06_978e00dd_20260623.png?v=978e00dd",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-27207f2c87",
+          "name": "Nantong Haimen Codion vs Shanghai Port II | 18:30 23/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-27207f2c87",
+              "name": "XayConTV",
+              "contents": [
+                {
+                  "id": "ct-27207f2c87",
+                  "name": "Nantong Haimen Codion vs Shanghai Port II",
+                  "streams": [
+                    {
+                      "id": "st-27207f2c87",
+                      "name": "XC",
+                      "stream_links": [
+                        {
+                          "id": "lnk-bccd486b79",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://xclive.yarncdn.live/live/xctv_blv_tammao/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.xaycon3.live/"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://sv2.xaycon3.live"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "League Two",
+            "team_a": "Nantong Haimen Codion",
+            "team_b": "Shanghai Port II",
+            "logo_a": "https://media.api-sports.io/football/teams/19319.png",
+            "logo_b": "https://media.api-sports.io/football/teams/23289.png",
+            "time": "18:30",
+            "date": "23/06",
+            "blv": "BLV Tam Mao",
+            "is_live": true,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/xaycon-stream/refs/heads/main/thumbs/xc-27207f2c87_24cd6c29_20260623.png?v=24cd6c29",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "bg-8819159f92",
           "name": "Indonesia vs Thái Lan | 19:30 23/06",
           "type": "single",
@@ -1084,94 +1266,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-8819159f92_19160519_20260623.png?v=19160519",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "hqlive-2ed0224f6a",
-          "name": "Guangdong Mingtu vs Guizhou Zhucheng | 18:30 23/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-2ed0224f6a",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-2ed0224f6a",
-                  "name": "Guangdong Mingtu vs Guizhou Zhucheng",
-                  "streams": [
-                    {
-                      "id": "st-2ed0224f6a",
-                      "name": "HQ",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "src-c5ab6cebac",
-              "name": "BugioTV",
-              "contents": [
-                {
-                  "id": "ct-c5ab6cebac",
-                  "name": "Guangdong Mingtu vs Guizhou Zhucheng",
-                  "streams": [
-                    {
-                      "id": "st-c5ab6cebac",
-                      "name": "Bugio - BLV Tiểu Mèo",
-                      "stream_links": [
-                        {
-                          "id": "lnk-21936c1c94",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_tieumeo/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv1.bugio9.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "League Two",
-            "team_a": "Guangdong Mingtu",
-            "team_b": "Guizhou Zhucheng",
-            "logo_a": "https://media.api-sports.io/football/teams/25773.png",
-            "logo_b": "https://media.api-sports.io/football/teams/25775.png",
-            "time": "18:30 23/06",
-            "blv": "BLV PHAN CA",
-            "is_live": false,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Guangdong Mingtu_Guizhou Zhucheng_18-30 23-06_978e00dd_20260623.png?v=978e00dd",
             "width": 1600,
             "height": 1200
           }
@@ -1759,6 +1853,146 @@
                             {
                               "key": "Origin",
                               "value": "https://sv2.xaycon3.live"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-23fa71cc32",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-23fa71cc32",
+                  "name": "Portugal vs Uzbekistan",
+                  "streams": [
+                    {
+                      "id": "st-23fa71cc32",
+                      "name": "Bugio - BLV Tiểu Trà Đá",
+                      "stream_links": [
+                        {
+                          "id": "lnk-0ba3f9d037",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_trada/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-29daf9442f",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-29daf9442f",
+                  "name": "Portugal vs Uzbekistan",
+                  "streams": [
+                    {
+                      "id": "st-29daf9442f",
+                      "name": "Bugio - BLV Phi MC",
+                      "stream_links": [
+                        {
+                          "id": "lnk-d5c8f635fc",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_phimc/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-d14fe370bd",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-d14fe370bd",
+                  "name": "Portugal vs Uzbekistan",
+                  "streams": [
+                    {
+                      "id": "st-d14fe370bd",
+                      "name": "Bugio - BLV Lềnh",
+                      "stream_links": [
+                        {
+                          "id": "lnk-448842e236",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_lenh/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-009a5510ad",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-009a5510ad",
+                  "name": "Portugal vs Uzbekistan",
+                  "streams": [
+                    {
+                      "id": "st-009a5510ad",
+                      "name": "Bugio - BLV Max",
+                      "stream_links": [
+                        {
+                          "id": "lnk-ad68922ab2",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_max/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -2940,82 +3174,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/quechoa-stream/refs/heads/main/thumbs/qc-425206343d_ffec71de_20260623.png?v=ffec71de",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "xc-27207f2c87",
-          "name": "Nantong Haimen Codion vs Shanghai Port II | 18:30 23/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-27207f2c87",
-              "name": "XayConTV",
-              "contents": [
-                {
-                  "id": "ct-27207f2c87",
-                  "name": "Nantong Haimen Codion vs Shanghai Port II",
-                  "streams": [
-                    {
-                      "id": "st-27207f2c87",
-                      "name": "XC",
-                      "stream_links": [
-                        {
-                          "id": "lnk-bccd486b79",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://xclive.yarncdn.live/live/xctv_blv_tammao/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.xaycon3.live/"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://sv2.xaycon3.live"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "League Two",
-            "team_a": "Nantong Haimen Codion",
-            "team_b": "Shanghai Port II",
-            "logo_a": "https://media.api-sports.io/football/teams/19319.png",
-            "logo_b": "https://media.api-sports.io/football/teams/23289.png",
-            "time": "18:30",
-            "date": "23/06",
-            "blv": "BLV Tam Mao",
-            "is_live": false,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/xaycon-stream/refs/heads/main/thumbs/xc-27207f2c87_24cd6c29_20260623.png?v=24cd6c29",
             "width": 1600,
             "height": 1200
           }
