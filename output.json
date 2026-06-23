@@ -799,11 +799,82 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (1 LIVE)",
+      "name": "⚽ Bóng Đá (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "gv-1d1d84eb77",
+          "name": "Gold Coast Knights vs  Eastern Suburbs | 16:30 23/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-1d1d84eb77",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-1d1d84eb77",
+                  "name": "Gold Coast Knights vs  Eastern Suburbs",
+                  "streams": [
+                    {
+                      "id": "st-1d1d84eb77",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-11e2722b91",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1782049731_hd/1782049731_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "NPL Queensland",
+            "team_a": "Gold Coast Knights",
+            "team_b": " Eastern Suburbs",
+            "logo_a": "https://images.keovip.cc/images/teams/gol-gohar-fc.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/j9bUE3xS-pbGyaFQt.png",
+            "time": "16:30 23/06",
+            "blv": "blv-bon",
+            "is_live": true,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-1d1d84eb77_616b8f94_20260623.png?v=616b8f94",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "hqlive-078ef773c6",
           "name": "Qingdao Red Lions vs Dalian Kewei | 15:00 23/06",
@@ -883,10 +954,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -901,7 +972,25 @@
                     {
                       "id": "st-6dae9f7825",
                       "name": "HQ",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-1cad2e4412",
+                          "name": "BLV TÁO GIÀ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://tdlive.yarncdn.live/live/tdtv_blv_taotinhtao/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -916,7 +1005,7 @@
             "logo_b": "https://media.api-sports.io/football/teams/10214.png",
             "time": "16:30 23/06",
             "blv": "BLV TÁO GIÀ",
-            "is_live": false,
+            "is_live": true,
             "sport_slug": "bong-da"
           },
           "image": {
@@ -3120,7 +3209,7 @@
     },
     {
       "id": "grp-bóng-rổ",
-      "name": "🏀 Bóng Rổ (1 LIVE)",
+      "name": "🏀 Bóng Rổ",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -3133,10 +3222,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "● LIVE",
+              "text": "🕐 Sắp",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#ff4444"
+              "text_color": "#aaaaaa"
             }
           ],
           "sources": [
@@ -3184,7 +3273,7 @@
             "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6lFhtByDgniMCnXTohABIGM87XrPpBZEKQQ&s",
             "time": "19:00 23/06",
             "blv": "BLV Cầy",
-            "is_live": true,
+            "is_live": false,
             "cate_type": "basketball"
           },
           "image": {
@@ -3427,8 +3516,8 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "gv-b454b3cf44",
-          "name": "Indonesia  vs Thailand | 19:30 23/06",
+          "id": "gv-8856e33dc0",
+          "name": "Đài Loan TQ  vs Kazakhstan | 16:30 23/06",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -3442,23 +3531,23 @@
           ],
           "sources": [
             {
-              "id": "src-b454b3cf44",
+              "id": "src-8856e33dc0",
               "name": "GiovangTV",
               "contents": [
                 {
-                  "id": "ct-b454b3cf44",
-                  "name": "Indonesia  vs Thailand",
+                  "id": "ct-8856e33dc0",
+                  "name": "Đài Loan TQ  vs Kazakhstan",
                   "streams": [
                     {
-                      "id": "st-b454b3cf44",
+                      "id": "st-8856e33dc0",
                       "name": "GV",
                       "stream_links": [
                         {
-                          "id": "lnk-aa89752058",
+                          "id": "lnk-3f67fdcc2a",
                           "name": "Link HD 720p",
                           "type": "hls",
                           "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1782197342_hd/1782197342_hd@720p.m3u8",
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1782197320_hd/1782197320_hd@720p.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -3475,16 +3564,51 @@
                   ]
                 }
               ]
+            },
+            {
+              "id": "src-5ff407607b",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-5ff407607b",
+                  "name": "Đài Loan vs Kazakhstan",
+                  "streams": [
+                    {
+                      "id": "st-5ff407607b",
+                      "name": "Hoiquan - BLV PHAN BỐNG",
+                      "stream_links": [
+                        {
+                          "id": "lnk-6568b58b01",
+                          "name": "BLV PHAN BỐNG",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanbong/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
             }
           ],
           "org_metadata": {
             "league": "AVC Nations Cup",
-            "team_a": "Indonesia ",
-            "team_b": "Thailand",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/9/9f/Flag_of_Indonesia.svg",
-            "logo_b": "https://static.flashscore.com/res/image/data/pWVxGjFa-zLx3xGjj.png",
-            "time": "19:30 23/06",
-            "blv": "blv-tri",
+            "team_a": "Đài Loan TQ ",
+            "team_b": "Kazakhstan",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Flag_of_the_Republic_of_China.svg/1280px-Flag_of_the_Republic_of_China.svg.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/hMQTrXVg-Cfuwb3yH.png",
+            "time": "16:30 23/06",
+            "blv": "BLV Dần",
             "is_live": true,
             "cate_type": "bongchuyen"
           },
@@ -3492,7 +3616,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-b454b3cf44_881d59f4_20260623.png?v=881d59f4",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-8856e33dc0_56ca1b9a_20260623.png?v=56ca1b9a",
             "width": 1600,
             "height": 1200
           }
@@ -3853,8 +3977,8 @@
           }
         },
         {
-          "id": "gv-8856e33dc0",
-          "name": "Đài Loan TQ  vs Kazakhstan | 16:30 23/06",
+          "id": "gv-b454b3cf44",
+          "name": "Indonesia  vs Thailand | 19:30 23/06",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -3868,23 +3992,23 @@
           ],
           "sources": [
             {
-              "id": "src-8856e33dc0",
+              "id": "src-b454b3cf44",
               "name": "GiovangTV",
               "contents": [
                 {
-                  "id": "ct-8856e33dc0",
-                  "name": "Đài Loan TQ  vs Kazakhstan",
+                  "id": "ct-b454b3cf44",
+                  "name": "Indonesia  vs Thailand",
                   "streams": [
                     {
-                      "id": "st-8856e33dc0",
+                      "id": "st-b454b3cf44",
                       "name": "GV",
                       "stream_links": [
                         {
-                          "id": "lnk-3f67fdcc2a",
+                          "id": "lnk-aa89752058",
                           "name": "Link HD 720p",
                           "type": "hls",
                           "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1782197320_hd/1782197320_hd@720p.m3u8",
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1782197342_hd/1782197342_hd@720p.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -3905,12 +4029,12 @@
           ],
           "org_metadata": {
             "league": "AVC Nations Cup",
-            "team_a": "Đài Loan TQ ",
-            "team_b": "Kazakhstan",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Flag_of_the_Republic_of_China.svg/1280px-Flag_of_the_Republic_of_China.svg.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/hMQTrXVg-Cfuwb3yH.png",
-            "time": "16:30 23/06",
-            "blv": "BLV Dần",
+            "team_a": "Indonesia ",
+            "team_b": "Thailand",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/9/9f/Flag_of_Indonesia.svg",
+            "logo_b": "https://static.flashscore.com/res/image/data/pWVxGjFa-zLx3xGjj.png",
+            "time": "19:30 23/06",
+            "blv": "blv-tri",
             "is_live": false,
             "cate_type": "bongchuyen"
           },
@@ -3918,7 +4042,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-8856e33dc0_56ca1b9a_20260623.png?v=56ca1b9a",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-b454b3cf44_881d59f4_20260623.png?v=881d59f4",
             "width": 1600,
             "height": 1200
           }
