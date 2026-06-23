@@ -799,11 +799,117 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (1 LIVE)",
+      "name": "⚽ Bóng Đá (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "gv-a41f01ae67",
+          "name": "KuPS  vs Ilves | 22:00 23/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-a41f01ae67",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-a41f01ae67",
+                  "name": "KuPS  vs Ilves",
+                  "streams": [
+                    {
+                      "id": "st-a41f01ae67",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-a1e155d915",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1782049839_hd/1782049839_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-4f3cc03380",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-4f3cc03380",
+                  "name": "KuPS vs Ilves",
+                  "streams": [
+                    {
+                      "id": "st-4f3cc03380",
+                      "name": "Hoiquan - BLV PHAN BÁCH",
+                      "stream_links": [
+                        {
+                          "id": "lnk-eae8482cb7",
+                          "name": "BLV PHAN BÁCH",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanchuot/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "VĐQG Phần Lan (Trận đinh)",
+            "team_a": "KuPS ",
+            "team_b": "Ilves",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/en/thumb/b/bd/KuPS_logo.svg/960px-KuPS_logo.svg.png",
+            "logo_b": "https://i.pinimg.com/736x/65/88/f2/6588f24ae01cd3d4939e2bffa762d81d.jpg",
+            "time": "22:00 23/06",
+            "blv": "blv Mù",
+            "is_live": true,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-a41f01ae67_843e4c8c_20260623.png?v=843e4c8c",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "xc-1b13ebf0d4",
           "name": "FK Hromtau vs FC Khan Tengri | 20:00 23/06",
@@ -876,6 +982,117 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/xaycon-stream/refs/heads/main/thumbs/xc-1b13ebf0d4_48245e31_20260623.png?v=48245e31",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-309cd1c395",
+          "name": "Lahti vs Turku PS | 22:00 23/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-309cd1c395",
+              "name": "XayConTV",
+              "contents": [
+                {
+                  "id": "ct-309cd1c395",
+                  "name": "Lahti vs Turku PS",
+                  "streams": [
+                    {
+                      "id": "st-309cd1c395",
+                      "name": "XC",
+                      "stream_links": [
+                        {
+                          "id": "lnk-30319ba8f3",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://xclive.yarncdn.live/live/xctv_blv_bipcon/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.xaycon3.live/"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://sv2.xaycon3.live"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-78289d91e9",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-78289d91e9",
+                  "name": "Lahti vs Turku PS",
+                  "streams": [
+                    {
+                      "id": "st-78289d91e9",
+                      "name": "Bugio - BLV Mao Từn",
+                      "stream_links": [
+                        {
+                          "id": "lnk-51a73d71ba",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_mason/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Veikkausliiga",
+            "team_a": "Lahti",
+            "team_b": "Turku PS",
+            "logo_a": "https://media.api-sports.io/football/teams/1166.png",
+            "logo_b": "https://media.api-sports.io/football/teams/1168.png",
+            "time": "22:00",
+            "date": "23/06",
+            "blv": "BLV Bịp Con",
+            "is_live": true,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/xaycon-stream/refs/heads/main/thumbs/xc-309cd1c395_ea93e521_20260623.png?v=ea93e521",
             "width": 1600,
             "height": 1200
           }
@@ -1018,77 +1235,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-c6c8c3de70_3655715f_20260623.png?v=3655715f",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-a41f01ae67",
-          "name": "KuPS  vs Ilves | 22:00 23/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-a41f01ae67",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-a41f01ae67",
-                  "name": "KuPS  vs Ilves",
-                  "streams": [
-                    {
-                      "id": "st-a41f01ae67",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-a1e155d915",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1782049839_hd/1782049839_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "VĐQG Phần Lan (Trận đinh)",
-            "team_a": "KuPS ",
-            "team_b": "Ilves",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/en/thumb/b/bd/KuPS_logo.svg/960px-KuPS_logo.svg.png",
-            "logo_b": "https://i.pinimg.com/736x/65/88/f2/6588f24ae01cd3d4939e2bffa762d81d.jpg",
-            "time": "22:00 23/06",
-            "blv": "blv Mù",
-            "is_live": false,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-a41f01ae67_843e4c8c_20260623.png?v=843e4c8c",
             "width": 1600,
             "height": 1200
           }
@@ -3567,117 +3713,6 @@
           }
         },
         {
-          "id": "xc-309cd1c395",
-          "name": "Lahti vs Turku PS | 22:00 23/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-309cd1c395",
-              "name": "XayConTV",
-              "contents": [
-                {
-                  "id": "ct-309cd1c395",
-                  "name": "Lahti vs Turku PS",
-                  "streams": [
-                    {
-                      "id": "st-309cd1c395",
-                      "name": "XC",
-                      "stream_links": [
-                        {
-                          "id": "lnk-30319ba8f3",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://xclive.yarncdn.live/live/xctv_blv_bipcon/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.xaycon3.live/"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://sv2.xaycon3.live"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "src-78289d91e9",
-              "name": "BugioTV",
-              "contents": [
-                {
-                  "id": "ct-78289d91e9",
-                  "name": "Lahti vs Turku PS",
-                  "streams": [
-                    {
-                      "id": "st-78289d91e9",
-                      "name": "Bugio - BLV Mao Từn",
-                      "stream_links": [
-                        {
-                          "id": "lnk-51a73d71ba",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_mason/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv1.bugio9.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Veikkausliiga",
-            "team_a": "Lahti",
-            "team_b": "Turku PS",
-            "logo_a": "https://media.api-sports.io/football/teams/1166.png",
-            "logo_b": "https://media.api-sports.io/football/teams/1168.png",
-            "time": "22:00",
-            "date": "23/06",
-            "blv": "BLV Bịp Con",
-            "is_live": false,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/xaycon-stream/refs/heads/main/thumbs/xc-309cd1c395_ea93e521_20260623.png?v=ea93e521",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "xc-ee2b826296",
           "name": "Šiauliai vs Džiugas Telšiai | 22:00 24/06",
           "type": "single",
@@ -3849,82 +3884,11 @@
     },
     {
       "id": "grp-bóng-rổ",
-      "name": "🏀 Bóng Rổ (1 LIVE)",
+      "name": "🏀 Bóng Rổ",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-1a7fb485cf",
-          "name": "Paranaque Patriots  vs IIagan Isabela Cowboys | 19:00 23/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-1a7fb485cf",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-1a7fb485cf",
-                  "name": "Paranaque Patriots  vs IIagan Isabela Cowboys",
-                  "streams": [
-                    {
-                      "id": "st-1a7fb485cf",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-faf8eb2d14",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1782049184_hd/1782049184_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "MPBL",
-            "team_a": "Paranaque Patriots ",
-            "team_b": "IIagan Isabela Cowboys",
-            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcPzXSHhNcXAoNqoawKvQuUNb-KAswFmgRDw&s",
-            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6lFhtByDgniMCnXTohABIGM87XrPpBZEKQQ&s",
-            "time": "19:00 23/06",
-            "blv": "BLV Cầy",
-            "is_live": true,
-            "cate_type": "basketball"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-1a7fb485cf_a982d47e_20260623.png?v=a982d47e",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-f2945c310b",
           "name": "Quezon City  vs Bataan Risers | 15:00 24/06",
