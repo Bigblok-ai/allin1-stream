@@ -3494,11 +3494,117 @@
     },
     {
       "id": "grp-bóng-chuyền",
-      "name": "🏐 Bóng Chuyền (5 LIVE)",
+      "name": "🏐 Bóng Chuyền (6 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "gv-847ee24a7d",
+          "name": "Việt Nam  vs Philippines | 16:00 24/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-847ee24a7d",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-847ee24a7d",
+                  "name": "Việt Nam  vs Philippines",
+                  "streams": [
+                    {
+                      "id": "st-847ee24a7d",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-661a665af0",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1782286401_hd/1782286401_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-c90070e1f0",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-c90070e1f0",
+                  "name": "U18 Việt Nam vs U18 Philippines",
+                  "streams": [
+                    {
+                      "id": "st-c90070e1f0",
+                      "name": "Bugio - BLV Chim Nhỏ",
+                      "stream_links": [
+                        {
+                          "id": "lnk-378f040fcb",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_cuccu/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "U18 ASEAN",
+            "team_a": "Việt Nam ",
+            "team_b": "Philippines",
+            "logo_a": "https://static.flashscore.com/res/image/data/nsORfhdM-AeUnl0mG.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/EencY5Yg-U58fIz8F.png",
+            "time": "16:00 24/06",
+            "blv": "blv-tri",
+            "is_live": true,
+            "cate_type": "bongchuyen"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-847ee24a7d_716321a2_20260624.png?v=716321a2",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "bg-5553cfaf75",
           "name": "China - Turkey | 18:00 24/06",
@@ -3850,112 +3956,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-770f8e448d_441072f6_20260624.png?v=441072f6",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-847ee24a7d",
-          "name": "Việt Nam  vs Philippines | 16:00 24/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-847ee24a7d",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-847ee24a7d",
-                  "name": "Việt Nam  vs Philippines",
-                  "streams": [
-                    {
-                      "id": "st-847ee24a7d",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-661a665af0",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1782286401_hd/1782286401_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "src-c90070e1f0",
-              "name": "BugioTV",
-              "contents": [
-                {
-                  "id": "ct-c90070e1f0",
-                  "name": "U18 Việt Nam vs U18 Philippines",
-                  "streams": [
-                    {
-                      "id": "st-c90070e1f0",
-                      "name": "Bugio - BLV Chim Nhỏ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-378f040fcb",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_cuccu/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv1.bugio9.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "U18 ASEAN",
-            "team_a": "Việt Nam ",
-            "team_b": "Philippines",
-            "logo_a": "https://static.flashscore.com/res/image/data/nsORfhdM-AeUnl0mG.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/EencY5Yg-U58fIz8F.png",
-            "time": "16:00 24/06",
-            "blv": "blv-tri",
-            "is_live": false,
-            "cate_type": "bongchuyen"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-847ee24a7d_716321a2_20260624.png?v=716321a2",
             "width": 1600,
             "height": 1200
           }
