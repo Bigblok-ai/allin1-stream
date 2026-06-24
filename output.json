@@ -799,7 +799,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (4 LIVE)",
+      "name": "⚽ Bóng Đá (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -906,77 +906,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Shenzhen 2028_Langfang Glory City_18-30 24-06_b8d6d832_20260624.png?v=b8d6d832",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "hqlive-d0f6d79dcf",
-          "name": "Zhenis Astana vs Kaisar Kyzylorda | 20:00 24/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-d0f6d79dcf",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-d0f6d79dcf",
-                  "name": "Zhenis Astana vs Kaisar Kyzylorda",
-                  "streams": [
-                    {
-                      "id": "st-d0f6d79dcf",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-1cad2e4412",
-                          "name": "BLV TÁO GIÀ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://tdlive.yarncdn.live/live/tdtv_blv_taotinhtao/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Ngoại hạng Kazakhstan",
-            "team_a": "Zhenis Astana",
-            "team_b": "Kaisar Kyzylorda",
-            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSk5rt8vVH1GBoc6UFus5b0NMO-AfLS7DCt0lVgClAZEQ&s=10",
-            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZTtg54WiTJkS7einJZGMUhkb6HUvmIl3WkLZ3fMV01g&s=10",
-            "time": "20:00 24/06",
-            "blv": "BLV TÁO GIÀ",
-            "is_live": true,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Zhenis Astana_Kaisar Kyzylorda_20-00 24-06_784e02e6_20260624.png?v=784e02e6",
             "width": 1600,
             "height": 1200
           }
@@ -1565,6 +1494,76 @@
                   ]
                 }
               ]
+            },
+            {
+              "id": "src-c6943e764b",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-c6943e764b",
+                  "name": "Bosnia & Herzegovina vs Qatar",
+                  "streams": [
+                    {
+                      "id": "st-c6943e764b",
+                      "name": "Bugio - BLV Mao Từn",
+                      "stream_links": [
+                        {
+                          "id": "lnk-51a73d71ba",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_mason/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-04da4aea8e",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-04da4aea8e",
+                  "name": "Bosnia & Herzegovina vs Qatar",
+                  "streams": [
+                    {
+                      "id": "st-04da4aea8e",
+                      "name": "Bugio - BLV Chim Nhỏ",
+                      "stream_links": [
+                        {
+                          "id": "lnk-378f040fcb",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_cuccu/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
             }
           ],
           "org_metadata": {
@@ -1723,6 +1722,76 @@
                             {
                               "key": "Origin",
                               "value": "https://sv2.xaycon3.live"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-cc638784cf",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-cc638784cf",
+                  "name": "Switzerland vs Canada",
+                  "streams": [
+                    {
+                      "id": "st-cc638784cf",
+                      "name": "Bugio - BLV Tiểu Trà Đá",
+                      "stream_links": [
+                        {
+                          "id": "lnk-0ba3f9d037",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_trada/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-6332a8f62e",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-6332a8f62e",
+                  "name": "Switzerland vs Canada",
+                  "streams": [
+                    {
+                      "id": "st-6332a8f62e",
+                      "name": "Bugio - BLV Max",
+                      "stream_links": [
+                        {
+                          "id": "lnk-ad68922ab2",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_max/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
                             },
                             {
                               "key": "User-Agent",
