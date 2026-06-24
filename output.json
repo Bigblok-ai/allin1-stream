@@ -799,7 +799,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (1 LIVE)",
+      "name": "⚽ Bóng Đá (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -876,6 +876,82 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/xaycon-stream/refs/heads/main/thumbs/xc-7704baaa88_e15bc3f5_20260624.png?v=e15bc3f5",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-b21c193982",
+          "name": "Šiauliai vs Džiugas Telšiai | 22:00 24/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-b21c193982",
+              "name": "XayConTV",
+              "contents": [
+                {
+                  "id": "ct-b21c193982",
+                  "name": "Šiauliai vs Džiugas Telšiai",
+                  "streams": [
+                    {
+                      "id": "st-b21c193982",
+                      "name": "XC",
+                      "stream_links": [
+                        {
+                          "id": "lnk-30319ba8f3",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://xclive.yarncdn.live/live/xctv_blv_bipcon/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.xaycon3.live/"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://sv2.xaycon3.live"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Cup",
+            "team_a": "Šiauliai",
+            "team_b": "Džiugas Telšiai",
+            "logo_a": "https://media.api-sports.io/football/teams/3870.png",
+            "logo_b": "https://media.api-sports.io/football/teams/3860.png",
+            "time": "22:00",
+            "date": "24/06",
+            "blv": "BLV Bịp Con",
+            "is_live": true,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/xaycon-stream/refs/heads/main/thumbs/xc-b21c193982_32145e06_20260624.png?v=32145e06",
             "width": 1600,
             "height": 1200
           }
@@ -2035,8 +2111,8 @@
           }
         },
         {
-          "id": "hqlive-2a64892b4c",
-          "name": "Miami FC vs Orange County SC | 06:00 25/06",
+          "id": "gv-9e6acd915e",
+          "name": "Charleston Battery vs Loudoun United | 06:00 25/06",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -2050,17 +2126,35 @@
           ],
           "sources": [
             {
-              "id": "src-2a64892b4c",
-              "name": "HoiQuanTV",
+              "id": "src-9e6acd915e",
+              "name": "GiovangTV",
               "contents": [
                 {
-                  "id": "ct-2a64892b4c",
-                  "name": "Miami FC vs Orange County SC",
+                  "id": "ct-9e6acd915e",
+                  "name": "Charleston Battery vs Loudoun United",
                   "streams": [
                     {
-                      "id": "st-2a64892b4c",
-                      "name": "HQ",
-                      "stream_links": []
+                      "id": "st-9e6acd915e",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-2eb404e6de",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1782311647_hd/1782311647_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -2068,21 +2162,92 @@
             }
           ],
           "org_metadata": {
-            "league": "USL Championship",
-            "team_a": "Miami FC",
-            "team_b": "Orange County SC",
-            "logo_a": "https://media.api-sports.io/football/teams/9030.png",
-            "logo_b": "https://media.api-sports.io/football/teams/4007.png",
+            "league": "USL Championship Mỹ",
+            "team_a": "Charleston Battery",
+            "team_b": "Loudoun United",
+            "logo_a": "https://images.keovip88.net/images/teams/charleston-battery.png",
+            "logo_b": "https://images.keovip88.net/images/teams/loudoun-united.png",
             "time": "06:00 25/06",
-            "blv": "BLV PHAN CA",
+            "blv": "blv-ngong",
             "is_live": false,
-            "sport_slug": "bong-da"
+            "cate_type": "football"
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Miami FC_Orange County SC_06-00 25-06_d4b6f2a6_20260624.png?v=d4b6f2a6",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-9e6acd915e_48de842b_20260624.png?v=48de842b",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-134acc0faa",
+          "name": "Miami FC vs Orange County Blues FC | 06:00 25/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-134acc0faa",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-134acc0faa",
+                  "name": "Miami FC vs Orange County Blues FC",
+                  "streams": [
+                    {
+                      "id": "st-134acc0faa",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-fcb1f8c102",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1782311680_hd/1782311680_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "USL Championship Mỹ",
+            "team_a": "Miami FC",
+            "team_b": "Orange County Blues FC",
+            "logo_a": "https://images.keovip88.net/images/teams/miami-fc.png",
+            "logo_b": "https://images.keovip88.net/images/teams/orange-county-blues-fc.png",
+            "time": "06:00 25/06",
+            "blv": "BLV Dần",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-134acc0faa_7b3729d0_20260624.png?v=7b3729d0",
             "width": 1600,
             "height": 1200
           }
@@ -3433,82 +3598,6 @@
           }
         },
         {
-          "id": "xc-b21c193982",
-          "name": "Šiauliai vs Džiugas Telšiai | 22:00 24/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-b21c193982",
-              "name": "XayConTV",
-              "contents": [
-                {
-                  "id": "ct-b21c193982",
-                  "name": "Šiauliai vs Džiugas Telšiai",
-                  "streams": [
-                    {
-                      "id": "st-b21c193982",
-                      "name": "XC",
-                      "stream_links": [
-                        {
-                          "id": "lnk-30319ba8f3",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://xclive.yarncdn.live/live/xctv_blv_bipcon/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.xaycon3.live/"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://sv2.xaycon3.live"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Cup",
-            "team_a": "Šiauliai",
-            "team_b": "Džiugas Telšiai",
-            "logo_a": "https://media.api-sports.io/football/teams/3870.png",
-            "logo_b": "https://media.api-sports.io/football/teams/3860.png",
-            "time": "22:00",
-            "date": "24/06",
-            "blv": "BLV Bịp Con",
-            "is_live": false,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/xaycon-stream/refs/heads/main/thumbs/xc-b21c193982_32145e06_20260624.png?v=32145e06",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "xc-21d2febccf",
           "name": "BFC Daugavpils vs Riga | 22:00 25/06",
           "type": "single",
@@ -4118,7 +4207,7 @@
     },
     {
       "id": "grp-bóng-chuyền",
-      "name": "🏐 Bóng Chuyền (6 LIVE)",
+      "name": "🏐 Bóng Chuyền (8 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -4336,6 +4425,112 @@
           }
         },
         {
+          "id": "gv-325333f2df",
+          "name": "Cuba  vs USA | 22:00 24/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-325333f2df",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-325333f2df",
+                  "name": "Cuba  vs USA",
+                  "streams": [
+                    {
+                      "id": "st-325333f2df",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-68cf8ae9d6",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1782286695_hd/1782286695_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-95e62984b8",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-95e62984b8",
+                  "name": "Cuba - USA",
+                  "streams": [
+                    {
+                      "id": "st-95e62984b8",
+                      "name": "Bugio - BLV Tiểu Mèo",
+                      "stream_links": [
+                        {
+                          "id": "lnk-21936c1c94",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_tieumeo/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Nations League",
+            "team_a": "Cuba ",
+            "team_b": "USA",
+            "logo_a": "https://assets.fiba.basketball/image/upload/d_.logoflag--dark--organisation_45.webp/w_400/f_auto/q_auto/.logoflag--dark--organisation_45--competition_208755?buster=20628",
+            "logo_b": "https://assets.fiba.basketball/image/upload/d_.logoflag--dark--organisation_154.webp/w_400/f_auto/q_auto/.logoflag--dark--organisation_154--competition_208755?buster=20628",
+            "time": "22:00 24/06",
+            "blv": "BLV Dory",
+            "is_live": true,
+            "cate_type": "bongchuyen"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-325333f2df_ce908a66_20260624.png?v=ce908a66",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "hqlive-37e4fb2c4c",
           "name": "Ukraina vs Brazil | 21:30 24/06",
           "type": "single",
@@ -4402,6 +4597,77 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Ukraina_Brazil_21-30 24-06_f030f3cc_20260624.png?v=f030f3cc",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-e86f72e70b",
+          "name": "Cuba vs Mỹ | 22:00 24/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-e86f72e70b",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-e86f72e70b",
+                  "name": "Cuba vs Mỹ",
+                  "streams": [
+                    {
+                      "id": "st-e86f72e70b",
+                      "name": "HQ",
+                      "stream_links": [
+                        {
+                          "id": "lnk-b3ac35be40",
+                          "name": "BLV PHAN CHỚP",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanchop/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Nation League Men",
+            "team_a": "Cuba",
+            "team_b": "Mỹ",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/b/bd/Flag_of_Cuba.svg",
+            "logo_b": "https://www.englisch-hilfen.de/images/flags/248.gif",
+            "time": "22:00 24/06",
+            "blv": "BLV PHAN CHỚP",
+            "is_live": true,
+            "sport_slug": "bong-chuyen"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Cuba_Mỹ_22-00 24-06_e0f1025e_20260624.png?v=e0f1025e",
             "width": 1600,
             "height": 1200
           }
@@ -4615,165 +4881,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-770f8e448d_441072f6_20260624.png?v=441072f6",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-325333f2df",
-          "name": "Cuba  vs USA | 22:00 24/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-325333f2df",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-325333f2df",
-                  "name": "Cuba  vs USA",
-                  "streams": [
-                    {
-                      "id": "st-325333f2df",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-68cf8ae9d6",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1782286695_hd/1782286695_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "src-95e62984b8",
-              "name": "BugioTV",
-              "contents": [
-                {
-                  "id": "ct-95e62984b8",
-                  "name": "Cuba - USA",
-                  "streams": [
-                    {
-                      "id": "st-95e62984b8",
-                      "name": "Bugio - BLV Tiểu Mèo",
-                      "stream_links": [
-                        {
-                          "id": "lnk-21936c1c94",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_tieumeo/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv1.bugio9.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Nations League",
-            "team_a": "Cuba ",
-            "team_b": "USA",
-            "logo_a": "https://assets.fiba.basketball/image/upload/d_.logoflag--dark--organisation_45.webp/w_400/f_auto/q_auto/.logoflag--dark--organisation_45--competition_208755?buster=20628",
-            "logo_b": "https://assets.fiba.basketball/image/upload/d_.logoflag--dark--organisation_154.webp/w_400/f_auto/q_auto/.logoflag--dark--organisation_154--competition_208755?buster=20628",
-            "time": "22:00 24/06",
-            "blv": "BLV Dory",
-            "is_live": false,
-            "cate_type": "bongchuyen"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-325333f2df_ce908a66_20260624.png?v=ce908a66",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "hqlive-e86f72e70b",
-          "name": "Cuba vs Mỹ | 22:00 24/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-e86f72e70b",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-e86f72e70b",
-                  "name": "Cuba vs Mỹ",
-                  "streams": [
-                    {
-                      "id": "st-e86f72e70b",
-                      "name": "HQ",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Nation League Men",
-            "team_a": "Cuba",
-            "team_b": "Mỹ",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/b/bd/Flag_of_Cuba.svg",
-            "logo_b": "https://www.englisch-hilfen.de/images/flags/248.gif",
-            "time": "22:00 24/06",
-            "blv": "BLV PHAN CHỚP",
-            "is_live": false,
-            "sport_slug": "bong-chuyen"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Cuba_Mỹ_22-00 24-06_e0f1025e_20260624.png?v=e0f1025e",
             "width": 1600,
             "height": 1200
           }
