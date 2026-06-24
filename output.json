@@ -799,7 +799,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -876,6 +876,77 @@
           }
         },
         {
+          "id": "gv-cb098c701a",
+          "name": "Gold Coast Nữ vs FQ Academy QAS Nữ | 16:30 24/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-cb098c701a",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-cb098c701a",
+                  "name": "Gold Coast Nữ vs FQ Academy QAS Nữ",
+                  "streams": [
+                    {
+                      "id": "st-cb098c701a",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-7739e6d64d",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1782231281_hd/1782231281_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "AUS - NPL Queensland W",
+            "team_a": "Gold Coast Nữ",
+            "team_b": "FQ Academy QAS Nữ",
+            "logo_a": "https://static.flashscore.com/res/image/data/YP1rmlf5-YVAFnuZJ.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/8SNy0Zhl-v30hppyA.png",
+            "time": "16:30 24/06",
+            "blv": "BLV Dần",
+            "is_live": true,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-cb098c701a_e8781643_20260624.png?v=e8781643",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "hqlive-31ab7f6be7",
           "name": "Deren vs Central Stallions | 15:00 24/06",
           "type": "single",
@@ -942,77 +1013,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Deren_Central Stallions_15-00 24-06_1f47b7db_20260624.png?v=1f47b7db",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-cb098c701a",
-          "name": "Gold Coast Nữ vs FQ Academy QAS Nữ | 16:30 24/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-cb098c701a",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-cb098c701a",
-                  "name": "Gold Coast Nữ vs FQ Academy QAS Nữ",
-                  "streams": [
-                    {
-                      "id": "st-cb098c701a",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-7739e6d64d",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1782231281_hd/1782231281_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "AUS - NPL Queensland W",
-            "team_a": "Gold Coast Nữ",
-            "team_b": "FQ Academy QAS Nữ",
-            "logo_a": "https://static.flashscore.com/res/image/data/YP1rmlf5-YVAFnuZJ.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/8SNy0Zhl-v30hppyA.png",
-            "time": "16:30 24/06",
-            "blv": "BLV Dần",
-            "is_live": false,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-cb098c701a_e8781643_20260624.png?v=e8781643",
             "width": 1600,
             "height": 1200
           }
@@ -2405,6 +2405,45 @@
                   ]
                 }
               ]
+            },
+            {
+              "id": "src-bce5b06d90",
+              "name": "XayConTV",
+              "contents": [
+                {
+                  "id": "ct-bce5b06d90",
+                  "name": "Czechia vs Mexico",
+                  "streams": [
+                    {
+                      "id": "st-bce5b06d90",
+                      "name": "Xaycon - BLV Phong Vân",
+                      "stream_links": [
+                        {
+                          "id": "lnk-0fa0d01abf",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://xclive.yarncdn.live/live/xctv_blv_vanca/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.xaycon3.live/"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://sv2.xaycon3.live"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
             }
           ],
           "org_metadata": {
@@ -2554,6 +2593,503 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/South Africa_South Korea_08-00 25-06_305fe070_20260624.png?v=305fe070",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-f15d5d857a",
+          "name": "Super Nova vs FS Jelgava | 00:00 26/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-f15d5d857a",
+              "name": "XayConTV",
+              "contents": [
+                {
+                  "id": "ct-f15d5d857a",
+                  "name": "Super Nova vs FS Jelgava",
+                  "streams": [
+                    {
+                      "id": "st-f15d5d857a",
+                      "name": "XC",
+                      "stream_links": [
+                        {
+                          "id": "lnk-30319ba8f3",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://xclive.yarncdn.live/live/xctv_blv_bipcon/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.xaycon3.live/"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://sv2.xaycon3.live"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Virsliga",
+            "team_a": "Super Nova",
+            "team_b": "FS Jelgava",
+            "logo_a": "https://media.api-sports.io/football/teams/4143.png",
+            "logo_b": "https://media.api-sports.io/football/teams/18834.png",
+            "time": "00:00",
+            "date": "26/06",
+            "blv": "BLV Bịp Con",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/xaycon-stream/refs/heads/main/thumbs/xc-f15d5d857a_e2b92e77_20260624.png?v=e2b92e77",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-c985957a11",
+          "name": "Ecuador vs Germany | 03:00 26/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-c985957a11",
+              "name": "XayConTV",
+              "contents": [
+                {
+                  "id": "ct-c985957a11",
+                  "name": "Ecuador vs Germany",
+                  "streams": [
+                    {
+                      "id": "st-c985957a11",
+                      "name": "XC",
+                      "stream_links": [
+                        {
+                          "id": "lnk-30319ba8f3",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://xclive.yarncdn.live/live/xctv_blv_bipcon/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.xaycon3.live/"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://sv2.xaycon3.live"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-c0925f7840",
+              "name": "XayConTV",
+              "contents": [
+                {
+                  "id": "ct-c0925f7840",
+                  "name": "Ecuador vs Germany",
+                  "streams": [
+                    {
+                      "id": "st-c0925f7840",
+                      "name": "Xaycon - BLV Thợ Lặn",
+                      "stream_links": [
+                        {
+                          "id": "lnk-fa5c7698a5",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://xclive.yarncdn.live/live/xctv_blv_tholan/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.xaycon3.live/"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://sv2.xaycon3.live"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "World Cup",
+            "team_a": "Ecuador",
+            "team_b": "Germany",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Flag_of_Ecuador.svg/250px-Flag_of_Ecuador.svg.png",
+            "logo_b": "https://media.api-sports.io/football/teams/25.png",
+            "time": "03:00",
+            "date": "26/06",
+            "blv": "BLV Bịp Con",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/xaycon-stream/refs/heads/main/thumbs/xc-c985957a11_48bef3dd_20260624.png?v=48bef3dd",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-300784e691",
+          "name": "Curaçao vs Ivory Coast | 03:00 26/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-300784e691",
+              "name": "XayConTV",
+              "contents": [
+                {
+                  "id": "ct-300784e691",
+                  "name": "Curaçao vs Ivory Coast",
+                  "streams": [
+                    {
+                      "id": "st-300784e691",
+                      "name": "XC",
+                      "stream_links": [
+                        {
+                          "id": "lnk-bccd486b79",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://xclive.yarncdn.live/live/xctv_blv_tammao/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.xaycon3.live/"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://sv2.xaycon3.live"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "World Cup",
+            "team_a": "Curaçao",
+            "team_b": "Ivory Coast",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Flag_of_Cura%C3%A7ao.svg/250px-Flag_of_Cura%C3%A7ao.svg.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Flag_of_C%C3%B4te_d%27Ivoire.svg/1280px-Flag_of_C%C3%B4te_d%27Ivoire.svg.png",
+            "time": "03:00",
+            "date": "26/06",
+            "blv": "BLV Tam Mao",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/xaycon-stream/refs/heads/main/thumbs/xc-300784e691_c8413bed_20260624.png?v=c8413bed",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-a5737255e8",
+          "name": "Tunisia vs Netherlands | 06:00 26/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-a5737255e8",
+              "name": "XayConTV",
+              "contents": [
+                {
+                  "id": "ct-a5737255e8",
+                  "name": "Tunisia vs Netherlands",
+                  "streams": [
+                    {
+                      "id": "st-a5737255e8",
+                      "name": "XC",
+                      "stream_links": [
+                        {
+                          "id": "lnk-30319ba8f3",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://xclive.yarncdn.live/live/xctv_blv_bipcon/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.xaycon3.live/"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://sv2.xaycon3.live"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-586ba51634",
+              "name": "XayConTV",
+              "contents": [
+                {
+                  "id": "ct-586ba51634",
+                  "name": "Tunisia vs Netherlands",
+                  "streams": [
+                    {
+                      "id": "st-586ba51634",
+                      "name": "Xaycon - BLV Thợ Lặn",
+                      "stream_links": [
+                        {
+                          "id": "lnk-fa5c7698a5",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://xclive.yarncdn.live/live/xctv_blv_tholan/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.xaycon3.live/"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://sv2.xaycon3.live"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "World Cup",
+            "team_a": "Tunisia",
+            "team_b": "Netherlands",
+            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFRKDe94lyILdd32FBlUZ8MtMdraSrEXultA&s",
+            "logo_b": "https://media.api-sports.io/football/teams/1118.png",
+            "time": "06:00",
+            "date": "26/06",
+            "blv": "BLV Bịp Con",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/xaycon-stream/refs/heads/main/thumbs/xc-a5737255e8_34c3d908_20260624.png?v=34c3d908",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-36a565fe70",
+          "name": "Japan vs Sweden | 06:00 26/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-36a565fe70",
+              "name": "XayConTV",
+              "contents": [
+                {
+                  "id": "ct-36a565fe70",
+                  "name": "Japan vs Sweden",
+                  "streams": [
+                    {
+                      "id": "st-36a565fe70",
+                      "name": "XC",
+                      "stream_links": [
+                        {
+                          "id": "lnk-bccd486b79",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://xclive.yarncdn.live/live/xctv_blv_tammao/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.xaycon3.live/"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://sv2.xaycon3.live"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-a68c79d0a8",
+              "name": "XayConTV",
+              "contents": [
+                {
+                  "id": "ct-a68c79d0a8",
+                  "name": "Japan vs Sweden",
+                  "streams": [
+                    {
+                      "id": "st-a68c79d0a8",
+                      "name": "Xaycon - BLV Rồng Đất",
+                      "stream_links": [
+                        {
+                          "id": "lnk-221ed1ffcc",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://xclive.yarncdn.live/live/xctv_blv_rongdat/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.xaycon3.live/"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://sv2.xaycon3.live"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "World Cup",
+            "team_a": "Japan",
+            "team_b": "Sweden",
+            "logo_a": "https://media.api-sports.io/football/teams/12.png",
+            "logo_b": "https://media.api-sports.io/football/teams/5.png",
+            "time": "06:00",
+            "date": "26/06",
+            "blv": "BLV Tam Mao",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/xaycon-stream/refs/heads/main/thumbs/xc-36a565fe70_4d74de12_20260624.png?v=4d74de12",
             "width": 1600,
             "height": 1200
           }
@@ -2711,6 +3247,82 @@
           }
         },
         {
+          "id": "xc-e294dd21b5",
+          "name": "Yelimay Semey 2 vs Turan Turkistan | 19:00 25/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-e294dd21b5",
+              "name": "XayConTV",
+              "contents": [
+                {
+                  "id": "ct-e294dd21b5",
+                  "name": "Yelimay Semey 2 vs Turan Turkistan",
+                  "streams": [
+                    {
+                      "id": "st-e294dd21b5",
+                      "name": "XC",
+                      "stream_links": [
+                        {
+                          "id": "lnk-ab6de9170b",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://xclive.yarncdn.live/live/xctv_blv_quanvu/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.xaycon3.live/"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://sv2.xaycon3.live"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "1. Division",
+            "team_a": "Yelimay Semey 2",
+            "team_b": "Turan Turkistan",
+            "logo_a": "https://media.api-sports.io/football/teams/27635.png",
+            "logo_b": "https://media.api-sports.io/football/teams/21502.png",
+            "time": "19:00",
+            "date": "25/06",
+            "blv": "BLV Quan Vũ",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/xaycon-stream/refs/heads/main/thumbs/xc-e294dd21b5_11827392_20260624.png?v=11827392",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "xc-45678f69ca",
           "name": "Shabab Al Sahel vs Reyady Abaseya | 20:00 24/06",
           "type": "single",
@@ -2787,6 +3399,82 @@
           }
         },
         {
+          "id": "xc-bbbe258a47",
+          "name": "Aktobe Jas vs Arys | 20:00 25/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-bbbe258a47",
+              "name": "XayConTV",
+              "contents": [
+                {
+                  "id": "ct-bbbe258a47",
+                  "name": "Aktobe Jas vs Arys",
+                  "streams": [
+                    {
+                      "id": "st-bbbe258a47",
+                      "name": "XC",
+                      "stream_links": [
+                        {
+                          "id": "lnk-0fa0d01abf",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://xclive.yarncdn.live/live/xctv_blv_vanca/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.xaycon3.live/"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://sv2.xaycon3.live"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "1. Division",
+            "team_a": "Aktobe Jas",
+            "team_b": "Arys",
+            "logo_a": "https://media.api-sports.io/football/teams/4546.png",
+            "logo_b": "https://media.api-sports.io/football/teams/10414.png",
+            "time": "20:00",
+            "date": "25/06",
+            "blv": "BLV Phong Vân",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/xaycon-stream/refs/heads/main/thumbs/xc-bbbe258a47_fccd95c9_20260624.png?v=fccd95c9",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "xc-ee2b826296",
           "name": "Šiauliai vs Džiugas Telšiai | 22:00 24/06",
           "type": "single",
@@ -2858,6 +3546,82 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/xaycon-stream/refs/heads/main/thumbs/xc-ee2b826296_32145e06_20260624.png?v=32145e06",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-21d2febccf",
+          "name": "BFC Daugavpils vs Riga | 22:00 25/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-21d2febccf",
+              "name": "XayConTV",
+              "contents": [
+                {
+                  "id": "ct-21d2febccf",
+                  "name": "BFC Daugavpils vs Riga",
+                  "streams": [
+                    {
+                      "id": "st-21d2febccf",
+                      "name": "XC",
+                      "stream_links": [
+                        {
+                          "id": "lnk-bccd486b79",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://xclive.yarncdn.live/live/xctv_blv_tammao/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.xaycon3.live/"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://sv2.xaycon3.live"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Virsliga",
+            "team_a": "BFC Daugavpils",
+            "team_b": "Riga",
+            "logo_a": "https://media.api-sports.io/football/teams/4149.png",
+            "logo_b": "https://media.api-sports.io/football/teams/10124.png",
+            "time": "22:00",
+            "date": "25/06",
+            "blv": "BLV Tam Mao",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/xaycon-stream/refs/heads/main/thumbs/xc-21d2febccf_f262d359_20260624.png?v=f262d359",
             "width": 1600,
             "height": 1200
           }
@@ -3543,8 +4307,8 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "gv-847ee24a7d",
-          "name": "Việt Nam  vs Philippines | 16:00 24/06",
+          "id": "bg-c90070e1f0",
+          "name": "U18 Việt Nam vs U18 Philippines | 16:00 24/06",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -3558,41 +4322,6 @@
           ],
           "sources": [
             {
-              "id": "src-847ee24a7d",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-847ee24a7d",
-                  "name": "Việt Nam  vs Philippines",
-                  "streams": [
-                    {
-                      "id": "st-847ee24a7d",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-661a665af0",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1782286401_hd/1782286401_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
               "id": "src-c90070e1f0",
               "name": "BugioTV",
               "contents": [
@@ -3602,7 +4331,7 @@
                   "streams": [
                     {
                       "id": "st-c90070e1f0",
-                      "name": "Bugio - BLV Chim Nhỏ",
+                      "name": "BG",
                       "stream_links": [
                         {
                           "id": "lnk-378f040fcb",
@@ -3629,13 +4358,13 @@
             }
           ],
           "org_metadata": {
-            "league": "U18 ASEAN",
-            "team_a": "Việt Nam ",
-            "team_b": "Philippines",
-            "logo_a": "https://static.flashscore.com/res/image/data/nsORfhdM-AeUnl0mG.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/EencY5Yg-U58fIz8F.png",
-            "time": "16:00 24/06",
-            "blv": "blv-tri",
+            "league": "Bóng Chuyền U18 Đông Nam Á",
+            "team_a": "U18 Việt Nam ",
+            "team_b": "U18 Philippines",
+            "logo_a": "https://ssl.gstatic.com/onebox/media/sports/logos/optimized/IUYV_ZAMxDdabQPzSpTJtg_96x96.png",
+            "logo_b": "https://ssl.gstatic.com/onebox/media/sports/logos/optimized/SMAJOAEhYfXLrR5oOCzaYg_96x96.png",
+            "start_time": "2026-06-24T16:00:00",
+            "blv": "BLV Chim Nhỏ",
             "is_live": true,
             "cate_type": "bongchuyen"
           },
@@ -3643,7 +4372,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-847ee24a7d_716321a2_20260624.png?v=716321a2",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-c90070e1f0_721a5be5_20260624.png?v=721a5be5",
             "width": 1600,
             "height": 1200
           }
