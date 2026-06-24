@@ -799,7 +799,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (3 LIVE)",
+      "name": "⚽ Bóng Đá (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1025,10 +1025,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -1043,7 +1043,25 @@
                     {
                       "id": "st-6627d4c5b7",
                       "name": "HQ",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-f6231c6549",
+                          "name": "BLV PHAN CA",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanca/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -1058,7 +1076,7 @@
             "logo_b": "https://media.api-sports.io/football/teams/10201.png",
             "time": "17:00 24/06",
             "blv": "BLV PHAN CA",
-            "is_live": false,
+            "is_live": true,
             "sport_slug": "bong-da"
           },
           "image": {
@@ -3323,7 +3341,7 @@
           }
         },
         {
-          "id": "xc-45678f69ca",
+          "id": "xc-c9c0da9434",
           "name": "Shabab Al Sahel vs Reyady Abaseya | 20:00 24/06",
           "type": "single",
           "display": "thumbnail-only",
@@ -3338,23 +3356,23 @@
           ],
           "sources": [
             {
-              "id": "src-45678f69ca",
+              "id": "src-c9c0da9434",
               "name": "XayConTV",
               "contents": [
                 {
-                  "id": "ct-45678f69ca",
+                  "id": "ct-c9c0da9434",
                   "name": "Shabab Al Sahel vs Reyady Abaseya",
                   "streams": [
                     {
-                      "id": "st-45678f69ca",
+                      "id": "st-c9c0da9434",
                       "name": "XC",
                       "stream_links": [
                         {
-                          "id": "lnk-30319ba8f3",
+                          "id": "lnk-fa5c7698a5",
                           "name": "Link FHD",
                           "type": "hls",
                           "default": true,
-                          "url": "https://xclive.yarncdn.live/live/xctv_blv_bipcon/playlist.m3u8",
+                          "url": "https://xclive.yarncdn.live/live/xctv_blv_tholan/playlist.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -3385,7 +3403,7 @@
             "logo_b": "https://media.api-sports.io/football/teams/22812.png",
             "time": "20:00",
             "date": "24/06",
-            "blv": "BLV Bịp Con",
+            "blv": "BLV Thợ Lặn",
             "is_live": false,
             "sport_slug": "bong-da"
           },
@@ -3393,7 +3411,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/xaycon-stream/refs/heads/main/thumbs/xc-45678f69ca_6cc8eb70_20260624.png?v=6cc8eb70",
+            "url": "https://raw.githubusercontent.com/jasminliu98/xaycon-stream/refs/heads/main/thumbs/xc-c9c0da9434_6cc8eb70_20260624.png?v=6cc8eb70",
             "width": 1600,
             "height": 1200
           }
@@ -3475,7 +3493,7 @@
           }
         },
         {
-          "id": "xc-ee2b826296",
+          "id": "xc-b21c193982",
           "name": "Šiauliai vs Džiugas Telšiai | 22:00 24/06",
           "type": "single",
           "display": "thumbnail-only",
@@ -3490,23 +3508,23 @@
           ],
           "sources": [
             {
-              "id": "src-ee2b826296",
+              "id": "src-b21c193982",
               "name": "XayConTV",
               "contents": [
                 {
-                  "id": "ct-ee2b826296",
+                  "id": "ct-b21c193982",
                   "name": "Šiauliai vs Džiugas Telšiai",
                   "streams": [
                     {
-                      "id": "st-ee2b826296",
+                      "id": "st-b21c193982",
                       "name": "XC",
                       "stream_links": [
                         {
-                          "id": "lnk-fa5c7698a5",
+                          "id": "lnk-30319ba8f3",
                           "name": "Link FHD",
                           "type": "hls",
                           "default": true,
-                          "url": "https://xclive.yarncdn.live/live/xctv_blv_tholan/playlist.m3u8",
+                          "url": "https://xclive.yarncdn.live/live/xctv_blv_bipcon/playlist.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -3537,7 +3555,7 @@
             "logo_b": "https://media.api-sports.io/football/teams/3860.png",
             "time": "22:00",
             "date": "24/06",
-            "blv": "BLV Thợ Lặn",
+            "blv": "BLV Bịp Con",
             "is_live": false,
             "sport_slug": "bong-da"
           },
@@ -3545,7 +3563,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/xaycon-stream/refs/heads/main/thumbs/xc-ee2b826296_32145e06_20260624.png?v=32145e06",
+            "url": "https://raw.githubusercontent.com/jasminliu98/xaycon-stream/refs/heads/main/thumbs/xc-b21c193982_32145e06_20260624.png?v=32145e06",
             "width": 1600,
             "height": 1200
           }
@@ -3646,82 +3664,11 @@
     },
     {
       "id": "grp-bóng-rổ",
-      "name": "🏀 Bóng Rổ (2 LIVE)",
+      "name": "🏀 Bóng Rổ (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-5695195e67",
-          "name": "Tauranga Whai vs Southland Sharks | 14:00 24/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-5695195e67",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-5695195e67",
-                  "name": "Tauranga Whai vs Southland Sharks",
-                  "streams": [
-                    {
-                      "id": "st-5695195e67",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-cb9fa49b61",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1782241895_hd/1782241895_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "NBL",
-            "team_a": "Tauranga Whai",
-            "team_b": "Southland Sharks",
-            "logo_a": "https://static.flashscore.com/res/image/data/Y7fbrXg5-QDgyRBqE.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/4GshORcM-rTYxXk7D.png",
-            "time": "14:00 24/06",
-            "blv": "BLV Tôm",
-            "is_live": true,
-            "cate_type": "basketball"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-5695195e67_40f670dc_20260624.png?v=40f670dc",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-84a2879106",
           "name": "Quezon City  vs Bataan Risers | 15:00 24/06",
@@ -3794,8 +3741,8 @@
           }
         },
         {
-          "id": "gv-1586c93cd4",
-          "name": "Negros Hacienderos  vs Rizal Golden Coolers | 17:00 24/06",
+          "id": "gv-2c529b00c0",
+          "name": "Negros Hacienderos vs Rizal Golden Coolers | 17:00 24/06",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -3809,41 +3756,6 @@
           ],
           "sources": [
             {
-              "id": "src-1586c93cd4",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-1586c93cd4",
-                  "name": "Negros Hacienderos  vs Rizal Golden Coolers",
-                  "streams": [
-                    {
-                      "id": "st-1586c93cd4",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-bd144556eb",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1782049327_hd/1782049327_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
               "id": "src-2c529b00c0",
               "name": "GiovangTV",
               "contents": [
@@ -3853,7 +3765,7 @@
                   "streams": [
                     {
                       "id": "st-2c529b00c0",
-                      "name": "Giovang - BLV Cầy",
+                      "name": "GV",
                       "stream_links": [
                         {
                           "id": "lnk-e7341adf93",
@@ -3881,7 +3793,7 @@
           ],
           "org_metadata": {
             "league": "MPBL",
-            "team_a": "Negros Hacienderos ",
+            "team_a": "Negros Hacienderos",
             "team_b": "Rizal Golden Coolers",
             "logo_a": "https://static.flashscore.com/res/image/data/6DfoMaZA-jLQmfqq6.png",
             "logo_b": "https://static.flashscore.com/res/image/data/lEBVWsHG-UJNQ0C5A.png",
@@ -3894,7 +3806,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-1586c93cd4_ff5ab3a4_20260624.png?v=ff5ab3a4",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-2c529b00c0_ff5ab3a4_20260624.png?v=ff5ab3a4",
             "width": 1600,
             "height": 1200
           }
