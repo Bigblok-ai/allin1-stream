@@ -799,7 +799,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -977,6 +977,211 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-6bc3b56210_3abf7f82_20260625.png?v=3abf7f82",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-009cf55f90",
+          "name": "Switzerland vs Canada | 02:00 25/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-009cf55f90",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-009cf55f90",
+                  "name": "Switzerland vs Canada",
+                  "streams": [
+                    {
+                      "id": "st-009cf55f90",
+                      "name": "HQ",
+                      "stream_links": [
+                        {
+                          "id": "lnk-c42241b387",
+                          "name": "BLV PHAN MÃ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanma/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-b0c182498f",
+                          "name": "BLV PHAN QUẨY",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanquay/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-79dcabc9bd",
+              "name": "QuechoaTV",
+              "contents": [
+                {
+                  "id": "ct-79dcabc9bd",
+                  "name": "Switzerland vs Canada",
+                  "streams": [
+                    {
+                      "id": "st-79dcabc9bd",
+                      "name": "Quechoa - PUMA, VĂN MINH",
+                      "stream_links": [
+                        {
+                          "id": "lnk-6cafe33b0c",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ahghndtkyqmm-pull.bpmedialive.com/quechoa/blv1.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://quechoa10.live/"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://quechoa10.live"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-ed752f43c3",
+              "name": "XayConTV",
+              "contents": [
+                {
+                  "id": "ct-ed752f43c3",
+                  "name": "Switzerland vs Canada",
+                  "streams": [
+                    {
+                      "id": "st-ed752f43c3",
+                      "name": "Xaycon - BLV Thợ Lặn",
+                      "stream_links": [
+                        {
+                          "id": "lnk-fa5c7698a5",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://xclive.yarncdn.live/live/xctv_blv_tholan/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.xaycon3.live/"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://sv2.xaycon3.live"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-19f85a5789",
+              "name": "XayConTV",
+              "contents": [
+                {
+                  "id": "ct-19f85a5789",
+                  "name": "Switzerland vs Canada",
+                  "streams": [
+                    {
+                      "id": "st-19f85a5789",
+                      "name": "Xaycon - BLV Bịp Con",
+                      "stream_links": [
+                        {
+                          "id": "lnk-30319ba8f3",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://xclive.yarncdn.live/live/xctv_blv_bipcon/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.xaycon3.live/"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://sv2.xaycon3.live"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "World Cup",
+            "team_a": "Switzerland",
+            "team_b": "Canada",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Flag_of_Switzerland.svg/250px-Flag_of_Switzerland.svg.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/c/cf/Flag_of_Canada.svg",
+            "time": "02:00 25/06",
+            "blv": "BLV PHAN MÃ, BLV PHAN QUẨY",
+            "is_live": true,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Switzerland_Canada_02-00 25-06_120fa725_20260625.png?v=120fa725",
             "width": 1600,
             "height": 1200
           }
@@ -1196,176 +1401,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-20d77d0e0b_437ec607_20260625.png?v=437ec607",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "hqlive-009cf55f90",
-          "name": "Switzerland vs Canada | 02:00 25/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-009cf55f90",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-009cf55f90",
-                  "name": "Switzerland vs Canada",
-                  "streams": [
-                    {
-                      "id": "st-009cf55f90",
-                      "name": "HQ",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "src-79dcabc9bd",
-              "name": "QuechoaTV",
-              "contents": [
-                {
-                  "id": "ct-79dcabc9bd",
-                  "name": "Switzerland vs Canada",
-                  "streams": [
-                    {
-                      "id": "st-79dcabc9bd",
-                      "name": "Quechoa - PUMA, VĂN MINH",
-                      "stream_links": [
-                        {
-                          "id": "lnk-6cafe33b0c",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ahghndtkyqmm-pull.bpmedialive.com/quechoa/blv1.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://quechoa10.live/"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://quechoa10.live"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "src-ed752f43c3",
-              "name": "XayConTV",
-              "contents": [
-                {
-                  "id": "ct-ed752f43c3",
-                  "name": "Switzerland vs Canada",
-                  "streams": [
-                    {
-                      "id": "st-ed752f43c3",
-                      "name": "Xaycon - BLV Thợ Lặn",
-                      "stream_links": [
-                        {
-                          "id": "lnk-fa5c7698a5",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://xclive.yarncdn.live/live/xctv_blv_tholan/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.xaycon3.live/"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://sv2.xaycon3.live"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "src-19f85a5789",
-              "name": "XayConTV",
-              "contents": [
-                {
-                  "id": "ct-19f85a5789",
-                  "name": "Switzerland vs Canada",
-                  "streams": [
-                    {
-                      "id": "st-19f85a5789",
-                      "name": "Xaycon - BLV Bịp Con",
-                      "stream_links": [
-                        {
-                          "id": "lnk-30319ba8f3",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://xclive.yarncdn.live/live/xctv_blv_bipcon/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.xaycon3.live/"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://sv2.xaycon3.live"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "World Cup",
-            "team_a": "Switzerland",
-            "team_b": "Canada",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Flag_of_Switzerland.svg/250px-Flag_of_Switzerland.svg.png",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/c/cf/Flag_of_Canada.svg",
-            "time": "02:00 25/06",
-            "blv": "BLV PHAN MÃ, BLV PHAN QUẨY",
-            "is_live": false,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Switzerland_Canada_02-00 25-06_120fa725_20260625.png?v=120fa725",
             "width": 1600,
             "height": 1200
           }
@@ -1677,6 +1712,76 @@
                   ]
                 }
               ]
+            },
+            {
+              "id": "src-f127a3f714",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-f127a3f714",
+                  "name": "Ma Rốc vs Haiti",
+                  "streams": [
+                    {
+                      "id": "st-f127a3f714",
+                      "name": "Bugio - BLV Chim Nhỏ",
+                      "stream_links": [
+                        {
+                          "id": "lnk-378f040fcb",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_cuccu/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-59b85c256f",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-59b85c256f",
+                  "name": "Ma Rốc vs Haiti",
+                  "streams": [
+                    {
+                      "id": "st-59b85c256f",
+                      "name": "Bugio - BLV Mao Từn",
+                      "stream_links": [
+                        {
+                          "id": "lnk-51a73d71ba",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_mason/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
             }
           ],
           "org_metadata": {
@@ -1796,76 +1901,6 @@
                             {
                               "key": "Origin",
                               "value": "https://sv2.xaycon3.live"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "src-f127a3f714",
-              "name": "BugioTV",
-              "contents": [
-                {
-                  "id": "ct-f127a3f714",
-                  "name": "Morocco vs Haiti",
-                  "streams": [
-                    {
-                      "id": "st-f127a3f714",
-                      "name": "Bugio - BLV Chim Nhỏ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-378f040fcb",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_cuccu/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv1.bugio9.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "src-59b85c256f",
-              "name": "BugioTV",
-              "contents": [
-                {
-                  "id": "ct-59b85c256f",
-                  "name": "Morocco vs Haiti",
-                  "streams": [
-                    {
-                      "id": "st-59b85c256f",
-                      "name": "Bugio - BLV Mao Từn",
-                      "stream_links": [
-                        {
-                          "id": "lnk-51a73d71ba",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_mason/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv1.bugio9.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -3845,7 +3880,7 @@
     },
     {
       "id": "grp-bóng-chuyền",
-      "name": "🏐 Bóng Chuyền (6 LIVE)",
+      "name": "🏐 Bóng Chuyền (5 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -4241,7 +4276,7 @@
         },
         {
           "id": "bg-ed383ec947",
-          "name": "Ukraine - Italy | 21:30 25/06",
+          "name": "Ukraine - Ý | 21:30 25/06",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -4260,7 +4295,7 @@
               "contents": [
                 {
                   "id": "ct-ed383ec947",
-                  "name": "Ukraine - Italy",
+                  "name": "Ukraine - Ý",
                   "streams": [
                     {
                       "id": "st-ed383ec947",
@@ -4293,7 +4328,7 @@
           "org_metadata": {
             "league": "Nations League Men's",
             "team_a": "Ukraine ",
-            "team_b": "Italy",
+            "team_b": "Ý",
             "logo_a": "https://ssl.gstatic.com/onebox/media/sports/logos/optimized/DQIQtK7N4yrDIqw75pxFHg_96x96.png",
             "logo_b": "https://ssl.gstatic.com/onebox/media/sports/logos/optimized/joYpsiaYi4GDCqhSRAq5Zg_96x96.png",
             "start_time": "2026-06-25T21:30:00",
@@ -4306,77 +4341,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-ed383ec947_fafc3e5c_20260625.png?v=fafc3e5c",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "bg-770f8e448d",
-          "name": "Iran - USA | 22:00 25/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-770f8e448d",
-              "name": "BugioTV",
-              "contents": [
-                {
-                  "id": "ct-770f8e448d",
-                  "name": "Iran - USA",
-                  "streams": [
-                    {
-                      "id": "st-770f8e448d",
-                      "name": "BG",
-                      "stream_links": [
-                        {
-                          "id": "lnk-21936c1c94",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_tieumeo/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv1.bugio9.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Nations League Men's",
-            "team_a": "Iran ",
-            "team_b": "USA",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Flag_of_Iran.svg/960px-Flag_of_Iran.svg.png",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Flag_of_the_United_States.svg/960px-Flag_of_the_United_States.svg.png",
-            "start_time": "2026-06-25T22:00:00",
-            "blv": "BLV Tiểu Mèo",
-            "is_live": false,
-            "cate_type": "bongchuyen"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-770f8e448d_441072f6_20260625.png?v=441072f6",
             "width": 1600,
             "height": 1200
           }
@@ -4779,6 +4743,41 @@
                       "id": "st-a7bb27936c",
                       "name": "HQ",
                       "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-770f8e448d",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-770f8e448d",
+                  "name": "Iran - Mỹ",
+                  "streams": [
+                    {
+                      "id": "st-770f8e448d",
+                      "name": "Bugio - BLV Tiểu Mèo",
+                      "stream_links": [
+                        {
+                          "id": "lnk-21936c1c94",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_tieumeo/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
