@@ -799,82 +799,11 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (3 LIVE)",
+      "name": "⚽ Bóng Đá (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-89bad68372",
-          "name": "Hà Nội Nữ  vs Tp. Hồ Chí Minh 2 Nữ | 16:00 24/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-89bad68372",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-89bad68372",
-                  "name": "Hà Nội Nữ  vs Tp. Hồ Chí Minh 2 Nữ",
-                  "streams": [
-                    {
-                      "id": "st-89bad68372",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-2cfaa23849",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1782231170_hd/1782231170_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "National League Women",
-            "team_a": "Hà Nội Nữ ",
-            "team_b": "Tp. Hồ Chí Minh 2 Nữ",
-            "logo_a": "https://static.flashscore.com/res/image/data/rsS3dewS-WKZXwKyb.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/dMX5daWg-tEmn70ao.png",
-            "time": "16:00 24/06",
-            "blv": "BLV Hợi",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-89bad68372_07bdaa24_20260624.png?v=07bdaa24",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-cb098c701a",
           "name": "Gold Coast Nữ vs FQ Academy QAS Nữ | 16:30 24/06",
@@ -1025,10 +954,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -1043,7 +972,25 @@
                     {
                       "id": "st-43f88416a6",
                       "name": "HQ",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-b10e5b640b",
+                          "name": "BLV THẦN THÔNG",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://tdlive.yarncdn.live/live/tdtv_blv_taovannghe/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -1093,7 +1040,7 @@
             "logo_b": "https://media.api-sports.io/football/teams/23270.png",
             "time": "18:30 24/06",
             "blv": "BLV THẦN THÔNG",
-            "is_live": false,
+            "is_live": true,
             "sport_slug": "bong-da"
           },
           "image": {
@@ -1101,6 +1048,82 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Shenzhen 2028_Langfang Glory City_18-30 24-06_b8d6d832_20260624.png?v=b8d6d832",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-840adda7d4",
+          "name": "Jiangxi Liansheng vs Shangyu Pterosaur | 18:30 24/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-840adda7d4",
+              "name": "XayConTV",
+              "contents": [
+                {
+                  "id": "ct-840adda7d4",
+                  "name": "Jiangxi Liansheng vs Shangyu Pterosaur",
+                  "streams": [
+                    {
+                      "id": "st-840adda7d4",
+                      "name": "XC",
+                      "stream_links": [
+                        {
+                          "id": "lnk-0fa0d01abf",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://xclive.yarncdn.live/live/xctv_blv_vanca/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.xaycon3.live/"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://sv2.xaycon3.live"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "League Two",
+            "team_a": "Jiangxi Liansheng",
+            "team_b": "Shangyu Pterosaur",
+            "logo_a": "https://media.api-sports.io/football/teams/5665.png",
+            "logo_b": "https://media.api-sports.io/football/teams/19320.png",
+            "time": "18:30",
+            "date": "24/06",
+            "blv": "BLV Phong Vân",
+            "is_live": true,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/xaycon-stream/refs/heads/main/thumbs/xc-840adda7d4_17c107fa_20260624.png?v=17c107fa",
             "width": 1600,
             "height": 1200
           }
@@ -3171,82 +3194,6 @@
           }
         },
         {
-          "id": "xc-840adda7d4",
-          "name": "Jiangxi Liansheng vs Shangyu Pterosaur | 18:30 24/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-840adda7d4",
-              "name": "XayConTV",
-              "contents": [
-                {
-                  "id": "ct-840adda7d4",
-                  "name": "Jiangxi Liansheng vs Shangyu Pterosaur",
-                  "streams": [
-                    {
-                      "id": "st-840adda7d4",
-                      "name": "XC",
-                      "stream_links": [
-                        {
-                          "id": "lnk-0fa0d01abf",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://xclive.yarncdn.live/live/xctv_blv_vanca/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.xaycon3.live/"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://sv2.xaycon3.live"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "League Two",
-            "team_a": "Jiangxi Liansheng",
-            "team_b": "Shangyu Pterosaur",
-            "logo_a": "https://media.api-sports.io/football/teams/5665.png",
-            "logo_b": "https://media.api-sports.io/football/teams/19320.png",
-            "time": "18:30",
-            "date": "24/06",
-            "blv": "BLV Phong Vân",
-            "is_live": false,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/xaycon-stream/refs/heads/main/thumbs/xc-840adda7d4_17c107fa_20260624.png?v=17c107fa",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "xc-e294dd21b5",
           "name": "Yelimay Semey 2 vs Turan Turkistan | 19:00 25/06",
           "type": "single",
@@ -4124,7 +4071,7 @@
     },
     {
       "id": "grp-bóng-chuyền",
-      "name": "🏐 Bóng Chuyền (8 LIVE)",
+      "name": "🏐 Bóng Chuyền (9 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -4302,6 +4249,147 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-1f4846ad7e_6c6adf99_20260624.png?v=6c6adf99",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-40c1e62ac4",
+          "name": "Serbia  vs Japan | 18:30 24/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-40c1e62ac4",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-40c1e62ac4",
+                  "name": "Serbia  vs Japan",
+                  "streams": [
+                    {
+                      "id": "st-40c1e62ac4",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-79f1b13a45",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1782287136_hd/1782287136_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-a5c9e584fa",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-a5c9e584fa",
+                  "name": "Serbia vs Nhật Bản",
+                  "streams": [
+                    {
+                      "id": "st-a5c9e584fa",
+                      "name": "Hoiquan - BLV PHAN BỐNG",
+                      "stream_links": [
+                        {
+                          "id": "lnk-6568b58b01",
+                          "name": "BLV PHAN BỐNG",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanbong/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-d811406316",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-d811406316",
+                  "name": "Serbia - Japan",
+                  "streams": [
+                    {
+                      "id": "st-d811406316",
+                      "name": "Bugio - BLV Chim Nhỏ",
+                      "stream_links": [
+                        {
+                          "id": "lnk-378f040fcb",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_cuccu/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Nations League",
+            "team_a": "Serbia ",
+            "team_b": "Japan",
+            "logo_a": "https://static.flashscore.com/res/image/data/vDiyVxhl-6ys9CWQj.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/f552VMEa-E1YhvyqD.png",
+            "time": "18:30 24/06",
+            "blv": "blv-sun",
+            "is_live": true,
+            "cate_type": "bongchuyen"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-40c1e62ac4_7adf57b8_20260624.png?v=7adf57b8",
             "width": 1600,
             "height": 1200
           }
@@ -4728,112 +4816,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-770f8e448d_441072f6_20260624.png?v=441072f6",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-40c1e62ac4",
-          "name": "Serbia  vs Japan | 18:30 24/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-40c1e62ac4",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-40c1e62ac4",
-                  "name": "Serbia  vs Japan",
-                  "streams": [
-                    {
-                      "id": "st-40c1e62ac4",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-79f1b13a45",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1782287136_hd/1782287136_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "src-d811406316",
-              "name": "BugioTV",
-              "contents": [
-                {
-                  "id": "ct-d811406316",
-                  "name": "Serbia - Japan",
-                  "streams": [
-                    {
-                      "id": "st-d811406316",
-                      "name": "Bugio - BLV Chim Nhỏ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-378f040fcb",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_cuccu/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv1.bugio9.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Nations League",
-            "team_a": "Serbia ",
-            "team_b": "Japan",
-            "logo_a": "https://static.flashscore.com/res/image/data/vDiyVxhl-6ys9CWQj.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/f552VMEa-E1YhvyqD.png",
-            "time": "18:30 24/06",
-            "blv": "blv-sun",
-            "is_live": false,
-            "cate_type": "bongchuyen"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-40c1e62ac4_7adf57b8_20260624.png?v=7adf57b8",
             "width": 1600,
             "height": 1200
           }
