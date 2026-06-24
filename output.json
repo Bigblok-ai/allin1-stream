@@ -799,11 +799,82 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "gv-9a1179f935",
+          "name": "Nữ FC Rosengard vs Nữ Djurgardens | 23:00 24/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-9a1179f935",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-9a1179f935",
+                  "name": "Nữ FC Rosengard vs Nữ Djurgardens",
+                  "streams": [
+                    {
+                      "id": "st-9a1179f935",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-bce6477f64",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1782248203_hd/1782248203_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Thụy Điển Allsvenskan Nữ",
+            "team_a": "Nữ FC Rosengard",
+            "team_b": "Nữ Djurgardens",
+            "logo_a": "https://images.keovip88.net/images/teams/fc-rosengard-w.png",
+            "logo_b": "https://images.keovip88.net/images/teams/djurgardens-w.png",
+            "time": "23:00 24/06",
+            "blv": "blv-mat",
+            "is_live": true,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-9a1179f935_210cf646_20260624.png?v=210cf646",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "hqlive-9ed42731aa",
           "name": "Gagra vs Samgurali | 23:00 24/06",
@@ -986,77 +1057,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/xaycon-stream/refs/heads/main/thumbs/xc-b21c193982_32145e06_20260624.png?v=32145e06",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-9a1179f935",
-          "name": "Nữ FC Rosengard vs Nữ Djurgardens | 23:00 24/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-9a1179f935",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-9a1179f935",
-                  "name": "Nữ FC Rosengard vs Nữ Djurgardens",
-                  "streams": [
-                    {
-                      "id": "st-9a1179f935",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-bce6477f64",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1782248203_hd/1782248203_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Thụy Điển Allsvenskan Nữ",
-            "team_a": "Nữ FC Rosengard",
-            "team_b": "Nữ Djurgardens",
-            "logo_a": "https://images.keovip88.net/images/teams/fc-rosengard-w.png",
-            "logo_b": "https://images.keovip88.net/images/teams/djurgardens-w.png",
-            "time": "23:00 24/06",
-            "blv": "blv-mat",
-            "is_live": false,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-9a1179f935_210cf646_20260624.png?v=210cf646",
             "width": 1600,
             "height": 1200
           }
@@ -3547,167 +3547,7 @@
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
-      "channels": [
-        {
-          "id": "hqlive-5d44f33507",
-          "name": "Linda Noskova vs Jessica Pegula | 17:00 25/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-5d44f33507",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-5d44f33507",
-                  "name": "Linda Noskova vs Jessica Pegula",
-                  "streams": [
-                    {
-                      "id": "st-5d44f33507",
-                      "name": "HQ",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "WTA500 Berlin",
-            "team_a": "Linda Noskova",
-            "team_b": "Jessica Pegula",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Noskova_RGQ22_%289%29_%2852129787314%29.jpg",
-            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRL3ZMcLTxrcrE5sPJnk8sQRl4N_EJ5KLlBfg&s",
-            "time": "17:00 25/06",
-            "blv": "BLV PHAN BỐNG",
-            "is_live": false,
-            "sport_slug": "tennis"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Linda Noskova_Jessica Pegula_17-00 25-06_475ea2c8_20260624.png?v=475ea2c8",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "hqlive-b0c62d51e1",
-          "name": "Francisco Cerundolo vs Tommy Paul | 19:30 25/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-b0c62d51e1",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-b0c62d51e1",
-                  "name": "Francisco Cerundolo vs Tommy Paul",
-                  "streams": [
-                    {
-                      "id": "st-b0c62d51e1",
-                      "name": "HQ",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "ATP500 London",
-            "team_a": "Francisco Cerundolo",
-            "team_b": "Tommy Paul",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/7/77/Cerundolo_MCM23_%2821%29_%2852883527185%29.jpg",
-            "logo_b": "https://www.datocms-assets.com/110926/1770148201-20-paul_full_2024.png?auto=format%2Ccompress&fit=crop&h=470&w=0&ixlib=react-9.8.1",
-            "time": "19:30 25/06",
-            "blv": "BLV PHAN PHÉP",
-            "is_live": false,
-            "sport_slug": "tennis"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Francisco Cerundolo_Tommy Paul_19-30 25-06_3e19f730_20260624.png?v=3e19f730",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "hqlive-e6e210a262",
-          "name": "Taylor Fritz vs Frances Tiafoe | 21:00 25/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-e6e210a262",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-e6e210a262",
-                  "name": "Taylor Fritz vs Frances Tiafoe",
-                  "streams": [
-                    {
-                      "id": "st-e6e210a262",
-                      "name": "HQ",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "ATP500 London",
-            "team_a": "Taylor Fritz",
-            "team_b": "Frances Tiafoe",
-            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNZSDJOk9zmiEAUd932qtYHbrfQcbE7f50zQ&s",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/a/a3/FrancesTiafo.jpg",
-            "time": "21:00 25/06",
-            "blv": "BLV PHAN PHÉP",
-            "is_live": false,
-            "sport_slug": "tennis"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Taylor Fritz_Frances Tiafoe_21-00 25-06_a1fd80d3_20260624.png?v=a1fd80d3",
-            "width": 1600,
-            "height": 1200
-          }
-        }
-      ]
+      "channels": []
     },
     {
       "id": "grp-cầu-lông",
