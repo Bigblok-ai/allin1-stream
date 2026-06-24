@@ -799,7 +799,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -911,6 +911,77 @@
           }
         },
         {
+          "id": "hqlive-d0f6d79dcf",
+          "name": "Zhenis Astana vs Kaisar Kyzylorda | 20:00 24/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-d0f6d79dcf",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-d0f6d79dcf",
+                  "name": "Zhenis Astana vs Kaisar Kyzylorda",
+                  "streams": [
+                    {
+                      "id": "st-d0f6d79dcf",
+                      "name": "HQ",
+                      "stream_links": [
+                        {
+                          "id": "lnk-1cad2e4412",
+                          "name": "BLV TÁO GIÀ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://tdlive.yarncdn.live/live/tdtv_blv_taotinhtao/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Ngoại hạng Kazakhstan",
+            "team_a": "Zhenis Astana",
+            "team_b": "Kaisar Kyzylorda",
+            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSk5rt8vVH1GBoc6UFus5b0NMO-AfLS7DCt0lVgClAZEQ&s=10",
+            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZTtg54WiTJkS7einJZGMUhkb6HUvmIl3WkLZ3fMV01g&s=10",
+            "time": "20:00 24/06",
+            "blv": "BLV TÁO GIÀ",
+            "is_live": true,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Zhenis Astana_Kaisar Kyzylorda_20-00 24-06_784e02e6_20260624.png?v=784e02e6",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "xc-840adda7d4",
           "name": "Jiangxi Liansheng vs Shangyu Pterosaur | 18:30 24/06",
           "type": "single",
@@ -987,32 +1058,54 @@
           }
         },
         {
-          "id": "hqlive-d0f6d79dcf",
-          "name": "Zhenis Astana vs Kaisar Kyzylorda | 20:00 24/06",
+          "id": "xc-c9c0da9434",
+          "name": "Shabab Al Sahel vs Reyady Abaseya | 20:00 24/06",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
             {
-              "id": "src-d0f6d79dcf",
-              "name": "HoiQuanTV",
+              "id": "src-c9c0da9434",
+              "name": "XayConTV",
               "contents": [
                 {
-                  "id": "ct-d0f6d79dcf",
-                  "name": "Zhenis Astana vs Kaisar Kyzylorda",
+                  "id": "ct-c9c0da9434",
+                  "name": "Shabab Al Sahel vs Reyady Abaseya",
                   "streams": [
                     {
-                      "id": "st-d0f6d79dcf",
-                      "name": "HQ",
-                      "stream_links": []
+                      "id": "st-c9c0da9434",
+                      "name": "XC",
+                      "stream_links": [
+                        {
+                          "id": "lnk-fa5c7698a5",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://xclive.yarncdn.live/live/xctv_blv_tholan/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.xaycon3.live/"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://sv2.xaycon3.live"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -1020,21 +1113,22 @@
             }
           ],
           "org_metadata": {
-            "league": "Ngoại hạng Kazakhstan",
-            "team_a": "Zhenis Astana",
-            "team_b": "Kaisar Kyzylorda",
-            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSk5rt8vVH1GBoc6UFus5b0NMO-AfLS7DCt0lVgClAZEQ&s=10",
-            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZTtg54WiTJkS7einJZGMUhkb6HUvmIl3WkLZ3fMV01g&s=10",
-            "time": "20:00 24/06",
-            "blv": "BLV TÁO GIÀ",
-            "is_live": false,
+            "league": "Premier League",
+            "team_a": "Shabab Al Sahel",
+            "team_b": "Reyady Abaseya",
+            "logo_a": "https://media.api-sports.io/football/teams/4576.png",
+            "logo_b": "https://media.api-sports.io/football/teams/22812.png",
+            "time": "20:00",
+            "date": "24/06",
+            "blv": "BLV Thợ Lặn",
+            "is_live": true,
             "sport_slug": "bong-da"
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Zhenis Astana_Kaisar Kyzylorda_20-00 24-06_784e02e6_20260624.png?v=784e02e6",
+            "url": "https://raw.githubusercontent.com/jasminliu98/xaycon-stream/refs/heads/main/thumbs/xc-c9c0da9434_6cc8eb70_20260624.png?v=6cc8eb70",
             "width": 1600,
             "height": 1200
           }
@@ -3323,82 +3417,6 @@
           }
         },
         {
-          "id": "xc-c9c0da9434",
-          "name": "Shabab Al Sahel vs Reyady Abaseya | 20:00 24/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-c9c0da9434",
-              "name": "XayConTV",
-              "contents": [
-                {
-                  "id": "ct-c9c0da9434",
-                  "name": "Shabab Al Sahel vs Reyady Abaseya",
-                  "streams": [
-                    {
-                      "id": "st-c9c0da9434",
-                      "name": "XC",
-                      "stream_links": [
-                        {
-                          "id": "lnk-fa5c7698a5",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://xclive.yarncdn.live/live/xctv_blv_tholan/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.xaycon3.live/"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://sv2.xaycon3.live"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Premier League",
-            "team_a": "Shabab Al Sahel",
-            "team_b": "Reyady Abaseya",
-            "logo_a": "https://media.api-sports.io/football/teams/4576.png",
-            "logo_b": "https://media.api-sports.io/football/teams/22812.png",
-            "time": "20:00",
-            "date": "24/06",
-            "blv": "BLV Thợ Lặn",
-            "is_live": false,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/xaycon-stream/refs/heads/main/thumbs/xc-c9c0da9434_6cc8eb70_20260624.png?v=6cc8eb70",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "xc-bbbe258a47",
           "name": "Aktobe Jas vs Arys | 20:00 25/06",
           "type": "single",
@@ -4231,7 +4249,7 @@
     },
     {
       "id": "grp-bóng-chuyền",
-      "name": "🏐 Bóng Chuyền (6 LIVE)",
+      "name": "🏐 Bóng Chuyền (5 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -4338,77 +4356,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-43ef3e2acc_64d95553_20260624.png?v=64d95553",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-1f4846ad7e",
-          "name": "China  vs Türkiye | 18:00 24/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-1f4846ad7e",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-1f4846ad7e",
-                  "name": "China  vs Türkiye",
-                  "streams": [
-                    {
-                      "id": "st-1f4846ad7e",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-7cf64556c5",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1782287044_hd/1782287044_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Nations League",
-            "team_a": "China ",
-            "team_b": "Türkiye",
-            "logo_a": "https://static.flashscore.com/res/image/data/byFAJXzS-vBKZiE2j.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/UFsHESEa-dUwawdyp.png",
-            "time": "18:00 24/06",
-            "blv": "blv-can",
-            "is_live": true,
-            "cate_type": "bongchuyen"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-1f4846ad7e_6c6adf99_20260624.png?v=6c6adf99",
             "width": 1600,
             "height": 1200
           }
