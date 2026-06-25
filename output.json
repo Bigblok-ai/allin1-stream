@@ -799,7 +799,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá",
+      "name": "⚽ Bóng Đá (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -812,10 +812,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -830,7 +830,25 @@
                     {
                       "id": "st-36bd628e7a",
                       "name": "HQ",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-f6231c6549",
+                          "name": "BLV PHAN CA",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanca/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -845,7 +863,7 @@
             "logo_b": "https://media.api-sports.io/football/teams/24722.png",
             "time": "15:00 25/06",
             "blv": "BLV PHAN CA",
-            "is_live": false,
+            "is_live": true,
             "sport_slug": "bong-da"
           },
           "image": {
@@ -853,6 +871,77 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Khovd_Hunters_15-00 25-06_405f63ee_20260625.png?v=405f63ee",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-a7f1c915ac",
+          "name": "TKS Việt Nam Nữ  vs Thái Nguyên Nữ | 16:00 25/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-a7f1c915ac",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-a7f1c915ac",
+                  "name": "TKS Việt Nam Nữ  vs Thái Nguyên Nữ",
+                  "streams": [
+                    {
+                      "id": "st-a7f1c915ac",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-8fb4695f34",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1782372708_hd/1782372708_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "National League Women",
+            "team_a": "TKS Việt Nam Nữ ",
+            "team_b": "Thái Nguyên Nữ",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/vi/a/ab/Logo_TKSVN.png",
+            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTDs49S-B_LshiZYQcymtpZbtURvvRFZqLkcFo83fEeQ&s=10",
+            "time": "16:00 25/06",
+            "blv": "BLV Dần",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-a7f1c915ac_4f48db50_20260625.png?v=4f48db50",
             "width": 1600,
             "height": 1200
           }
@@ -906,6 +995,77 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Hà Nội Nữ_Nữ Hồ Chí Minh_16-00 25-06_9d3d4587_20260625.png?v=9d3d4587",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-06e0acfdef",
+          "name": "Khoromkhon  vs Ulaangom City | 18:00 25/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-06e0acfdef",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-06e0acfdef",
+                  "name": "Khoromkhon  vs Ulaangom City",
+                  "streams": [
+                    {
+                      "id": "st-06e0acfdef",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-86b9eae12c",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1782372808_hd/1782372808_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Mông Cổ PL ",
+            "team_a": "Khoromkhon ",
+            "team_b": "Ulaangom City",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/en/4/48/Bishrelt_Khoromkhon_FC_logo.png",
+            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTkLDBT1ts_Wbt9SPFg1B5-zarzg6BgBAUbaBOzMKDgw&s=10",
+            "time": "18:00 25/06",
+            "blv": "BLV Mason",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-06e0acfdef_001ed2b0_20260625.png?v=001ed2b0",
             "width": 1600,
             "height": 1200
           }
