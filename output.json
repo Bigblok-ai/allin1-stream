@@ -941,6 +941,41 @@
                   ]
                 }
               ]
+            },
+            {
+              "id": "src-5e69fda38c",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-5e69fda38c",
+                  "name": "Sport Academy Kairat vs Khan Tengri",
+                  "streams": [
+                    {
+                      "id": "st-5e69fda38c",
+                      "name": "Bugio - BLV Max",
+                      "stream_links": [
+                        {
+                          "id": "lnk-ad68922ab2",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_max/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
             }
           ],
           "org_metadata": {
@@ -3213,11 +3248,117 @@
     },
     {
       "id": "grp-bóng-chuyền",
-      "name": "🏐 Bóng Chuyền (2 LIVE)",
+      "name": "🏐 Bóng Chuyền (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "gv-bc8331711c",
+          "name": "Oman  vs South Korea | 13:30 25/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-bc8331711c",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-bc8331711c",
+                  "name": "Oman  vs South Korea",
+                  "streams": [
+                    {
+                      "id": "st-bc8331711c",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-26bc348586",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1782303181_hd/1782303181_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-97683c83c7",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-97683c83c7",
+                  "name": "Oman vs Hàn Quốc",
+                  "streams": [
+                    {
+                      "id": "st-97683c83c7",
+                      "name": "Hoiquan - BLV PHAN PHÉP",
+                      "stream_links": [
+                        {
+                          "id": "lnk-bc9866f74f",
+                          "name": "BLV PHAN PHÉP",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanphep/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "AVC Nations Cup",
+            "team_a": "Oman ",
+            "team_b": "South Korea",
+            "logo_a": "https://static.flashscore.com/res/image/data/KGYHRIYA-baDaGjjh.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/zTP55fFG-bL62vc24.png",
+            "time": "13:30 25/06",
+            "blv": "blv-mat",
+            "is_live": true,
+            "cate_type": "bongchuyen"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-bc8331711c_729035e8_20260625.png?v=729035e8",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "bg-ed383ec947",
           "name": "Ukraine - Ý | 21:30 25/06",
@@ -3356,77 +3497,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-f885a14eaf_407b69ba_20260625.png?v=407b69ba",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-bc8331711c",
-          "name": "Oman  vs South Korea | 13:30 25/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-bc8331711c",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-bc8331711c",
-                  "name": "Oman  vs South Korea",
-                  "streams": [
-                    {
-                      "id": "st-bc8331711c",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-26bc348586",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1782303181_hd/1782303181_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "AVC Nations Cup",
-            "team_a": "Oman ",
-            "team_b": "South Korea",
-            "logo_a": "https://static.flashscore.com/res/image/data/KGYHRIYA-baDaGjjh.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/zTP55fFG-bL62vc24.png",
-            "time": "13:30 25/06",
-            "blv": "blv-mat",
-            "is_live": false,
-            "cate_type": "bongchuyen"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-bc8331711c_729035e8_20260625.png?v=729035e8",
             "width": 1600,
             "height": 1200
           }
