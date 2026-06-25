@@ -799,7 +799,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (3 LIVE)",
+      "name": "⚽ Bóng Đá (5 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -911,6 +911,77 @@
           }
         },
         {
+          "id": "hqlive-4661579e03",
+          "name": "Jaiyq vs Akademiya Ontustik | 20:00 25/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-4661579e03",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-4661579e03",
+                  "name": "Jaiyq vs Akademiya Ontustik",
+                  "streams": [
+                    {
+                      "id": "st-4661579e03",
+                      "name": "HQ",
+                      "stream_links": [
+                        {
+                          "id": "lnk-fd31283a76",
+                          "name": "BLV PHAN ANH",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phananh/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "1. Division",
+            "team_a": "Jaiyq",
+            "team_b": "Akademiya Ontustik",
+            "logo_a": "https://media.api-sports.io/football/teams/27561.png",
+            "logo_b": "https://media.api-sports.io/football/teams/4545.png",
+            "time": "20:00 25/06",
+            "blv": "BLV PHAN ANH",
+            "is_live": true,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Jaiyq_Akademiya Ontustik_20-00 25-06_2f88bc14_20260625.png?v=2f88bc14",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "xc-e294dd21b5",
           "name": "Yelimay Semey 2 vs Turan Turkistan | 19:00 25/06",
           "type": "single",
@@ -982,6 +1053,82 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/xaycon-stream/refs/heads/main/thumbs/xc-e294dd21b5_11827392_20260625.png?v=11827392",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-bbbe258a47",
+          "name": "Aktobe Jas vs Arys | 20:00 25/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-bbbe258a47",
+              "name": "XayConTV",
+              "contents": [
+                {
+                  "id": "ct-bbbe258a47",
+                  "name": "Aktobe Jas vs Arys",
+                  "streams": [
+                    {
+                      "id": "st-bbbe258a47",
+                      "name": "XC",
+                      "stream_links": [
+                        {
+                          "id": "lnk-0fa0d01abf",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://xclive.yarncdn.live/live/xctv_blv_vanca/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.xaycon3.live/"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://sv2.xaycon3.live"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "1. Division",
+            "team_a": "Aktobe Jas",
+            "team_b": "Arys",
+            "logo_a": "https://media.api-sports.io/football/teams/4546.png",
+            "logo_b": "https://media.api-sports.io/football/teams/10414.png",
+            "time": "20:00",
+            "date": "25/06",
+            "blv": "BLV Phong Vân",
+            "is_live": true,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/xaycon-stream/refs/heads/main/thumbs/xc-bbbe258a47_fccd95c9_20260625.png?v=fccd95c9",
             "width": 1600,
             "height": 1200
           }
@@ -1124,59 +1271,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-197c536411_0738a01f_20260625.png?v=0738a01f",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "hqlive-4661579e03",
-          "name": "Jaiyq vs Akademiya Ontustik | 20:00 25/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-4661579e03",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-4661579e03",
-                  "name": "Jaiyq vs Akademiya Ontustik",
-                  "streams": [
-                    {
-                      "id": "st-4661579e03",
-                      "name": "HQ",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "1. Division",
-            "team_a": "Jaiyq",
-            "team_b": "Akademiya Ontustik",
-            "logo_a": "https://media.api-sports.io/football/teams/27561.png",
-            "logo_b": "https://media.api-sports.io/football/teams/4545.png",
-            "time": "20:00 25/06",
-            "blv": "BLV PHAN ANH",
-            "is_live": false,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Jaiyq_Akademiya Ontustik_20-00 25-06_2f88bc14_20260625.png?v=2f88bc14",
             "width": 1600,
             "height": 1200
           }
@@ -3697,82 +3791,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/xaycon-stream/refs/heads/main/thumbs/xc-74f831407a_4ec2ae36_20260625.png?v=4ec2ae36",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "xc-bbbe258a47",
-          "name": "Aktobe Jas vs Arys | 20:00 25/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-bbbe258a47",
-              "name": "XayConTV",
-              "contents": [
-                {
-                  "id": "ct-bbbe258a47",
-                  "name": "Aktobe Jas vs Arys",
-                  "streams": [
-                    {
-                      "id": "st-bbbe258a47",
-                      "name": "XC",
-                      "stream_links": [
-                        {
-                          "id": "lnk-0fa0d01abf",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://xclive.yarncdn.live/live/xctv_blv_vanca/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.xaycon3.live/"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://sv2.xaycon3.live"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "1. Division",
-            "team_a": "Aktobe Jas",
-            "team_b": "Arys",
-            "logo_a": "https://media.api-sports.io/football/teams/4546.png",
-            "logo_b": "https://media.api-sports.io/football/teams/10414.png",
-            "time": "20:00",
-            "date": "25/06",
-            "blv": "BLV Phong Vân",
-            "is_live": false,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/xaycon-stream/refs/heads/main/thumbs/xc-bbbe258a47_fccd95c9_20260625.png?v=fccd95c9",
             "width": 1600,
             "height": 1200
           }
