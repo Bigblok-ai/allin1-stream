@@ -799,11 +799,152 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (3 LIVE)",
+      "name": "⚽ Bóng Đá (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "gv-87bd14db1e",
+          "name": "Nam Phi vs Hàn Quốc | 08:00 25/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-87bd14db1e",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-87bd14db1e",
+                  "name": "Nam Phi vs Hàn Quốc",
+                  "streams": [
+                    {
+                      "id": "st-87bd14db1e",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-b5559962fa",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1782346298_hd/1782346298_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-e8855b3528",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-e8855b3528",
+                  "name": "Nam Phi vs Hàn Quốc",
+                  "streams": [
+                    {
+                      "id": "st-e8855b3528",
+                      "name": "Bugio - BLV Phi MC",
+                      "stream_links": [
+                        {
+                          "id": "lnk-d5c8f635fc",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_phimc/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-205e73579f",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-205e73579f",
+                  "name": "Nam Phi vs Hàn Quốc",
+                  "streams": [
+                    {
+                      "id": "st-205e73579f",
+                      "name": "Bugio - BLV Max",
+                      "stream_links": [
+                        {
+                          "id": "lnk-ad68922ab2",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_max/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "FIFA World Cup",
+            "team_a": "Nam Phi",
+            "team_b": "Hàn Quốc",
+            "logo_a": "https://images.keovip88.net/images/teams/south-africa.png",
+            "logo_b": "https://images.keovip88.net/images/teams/south-korea.png",
+            "time": "08:00 25/06",
+            "blv": "BLV Dần, blv-can",
+            "is_live": true,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-87bd14db1e_96c87da4_20260625.png?v=96c87da4",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "hqlive-2a64892b4c",
           "name": "Miami FC vs Orange County SC | 06:00 25/06",
@@ -1144,147 +1285,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-b8153e6fab_0704a1c1_20260625.png?v=0704a1c1",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-87bd14db1e",
-          "name": "Nam Phi vs Hàn Quốc | 08:00 25/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-87bd14db1e",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-87bd14db1e",
-                  "name": "Nam Phi vs Hàn Quốc",
-                  "streams": [
-                    {
-                      "id": "st-87bd14db1e",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-0f7ba88ad2",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1782302307_hd/1782302307_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "src-e8855b3528",
-              "name": "BugioTV",
-              "contents": [
-                {
-                  "id": "ct-e8855b3528",
-                  "name": "Nam Phi vs Hàn Quốc",
-                  "streams": [
-                    {
-                      "id": "st-e8855b3528",
-                      "name": "Bugio - BLV Phi MC",
-                      "stream_links": [
-                        {
-                          "id": "lnk-d5c8f635fc",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_phimc/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv1.bugio9.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "src-205e73579f",
-              "name": "BugioTV",
-              "contents": [
-                {
-                  "id": "ct-205e73579f",
-                  "name": "Nam Phi vs Hàn Quốc",
-                  "streams": [
-                    {
-                      "id": "st-205e73579f",
-                      "name": "Bugio - BLV Max",
-                      "stream_links": [
-                        {
-                          "id": "lnk-ad68922ab2",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_max/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv1.bugio9.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "FIFA World Cup",
-            "team_a": "Nam Phi",
-            "team_b": "Hàn Quốc",
-            "logo_a": "https://images.keovip88.net/images/teams/south-africa.png",
-            "logo_b": "https://images.keovip88.net/images/teams/south-korea.png",
-            "time": "08:00 25/06",
-            "blv": "blv-can, BLV Dần",
-            "is_live": false,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-87bd14db1e_96c87da4_20260625.png?v=96c87da4",
             "width": 1600,
             "height": 1200
           }
