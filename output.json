@@ -799,7 +799,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -950,6 +950,153 @@
           }
         },
         {
+          "id": "hqlive-d70f7f1b15",
+          "name": "Ogre United vs Tukums | 22:00 26/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-d70f7f1b15",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-d70f7f1b15",
+                  "name": "Ogre United vs Tukums",
+                  "streams": [
+                    {
+                      "id": "st-d70f7f1b15",
+                      "name": "HQ",
+                      "stream_links": [
+                        {
+                          "id": "lnk-fd31283a76",
+                          "name": "BLV PHAN ANH",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phananh/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Virsliga",
+            "team_a": "Ogre United",
+            "team_b": "Tukums",
+            "logo_a": "https://media.api-sports.io/football/teams/18936.png",
+            "logo_b": "https://media.api-sports.io/football/teams/4144.png",
+            "time": "22:00 26/06",
+            "blv": "BLV PHAN ANH",
+            "is_live": true,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Ogre United_Tukums_22-00 26-06_6f158a1a_20260626.png?v=6f158a1a",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-24f13f0c64",
+          "name": "Baranovichi vs Slavia Mozyr | 22:00 26/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-24f13f0c64",
+              "name": "XayConTV",
+              "contents": [
+                {
+                  "id": "ct-24f13f0c64",
+                  "name": "Baranovichi vs Slavia Mozyr",
+                  "streams": [
+                    {
+                      "id": "st-24f13f0c64",
+                      "name": "XC",
+                      "stream_links": [
+                        {
+                          "id": "lnk-0fa0d01abf",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://xclive.yarncdn.live/live/xctv_blv_vanca/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.xaycon3.live/"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://sv2.xaycon3.live"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Premier League",
+            "team_a": "Baranovichi",
+            "team_b": "Slavia Mozyr",
+            "logo_a": "https://media.api-sports.io/football/teams/3383.png",
+            "logo_b": "https://media.api-sports.io/football/teams/751.png",
+            "time": "22:00",
+            "date": "26/06",
+            "blv": "BLV Phong Vân",
+            "is_live": true,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/xaycon-stream/refs/heads/main/thumbs/xc-24f13f0c64_c661cfde_20260626.png?v=c661cfde",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "bg-bf5a1d9043",
           "name": "Smackdown vs Smackdown | 01:00 27/06",
           "type": "single",
@@ -1016,59 +1163,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-bf5a1d9043_48864606_20260626.png?v=48864606",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "hqlive-d70f7f1b15",
-          "name": "Ogre United vs Tukums | 22:00 26/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-d70f7f1b15",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-d70f7f1b15",
-                  "name": "Ogre United vs Tukums",
-                  "streams": [
-                    {
-                      "id": "st-d70f7f1b15",
-                      "name": "HQ",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Virsliga",
-            "team_a": "Ogre United",
-            "team_b": "Tukums",
-            "logo_a": "https://media.api-sports.io/football/teams/18936.png",
-            "logo_b": "https://media.api-sports.io/football/teams/4144.png",
-            "time": "22:00 26/06",
-            "blv": "BLV PHAN ANH",
-            "is_live": false,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Ogre United_Tukums_22-00 26-06_6f158a1a_20260626.png?v=6f158a1a",
             "width": 1600,
             "height": 1200
           }
@@ -3271,82 +3365,6 @@
             "width": 1600,
             "height": 1200
           }
-        },
-        {
-          "id": "xc-24f13f0c64",
-          "name": "Baranovichi vs Slavia Mozyr | 22:00 26/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-24f13f0c64",
-              "name": "XayConTV",
-              "contents": [
-                {
-                  "id": "ct-24f13f0c64",
-                  "name": "Baranovichi vs Slavia Mozyr",
-                  "streams": [
-                    {
-                      "id": "st-24f13f0c64",
-                      "name": "XC",
-                      "stream_links": [
-                        {
-                          "id": "lnk-0fa0d01abf",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://xclive.yarncdn.live/live/xctv_blv_vanca/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.xaycon3.live/"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://sv2.xaycon3.live"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Premier League",
-            "team_a": "Baranovichi",
-            "team_b": "Slavia Mozyr",
-            "logo_a": "https://media.api-sports.io/football/teams/3383.png",
-            "logo_b": "https://media.api-sports.io/football/teams/751.png",
-            "time": "22:00",
-            "date": "26/06",
-            "blv": "BLV Phong Vân",
-            "is_live": false,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/xaycon-stream/refs/heads/main/thumbs/xc-24f13f0c64_c661cfde_20260626.png?v=c661cfde",
-            "width": 1600,
-            "height": 1200
-          }
         }
       ]
     },
@@ -3893,6 +3911,148 @@
           }
         },
         {
+          "id": "gv-efb78d6a75",
+          "name": "Iran  vs Japan | 22:00 26/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-efb78d6a75",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-efb78d6a75",
+                  "name": "Iran  vs Japan",
+                  "streams": [
+                    {
+                      "id": "st-efb78d6a75",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-7a9cad55ba",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1782454524_hd/1782454524_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.team/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-6ad4ab1655",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-6ad4ab1655",
+                  "name": "Iran vs Nhật Bản",
+                  "streams": [
+                    {
+                      "id": "st-6ad4ab1655",
+                      "name": "Hoiquan - BLV PHAN HẢI",
+                      "stream_links": [
+                        {
+                          "id": "lnk-07fa7a18bb",
+                          "name": "BLV PHAN HẢI",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanhai/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-fd9dd764a6",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-fd9dd764a6",
+                  "name": "Iran - Nhật Bản",
+                  "streams": [
+                    {
+                      "id": "st-fd9dd764a6",
+                      "name": "Bugio - BLV Chim Nhỏ",
+                      "stream_links": [
+                        {
+                          "id": "lnk-378f040fcb",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_cuccu/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Nations League",
+            "team_a": "Iran ",
+            "team_b": "Japan",
+            "logo_a": "https://ssl.gstatic.com/onebox/media/sports/logos/optimized/1oq8Fy7ETpBpZNaCA22ArQ_96x96.png",
+            "logo_b": "https://ssl.gstatic.com/onebox/media/sports/logos/optimized/by4OltvtZz7taxuQtkiP3A_96x96.png",
+            "time": "22:00 26/06",
+            "blv": "BLV Sún",
+            "is_live": true,
+            "cate_type": "bongchuyen",
+            "time_start": 1782486000
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-efb78d6a75_c3037e7e_20260626.png?v=c3037e7e",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "hqlive-65b06efb31",
           "name": "Ukraina vs Canada | 21:30 26/06",
           "type": "single",
@@ -3964,77 +4124,6 @@
           }
         },
         {
-          "id": "hqlive-fbcc0d6c2e",
-          "name": "Iran vs Nhật Bản | 21:30 26/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-fbcc0d6c2e",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-fbcc0d6c2e",
-                  "name": "Iran vs Nhật Bản",
-                  "streams": [
-                    {
-                      "id": "st-fbcc0d6c2e",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-07fa7a18bb",
-                          "name": "BLV PHAN HẢI",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanhai/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Nation League Men",
-            "team_a": "Iran",
-            "team_b": "Nhật Bản",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Flag_of_Iran.svg",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Flag_of_Japan.svg/960px-Flag_of_Japan.svg.png",
-            "time": "21:30 26/06",
-            "blv": "BLV PHAN HẢI",
-            "is_live": true,
-            "sport_slug": "bong-chuyen"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Iran_Nhật Bản_21-30 26-06_8dc9a80b_20260626.png?v=8dc9a80b",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "bg-f885a14eaf",
           "name": "Ukraine - Canada | 21:30 26/06",
           "type": "single",
@@ -4101,113 +4190,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-f885a14eaf_407b69ba_20260626.png?v=407b69ba",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-efb78d6a75",
-          "name": "Iran  vs Japan | 22:00 26/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-efb78d6a75",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-efb78d6a75",
-                  "name": "Iran  vs Japan",
-                  "streams": [
-                    {
-                      "id": "st-efb78d6a75",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-7a9cad55ba",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1782454524_hd/1782454524_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.team/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "src-fd9dd764a6",
-              "name": "BugioTV",
-              "contents": [
-                {
-                  "id": "ct-fd9dd764a6",
-                  "name": "Iran - Nhật Bản",
-                  "streams": [
-                    {
-                      "id": "st-fd9dd764a6",
-                      "name": "Bugio - BLV Chim Nhỏ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-378f040fcb",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_cuccu/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv1.bugio9.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Nations League",
-            "team_a": "Iran ",
-            "team_b": "Japan",
-            "logo_a": "https://ssl.gstatic.com/onebox/media/sports/logos/optimized/1oq8Fy7ETpBpZNaCA22ArQ_96x96.png",
-            "logo_b": "https://ssl.gstatic.com/onebox/media/sports/logos/optimized/by4OltvtZz7taxuQtkiP3A_96x96.png",
-            "time": "22:00 26/06",
-            "blv": "BLV Sún",
-            "is_live": false,
-            "cate_type": "bongchuyen",
-            "time_start": 1782486000
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-efb78d6a75_c3037e7e_20260626.png?v=c3037e7e",
             "width": 1600,
             "height": 1200
           }
@@ -5471,7 +5453,7 @@
     },
     {
       "id": "grp-đua-xe",
-      "name": "🏎️ Đua Xe",
+      "name": "🏎️ Đua Xe (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -5484,10 +5466,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -5535,7 +5517,7 @@
             "logo_b": "https://media.formula1.com/image/upload/c_lfill,w_3392/q_auto/v1740000001/content/dam/fom-website/2018-redesign-assets/Racehub%20header%20images%2016x9/Austria.webp",
             "time": "22:00 26/06",
             "blv": "BLV Ngủ",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "duaxe",
             "time_start": 1782486000
           },
