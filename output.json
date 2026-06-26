@@ -799,7 +799,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá (5 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -845,6 +845,58 @@
                             {
                               "key": "User-Agent",
                               "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-015cfb57ec",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-015cfb57ec",
+                  "name": "Uruguay vs Spain",
+                  "streams": [
+                    {
+                      "id": "st-015cfb57ec",
+                      "name": "Hoiquan - BLV PHAN MÃ, BLV PHAN QUẨY",
+                      "stream_links": [
+                        {
+                          "id": "lnk-c42241b387",
+                          "name": "BLV PHAN MÃ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanma/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-b0c182498f",
+                          "name": "BLV PHAN QUẨY",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanquay/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
                             }
                           ]
                         }
@@ -1060,8 +1112,8 @@
           }
         },
         {
-          "id": "hqlive-653feb1408",
-          "name": "Novorizontino vs Vila Nova | 05:00 27/06",
+          "id": "gv-ef32a28ebb",
+          "name": "Cape Verde vs Ả Rập Xê Út | 07:00 27/06",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1071,77 +1123,6 @@
               "position": "top-left",
               "color": "#00000080",
               "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-653feb1408",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-653feb1408",
-                  "name": "Novorizontino vs Vila Nova",
-                  "streams": [
-                    {
-                      "id": "st-653feb1408",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-b10e5b640b",
-                          "name": "BLV THẦN THÔNG",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://tdlive.yarncdn.live/live/tdtv_blv_taovannghe/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Serie B",
-            "team_a": "Novorizontino",
-            "team_b": "Vila Nova",
-            "logo_a": "https://media.api-sports.io/football/teams/7834.png",
-            "logo_b": "https://media.api-sports.io/football/teams/142.png",
-            "time": "05:00 27/06",
-            "blv": "BLV THẦN THÔNG",
-            "is_live": true,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Novorizontino_Vila Nova_05-00 27-06_20bf0fe3_20260627.png?v=20bf0fe3",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-ef32a28ebb",
-          "name": "Cape Verde vs Ả Rập Xê Út | 07:00 27/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
             }
           ],
           "sources": [
@@ -1224,7 +1205,7 @@
             "logo_b": "https://images.keovip88.net/images/teams/saudi-arabia.png",
             "time": "07:00 27/06",
             "blv": "ngu-ngong-27",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football",
             "time_start": 1782518400
           },
@@ -1238,6 +1219,77 @@
           }
         },
         {
+          "id": "hqlive-653feb1408",
+          "name": "Novorizontino vs Vila Nova | 05:00 27/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-653feb1408",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-653feb1408",
+                  "name": "Novorizontino vs Vila Nova",
+                  "streams": [
+                    {
+                      "id": "st-653feb1408",
+                      "name": "HQ",
+                      "stream_links": [
+                        {
+                          "id": "lnk-b10e5b640b",
+                          "name": "BLV THẦN THÔNG",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://tdlive.yarncdn.live/live/tdtv_blv_taovannghe/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Serie B",
+            "team_a": "Novorizontino",
+            "team_b": "Vila Nova",
+            "logo_a": "https://media.api-sports.io/football/teams/7834.png",
+            "logo_b": "https://media.api-sports.io/football/teams/142.png",
+            "time": "05:00 27/06",
+            "blv": "BLV THẦN THÔNG",
+            "is_live": true,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Novorizontino_Vila Nova_05-00 27-06_20bf0fe3_20260627.png?v=20bf0fe3",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "hqlive-134fb8d678",
           "name": "Cape Verde Islands vs Saudi Arabia | 07:00 27/06",
           "type": "single",
@@ -1245,10 +1297,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -1263,7 +1315,25 @@
                     {
                       "id": "st-134fb8d678",
                       "name": "HQ",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-b10e5b640b",
+                          "name": "BLV THẦN THÔNG",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://tdlive.yarncdn.live/live/tdtv_blv_taovannghe/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -1395,7 +1465,7 @@
             "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Flag_of_Saudi_Arabia.svg/330px-Flag_of_Saudi_Arabia.svg.png",
             "time": "07:00 27/06",
             "blv": "BLV THẦN THÔNG",
-            "is_live": false,
+            "is_live": true,
             "sport_slug": "bong-da"
           },
           "image": {
@@ -1403,6 +1473,77 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Cape Verde Islands_Saudi Arabia_07-00 27-06_a2fa844b_20260627.png?v=a2fa844b",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "bg-8073bd4ed0",
+          "name": "Smackdown vs Smackdown | 07:00 27/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-8073bd4ed0",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-8073bd4ed0",
+                  "name": "Smackdown vs Smackdown",
+                  "streams": [
+                    {
+                      "id": "st-8073bd4ed0",
+                      "name": "BG",
+                      "stream_links": [
+                        {
+                          "id": "lnk-970b2a547c",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_phaothan/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "WW",
+            "team_a": "Smackdown",
+            "team_b": "Smackdown",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/c/c9/WWE_SmackDown_%282024%29_Logo.svg",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/c/c9/WWE_SmackDown_%282024%29_Logo.svg",
+            "start_time": "2026-06-27T07:00:00",
+            "blv": "BLV Pháo",
+            "is_live": true,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-8073bd4ed0_bb516613_20260627.png?v=bb516613",
             "width": 1600,
             "height": 1200
           }
@@ -2913,275 +3054,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Criciuma_São Bernardo_02-00 28-06_41745e6c_20260627.png?v=41745e6c",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "qc-33d1f34f17",
-          "name": "Colombia vs Portugal | 06:30 28/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-33d1f34f17",
-              "name": "QuechoaTV",
-              "contents": [
-                {
-                  "id": "ct-33d1f34f17",
-                  "name": "Colombia vs Portugal",
-                  "streams": [
-                    {
-                      "id": "st-33d1f34f17",
-                      "name": "QC",
-                      "stream_links": [
-                        {
-                          "id": "lnk-6cafe33b0c",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ahghndtkyqmm-pull.bpmedialive.com/quechoa/blv1.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://quechoa10.live/"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://quechoa10.live"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "src-27802b59da",
-              "name": "XayConTV",
-              "contents": [
-                {
-                  "id": "ct-27802b59da",
-                  "name": "Colombia vs Portugal",
-                  "streams": [
-                    {
-                      "id": "st-27802b59da",
-                      "name": "Xaycon - BLV Bịp Con",
-                      "stream_links": [
-                        {
-                          "id": "lnk-30319ba8f3",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://xclive.yarncdn.live/live/xctv_blv_bipcon/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.xaycon3.live/"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://sv2.xaycon3.live"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "src-767f2b2b6d",
-              "name": "XayConTV",
-              "contents": [
-                {
-                  "id": "ct-767f2b2b6d",
-                  "name": "Colombia vs Portugal",
-                  "streams": [
-                    {
-                      "id": "st-767f2b2b6d",
-                      "name": "Xaycon - BLV Thợ Lặn",
-                      "stream_links": [
-                        {
-                          "id": "lnk-fa5c7698a5",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://xclive.yarncdn.live/live/xctv_blv_tholan/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.xaycon3.live/"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://sv2.xaycon3.live"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "World Cup",
-            "team_a": "Colombia",
-            "team_b": "Portugal",
-            "logo_a": "https://media.api-sports.io/football/teams/8.png",
-            "logo_b": "https://storage.quechoa2.live/logos/teams/1770858850389-portugal-national-team-logo.png",
-            "time": "06:30",
-            "date": "28/06",
-            "blv": "PUMA, VỎ QUÝT, CHÈ XANH",
-            "is_live": false,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/quechoa-stream/refs/heads/main/thumbs/qc-33d1f34f17_6760a64e_20260627.png?v=6760a64e",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "qc-fa990f8337",
-          "name": "Congo DR vs Uzbekistan | 06:30 28/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-fa990f8337",
-              "name": "QuechoaTV",
-              "contents": [
-                {
-                  "id": "ct-fa990f8337",
-                  "name": "Congo DR vs Uzbekistan",
-                  "streams": [
-                    {
-                      "id": "st-fa990f8337",
-                      "name": "QC",
-                      "stream_links": [
-                        {
-                          "id": "lnk-9ecfdd7bcf",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ahghndtkyqmm-pull.bpmedialive.com/quechoa/blv_nemchua.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://quechoa10.live/"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://quechoa10.live"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "src-a7f775283f",
-              "name": "XayConTV",
-              "contents": [
-                {
-                  "id": "ct-a7f775283f",
-                  "name": "Congo DR vs Uzbekistan",
-                  "streams": [
-                    {
-                      "id": "st-a7f775283f",
-                      "name": "Xaycon - BLV Tam Mao",
-                      "stream_links": [
-                        {
-                          "id": "lnk-bccd486b79",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://xclive.yarncdn.live/live/xctv_blv_tammao/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.xaycon3.live/"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://sv2.xaycon3.live"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "World Cup",
-            "team_a": "Congo DR",
-            "team_b": "Uzbekistan",
-            "logo_a": "https://media.api-sports.io/football/teams/1508.png",
-            "logo_b": "https://media.api-sports.io/football/teams/1568.png",
-            "time": "06:30",
-            "date": "28/06",
-            "blv": "NEM CHUA, VĂN MINH",
-            "is_live": false,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/quechoa-stream/refs/heads/main/thumbs/qc-fa990f8337_5f71768e_20260627.png?v=5f71768e",
             "width": 1600,
             "height": 1200
           }
