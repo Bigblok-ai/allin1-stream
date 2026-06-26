@@ -3604,7 +3604,7 @@
     },
     {
       "id": "grp-bóng-rổ",
-      "name": "🏀 Bóng Rổ (1 LIVE)",
+      "name": "🏀 Bóng Rổ (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -3670,10 +3670,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -3703,7 +3703,7 @@
             "logo_b": "https://static.flashscore.com/res/image/data/I7M8mRh5-MqRS5Sy2.png",
             "time": "19:30 26/06",
             "blv": "BLV Tôm",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "basketball"
           },
           "image": {
@@ -3833,7 +3833,7 @@
     },
     {
       "id": "grp-bóng-chuyền",
-      "name": "🏐 Bóng Chuyền (2 LIVE)",
+      "name": "🏐 Bóng Chuyền (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -3887,6 +3887,94 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-23bb7cd8be_fe5afdad_20260626.png?v=fe5afdad",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-1699b3db98",
+          "name": "Indonesia  vs Oman | 19:30 26/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-1699b3db98",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-1699b3db98",
+                  "name": "Indonesia  vs Oman",
+                  "streams": [
+                    {
+                      "id": "st-1699b3db98",
+                      "name": "GV",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-f25b3f1332",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-f25b3f1332",
+                  "name": "Indonesia vs Oman",
+                  "streams": [
+                    {
+                      "id": "st-f25b3f1332",
+                      "name": "Hoiquan - BLV TÁO GIÀ",
+                      "stream_links": [
+                        {
+                          "id": "lnk-1cad2e4412",
+                          "name": "BLV TÁO GIÀ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://tdlive.yarncdn.live/live/tdtv_blv_taotinhtao/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "AVC Nations Cup",
+            "team_a": "Indonesia ",
+            "team_b": "Oman",
+            "logo_a": "https://static.flashscore.com/res/image/data/WvrcHkXg-QBz8eAFI.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/KGYHRIYA-baDaGjjh.png",
+            "time": "19:30 26/06",
+            "blv": "BLV Mason",
+            "is_live": true,
+            "cate_type": "bongchuyen"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-1699b3db98_78ca84e9_20260626.png?v=78ca84e9",
             "width": 1600,
             "height": 1200
           }
@@ -3958,59 +4046,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-f885a14eaf_407b69ba_20260626.png?v=407b69ba",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-1699b3db98",
-          "name": "Indonesia  vs Oman | 19:30 26/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-1699b3db98",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-1699b3db98",
-                  "name": "Indonesia  vs Oman",
-                  "streams": [
-                    {
-                      "id": "st-1699b3db98",
-                      "name": "GV",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "AVC Nations Cup",
-            "team_a": "Indonesia ",
-            "team_b": "Oman",
-            "logo_a": "https://static.flashscore.com/res/image/data/WvrcHkXg-QBz8eAFI.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/KGYHRIYA-baDaGjjh.png",
-            "time": "19:30 26/06",
-            "blv": "BLV Mason",
-            "is_live": false,
-            "cate_type": "bongchuyen"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-1699b3db98_78ca84e9_20260626.png?v=78ca84e9",
             "width": 1600,
             "height": 1200
           }
