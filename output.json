@@ -799,7 +799,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (4 LIVE)",
+      "name": "⚽ Bóng Đá (5 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1057,6 +1057,82 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/xaycon-stream/refs/heads/main/thumbs/xc-24f13f0c64_c661cfde_20260626.png?v=c661cfde",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-7f22a298cd",
+          "name": "IK brage vs Falkenbergs FF | 00:00 27/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-7f22a298cd",
+              "name": "XayConTV",
+              "contents": [
+                {
+                  "id": "ct-7f22a298cd",
+                  "name": "IK brage vs Falkenbergs FF",
+                  "streams": [
+                    {
+                      "id": "st-7f22a298cd",
+                      "name": "XC",
+                      "stream_links": [
+                        {
+                          "id": "lnk-bccd486b79",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://xclive.yarncdn.live/live/xctv_blv_tammao/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.xaycon3.live/"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://sv2.xaycon3.live"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Superettan",
+            "team_a": "IK brage",
+            "team_b": "Falkenbergs FF",
+            "logo_a": "https://media.api-sports.io/football/teams/2175.png",
+            "logo_b": "https://media.api-sports.io/football/teams/812.png",
+            "time": "00:00",
+            "date": "27/06",
+            "blv": "BLV Tam Mao",
+            "is_live": true,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/xaycon-stream/refs/heads/main/thumbs/xc-7f22a298cd_4d72cf9d_20260626.png?v=4d72cf9d",
             "width": 1600,
             "height": 1200
           }
@@ -3245,82 +3321,6 @@
           }
         },
         {
-          "id": "xc-7f22a298cd",
-          "name": "IK brage vs Falkenbergs FF | 00:00 27/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-7f22a298cd",
-              "name": "XayConTV",
-              "contents": [
-                {
-                  "id": "ct-7f22a298cd",
-                  "name": "IK brage vs Falkenbergs FF",
-                  "streams": [
-                    {
-                      "id": "st-7f22a298cd",
-                      "name": "XC",
-                      "stream_links": [
-                        {
-                          "id": "lnk-bccd486b79",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://xclive.yarncdn.live/live/xctv_blv_tammao/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.xaycon3.live/"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://sv2.xaycon3.live"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Superettan",
-            "team_a": "IK brage",
-            "team_b": "Falkenbergs FF",
-            "logo_a": "https://media.api-sports.io/football/teams/2175.png",
-            "logo_b": "https://media.api-sports.io/football/teams/812.png",
-            "time": "00:00",
-            "date": "27/06",
-            "blv": "BLV Tam Mao",
-            "is_live": false,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/xaycon-stream/refs/heads/main/thumbs/xc-7f22a298cd_4d72cf9d_20260626.png?v=4d72cf9d",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "qc-f549d84716",
           "name": "Croatia vs Ghana | 04:00 28/06",
           "type": "single",
@@ -4446,7 +4446,7 @@
     },
     {
       "id": "grp-bóng-chuyền",
-      "name": "🏐 Bóng Chuyền (5 LIVE)",
+      "name": "🏐 Bóng Chuyền (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -4519,113 +4519,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-23bb7cd8be_0c89c296_20260626.png?v=0c89c296",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-8b6ad623a1",
-          "name": "Canada  vs Ukraine | 21:30 26/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-8b6ad623a1",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-8b6ad623a1",
-                  "name": "Canada  vs Ukraine",
-                  "streams": [
-                    {
-                      "id": "st-8b6ad623a1",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-74d8d18571",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1782461066_hd/1782461066_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.team/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "src-f885a14eaf",
-              "name": "BugioTV",
-              "contents": [
-                {
-                  "id": "ct-f885a14eaf",
-                  "name": "Ukraine - Canada",
-                  "streams": [
-                    {
-                      "id": "st-f885a14eaf",
-                      "name": "Bugio - BLV Tiểu Mèo",
-                      "stream_links": [
-                        {
-                          "id": "lnk-21936c1c94",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_tieumeo/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv1.bugio9.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Nations League",
-            "team_a": "Canada ",
-            "team_b": "Ukraine",
-            "logo_a": "https://ssl.gstatic.com/onebox/media/sports/logos/optimized/H23oIEP6qK-zNc3O8abnIA_96x96.png",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/4/49/Flag_of_Ukraine.svg",
-            "time": "21:30 26/06",
-            "blv": "BLV Trĩ",
-            "is_live": true,
-            "cate_type": "bongchuyen",
-            "time_start": 1782484200
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-8b6ad623a1_02412104_20260626.png?v=02412104",
             "width": 1600,
             "height": 1200
           }
@@ -4840,77 +4733,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-9f69d13add_0c671f2a_20260626.png?v=0c671f2a",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "hqlive-65b06efb31",
-          "name": "Ukraina vs Canada | 21:30 26/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-65b06efb31",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-65b06efb31",
-                  "name": "Ukraina vs Canada",
-                  "streams": [
-                    {
-                      "id": "st-65b06efb31",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-f6231c6549",
-                          "name": "BLV PHAN CA",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanca/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Nation League Men",
-            "team_a": "Ukraina",
-            "team_b": "Canada",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/4/49/Flag_of_Ukraine.svg",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/c/cf/Flag_of_Canada.svg",
-            "time": "21:30 26/06",
-            "blv": "BLV PHAN CA",
-            "is_live": true,
-            "sport_slug": "bong-chuyen"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Ukraina_Canada_21-30 26-06_def251b4_20260626.png?v=def251b4",
             "width": 1600,
             "height": 1200
           }
@@ -6118,84 +5940,11 @@
     },
     {
       "id": "grp-võ-thuật",
-      "name": "🥊 Võ Thuật (1 LIVE)",
+      "name": "🥊 Võ Thuật",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
-      "channels": [
-        {
-          "id": "gv-63610d66ce",
-          "name": "ONE Friday Fights 160 & The Inner Circle vs ONE Friday Fights 160 & The Inner Circle | 18:30 26/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-63610d66ce",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-63610d66ce",
-                  "name": "ONE Friday Fights 160 & The Inner Circle vs ONE Friday Fights 160 & The Inner Circle",
-                  "streams": [
-                    {
-                      "id": "st-63610d66ce",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-83b950ebf9",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1782454739_hd/1782454739_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.team/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "ONE Friday Fights 160 & The Inner Circle",
-            "team_a": "ONE Friday Fights 160 & The Inner Circle",
-            "team_b": "ONE Friday Fights 160 & The Inner Circle",
-            "logo_a": "https://cdn.onefc.com/wp-content/uploads/2026/03/260626-BKK-OFF160_TIC20-1800x1200px.jpg",
-            "logo_b": "https://cdn.onefc.com/wp-content/uploads/2026/03/260626-BKK-OFF160_TIC20-1800x1200px.jpg",
-            "time": "18:30 26/06",
-            "blv": "BLV Dory",
-            "is_live": true,
-            "cate_type": "vothuat",
-            "time_start": 1782473400
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-63610d66ce_5d4cb082_20260626.png?v=5d4cb082",
-            "width": 1600,
-            "height": 1200
-          }
-        }
-      ]
+      "channels": []
     },
     {
       "id": "grp-pickleball",
