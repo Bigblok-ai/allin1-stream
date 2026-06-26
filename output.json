@@ -799,7 +799,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (4 LIVE)",
+      "name": "⚽ Bóng Đá (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1058,77 +1058,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/xaycon-stream/refs/heads/main/thumbs/xc-7f22a298cd_4d72cf9d_20260627.png?v=4d72cf9d",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "bg-bf5a1d9043",
-          "name": "Smackdown vs Smackdown | 01:00 27/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-bf5a1d9043",
-              "name": "BugioTV",
-              "contents": [
-                {
-                  "id": "ct-bf5a1d9043",
-                  "name": "Smackdown vs Smackdown",
-                  "streams": [
-                    {
-                      "id": "st-bf5a1d9043",
-                      "name": "BG",
-                      "stream_links": [
-                        {
-                          "id": "lnk-970b2a547c",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_phaothan/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv1.bugio9.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "WWE",
-            "team_a": "Smackdown",
-            "team_b": "Smackdown",
-            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSPX-DYhJMgRH-1uxHN-qrv3wUzuWSqqSgvRigQH2lkL8NS6FN",
-            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSPX-DYhJMgRH-1uxHN-qrv3wUzuWSqqSgvRigQH2lkL8NS6FN",
-            "start_time": "2026-06-27T01:00:00",
-            "blv": "BLV Pháo",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-bf5a1d9043_48864606_20260627.png?v=48864606",
             "width": 1600,
             "height": 1200
           }
@@ -3174,6 +3103,98 @@
           }
         },
         {
+          "id": "hqlive-57fbb04643",
+          "name": "Mariehamn vs Inter Turku | 21:00 27/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-57fbb04643",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-57fbb04643",
+                  "name": "Mariehamn vs Inter Turku",
+                  "streams": [
+                    {
+                      "id": "st-57fbb04643",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-abb9cc8acd",
+              "name": "XayConTV",
+              "contents": [
+                {
+                  "id": "ct-abb9cc8acd",
+                  "name": "Mariehamn vs Inter Turku",
+                  "streams": [
+                    {
+                      "id": "st-abb9cc8acd",
+                      "name": "Xaycon - BLV Phong Vân",
+                      "stream_links": [
+                        {
+                          "id": "lnk-0fa0d01abf",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://xclive.yarncdn.live/live/xctv_blv_vanca/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.xaycon3.live/"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://sv2.xaycon3.live"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Veikkausliiga",
+            "team_a": "Mariehamn",
+            "team_b": "Inter Turku",
+            "logo_a": "https://media.api-sports.io/football/teams/587.png",
+            "logo_b": "https://media.api-sports.io/football/teams/1164.png",
+            "time": "21:00 27/06",
+            "blv": "BLV PHAN ANH",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Mariehamn_Inter Turku_21-00 27-06_90b9d7bd_20260627.png?v=90b9d7bd",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "qc-f549d84716",
           "name": "Croatia vs Ghana | 04:00 28/06",
           "type": "single",
@@ -4371,7 +4392,7 @@
     },
     {
       "id": "grp-bóng-chuyền",
-      "name": "🏐 Bóng Chuyền (3 LIVE)",
+      "name": "🏐 Bóng Chuyền (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -4669,10 +4690,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -4687,7 +4708,25 @@
                     {
                       "id": "st-f41b51cf95",
                       "name": "HQ",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-6568b58b01",
+                          "name": "BLV PHAN BỐNG",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanbong/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -4702,7 +4741,7 @@
             "logo_b": "https://upload.wikimedia.org/wikipedia/commons/b/bd/Flag_of_Cuba.svg",
             "time": "01:30 27/06",
             "blv": "BLV PHAN BỐNG",
-            "is_live": false,
+            "is_live": true,
             "sport_slug": "bong-chuyen"
           },
           "image": {
