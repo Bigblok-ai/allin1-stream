@@ -799,7 +799,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá",
+      "name": "⚽ Bóng Đá (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -812,10 +812,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -830,7 +830,25 @@
                     {
                       "id": "st-a1c2b22cf0",
                       "name": "HQ",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-1cad2e4412",
+                          "name": "BLV TÁO GIÀ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://tdlive.yarncdn.live/live/tdtv_blv_taotinhtao/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -845,7 +863,7 @@
             "logo_b": "https://media.api-sports.io/football/teams/10215.png",
             "time": "16:30 26/06",
             "blv": "BLV TÁO GIÀ",
-            "is_live": false,
+            "is_live": true,
             "sport_slug": "bong-da"
           },
           "image": {
@@ -3112,7 +3130,7 @@
     },
     {
       "id": "grp-bóng-chuyền",
-      "name": "🏐 Bóng Chuyền (4 LIVE)",
+      "name": "🏐 Bóng Chuyền (5 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -3184,6 +3202,77 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-23bb7cd8be_fe5afdad_20260626.png?v=fe5afdad",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-6519d248c3",
+          "name": "Qatar vs Hàn Quốc | 16:30 26/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-6519d248c3",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-6519d248c3",
+                  "name": "Qatar vs Hàn Quốc",
+                  "streams": [
+                    {
+                      "id": "st-6519d248c3",
+                      "name": "HQ",
+                      "stream_links": [
+                        {
+                          "id": "lnk-f6231c6549",
+                          "name": "BLV PHAN CA",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanca/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "AVC Nations Cup 2026",
+            "team_a": "Qatar",
+            "team_b": "Hàn Quốc",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/6/65/Flag_of_Qatar.svg",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Flag_of_South_Korea.svg/1280px-Flag_of_South_Korea.svg.png",
+            "time": "16:30 26/06",
+            "blv": "BLV PHAN CA",
+            "is_live": true,
+            "sport_slug": "bong-chuyen"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Qatar_Hàn Quốc_16-30 26-06_8df96f03_20260626.png?v=8df96f03",
             "width": 1600,
             "height": 1200
           }
@@ -3397,59 +3486,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-c0a5a65e55_24bd7538_20260626.png?v=24bd7538",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "hqlive-6519d248c3",
-          "name": "Qatar vs Hàn Quốc | 16:30 26/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-6519d248c3",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-6519d248c3",
-                  "name": "Qatar vs Hàn Quốc",
-                  "streams": [
-                    {
-                      "id": "st-6519d248c3",
-                      "name": "HQ",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "AVC Nations Cup 2026",
-            "team_a": "Qatar",
-            "team_b": "Hàn Quốc",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/6/65/Flag_of_Qatar.svg",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Flag_of_South_Korea.svg/1280px-Flag_of_South_Korea.svg.png",
-            "time": "16:30 26/06",
-            "blv": "BLV PHAN CA",
-            "is_live": false,
-            "sport_slug": "bong-chuyen"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Qatar_Hàn Quốc_16-30 26-06_8df96f03_20260626.png?v=8df96f03",
             "width": 1600,
             "height": 1200
           }
