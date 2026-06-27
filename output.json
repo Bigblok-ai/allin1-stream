@@ -799,7 +799,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (6 LIVE)",
+      "name": "⚽ Bóng Đá (7 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1093,6 +1093,113 @@
           }
         },
         {
+          "id": "gv-e5bb2ea2b5",
+          "name": "AC Oulu vs Lahti | 01:00 28/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-e5bb2ea2b5",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-e5bb2ea2b5",
+                  "name": "AC Oulu vs Lahti",
+                  "streams": [
+                    {
+                      "id": "st-e5bb2ea2b5",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-e5300126ab",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1782353645_hd/1782353645_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.team/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-6d076a468e",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-6d076a468e",
+                  "name": "AC Oulu vs Lahti",
+                  "streams": [
+                    {
+                      "id": "st-6d076a468e",
+                      "name": "Hoiquan - BLV PHAN HÀ LINH",
+                      "stream_links": [
+                        {
+                          "id": "lnk-a4d653008a",
+                          "name": "BLV PHAN HÀ LINH",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanhalinh/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "VĐQG Phần Lan",
+            "team_a": "AC Oulu",
+            "team_b": "Lahti",
+            "logo_a": "https://images.keovip88.net/images/teams/ac-oulu.png",
+            "logo_b": "https://images.keovip88.net/images/teams/lahti.png",
+            "time": "01:00 28/06",
+            "blv": "BLV Mù",
+            "is_live": true,
+            "cate_type": "football",
+            "time_start": 1782583200
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-e5bb2ea2b5_bb274b7d_20260628.png?v=bb274b7d",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "hqlive-0b47b9cccc",
           "name": "Gnistan vs VPS | 23:00 27/06",
           "type": "single",
@@ -1230,78 +1337,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-125b93c9b5_364994a8_20260628.png?v=364994a8",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-e5bb2ea2b5",
-          "name": "AC Oulu vs Lahti | 01:00 28/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-e5bb2ea2b5",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-e5bb2ea2b5",
-                  "name": "AC Oulu vs Lahti",
-                  "streams": [
-                    {
-                      "id": "st-e5bb2ea2b5",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-e5300126ab",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1782353645_hd/1782353645_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.team/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "VĐQG Phần Lan",
-            "team_a": "AC Oulu",
-            "team_b": "Lahti",
-            "logo_a": "https://images.keovip88.net/images/teams/ac-oulu.png",
-            "logo_b": "https://images.keovip88.net/images/teams/lahti.png",
-            "time": "01:00 28/06",
-            "blv": "BLV Mù",
-            "is_live": false,
-            "cate_type": "football",
-            "time_start": 1782583200
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-e5bb2ea2b5_bb274b7d_20260628.png?v=bb274b7d",
             "width": 1600,
             "height": 1200
           }
@@ -1926,6 +1961,111 @@
                   ]
                 }
               ]
+            },
+            {
+              "id": "src-db90f689b1",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-db90f689b1",
+                  "name": "Colombia vs Bồ Đào Nha",
+                  "streams": [
+                    {
+                      "id": "st-db90f689b1",
+                      "name": "Bugio - BLV Tiểu Trà Đá",
+                      "stream_links": [
+                        {
+                          "id": "lnk-0ba3f9d037",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_trada/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-beb04c41b4",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-beb04c41b4",
+                  "name": "Colombia vs Bồ Đào Nha",
+                  "streams": [
+                    {
+                      "id": "st-beb04c41b4",
+                      "name": "Bugio - BLV Phi MC",
+                      "stream_links": [
+                        {
+                          "id": "lnk-d5c8f635fc",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_phimc/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-ac27b77292",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-ac27b77292",
+                  "name": "Colombia vs Bồ Đào Nha",
+                  "streams": [
+                    {
+                      "id": "st-ac27b77292",
+                      "name": "Bugio - BLV Max",
+                      "stream_links": [
+                        {
+                          "id": "lnk-ad68922ab2",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_max/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
             }
           ],
           "org_metadata": {
@@ -2288,6 +2428,41 @@
                             {
                               "key": "Origin",
                               "value": "https://sv2.xaycon3.live"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-d693d554e0",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-d693d554e0",
+                  "name": "Congo DR vs Uzbekistan",
+                  "streams": [
+                    {
+                      "id": "st-d693d554e0",
+                      "name": "Bugio - BLV Mao Từn",
+                      "stream_links": [
+                        {
+                          "id": "lnk-51a73d71ba",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_mason/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
                             },
                             {
                               "key": "User-Agent",
