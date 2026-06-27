@@ -799,7 +799,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (4 LIVE)",
+      "name": "⚽ Bóng Đá (6 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -949,6 +949,78 @@
           }
         },
         {
+          "id": "gv-c69a3abe16",
+          "name": "TPS Turku vs Jaro | 23:00 27/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-c69a3abe16",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-c69a3abe16",
+                  "name": "TPS Turku vs Jaro",
+                  "streams": [
+                    {
+                      "id": "st-c69a3abe16",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-ccb1887281",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1782353605_hd/1782353605_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.team/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "VĐQG Phần Lan",
+            "team_a": "TPS Turku",
+            "team_b": "Jaro",
+            "logo_a": "https://images.keovip88.net/images/teams/tps-turku.png",
+            "logo_b": "https://images.keovip88.net/images/teams/jaro.png",
+            "time": "23:00 27/06",
+            "blv": "BLV Hợi",
+            "is_live": true,
+            "cate_type": "football",
+            "time_start": 1782576000
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-c69a3abe16_c739ba10_20260627.png?v=c739ba10",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "hqlive-57fbb04643",
           "name": "Mariehamn vs Inter Turku | 21:00 27/06",
           "type": "single",
@@ -1059,6 +1131,116 @@
           }
         },
         {
+          "id": "hqlive-0b47b9cccc",
+          "name": "Gnistan vs VPS | 23:00 27/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-0b47b9cccc",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-0b47b9cccc",
+                  "name": "Gnistan vs VPS",
+                  "streams": [
+                    {
+                      "id": "st-0b47b9cccc",
+                      "name": "HQ",
+                      "stream_links": [
+                        {
+                          "id": "lnk-f6231c6549",
+                          "name": "BLV PHAN CA",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanca/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-75a829a64d",
+              "name": "XayConTV",
+              "contents": [
+                {
+                  "id": "ct-75a829a64d",
+                  "name": "Gnistan vs VPS",
+                  "streams": [
+                    {
+                      "id": "st-75a829a64d",
+                      "name": "Xaycon - BLV Bịp Con",
+                      "stream_links": [
+                        {
+                          "id": "lnk-30319ba8f3",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://xclive.yarncdn.live/live/xctv_blv_bipcon/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.xaycon3.live/"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://sv2.xaycon3.live"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Veikkausliiga",
+            "team_a": "Gnistan",
+            "team_b": "VPS",
+            "logo_a": "https://media.api-sports.io/football/teams/2082.png",
+            "logo_b": "https://media.api-sports.io/football/teams/650.png",
+            "time": "23:00 27/06",
+            "blv": "BLV PHAN CA",
+            "is_live": true,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Gnistan_VPS_23-00 27-06_c174b244_20260627.png?v=c174b244",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "bg-125b93c9b5",
           "name": "Night of champions | 00:00 28/06",
           "type": "single",
@@ -1125,170 +1307,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-125b93c9b5_364994a8_20260627.png?v=364994a8",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-c69a3abe16",
-          "name": "TPS Turku vs Jaro | 23:00 27/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-c69a3abe16",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-c69a3abe16",
-                  "name": "TPS Turku vs Jaro",
-                  "streams": [
-                    {
-                      "id": "st-c69a3abe16",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-ccb1887281",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1782353605_hd/1782353605_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.team/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "VĐQG Phần Lan",
-            "team_a": "TPS Turku",
-            "team_b": "Jaro",
-            "logo_a": "https://images.keovip88.net/images/teams/tps-turku.png",
-            "logo_b": "https://images.keovip88.net/images/teams/jaro.png",
-            "time": "23:00 27/06",
-            "blv": "BLV Hợi",
-            "is_live": false,
-            "cate_type": "football",
-            "time_start": 1782576000
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-c69a3abe16_c739ba10_20260627.png?v=c739ba10",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "hqlive-0b47b9cccc",
-          "name": "Gnistan vs VPS | 23:00 27/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-0b47b9cccc",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-0b47b9cccc",
-                  "name": "Gnistan vs VPS",
-                  "streams": [
-                    {
-                      "id": "st-0b47b9cccc",
-                      "name": "HQ",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "src-75a829a64d",
-              "name": "XayConTV",
-              "contents": [
-                {
-                  "id": "ct-75a829a64d",
-                  "name": "Gnistan vs VPS",
-                  "streams": [
-                    {
-                      "id": "st-75a829a64d",
-                      "name": "Xaycon - BLV Bịp Con",
-                      "stream_links": [
-                        {
-                          "id": "lnk-30319ba8f3",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://xclive.yarncdn.live/live/xctv_blv_bipcon/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.xaycon3.live/"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://sv2.xaycon3.live"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Veikkausliiga",
-            "team_a": "Gnistan",
-            "team_b": "VPS",
-            "logo_a": "https://media.api-sports.io/football/teams/2082.png",
-            "logo_b": "https://media.api-sports.io/football/teams/650.png",
-            "time": "23:00 27/06",
-            "blv": "BLV PHAN CA",
-            "is_live": false,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Gnistan_VPS_23-00 27-06_c174b244_20260627.png?v=c174b244",
             "width": 1600,
             "height": 1200
           }
