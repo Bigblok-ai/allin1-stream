@@ -799,7 +799,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (3 LIVE)",
+      "name": "⚽ Bóng Đá (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1020,6 +1020,112 @@
           }
         },
         {
+          "id": "hqlive-0aac808f67",
+          "name": "Henan Jianye vs SHANGHAI SIPG | 18:35 27/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-0aac808f67",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-0aac808f67",
+                  "name": "Henan Jianye vs SHANGHAI SIPG",
+                  "streams": [
+                    {
+                      "id": "st-0aac808f67",
+                      "name": "HQ",
+                      "stream_links": [
+                        {
+                          "id": "lnk-a4d653008a",
+                          "name": "BLV PHAN HÀ LINH",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanhalinh/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-a753a43564",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-a753a43564",
+                  "name": "Henan Jianye vs SHANGHAI SIPG",
+                  "streams": [
+                    {
+                      "id": "st-a753a43564",
+                      "name": "Bugio - BLV Max",
+                      "stream_links": [
+                        {
+                          "id": "lnk-ad68922ab2",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_max/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Super League",
+            "team_a": "Henan Jianye",
+            "team_b": "SHANGHAI SIPG",
+            "logo_a": "https://media.api-sports.io/football/teams/840.png",
+            "logo_b": "https://media.api-sports.io/football/teams/836.png",
+            "time": "18:35 27/06",
+            "blv": "BLV PHAN HÀ LINH",
+            "is_live": true,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Henan Jianye_SHANGHAI SIPG_18-35 27-06_8a194275_20260627.png?v=8a194275",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "gv-abdda38837",
           "name": "Shenzhen Xinpengcheng vs Chengdu Rongcheng | 18:35 27/06",
           "type": "single",
@@ -1087,94 +1193,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-abdda38837_5ded88f8_20260627.png?v=5ded88f8",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "hqlive-0aac808f67",
-          "name": "Henan Jianye vs SHANGHAI SIPG | 18:35 27/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-0aac808f67",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-0aac808f67",
-                  "name": "Henan Jianye vs SHANGHAI SIPG",
-                  "streams": [
-                    {
-                      "id": "st-0aac808f67",
-                      "name": "HQ",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "src-a753a43564",
-              "name": "BugioTV",
-              "contents": [
-                {
-                  "id": "ct-a753a43564",
-                  "name": "Henan Jianye vs SHANGHAI SIPG",
-                  "streams": [
-                    {
-                      "id": "st-a753a43564",
-                      "name": "Bugio - BLV Max",
-                      "stream_links": [
-                        {
-                          "id": "lnk-ad68922ab2",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_max/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv1.bugio9.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Super League",
-            "team_a": "Henan Jianye",
-            "team_b": "SHANGHAI SIPG",
-            "logo_a": "https://media.api-sports.io/football/teams/840.png",
-            "logo_b": "https://media.api-sports.io/football/teams/836.png",
-            "time": "18:35 27/06",
-            "blv": "BLV PHAN HÀ LINH",
-            "is_live": false,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Henan Jianye_SHANGHAI SIPG_18-35 27-06_8a194275_20260627.png?v=8a194275",
             "width": 1600,
             "height": 1200
           }
@@ -3068,6 +3086,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Gold Coast United_Moreton City Excelsior_12-00 28-06_9d37749e_20260627.png?v=9d37749e",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-3d5a4a77a0",
+          "name": "Lions vs WDSC Wolves | 14:00 28/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-3d5a4a77a0",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-3d5a4a77a0",
+                  "name": "Lions vs WDSC Wolves",
+                  "streams": [
+                    {
+                      "id": "st-3d5a4a77a0",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Queensland NPL",
+            "team_a": "Lions",
+            "team_b": "WDSC Wolves",
+            "logo_a": "https://media.api-sports.io/football/teams/10217.png",
+            "logo_b": "https://media.api-sports.io/football/teams/11184.png",
+            "time": "14:00 28/06",
+            "blv": "BLV PHAN CA",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Lions_WDSC Wolves_14-00 28-06_aa9425ef_20260627.png?v=aa9425ef",
             "width": 1600,
             "height": 1200
           }
