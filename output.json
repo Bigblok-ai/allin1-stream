@@ -799,7 +799,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (3 LIVE)",
+      "name": "⚽ Bóng Đá (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -948,6 +948,116 @@
           }
         },
         {
+          "id": "hqlive-26e72e577d",
+          "name": "Dalian Zhixing vs Shanghai Shenhua | 18:00 28/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-26e72e577d",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-26e72e577d",
+                  "name": "Dalian Zhixing vs Shanghai Shenhua",
+                  "streams": [
+                    {
+                      "id": "st-26e72e577d",
+                      "name": "HQ",
+                      "stream_links": [
+                        {
+                          "id": "lnk-a4d653008a",
+                          "name": "BLV PHAN HÀ LINH",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanhalinh/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-c9bb89e16f",
+              "name": "XayConTV",
+              "contents": [
+                {
+                  "id": "ct-c9bb89e16f",
+                  "name": "Dalian Zhixing vs Shanghai Shenhua",
+                  "streams": [
+                    {
+                      "id": "st-c9bb89e16f",
+                      "name": "Xaycon - BLV Chuối",
+                      "stream_links": [
+                        {
+                          "id": "lnk-fde7f94b4e",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://xclive.yarncdn.live/live/xctv_blv_chuoi/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.xaycon3.live/"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://sv2.xaycon3.live"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Super League",
+            "team_a": "Dalian Zhixing",
+            "team_b": "Shanghai Shenhua",
+            "logo_a": "https://media.api-sports.io/football/teams/21263.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/vi/d/dd/Shanghai_Shenhua_F.C.svg.png",
+            "time": "18:00 28/06",
+            "blv": "BLV PHAN HÀ LINH",
+            "is_live": true,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Dalian Zhixing_Shanghai Shenhua_18-00 28-06_92f461c0_20260628.png?v=92f461c0",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "bg-9ceee7501b",
           "name": "U19 Thụy Sĩ vs U19 Tây Ban Nha | 19:00 28/06",
           "type": "single",
@@ -1086,98 +1196,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-0efc73555b_fd01f590_20260628.png?v=fd01f590",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "hqlive-26e72e577d",
-          "name": "Dalian Zhixing vs Shanghai Shenhua | 18:00 28/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-26e72e577d",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-26e72e577d",
-                  "name": "Dalian Zhixing vs Shanghai Shenhua",
-                  "streams": [
-                    {
-                      "id": "st-26e72e577d",
-                      "name": "HQ",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "src-c9bb89e16f",
-              "name": "XayConTV",
-              "contents": [
-                {
-                  "id": "ct-c9bb89e16f",
-                  "name": "Dalian Zhixing vs Shanghai Shenhua",
-                  "streams": [
-                    {
-                      "id": "st-c9bb89e16f",
-                      "name": "Xaycon - BLV Chuối",
-                      "stream_links": [
-                        {
-                          "id": "lnk-fde7f94b4e",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://xclive.yarncdn.live/live/xctv_blv_chuoi/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.xaycon3.live/"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://sv2.xaycon3.live"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Super League",
-            "team_a": "Dalian Zhixing",
-            "team_b": "Shanghai Shenhua",
-            "logo_a": "https://media.api-sports.io/football/teams/21263.png",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/vi/d/dd/Shanghai_Shenhua_F.C.svg.png",
-            "time": "18:00 28/06",
-            "blv": "BLV PHAN HÀ LINH",
-            "is_live": false,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Dalian Zhixing_Shanghai Shenhua_18-00 28-06_92f461c0_20260628.png?v=92f461c0",
             "width": 1600,
             "height": 1200
           }
@@ -1971,11 +1989,82 @@
     },
     {
       "id": "grp-bóng-chuyền",
-      "name": "🏐 Bóng Chuyền (2 LIVE)",
+      "name": "🏐 Bóng Chuyền (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "hqlive-b58d01b3e6",
+          "name": "Bulgaria vs Ukraina | 18:30 28/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-b58d01b3e6",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-b58d01b3e6",
+                  "name": "Bulgaria vs Ukraina",
+                  "streams": [
+                    {
+                      "id": "st-b58d01b3e6",
+                      "name": "HQ",
+                      "stream_links": [
+                        {
+                          "id": "lnk-07fa7a18bb",
+                          "name": "BLV PHAN HẢI",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanhai/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Nation League Men",
+            "team_a": "Bulgaria",
+            "team_b": "Ukraina",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Flag_of_Bulgaria.svg/250px-Flag_of_Bulgaria.svg.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/4/49/Flag_of_Ukraine.svg",
+            "time": "18:30 28/06",
+            "blv": "BLV PHAN HẢI",
+            "is_live": true,
+            "sport_slug": "bong-chuyen"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Bulgaria_Ukraina_18-30 28-06_af494715_20260628.png?v=af494715",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "bg-cf5530d9e4",
           "name": "Poland - Argentina | 01:00 29/06",
@@ -2418,59 +2507,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Trung Quốc_Đức_18-30 28-06_2929afa8_20260628.png?v=2929afa8",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "hqlive-b58d01b3e6",
-          "name": "Bulgaria vs Ukraina | 18:30 28/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-b58d01b3e6",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-b58d01b3e6",
-                  "name": "Bulgaria vs Ukraina",
-                  "streams": [
-                    {
-                      "id": "st-b58d01b3e6",
-                      "name": "HQ",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Nation League Men",
-            "team_a": "Bulgaria",
-            "team_b": "Ukraina",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Flag_of_Bulgaria.svg/250px-Flag_of_Bulgaria.svg.png",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/4/49/Flag_of_Ukraine.svg",
-            "time": "18:30 28/06",
-            "blv": "BLV PHAN HẢI",
-            "is_live": false,
-            "sport_slug": "bong-chuyen"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Bulgaria_Ukraina_18-30 28-06_af494715_20260628.png?v=af494715",
             "width": 1600,
             "height": 1200
           }
