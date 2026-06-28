@@ -1137,10 +1137,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -1188,7 +1188,7 @@
             "logo_b": "https://media.api-sports.io/football/teams/19066.png",
             "start_time": "2026-06-28T19:00:00",
             "blv": "BLV Max",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football"
           },
           "image": {
@@ -2024,7 +2024,7 @@
     },
     {
       "id": "grp-bóng-chuyền",
-      "name": "🏐 Bóng Chuyền (7 LIVE)",
+      "name": "🏐 Bóng Chuyền (8 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -2422,6 +2422,112 @@
           }
         },
         {
+          "id": "hqlive-0d85908565",
+          "name": "U18 Việt Nam vs U18 Thái Lan | 19:00 28/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-0d85908565",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-0d85908565",
+                  "name": "U18 Việt Nam vs U18 Thái Lan",
+                  "streams": [
+                    {
+                      "id": "st-0d85908565",
+                      "name": "HQ",
+                      "stream_links": [
+                        {
+                          "id": "lnk-1cad2e4412",
+                          "name": "BLV TÁO GIÀ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://tdlive.yarncdn.live/live/tdtv_blv_taotinhtao/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-2ba61cc3a8",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-2ba61cc3a8",
+                  "name": "U18 Việt Nam vs U18 Thái Lan",
+                  "streams": [
+                    {
+                      "id": "st-2ba61cc3a8",
+                      "name": "Bugio - BLV Chim Nhỏ",
+                      "stream_links": [
+                        {
+                          "id": "lnk-378f040fcb",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_cuccu/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "U18 Đông Nam Á 2026",
+            "team_a": "U18 Việt Nam",
+            "team_b": "U18 Thái Lan",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Flag_of_Vietnam.svg/1280px-Flag_of_Vietnam.svg.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Flag_of_Thailand_%28non-standard_colours_3%29.svg/250px-Flag_of_Thailand_%28non-standard_colours_3%29.svg.png",
+            "time": "19:00 28/06",
+            "blv": "BLV TÁO GIÀ",
+            "is_live": true,
+            "sport_slug": "bong-chuyen"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/U18 Việt Nam_U18 Thái Lan_19-00 28-06_14512d8d_20260628.png?v=14512d8d",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "bg-cf5530d9e4",
           "name": "Poland - Argentina | 01:00 29/06",
           "type": "single",
@@ -2559,94 +2665,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-4f714c73db_02a3f006_20260628.png?v=02a3f006",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "hqlive-0d85908565",
-          "name": "U18 Việt Nam vs U18 Thái Lan | 19:00 28/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-0d85908565",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-0d85908565",
-                  "name": "U18 Việt Nam vs U18 Thái Lan",
-                  "streams": [
-                    {
-                      "id": "st-0d85908565",
-                      "name": "HQ",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "src-2ba61cc3a8",
-              "name": "BugioTV",
-              "contents": [
-                {
-                  "id": "ct-2ba61cc3a8",
-                  "name": "U18 Việt Nam vs U18 Thái Lan",
-                  "streams": [
-                    {
-                      "id": "st-2ba61cc3a8",
-                      "name": "Bugio - BLV Chim Nhỏ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-378f040fcb",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_cuccu/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv1.bugio9.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "U18 Đông Nam Á 2026",
-            "team_a": "U18 Việt Nam",
-            "team_b": "U18 Thái Lan",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Flag_of_Vietnam.svg/1280px-Flag_of_Vietnam.svg.png",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Flag_of_Thailand_%28non-standard_colours_3%29.svg/250px-Flag_of_Thailand_%28non-standard_colours_3%29.svg.png",
-            "time": "19:00 28/06",
-            "blv": "BLV TÁO GIÀ",
-            "is_live": false,
-            "sport_slug": "bong-chuyen"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/U18 Việt Nam_U18 Thái Lan_19-00 28-06_14512d8d_20260628.png?v=14512d8d",
             "width": 1600,
             "height": 1200
           }
