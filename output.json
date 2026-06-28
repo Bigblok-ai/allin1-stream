@@ -799,7 +799,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (8 LIVE)",
+      "name": "⚽ Bóng Đá (7 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1016,116 +1016,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-d130588f79_afb193ac_20260628.png?v=afb193ac",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "hqlive-cac66d7e1b",
-          "name": "FK Tobol Kostanay vs Altay | 20:00 28/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-cac66d7e1b",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-cac66d7e1b",
-                  "name": "FK Tobol Kostanay vs Altay",
-                  "streams": [
-                    {
-                      "id": "st-cac66d7e1b",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-fd31283a76",
-                          "name": "BLV PHAN ANH",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phananh/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "src-b1b93dd1ab",
-              "name": "XayConTV",
-              "contents": [
-                {
-                  "id": "ct-b1b93dd1ab",
-                  "name": "FK Tobol Kostanay vs Altay",
-                  "streams": [
-                    {
-                      "id": "st-b1b93dd1ab",
-                      "name": "Xaycon - BLV Chuối",
-                      "stream_links": [
-                        {
-                          "id": "lnk-fde7f94b4e",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://xclive.yarncdn.live/live/xctv_blv_chuoi/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.xaycon3.live/"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://sv2.xaycon3.live"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Ngoại hạng Kazakhstan",
-            "team_a": "FK Tobol Kostanay",
-            "team_b": "Altay",
-            "logo_a": "https://media.api-sports.io/football/teams/2259.png",
-            "logo_b": "https://media.api-sports.io/football/teams/4544.png",
-            "time": "20:00 28/06",
-            "blv": "BLV PHAN ANH",
-            "is_live": true,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/FK Tobol Kostanay_Altay_20-00 28-06_e4a2bee3_20260628.png?v=e4a2bee3",
             "width": 1600,
             "height": 1200
           }
@@ -1457,6 +1347,45 @@
               ]
             },
             {
+              "id": "src-c8af975fe4",
+              "name": "QuechoaTV",
+              "contents": [
+                {
+                  "id": "ct-c8af975fe4",
+                  "name": "Wales U19 vs Spain U19",
+                  "streams": [
+                    {
+                      "id": "st-c8af975fe4",
+                      "name": "Quechoa - NEM CHUA",
+                      "stream_links": [
+                        {
+                          "id": "lnk-9ecfdd7bcf",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ahghndtkyqmm-pull.bpmedialive.com/quechoa/blv_nemchua.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://quechoa10.live/"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://quechoa10.live"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
               "id": "src-6937efc448",
               "name": "XayConTV",
               "contents": [
@@ -1578,6 +1507,45 @@
                       "id": "st-47193276ec",
                       "name": "HQ",
                       "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-e200174b10",
+              "name": "QuechoaTV",
+              "contents": [
+                {
+                  "id": "ct-e200174b10",
+                  "name": "South Africa vs Canada",
+                  "streams": [
+                    {
+                      "id": "st-e200174b10",
+                      "name": "Quechoa - PUMA, VỎ QUÝT, CHÈ XANH",
+                      "stream_links": [
+                        {
+                          "id": "lnk-6cafe33b0c",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ahghndtkyqmm-pull.bpmedialive.com/quechoa/blv1.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://quechoa10.live/"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://quechoa10.live"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -1951,7 +1919,7 @@
           }
         },
         {
-          "id": "xc-d4311f5e5d",
+          "id": "qc-1590c6d2d1",
           "name": "Brazil vs Japan | 00:00 30/06",
           "type": "single",
           "display": "thumbnail-only",
@@ -1966,6 +1934,45 @@
           ],
           "sources": [
             {
+              "id": "src-1590c6d2d1",
+              "name": "QuechoaTV",
+              "contents": [
+                {
+                  "id": "ct-1590c6d2d1",
+                  "name": "Brazil vs Japan",
+                  "streams": [
+                    {
+                      "id": "st-1590c6d2d1",
+                      "name": "QC",
+                      "stream_links": [
+                        {
+                          "id": "lnk-6cafe33b0c",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ahghndtkyqmm-pull.bpmedialive.com/quechoa/blv1.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://quechoa10.live/"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://quechoa10.live"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
               "id": "src-d4311f5e5d",
               "name": "XayConTV",
               "contents": [
@@ -1975,7 +1982,7 @@
                   "streams": [
                     {
                       "id": "st-d4311f5e5d",
-                      "name": "XC",
+                      "name": "Xaycon - BLV Tam Mao",
                       "stream_links": [
                         {
                           "id": "lnk-bccd486b79",
@@ -2087,11 +2094,11 @@
             "league": "World Cup",
             "team_a": "Brazil",
             "team_b": "Japan",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Flag_of_Brazil.svg/1280px-Flag_of_Brazil.svg.png",
-            "logo_b": "https://media.api-sports.io/football/teams/12.png",
+            "logo_a": "https://media.api-sports.io/football/teams/6.png",
+            "logo_b": "https://storage.quechoa2.live/logos/teams/1770283521140-image.png",
             "time": "00:00",
             "date": "30/06",
-            "blv": "BLV Tam Mao",
+            "blv": "PUMA, DƯA HẤU, CHÈ XANH, NEM CHUA",
             "is_live": false,
             "sport_slug": "bong-da"
           },
@@ -2099,13 +2106,13 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/xaycon-stream/refs/heads/main/thumbs/xc-d4311f5e5d_defef0c8_20260628.png?v=defef0c8",
+            "url": "https://raw.githubusercontent.com/jasminliu98/quechoa-stream/refs/heads/main/thumbs/qc-1590c6d2d1_0a2072ef_20260628.png?v=0a2072ef",
             "width": 1600,
             "height": 1200
           }
         },
         {
-          "id": "xc-0197508d7f",
+          "id": "qc-e8ea6a75a7",
           "name": "Germany vs Paraguay | 03:30 30/06",
           "type": "single",
           "display": "thumbnail-only",
@@ -2120,6 +2127,45 @@
           ],
           "sources": [
             {
+              "id": "src-e8ea6a75a7",
+              "name": "QuechoaTV",
+              "contents": [
+                {
+                  "id": "ct-e8ea6a75a7",
+                  "name": "Germany vs Paraguay",
+                  "streams": [
+                    {
+                      "id": "st-e8ea6a75a7",
+                      "name": "QC",
+                      "stream_links": [
+                        {
+                          "id": "lnk-6cafe33b0c",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ahghndtkyqmm-pull.bpmedialive.com/quechoa/blv1.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://quechoa10.live/"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://quechoa10.live"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
               "id": "src-0197508d7f",
               "name": "XayConTV",
               "contents": [
@@ -2129,7 +2175,7 @@
                   "streams": [
                     {
                       "id": "st-0197508d7f",
-                      "name": "XC",
+                      "name": "Xaycon - BLV Bịp Con",
                       "stream_links": [
                         {
                           "id": "lnk-30319ba8f3",
@@ -2242,10 +2288,10 @@
             "team_a": "Germany",
             "team_b": "Paraguay",
             "logo_a": "https://media.api-sports.io/football/teams/25.png",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Flag_of_Paraguay.svg/250px-Flag_of_Paraguay.svg.png",
+            "logo_b": "https://media.api-sports.io/football/teams/2380.png",
             "time": "03:30",
             "date": "30/06",
-            "blv": "BLV Bịp Con",
+            "blv": "PUMA, VỎ QUÝT, CHÈ XANH, VĂN MINH",
             "is_live": false,
             "sport_slug": "bong-da"
           },
@@ -2253,13 +2299,13 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/xaycon-stream/refs/heads/main/thumbs/xc-0197508d7f_9a8c9313_20260628.png?v=9a8c9313",
+            "url": "https://raw.githubusercontent.com/jasminliu98/quechoa-stream/refs/heads/main/thumbs/qc-e8ea6a75a7_74b99995_20260628.png?v=74b99995",
             "width": 1600,
             "height": 1200
           }
         },
         {
-          "id": "xc-817ef384d7",
+          "id": "qc-cf4281b764",
           "name": "Netherlands vs Morocco | 08:00 30/06",
           "type": "single",
           "display": "thumbnail-only",
@@ -2274,6 +2320,45 @@
           ],
           "sources": [
             {
+              "id": "src-cf4281b764",
+              "name": "QuechoaTV",
+              "contents": [
+                {
+                  "id": "ct-cf4281b764",
+                  "name": "Netherlands vs Morocco",
+                  "streams": [
+                    {
+                      "id": "st-cf4281b764",
+                      "name": "QC",
+                      "stream_links": [
+                        {
+                          "id": "lnk-0e88644c2d",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ahghndtkyqmm-pull.bpmedialive.com/quechoa/blv_duahau.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://quechoa10.live/"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://quechoa10.live"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
               "id": "src-817ef384d7",
               "name": "XayConTV",
               "contents": [
@@ -2283,7 +2368,7 @@
                   "streams": [
                     {
                       "id": "st-817ef384d7",
-                      "name": "XC",
+                      "name": "Xaycon - BLV Rồng Đất",
                       "stream_links": [
                         {
                           "id": "lnk-221ed1ffcc",
@@ -2357,10 +2442,10 @@
             "team_a": "Netherlands",
             "team_b": "Morocco",
             "logo_a": "https://media.api-sports.io/football/teams/1118.png",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Flag_of_Morocco.svg/1280px-Flag_of_Morocco.svg.png",
+            "logo_b": "https://media.api-sports.io/football/teams/31.png",
             "time": "08:00",
             "date": "30/06",
-            "blv": "BLV Rồng Đất",
+            "blv": "DƯA HẤU, VỎ QUÝT, NEM CHUA, VĂN MINH",
             "is_live": false,
             "sport_slug": "bong-da"
           },
@@ -2368,7 +2453,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/xaycon-stream/refs/heads/main/thumbs/xc-817ef384d7_9f20decd_20260628.png?v=9f20decd",
+            "url": "https://raw.githubusercontent.com/jasminliu98/quechoa-stream/refs/heads/main/thumbs/qc-cf4281b764_800af2d1_20260628.png?v=800af2d1",
             "width": 1600,
             "height": 1200
           }
@@ -2445,6 +2530,82 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/xaycon-stream/refs/heads/main/thumbs/xc-cc4d630d2f_6b7da884_20260628.png?v=6b7da884",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "qc-ab1860f1cc",
+          "name": "Italy U19 vs Serbia U19 | 22:00 29/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-ab1860f1cc",
+              "name": "QuechoaTV",
+              "contents": [
+                {
+                  "id": "ct-ab1860f1cc",
+                  "name": "Italy U19 vs Serbia U19",
+                  "streams": [
+                    {
+                      "id": "st-ab1860f1cc",
+                      "name": "QC",
+                      "stream_links": [
+                        {
+                          "id": "lnk-75feca2dee",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ahghndtkyqmm-pull.bpmedialive.com/quechoa/blv_vanminh.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://quechoa10.live/"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://quechoa10.live"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "UEFA U19 Championship",
+            "team_a": "Italy U19",
+            "team_b": "Serbia U19",
+            "logo_a": "https://media.api-sports.io/football/teams/10338.png",
+            "logo_b": "https://media.api-sports.io/football/teams/10346.png",
+            "time": "22:00",
+            "date": "29/06",
+            "blv": "VĂN MINH",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/quechoa-stream/refs/heads/main/thumbs/qc-ab1860f1cc_93dd7ee2_20260628.png?v=93dd7ee2",
             "width": 1600,
             "height": 1200
           }
@@ -2561,7 +2722,7 @@
     },
     {
       "id": "grp-bóng-chuyền",
-      "name": "🏐 Bóng Chuyền (8 LIVE)",
+      "name": "🏐 Bóng Chuyền (7 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -2990,77 +3151,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Pháp_Nhật Bản_22-00 28-06_284db761_20260628.png?v=284db761",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "bg-2ba61cc3a8",
-          "name": "U18 Việt Nam vs U18 Thái Lan | 19:00 28/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-2ba61cc3a8",
-              "name": "BugioTV",
-              "contents": [
-                {
-                  "id": "ct-2ba61cc3a8",
-                  "name": "U18 Việt Nam vs U18 Thái Lan",
-                  "streams": [
-                    {
-                      "id": "st-2ba61cc3a8",
-                      "name": "BG",
-                      "stream_links": [
-                        {
-                          "id": "lnk-378f040fcb",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_cuccu/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv1.bugio9.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Bóng chuyền U18 Đông Nam Á",
-            "team_a": "U18 Việt Nam ",
-            "team_b": "U18 Thái Lan",
-            "logo_a": "https://ssl.gstatic.com/onebox/media/sports/logos/optimized/IUYV_ZAMxDdabQPzSpTJtg_96x96.png",
-            "logo_b": "https://ssl.gstatic.com/onebox/media/sports/logos/optimized/aEBU_ri8U6F06oTqWmKY5g_96x96.png",
-            "start_time": "2026-06-28T19:00:00",
-            "blv": "BLV Chim Nhỏ",
-            "is_live": true,
-            "cate_type": "bongchuyen"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-2ba61cc3a8_bc343188_20260628.png?v=bc343188",
             "width": 1600,
             "height": 1200
           }
