@@ -1744,23 +1744,23 @@
               ]
             },
             {
-              "id": "src-f06443d871",
+              "id": "src-751ab707fb",
               "name": "XayConTV",
               "contents": [
                 {
-                  "id": "ct-f06443d871",
+                  "id": "ct-751ab707fb",
                   "name": "Ha Noi W vs Ho Chi Minh W",
                   "streams": [
                     {
-                      "id": "st-f06443d871",
-                      "name": "Xaycon - BLV Chuối",
+                      "id": "st-751ab707fb",
+                      "name": "Xaycon - BLV Rồng Đất",
                       "stream_links": [
                         {
-                          "id": "lnk-fde7f94b4e",
+                          "id": "lnk-221ed1ffcc",
                           "name": "Link FHD",
                           "type": "hls",
                           "default": true,
-                          "url": "https://xclive.yarncdn.live/live/xctv_blv_chuoi/playlist.m3u8",
+                          "url": "https://xclive.yarncdn.live/live/xctv_blv_rongdat/playlist.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -2550,14 +2550,30 @@
     },
     {
       "id": "grp-bóng-rổ",
-      "name": "🏀 Bóng Rổ (1 LIVE)",
+      "name": "🏀 Bóng Rổ",
+      "display": "vertical",
+      "grid_number": 2,
+      "enable_detail": false,
+      "channels": []
+    },
+    {
+      "id": "grp-billiards",
+      "name": "🎱 Billiards",
+      "display": "vertical",
+      "grid_number": 2,
+      "enable_detail": false,
+      "channels": []
+    },
+    {
+      "id": "grp-bóng-chuyền",
+      "name": "🏐 Bóng Chuyền (6 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
         {
-          "id": "gv-3f1ee1f988",
-          "name": "Can Tho Catfish  vs Nhatrang Dolphins | 19:30 28/06",
+          "id": "gv-a43a70ea3e",
+          "name": "Belgium  vs Türkiye | 21:30 28/06",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -2571,23 +2587,23 @@
           ],
           "sources": [
             {
-              "id": "src-3f1ee1f988",
+              "id": "src-a43a70ea3e",
               "name": "GiovangTV",
               "contents": [
                 {
-                  "id": "ct-3f1ee1f988",
-                  "name": "Can Tho Catfish  vs Nhatrang Dolphins",
+                  "id": "ct-a43a70ea3e",
+                  "name": "Belgium  vs Türkiye",
                   "streams": [
                     {
-                      "id": "st-3f1ee1f988",
+                      "id": "st-a43a70ea3e",
                       "name": "GV",
                       "stream_links": [
                         {
-                          "id": "lnk-6d07b462c4",
+                          "id": "lnk-3b58bdb720",
                           "name": "Link HD 720p",
                           "type": "hls",
                           "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1782606418_hd/1782606418_hd@720p.m3u8",
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1782606806_hd/1782606806_hd@720p.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -2607,43 +2623,26 @@
             }
           ],
           "org_metadata": {
-            "league": "VBA",
-            "team_a": "Can Tho Catfish ",
-            "team_b": "Nhatrang Dolphins",
-            "logo_a": "https://static.flashscore.com/res/image/data/pxwXwLeM-lhzSvQKA.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/I7M8mRh5-MqRS5Sy2.png",
-            "time": "19:30 28/06",
-            "blv": "BLV Tôm",
+            "league": "Nations League",
+            "team_a": "Belgium ",
+            "team_b": "Türkiye",
+            "logo_a": "https://images.volleyballworld.com/image/upload/f_png/t_flag/assets/flags/flag_bel",
+            "logo_b": "https://images.volleyballworld.com/image/upload/f_png/t_flag/assets/flags/flag_tur",
+            "time": "21:30 28/06",
+            "blv": "BLV Cần",
             "is_live": true,
-            "cate_type": "basketball",
-            "time_start": 1782649800
+            "cate_type": "bongchuyen",
+            "time_start": 1782657000
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-3f1ee1f988_5916198b_20260628.png?v=5916198b",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-a43a70ea3e_b812520e_20260628.png?v=b812520e",
             "width": 1600,
             "height": 1200
           }
-        }
-      ]
-    },
-    {
-      "id": "grp-billiards",
-      "name": "🎱 Billiards",
-      "display": "vertical",
-      "grid_number": 2,
-      "enable_detail": false,
-      "channels": []
-    },
-    {
-      "id": "grp-bóng-chuyền",
-      "name": "🏐 Bóng Chuyền (6 LIVE)",
-      "display": "vertical",
-      "grid_number": 2,
-      "enable_detail": false,
-      "channels": [
+        },
         {
           "id": "gv-ea5f037e02",
           "name": "Canada vs Brazil | 21:30 28/06",
@@ -2747,78 +2746,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-ea5f037e02_479b3274_20260628.png?v=479b3274",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-a43a70ea3e",
-          "name": "Belgium  vs Türkiye | 21:30 28/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-a43a70ea3e",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-a43a70ea3e",
-                  "name": "Belgium  vs Türkiye",
-                  "streams": [
-                    {
-                      "id": "st-a43a70ea3e",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-3b58bdb720",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1782606806_hd/1782606806_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.team/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Nations League",
-            "team_a": "Belgium ",
-            "team_b": "Türkiye",
-            "logo_a": "https://images.volleyballworld.com/image/upload/f_png/t_flag/assets/flags/flag_bel",
-            "logo_b": "https://images.volleyballworld.com/image/upload/f_png/t_flag/assets/flags/flag_tur",
-            "time": "21:30 28/06",
-            "blv": "BLV Cần",
-            "is_live": true,
-            "cate_type": "bongchuyen",
-            "time_start": 1782657000
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-a43a70ea3e_b812520e_20260628.png?v=b812520e",
             "width": 1600,
             "height": 1200
           }
