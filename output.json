@@ -799,11 +799,83 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (4 LIVE)",
+      "name": "⚽ Bóng Đá (5 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "gv-08a6b8c0c7",
+          "name": "U19 Ý vs Serbia U19 | 22:00 29/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-08a6b8c0c7",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-08a6b8c0c7",
+                  "name": "U19 Ý vs Serbia U19",
+                  "streams": [
+                    {
+                      "id": "st-08a6b8c0c7",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-9247206518",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1782728122_hd/1782728122_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.team/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Euro U19",
+            "team_a": "U19 Ý",
+            "team_b": "Serbia U19",
+            "logo_a": "https://images.keovip88.net/images/teams/italy-u19.png",
+            "logo_b": "https://images.keovip88.net/images/teams/serbia-u19.png",
+            "time": "22:00 29/06",
+            "blv": "BLV Hợi",
+            "is_live": true,
+            "cate_type": "football",
+            "time_start": 1782745200
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-08a6b8c0c7_8ffecca8_20260629.png?v=8ffecca8",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "hqlive-605ce3a207",
           "name": "Al Nejmeh vs Racing | 20:00 29/06",
@@ -1168,78 +1240,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/xaycon-stream/refs/heads/main/thumbs/xc-a8867ab207_9d4557aa_20260629.png?v=9d4557aa",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-08a6b8c0c7",
-          "name": "U19 Ý vs Serbia U19 | 22:00 29/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-08a6b8c0c7",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-08a6b8c0c7",
-                  "name": "U19 Ý vs Serbia U19",
-                  "streams": [
-                    {
-                      "id": "st-08a6b8c0c7",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-9247206518",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1782728122_hd/1782728122_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.team/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Euro U19",
-            "team_a": "U19 Ý",
-            "team_b": "Serbia U19",
-            "logo_a": "https://images.keovip88.net/images/teams/italy-u19.png",
-            "logo_b": "https://images.keovip88.net/images/teams/serbia-u19.png",
-            "time": "22:00 29/06",
-            "blv": "BLV Hợi",
-            "is_live": false,
-            "cate_type": "football",
-            "time_start": 1782745200
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-08a6b8c0c7_8ffecca8_20260629.png?v=8ffecca8",
             "width": 1600,
             "height": 1200
           }
