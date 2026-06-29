@@ -799,7 +799,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (8 LIVE)",
+      "name": "⚽ Bóng Đá (7 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1067,6 +1067,41 @@
                   ]
                 }
               ]
+            },
+            {
+              "id": "src-78719f11fa",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-78719f11fa",
+                  "name": "Brazil vs Japan",
+                  "streams": [
+                    {
+                      "id": "st-78719f11fa",
+                      "name": "Bugio - BLV Mao Từn",
+                      "stream_links": [
+                        {
+                          "id": "lnk-51a73d71ba",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_mason/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
             }
           ],
           "org_metadata": {
@@ -1086,77 +1121,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-847a695071_1f1d6d6f_20260629.png?v=1f1d6d6f",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "hqlive-605ce3a207",
-          "name": "Al Nejmeh vs Racing | 20:00 29/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-605ce3a207",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-605ce3a207",
-                  "name": "Al Nejmeh vs Racing",
-                  "streams": [
-                    {
-                      "id": "st-605ce3a207",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-bc9866f74f",
-                          "name": "BLV PHAN PHÉP",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanphep/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "VĐQG Latvia",
-            "team_a": "Al Nejmeh",
-            "team_b": "Racing",
-            "logo_a": "https://media.api-sports.io/football/teams/4570.png",
-            "logo_b": "https://media.api-sports.io/football/teams/4572.png",
-            "time": "20:00 29/06",
-            "blv": "BLV PHAN PHÉP",
-            "is_live": true,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Al Nejmeh_Racing_20-00 29-06_5a80ee62_20260629.png?v=5a80ee62",
             "width": 1600,
             "height": 1200
           }
