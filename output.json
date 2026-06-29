@@ -799,11 +799,121 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "hqlive-b75f04a6f5",
+          "name": "Ha Noi vs Nữ Hồ Chí Minh | 16:00 29/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-b75f04a6f5",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-b75f04a6f5",
+                  "name": "Ha Noi vs Nữ Hồ Chí Minh",
+                  "streams": [
+                    {
+                      "id": "st-b75f04a6f5",
+                      "name": "HQ",
+                      "stream_links": [
+                        {
+                          "id": "lnk-b10e5b640b",
+                          "name": "BLV THẦN THÔNG",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://tdlive.yarncdn.live/live/tdtv_blv_taovannghe/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-751ab707fb",
+              "name": "XayConTV",
+              "contents": [
+                {
+                  "id": "ct-751ab707fb",
+                  "name": "Ha Noi W vs Ho Chi Minh W",
+                  "streams": [
+                    {
+                      "id": "st-751ab707fb",
+                      "name": "Xaycon - BLV Rồng Đất",
+                      "stream_links": [
+                        {
+                          "id": "lnk-221ed1ffcc",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://xclive.yarncdn.live/live/xctv_blv_rongdat/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.xaycon3.live/"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://sv2.xaycon3.live"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "V.league",
+            "team_a": "Ha Noi",
+            "team_b": "Nữ Hồ Chí Minh",
+            "logo_a": "https://media.api-sports.io/football/teams/3670.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/vi/thumb/9/9a/Logo_HWFC.png/250px-Logo_HWFC.png",
+            "time": "16:00 29/06",
+            "blv": "BLV THẦN THÔNG",
+            "is_live": true,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Ha Noi_Nữ Hồ Chí Minh_16-00 29-06_417d8a34_20260629.png?v=417d8a34",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "bg-48e95c45c8",
           "name": "Hà Nội W vs Hồ Chí Minh W | 16:00 29/06",
@@ -812,10 +922,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -863,7 +973,7 @@
             "logo_b": "https://static.flashscore.com/res/image/data/bBNLVvgl-tEmn70ao.png",
             "start_time": "2026-06-29T16:00:00",
             "blv": "BLV Tiểu Trà Đá",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football"
           },
           "image": {
@@ -1014,98 +1124,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-2371c152c6_1d44e30c_20260629.png?v=1d44e30c",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "hqlive-b75f04a6f5",
-          "name": "Ha Noi vs Nữ Hồ Chí Minh | 16:00 29/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-b75f04a6f5",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-b75f04a6f5",
-                  "name": "Ha Noi vs Nữ Hồ Chí Minh",
-                  "streams": [
-                    {
-                      "id": "st-b75f04a6f5",
-                      "name": "HQ",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "src-751ab707fb",
-              "name": "XayConTV",
-              "contents": [
-                {
-                  "id": "ct-751ab707fb",
-                  "name": "Ha Noi W vs Ho Chi Minh W",
-                  "streams": [
-                    {
-                      "id": "st-751ab707fb",
-                      "name": "Xaycon - BLV Rồng Đất",
-                      "stream_links": [
-                        {
-                          "id": "lnk-221ed1ffcc",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://xclive.yarncdn.live/live/xctv_blv_rongdat/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.xaycon3.live/"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://sv2.xaycon3.live"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "V.league",
-            "team_a": "Ha Noi",
-            "team_b": "Nữ Hồ Chí Minh",
-            "logo_a": "https://media.api-sports.io/football/teams/3670.png",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/vi/thumb/9/9a/Logo_HWFC.png/250px-Logo_HWFC.png",
-            "time": "16:00 29/06",
-            "blv": "BLV THẦN THÔNG",
-            "is_live": false,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Ha Noi_Nữ Hồ Chí Minh_16-00 29-06_417d8a34_20260629.png?v=417d8a34",
             "width": 1600,
             "height": 1200
           }
