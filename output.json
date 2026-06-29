@@ -805,112 +805,6 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "hqlive-e2a499d327",
-          "name": "Croatia U19 vs Ukraine U19 | 02:00 30/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-e2a499d327",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-e2a499d327",
-                  "name": "Croatia U19 vs Ukraine U19",
-                  "streams": [
-                    {
-                      "id": "st-e2a499d327",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-1cad2e4412",
-                          "name": "BLV TÁO GIÀ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://tdlive.yarncdn.live/live/tdtv_blv_taotinhtao/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "src-78679495fe",
-              "name": "BugioTV",
-              "contents": [
-                {
-                  "id": "ct-78679495fe",
-                  "name": "Croatia U19 vs Ukraine U19",
-                  "streams": [
-                    {
-                      "id": "st-78679495fe",
-                      "name": "Bugio - BLV Mao Từn",
-                      "stream_links": [
-                        {
-                          "id": "lnk-51a73d71ba",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_mason/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv1.bugio9.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "UEFA U19 Championship",
-            "team_a": "Croatia U19",
-            "team_b": "Ukraine U19",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Flag_of_Croatia.svg",
-            "logo_b": "https://media.api-sports.io/football/teams/10352.png",
-            "time": "02:00 30/06",
-            "blv": "BLV TÁO GIÀ",
-            "is_live": true,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Croatia U19_Ukraine U19_02-00 30-06_904f31a9_20260630.png?v=904f31a9",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "hqlive-f4d569d459",
           "name": "Germany vs Paraguay | 03:30 30/06",
           "type": "single",
@@ -1291,6 +1185,77 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-78719f11fa_20f5dece_20260630.png?v=20f5dece",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "bg-78679495fe",
+          "name": "Croatia U19 vs Ukraine U19 | 02:00 30/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-78679495fe",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-78679495fe",
+                  "name": "Croatia U19 vs Ukraine U19",
+                  "streams": [
+                    {
+                      "id": "st-78679495fe",
+                      "name": "BG",
+                      "stream_links": [
+                        {
+                          "id": "lnk-51a73d71ba",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_mason/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "UEFA U19 Championship",
+            "team_a": "Croatia U19",
+            "team_b": "Ukraine U19",
+            "logo_a": "https://media.api-sports.io/football/teams/10329.png",
+            "logo_b": "https://media.api-sports.io/football/teams/10352.png",
+            "start_time": "2026-06-30T02:00:00",
+            "blv": "BLV Mao Từn",
+            "is_live": true,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-78679495fe_6c767f42_20260630.png?v=6c767f42",
             "width": 1600,
             "height": 1200
           }
