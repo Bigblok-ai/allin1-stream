@@ -799,119 +799,11 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (4 LIVE)",
+      "name": "⚽ Bóng Đá (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-8067992992",
-          "name": "Guangdong Province (W) vs Wuhan Jianghan (W) | 18:00 29/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-8067992992",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-8067992992",
-                  "name": "Guangdong Province (W) vs Wuhan Jianghan (W)",
-                  "streams": [
-                    {
-                      "id": "st-8067992992",
-                      "name": "GV",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Ngoại hạng Nữ Trung Quốc",
-            "team_a": "Guangdong Province (W)",
-            "team_b": "Wuhan Jianghan (W)",
-            "logo_a": "https://static.flashscore.com/res/image/data/SzH5fAYg-U9WomYOF.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/8UC1UMCa-2NYZrdwh.png",
-            "time": "18:00 29/06",
-            "blv": "BLV Trĩ",
-            "is_live": true,
-            "cate_type": "football",
-            "time_start": 1782730800
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-8067992992_990ff138_20260629.png?v=990ff138",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-28b76cf836",
-          "name": "Guangxi Pingguo Beinong (W) vs Beijing Yuhong Xiushan (W) | 18:00 29/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-28b76cf836",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-28b76cf836",
-                  "name": "Guangxi Pingguo Beinong (W) vs Beijing Yuhong Xiushan (W)",
-                  "streams": [
-                    {
-                      "id": "st-28b76cf836",
-                      "name": "GV",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Ngoại hạng Nữ Trung Quốc",
-            "team_a": "Guangxi Pingguo Beinong (W)",
-            "team_b": "Beijing Yuhong Xiushan (W)",
-            "logo_a": "https://static.flashscore.com/res/image/data/6eLwTbFa-6sdVtRxN.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/lf5prHcM-bLWUCs5t.png",
-            "time": "18:00 29/06",
-            "blv": "BLV Mát",
-            "is_live": true,
-            "cate_type": "football",
-            "time_start": 1782730800
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-28b76cf836_d6241214_20260629.png?v=d6241214",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "hqlive-605ce3a207",
           "name": "Al Nejmeh vs Racing | 20:00 29/06",
@@ -1124,7 +1016,25 @@
                     {
                       "id": "st-08a6b8c0c7",
                       "name": "GV",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-9247206518",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1782728122_hd/1782728122_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.team/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -1231,7 +1141,25 @@
                     {
                       "id": "st-c3042ee804",
                       "name": "GV",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-6cdc672c26",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1782708480_hd/1782708480_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.team/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -1285,7 +1213,25 @@
                     {
                       "id": "st-847a695071",
                       "name": "GV",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-cb5c97befd",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1782708062_hd/1782708062_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.team/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -1741,7 +1687,25 @@
                     {
                       "id": "st-84030ec722",
                       "name": "GV",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-50f0b7d1b2",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1782707886_hd/1782707886_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.team/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -1951,7 +1915,25 @@
                     {
                       "id": "st-2cefbc935e",
                       "name": "GV",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-f620ee50db",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1782697206_hd/1782697206_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.team/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -2915,65 +2897,11 @@
     },
     {
       "id": "grp-tennis",
-      "name": "🎾 Tennis (2 LIVE)",
+      "name": "🎾 Tennis (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-f7f5ac978a",
-          "name": "Dalibor vs Learner Tien | 17:45 29/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-f7f5ac978a",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-f7f5ac978a",
-                  "name": "Dalibor vs Learner Tien",
-                  "streams": [
-                    {
-                      "id": "st-f7f5ac978a",
-                      "name": "GV",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Wimbledon",
-            "team_a": "Dalibor",
-            "team_b": "Learner Tien",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Svrcina_RGQ23_%2852944045108%29.jpg/960px-Svrcina_RGQ23_%2852944045108%29.jpg",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/c/c8/Learner_Tien_%282024_US_Open%29_04.jpg",
-            "time": "17:45 29/06",
-            "blv": "blv-lac",
-            "is_live": true,
-            "cate_type": "tennis",
-            "time_start": 1782729900
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-f7f5ac978a_eefcb44f_20260629.png?v=eefcb44f",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-6dd5799760",
           "name": "Jannik Sinner vs Miomir Kecmanovic | 19:30 29/06",
@@ -3000,7 +2928,25 @@
                     {
                       "id": "st-6dd5799760",
                       "name": "GV",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-6c7315c926",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1782669906_hd/1782669906_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.team/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -3054,7 +3000,25 @@
                     {
                       "id": "st-1cccfb828f",
                       "name": "GV",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-639fd38eb7",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1782671570_hd/1782671570_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.team/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -3125,7 +3089,25 @@
                     {
                       "id": "st-5a6d3ebdac",
                       "name": "GV",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-495d26f0b2",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1782662353_hd/1782662353_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.team/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -3179,7 +3161,25 @@
                     {
                       "id": "st-e8ccf3f488",
                       "name": "GV",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-8e95e4353d",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1782670066_hd/1782670066_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.team/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -3233,7 +3233,25 @@
                     {
                       "id": "st-6f0118a6dc",
                       "name": "GV",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-b7d4851d32",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1782646320_hd/1782646320_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.team/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
