@@ -805,8 +805,8 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "hqlive-ca1b16a2ba",
-          "name": "France vs Sweden | 04:00 01/07",
+          "id": "hqlive-778b97fe5b",
+          "name": "Botafogo SP vs CRB | 06:00 01/07",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -820,57 +820,23 @@
           ],
           "sources": [
             {
-              "id": "src-ca1b16a2ba",
+              "id": "src-778b97fe5b",
               "name": "HoiQuanTV",
               "contents": [
                 {
-                  "id": "ct-ca1b16a2ba",
-                  "name": "France vs Sweden",
+                  "id": "ct-778b97fe5b",
+                  "name": "Botafogo SP vs CRB",
                   "streams": [
                     {
-                      "id": "st-ca1b16a2ba",
+                      "id": "st-778b97fe5b",
                       "name": "HQ",
                       "stream_links": [
                         {
-                          "id": "lnk-975fc55dd1",
-                          "name": "BLV LƯƠNG BỔNG",
+                          "id": "lnk-f6231c6549",
+                          "name": "BLV PHAN CA",
                           "type": "hls",
                           "default": true,
-                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanliem/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-b0c182498f",
-                          "name": "BLV PHAN QUẨY",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanquay/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-b10e5b640b",
-                          "name": "BLV THẦN THÔNG",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://tdlive.yarncdn.live/live/tdtv_blv_taovannghe/playlist.m3u8",
+                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanca/playlist.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -887,7 +853,43 @@
                   ]
                 }
               ]
-            },
+            }
+          ],
+          "org_metadata": {
+            "league": "Serie B",
+            "team_a": "Botafogo SP",
+            "team_b": "CRB",
+            "logo_a": "https://media.api-sports.io/football/teams/2618.png",
+            "logo_b": "https://media.api-sports.io/football/teams/146.png",
+            "time": "06:00 01/07",
+            "blv": "BLV PHAN CA",
+            "is_live": true,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Botafogo SP_CRB_06-00 01-07_e11bd3bd_20260701.png?v=e11bd3bd",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "qc-3576abe966",
+          "name": "France vs Sweden | 04:00 01/07",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
             {
               "id": "src-3576abe966",
               "name": "QuechoaTV",
@@ -898,7 +900,7 @@
                   "streams": [
                     {
                       "id": "st-3576abe966",
-                      "name": "Quechoa - PUMA, NEM CHUA",
+                      "name": "QC",
                       "stream_links": [
                         {
                           "id": "lnk-6cafe33b0c",
@@ -1004,76 +1006,6 @@
                   ]
                 }
               ]
-            },
-            {
-              "id": "src-b105e5a192",
-              "name": "BugioTV",
-              "contents": [
-                {
-                  "id": "ct-b105e5a192",
-                  "name": "France vs Sweden",
-                  "streams": [
-                    {
-                      "id": "st-b105e5a192",
-                      "name": "Bugio - BLV Tiểu Trà Đá",
-                      "stream_links": [
-                        {
-                          "id": "lnk-0ba3f9d037",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_trada/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv1.bugio9.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "src-2c79b73d27",
-              "name": "BugioTV",
-              "contents": [
-                {
-                  "id": "ct-2c79b73d27",
-                  "name": "France vs Sweden",
-                  "streams": [
-                    {
-                      "id": "st-2c79b73d27",
-                      "name": "Bugio - BLV Chim Nhỏ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-378f040fcb",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_cuccu/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv1.bugio9.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
             }
           ],
           "org_metadata": {
@@ -1082,8 +1014,9 @@
             "team_b": "Sweden",
             "logo_a": "https://media.api-sports.io/football/teams/2.png",
             "logo_b": "https://media.api-sports.io/football/teams/5.png",
-            "time": "04:00 01/07",
-            "blv": "BLV LƯƠNG BỔNG, BLV PHAN QUẨY, BLV THẦN THÔNG",
+            "time": "04:00",
+            "date": "01/07",
+            "blv": "PUMA, NEM CHUA",
             "is_live": true,
             "sport_slug": "bong-da"
           },
@@ -1091,78 +1024,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/France_Sweden_04-00 01-07_c55775a1_20260701.png?v=c55775a1",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "hqlive-778b97fe5b",
-          "name": "Botafogo SP vs CRB | 06:00 01/07",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-778b97fe5b",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-778b97fe5b",
-                  "name": "Botafogo SP vs CRB",
-                  "streams": [
-                    {
-                      "id": "st-778b97fe5b",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-f6231c6549",
-                          "name": "BLV PHAN CA",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanca/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Serie B",
-            "team_a": "Botafogo SP",
-            "team_b": "CRB",
-            "logo_a": "https://media.api-sports.io/football/teams/2618.png",
-            "logo_b": "https://media.api-sports.io/football/teams/146.png",
-            "time": "06:00 01/07",
-            "blv": "BLV PHAN CA",
-            "is_live": true,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Botafogo SP_CRB_06-00 01-07_e11bd3bd_20260701.png?v=e11bd3bd",
+            "url": "https://raw.githubusercontent.com/jasminliu98/quechoa-stream/refs/heads/main/thumbs/qc-3576abe966_6f968b3c_20260701.png?v=6f968b3c",
             "width": 1600,
             "height": 1200
           }
