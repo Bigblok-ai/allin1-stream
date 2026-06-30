@@ -799,13 +799,13 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (3 LIVE)",
+      "name": "⚽ Bóng Đá (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
         {
-          "id": "hqlive-e35d40aa03",
+          "id": "xc-d2d50ecad5",
           "name": "Logan Lightning vs Redlands United | 17:30 30/06",
           "type": "single",
           "display": "thumbnail-only",
@@ -820,41 +820,6 @@
           ],
           "sources": [
             {
-              "id": "src-e35d40aa03",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-e35d40aa03",
-                  "name": "Logan Lightning vs Redlands United",
-                  "streams": [
-                    {
-                      "id": "st-e35d40aa03",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-1cad2e4412",
-                          "name": "BLV TÁO GIÀ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://tdlive.yarncdn.live/live/tdtv_blv_taotinhtao/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
               "id": "src-d2d50ecad5",
               "name": "XayConTV",
               "contents": [
@@ -864,7 +829,7 @@
                   "streams": [
                     {
                       "id": "st-d2d50ecad5",
-                      "name": "Xaycon - BLV Tam Mao",
+                      "name": "XC",
                       "stream_links": [
                         {
                           "id": "lnk-bccd486b79",
@@ -900,8 +865,9 @@
             "team_b": "Redlands United",
             "logo_a": "https://media.api-sports.io/football/teams/11180.png",
             "logo_b": "https://media.api-sports.io/football/teams/10222.png",
-            "time": "17:30 30/06",
-            "blv": "BLV TÁO GIÀ",
+            "time": "17:30",
+            "date": "30/06",
+            "blv": "BLV Tam Mao",
             "is_live": true,
             "sport_slug": "bong-da"
           },
@@ -909,78 +875,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Logan Lightning_Redlands United_17-30 30-06_921a2950_20260630.png?v=921a2950",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "bg-4c4e5249f4",
-          "name": "Mashujaa vs Tanzania Prisons | 20:00 30/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-4c4e5249f4",
-              "name": "BugioTV",
-              "contents": [
-                {
-                  "id": "ct-4c4e5249f4",
-                  "name": "Mashujaa vs Tanzania Prisons",
-                  "streams": [
-                    {
-                      "id": "st-4c4e5249f4",
-                      "name": "BG",
-                      "stream_links": [
-                        {
-                          "id": "lnk-970b2a547c",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_phaothan/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv1.bugio9.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Ligi kuu Bara",
-            "team_a": "Mashujaa",
-            "team_b": "Tanzania Prisons",
-            "logo_a": "https://media.api-sports.io/football/teams/22176.png",
-            "logo_b": "https://media.api-sports.io/football/teams/12202.png",
-            "start_time": "2026-06-30T20:00:00",
-            "blv": "BLV Pháo",
-            "is_live": false,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-4c4e5249f4_18e384ef_20260630.png?v=18e384ef",
+            "url": "https://raw.githubusercontent.com/jasminliu98/xaycon-stream/refs/heads/main/thumbs/xc-d2d50ecad5_905e4cf0_20260630.png?v=905e4cf0",
             "width": 1600,
             "height": 1200
           }
