@@ -799,11 +799,82 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "hqlive-9d616c203c",
+          "name": "Phong Phu Ha Nam W vs TKS Viet Nam W | 16:00 30/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-9d616c203c",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-9d616c203c",
+                  "name": "Phong Phu Ha Nam W vs TKS Viet Nam W",
+                  "streams": [
+                    {
+                      "id": "st-9d616c203c",
+                      "name": "HQ",
+                      "stream_links": [
+                        {
+                          "id": "lnk-bc9866f74f",
+                          "name": "BLV PHAN PHÉP",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanphep/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "V.league",
+            "team_a": "Phong Phu Ha Nam W",
+            "team_b": "TKS Viet Nam W",
+            "logo_a": "https://imgts.sportpulseapiz.com/football/team/y39mp1h5ew7mojx/image/small",
+            "logo_b": "https://imgts.sportpulseapiz.com/football/team/k82rekh9jxzrepz/image/small",
+            "time": "16:00 30/06",
+            "blv": "BLV PHAN PHÉP",
+            "is_live": true,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Phong Phu Ha Nam W_TKS Viet Nam W_16-00 30-06_b72d46e2_20260630.png?v=b72d46e2",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "bg-662a2e9616",
           "name": "SD Raiders vs Sydney FC U23 | 17:00 30/06",
@@ -942,59 +1013,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-4c4e5249f4_18e384ef_20260630.png?v=18e384ef",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "hqlive-9d616c203c",
-          "name": "Phong Phu Ha Nam W vs TKS Viet Nam W | 16:00 30/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-9d616c203c",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-9d616c203c",
-                  "name": "Phong Phu Ha Nam W vs TKS Viet Nam W",
-                  "streams": [
-                    {
-                      "id": "st-9d616c203c",
-                      "name": "HQ",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "V.league",
-            "team_a": "Phong Phu Ha Nam W",
-            "team_b": "TKS Viet Nam W",
-            "logo_a": "https://imgts.sportpulseapiz.com/football/team/y39mp1h5ew7mojx/image/small",
-            "logo_b": "https://imgts.sportpulseapiz.com/football/team/k82rekh9jxzrepz/image/small",
-            "time": "16:00 30/06",
-            "blv": "BLV PHAN PHÉP",
-            "is_live": false,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Phong Phu Ha Nam W_TKS Viet Nam W_16-00 30-06_b72d46e2_20260630.png?v=b72d46e2",
             "width": 1600,
             "height": 1200
           }
@@ -2025,82 +2043,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/quechoa-stream/refs/heads/main/thumbs/qc-ebd4cbc6a6_7c1ebbc0_20260630.png?v=7c1ebbc0",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "xc-a99553823d",
-          "name": "Ha Noi 2 W vs Ho Chi Minh City 2 W | 16:00 30/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-a99553823d",
-              "name": "XayConTV",
-              "contents": [
-                {
-                  "id": "ct-a99553823d",
-                  "name": "Ha Noi 2 W vs Ho Chi Minh City 2 W",
-                  "streams": [
-                    {
-                      "id": "st-a99553823d",
-                      "name": "XC",
-                      "stream_links": [
-                        {
-                          "id": "lnk-fde7f94b4e",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://xclive.yarncdn.live/live/xctv_blv_chuoi/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.xaycon3.live/"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://sv2.xaycon3.live"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Vietnam Wonmen League",
-            "team_a": "Ha Noi",
-            "team_b": "Ho Chi Minh",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/vi/b/b4/Logo_H%C3%A0_N%E1%BB%99i_FC.png",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/vi/thumb/4/47/Logo_of_Cong_An_Ho_Chi_Minh_City_football_club%2C_from_Ho_Chi_Minh_City%2C_from_2025.svg/250px-Logo_of_Cong_An_Ho_Chi_Minh_City_football_club%2C_from_Ho_Chi_Minh_City%2C_from_2025.svg.png",
-            "time": "16:00",
-            "date": "30/06",
-            "blv": "BLV Chuối",
-            "is_live": false,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/xaycon-stream/refs/heads/main/thumbs/xc-a99553823d_99d7c364_20260630.png?v=99d7c364",
             "width": 1600,
             "height": 1200
           }
