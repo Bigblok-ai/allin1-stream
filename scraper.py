@@ -26,15 +26,11 @@ CATEGORIES = {
 }
 
 SOURCES = [
-    {"name": "Thapcam24h", "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/output.json"},
-    {"name": "Cakhia247", "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/output.json"},
-    {"name": "Buncha", "url": "https://raw.githubusercontent.com/xixixius-ai/buncha-stream/refs/heads/main/output.json"},
     {"name": "Giovang", "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/output.json"},
     {"name": "Hoiquan", "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/output.json"},
     {"name": "Quechoa", "url": "https://raw.githubusercontent.com/jasminliu98/quechoa-stream/refs/heads/main/output.json"},
     {"name": "Xaycon", "url": "https://raw.githubusercontent.com/jasminliu98/xaycon-stream/refs/heads/main/output.json"},
     {"name": "Bugio", "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/output.json"},
-    {"name": "Bonmua", "url": "https://raw.githubusercontent.com/jasminliu98/bonmua-stream/refs/heads/main/output.json"}
 ]
 
 HOIQUAN_FILE = "hoiquan.json"
