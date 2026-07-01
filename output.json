@@ -799,7 +799,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá",
+      "name": "⚽ Bóng Đá (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -812,10 +812,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -830,7 +830,25 @@
                     {
                       "id": "st-73a14ba2f5",
                       "name": "HQ",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-1cad2e4412",
+                          "name": "BLV TÁO GIÀ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://tdlive.yarncdn.live/live/tdtv_blv_taotinhtao/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -845,7 +863,7 @@
             "logo_b": "https://media.api-sports.io/football/teams/4143.png",
             "time": "22:00 01/07",
             "blv": "BLV TÁO GIÀ",
-            "is_live": false,
+            "is_live": true,
             "sport_slug": "bong-da"
           },
           "image": {
@@ -853,6 +871,82 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Tukums_Super Nova_22-00 01-07_9a0790a7_20260701.png?v=9a0790a7",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-7d7d76c671",
+          "name": "Spain U19 W vs Iceland U19 W | 22:00 01/07",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-7d7d76c671",
+              "name": "XayConTV",
+              "contents": [
+                {
+                  "id": "ct-7d7d76c671",
+                  "name": "Spain U19 W vs Iceland U19 W",
+                  "streams": [
+                    {
+                      "id": "st-7d7d76c671",
+                      "name": "XC",
+                      "stream_links": [
+                        {
+                          "id": "lnk-b9f74b1c23",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://xclive.yarncdn.live/live/xctv_blv_phubeo/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.xaycon3.live/"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://sv2.xaycon3.live"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "UEFA U19 Championship - Women",
+            "team_a": "Spain U19 W",
+            "team_b": "Iceland U19 W",
+            "logo_a": "https://media.api-sports.io/football/teams/19066.png",
+            "logo_b": "https://media.api-sports.io/football/teams/21272.png",
+            "time": "22:00",
+            "date": "01/07",
+            "blv": "BLV Kent",
+            "is_live": true,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/xaycon-stream/refs/heads/main/thumbs/xc-7d7d76c671_8865870a_20260701.png?v=8865870a",
             "width": 1600,
             "height": 1200
           }
@@ -2371,82 +2465,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/xaycon-stream/refs/heads/main/thumbs/xc-4ca6269bab_1c897f55_20260701.png?v=1c897f55",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "xc-7d7d76c671",
-          "name": "Spain U19 W vs Iceland U19 W | 22:00 01/07",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-7d7d76c671",
-              "name": "XayConTV",
-              "contents": [
-                {
-                  "id": "ct-7d7d76c671",
-                  "name": "Spain U19 W vs Iceland U19 W",
-                  "streams": [
-                    {
-                      "id": "st-7d7d76c671",
-                      "name": "XC",
-                      "stream_links": [
-                        {
-                          "id": "lnk-b9f74b1c23",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://xclive.yarncdn.live/live/xctv_blv_phubeo/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.xaycon3.live/"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://sv2.xaycon3.live"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "UEFA U19 Championship - Women",
-            "team_a": "Spain U19 W",
-            "team_b": "Iceland U19 W",
-            "logo_a": "https://media.api-sports.io/football/teams/19066.png",
-            "logo_b": "https://media.api-sports.io/football/teams/21272.png",
-            "time": "22:00",
-            "date": "01/07",
-            "blv": "BLV Kent",
-            "is_live": false,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/xaycon-stream/refs/heads/main/thumbs/xc-7d7d76c671_8865870a_20260701.png?v=8865870a",
             "width": 1600,
             "height": 1200
           }
