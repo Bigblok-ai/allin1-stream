@@ -799,11 +799,87 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá",
+      "name": "⚽ Bóng Đá (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "xc-88a93c997e",
+          "name": "Austria U19 W vs Switzerland U19 W | 19:00 01/07",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-88a93c997e",
+              "name": "XayConTV",
+              "contents": [
+                {
+                  "id": "ct-88a93c997e",
+                  "name": "Austria U19 W vs Switzerland U19 W",
+                  "streams": [
+                    {
+                      "id": "st-88a93c997e",
+                      "name": "XC",
+                      "stream_links": [
+                        {
+                          "id": "lnk-fde7f94b4e",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://xclive.yarncdn.live/live/xctv_blv_chuoi/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.xaycon3.live/"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://sv2.xaycon3.live"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "UEFA U19 Championship - Women",
+            "team_a": "Austria U19 W",
+            "team_b": "Switzerland U19 W",
+            "logo_a": "https://media.api-sports.io/football/teams/21270.png",
+            "logo_b": "https://media.api-sports.io/football/teams/27196.png",
+            "time": "19:00",
+            "date": "01/07",
+            "blv": "BLV Chuối",
+            "is_live": true,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/xaycon-stream/refs/heads/main/thumbs/xc-88a93c997e_4a9a4bca_20260701.png?v=4a9a4bca",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "hqlive-73a14ba2f5",
           "name": "Tukums vs Super Nova | 22:00 01/07",
@@ -1732,82 +1808,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/xaycon-stream/refs/heads/main/thumbs/xc-764528654a_facd8ad7_20260701.png?v=facd8ad7",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "xc-88a93c997e",
-          "name": "Austria U19 W vs Switzerland U19 W | 19:00 01/07",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-88a93c997e",
-              "name": "XayConTV",
-              "contents": [
-                {
-                  "id": "ct-88a93c997e",
-                  "name": "Austria U19 W vs Switzerland U19 W",
-                  "streams": [
-                    {
-                      "id": "st-88a93c997e",
-                      "name": "XC",
-                      "stream_links": [
-                        {
-                          "id": "lnk-fde7f94b4e",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://xclive.yarncdn.live/live/xctv_blv_chuoi/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.xaycon3.live/"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://sv2.xaycon3.live"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "UEFA U19 Championship - Women",
-            "team_a": "Austria U19 W",
-            "team_b": "Switzerland U19 W",
-            "logo_a": "https://media.api-sports.io/football/teams/21270.png",
-            "logo_b": "https://media.api-sports.io/football/teams/27196.png",
-            "time": "19:00",
-            "date": "01/07",
-            "blv": "BLV Chuối",
-            "is_live": false,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/xaycon-stream/refs/heads/main/thumbs/xc-88a93c997e_4a9a4bca_20260701.png?v=4a9a4bca",
             "width": 1600,
             "height": 1200
           }
