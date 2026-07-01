@@ -799,7 +799,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -876,8 +876,8 @@
           }
         },
         {
-          "id": "xc-7d7d76c671",
-          "name": "Spain U19 W vs Iceland U19 W | 22:00 01/07",
+          "id": "hqlive-6eb761d3d9",
+          "name": "England vs Congo DR | 23:00 01/07",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -887,82 +887,6 @@
               "position": "top-left",
               "color": "#00000080",
               "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-7d7d76c671",
-              "name": "XayConTV",
-              "contents": [
-                {
-                  "id": "ct-7d7d76c671",
-                  "name": "Spain U19 W vs Iceland U19 W",
-                  "streams": [
-                    {
-                      "id": "st-7d7d76c671",
-                      "name": "XC",
-                      "stream_links": [
-                        {
-                          "id": "lnk-b9f74b1c23",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://xclive.yarncdn.live/live/xctv_blv_phubeo/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.xaycon3.live/"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://sv2.xaycon3.live"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "UEFA U19 Championship - Women",
-            "team_a": "Spain U19 W",
-            "team_b": "Iceland U19 W",
-            "logo_a": "https://media.api-sports.io/football/teams/19066.png",
-            "logo_b": "https://media.api-sports.io/football/teams/21272.png",
-            "time": "22:00",
-            "date": "01/07",
-            "blv": "BLV Kent",
-            "is_live": true,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/xaycon-stream/refs/heads/main/thumbs/xc-7d7d76c671_8865870a_20260701.png?v=8865870a",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "hqlive-6eb761d3d9",
-          "name": "England vs Congo DR | 23:00 01/07",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
             }
           ],
           "sources": [
@@ -1218,7 +1142,7 @@
             "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Flag_of_the_Democratic_Republic_of_the_Congo.svg/1280px-Flag_of_the_Democratic_Republic_of_the_Congo.svg.png",
             "time": "23:00 01/07",
             "blv": "BLV PHAN QUẨY, BLV LƯƠNG BỔNG",
-            "is_live": false,
+            "is_live": true,
             "sport_slug": "bong-da"
           },
           "image": {
@@ -1226,6 +1150,82 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/England_Congo DR_23-00 01-07_2aaf30ea_20260701.png?v=2aaf30ea",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-7d7d76c671",
+          "name": "Spain U19 W vs Iceland U19 W | 22:00 01/07",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-7d7d76c671",
+              "name": "XayConTV",
+              "contents": [
+                {
+                  "id": "ct-7d7d76c671",
+                  "name": "Spain U19 W vs Iceland U19 W",
+                  "streams": [
+                    {
+                      "id": "st-7d7d76c671",
+                      "name": "XC",
+                      "stream_links": [
+                        {
+                          "id": "lnk-b9f74b1c23",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://xclive.yarncdn.live/live/xctv_blv_phubeo/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.xaycon3.live/"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://sv2.xaycon3.live"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "UEFA U19 Championship - Women",
+            "team_a": "Spain U19 W",
+            "team_b": "Iceland U19 W",
+            "logo_a": "https://media.api-sports.io/football/teams/19066.png",
+            "logo_b": "https://media.api-sports.io/football/teams/21272.png",
+            "time": "22:00",
+            "date": "01/07",
+            "blv": "BLV Kent",
+            "is_live": true,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/xaycon-stream/refs/heads/main/thumbs/xc-7d7d76c671_8865870a_20260701.png?v=8865870a",
             "width": 1600,
             "height": 1200
           }
