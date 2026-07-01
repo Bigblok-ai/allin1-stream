@@ -799,11 +799,87 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (1 LIVE)",
+      "name": "⚽ Bóng Đá (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "xc-ceeeb0232a",
+          "name": "Rochedale U23 vs Moreton City Excelsior U23 | 16:30 01/07",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-ceeeb0232a",
+              "name": "XayConTV",
+              "contents": [
+                {
+                  "id": "ct-ceeeb0232a",
+                  "name": "Rochedale U23 vs Moreton City Excelsior U23",
+                  "streams": [
+                    {
+                      "id": "st-ceeeb0232a",
+                      "name": "XC",
+                      "stream_links": [
+                        {
+                          "id": "lnk-b9f74b1c23",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://xclive.yarncdn.live/live/xctv_blv_phubeo/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.xaycon3.live/"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://sv2.xaycon3.live"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "NPL Queensland U23",
+            "team_a": "Rochedale U23",
+            "team_b": "Moreton City Excelsior U23",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/en/b/b4/Rochedale_Rovers_FC_logo.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/en/thumb/0/0a/Moreton_City_Excelsior_FC_new_logo.png/250px-Moreton_City_Excelsior_FC_new_logo.png",
+            "time": "16:30",
+            "date": "01/07",
+            "blv": "BLV Kent",
+            "is_live": true,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/xaycon-stream/refs/heads/main/thumbs/xc-ceeeb0232a_6a02fa9b_20260701.png?v=6a02fa9b",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "bg-0cd6a40ae5",
           "name": "Izhevsk vs Pobeda Nizhniy Novgorod | 21:00 01/07",
@@ -1825,82 +1901,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/xaycon-stream/refs/heads/main/thumbs/xc-764528654a_facd8ad7_20260701.png?v=facd8ad7",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "xc-ceeeb0232a",
-          "name": "Rochedale U23 vs Moreton City Excelsior U23 | 16:30 01/07",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-ceeeb0232a",
-              "name": "XayConTV",
-              "contents": [
-                {
-                  "id": "ct-ceeeb0232a",
-                  "name": "Rochedale U23 vs Moreton City Excelsior U23",
-                  "streams": [
-                    {
-                      "id": "st-ceeeb0232a",
-                      "name": "XC",
-                      "stream_links": [
-                        {
-                          "id": "lnk-b9f74b1c23",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://xclive.yarncdn.live/live/xctv_blv_phubeo/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.xaycon3.live/"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://sv2.xaycon3.live"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "NPL Queensland U23",
-            "team_a": "Rochedale U23",
-            "team_b": "Moreton City Excelsior U23",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/en/b/b4/Rochedale_Rovers_FC_logo.png",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/en/thumb/0/0a/Moreton_City_Excelsior_FC_new_logo.png/250px-Moreton_City_Excelsior_FC_new_logo.png",
-            "time": "16:30",
-            "date": "01/07",
-            "blv": "BLV Kent",
-            "is_live": false,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/xaycon-stream/refs/heads/main/thumbs/xc-ceeeb0232a_6a02fa9b_20260701.png?v=6a02fa9b",
             "width": 1600,
             "height": 1200
           }
