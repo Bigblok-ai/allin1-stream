@@ -21,6 +21,7 @@ CATEGORIES = {
     "Đua xe": "🏎️ Đua Xe",
     "Bóng bàn": "🏓 Bóng Bàn",
     "Võ Thuật": "🥊 Võ Thuật",
+    "Bóng chày": "⚾ Bóng Chày",
     "Pickleball": "🏸 Pickleball"
 }
 
