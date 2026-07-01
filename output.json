@@ -799,11 +799,121 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "hqlive-ec0200e4cf",
+          "name": "Hamilton Olympic vs Charlestown City Blues | 17:00 01/07",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-ec0200e4cf",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-ec0200e4cf",
+                  "name": "Hamilton Olympic vs Charlestown City Blues",
+                  "streams": [
+                    {
+                      "id": "st-ec0200e4cf",
+                      "name": "HQ",
+                      "stream_links": [
+                        {
+                          "id": "lnk-1cad2e4412",
+                          "name": "BLV TÁO GIÀ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://tdlive.yarncdn.live/live/tdtv_blv_taotinhtao/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-117acd68cb",
+              "name": "XayConTV",
+              "contents": [
+                {
+                  "id": "ct-117acd68cb",
+                  "name": "Hamilton Olympic vs Charlestown City Blues",
+                  "streams": [
+                    {
+                      "id": "st-117acd68cb",
+                      "name": "Xaycon - BLV Tam Mao",
+                      "stream_links": [
+                        {
+                          "id": "lnk-bccd486b79",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://xclive.yarncdn.live/live/xctv_blv_tammao/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.xaycon3.live/"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://sv2.xaycon3.live"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Northern NSW NPL",
+            "team_a": "Hamilton Olympic",
+            "team_b": "Charlestown City Blues",
+            "logo_a": "https://media.api-sports.io/football/teams/10205.png",
+            "logo_b": "https://media.api-sports.io/football/teams/10203.png",
+            "time": "17:00 01/07",
+            "blv": "BLV TÁO GIÀ",
+            "is_live": true,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Hamilton Olympic_Charlestown City Blues_17-00 01-07_83aa52cf_20260701.png?v=83aa52cf",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "xc-ceeeb0232a",
           "name": "Rochedale U23 vs Moreton City Excelsior U23 | 16:30 01/07",
@@ -947,98 +1057,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-0cd6a40ae5_62ab385f_20260701.png?v=62ab385f",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "hqlive-ec0200e4cf",
-          "name": "Hamilton Olympic vs Charlestown City Blues | 17:00 01/07",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-ec0200e4cf",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-ec0200e4cf",
-                  "name": "Hamilton Olympic vs Charlestown City Blues",
-                  "streams": [
-                    {
-                      "id": "st-ec0200e4cf",
-                      "name": "HQ",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "src-117acd68cb",
-              "name": "XayConTV",
-              "contents": [
-                {
-                  "id": "ct-117acd68cb",
-                  "name": "Hamilton Olympic vs Charlestown City Blues",
-                  "streams": [
-                    {
-                      "id": "st-117acd68cb",
-                      "name": "Xaycon - BLV Tam Mao",
-                      "stream_links": [
-                        {
-                          "id": "lnk-bccd486b79",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://xclive.yarncdn.live/live/xctv_blv_tammao/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.xaycon3.live/"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://sv2.xaycon3.live"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Northern NSW NPL",
-            "team_a": "Hamilton Olympic",
-            "team_b": "Charlestown City Blues",
-            "logo_a": "https://media.api-sports.io/football/teams/10205.png",
-            "logo_b": "https://media.api-sports.io/football/teams/10203.png",
-            "time": "17:00 01/07",
-            "blv": "BLV TÁO GIÀ",
-            "is_live": false,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Hamilton Olympic_Charlestown City Blues_17-00 01-07_83aa52cf_20260701.png?v=83aa52cf",
             "width": 1600,
             "height": 1200
           }
