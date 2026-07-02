@@ -2950,11 +2950,118 @@
     },
     {
       "id": "grp-bóng-chuyền",
-      "name": "🏐 Bóng Chuyền (9 LIVE)",
+      "name": "🏐 Bóng Chuyền (10 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "gv-934f016424",
+          "name": "U18 Hàn Quốc vs U18 Việt Nam | 13:00 02/07",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-934f016424",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-934f016424",
+                  "name": "U18 Hàn Quốc vs U18 Việt Nam",
+                  "streams": [
+                    {
+                      "id": "st-934f016424",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-4d2ffdf44d",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1782875829_hd/1782875829_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-03227b9507",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-03227b9507",
+                  "name": "Hàn Quốc vs Việt Nam",
+                  "streams": [
+                    {
+                      "id": "st-03227b9507",
+                      "name": "Bugio - BLV Chim Nhỏ",
+                      "stream_links": [
+                        {
+                          "id": "lnk-378f040fcb",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_cuccu/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Asian Championship U18 Nữ",
+            "team_a": "U18 Hàn Quốc",
+            "team_b": "U18 Việt Nam",
+            "logo_a": "https://static.flashscore.com/res/image/data/xUGWvAzB-fHcbO6Ye.png",
+            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFfhK25mwg026Jqc1ff_U3Le4AXr1habp_exC-gZIwpw&s=10",
+            "time": "13:00 02/07",
+            "blv": "BLV Sún",
+            "is_live": true,
+            "cate_type": "bongchuyen",
+            "time_start": 1782972000
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-934f016424_f9c865b0_20260702.png?v=f9c865b0",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "bg-cf9819df26",
           "name": "Indonesia vs Iran | 16:00 02/07",
@@ -3590,113 +3697,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-ca6ab34959_3ea1cbc8_20260702.png?v=3ea1cbc8",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-934f016424",
-          "name": "U18 Hàn Quốc vs U18 Việt Nam | 13:00 02/07",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-934f016424",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-934f016424",
-                  "name": "U18 Hàn Quốc vs U18 Việt Nam",
-                  "streams": [
-                    {
-                      "id": "st-934f016424",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-4d2ffdf44d",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1782875829_hd/1782875829_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "src-03227b9507",
-              "name": "BugioTV",
-              "contents": [
-                {
-                  "id": "ct-03227b9507",
-                  "name": "Hàn Quốc vs Việt Nam",
-                  "streams": [
-                    {
-                      "id": "st-03227b9507",
-                      "name": "Bugio - BLV Chim Nhỏ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-378f040fcb",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_cuccu/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv1.bugio9.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Asian Championship U18 Nữ",
-            "team_a": "U18 Hàn Quốc",
-            "team_b": "U18 Việt Nam",
-            "logo_a": "https://static.flashscore.com/res/image/data/xUGWvAzB-fHcbO6Ye.png",
-            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFfhK25mwg026Jqc1ff_U3Le4AXr1habp_exC-gZIwpw&s=10",
-            "time": "13:00 02/07",
-            "blv": "BLV Sún",
-            "is_live": false,
-            "cate_type": "bongchuyen",
-            "time_start": 1782972000
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-934f016424_f9c865b0_20260702.png?v=f9c865b0",
             "width": 1600,
             "height": 1200
           }
