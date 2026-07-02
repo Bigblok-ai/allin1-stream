@@ -799,11 +799,83 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "gv-4d03f03a95",
+          "name": "Croatia U19 vs U19 Ý | 20:00 02/07",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-4d03f03a95",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-4d03f03a95",
+                  "name": "Croatia U19 vs U19 Ý",
+                  "streams": [
+                    {
+                      "id": "st-4d03f03a95",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-6bdfe54023",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1782956274_hd/1782956274_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Euro U19",
+            "team_a": "Croatia U19",
+            "team_b": "U19 Ý",
+            "logo_a": "https://images.keovip88.net/images/teams/croatia-u19.png",
+            "logo_b": "https://images.keovip88.net/images/teams/italy-u19.png",
+            "time": "20:00 02/07",
+            "blv": "BLV Bón",
+            "is_live": true,
+            "cate_type": "football",
+            "time_start": 1782997200
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-4d03f03a95_a5bdd28c_20260702.png?v=a5bdd28c",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "bg-4e5046fc8d",
           "name": "Nữ Latvia U17 vs Nữ Faroe Islands U17 | 21:00 02/07",
@@ -942,78 +1014,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-7836009139_ee755afa_20260702.png?v=ee755afa",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-4d03f03a95",
-          "name": "Croatia U19 vs U19 Ý | 20:00 02/07",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-4d03f03a95",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-4d03f03a95",
-                  "name": "Croatia U19 vs U19 Ý",
-                  "streams": [
-                    {
-                      "id": "st-4d03f03a95",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-6bdfe54023",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1782956274_hd/1782956274_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Euro U19",
-            "team_a": "Croatia U19",
-            "team_b": "U19 Ý",
-            "logo_a": "https://images.keovip88.net/images/teams/croatia-u19.png",
-            "logo_b": "https://images.keovip88.net/images/teams/italy-u19.png",
-            "time": "20:00 02/07",
-            "blv": "BLV Bón",
-            "is_live": false,
-            "cate_type": "football",
-            "time_start": 1782997200
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-4d03f03a95_a5bdd28c_20260702.png?v=a5bdd28c",
             "width": 1600,
             "height": 1200
           }
@@ -2436,7 +2436,7 @@
     },
     {
       "id": "grp-tennis",
-      "name": "🎾 Tennis (1 LIVE)",
+      "name": "🎾 Tennis (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -2521,10 +2521,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -2572,7 +2572,7 @@
             "logo_b": "https://static.flashscore.com/res/image/data/ryBdx3fM-Y5qDemMF.png",
             "time": "18:40 02/07",
             "blv": "BLV Ben",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "tennis",
             "time_start": 1782992400
           },
