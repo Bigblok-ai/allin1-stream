@@ -799,7 +799,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (3 LIVE)",
+      "name": "⚽ Bóng Đá (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1243,77 +1243,6 @@
           }
         },
         {
-          "id": "bg-7836009139",
-          "name": "Lyn vs Asane | 23:00 02/07",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-7836009139",
-              "name": "BugioTV",
-              "contents": [
-                {
-                  "id": "ct-7836009139",
-                  "name": "Lyn vs Asane",
-                  "streams": [
-                    {
-                      "id": "st-7836009139",
-                      "name": "BG",
-                      "stream_links": [
-                        {
-                          "id": "lnk-51a73d71ba",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_mason/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv1.bugio9.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "1. Division",
-            "team_a": "Lyn",
-            "team_b": "Asane",
-            "logo_a": "https://media.api-sports.io/football/teams/7006.png",
-            "logo_b": "https://media.api-sports.io/football/teams/2148.png",
-            "start_time": "2026-07-02T23:00:00",
-            "blv": "BLV Mao Từn",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-7836009139_ee755afa_20260703.png?v=ee755afa",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "gv-4eba232dbc",
           "name": "Bồ Đào Nha vs Croatia | 06:00 03/07",
           "type": "single",
@@ -1371,7 +1300,7 @@
             "logo_a": "https://images.keovip88.net/images/teams/portugal.png",
             "logo_b": "https://images.keovip88.net/images/teams/croatia.png",
             "time": "06:00 03/07",
-            "blv": "Bón + Trĩ, bin-mason, Mason-mat",
+            "blv": "Bón + Trĩ, Leo + Mason, Mason-mat",
             "is_live": false,
             "cate_type": "football",
             "time_start": 1783033200
@@ -1513,6 +1442,45 @@
                           "type": "hls",
                           "default": true,
                           "url": "https://xclive.yarncdn.live/live/xctv_blv_tholan/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.xaycon3.live/"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://sv2.xaycon3.live"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-f0ce9c6386",
+              "name": "XayConTV",
+              "contents": [
+                {
+                  "id": "ct-f0ce9c6386",
+                  "name": "Portugal vs Croatia",
+                  "streams": [
+                    {
+                      "id": "st-f0ce9c6386",
+                      "name": "Xaycon - BLV Min",
+                      "stream_links": [
+                        {
+                          "id": "lnk-d3a028ef88",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://xclive.yarncdn.live/live/xctv_blv_thienbong/playlist.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -2213,7 +2181,25 @@
                     {
                       "id": "st-b57743a79b",
                       "name": "GV",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-f803190856",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1783017987_hd/1783017987_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -2343,6 +2329,197 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/FC Astana_Zhenys_21-00 03-07_e1e99eb0_20260703.png?v=e1e99eb0",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-cef9fe4ea9",
+          "name": "Argentina vs Cape Verde Islands | 05:00 04/07",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-cef9fe4ea9",
+              "name": "XayConTV",
+              "contents": [
+                {
+                  "id": "ct-cef9fe4ea9",
+                  "name": "Argentina vs Cape Verde Islands",
+                  "streams": [
+                    {
+                      "id": "st-cef9fe4ea9",
+                      "name": "XC",
+                      "stream_links": [
+                        {
+                          "id": "lnk-30319ba8f3",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://xclive.yarncdn.live/live/xctv_blv_bipcon/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.xaycon3.live/"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://sv2.xaycon3.live"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-0c21b8e20c",
+              "name": "XayConTV",
+              "contents": [
+                {
+                  "id": "ct-0c21b8e20c",
+                  "name": "Argentina vs Cape Verde Islands",
+                  "streams": [
+                    {
+                      "id": "st-0c21b8e20c",
+                      "name": "Xaycon - BLV Min",
+                      "stream_links": [
+                        {
+                          "id": "lnk-d3a028ef88",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://xclive.yarncdn.live/live/xctv_blv_thienbong/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.xaycon3.live/"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://sv2.xaycon3.live"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "World Cup",
+            "team_a": "Argentina",
+            "team_b": "Cape Verde Islands",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Flag_of_Argentina.svg/250px-Flag_of_Argentina.svg.png",
+            "logo_b": "https://imgts.sportpulseapiz.com/football/team/9vjxm8ghdpdr6od/image/small",
+            "time": "05:00",
+            "date": "04/07",
+            "blv": "BLV Bịp Con",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/xaycon-stream/refs/heads/main/thumbs/xc-cef9fe4ea9_bd1a8387_20260703.png?v=bd1a8387",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-74d90823ee",
+          "name": "Naples vs Portland Hearts of Pine | 06:30 04/07",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-74d90823ee",
+              "name": "XayConTV",
+              "contents": [
+                {
+                  "id": "ct-74d90823ee",
+                  "name": "Naples vs Portland Hearts of Pine",
+                  "streams": [
+                    {
+                      "id": "st-74d90823ee",
+                      "name": "XC",
+                      "stream_links": [
+                        {
+                          "id": "lnk-bccd486b79",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://xclive.yarncdn.live/live/xctv_blv_tammao/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.xaycon3.live/"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://sv2.xaycon3.live"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "USL League One",
+            "team_a": "Naples",
+            "team_b": "Portland Hearts of Pine",
+            "logo_a": "https://media.api-sports.io/football/teams/25485.png",
+            "logo_b": "https://media.api-sports.io/football/teams/25486.png",
+            "time": "06:30",
+            "date": "04/07",
+            "blv": "BLV Tam Mao",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/xaycon-stream/refs/heads/main/thumbs/xc-74d90823ee_25afcaba_20260703.png?v=25afcaba",
             "width": 1600,
             "height": 1200
           }
@@ -2758,7 +2935,25 @@
                     {
                       "id": "st-2de9654d10",
                       "name": "GV",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-9b7070fdbb",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1783018091_hd/1783018091_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -2812,7 +3007,25 @@
                     {
                       "id": "st-82603f4e60",
                       "name": "GV",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-8c27e4b47f",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1783018213_hd/1783018213_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -2836,6 +3049,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-82603f4e60_c321a80d_20260703.png?v=c321a80d",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-9d16b859f4",
+          "name": "Finland vs Hungary | 22:30 03/07",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-9d16b859f4",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-9d16b859f4",
+                  "name": "Finland vs Hungary",
+                  "streams": [
+                    {
+                      "id": "st-9d16b859f4",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-64d960d7dc",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1783018768_hd/1783018768_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Fiba World Cup",
+            "team_a": "Finland",
+            "team_b": "Hungary",
+            "logo_a": "https://static.flashscore.com/res/image/data/21LKuWg5-Uywods6T.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/Mmyh0ByS-08oJ2RMo.png",
+            "time": "22:30 03/07",
+            "blv": "BLV Tôm",
+            "is_live": false,
+            "cate_type": "basketball",
+            "time_start": 1783092600
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-9d16b859f4_9beb6b13_20260703.png?v=9beb6b13",
             "width": 1600,
             "height": 1200
           }
