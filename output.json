@@ -799,7 +799,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (6 LIVE)",
+      "name": "⚽ Bóng Đá (5 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1023,6 +1023,78 @@
           }
         },
         {
+          "id": "gv-8985852992",
+          "name": "Tây Ban Nha vs Áo | 02:00 03/07",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-8985852992",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-8985852992",
+                  "name": "Tây Ban Nha vs Áo",
+                  "streams": [
+                    {
+                      "id": "st-8985852992",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-a03d43f87e",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1782930186_hd/1782930186_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "FIFA World Cup",
+            "team_a": "Tây Ban Nha",
+            "team_b": "Áo",
+            "logo_a": "https://images.keovip88.net/images/teams/spain.png",
+            "logo_b": "https://images.keovip88.net/images/teams/austria.png",
+            "time": "02:00 03/07",
+            "blv": "Leo + Mason, perrycay",
+            "is_live": true,
+            "cate_type": "football",
+            "time_start": 1783018800
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-8985852992_ad3556f4_20260703.png?v=ad3556f4",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "hqlive-e3c3e14494",
           "name": "Spain vs Austria | 02:00 03/07",
           "type": "single",
@@ -1048,7 +1120,59 @@
                     {
                       "id": "st-e3c3e14494",
                       "name": "HQ",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-975fc55dd1",
+                          "name": "BLV LƯƠNG BỔNG",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanliem/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-b0c182498f",
+                          "name": "BLV PHAN QUẨY",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanquay/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-b10e5b640b",
+                          "name": "BLV THẦN THÔNG",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://tdlive.yarncdn.live/live/tdtv_blv_taovannghe/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -1211,41 +1335,6 @@
               ]
             },
             {
-              "id": "src-ab013ca67c",
-              "name": "BugioTV",
-              "contents": [
-                {
-                  "id": "ct-ab013ca67c",
-                  "name": "Spain vs Austria",
-                  "streams": [
-                    {
-                      "id": "st-ab013ca67c",
-                      "name": "Bugio - BLV Mao Từn",
-                      "stream_links": [
-                        {
-                          "id": "lnk-51a73d71ba",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_mason/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv1.bugio9.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
               "id": "src-2a10665525",
               "name": "BugioTV",
               "contents": [
@@ -1314,6 +1403,41 @@
                   ]
                 }
               ]
+            },
+            {
+              "id": "src-ab013ca67c",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-ab013ca67c",
+                  "name": "Spain vs Austria",
+                  "streams": [
+                    {
+                      "id": "st-ab013ca67c",
+                      "name": "Bugio - BLV Mao Từn",
+                      "stream_links": [
+                        {
+                          "id": "lnk-51a73d71ba",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_mason/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
             }
           ],
           "org_metadata": {
@@ -1332,158 +1456,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Spain_Austria_02-00 03-07_6b4087a9_20260703.png?v=6b4087a9",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "xc-fe295d9b9a",
-          "name": "Bate Borisov vs FC Gomel | 22:00 02/07",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-fe295d9b9a",
-              "name": "XayConTV",
-              "contents": [
-                {
-                  "id": "ct-fe295d9b9a",
-                  "name": "Bate Borisov vs FC Gomel",
-                  "streams": [
-                    {
-                      "id": "st-fe295d9b9a",
-                      "name": "XC",
-                      "stream_links": [
-                        {
-                          "id": "lnk-fde7f94b4e",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://xclive.yarncdn.live/live/xctv_blv_chuoi/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.xaycon3.live/"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://sv2.xaycon3.live"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Premier League",
-            "team_a": "Bate Borisov",
-            "team_b": "FC Gomel",
-            "logo_a": "https://media.api-sports.io/football/teams/388.png",
-            "logo_b": "https://media.api-sports.io/football/teams/389.png",
-            "time": "22:00",
-            "date": "02/07",
-            "blv": "BLV Ciu",
-            "is_live": true,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/xaycon-stream/refs/heads/main/thumbs/xc-fe295d9b9a_bb7a9a69_20260703.png?v=bb7a9a69",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "xc-45cc39bdff",
-          "name": "Kuressaare vs Flora Tallinn | 23:00 02/07",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-45cc39bdff",
-              "name": "XayConTV",
-              "contents": [
-                {
-                  "id": "ct-45cc39bdff",
-                  "name": "Kuressaare vs Flora Tallinn",
-                  "streams": [
-                    {
-                      "id": "st-45cc39bdff",
-                      "name": "XC",
-                      "stream_links": [
-                        {
-                          "id": "lnk-30319ba8f3",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://xclive.yarncdn.live/live/xctv_blv_bipcon/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.xaycon3.live/"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://sv2.xaycon3.live"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Meistriliiga",
-            "team_a": "Kuressaare",
-            "team_b": "Flora Tallinn",
-            "logo_a": "https://media.api-sports.io/football/teams/3526.png",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/en/thumb/e/ee/FC_Flora_logo.svg/960px-FC_Flora_logo.svg.png",
-            "time": "23:00",
-            "date": "02/07",
-            "blv": "BLV Bịp Con",
-            "is_live": true,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/xaycon-stream/refs/heads/main/thumbs/xc-45cc39bdff_8dcae9fe_20260703.png?v=8dcae9fe",
             "width": 1600,
             "height": 1200
           }
@@ -1555,78 +1527,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-7836009139_ee755afa_20260703.png?v=ee755afa",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-8985852992",
-          "name": "Tây Ban Nha vs Áo | 02:00 03/07",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-8985852992",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-8985852992",
-                  "name": "Tây Ban Nha vs Áo",
-                  "streams": [
-                    {
-                      "id": "st-8985852992",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-a03d43f87e",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1782930186_hd/1782930186_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "FIFA World Cup",
-            "team_a": "Tây Ban Nha",
-            "team_b": "Áo",
-            "logo_a": "https://images.keovip88.net/images/teams/spain.png",
-            "logo_b": "https://images.keovip88.net/images/teams/austria.png",
-            "time": "02:00 03/07",
-            "blv": "Leo + Mason, perrycay",
-            "is_live": false,
-            "cate_type": "football",
-            "time_start": 1783018800
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-8985852992_ad3556f4_20260703.png?v=ad3556f4",
             "width": 1600,
             "height": 1200
           }
@@ -2580,83 +2480,11 @@
     },
     {
       "id": "grp-bóng-rổ",
-      "name": "🏀 Bóng Rổ (4 LIVE)",
+      "name": "🏀 Bóng Rổ (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-bc02792154",
-          "name": "Jordan vs Iran | 23:30 02/07",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-bc02792154",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-bc02792154",
-                  "name": "Jordan vs Iran",
-                  "streams": [
-                    {
-                      "id": "st-bc02792154",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-09575b53bd",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1783005556_hd/1783005556_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Vòng loại WC",
-            "team_a": "Jordan",
-            "team_b": "Iran",
-            "logo_a": "https://ssl.gstatic.com/onebox/media/sports/logos/optimized/9swSmw5NICcCYIQ8FERjhw_96x96.png",
-            "logo_b": "https://ssl.gstatic.com/onebox/media/sports/logos/optimized/1oq8Fy7ETpBpZNaCA22ArQ_96x96.png",
-            "time": "23:30 02/07",
-            "blv": "Leo",
-            "is_live": true,
-            "cate_type": "basketball",
-            "time_start": 1783009800
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-bc02792154_f4edfadb_20260703.png?v=f4edfadb",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-5dfbcc4072",
           "name": "Spain  vs Denmark | 00:00 03/07",
