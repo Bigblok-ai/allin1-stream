@@ -799,7 +799,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (7 LIVE)",
+      "name": "⚽ Bóng Đá (6 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1321,8 +1321,8 @@
           }
         },
         {
-          "id": "bg-7836009139",
-          "name": "Lyn vs Asane | 23:00 02/07",
+          "id": "gv-6a43b33ea2",
+          "name": "Lyn  vs Åsane | 23:00 02/07",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1336,6 +1336,41 @@
           ],
           "sources": [
             {
+              "id": "src-6a43b33ea2",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-6a43b33ea2",
+                  "name": "Lyn  vs Åsane",
+                  "streams": [
+                    {
+                      "id": "st-6a43b33ea2",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-f7f7da0a06",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1783004807_hd/1783004807_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
               "id": "src-7836009139",
               "name": "BugioTV",
               "contents": [
@@ -1345,7 +1380,7 @@
                   "streams": [
                     {
                       "id": "st-7836009139",
-                      "name": "BG",
+                      "name": "Bugio - BLV Mao Từn",
                       "stream_links": [
                         {
                           "id": "lnk-51a73d71ba",
@@ -1372,21 +1407,22 @@
             }
           ],
           "org_metadata": {
-            "league": "1. Division",
-            "team_a": "Lyn",
-            "team_b": "Asane",
-            "logo_a": "https://media.api-sports.io/football/teams/7006.png",
-            "logo_b": "https://media.api-sports.io/football/teams/2148.png",
-            "start_time": "2026-07-02T23:00:00",
-            "blv": "BLV Mao Từn",
+            "league": "Norway - OBOS-ligaen",
+            "team_a": "Lyn ",
+            "team_b": "Åsane",
+            "logo_a": "https://static.flashscore.com/res/image/data/QFujrmCa-GEWDK90d.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/lpMHTPcM-8GFqX8UN.png",
+            "time": "23:00 02/07",
+            "blv": "BLV Dory",
             "is_live": false,
-            "cate_type": "football"
+            "cate_type": "football",
+            "time_start": 1783008000
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-7836009139_ee755afa_20260702.png?v=ee755afa",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-6a43b33ea2_99f1c2b1_20260702.png?v=99f1c2b1",
             "width": 1600,
             "height": 1200
           }
