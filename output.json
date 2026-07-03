@@ -799,83 +799,11 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (5 LIVE)",
+      "name": "⚽ Bóng Đá (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-4eba232dbc",
-          "name": "Bồ Đào Nha vs Croatia | 06:00 03/07",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-4eba232dbc",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-4eba232dbc",
-                  "name": "Bồ Đào Nha vs Croatia",
-                  "streams": [
-                    {
-                      "id": "st-4eba232dbc",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-b53d0185bb",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1783020983_hd/1783020983_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "FIFA World Cup",
-            "team_a": "Bồ Đào Nha",
-            "team_b": "Croatia",
-            "logo_a": "https://images.keovip88.net/images/teams/portugal.png",
-            "logo_b": "https://images.keovip88.net/images/teams/croatia.png",
-            "time": "06:00 03/07",
-            "blv": "bin-mason, Bón + Trĩ, Mason-mat",
-            "is_live": true,
-            "cate_type": "football",
-            "time_start": 1783033200
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-4eba232dbc_33fbf65a_20260703.png?v=33fbf65a",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-ee94874abc",
           "name": "Birmingham Legion vs Detroit City | 07:00 03/07",
@@ -2999,7 +2927,7 @@
           }
         },
         {
-          "id": "xc-3a9f6482fe",
+          "id": "qc-1df2baeee7",
           "name": "Colombia vs Ghana | 08:30 04/07",
           "type": "single",
           "display": "thumbnail-only",
@@ -3014,6 +2942,45 @@
           ],
           "sources": [
             {
+              "id": "src-1df2baeee7",
+              "name": "QuechoaTV",
+              "contents": [
+                {
+                  "id": "ct-1df2baeee7",
+                  "name": "Colombia vs Ghana",
+                  "streams": [
+                    {
+                      "id": "st-1df2baeee7",
+                      "name": "QC",
+                      "stream_links": [
+                        {
+                          "id": "lnk-0e88644c2d",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ahghndtkyqmm-pull.bpmedialive.com/quechoa/blv_duahau.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://quechoa10.live/"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://quechoa10.live"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
               "id": "src-3a9f6482fe",
               "name": "XayConTV",
               "contents": [
@@ -3023,7 +2990,7 @@
                   "streams": [
                     {
                       "id": "st-3a9f6482fe",
-                      "name": "XC",
+                      "name": "Xaycon - BLV Min",
                       "stream_links": [
                         {
                           "id": "lnk-d3a028ef88",
@@ -3135,11 +3102,11 @@
             "league": "World Cup",
             "team_a": "Colombia",
             "team_b": "Ghana",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/2/21/Flag_of_Colombia.svg",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Flag_of_Ghana.svg/1280px-Flag_of_Ghana.svg.png",
+            "logo_a": "https://media.api-sports.io/football/teams/8.png",
+            "logo_b": "https://media.api-sports.io/football/teams/1504.png",
             "time": "08:30",
             "date": "04/07",
-            "blv": "BLV Min",
+            "blv": "DƯA HẤU, VỎ QUÝT, VĂN MINH",
             "is_live": false,
             "sport_slug": "bong-da"
           },
@@ -3147,7 +3114,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/xaycon-stream/refs/heads/main/thumbs/xc-3a9f6482fe_2372e8ec_20260703.png?v=2372e8ec",
+            "url": "https://raw.githubusercontent.com/jasminliu98/quechoa-stream/refs/heads/main/thumbs/qc-1df2baeee7_2c3871dc_20260703.png?v=2c3871dc",
             "width": 1600,
             "height": 1200
           }
