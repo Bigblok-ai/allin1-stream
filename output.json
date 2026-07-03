@@ -799,7 +799,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (4 LIVE)",
+      "name": "⚽ Bóng Đá (5 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1087,6 +1087,77 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Edgeworth Eagles_Kahibah_17-00 03-07_52147631_20260703.png?v=52147631",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "bg-110209d8fa",
+          "name": "Riga vs FS Jelgava | 23:00 03/07",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-110209d8fa",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-110209d8fa",
+                  "name": "Riga vs FS Jelgava",
+                  "streams": [
+                    {
+                      "id": "st-110209d8fa",
+                      "name": "BG",
+                      "stream_links": [
+                        {
+                          "id": "lnk-21936c1c94",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_tieumeo/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Virsliga",
+            "team_a": "Riga",
+            "team_b": "FS Jelgava",
+            "logo_a": "https://media.api-sports.io/football/teams/10124.png",
+            "logo_b": "https://media.api-sports.io/football/teams/18834.png",
+            "start_time": "2026-07-03T23:00:00",
+            "blv": "BLV Tiểu Mèo",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-110209d8fa_7f8ee95b_20260703.png?v=7f8ee95b",
             "width": 1600,
             "height": 1200
           }
@@ -3324,11 +3395,82 @@
     },
     {
       "id": "grp-tennis",
-      "name": "🎾 Tennis",
+      "name": "🎾 Tennis (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "hqlive-076e25264e",
+          "name": "Belinda Bencic vs Anna Kalinskaya | 17:00 03/07",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-076e25264e",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-076e25264e",
+                  "name": "Belinda Bencic vs Anna Kalinskaya",
+                  "streams": [
+                    {
+                      "id": "st-076e25264e",
+                      "name": "HQ",
+                      "stream_links": [
+                        {
+                          "id": "lnk-6568b58b01",
+                          "name": "BLV PHAN BỐNG",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanbong/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "WTA500 ",
+            "team_a": "Belinda Bencic",
+            "team_b": "Anna Kalinskaya",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/1/1c/Australian_Open_2020_%2849836758283%29_%28cropped%29.jpg",
+            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRd0dI-lMVvSjBfoPdjAwZtTWnSAV4xjeVAPQ&s",
+            "time": "17:00 03/07",
+            "blv": "BLV PHAN BỐNG",
+            "is_live": true,
+            "sport_slug": "tennis"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Belinda Bencic_Anna Kalinskaya_17-00 03-07_cd425754_20260703.png?v=cd425754",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "gv-48f2b80e2c",
           "name": "Daria Kasaikina vs Naomi Osaka | 19:00 03/07",
