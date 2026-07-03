@@ -799,7 +799,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -912,6 +912,77 @@
           }
         },
         {
+          "id": "hqlive-f9baa2733d",
+          "name": "Naftan vs Dinamo Brest | 20:00 03/07",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-f9baa2733d",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-f9baa2733d",
+                  "name": "Naftan vs Dinamo Brest",
+                  "streams": [
+                    {
+                      "id": "st-f9baa2733d",
+                      "name": "HQ",
+                      "stream_links": [
+                        {
+                          "id": "lnk-fd31283a76",
+                          "name": "BLV PHAN ANH",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phananh/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Premier League",
+            "team_a": "Naftan",
+            "team_b": "Dinamo Brest",
+            "logo_a": "https://media.api-sports.io/football/teams/750.png",
+            "logo_b": "https://media.api-sports.io/football/teams/386.png",
+            "time": "20:00 03/07",
+            "blv": "BLV PHAN ANH",
+            "is_live": true,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Naftan_Dinamo Brest_20-00 03-07_2207bde0_20260703.png?v=2207bde0",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "bg-110209d8fa",
           "name": "Riga vs FS Jelgava | 23:00 03/07",
           "type": "single",
@@ -978,59 +1049,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-110209d8fa_7f8ee95b_20260703.png?v=7f8ee95b",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "hqlive-f9baa2733d",
-          "name": "Naftan vs Dinamo Brest | 20:00 03/07",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-f9baa2733d",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-f9baa2733d",
-                  "name": "Naftan vs Dinamo Brest",
-                  "streams": [
-                    {
-                      "id": "st-f9baa2733d",
-                      "name": "HQ",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Premier League",
-            "team_a": "Naftan",
-            "team_b": "Dinamo Brest",
-            "logo_a": "https://media.api-sports.io/football/teams/750.png",
-            "logo_b": "https://media.api-sports.io/football/teams/386.png",
-            "time": "20:00 03/07",
-            "blv": "BLV PHAN ANH",
-            "is_live": false,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Naftan_Dinamo Brest_20-00 03-07_2207bde0_20260703.png?v=2207bde0",
             "width": 1600,
             "height": 1200
           }
@@ -4768,155 +4786,11 @@
     },
     {
       "id": "grp-bóng-rổ",
-      "name": "🏀 Bóng Rổ (4 LIVE)",
+      "name": "🏀 Bóng Rổ (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-f8e1344a80",
-          "name": "Australia vs Guam | 17:30 03/07",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-f8e1344a80",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-f8e1344a80",
-                  "name": "Australia vs Guam",
-                  "streams": [
-                    {
-                      "id": "st-f8e1344a80",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-cb192ff3b0",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1783017688_hd/1783017688_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Fiba World Cup",
-            "team_a": "Australia",
-            "team_b": "Guam",
-            "logo_a": "https://static.flashscore.com/res/image/data/pdVVwIg5-zXpVtysq.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/G6gtTG9r-ETxWupys.png",
-            "time": "17:30 03/07",
-            "blv": "BLV Điếc",
-            "is_live": true,
-            "cate_type": "basketball",
-            "time_start": 1783074600
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-f8e1344a80_dece25c7_20260703.png?v=dece25c7",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-cb03e71c9f",
-          "name": "South Korea vs Chinese Taipei | 17:30 03/07",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-cb03e71c9f",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-cb03e71c9f",
-                  "name": "South Korea vs Chinese Taipei",
-                  "streams": [
-                    {
-                      "id": "st-cb03e71c9f",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-38e5079509",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1783058504_hd/1783058504_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Fiba World Cup",
-            "team_a": "South Korea",
-            "team_b": "Chinese Taipei",
-            "logo_a": "https://static.flashscore.com/res/image/data/4lSeqKFG-AVYyKxPJ.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/IRfsLGzB-dtzqTXTK.png",
-            "time": "17:30 03/07",
-            "blv": "BLV Cần",
-            "is_live": true,
-            "cate_type": "basketball",
-            "time_start": 1783074600
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-cb03e71c9f_ca26d55d_20260703.png?v=ca26d55d",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-064a3c33df",
           "name": "China vs Japan | 18:30 03/07",
