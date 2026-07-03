@@ -799,7 +799,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (3 LIVE)",
+      "name": "⚽ Bóng Đá (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -983,6 +983,77 @@
           }
         },
         {
+          "id": "hqlive-04d638a20e",
+          "name": "FC Astana vs Zhenys | 21:00 03/07",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-04d638a20e",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-04d638a20e",
+                  "name": "FC Astana vs Zhenys",
+                  "streams": [
+                    {
+                      "id": "st-04d638a20e",
+                      "name": "HQ",
+                      "stream_links": [
+                        {
+                          "id": "lnk-1cad2e4412",
+                          "name": "BLV TÁO GIÀ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://tdlive.yarncdn.live/live/tdtv_blv_taotinhtao/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Premier League",
+            "team_a": "FC Astana",
+            "team_b": "Zhenys",
+            "logo_a": "https://media.api-sports.io/football/teams/562.png",
+            "logo_b": "https://media.api-sports.io/football/teams/16611.png",
+            "time": "21:00 03/07",
+            "blv": "BLV TÁO GIÀ",
+            "is_live": true,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/FC Astana_Zhenys_21-00 03-07_e1e99eb0_20260703.png?v=e1e99eb0",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "bg-110209d8fa",
           "name": "Riga vs FS Jelgava | 23:00 03/07",
           "type": "single",
@@ -1049,59 +1120,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-110209d8fa_7f8ee95b_20260703.png?v=7f8ee95b",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "hqlive-04d638a20e",
-          "name": "FC Astana vs Zhenys | 21:00 03/07",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-04d638a20e",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-04d638a20e",
-                  "name": "FC Astana vs Zhenys",
-                  "streams": [
-                    {
-                      "id": "st-04d638a20e",
-                      "name": "HQ",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Premier League",
-            "team_a": "FC Astana",
-            "team_b": "Zhenys",
-            "logo_a": "https://media.api-sports.io/football/teams/562.png",
-            "logo_b": "https://media.api-sports.io/football/teams/16611.png",
-            "time": "21:00 03/07",
-            "blv": "BLV TÁO GIÀ",
-            "is_live": false,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/FC Astana_Zhenys_21-00 03-07_e1e99eb0_20260703.png?v=e1e99eb0",
             "width": 1600,
             "height": 1200
           }
@@ -3735,7 +3753,7 @@
             "team_a": "Goias",
             "team_b": "Ceara",
             "logo_a": "https://media.api-sports.io/football/teams/151.png",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Cear%C3%A1_Sporting_Club_logo.svg/1081px-Cear%C3%A1_Sporting_Club_logo.svg.png",
+            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSt3DlN7Dbv6XMY6-csOHd6GR9q4EgDSzjE3_TxzqLCbA&s=10",
             "time": "06:00",
             "date": "05/07",
             "blv": "BLV Kent",
@@ -3746,7 +3764,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/xaycon-stream/refs/heads/main/thumbs/xc-39c8f6a94b_d4862be4_20260703.png?v=d4862be4",
+            "url": "https://raw.githubusercontent.com/jasminliu98/xaycon-stream/refs/heads/main/thumbs/xc-39c8f6a94b_77a773b7_20260703.png?v=77a773b7",
             "width": 1600,
             "height": 1200
           }
