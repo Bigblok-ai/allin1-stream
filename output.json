@@ -799,7 +799,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (5 LIVE)",
+      "name": "⚽ Bóng Đá (6 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1093,6 +1093,112 @@
           }
         },
         {
+          "id": "hqlive-882602cbb4",
+          "name": "VPS vs Mariehamn | 22:00 04/07",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-882602cbb4",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-882602cbb4",
+                  "name": "VPS vs Mariehamn",
+                  "streams": [
+                    {
+                      "id": "st-882602cbb4",
+                      "name": "HQ",
+                      "stream_links": [
+                        {
+                          "id": "lnk-1cad2e4412",
+                          "name": "BLV TÁO GIÀ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://tdlive.yarncdn.live/live/tdtv_blv_taotinhtao/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-88fcf48a99",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-88fcf48a99",
+                  "name": "VPS vs Mariehamn",
+                  "streams": [
+                    {
+                      "id": "st-88fcf48a99",
+                      "name": "Bugio - BLV Max",
+                      "stream_links": [
+                        {
+                          "id": "lnk-ad68922ab2",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_max/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Veikkausliiga",
+            "team_a": "VPS",
+            "team_b": "Mariehamn",
+            "logo_a": "https://media.api-sports.io/football/teams/650.png",
+            "logo_b": "https://media.api-sports.io/football/teams/587.png",
+            "time": "22:00 04/07",
+            "blv": "BLV TÁO GIÀ",
+            "is_live": true,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/VPS_Mariehamn_22-00 04-07_6979b099_20260704.png?v=6979b099",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "xc-3f5fc9cedd",
           "name": "Spain U19 vs Germany U19 | 20:00 04/07",
           "type": "single",
@@ -1236,94 +1342,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-17b2a95558_d611f01d_20260704.png?v=d611f01d",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "hqlive-882602cbb4",
-          "name": "VPS vs Mariehamn | 22:00 04/07",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-882602cbb4",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-882602cbb4",
-                  "name": "VPS vs Mariehamn",
-                  "streams": [
-                    {
-                      "id": "st-882602cbb4",
-                      "name": "HQ",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "src-88fcf48a99",
-              "name": "BugioTV",
-              "contents": [
-                {
-                  "id": "ct-88fcf48a99",
-                  "name": "VPS vs Mariehamn",
-                  "streams": [
-                    {
-                      "id": "st-88fcf48a99",
-                      "name": "Bugio - BLV Max",
-                      "stream_links": [
-                        {
-                          "id": "lnk-ad68922ab2",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_max/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv1.bugio9.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Veikkausliiga",
-            "team_a": "VPS",
-            "team_b": "Mariehamn",
-            "logo_a": "https://media.api-sports.io/football/teams/650.png",
-            "logo_b": "https://media.api-sports.io/football/teams/587.png",
-            "time": "22:00 04/07",
-            "blv": "BLV TÁO GIÀ",
-            "is_live": false,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/VPS_Mariehamn_22-00 04-07_6979b099_20260704.png?v=6979b099",
             "width": 1600,
             "height": 1200
           }
@@ -2692,7 +2710,7 @@
     },
     {
       "id": "grp-tennis",
-      "name": "🎾 Tennis (4 LIVE)",
+      "name": "🎾 Tennis (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -2909,77 +2927,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-a9602163e9_89fc4b3b_20260704.png?v=89fc4b3b",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "hqlive-49b57fea27",
-          "name": "Alexandet Zverev vs Marcos Giron | 21:30 04/07",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-49b57fea27",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-49b57fea27",
-                  "name": "Alexandet Zverev vs Marcos Giron",
-                  "streams": [
-                    {
-                      "id": "st-49b57fea27",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-07fa7a18bb",
-                          "name": "BLV PHAN HẢI",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanhai/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "WTA500 ",
-            "team_a": "Alexandet Zverev",
-            "team_b": "Marcos Giron",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/2/2e/Zverev_MCM23_%2820%29.jpg",
-            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQB34VlL8eZjCBZd_sDLStI-keeGNMPUx5b-w&s",
-            "time": "21:30 04/07",
-            "blv": "BLV PHAN HẢI",
-            "is_live": true,
-            "sport_slug": "tennis"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Alexandet Zverev_Marcos Giron_21-30 04-07_90732fd4_20260704.png?v=90732fd4",
             "width": 1600,
             "height": 1200
           }
