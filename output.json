@@ -799,7 +799,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (3 LIVE)",
+      "name": "⚽ Bóng Đá (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -853,24 +853,113 @@
                   ]
                 }
               ]
+            }
+          ],
+          "org_metadata": {
+            "league": "FIFA World Cup",
+            "team_a": "Argentina",
+            "team_b": "Cape Verde",
+            "logo_a": "https://images.keovip88.net/images/teams/argentina.png",
+            "logo_b": "https://images.keovip88.net/images/teams/cape-verde.png",
+            "time": "05:00 04/07",
+            "blv": "leo-bin, bon-tri-27, Hỏi + Ngỗng",
+            "is_live": true,
+            "cate_type": "football",
+            "time_start": 1783116000
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-7b87dc3513_a2e180ca_20260704.png?v=a2e180ca",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-e32db04d2e",
+          "name": "Colombia vs Ghana | 08:30 04/07",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-e32db04d2e",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-e32db04d2e",
+                  "name": "Colombia vs Ghana",
+                  "streams": [
+                    {
+                      "id": "st-e32db04d2e",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-d1e59440a9",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1783115407_hd/1783115407_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
             },
             {
-              "id": "src-7408ed0434",
+              "id": "src-b59218a5bc",
               "name": "HoiQuanTV",
               "contents": [
                 {
-                  "id": "ct-7408ed0434",
-                  "name": "Argentina vs Cape Verde Islands",
+                  "id": "ct-b59218a5bc",
+                  "name": "Colombia vs Ghana",
                   "streams": [
                     {
-                      "id": "st-7408ed0434",
-                      "name": "Hoiquan - BLV LƯƠNG BỔNG, BLV THẦN THÔNG, BLV PHAN QUẨY",
+                      "id": "st-b59218a5bc",
+                      "name": "Hoiquan - BLV PHAN QUẨY, BLV LƯƠNG BỔNG, BLV THẦN THÔNG",
                       "stream_links": [
+                        {
+                          "id": "lnk-b0c182498f",
+                          "name": "BLV PHAN QUẨY",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanquay/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        },
                         {
                           "id": "lnk-975fc55dd1",
                           "name": "BLV LƯƠNG BỔNG",
                           "type": "hls",
-                          "default": true,
+                          "default": false,
                           "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanliem/playlist.m3u8",
                           "request_headers": [
                             {
@@ -899,23 +988,6 @@
                               "value": "Mozilla/5.0"
                             }
                           ]
-                        },
-                        {
-                          "id": "lnk-b0c182498f",
-                          "name": "BLV PHAN QUẨY",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanquay/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
                         }
                       ]
                     }
@@ -924,16 +996,16 @@
               ]
             },
             {
-              "id": "src-150629f486",
+              "id": "src-1df2baeee7",
               "name": "QuechoaTV",
               "contents": [
                 {
-                  "id": "ct-150629f486",
-                  "name": "Argentina vs Cape Verde Islands",
+                  "id": "ct-1df2baeee7",
+                  "name": "Colombia vs Ghana",
                   "streams": [
                     {
-                      "id": "st-150629f486",
-                      "name": "Quechoa - DƯA HẤU, VỎ QUÝT",
+                      "id": "st-1df2baeee7",
+                      "name": "Quechoa - DƯA HẤU, VỎ QUÝT, VĂN MINH",
                       "stream_links": [
                         {
                           "id": "lnk-0e88644c2d",
@@ -963,23 +1035,23 @@
               ]
             },
             {
-              "id": "src-e9fdc65318",
+              "id": "src-15890c1f23",
               "name": "XayConTV",
               "contents": [
                 {
-                  "id": "ct-e9fdc65318",
-                  "name": "Argentina vs Cape Verde Islands",
+                  "id": "ct-15890c1f23",
+                  "name": "Colombia vs Ghana",
                   "streams": [
                     {
-                      "id": "st-e9fdc65318",
-                      "name": "Xaycon - BLV Chìm Sâu",
+                      "id": "st-15890c1f23",
+                      "name": "Xaycon - BLV Tam Mao",
                       "stream_links": [
                         {
-                          "id": "lnk-fa5c7698a5",
+                          "id": "lnk-bccd486b79",
                           "name": "Link FHD",
                           "type": "hls",
                           "default": true,
-                          "url": "https://xclive.yarncdn.live/live/xctv_blv_tholan/playlist.m3u8",
+                          "url": "https://xclive.yarncdn.live/live/xctv_blv_tammao/playlist.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -1002,54 +1074,15 @@
               ]
             },
             {
-              "id": "src-e625e6fad8",
-              "name": "XayConTV",
-              "contents": [
-                {
-                  "id": "ct-e625e6fad8",
-                  "name": "Argentina vs Cape Verde Islands",
-                  "streams": [
-                    {
-                      "id": "st-e625e6fad8",
-                      "name": "Xaycon - BLV Rồng Đất",
-                      "stream_links": [
-                        {
-                          "id": "lnk-221ed1ffcc",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://xclive.yarncdn.live/live/xctv_blv_rongdat/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.xaycon3.live/"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://sv2.xaycon3.live"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "src-4ff6fa9617",
+              "id": "src-3891b14b5d",
               "name": "BugioTV",
               "contents": [
                 {
-                  "id": "ct-4ff6fa9617",
-                  "name": "Argentina vs Cape Verde Islands",
+                  "id": "ct-3891b14b5d",
+                  "name": "Colombia vs Ghana",
                   "streams": [
                     {
-                      "id": "st-4ff6fa9617",
+                      "id": "st-3891b14b5d",
                       "name": "Bugio - BLV Tiểu Trà Đá",
                       "stream_links": [
                         {
@@ -1076,85 +1109,15 @@
               ]
             },
             {
-              "id": "src-3bc71faebe",
+              "id": "src-7fbe9c04f9",
               "name": "BugioTV",
               "contents": [
                 {
-                  "id": "ct-3bc71faebe",
-                  "name": "Argentina vs Cape Verde Islands",
+                  "id": "ct-7fbe9c04f9",
+                  "name": "Colombia vs Ghana",
                   "streams": [
                     {
-                      "id": "st-3bc71faebe",
-                      "name": "Bugio - BLV Phi MC",
-                      "stream_links": [
-                        {
-                          "id": "lnk-d5c8f635fc",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_phimc/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv1.bugio9.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "src-56dc0997d8",
-              "name": "BugioTV",
-              "contents": [
-                {
-                  "id": "ct-56dc0997d8",
-                  "name": "Argentina vs Cape Verde Islands",
-                  "streams": [
-                    {
-                      "id": "st-56dc0997d8",
-                      "name": "Bugio - BLV Chim Nhỏ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-378f040fcb",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_cuccu/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv1.bugio9.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "src-ddb1b62e0c",
-              "name": "BugioTV",
-              "contents": [
-                {
-                  "id": "ct-ddb1b62e0c",
-                  "name": "Argentina vs Cape Verde Islands",
-                  "streams": [
-                    {
-                      "id": "st-ddb1b62e0c",
+                      "id": "st-7fbe9c04f9",
                       "name": "Bugio - BLV Max",
                       "stream_links": [
                         {
@@ -1183,21 +1146,21 @@
           ],
           "org_metadata": {
             "league": "FIFA World Cup",
-            "team_a": "Argentina",
-            "team_b": "Cape Verde",
-            "logo_a": "https://images.keovip88.net/images/teams/argentina.png",
-            "logo_b": "https://images.keovip88.net/images/teams/cape-verde.png",
-            "time": "05:00 04/07",
-            "blv": "leo-bin, bon-tri-27, Hỏi + Ngỗng",
+            "team_a": "Colombia",
+            "team_b": "Ghana",
+            "logo_a": "https://images.keovip88.net/images/teams/colombia.png",
+            "logo_b": "https://images.keovip88.net/images/teams/ghana.png",
+            "time": "08:30 04/07",
+            "blv": "masonmat2, BLV Dần",
             "is_live": true,
             "cate_type": "football",
-            "time_start": 1783116000
+            "time_start": 1783128600
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-7b87dc3513_a2e180ca_20260704.png?v=a2e180ca",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-e32db04d2e_521880de_20260704.png?v=521880de",
             "width": 1600,
             "height": 1200
           }
@@ -1379,265 +1342,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-d3e2e8f631_bb516613_20260704.png?v=bb516613",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-e32db04d2e",
-          "name": "Colombia vs Ghana | 08:30 04/07",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-e32db04d2e",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-e32db04d2e",
-                  "name": "Colombia vs Ghana",
-                  "streams": [
-                    {
-                      "id": "st-e32db04d2e",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-d1e59440a9",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1783115407_hd/1783115407_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "src-1df2baeee7",
-              "name": "QuechoaTV",
-              "contents": [
-                {
-                  "id": "ct-1df2baeee7",
-                  "name": "Colombia vs Ghana",
-                  "streams": [
-                    {
-                      "id": "st-1df2baeee7",
-                      "name": "Quechoa - DƯA HẤU, VỎ QUÝT, VĂN MINH",
-                      "stream_links": [
-                        {
-                          "id": "lnk-0e88644c2d",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ahghndtkyqmm-pull.bpmedialive.com/quechoa/blv_duahau.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://quechoa10.live/"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://quechoa10.live"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "src-15890c1f23",
-              "name": "XayConTV",
-              "contents": [
-                {
-                  "id": "ct-15890c1f23",
-                  "name": "Colombia vs Ghana",
-                  "streams": [
-                    {
-                      "id": "st-15890c1f23",
-                      "name": "Xaycon - BLV Tam Mao",
-                      "stream_links": [
-                        {
-                          "id": "lnk-bccd486b79",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://xclive.yarncdn.live/live/xctv_blv_tammao/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.xaycon3.live/"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://sv2.xaycon3.live"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "src-b741352a20",
-              "name": "XayConTV",
-              "contents": [
-                {
-                  "id": "ct-b741352a20",
-                  "name": "Colombia vs Ghana",
-                  "streams": [
-                    {
-                      "id": "st-b741352a20",
-                      "name": "Xaycon - BLV Bịp Con",
-                      "stream_links": [
-                        {
-                          "id": "lnk-30319ba8f3",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://xclive.yarncdn.live/live/xctv_blv_bipcon/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.xaycon3.live/"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://sv2.xaycon3.live"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "src-3891b14b5d",
-              "name": "BugioTV",
-              "contents": [
-                {
-                  "id": "ct-3891b14b5d",
-                  "name": "Colombia vs Ghana",
-                  "streams": [
-                    {
-                      "id": "st-3891b14b5d",
-                      "name": "Bugio - BLV Tiểu Trà Đá",
-                      "stream_links": [
-                        {
-                          "id": "lnk-0ba3f9d037",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_trada/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv1.bugio9.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "src-7fbe9c04f9",
-              "name": "BugioTV",
-              "contents": [
-                {
-                  "id": "ct-7fbe9c04f9",
-                  "name": "Colombia vs Ghana",
-                  "streams": [
-                    {
-                      "id": "st-7fbe9c04f9",
-                      "name": "Bugio - BLV Max",
-                      "stream_links": [
-                        {
-                          "id": "lnk-ad68922ab2",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_max/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv1.bugio9.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "FIFA World Cup",
-            "team_a": "Colombia",
-            "team_b": "Ghana",
-            "logo_a": "https://images.keovip88.net/images/teams/colombia.png",
-            "logo_b": "https://images.keovip88.net/images/teams/ghana.png",
-            "time": "08:30 04/07",
-            "blv": "masonmat2, BLV Dần",
-            "is_live": false,
-            "cate_type": "football",
-            "time_start": 1783128600
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-e32db04d2e_521880de_20260704.png?v=521880de",
             "width": 1600,
             "height": 1200
           }
