@@ -799,7 +799,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (4 LIVE)",
+      "name": "⚽ Bóng Đá (7 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1099,10 +1099,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -1117,7 +1117,25 @@
                     {
                       "id": "st-24a007095c",
                       "name": "HQ",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-f6231c6549",
+                          "name": "BLV PHAN CA",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanca/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -1132,7 +1150,7 @@
             "logo_b": "https://upload.wikimedia.org/wikipedia/lt/c/cf/Pohang_Steelers_logo.png",
             "time": "17:30 04/07",
             "blv": "BLV PHAN CA",
-            "is_live": false,
+            "is_live": true,
             "sport_slug": "bong-da"
           },
           "image": {
@@ -1140,6 +1158,158 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/FC Anyang_Pohang Steelers_17-30 04-07_cf1e5a48_20260704.png?v=cf1e5a48",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-d8079fdc99",
+          "name": "Daejeon Citizen vs Bucheon FC 1995 | 17:30 04/07",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-d8079fdc99",
+              "name": "XayConTV",
+              "contents": [
+                {
+                  "id": "ct-d8079fdc99",
+                  "name": "Daejeon Citizen vs Bucheon FC 1995",
+                  "streams": [
+                    {
+                      "id": "st-d8079fdc99",
+                      "name": "XC",
+                      "stream_links": [
+                        {
+                          "id": "lnk-bccd486b79",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://xclive.yarncdn.live/live/xctv_blv_tammao/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.xaycon3.live/"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://sv2.xaycon3.live"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "K League 1",
+            "team_a": "Daejeon Citizen",
+            "team_b": "Bucheon FC 1995",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/en/thumb/4/40/Daejeon_Hana_Citizen.svg/960px-Daejeon_Hana_Citizen.svg.png",
+            "logo_b": "https://media.api-sports.io/football/teams/2745.png",
+            "time": "17:30",
+            "date": "04/07",
+            "blv": "BLV Tam Mao",
+            "is_live": true,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/xaycon-stream/refs/heads/main/thumbs/xc-d8079fdc99_2d308df6_20260704.png?v=2d308df6",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-f54df7a123",
+          "name": "Jeonbuk Motors vs Gangwon FC | 17:30 04/07",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-f54df7a123",
+              "name": "XayConTV",
+              "contents": [
+                {
+                  "id": "ct-f54df7a123",
+                  "name": "Jeonbuk Motors vs Gangwon FC",
+                  "streams": [
+                    {
+                      "id": "st-f54df7a123",
+                      "name": "XC",
+                      "stream_links": [
+                        {
+                          "id": "lnk-b9f74b1c23",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://xclive.yarncdn.live/live/xctv_blv_phubeo/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.xaycon3.live/"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://sv2.xaycon3.live"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "K League 1",
+            "team_a": "Jeonbuk Motors",
+            "team_b": "Gangwon FC",
+            "logo_a": "https://media.api-sports.io/football/teams/2762.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/en/f/fe/Gangwon_FC.svg",
+            "time": "17:30",
+            "date": "04/07",
+            "blv": "BLV Kent",
+            "is_live": true,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/xaycon-stream/refs/heads/main/thumbs/xc-f54df7a123_46b044ae_20260704.png?v=46b044ae",
             "width": 1600,
             "height": 1200
           }
@@ -2957,158 +3127,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/xaycon-stream/refs/heads/main/thumbs/xc-3162a15ecd_acd5c49e_20260704.png?v=acd5c49e",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "xc-d8079fdc99",
-          "name": "Daejeon Citizen vs Bucheon FC 1995 | 17:30 04/07",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-d8079fdc99",
-              "name": "XayConTV",
-              "contents": [
-                {
-                  "id": "ct-d8079fdc99",
-                  "name": "Daejeon Citizen vs Bucheon FC 1995",
-                  "streams": [
-                    {
-                      "id": "st-d8079fdc99",
-                      "name": "XC",
-                      "stream_links": [
-                        {
-                          "id": "lnk-bccd486b79",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://xclive.yarncdn.live/live/xctv_blv_tammao/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.xaycon3.live/"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://sv2.xaycon3.live"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "K League 1",
-            "team_a": "Daejeon Citizen",
-            "team_b": "Bucheon FC 1995",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/en/thumb/4/40/Daejeon_Hana_Citizen.svg/960px-Daejeon_Hana_Citizen.svg.png",
-            "logo_b": "https://media.api-sports.io/football/teams/2745.png",
-            "time": "17:30",
-            "date": "04/07",
-            "blv": "BLV Tam Mao",
-            "is_live": false,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/xaycon-stream/refs/heads/main/thumbs/xc-d8079fdc99_2d308df6_20260704.png?v=2d308df6",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "xc-f54df7a123",
-          "name": "Jeonbuk Motors vs Gangwon FC | 17:30 04/07",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-f54df7a123",
-              "name": "XayConTV",
-              "contents": [
-                {
-                  "id": "ct-f54df7a123",
-                  "name": "Jeonbuk Motors vs Gangwon FC",
-                  "streams": [
-                    {
-                      "id": "st-f54df7a123",
-                      "name": "XC",
-                      "stream_links": [
-                        {
-                          "id": "lnk-b9f74b1c23",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://xclive.yarncdn.live/live/xctv_blv_phubeo/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.xaycon3.live/"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://sv2.xaycon3.live"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "K League 1",
-            "team_a": "Jeonbuk Motors",
-            "team_b": "Gangwon FC",
-            "logo_a": "https://media.api-sports.io/football/teams/2762.png",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/en/f/fe/Gangwon_FC.svg",
-            "time": "17:30",
-            "date": "04/07",
-            "blv": "BLV Kent",
-            "is_live": false,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/xaycon-stream/refs/heads/main/thumbs/xc-f54df7a123_46b044ae_20260704.png?v=46b044ae",
             "width": 1600,
             "height": 1200
           }
