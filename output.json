@@ -799,7 +799,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1179,6 +1179,41 @@
               ]
             },
             {
+              "id": "src-4ac547c8f6",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-4ac547c8f6",
+                  "name": "Goias vs Ceara",
+                  "streams": [
+                    {
+                      "id": "st-4ac547c8f6",
+                      "name": "Hoiquan - BLV PHAN ANH",
+                      "stream_links": [
+                        {
+                          "id": "lnk-fd31283a76",
+                          "name": "BLV PHAN ANH",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phananh/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
               "id": "src-39c8f6a94b",
               "name": "XayConTV",
               "contents": [
@@ -1282,10 +1317,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -1333,7 +1368,7 @@
             "logo_b": "https://images.keovip88.net/images/teams/orange-county-blues-fc.png",
             "time": "06:30 05/07",
             "blv": "BLV Hợi",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football",
             "time_start": 1783207800
           },
