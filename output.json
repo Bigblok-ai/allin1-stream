@@ -4042,11 +4042,82 @@
     },
     {
       "id": "grp-bóng-chuyền",
-      "name": "🏐 Bóng Chuyền",
+      "name": "🏐 Bóng Chuyền (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "bg-479b4864e5",
+          "name": "Nhật Bản - Mông Cổ | 10:00 07/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-479b4864e5",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-479b4864e5",
+                  "name": "Nhật Bản - Mông Cổ",
+                  "streams": [
+                    {
+                      "id": "st-479b4864e5",
+                      "name": "BG",
+                      "stream_links": [
+                        {
+                          "id": "lnk-0ba3f9d037",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_trada/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Bóng Chuyền U18 Châu Á",
+            "team_a": "Nhật Bản ",
+            "team_b": "Mông Cổ",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Flag_of_Japan.svg/960px-Flag_of_Japan.svg.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Flag_of_Mongolia.svg/1280px-Flag_of_Mongolia.svg.png",
+            "start_time": "2026-05-07T10:00:00",
+            "blv": "BLV Tiểu Trà Đá",
+            "is_live": true,
+            "cate_type": "bongchuyen"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-479b4864e5_c0d90c13_20260704.png?v=c0d90c13",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "gv-256479112f",
           "name": "U18 Việt Nam vs U18 China | 13:00 05/07",
