@@ -799,7 +799,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (6 LIVE)",
+      "name": "⚽ Bóng Đá (7 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1093,6 +1093,78 @@
           }
         },
         {
+          "id": "gv-17b2a95558",
+          "name": "VPS Vaasa vs IFK Mariehamn | 22:00 04/07",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-17b2a95558",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-17b2a95558",
+                  "name": "VPS Vaasa vs IFK Mariehamn",
+                  "streams": [
+                    {
+                      "id": "st-17b2a95558",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-67c102bce0",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1783160861_hd/1783160861_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "VĐQG Phần Lan",
+            "team_a": "VPS Vaasa",
+            "team_b": "IFK Mariehamn",
+            "logo_a": "https://images.keovip88.net/images/teams/vaasa-vps.png",
+            "logo_b": "https://images.keovip88.net/images/teams/ifk-mariehamn.png",
+            "time": "22:00 04/07",
+            "blv": "BLV Mù",
+            "is_live": true,
+            "cate_type": "football",
+            "time_start": 1783177200
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-17b2a95558_d611f01d_20260704.png?v=d611f01d",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "hqlive-882602cbb4",
           "name": "VPS vs Mariehamn | 22:00 04/07",
           "type": "single",
@@ -1270,78 +1342,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/xaycon-stream/refs/heads/main/thumbs/xc-3f5fc9cedd_18e9fda0_20260704.png?v=18e9fda0",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-17b2a95558",
-          "name": "VPS Vaasa vs IFK Mariehamn | 22:00 04/07",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-17b2a95558",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-17b2a95558",
-                  "name": "VPS Vaasa vs IFK Mariehamn",
-                  "streams": [
-                    {
-                      "id": "st-17b2a95558",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-67c102bce0",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1783160861_hd/1783160861_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "VĐQG Phần Lan",
-            "team_a": "VPS Vaasa",
-            "team_b": "IFK Mariehamn",
-            "logo_a": "https://images.keovip88.net/images/teams/vaasa-vps.png",
-            "logo_b": "https://images.keovip88.net/images/teams/ifk-mariehamn.png",
-            "time": "22:00 04/07",
-            "blv": "BLV Mù",
-            "is_live": false,
-            "cate_type": "football",
-            "time_start": 1783177200
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-17b2a95558_d611f01d_20260704.png?v=d611f01d",
             "width": 1600,
             "height": 1200
           }
@@ -1799,23 +1799,23 @@
               ]
             },
             {
-              "id": "src-eb1ff8b0e2",
+              "id": "src-a79e728395",
               "name": "XayConTV",
               "contents": [
                 {
-                  "id": "ct-eb1ff8b0e2",
+                  "id": "ct-a79e728395",
                   "name": "Paraguay vs France",
                   "streams": [
                     {
-                      "id": "st-eb1ff8b0e2",
-                      "name": "Xaycon - BLV Bịp Con",
+                      "id": "st-a79e728395",
+                      "name": "Xaycon - BLV Kent",
                       "stream_links": [
                         {
-                          "id": "lnk-30319ba8f3",
+                          "id": "lnk-b9f74b1c23",
                           "name": "Link FHD",
                           "type": "hls",
                           "default": true,
-                          "url": "https://xclive.yarncdn.live/live/xctv_blv_bipcon/playlist.m3u8",
+                          "url": "https://xclive.yarncdn.live/live/xctv_blv_phubeo/playlist.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -2050,45 +2050,6 @@
                       "id": "st-da69fedcf9",
                       "name": "HQ",
                       "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "src-0a47cb14fb",
-              "name": "XayConTV",
-              "contents": [
-                {
-                  "id": "ct-0a47cb14fb",
-                  "name": "Las Vegas Lights vs El Paso Locomotive",
-                  "streams": [
-                    {
-                      "id": "st-0a47cb14fb",
-                      "name": "Xaycon - BLV Kent",
-                      "stream_links": [
-                        {
-                          "id": "lnk-b9f74b1c23",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://xclive.yarncdn.live/live/xctv_blv_phubeo/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.xaycon3.live/"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://sv2.xaycon3.live"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
                     }
                   ]
                 }
@@ -2403,23 +2364,23 @@
               ]
             },
             {
-              "id": "src-16475e9749",
+              "id": "src-b1433f6e21",
               "name": "XayConTV",
               "contents": [
                 {
-                  "id": "ct-16475e9749",
+                  "id": "ct-b1433f6e21",
                   "name": "Xi'an Ronghai vs Shanghai Second",
                   "streams": [
                     {
-                      "id": "st-16475e9749",
-                      "name": "Xaycon - BLV Phong Vân",
+                      "id": "st-b1433f6e21",
+                      "name": "Xaycon - BLV Rồng Đất",
                       "stream_links": [
                         {
-                          "id": "lnk-0fa0d01abf",
+                          "id": "lnk-221ed1ffcc",
                           "name": "Link FHD",
                           "type": "hls",
                           "default": true,
-                          "url": "https://xclive.yarncdn.live/live/xctv_blv_vanca/playlist.m3u8",
+                          "url": "https://xclive.yarncdn.live/live/xctv_blv_rongdat/playlist.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -3015,7 +2976,7 @@
     },
     {
       "id": "grp-bóng-rổ",
-      "name": "🏀 Bóng Rổ (2 LIVE)",
+      "name": "🏀 Bóng Rổ (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -3172,10 +3133,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -3223,7 +3184,7 @@
             "logo_b": "https://static.flashscore.com/res/image/data/dC2KjKzS-lMZBl4V4.png",
             "time": "22:00 04/07",
             "blv": "BLV Cần",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "basketball",
             "time_start": 1783177200
           },
