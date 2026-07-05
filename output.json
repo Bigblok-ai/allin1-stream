@@ -799,7 +799,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (5 LIVE)",
+      "name": "⚽ Bóng Đá (6 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -948,6 +948,151 @@
           }
         },
         {
+          "id": "hqlive-e50232c137",
+          "name": "Aktobe vs Zhetysu | 21:00 05/07",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-e50232c137",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-e50232c137",
+                  "name": "Aktobe vs Zhetysu",
+                  "streams": [
+                    {
+                      "id": "st-e50232c137",
+                      "name": "HQ",
+                      "stream_links": [
+                        {
+                          "id": "lnk-1cad2e4412",
+                          "name": "BLV TÁO GIÀ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://tdlive.yarncdn.live/live/tdtv_blv_taotinhtao/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-a2f7834a52",
+              "name": "XayConTV",
+              "contents": [
+                {
+                  "id": "ct-a2f7834a52",
+                  "name": "Aktobe vs Zhetysu",
+                  "streams": [
+                    {
+                      "id": "st-a2f7834a52",
+                      "name": "Xaycon - BLV Tam Mao",
+                      "stream_links": [
+                        {
+                          "id": "lnk-bccd486b79",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://xclive.yarncdn.live/live/xctv_blv_tammao/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.xaycon3.live/"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://sv2.xaycon3.live"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-bf25356fd2",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-bf25356fd2",
+                  "name": "Aktobe vs Zhetysu",
+                  "streams": [
+                    {
+                      "id": "st-bf25356fd2",
+                      "name": "Bugio - BLV Pháo",
+                      "stream_links": [
+                        {
+                          "id": "lnk-970b2a547c",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_phaothan/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Premier League",
+            "team_a": "Aktobe",
+            "team_b": "Zhetysu",
+            "logo_a": "https://media.api-sports.io/football/teams/4563.png",
+            "logo_b": "https://media.api-sports.io/football/teams/4560.png",
+            "time": "21:00 05/07",
+            "blv": "BLV TÁO GIÀ",
+            "is_live": true,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Aktobe_Zhetysu_21-00 05-07_1128d72a_20260705.png?v=1128d72a",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "xc-17ac9dc603",
           "name": "Shanghai Shenhua vs Hangzhou Greentown | 18:35 05/07",
           "type": "single",
@@ -988,41 +1133,6 @@
                             {
                               "key": "Origin",
                               "value": "https://sv2.xaycon3.live"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "src-2e92962c0b",
-              "name": "BugioTV",
-              "contents": [
-                {
-                  "id": "ct-2e92962c0b",
-                  "name": "Shanghai Shenhua vs Hangzhou Greentown",
-                  "streams": [
-                    {
-                      "id": "st-2e92962c0b",
-                      "name": "Bugio - BLV Tiểu Trà Đá",
-                      "stream_links": [
-                        {
-                          "id": "lnk-0ba3f9d037",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_trada/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv1.bugio9.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -1340,133 +1450,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-36277954d4_309b4d82_20260705.png?v=309b4d82",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "hqlive-e50232c137",
-          "name": "Aktobe vs Zhetysu | 21:00 05/07",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-e50232c137",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-e50232c137",
-                  "name": "Aktobe vs Zhetysu",
-                  "streams": [
-                    {
-                      "id": "st-e50232c137",
-                      "name": "HQ",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "src-a2f7834a52",
-              "name": "XayConTV",
-              "contents": [
-                {
-                  "id": "ct-a2f7834a52",
-                  "name": "Aktobe vs Zhetysu",
-                  "streams": [
-                    {
-                      "id": "st-a2f7834a52",
-                      "name": "Xaycon - BLV Tam Mao",
-                      "stream_links": [
-                        {
-                          "id": "lnk-bccd486b79",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://xclive.yarncdn.live/live/xctv_blv_tammao/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.xaycon3.live/"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://sv2.xaycon3.live"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "src-bf25356fd2",
-              "name": "BugioTV",
-              "contents": [
-                {
-                  "id": "ct-bf25356fd2",
-                  "name": "Aktobe vs Zhetysu",
-                  "streams": [
-                    {
-                      "id": "st-bf25356fd2",
-                      "name": "Bugio - BLV Pháo",
-                      "stream_links": [
-                        {
-                          "id": "lnk-970b2a547c",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_phaothan/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv1.bugio9.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Premier League",
-            "team_a": "Aktobe",
-            "team_b": "Zhetysu",
-            "logo_a": "https://media.api-sports.io/football/teams/4563.png",
-            "logo_b": "https://media.api-sports.io/football/teams/4560.png",
-            "time": "21:00 05/07",
-            "blv": "BLV TÁO GIÀ",
-            "is_live": false,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Aktobe_Zhetysu_21-00 05-07_1128d72a_20260705.png?v=1128d72a",
             "width": 1600,
             "height": 1200
           }
