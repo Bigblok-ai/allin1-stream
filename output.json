@@ -799,7 +799,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (3 LIVE)",
+      "name": "⚽ Bóng Đá (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1023,6 +1023,77 @@
           }
         },
         {
+          "id": "hqlive-a5338a592e",
+          "name": "Qingdao Jonoon vs Chengdu Better City | 18:00 05/07",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-a5338a592e",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-a5338a592e",
+                  "name": "Qingdao Jonoon vs Chengdu Better City",
+                  "streams": [
+                    {
+                      "id": "st-a5338a592e",
+                      "name": "HQ",
+                      "stream_links": [
+                        {
+                          "id": "lnk-975fc55dd1",
+                          "name": "BLV LƯƠNG BỔNG",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanliem/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Super League",
+            "team_a": "Qingdao Jonoon",
+            "team_b": "Chengdu Better City",
+            "logo_a": "https://media.api-sports.io/football/teams/1431.png",
+            "logo_b": "https://media.api-sports.io/football/teams/5648.png",
+            "time": "18:00 05/07",
+            "blv": "BLV LƯƠNG BỔNG",
+            "is_live": true,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Qingdao Jonoon_Chengdu Better City_18-00 05-07_c3f73c5e_20260705.png?v=c3f73c5e",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "bg-2afc4dfb14",
           "name": "Ukraine U19 vs Italy U19 | 22:00 05/07",
           "type": "single",
@@ -1161,59 +1232,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-406c9bba7f_3a0e6d3c_20260705.png?v=3a0e6d3c",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "hqlive-a5338a592e",
-          "name": "Qingdao Jonoon vs Chengdu Better City | 18:00 05/07",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-a5338a592e",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-a5338a592e",
-                  "name": "Qingdao Jonoon vs Chengdu Better City",
-                  "streams": [
-                    {
-                      "id": "st-a5338a592e",
-                      "name": "HQ",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Super League",
-            "team_a": "Qingdao Jonoon",
-            "team_b": "Chengdu Better City",
-            "logo_a": "https://media.api-sports.io/football/teams/1431.png",
-            "logo_b": "https://media.api-sports.io/football/teams/5648.png",
-            "time": "18:00 05/07",
-            "blv": "BLV LƯƠNG BỔNG",
-            "is_live": false,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Qingdao Jonoon_Chengdu Better City_18-00 05-07_c3f73c5e_20260705.png?v=c3f73c5e",
             "width": 1600,
             "height": 1200
           }
