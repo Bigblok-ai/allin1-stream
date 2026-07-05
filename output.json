@@ -3602,11 +3602,83 @@
     },
     {
       "id": "grp-tennis",
-      "name": "🎾 Tennis (2 LIVE)",
+      "name": "🎾 Tennis (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "gv-c308f833e2",
+          "name": "Jannik Sinner vs Shintaro Mochizuki | 00:59 06/07",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-c308f833e2",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-c308f833e2",
+                  "name": "Jannik Sinner vs Shintaro Mochizuki",
+                  "streams": [
+                    {
+                      "id": "st-c308f833e2",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-fcf3631bb4",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1783265271_hd/1783265271_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "ATP Wimbledon",
+            "team_a": "Jannik Sinner",
+            "team_b": "Shintaro Mochizuki",
+            "logo_a": "https://static.flashscore.com/res/image/data/zsxlv1jl-0zrsJ4N3.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/pS9gULYA-IgkNkNBS.png",
+            "time": "00:59 06/07",
+            "blv": "BLV Ben",
+            "is_live": true,
+            "cate_type": "tennis",
+            "time_start": 1783274340
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-c308f833e2_8243208e_20260706.png?v=8243208e",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "hqlive-f64780c8e5",
           "name": "Felix Auger-Aliassime vs Alejandro Davidovich Fokina | 21:00 05/07",
@@ -3748,78 +3820,6 @@
             "width": 1600,
             "height": 1200
           }
-        },
-        {
-          "id": "gv-c308f833e2",
-          "name": "Jannik Sinner vs Shintaro Mochizuki | 00:59 06/07",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-c308f833e2",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-c308f833e2",
-                  "name": "Jannik Sinner vs Shintaro Mochizuki",
-                  "streams": [
-                    {
-                      "id": "st-c308f833e2",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-fcf3631bb4",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1783265271_hd/1783265271_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "ATP Wimbledon",
-            "team_a": "Jannik Sinner",
-            "team_b": "Shintaro Mochizuki",
-            "logo_a": "https://static.flashscore.com/res/image/data/zsxlv1jl-0zrsJ4N3.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/pS9gULYA-IgkNkNBS.png",
-            "time": "00:59 06/07",
-            "blv": "BLV Ben",
-            "is_live": false,
-            "cate_type": "tennis",
-            "time_start": 1783274340
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-c308f833e2_8243208e_20260706.png?v=8243208e",
-            "width": 1600,
-            "height": 1200
-          }
         }
       ]
     },
@@ -3833,7 +3833,7 @@
     },
     {
       "id": "grp-bóng-rổ",
-      "name": "🏀 Bóng Rổ (3 LIVE)",
+      "name": "🏀 Bóng Rổ (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -4062,10 +4062,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -4113,7 +4113,7 @@
             "logo_b": "https://static.flashscore.com/res/image/data/vDHOVOkl-2PPlrFch.png",
             "time": "01:00 06/07",
             "blv": "BLV Tôm",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "basketball",
             "time_start": 1783274400
           },
@@ -4541,8 +4541,8 @@
             "league": "Women’s National Basketball Association",
             "team_a": "Las Vegas Aces",
             "team_b": "Indiana Fever",
-            "logo_a": "https://nba.titan007.com/files/team/1kne623s7w.png",
-            "logo_b": "https://nba.titan007.com/files/team/1hxtvftk9jk.png",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/en/f/ff/New_Las_Vegas_Aces_WNBA_logo_2024.svg",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/en/5/54/Indiana_Fever_logo.svg",
             "time": "06:00 06/07",
             "blv": "BLV Điếc",
             "is_live": false,
@@ -4553,7 +4553,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-75ff407fc6_22810b06_20260706.png?v=22810b06",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-75ff407fc6_f01f32d7_20260706.png?v=f01f32d7",
             "width": 1600,
             "height": 1200
           }
