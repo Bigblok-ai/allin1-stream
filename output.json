@@ -799,7 +799,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1053,6 +1053,82 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-8635b0a38c_2edac5c7_20260705.png?v=2edac5c7",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-3162a15ecd",
+          "name": "U. Catolica vs Deportes Copiapo | 07:30 05/07",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-3162a15ecd",
+              "name": "XayConTV",
+              "contents": [
+                {
+                  "id": "ct-3162a15ecd",
+                  "name": "U. Catolica vs Deportes Copiapo",
+                  "streams": [
+                    {
+                      "id": "st-3162a15ecd",
+                      "name": "XC",
+                      "stream_links": [
+                        {
+                          "id": "lnk-221ed1ffcc",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://xclive.yarncdn.live/live/xctv_blv_rongdat/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.xaycon3.live/"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://sv2.xaycon3.live"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Copa Chile",
+            "team_a": "U. Catolica",
+            "team_b": "Deportes Copiapo",
+            "logo_a": "https://media.api-sports.io/football/teams/2994.png",
+            "logo_b": "https://media.api-sports.io/football/teams/2343.png",
+            "time": "07:30",
+            "date": "05/07",
+            "blv": "BLV Rồng Đất",
+            "is_live": true,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/xaycon-stream/refs/heads/main/thumbs/xc-3162a15ecd_acd5c49e_20260705.png?v=acd5c49e",
             "width": 1600,
             "height": 1200
           }
@@ -2409,82 +2485,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/xaycon-stream/refs/heads/main/thumbs/xc-bc1f3298d2_2ceac4b9_20260705.png?v=2ceac4b9",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "xc-3162a15ecd",
-          "name": "U. Catolica vs Deportes Copiapo | 07:30 05/07",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-3162a15ecd",
-              "name": "XayConTV",
-              "contents": [
-                {
-                  "id": "ct-3162a15ecd",
-                  "name": "U. Catolica vs Deportes Copiapo",
-                  "streams": [
-                    {
-                      "id": "st-3162a15ecd",
-                      "name": "XC",
-                      "stream_links": [
-                        {
-                          "id": "lnk-221ed1ffcc",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://xclive.yarncdn.live/live/xctv_blv_rongdat/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.xaycon3.live/"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://sv2.xaycon3.live"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Copa Chile",
-            "team_a": "U. Catolica",
-            "team_b": "Deportes Copiapo",
-            "logo_a": "https://media.api-sports.io/football/teams/2994.png",
-            "logo_b": "https://media.api-sports.io/football/teams/2343.png",
-            "time": "07:30",
-            "date": "05/07",
-            "blv": "BLV Rồng Đất",
-            "is_live": false,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/xaycon-stream/refs/heads/main/thumbs/xc-3162a15ecd_acd5c49e_20260705.png?v=acd5c49e",
             "width": 1600,
             "height": 1200
           }
