@@ -799,11 +799,83 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (1 LIVE)",
+      "name": "⚽ Bóng Đá (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "gv-bce93d12a5",
+          "name": "Hà Nội Nữ vs Phong Phú Hà Nam Nữ | 16:00 05/07",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-bce93d12a5",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-bce93d12a5",
+                  "name": "Hà Nội Nữ vs Phong Phú Hà Nam Nữ",
+                  "streams": [
+                    {
+                      "id": "st-bce93d12a5",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-9c0711be95",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1783232740_hd/1783232740_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "National League Women",
+            "team_a": "Hà Nội Nữ",
+            "team_b": "Phong Phú Hà Nam Nữ",
+            "logo_a": "https://static.flashscore.com/res/image/data/rsS3dewS-WKZXwKyb.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/tEiQHbBr-WKZXwKyb.png",
+            "time": "16:00 05/07",
+            "blv": "BLV Hợi",
+            "is_live": true,
+            "cate_type": "football",
+            "time_start": 1783242000
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-bce93d12a5_90c1e281_20260705.png?v=90c1e281",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "hqlive-dc41528ce7",
           "name": "Xi'an Ronghai vs Shanghai Second | 15:00 05/07",
@@ -945,78 +1017,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Xi'an Ronghai_Shanghai Second_15-00 05-07_ba89903a_20260705.png?v=ba89903a",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-bce93d12a5",
-          "name": "Hà Nội Nữ vs Phong Phú Hà Nam Nữ | 16:00 05/07",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-bce93d12a5",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-bce93d12a5",
-                  "name": "Hà Nội Nữ vs Phong Phú Hà Nam Nữ",
-                  "streams": [
-                    {
-                      "id": "st-bce93d12a5",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-9c0711be95",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1783232740_hd/1783232740_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "National League Women",
-            "team_a": "Hà Nội Nữ",
-            "team_b": "Phong Phú Hà Nam Nữ",
-            "logo_a": "https://static.flashscore.com/res/image/data/rsS3dewS-WKZXwKyb.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/tEiQHbBr-WKZXwKyb.png",
-            "time": "16:00 05/07",
-            "blv": "BLV Hợi",
-            "is_live": false,
-            "cate_type": "football",
-            "time_start": 1783242000
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-bce93d12a5_90c1e281_20260705.png?v=90c1e281",
             "width": 1600,
             "height": 1200
           }
@@ -3481,7 +3481,7 @@
     },
     {
       "id": "grp-bóng-rổ",
-      "name": "🏀 Bóng Rổ",
+      "name": "🏀 Bóng Rổ (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -3494,10 +3494,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -3545,7 +3545,7 @@
             "logo_b": "https://static.flashscore.com/res/image/data/nDstfrjl-C2aHpzkm.png",
             "time": "16:00 05/07",
             "blv": "Leo",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "basketball",
             "time_start": 1783242000
           },
