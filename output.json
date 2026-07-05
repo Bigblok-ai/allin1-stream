@@ -799,7 +799,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (4 LIVE)",
+      "name": "⚽ Bóng Đá (5 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1022,6 +1022,77 @@
           }
         },
         {
+          "id": "hqlive-311e13be27",
+          "name": "Belshina vs Baranovichi | 22:00 05/07",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-311e13be27",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-311e13be27",
+                  "name": "Belshina vs Baranovichi",
+                  "streams": [
+                    {
+                      "id": "st-311e13be27",
+                      "name": "HQ",
+                      "stream_links": [
+                        {
+                          "id": "lnk-fd31283a76",
+                          "name": "BLV PHAN ANH",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phananh/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Premier League",
+            "team_a": "Belshina",
+            "team_b": "Baranovichi",
+            "logo_a": "https://media.api-sports.io/football/teams/3384.png",
+            "logo_b": "https://media.api-sports.io/football/teams/3383.png",
+            "time": "22:00 05/07",
+            "blv": "BLV PHAN ANH",
+            "is_live": true,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Belshina_Baranovichi_22-00 05-07_90147e6f_20260705.png?v=90147e6f",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "bg-2afc4dfb14",
           "name": "Ukraine U19 vs Italy U19 | 22:00 05/07",
           "type": "single",
@@ -1029,10 +1100,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -1080,7 +1151,7 @@
             "logo_b": "https://media.api-sports.io/football/teams/10338.png",
             "start_time": "2026-07-05T22:00:00",
             "blv": "BLV Tiểu Mèo",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football"
           },
           "image": {
@@ -1375,59 +1446,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-7c74ba40ae_d9515e22_20260705.png?v=d9515e22",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "hqlive-311e13be27",
-          "name": "Belshina vs Baranovichi | 22:00 05/07",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-311e13be27",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-311e13be27",
-                  "name": "Belshina vs Baranovichi",
-                  "streams": [
-                    {
-                      "id": "st-311e13be27",
-                      "name": "HQ",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Premier League",
-            "team_a": "Belshina",
-            "team_b": "Baranovichi",
-            "logo_a": "https://media.api-sports.io/football/teams/3384.png",
-            "logo_b": "https://media.api-sports.io/football/teams/3383.png",
-            "time": "22:00 05/07",
-            "blv": "BLV PHAN ANH",
-            "is_live": false,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Belshina_Baranovichi_22-00 05-07_90147e6f_20260705.png?v=90147e6f",
             "width": 1600,
             "height": 1200
           }
