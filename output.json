@@ -799,7 +799,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1017,6 +1017,77 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Xi'an Ronghai_Shanghai Second_15-00 05-07_ba89903a_20260705.png?v=ba89903a",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "bg-2afc4dfb14",
+          "name": "Ukraine U19 vs Italy U19 | 22:00 05/07",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-2afc4dfb14",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-2afc4dfb14",
+                  "name": "Ukraine U19 vs Italy U19",
+                  "streams": [
+                    {
+                      "id": "st-2afc4dfb14",
+                      "name": "BG",
+                      "stream_links": [
+                        {
+                          "id": "lnk-21936c1c94",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_tieumeo/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "UEFA U19 Championship",
+            "team_a": "Ukraine U19",
+            "team_b": "Italy U19",
+            "logo_a": "https://media.api-sports.io/football/teams/10352.png",
+            "logo_b": "https://media.api-sports.io/football/teams/10338.png",
+            "start_time": "2026-07-05T22:00:00",
+            "blv": "BLV Tiểu Mèo",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-2afc4dfb14_8902b2e0_20260705.png?v=8902b2e0",
             "width": 1600,
             "height": 1200
           }
