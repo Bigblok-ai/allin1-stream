@@ -4490,7 +4490,7 @@
     },
     {
       "id": "grp-tennis",
-      "name": "🎾 Tennis (1 LIVE)",
+      "name": "🎾 Tennis (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -4603,6 +4603,77 @@
           }
         },
         {
+          "id": "hqlive-13a2b45586",
+          "name": "Roman Safiullin vs Novak Djokovic | 19:30 05/07",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-13a2b45586",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-13a2b45586",
+                  "name": "Roman Safiullin vs Novak Djokovic",
+                  "streams": [
+                    {
+                      "id": "st-13a2b45586",
+                      "name": "HQ",
+                      "stream_links": [
+                        {
+                          "id": "lnk-07fa7a18bb",
+                          "name": "BLV PHAN HẢI",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanhai/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "ATP500",
+            "team_a": "Roman Safiullin",
+            "team_b": "Novak Djokovic",
+            "logo_a": "https://image.sggp.org.vn/w1000/Uploaded/2026/ldfnyrykxq/2022_01_02/safiullin_VVRF.jpg.webp",
+            "logo_b": "https://media.cnn.com/api/v1/images/stellar/prod/gettyimages-2163072777-copy.jpg?c=original",
+            "time": "19:30 05/07",
+            "blv": "BLV PHAN HẢI",
+            "is_live": true,
+            "sport_slug": "tennis"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Roman Safiullin_Novak Djokovic_19-30 05-07_9849f698_20260705.png?v=9849f698",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "gv-28879473d8",
           "name": "Karolina Muchova vs Barbora Krejcikova | 18:30 05/07",
           "type": "single",
@@ -4670,59 +4741,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-28879473d8_ce0a06e5_20260705.png?v=ce0a06e5",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "hqlive-13a2b45586",
-          "name": "Roman Safiullin vs Novak Djokovic | 19:30 05/07",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-13a2b45586",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-13a2b45586",
-                  "name": "Roman Safiullin vs Novak Djokovic",
-                  "streams": [
-                    {
-                      "id": "st-13a2b45586",
-                      "name": "HQ",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "ATP500",
-            "team_a": "Roman Safiullin",
-            "team_b": "Novak Djokovic",
-            "logo_a": "https://image.sggp.org.vn/w1000/Uploaded/2026/ldfnyrykxq/2022_01_02/safiullin_VVRF.jpg.webp",
-            "logo_b": "https://media.cnn.com/api/v1/images/stellar/prod/gettyimages-2163072777-copy.jpg?c=original",
-            "time": "19:30 05/07",
-            "blv": "BLV PHAN HẢI",
-            "is_live": false,
-            "sport_slug": "tennis"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Roman Safiullin_Novak Djokovic_19-30 05-07_9849f698_20260705.png?v=9849f698",
             "width": 1600,
             "height": 1200
           }
