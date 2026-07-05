@@ -799,7 +799,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1104,6 +1104,82 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Brazil_Norway_03-00 06-07_38da2f0f_20260706.png?v=38da2f0f",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-bc1f3298d2",
+          "name": "Union Espanola vs O'Higgins | 04:30 06/07",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-bc1f3298d2",
+              "name": "XayConTV",
+              "contents": [
+                {
+                  "id": "ct-bc1f3298d2",
+                  "name": "Union Espanola vs O'Higgins",
+                  "streams": [
+                    {
+                      "id": "st-bc1f3298d2",
+                      "name": "XC",
+                      "stream_links": [
+                        {
+                          "id": "lnk-b9f74b1c23",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://xclive.yarncdn.live/live/xctv_blv_phubeo/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.xaycon3.live/"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://sv2.xaycon3.live"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Copa Chile",
+            "team_a": "Union Espanola",
+            "team_b": "O'Higgins",
+            "logo_a": "https://media.api-sports.io/football/teams/2321.png",
+            "logo_b": "https://media.api-sports.io/football/teams/2320.png",
+            "time": "04:30",
+            "date": "06/07",
+            "blv": "BLV Kent",
+            "is_live": true,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/xaycon-stream/refs/heads/main/thumbs/xc-bc1f3298d2_2ceac4b9_20260706.png?v=2ceac4b9",
             "width": 1600,
             "height": 1200
           }
@@ -2425,82 +2501,6 @@
           }
         },
         {
-          "id": "xc-bc1f3298d2",
-          "name": "Union Espanola vs O'Higgins | 04:30 06/07",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-bc1f3298d2",
-              "name": "XayConTV",
-              "contents": [
-                {
-                  "id": "ct-bc1f3298d2",
-                  "name": "Union Espanola vs O'Higgins",
-                  "streams": [
-                    {
-                      "id": "st-bc1f3298d2",
-                      "name": "XC",
-                      "stream_links": [
-                        {
-                          "id": "lnk-b9f74b1c23",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://xclive.yarncdn.live/live/xctv_blv_phubeo/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.xaycon3.live/"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://sv2.xaycon3.live"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Copa Chile",
-            "team_a": "Union Espanola",
-            "team_b": "O'Higgins",
-            "logo_a": "https://media.api-sports.io/football/teams/2321.png",
-            "logo_b": "https://media.api-sports.io/football/teams/2320.png",
-            "time": "04:30",
-            "date": "06/07",
-            "blv": "BLV Kent",
-            "is_live": false,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/xaycon-stream/refs/heads/main/thumbs/xc-bc1f3298d2_2ceac4b9_20260706.png?v=2ceac4b9",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "xc-efdd9572aa",
           "name": "Botafogo SP vs Avai | 05:00 07/07",
           "type": "single",
@@ -3192,83 +3192,11 @@
     },
     {
       "id": "grp-tennis",
-      "name": "🎾 Tennis (1 LIVE)",
+      "name": "🎾 Tennis",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-56b0c0788f",
-          "name": "Jannik Sinner vs Shintaro Mochizuki | 00:59 06/07",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-56b0c0788f",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-56b0c0788f",
-                  "name": "Jannik Sinner vs Shintaro Mochizuki",
-                  "streams": [
-                    {
-                      "id": "st-56b0c0788f",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-fcf3631bb4",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1783265271_hd/1783265271_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "ATP Wimbledon",
-            "team_a": "Jannik Sinner",
-            "team_b": "Shintaro Mochizuki",
-            "logo_a": "https://static.flashscore.com/res/image/data/zsxlv1jl-0zrsJ4N3.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/pS9gULYA-IgkNkNBS.png",
-            "time": "00:59 06/07",
-            "blv": "BLV Ben",
-            "is_live": true,
-            "cate_type": "tennis",
-            "time_start": 1783274340
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-56b0c0788f_8243208e_20260706.png?v=8243208e",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "hqlive-178c0c016b",
           "name": "Alex de Minaur vs Flavio Coboli | 19:00 06/07",
@@ -4036,6 +3964,60 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-37cb9e6c99_9e0d7e74_20260706.png?v=9e0d7e74",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-e879cbc4ff",
+          "name": "Poland vs Netherlands | 23:00 06/07",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-e879cbc4ff",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-e879cbc4ff",
+                  "name": "Poland vs Netherlands",
+                  "streams": [
+                    {
+                      "id": "st-e879cbc4ff",
+                      "name": "GV",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "FIBA Basketball World Cup",
+            "team_a": "Poland",
+            "team_b": "Netherlands",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/en/thumb/1/12/Flag_of_Poland.svg/330px-Flag_of_Poland.svg.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Flag_of_the_Netherlands.svg/1280px-Flag_of_the_Netherlands.svg.png",
+            "time": "23:00 06/07",
+            "blv": "BLV Cầy",
+            "is_live": false,
+            "cate_type": "basketball",
+            "time_start": 1783353600
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-e879cbc4ff_349fdc0b_20260706.png?v=349fdc0b",
             "width": 1600,
             "height": 1200
           }
