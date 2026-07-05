@@ -799,7 +799,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (5 LIVE)",
+      "name": "⚽ Bóng Đá (6 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1089,6 +1089,77 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Qingdao Jonoon_Chengdu Better City_18-00 05-07_c3f73c5e_20260705.png?v=c3f73c5e",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-600a40dc33",
+          "name": "IFK Goteborg vs AIK Stockholm | 19:00 05/07",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-600a40dc33",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-600a40dc33",
+                  "name": "IFK Goteborg vs AIK Stockholm",
+                  "streams": [
+                    {
+                      "id": "st-600a40dc33",
+                      "name": "HQ",
+                      "stream_links": [
+                        {
+                          "id": "lnk-b10e5b640b",
+                          "name": "BLV THẦN THÔNG",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://tdlive.yarncdn.live/live/tdtv_blv_taovannghe/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Allsvenskan",
+            "team_a": "IFK Goteborg",
+            "team_b": "AIK Stockholm",
+            "logo_a": "https://media.api-sports.io/football/teams/366.png",
+            "logo_b": "https://media.api-sports.io/football/teams/377.png",
+            "time": "19:00 05/07",
+            "blv": "BLV THẦN THÔNG",
+            "is_live": true,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/IFK Goteborg_AIK Stockholm_19-00 05-07_d7458278_20260705.png?v=d7458278",
             "width": 1600,
             "height": 1200
           }
@@ -1559,59 +1630,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-36277954d4_309b4d82_20260705.png?v=309b4d82",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "hqlive-600a40dc33",
-          "name": "IFK Goteborg vs AIK Stockholm | 19:00 05/07",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-600a40dc33",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-600a40dc33",
-                  "name": "IFK Goteborg vs AIK Stockholm",
-                  "streams": [
-                    {
-                      "id": "st-600a40dc33",
-                      "name": "HQ",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Allsvenskan",
-            "team_a": "IFK Goteborg",
-            "team_b": "AIK Stockholm",
-            "logo_a": "https://media.api-sports.io/football/teams/366.png",
-            "logo_b": "https://media.api-sports.io/football/teams/377.png",
-            "time": "19:00 05/07",
-            "blv": "BLV THẦN THÔNG",
-            "is_live": false,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/IFK Goteborg_AIK Stockholm_19-00 05-07_d7458278_20260705.png?v=d7458278",
             "width": 1600,
             "height": 1200
           }
@@ -5712,7 +5730,7 @@
     },
     {
       "id": "grp-bóng-chuyền",
-      "name": "🏐 Bóng Chuyền",
+      "name": "🏐 Bóng Chuyền (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -5725,10 +5743,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -5743,7 +5761,25 @@
                     {
                       "id": "st-48107686b1",
                       "name": "HQ",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-1cad2e4412",
+                          "name": "BLV TÁO GIÀ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://tdlive.yarncdn.live/live/tdtv_blv_taotinhtao/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -5793,7 +5829,7 @@
             "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Flag_of_Indonesia.svg/960px-Flag_of_Indonesia.svg.png",
             "time": "19:00 05/07",
             "blv": "BLV TÁO GIÀ",
-            "is_live": false,
+            "is_live": true,
             "sport_slug": "bong-chuyen"
           },
           "image": {
