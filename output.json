@@ -799,7 +799,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (4 LIVE)",
+      "name": "⚽ Bóng Đá (5 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1089,6 +1089,117 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Qingdao Jonoon_Chengdu Better City_18-00 05-07_c3f73c5e_20260705.png?v=c3f73c5e",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-17ac9dc603",
+          "name": "Shanghai Shenhua vs Hangzhou Greentown | 18:35 05/07",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-17ac9dc603",
+              "name": "XayConTV",
+              "contents": [
+                {
+                  "id": "ct-17ac9dc603",
+                  "name": "Shanghai Shenhua vs Hangzhou Greentown",
+                  "streams": [
+                    {
+                      "id": "st-17ac9dc603",
+                      "name": "XC",
+                      "stream_links": [
+                        {
+                          "id": "lnk-fde7f94b4e",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://xclive.yarncdn.live/live/xctv_blv_chuoi/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.xaycon3.live/"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://sv2.xaycon3.live"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-2e92962c0b",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-2e92962c0b",
+                  "name": "Shanghai Shenhua vs Hangzhou Greentown",
+                  "streams": [
+                    {
+                      "id": "st-2e92962c0b",
+                      "name": "Bugio - BLV Tiểu Trà Đá",
+                      "stream_links": [
+                        {
+                          "id": "lnk-0ba3f9d037",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_trada/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Super League",
+            "team_a": "Shanghai Shenhua",
+            "team_b": "Hangzhou Greentown",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/vi/d/dd/Shanghai_Shenhua_F.C.svg.png",
+            "logo_b": "https://media.api-sports.io/football/teams/848.png",
+            "time": "18:35",
+            "date": "05/07",
+            "blv": "BLV Ciu",
+            "is_live": true,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/xaycon-stream/refs/heads/main/thumbs/xc-17ac9dc603_004c36a2_20260705.png?v=004c36a2",
             "width": 1600,
             "height": 1200
           }
@@ -3482,117 +3593,6 @@
           }
         },
         {
-          "id": "xc-17ac9dc603",
-          "name": "Shanghai Shenhua vs Hangzhou Greentown | 18:35 05/07",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-17ac9dc603",
-              "name": "XayConTV",
-              "contents": [
-                {
-                  "id": "ct-17ac9dc603",
-                  "name": "Shanghai Shenhua vs Hangzhou Greentown",
-                  "streams": [
-                    {
-                      "id": "st-17ac9dc603",
-                      "name": "XC",
-                      "stream_links": [
-                        {
-                          "id": "lnk-fde7f94b4e",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://xclive.yarncdn.live/live/xctv_blv_chuoi/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.xaycon3.live/"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://sv2.xaycon3.live"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "src-2e92962c0b",
-              "name": "BugioTV",
-              "contents": [
-                {
-                  "id": "ct-2e92962c0b",
-                  "name": "Shanghai Shenhua vs Hangzhou Greentown",
-                  "streams": [
-                    {
-                      "id": "st-2e92962c0b",
-                      "name": "Bugio - BLV Tiểu Trà Đá",
-                      "stream_links": [
-                        {
-                          "id": "lnk-0ba3f9d037",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_trada/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv1.bugio9.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Super League",
-            "team_a": "Shanghai Shenhua",
-            "team_b": "Hangzhou Greentown",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/vi/d/dd/Shanghai_Shenhua_F.C.svg.png",
-            "logo_b": "https://media.api-sports.io/football/teams/848.png",
-            "time": "18:35",
-            "date": "05/07",
-            "blv": "BLV Ciu",
-            "is_live": false,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/xaycon-stream/refs/heads/main/thumbs/xc-17ac9dc603_004c36a2_20260705.png?v=004c36a2",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "xc-b82f9e0a95",
           "name": "Cracovia Krakow vs Başakşehir | 19:00 06/07",
           "type": "single",
@@ -5024,82 +5024,11 @@
     },
     {
       "id": "grp-bóng-chuyền",
-      "name": "🏐 Bóng Chuyền (1 LIVE)",
+      "name": "🏐 Bóng Chuyền",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "hqlive-6ba8c77073",
-          "name": "U18 Hàn Quốc vs U18 Kazakhstan | 16:00 05/07",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-6ba8c77073",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-6ba8c77073",
-                  "name": "U18 Hàn Quốc vs U18 Kazakhstan",
-                  "streams": [
-                    {
-                      "id": "st-6ba8c77073",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-f6231c6549",
-                          "name": "BLV PHAN CA",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanca/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "U18 Châu Á",
-            "team_a": "U18 Hàn Quốc",
-            "team_b": "U18 Kazakhstan",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Flag_of_South_Korea.svg/1280px-Flag_of_South_Korea.svg.png",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Flag_of_Kazakhstan.svg",
-            "time": "16:00 05/07",
-            "blv": "BLV PHAN CA",
-            "is_live": true,
-            "sport_slug": "bong-chuyen"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/U18 Hàn Quốc_U18 Kazakhstan_16-00 05-07_1a27b1fe_20260705.png?v=1a27b1fe",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "hqlive-48107686b1",
           "name": "U18 Thái Lan vs U18 Indonesia | 19:00 05/07",
