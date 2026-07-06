@@ -805,78 +805,6 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "gv-3331a09f17",
-          "name": "Pacific FC vs HFX Wanderers | 05:00 06/07",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-3331a09f17",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-3331a09f17",
-                  "name": "Pacific FC vs HFX Wanderers",
-                  "streams": [
-                    {
-                      "id": "st-3331a09f17",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-354c7862fe",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1783265927_hd/1783265927_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Canada - Canadian Premier League",
-            "team_a": "Pacific FC",
-            "team_b": "HFX Wanderers",
-            "logo_a": "https://pacificfc.org/wp-content/uploads/2025/03/pfc-logo.svg",
-            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRK8xxzyZOAUd2hqvhQs15HD99NU1Dy1zg3ZVLOAftb_grkcnjHGBiWzVY&s=10",
-            "time": "05:00 06/07",
-            "blv": "blv-minh",
-            "is_live": true,
-            "cate_type": "football",
-            "time_start": 1783288800
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-3331a09f17_431f202d_20260706.png?v=431f202d",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "gv-897615bafc",
           "name": "Mexico vs Anh | 07:00 06/07",
           "type": "single",
@@ -1132,10 +1060,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -1150,7 +1078,42 @@
                     {
                       "id": "st-f01977e22c",
                       "name": "HQ",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-975fc55dd1",
+                          "name": "BLV LƯƠNG BỔNG",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanliem/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-b10e5b640b",
+                          "name": "BLV THẦN THÔNG",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://tdlive.yarncdn.live/live/tdtv_blv_taovannghe/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -1204,7 +1167,7 @@
             "logo_b": "https://media.api-sports.io/football/teams/10.png",
             "time": "08:00 06/07",
             "blv": "BLV LƯƠNG BỔNG, BLV THẦN THÔNG",
-            "is_live": false,
+            "is_live": true,
             "sport_slug": "bong-da"
           },
           "image": {
