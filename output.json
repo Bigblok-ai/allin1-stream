@@ -799,7 +799,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá",
+      "name": "⚽ Bóng Đá (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -812,10 +812,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -830,7 +830,25 @@
                     {
                       "id": "st-88532ce92b",
                       "name": "HQ",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-fd31283a76",
+                          "name": "BLV PHAN ANH",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phananh/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -845,7 +863,7 @@
             "logo_b": "https://imgts.sportpulseapiz.com/football/team/dn1m1gh1p1vmoep/image/small",
             "time": "19:00 06/07",
             "blv": "BLV PHAN ANH",
-            "is_live": false,
+            "is_live": true,
             "sport_slug": "bong-da"
           },
           "image": {
@@ -2779,7 +2797,7 @@
     },
     {
       "id": "grp-tennis",
-      "name": "🎾 Tennis (1 LIVE)",
+      "name": "🎾 Tennis (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -2857,6 +2875,149 @@
           }
         },
         {
+          "id": "gv-39bd960650",
+          "name": "Marie Bouzkova vs Elise Mertens | 19:00 06/07",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-39bd960650",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-39bd960650",
+                  "name": "Marie Bouzkova vs Elise Mertens",
+                  "streams": [
+                    {
+                      "id": "st-39bd960650",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-2dffdf9ea6",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1783301273_hd/1783301273_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "WTA Wimbledon",
+            "team_a": "Marie Bouzkova",
+            "team_b": "Elise Mertens",
+            "logo_a": "https://static.flashscore.com/res/image/data/KAiTWGyB-Gtaj18Ja.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/zuslwRfM-jX0SdYnI.png",
+            "time": "19:00 06/07",
+            "blv": "BLV Sún",
+            "is_live": true,
+            "cate_type": "tennis",
+            "time_start": 1783339200
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-39bd960650_fde1317f_20260706.png?v=fde1317f",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-178c0c016b",
+          "name": "Alex de Minaur vs Flavio Coboli | 19:00 06/07",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-178c0c016b",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-178c0c016b",
+                  "name": "Alex de Minaur vs Flavio Coboli",
+                  "streams": [
+                    {
+                      "id": "st-178c0c016b",
+                      "name": "HQ",
+                      "stream_links": [
+                        {
+                          "id": "lnk-07fa7a18bb",
+                          "name": "BLV PHAN HẢI",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanhai/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "ATP500",
+            "team_a": "Alex de Minaur",
+            "team_b": "Flavio Coboli",
+            "logo_a": "https://pbs.twimg.com/media/Gr5VwgSXoAA3ipY?format=jpg&name=large",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/5/53/Cobolli_RGQ23_%2852944096963%29.jpg",
+            "time": "19:00 06/07",
+            "blv": "BLV PHAN HẢI",
+            "is_live": true,
+            "sport_slug": "tennis"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Alex de Minaur_Flavio Coboli_19-00 06-07_7f885b26_20260706.png?v=7f885b26",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "gv-05f1c16e90",
           "name": "Alex De Minaur vs Flavio Cobolli | 19:00 06/07",
           "type": "single",
@@ -2924,131 +3085,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-05f1c16e90_43794f0a_20260706.png?v=43794f0a",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-39bd960650",
-          "name": "Marie Bouzkova vs Elise Mertens | 19:00 06/07",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-39bd960650",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-39bd960650",
-                  "name": "Marie Bouzkova vs Elise Mertens",
-                  "streams": [
-                    {
-                      "id": "st-39bd960650",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-2dffdf9ea6",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1783301273_hd/1783301273_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "WTA Wimbledon",
-            "team_a": "Marie Bouzkova",
-            "team_b": "Elise Mertens",
-            "logo_a": "https://static.flashscore.com/res/image/data/KAiTWGyB-Gtaj18Ja.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/zuslwRfM-jX0SdYnI.png",
-            "time": "19:00 06/07",
-            "blv": "BLV Sún",
-            "is_live": false,
-            "cate_type": "tennis",
-            "time_start": 1783339200
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-39bd960650_fde1317f_20260706.png?v=fde1317f",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "hqlive-178c0c016b",
-          "name": "Alex de Minaur vs Flavio Coboli | 19:00 06/07",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-178c0c016b",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-178c0c016b",
-                  "name": "Alex de Minaur vs Flavio Coboli",
-                  "streams": [
-                    {
-                      "id": "st-178c0c016b",
-                      "name": "HQ",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "ATP500",
-            "team_a": "Alex de Minaur",
-            "team_b": "Flavio Coboli",
-            "logo_a": "https://pbs.twimg.com/media/Gr5VwgSXoAA3ipY?format=jpg&name=large",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/5/53/Cobolli_RGQ23_%2852944096963%29.jpg",
-            "time": "19:00 06/07",
-            "blv": "BLV PHAN HẢI",
-            "is_live": false,
-            "sport_slug": "tennis"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Alex de Minaur_Flavio Coboli_19-00 06-07_7f885b26_20260706.png?v=7f885b26",
             "width": 1600,
             "height": 1200
           }
@@ -4162,11 +4198,117 @@
     },
     {
       "id": "grp-bóng-chuyền",
-      "name": "🏐 Bóng Chuyền (1 LIVE)",
+      "name": "🏐 Bóng Chuyền (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "hqlive-81eb7a7ded",
+          "name": "U18 Hàn Quốc vs U18 Thái Lan | 19:00 06/07",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-81eb7a7ded",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-81eb7a7ded",
+                  "name": "U18 Hàn Quốc vs U18 Thái Lan",
+                  "streams": [
+                    {
+                      "id": "st-81eb7a7ded",
+                      "name": "HQ",
+                      "stream_links": [
+                        {
+                          "id": "lnk-f6231c6549",
+                          "name": "BLV PHAN CA",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanca/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-f4f691ac94",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-f4f691ac94",
+                  "name": "Thái Lan - Hàn Quốc",
+                  "streams": [
+                    {
+                      "id": "st-f4f691ac94",
+                      "name": "Bugio - BLV Chim Nhỏ",
+                      "stream_links": [
+                        {
+                          "id": "lnk-378f040fcb",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_cuccu/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "U18 Châu Á",
+            "team_a": "U18 Hàn Quốc",
+            "team_b": "U18 Thái Lan",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Flag_of_South_Korea.svg/1280px-Flag_of_South_Korea.svg.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Flag_of_Thailand_%28non-standard_colours_3%29.svg/250px-Flag_of_Thailand_%28non-standard_colours_3%29.svg.png",
+            "time": "19:00 06/07",
+            "blv": "BLV PHAN CA",
+            "is_live": true,
+            "sport_slug": "bong-chuyen"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/U18 Hàn Quốc_U18 Thái Lan_19-00 06-07_c001aab3_20260706.png?v=c001aab3",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "bg-139042a415",
           "name": "Hồng Kông - Philippines | 19:00 06/07",
@@ -4234,94 +4376,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-139042a415_a777076e_20260706.png?v=a777076e",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "hqlive-81eb7a7ded",
-          "name": "U18 Hàn Quốc vs U18 Thái Lan | 19:00 06/07",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-81eb7a7ded",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-81eb7a7ded",
-                  "name": "U18 Hàn Quốc vs U18 Thái Lan",
-                  "streams": [
-                    {
-                      "id": "st-81eb7a7ded",
-                      "name": "HQ",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "src-f4f691ac94",
-              "name": "BugioTV",
-              "contents": [
-                {
-                  "id": "ct-f4f691ac94",
-                  "name": "Thái Lan - Hàn Quốc",
-                  "streams": [
-                    {
-                      "id": "st-f4f691ac94",
-                      "name": "Bugio - BLV Chim Nhỏ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-378f040fcb",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_cuccu/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv1.bugio9.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "U18 Châu Á",
-            "team_a": "U18 Hàn Quốc",
-            "team_b": "U18 Thái Lan",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Flag_of_South_Korea.svg/1280px-Flag_of_South_Korea.svg.png",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Flag_of_Thailand_%28non-standard_colours_3%29.svg/250px-Flag_of_Thailand_%28non-standard_colours_3%29.svg.png",
-            "time": "19:00 06/07",
-            "blv": "BLV PHAN CA",
-            "is_live": false,
-            "sport_slug": "bong-chuyen"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/U18 Hàn Quốc_U18 Thái Lan_19-00 06-07_c001aab3_20260706.png?v=c001aab3",
             "width": 1600,
             "height": 1200
           }
