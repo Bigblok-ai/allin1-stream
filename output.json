@@ -2188,6 +2188,98 @@
           }
         },
         {
+          "id": "hqlive-c64305dd86",
+          "name": "Hwacheon KSPO W vs Suwon FMC | 17:00 07/07",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-c64305dd86",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-c64305dd86",
+                  "name": "Hwacheon KSPO W vs Suwon FMC",
+                  "streams": [
+                    {
+                      "id": "st-c64305dd86",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-7a9fc1176a",
+              "name": "XayConTV",
+              "contents": [
+                {
+                  "id": "ct-7a9fc1176a",
+                  "name": "Hwacheon KSPO W vs Suwon FMC W",
+                  "streams": [
+                    {
+                      "id": "st-7a9fc1176a",
+                      "name": "Xaycon - BLV Ciu",
+                      "stream_links": [
+                        {
+                          "id": "lnk-fde7f94b4e",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://xclive.yarncdn.live/live/xctv_blv_chuoi/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.xaycon3.live/"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://sv2.xaycon3.live"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "WK-League",
+            "team_a": "Hwacheon KSPO W",
+            "team_b": "Suwon FMC",
+            "logo_a": "https://media.api-sports.io/football/teams/14376.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/en/thumb/0/01/Suwon_FC_2016.svg/1280px-Suwon_FC_2016.svg.png",
+            "time": "17:00 07/07",
+            "blv": "BLV PHAN ANH",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Hwacheon KSPO W_Suwon FMC_17-00 07-07_020addc5_20260706.png?v=020addc5",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "xc-2f63c739a7",
           "name": "Borac Banja Luka vs Levski Sofia | 01:30 08/07",
           "type": "single",
@@ -4173,118 +4265,11 @@
     },
     {
       "id": "grp-bóng-chuyền",
-      "name": "🏐 Bóng Chuyền (1 LIVE)",
+      "name": "🏐 Bóng Chuyền",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
-      "channels": [
-        {
-          "id": "hqlive-81eb7a7ded",
-          "name": "U18 Hàn Quốc vs U18 Thái Lan | 19:00 06/07",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-81eb7a7ded",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-81eb7a7ded",
-                  "name": "U18 Hàn Quốc vs U18 Thái Lan",
-                  "streams": [
-                    {
-                      "id": "st-81eb7a7ded",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-f6231c6549",
-                          "name": "BLV PHAN CA",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanca/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "src-f4f691ac94",
-              "name": "BugioTV",
-              "contents": [
-                {
-                  "id": "ct-f4f691ac94",
-                  "name": "Thái Lan - Hàn Quốc",
-                  "streams": [
-                    {
-                      "id": "st-f4f691ac94",
-                      "name": "Bugio - BLV Chim Nhỏ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-378f040fcb",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_cuccu/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv1.bugio9.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "U18 Châu Á",
-            "team_a": "U18 Hàn Quốc",
-            "team_b": "U18 Thái Lan",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Flag_of_South_Korea.svg/1280px-Flag_of_South_Korea.svg.png",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Flag_of_Thailand_%28non-standard_colours_3%29.svg/250px-Flag_of_Thailand_%28non-standard_colours_3%29.svg.png",
-            "time": "19:00 06/07",
-            "blv": "BLV PHAN CA",
-            "is_live": true,
-            "sport_slug": "bong-chuyen"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/U18 Hàn Quốc_U18 Thái Lan_19-00 06-07_c001aab3_20260706.png?v=c001aab3",
-            "width": 1600,
-            "height": 1200
-          }
-        }
-      ]
+      "channels": []
     },
     {
       "id": "grp-đua-xe",
