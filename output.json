@@ -799,11 +799,118 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (1 LIVE)",
+      "name": "⚽ Bóng Đá (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "gv-c80a65b4ad",
+          "name": "Häcken vs Djurgården | 00:00 07/07",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-c80a65b4ad",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-c80a65b4ad",
+                  "name": "Häcken vs Djurgården",
+                  "streams": [
+                    {
+                      "id": "st-c80a65b4ad",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-0d992a3387",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1783284638_hd/1783284638_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-a94b469540",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-a94b469540",
+                  "name": "BK Hacken vs Djurgardens IF",
+                  "streams": [
+                    {
+                      "id": "st-a94b469540",
+                      "name": "Hoiquan - BLV TÁO GIÀ",
+                      "stream_links": [
+                        {
+                          "id": "lnk-1cad2e4412",
+                          "name": "BLV TÁO GIÀ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://tdlive.yarncdn.live/live/tdtv_blv_taotinhtao/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "VĐQG Thụy Điển",
+            "team_a": "Häcken",
+            "team_b": "Djurgården",
+            "logo_a": "https://images.keovip88.net/images/teams/orgryte.png",
+            "logo_b": "https://images.keovip88.net/images/teams/hacken.png",
+            "time": "00:00 07/07",
+            "blv": "BLV Mù",
+            "is_live": true,
+            "cate_type": "football",
+            "time_start": 1783357200
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-c80a65b4ad_194a91c4_20260706.png?v=194a91c4",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "xc-ebd6937a4c",
           "name": "Super Nova vs Ogre United | 23:00 06/07",
@@ -876,78 +983,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/xaycon-stream/refs/heads/main/thumbs/xc-ebd6937a4c_1054ca9b_20260706.png?v=1054ca9b",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-c80a65b4ad",
-          "name": "Häcken vs Djurgården | 00:00 07/07",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-c80a65b4ad",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-c80a65b4ad",
-                  "name": "Häcken vs Djurgården",
-                  "streams": [
-                    {
-                      "id": "st-c80a65b4ad",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-0d992a3387",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1783284638_hd/1783284638_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "VĐQG Thụy Điển",
-            "team_a": "Häcken",
-            "team_b": "Djurgården",
-            "logo_a": "https://images.keovip88.net/images/teams/orgryte.png",
-            "logo_b": "https://images.keovip88.net/images/teams/hacken.png",
-            "time": "00:00 07/07",
-            "blv": "BLV Mù",
-            "is_live": false,
-            "cate_type": "football",
-            "time_start": 1783357200
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-c80a65b4ad_194a91c4_20260706.png?v=194a91c4",
             "width": 1600,
             "height": 1200
           }
