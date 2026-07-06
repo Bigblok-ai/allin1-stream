@@ -799,7 +799,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (3 LIVE)",
+      "name": "⚽ Bóng Đá (5 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -912,6 +912,78 @@
           }
         },
         {
+          "id": "gv-6dc7aed45d",
+          "name": "Mỹ vs Bỉ | 07:00 07/07",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-6dc7aed45d",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-6dc7aed45d",
+                  "name": "Mỹ vs Bỉ",
+                  "streams": [
+                    {
+                      "id": "st-6dc7aed45d",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-587456e11a",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1783380682_hd/1783380682_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "FIFA World Cup",
+            "team_a": "Mỹ",
+            "team_b": "Bỉ",
+            "logo_a": "https://images.keovip88.net/images/teams/usa.png",
+            "logo_b": "https://images.keovip88.net/images/teams/belgium.png",
+            "time": "07:00 07/07",
+            "blv": "vui-ve-hoi-ngong, BLV Ngủ",
+            "is_live": true,
+            "cate_type": "football",
+            "time_start": 1783382400
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-6dc7aed45d_30d1e43b_20260707.png?v=30d1e43b",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "hqlive-b5cf920f27",
           "name": "Botafogo SP vs Avai | 05:00 07/07",
           "type": "single",
@@ -983,8 +1055,8 @@
           }
         },
         {
-          "id": "xc-f0467d7009",
-          "name": "Portugal vs Spain | 02:00 07/07",
+          "id": "hqlive-0aa8752298",
+          "name": "USA vs Belgium | 07:00 07/07",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -994,82 +1066,6 @@
               "position": "top-left",
               "color": "#00000080",
               "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-f0467d7009",
-              "name": "XayConTV",
-              "contents": [
-                {
-                  "id": "ct-f0467d7009",
-                  "name": "Portugal vs Spain",
-                  "streams": [
-                    {
-                      "id": "st-f0467d7009",
-                      "name": "XC",
-                      "stream_links": [
-                        {
-                          "id": "lnk-bccd486b79",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://xclive.yarncdn.live/live/xctv_blv_tammao/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.xaycon3.live/"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://sv2.xaycon3.live"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "World Cup",
-            "team_a": "Portugal",
-            "team_b": "Spain",
-            "logo_a": "https://media.api-sports.io/football/teams/27.png",
-            "logo_b": "https://media.api-sports.io/football/teams/9.png",
-            "time": "02:00",
-            "date": "07/07",
-            "blv": "BLV Tam Mao",
-            "is_live": true,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/xaycon-stream/refs/heads/main/thumbs/xc-f0467d7009_fd354a70_20260707.png?v=fd354a70",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "hqlive-0aa8752298",
-          "name": "USA vs Belgium | 07:00 07/07",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
             }
           ],
           "sources": [
@@ -1084,7 +1080,42 @@
                     {
                       "id": "st-0aa8752298",
                       "name": "HQ",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-975fc55dd1",
+                          "name": "BLV LƯƠNG BỔNG",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanliem/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-b0c182498f",
+                          "name": "BLV PHAN QUẨY",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanquay/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -1282,7 +1313,7 @@
             "logo_b": "https://media.api-sports.io/football/teams/1.png",
             "time": "07:00 07/07",
             "blv": "BLV LƯƠNG BỔNG, BLV PHAN QUẨY",
-            "is_live": false,
+            "is_live": true,
             "sport_slug": "bong-da"
           },
           "image": {
@@ -1290,6 +1321,82 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/USA_Belgium_07-00 07-07_6aac6695_20260707.png?v=6aac6695",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-f0467d7009",
+          "name": "Portugal vs Spain | 02:00 07/07",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-f0467d7009",
+              "name": "XayConTV",
+              "contents": [
+                {
+                  "id": "ct-f0467d7009",
+                  "name": "Portugal vs Spain",
+                  "streams": [
+                    {
+                      "id": "st-f0467d7009",
+                      "name": "XC",
+                      "stream_links": [
+                        {
+                          "id": "lnk-bccd486b79",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://xclive.yarncdn.live/live/xctv_blv_tammao/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.xaycon3.live/"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://sv2.xaycon3.live"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "World Cup",
+            "team_a": "Portugal",
+            "team_b": "Spain",
+            "logo_a": "https://media.api-sports.io/football/teams/27.png",
+            "logo_b": "https://media.api-sports.io/football/teams/9.png",
+            "time": "02:00",
+            "date": "07/07",
+            "blv": "BLV Tam Mao",
+            "is_live": true,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/xaycon-stream/refs/heads/main/thumbs/xc-f0467d7009_fd354a70_20260707.png?v=fd354a70",
             "width": 1600,
             "height": 1200
           }
