@@ -799,11 +799,122 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (1 LIVE)",
+      "name": "⚽ Bóng Đá (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "gv-58f00e1aba",
+          "name": "Ulaanbaatar  vs Deren | 11:00 06/07",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-58f00e1aba",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-58f00e1aba",
+                  "name": "Ulaanbaatar  vs Deren",
+                  "streams": [
+                    {
+                      "id": "st-58f00e1aba",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-c394378ab5",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1783250687_hd/1783250687_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-994be14dbc",
+              "name": "XayConTV",
+              "contents": [
+                {
+                  "id": "ct-994be14dbc",
+                  "name": "Ulaanbaatar vs Deren",
+                  "streams": [
+                    {
+                      "id": "st-994be14dbc",
+                      "name": "Xaycon - BLV Rồng Đất",
+                      "stream_links": [
+                        {
+                          "id": "lnk-221ed1ffcc",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://xclive.yarncdn.live/live/xctv_blv_rongdat/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.xaycon3.live/"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://sv2.xaycon3.live"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Mongolia - Mongolian Premier League",
+            "team_a": "Ulaanbaatar ",
+            "team_b": "Deren",
+            "logo_a": "https://static.flashscore.com/res/image/data/zsQb9iFG-ziRjVPgA.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/A7hdRgBr-MPnggpjM.png",
+            "time": "11:00 06/07",
+            "blv": "BLV Trĩ",
+            "is_live": true,
+            "cate_type": "football",
+            "time_start": 1783310400
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-58f00e1aba_3350ff6c_20260706.png?v=3350ff6c",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "hqlive-649bbb62ef",
           "name": "Alta vs Charlotte Independence | 10:00 06/07",
@@ -910,117 +1021,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Alta_Charlotte Independence_10-00 06-07_897c6bd5_20260706.png?v=897c6bd5",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-58f00e1aba",
-          "name": "Ulaanbaatar  vs Deren | 11:00 06/07",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-58f00e1aba",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-58f00e1aba",
-                  "name": "Ulaanbaatar  vs Deren",
-                  "streams": [
-                    {
-                      "id": "st-58f00e1aba",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-c394378ab5",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1783250687_hd/1783250687_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "src-994be14dbc",
-              "name": "XayConTV",
-              "contents": [
-                {
-                  "id": "ct-994be14dbc",
-                  "name": "Ulaanbaatar vs Deren",
-                  "streams": [
-                    {
-                      "id": "st-994be14dbc",
-                      "name": "Xaycon - BLV Rồng Đất",
-                      "stream_links": [
-                        {
-                          "id": "lnk-221ed1ffcc",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://xclive.yarncdn.live/live/xctv_blv_rongdat/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.xaycon3.live/"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://sv2.xaycon3.live"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Mongolia - Mongolian Premier League",
-            "team_a": "Ulaanbaatar ",
-            "team_b": "Deren",
-            "logo_a": "https://static.flashscore.com/res/image/data/zsQb9iFG-ziRjVPgA.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/A7hdRgBr-MPnggpjM.png",
-            "time": "11:00 06/07",
-            "blv": "BLV Trĩ",
-            "is_live": false,
-            "cate_type": "football",
-            "time_start": 1783310400
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-58f00e1aba_3350ff6c_20260706.png?v=3350ff6c",
             "width": 1600,
             "height": 1200
           }
