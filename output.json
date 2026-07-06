@@ -799,7 +799,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -984,78 +984,6 @@
           }
         },
         {
-          "id": "gv-c23d655dab",
-          "name": "Bồ Đào Nha vs Tây Ban Nha | 02:00 07/07",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-c23d655dab",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-c23d655dab",
-                  "name": "Bồ Đào Nha vs Tây Ban Nha",
-                  "streams": [
-                    {
-                      "id": "st-c23d655dab",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-b6fcefc275",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1783353458_hd/1783353458_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "FIFA World Cup",
-            "team_a": "Bồ Đào Nha",
-            "team_b": "Tây Ban Nha",
-            "logo_a": "https://images.keovip88.net/images/teams/portugal.png",
-            "logo_b": "https://images.keovip88.net/images/teams/spain.png",
-            "time": "02:00 07/07",
-            "blv": "Leobin, Bón + Trĩ, Mumason, leo-dory-bin-cay",
-            "is_live": false,
-            "cate_type": "football",
-            "time_start": 1783364400
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-c23d655dab_53b2799a_20260707.png?v=53b2799a",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "hqlive-44365061c2",
           "name": "Portugal vs Spain | 02:00 07/07",
           "type": "single",
@@ -1063,10 +991,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -1081,7 +1009,76 @@
                     {
                       "id": "st-44365061c2",
                       "name": "HQ",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-c42241b387",
+                          "name": "BLV PHAN MÃ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanma/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-b0c182498f",
+                          "name": "BLV PHAN QUẨY",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanquay/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-975fc55dd1",
+                          "name": "BLV LƯƠNG BỔNG",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanliem/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-f6231c6549",
+                          "name": "BLV PHAN CA",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanca/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -1353,7 +1350,7 @@
             "logo_b": "https://media.api-sports.io/football/teams/9.png",
             "time": "02:00 07/07",
             "blv": "BLV PHAN MÃ, BLV PHAN QUẨY, BLV LƯƠNG BỔNG, BLV PHAN CA",
-            "is_live": false,
+            "is_live": true,
             "sport_slug": "bong-da"
           },
           "image": {
@@ -1361,6 +1358,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Portugal_Spain_02-00 07-07_30b63ce8_20260707.png?v=30b63ce8",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-c23d655dab",
+          "name": "Bồ Đào Nha vs Tây Ban Nha | 02:00 07/07",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-c23d655dab",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-c23d655dab",
+                  "name": "Bồ Đào Nha vs Tây Ban Nha",
+                  "streams": [
+                    {
+                      "id": "st-c23d655dab",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-b6fcefc275",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1783353458_hd/1783353458_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "FIFA World Cup",
+            "team_a": "Bồ Đào Nha",
+            "team_b": "Tây Ban Nha",
+            "logo_a": "https://images.keovip88.net/images/teams/portugal.png",
+            "logo_b": "https://images.keovip88.net/images/teams/spain.png",
+            "time": "02:00 07/07",
+            "blv": "Leobin, Bón + Trĩ, Mumason, leo-dory-bin-cay",
+            "is_live": false,
+            "cate_type": "football",
+            "time_start": 1783364400
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-c23d655dab_53b2799a_20260707.png?v=53b2799a",
             "width": 1600,
             "height": 1200
           }
