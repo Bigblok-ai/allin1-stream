@@ -3472,7 +3472,7 @@
     },
     {
       "id": "grp-tennis",
-      "name": "🎾 Tennis (3 LIVE)",
+      "name": "🎾 Tennis (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -3633,41 +3633,6 @@
                   ]
                 }
               ]
-            },
-            {
-              "id": "src-c655f0df63",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-c655f0df63",
-                  "name": "Jessica Pegula vs Coco Gauff",
-                  "streams": [
-                    {
-                      "id": "st-c655f0df63",
-                      "name": "Hoiquan - BLV PHAN BỐNG",
-                      "stream_links": [
-                        {
-                          "id": "lnk-6568b58b01",
-                          "name": "BLV PHAN BỐNG",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanbong/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
             }
           ],
           "org_metadata": {
@@ -3759,6 +3724,77 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-998d7bb6c6_f72254b2_20260707.png?v=f72254b2",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-827b263f5a",
+          "name": "Felix Auger-Aliassime vs Novak Djokovic | 21:30 07/07",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-827b263f5a",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-827b263f5a",
+                  "name": "Felix Auger-Aliassime vs Novak Djokovic",
+                  "streams": [
+                    {
+                      "id": "st-827b263f5a",
+                      "name": "HQ",
+                      "stream_links": [
+                        {
+                          "id": "lnk-6568b58b01",
+                          "name": "BLV PHAN BỐNG",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanbong/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "WTA500 ",
+            "team_a": "Felix Auger-Aliassime",
+            "team_b": "Novak Djokovic",
+            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgyDXXFrntQ8oD-0ScBeI4o43O2rcgU2dsjQ&s",
+            "logo_b": "https://media.cnn.com/api/v1/images/stellar/prod/gettyimages-2163072777-copy.jpg?c=original",
+            "time": "21:30 07/07",
+            "blv": "BLV PHAN BỐNG",
+            "is_live": true,
+            "sport_slug": "tennis"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Felix Auger-Aliassime_Novak Djokovic_21-30 07-07_e7ee4107_20260707.png?v=e7ee4107",
             "width": 1600,
             "height": 1200
           }
