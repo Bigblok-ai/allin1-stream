@@ -799,7 +799,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (7 LIVE)",
+      "name": "⚽ Bóng Đá (8 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -903,6 +903,41 @@
                       "id": "st-843ee230ea",
                       "name": "GV",
                       "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-694aebfd11",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-694aebfd11",
+                  "name": "Borac Banja Luka vs Levski Sofia",
+                  "streams": [
+                    {
+                      "id": "st-694aebfd11",
+                      "name": "Hoiquan - BLV TÁO GIÀ",
+                      "stream_links": [
+                        {
+                          "id": "lnk-1cad2e4412",
+                          "name": "BLV TÁO GIÀ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://tdlive.yarncdn.live/live/tdtv_blv_taotinhtao/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -1167,8 +1202,8 @@
           }
         },
         {
-          "id": "hqlive-47311bbdfd",
-          "name": "Argentina vs Egypt | 23:00 07/07",
+          "id": "hqlive-b970d79dc0",
+          "name": "Switzerland vs Colombia | 03:00 08/07",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1182,15 +1217,15 @@
           ],
           "sources": [
             {
-              "id": "src-47311bbdfd",
+              "id": "src-b970d79dc0",
               "name": "HoiQuanTV",
               "contents": [
                 {
-                  "id": "ct-47311bbdfd",
-                  "name": "Argentina vs Egypt",
+                  "id": "ct-b970d79dc0",
+                  "name": "Switzerland vs Colombia",
                   "streams": [
                     {
-                      "id": "st-47311bbdfd",
+                      "id": "st-b970d79dc0",
                       "name": "HQ",
                       "stream_links": [
                         {
@@ -1199,23 +1234,6 @@
                           "type": "hls",
                           "default": true,
                           "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanma/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-975fc55dd1",
-                          "name": "BLV LƯƠNG BỔNG",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanliem/playlist.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -1245,6 +1263,23 @@
                           ]
                         },
                         {
+                          "id": "lnk-975fc55dd1",
+                          "name": "BLV LƯƠNG BỔNG",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanliem/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        },
+                        {
                           "id": "lnk-b0c182498f",
                           "name": "BLV PHAN QUẨY",
                           "type": "hls",
@@ -1262,270 +1297,6 @@
                           ]
                         }
                       ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "src-d63c4a5e9b",
-              "name": "BugioTV",
-              "contents": [
-                {
-                  "id": "ct-d63c4a5e9b",
-                  "name": "Argentina vs Egypt",
-                  "streams": [
-                    {
-                      "id": "st-d63c4a5e9b",
-                      "name": "Bugio - BLV Tiểu Trà Đá",
-                      "stream_links": [
-                        {
-                          "id": "lnk-0ba3f9d037",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_trada/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv1.bugio9.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "src-2d1ef8f39d",
-              "name": "BugioTV",
-              "contents": [
-                {
-                  "id": "ct-2d1ef8f39d",
-                  "name": "Argentina vs Egypt",
-                  "streams": [
-                    {
-                      "id": "st-2d1ef8f39d",
-                      "name": "Bugio - BLV Max",
-                      "stream_links": [
-                        {
-                          "id": "lnk-ad68922ab2",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_max/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv1.bugio9.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "src-b426b30042",
-              "name": "BugioTV",
-              "contents": [
-                {
-                  "id": "ct-b426b30042",
-                  "name": "Argentina vs Egypt",
-                  "streams": [
-                    {
-                      "id": "st-b426b30042",
-                      "name": "Bugio - BLV Mao Từn",
-                      "stream_links": [
-                        {
-                          "id": "lnk-51a73d71ba",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_mason/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv1.bugio9.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "World Cup",
-            "team_a": "Argentina",
-            "team_b": "Egypt",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Flag_of_Argentina.svg/250px-Flag_of_Argentina.svg.png",
-            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRs4Ww0xI3D6Y9wsJWTNKpRayzsESKTsT4EpA&s",
-            "time": "23:00 07/07",
-            "blv": "BLV PHAN MÃ, BLV LƯƠNG BỔNG, BLV THẦN THÔNG, BLV PHAN QUẨY",
-            "is_live": true,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Argentina_Egypt_23-00 07-07_8f8febae_20260708.png?v=8f8febae",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "hqlive-1b87325c09",
-          "name": "Vardar Skopje vs KuPS | 00:00 08/07",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-1b87325c09",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-1b87325c09",
-                  "name": "Vardar Skopje vs KuPS",
-                  "streams": [
-                    {
-                      "id": "st-1b87325c09",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-f6231c6549",
-                          "name": "BLV PHAN CA",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanca/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "src-4275f89744",
-              "name": "BugioTV",
-              "contents": [
-                {
-                  "id": "ct-4275f89744",
-                  "name": "Vardar Skopje vs KuPS",
-                  "streams": [
-                    {
-                      "id": "st-4275f89744",
-                      "name": "Bugio - BLV Tiểu Mèo",
-                      "stream_links": [
-                        {
-                          "id": "lnk-21936c1c94",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_tieumeo/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv1.bugio9.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "UEFA Champions League",
-            "team_a": "Vardar Skopje",
-            "team_b": "KuPS",
-            "logo_a": "https://media.api-sports.io/football/teams/574.png",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/en/b/bd/KuPS_logo.svg",
-            "time": "00:00 08/07",
-            "blv": "BLV PHAN CA",
-            "is_live": true,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Vardar Skopje_KuPS_00-00 08-07_a401e8d0_20260708.png?v=a401e8d0",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "hqlive-b970d79dc0",
-          "name": "Switzerland vs Colombia | 03:00 08/07",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-b970d79dc0",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-b970d79dc0",
-                  "name": "Switzerland vs Colombia",
-                  "streams": [
-                    {
-                      "id": "st-b970d79dc0",
-                      "name": "HQ",
-                      "stream_links": []
                     }
                   ]
                 }
@@ -1723,7 +1494,7 @@
             "logo_b": "https://upload.wikimedia.org/wikipedia/commons/2/21/Flag_of_Colombia.svg",
             "time": "03:00 08/07",
             "blv": "BLV PHAN MÃ, BLV THẦN THÔNG, BLV LƯƠNG BỔNG, BLV PHAN QUẨY",
-            "is_live": false,
+            "is_live": true,
             "sport_slug": "bong-da"
           },
           "image": {
@@ -1731,6 +1502,218 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Switzerland_Colombia_03-00 08-07_c54deb58_20260708.png?v=c54deb58",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "bg-d63c4a5e9b",
+          "name": "Argentina vs Egypt | 23:00 07/07",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-d63c4a5e9b",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-d63c4a5e9b",
+                  "name": "Argentina vs Egypt",
+                  "streams": [
+                    {
+                      "id": "st-d63c4a5e9b",
+                      "name": "BG",
+                      "stream_links": [
+                        {
+                          "id": "lnk-0ba3f9d037",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_trada/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-2d1ef8f39d",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-2d1ef8f39d",
+                  "name": "Argentina vs Egypt",
+                  "streams": [
+                    {
+                      "id": "st-2d1ef8f39d",
+                      "name": "Bugio - BLV Max",
+                      "stream_links": [
+                        {
+                          "id": "lnk-ad68922ab2",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_max/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-b426b30042",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-b426b30042",
+                  "name": "Argentina vs Egypt",
+                  "streams": [
+                    {
+                      "id": "st-b426b30042",
+                      "name": "Bugio - BLV Mao Từn",
+                      "stream_links": [
+                        {
+                          "id": "lnk-51a73d71ba",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_mason/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "World Cup",
+            "team_a": "Argentina",
+            "team_b": "Egypt",
+            "logo_a": "https://media.api-sports.io/football/teams/26.png",
+            "logo_b": "https://media.api-sports.io/football/teams/32.png",
+            "start_time": "2026-07-07T23:00:00",
+            "blv": "BLV Tiểu Trà Đá",
+            "is_live": true,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-d63c4a5e9b_559c7a80_20260708.png?v=559c7a80",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "bg-4275f89744",
+          "name": "Vardar Skopje vs KuPS | 00:00 08/07",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-4275f89744",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-4275f89744",
+                  "name": "Vardar Skopje vs KuPS",
+                  "streams": [
+                    {
+                      "id": "st-4275f89744",
+                      "name": "BG",
+                      "stream_links": [
+                        {
+                          "id": "lnk-21936c1c94",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_tieumeo/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "UEFA Champions League",
+            "team_a": "Vardar Skopje",
+            "team_b": "KuPS",
+            "logo_a": "https://media.api-sports.io/football/teams/574.png",
+            "logo_b": "https://media.api-sports.io/football/teams/1165.png",
+            "start_time": "2026-07-08T00:00:00",
+            "blv": "BLV Tiểu Mèo",
+            "is_live": true,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-4275f89744_c5b25f26_20260708.png?v=c5b25f26",
             "width": 1600,
             "height": 1200
           }
@@ -3097,7 +3080,7 @@
     },
     {
       "id": "grp-tennis",
-      "name": "🎾 Tennis (2 LIVE)",
+      "name": "🎾 Tennis (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -3152,77 +3135,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-998d7bb6c6_f72254b2_20260708.png?v=f72254b2",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "hqlive-827b263f5a",
-          "name": "Felix Auger-Aliassime vs Novak Djokovic | 21:30 07/07",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-827b263f5a",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-827b263f5a",
-                  "name": "Felix Auger-Aliassime vs Novak Djokovic",
-                  "streams": [
-                    {
-                      "id": "st-827b263f5a",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-6568b58b01",
-                          "name": "BLV PHAN BỐNG",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanbong/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "WTA500 ",
-            "team_a": "Felix Auger-Aliassime",
-            "team_b": "Novak Djokovic",
-            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgyDXXFrntQ8oD-0ScBeI4o43O2rcgU2dsjQ&s",
-            "logo_b": "https://media.cnn.com/api/v1/images/stellar/prod/gettyimages-2163072777-copy.jpg?c=original",
-            "time": "21:30 07/07",
-            "blv": "BLV PHAN BỐNG",
-            "is_live": true,
-            "sport_slug": "tennis"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Felix Auger-Aliassime_Novak Djokovic_21-30 07-07_e7ee4107_20260708.png?v=e7ee4107",
             "width": 1600,
             "height": 1200
           }
