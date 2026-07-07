@@ -799,82 +799,11 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (1 LIVE)",
+      "name": "⚽ Bóng Đá",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "hqlive-45071a6045",
-          "name": "Stars FC vs Tucson | 09:30 07/07",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-45071a6045",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-45071a6045",
-                  "name": "Stars FC vs Tucson",
-                  "streams": [
-                    {
-                      "id": "st-45071a6045",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-f6231c6549",
-                          "name": "BLV PHAN CA",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanca/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "USL League Two",
-            "team_a": "Stars FC",
-            "team_b": "Tucson",
-            "logo_a": "https://media.api-sports.io/football/teams/25951.png",
-            "logo_b": "https://media.api-sports.io/football/teams/4109.png",
-            "time": "09:30 07/07",
-            "blv": "BLV PHAN CA",
-            "is_live": true,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Stars FC_Tucson_09-30 07-07_de51820b_20260707.png?v=de51820b",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-2124d1d08d",
           "name": "Gold Coast Knights  vs Queensland Lions | 16:30 07/07",
@@ -901,7 +830,25 @@
                     {
                       "id": "st-2124d1d08d",
                       "name": "GV",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-4ea98f0c1d",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1783399058_hd/1783399058_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -964,6 +911,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-2124d1d08d_393af8a1_20260707.png?v=393af8a1",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-0ed58adca4",
+          "name": "Hwacheon W  vs Suwon FC W | 17:00 07/07",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-0ed58adca4",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-0ed58adca4",
+                  "name": "Hwacheon W  vs Suwon FC W",
+                  "streams": [
+                    {
+                      "id": "st-0ed58adca4",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-17510fae20",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1783399174_hd/1783399174_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "WK League",
+            "team_a": "Hwacheon W ",
+            "team_b": "Suwon FC W",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/en/8/8d/KSPO_WFC.png",
+            "logo_b": "https://images.keovip.cc/images/teams/suwon-fc.png",
+            "time": "17:00 07/07",
+            "blv": "blv-minh",
+            "is_live": false,
+            "cate_type": "football",
+            "time_start": 1783418400
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-0ed58adca4_a7bf4606_20260707.png?v=a7bf4606",
             "width": 1600,
             "height": 1200
           }
@@ -1305,7 +1324,25 @@
                     {
                       "id": "st-e1584321ba",
                       "name": "GV",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-1cbe51e67f",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1783398945_hd/1783398945_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -2402,6 +2439,78 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "gv-5e7c732ce8",
+          "name": "Jannik Sinner  vs Jan-Lennard Struff | 19:00 07/07",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-5e7c732ce8",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-5e7c732ce8",
+                  "name": "Jannik Sinner  vs Jan-Lennard Struff",
+                  "streams": [
+                    {
+                      "id": "st-5e7c732ce8",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-4885475366",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1783399338_hd/1783399338_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "ATP Wimbledon",
+            "team_a": "Jannik Sinner ",
+            "team_b": "Jan-Lennard Struff",
+            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqayo2sV31I1YxaXqoeM3ljJ5Feagst02Mw_eUuSjBLRv6sr7UjLZEnNRM&s=10",
+            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSivj0mlvSQxFO_jbe8Rd-6-EINSCXiepZGQM8o5xEuuw&s=10",
+            "time": "19:00 07/07",
+            "blv": "blv-pery",
+            "is_live": false,
+            "cate_type": "tennis",
+            "time_start": 1783425600
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-5e7c732ce8_2d0be697_20260707.png?v=2d0be697",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     },
@@ -2446,7 +2555,25 @@
                     {
                       "id": "st-2ce18038d5",
                       "name": "GV",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-8bb6b6a751",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1783239320_hd/1783239320_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -2500,7 +2627,25 @@
                     {
                       "id": "st-37cb9e6c99",
                       "name": "GV",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-09113fe7c8",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1783239459_hd/1783239459_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -2975,7 +3120,25 @@
                     {
                       "id": "st-5279275807",
                       "name": "GV",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-3866b720d9",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1783381642_hd/1783381642_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
