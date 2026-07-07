@@ -799,83 +799,11 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (3 LIVE)",
+      "name": "⚽ Bóng Đá (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-0ed58adca4",
-          "name": "Hwacheon W  vs Suwon FC W | 17:00 07/07",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-0ed58adca4",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-0ed58adca4",
-                  "name": "Hwacheon W  vs Suwon FC W",
-                  "streams": [
-                    {
-                      "id": "st-0ed58adca4",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-17510fae20",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1783399174_hd/1783399174_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "WK League",
-            "team_a": "Hwacheon W ",
-            "team_b": "Suwon FC W",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/en/8/8d/KSPO_WFC.png",
-            "logo_b": "https://images.keovip.cc/images/teams/suwon-fc.png",
-            "time": "17:00 07/07",
-            "blv": "blv-minh",
-            "is_live": true,
-            "cate_type": "football",
-            "time_start": 1783418400
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-0ed58adca4_a7bf4606_20260707.png?v=a7bf4606",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "hqlive-c64305dd86",
           "name": "Hwacheon KSPO W vs Suwon FMC | 17:00 07/07",
@@ -3071,7 +2999,7 @@
     },
     {
       "id": "grp-tennis",
-      "name": "🎾 Tennis (1 LIVE)",
+      "name": "🎾 Tennis (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -3191,10 +3119,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -3232,6 +3160,41 @@
                   ]
                 }
               ]
+            },
+            {
+              "id": "src-c655f0df63",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-c655f0df63",
+                  "name": "Jessica Pegula vs Coco Gauff",
+                  "streams": [
+                    {
+                      "id": "st-c655f0df63",
+                      "name": "Hoiquan - BLV PHAN BỐNG",
+                      "stream_links": [
+                        {
+                          "id": "lnk-6568b58b01",
+                          "name": "BLV PHAN BỐNG",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanbong/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
             }
           ],
           "org_metadata": {
@@ -3242,7 +3205,7 @@
             "logo_b": "https://static.flashscore.com/res/image/data/UDnGEpDr-GWXWkTPf.png",
             "time": "19:30 07/07",
             "blv": "BLV Sún",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "tennis",
             "time_start": 1783427400
           },
