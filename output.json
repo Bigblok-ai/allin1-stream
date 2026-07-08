@@ -799,7 +799,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (7 LIVE)",
+      "name": "⚽ Bóng Đá (8 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1131,6 +1131,77 @@
           }
         },
         {
+          "id": "hqlive-a0ae311d37",
+          "name": "Langfang Glory City vs Jiangxi Liansheng | 18:30 08/07",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-a0ae311d37",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-a0ae311d37",
+                  "name": "Langfang Glory City vs Jiangxi Liansheng",
+                  "streams": [
+                    {
+                      "id": "st-a0ae311d37",
+                      "name": "HQ",
+                      "stream_links": [
+                        {
+                          "id": "lnk-b10e5b640b",
+                          "name": "BLV THẦN THÔNG",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://tdlive.yarncdn.live/live/tdtv_blv_taovannghe/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "League Two",
+            "team_a": "Langfang Glory City",
+            "team_b": "Jiangxi Liansheng",
+            "logo_a": "https://media.api-sports.io/football/teams/23270.png",
+            "logo_b": "https://media.api-sports.io/football/teams/5665.png",
+            "time": "18:30 08/07",
+            "blv": "BLV THẦN THÔNG",
+            "is_live": true,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Langfang Glory City_Jiangxi Liansheng_18-30 08-07_04e0b04d_20260708.png?v=04e0b04d",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "bg-6517379569",
           "name": "FC Basel 1893 vs Yverdon Sport | 19:00 08/07",
           "type": "single",
@@ -1339,59 +1410,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-08f36fcf88_f7131798_20260708.png?v=f7131798",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "hqlive-a0ae311d37",
-          "name": "Langfang Glory City vs Jiangxi Liansheng | 18:30 08/07",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-a0ae311d37",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-a0ae311d37",
-                  "name": "Langfang Glory City vs Jiangxi Liansheng",
-                  "streams": [
-                    {
-                      "id": "st-a0ae311d37",
-                      "name": "HQ",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "League Two",
-            "team_a": "Langfang Glory City",
-            "team_b": "Jiangxi Liansheng",
-            "logo_a": "https://media.api-sports.io/football/teams/23270.png",
-            "logo_b": "https://media.api-sports.io/football/teams/5665.png",
-            "time": "18:30 08/07",
-            "blv": "BLV PHAN MÃ",
-            "is_live": false,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Langfang Glory City_Jiangxi Liansheng_18-30 08-07_04e0b04d_20260708.png?v=04e0b04d",
             "width": 1600,
             "height": 1200
           }
