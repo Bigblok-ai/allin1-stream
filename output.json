@@ -2341,6 +2341,78 @@
           }
         },
         {
+          "id": "gv-65123abc62",
+          "name": "Hà Nội 2 Nữ vs Phong Phú Hà Nam Nữ | 16:00 09/07",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-65123abc62",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-65123abc62",
+                  "name": "Hà Nội 2 Nữ vs Phong Phú Hà Nam Nữ",
+                  "streams": [
+                    {
+                      "id": "st-65123abc62",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-30a7e26491",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1783474190_hd/1783474190_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "VĐQG Việt Nam W",
+            "team_a": "Hà Nội 2 Nữ",
+            "team_b": "Phong Phú Hà Nam Nữ",
+            "logo_a": "https://static.flashscore.com/res/image/data/rsS3dewS-WKZXwKyb.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/tEiQHbBr-WKZXwKyb.png",
+            "time": "16:00 09/07",
+            "blv": "blv-minh",
+            "is_live": false,
+            "cate_type": "football",
+            "time_start": 1783587600
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-65123abc62_90c1e281_20260708.png?v=90c1e281",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "xc-eb055b6c8e",
           "name": "Petrocub vs Egnatia Rrogozhinë | 00:00 09/07",
           "type": "single",
@@ -3219,7 +3291,7 @@
     },
     {
       "id": "grp-tennis",
-      "name": "🎾 Tennis (2 LIVE)",
+      "name": "🎾 Tennis (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -3410,10 +3482,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -3428,7 +3500,25 @@
                     {
                       "id": "st-cfc5c33a40",
                       "name": "HQ",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-07fa7a18bb",
+                          "name": "BLV PHAN HẢI",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanhai/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -3443,7 +3533,7 @@
             "logo_b": "https://upload.wikimedia.org/wikipedia/commons/2/2e/Zverev_MCM23_%2820%29.jpg",
             "time": "20:10 08/07",
             "blv": "BLV PHAN HẢI",
-            "is_live": false,
+            "is_live": true,
             "sport_slug": "tennis"
           },
           "image": {
