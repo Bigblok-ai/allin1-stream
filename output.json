@@ -2908,7 +2908,7 @@
     },
     {
       "id": "grp-tennis",
-      "name": "🎾 Tennis (2 LIVE)",
+      "name": "🎾 Tennis (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -3052,6 +3052,77 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Taylor Fritz_Alexandet Zverev_20-10 08-07_fab63d2a_20260708.png?v=fab63d2a",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-ce228ae8ff",
+          "name": "Flavio Coboli vs Arthur Fery | 21:00 08/07",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-ce228ae8ff",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-ce228ae8ff",
+                  "name": "Flavio Coboli vs Arthur Fery",
+                  "streams": [
+                    {
+                      "id": "st-ce228ae8ff",
+                      "name": "HQ",
+                      "stream_links": [
+                        {
+                          "id": "lnk-6568b58b01",
+                          "name": "BLV PHAN BỐNG",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanbong/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "ATP500",
+            "team_a": "Flavio Coboli",
+            "team_b": "Arthur Fery",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/5/53/Cobolli_RGQ23_%2852944096963%29.jpg",
+            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVwOQtqGcU0q65NN2cshsMBuUWv52zAjoLkQ&s",
+            "time": "21:00 08/07",
+            "blv": "BLV PHAN BỐNG",
+            "is_live": true,
+            "sport_slug": "tennis"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Flavio Coboli_Arthur Fery_21-00 08-07_d92d1843_20260708.png?v=d92d1843",
             "width": 1600,
             "height": 1200
           }
