@@ -799,11 +799,153 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (1 LIVE)",
+      "name": "⚽ Bóng Đá (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "gv-39fe5e975f",
+          "name": "Ponte Preta vs Criciuma | 06:00 09/07",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-39fe5e975f",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-39fe5e975f",
+                  "name": "Ponte Preta vs Criciuma",
+                  "streams": [
+                    {
+                      "id": "st-39fe5e975f",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-28c0d96b54",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1783466536_hd/1783466536_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-28177b497d",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-28177b497d",
+                  "name": "Ponte Preta vs Criciuma",
+                  "streams": [
+                    {
+                      "id": "st-28177b497d",
+                      "name": "Hoiquan - BLV PHAN ANH",
+                      "stream_links": [
+                        {
+                          "id": "lnk-fd31283a76",
+                          "name": "BLV PHAN ANH",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phananh/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-e92e1b476b",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-e92e1b476b",
+                  "name": "Ponte Preta vs Criciuma",
+                  "streams": [
+                    {
+                      "id": "st-e92e1b476b",
+                      "name": "Bugio - BLV Max",
+                      "stream_links": [
+                        {
+                          "id": "lnk-ad68922ab2",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_max/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Brazil Serie B",
+            "team_a": "Ponte Preta",
+            "team_b": "Criciuma",
+            "logo_a": "https://images.keovip88.net/images/teams/ponte-preta.png",
+            "logo_b": "https://images.keovip88.net/images/teams/criciuma.png",
+            "time": "06:00 09/07",
+            "blv": "BLV Mason",
+            "is_live": true,
+            "cate_type": "football",
+            "time_start": 1783551600
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-39fe5e975f_050956a6_20260709.png?v=050956a6",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "bg-81e3225c6a",
           "name": "Vancouver FC vs CF Montreal | 09:00 09/07",
@@ -943,113 +1085,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-a1b51dfee9_d2a25346_20260709.png?v=d2a25346",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-39fe5e975f",
-          "name": "Ponte Preta vs Criciuma | 06:00 09/07",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-39fe5e975f",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-39fe5e975f",
-                  "name": "Ponte Preta vs Criciuma",
-                  "streams": [
-                    {
-                      "id": "st-39fe5e975f",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-28c0d96b54",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1783466536_hd/1783466536_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "src-e92e1b476b",
-              "name": "BugioTV",
-              "contents": [
-                {
-                  "id": "ct-e92e1b476b",
-                  "name": "Ponte Preta vs Criciuma",
-                  "streams": [
-                    {
-                      "id": "st-e92e1b476b",
-                      "name": "Bugio - BLV Max",
-                      "stream_links": [
-                        {
-                          "id": "lnk-ad68922ab2",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_max/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv1.bugio9.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Brazil Serie B",
-            "team_a": "Ponte Preta",
-            "team_b": "Criciuma",
-            "logo_a": "https://images.keovip88.net/images/teams/ponte-preta.png",
-            "logo_b": "https://images.keovip88.net/images/teams/criciuma.png",
-            "time": "06:00 09/07",
-            "blv": "BLV Mason",
-            "is_live": false,
-            "cate_type": "football",
-            "time_start": 1783551600
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-39fe5e975f_050956a6_20260709.png?v=050956a6",
             "width": 1600,
             "height": 1200
           }
@@ -2263,7 +2298,7 @@
     },
     {
       "id": "grp-bóng-rổ",
-      "name": "🏀 Bóng Rổ (1 LIVE)",
+      "name": "🏀 Bóng Rổ (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -2348,10 +2383,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -2399,7 +2434,7 @@
             "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/911d51e9d324e887960542ac17a87e1b.png",
             "time": "06:00 09/07",
             "blv": "BLV Tôm",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "basketball",
             "time_start": 1783551600
           },
