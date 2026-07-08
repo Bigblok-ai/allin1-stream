@@ -799,11 +799,192 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "gv-3da6da6f16",
+          "name": "Xi'an Ronghai  vs Dalian Kewei | 15:00 08/07",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-3da6da6f16",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-3da6da6f16",
+                  "name": "Xi'an Ronghai  vs Dalian Kewei",
+                  "streams": [
+                    {
+                      "id": "st-3da6da6f16",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-1a7e7ee0b7",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1783428492_hd/1783428492_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-c705559211",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-c705559211",
+                  "name": "Xi'an Ronghai vs Dalian Kewei",
+                  "streams": [
+                    {
+                      "id": "st-c705559211",
+                      "name": "Hoiquan - BLV PHAN QUẨY",
+                      "stream_links": [
+                        {
+                          "id": "lnk-b0c182498f",
+                          "name": "BLV PHAN QUẨY",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanquay/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-3373bab718",
+              "name": "XayConTV",
+              "contents": [
+                {
+                  "id": "ct-3373bab718",
+                  "name": "Xi'an Ronghai vs Dalian Kewei",
+                  "streams": [
+                    {
+                      "id": "st-3373bab718",
+                      "name": "Xaycon - BLV Kent",
+                      "stream_links": [
+                        {
+                          "id": "lnk-b9f74b1c23",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://xclive.yarncdn.live/live/xctv_blv_phubeo/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.xaycon3.live/"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://sv2.xaycon3.live"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-41a6fd31aa",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-41a6fd31aa",
+                  "name": "Xi'an Ronghai vs Dalian Kewei",
+                  "streams": [
+                    {
+                      "id": "st-41a6fd31aa",
+                      "name": "Bugio - BLV Tiểu Trà Đá",
+                      "stream_links": [
+                        {
+                          "id": "lnk-0ba3f9d037",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_trada/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "China - China League Two",
+            "team_a": "Xi'an Ronghai ",
+            "team_b": "Dalian Kewei",
+            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTit4Y9SPMY9S1i-WHwYJ-RWHBFrbckqJn7JfO37jXX9g&s",
+            "logo_b": "https://tmssl.akamaized.net//images/wappen/head/125947.png?lm=1773951761",
+            "time": "15:00 08/07",
+            "blv": "blv-minh",
+            "is_live": true,
+            "cate_type": "football",
+            "time_start": 1783497600
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-3da6da6f16_44e5e4e3_20260708.png?v=44e5e4e3",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "bg-4dea382d82",
           "name": "SV Babelsberg 03 vs Hamburger SV II | 19:00 08/07",
@@ -1014,152 +1195,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-c89cf853ad_11a27064_20260708.png?v=11a27064",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-3da6da6f16",
-          "name": "Xi'an Ronghai  vs Dalian Kewei | 15:00 08/07",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-3da6da6f16",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-3da6da6f16",
-                  "name": "Xi'an Ronghai  vs Dalian Kewei",
-                  "streams": [
-                    {
-                      "id": "st-3da6da6f16",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-1a7e7ee0b7",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1783428492_hd/1783428492_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "src-3373bab718",
-              "name": "XayConTV",
-              "contents": [
-                {
-                  "id": "ct-3373bab718",
-                  "name": "Xi'an Ronghai vs Dalian Kewei",
-                  "streams": [
-                    {
-                      "id": "st-3373bab718",
-                      "name": "Xaycon - BLV Kent",
-                      "stream_links": [
-                        {
-                          "id": "lnk-b9f74b1c23",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://xclive.yarncdn.live/live/xctv_blv_phubeo/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.xaycon3.live/"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://sv2.xaycon3.live"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "src-41a6fd31aa",
-              "name": "BugioTV",
-              "contents": [
-                {
-                  "id": "ct-41a6fd31aa",
-                  "name": "Xi'an Ronghai vs Dalian Kewei",
-                  "streams": [
-                    {
-                      "id": "st-41a6fd31aa",
-                      "name": "Bugio - BLV Tiểu Trà Đá",
-                      "stream_links": [
-                        {
-                          "id": "lnk-0ba3f9d037",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_trada/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv1.bugio9.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "China - China League Two",
-            "team_a": "Xi'an Ronghai ",
-            "team_b": "Dalian Kewei",
-            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTit4Y9SPMY9S1i-WHwYJ-RWHBFrbckqJn7JfO37jXX9g&s",
-            "logo_b": "https://tmssl.akamaized.net//images/wappen/head/125947.png?lm=1773951761",
-            "time": "15:00 08/07",
-            "blv": "blv-minh",
-            "is_live": false,
-            "cate_type": "football",
-            "time_start": 1783497600
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-3da6da6f16_44e5e4e3_20260708.png?v=44e5e4e3",
             "width": 1600,
             "height": 1200
           }
