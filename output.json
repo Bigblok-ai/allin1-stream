@@ -799,7 +799,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (7 LIVE)",
+      "name": "⚽ Bóng Đá (9 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1424,10 +1424,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -1442,7 +1442,25 @@
                     {
                       "id": "st-297441f071",
                       "name": "HQ",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-1cad2e4412",
+                          "name": "BLV TÁO GIÀ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://tdlive.yarncdn.live/live/tdtv_blv_taotinhtao/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -1457,7 +1475,7 @@
             "logo_b": "https://media.api-sports.io/football/teams/670.png",
             "time": "01:00 10/07",
             "blv": "BLV TÁO GIÀ",
-            "is_live": false,
+            "is_live": true,
             "sport_slug": "bong-da"
           },
           "image": {
@@ -1465,6 +1483,82 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/CSKA Sofia_Derry City_01-00 10-07_3b2a9258_20260710.png?v=3b2a9258",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-4213936b8e",
+          "name": "HNK Hajduk Split vs Žilina | 01:00 10/07",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-4213936b8e",
+              "name": "XayConTV",
+              "contents": [
+                {
+                  "id": "ct-4213936b8e",
+                  "name": "HNK Hajduk Split vs Žilina",
+                  "streams": [
+                    {
+                      "id": "st-4213936b8e",
+                      "name": "XC",
+                      "stream_links": [
+                        {
+                          "id": "lnk-fde7f94b4e",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://xclive.yarncdn.live/live/xctv_blv_chuoi/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.xaycon3.live/"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://sv2.xaycon3.live"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "UEFA Europa League",
+            "team_a": "HNK Hajduk Split",
+            "team_b": "Žilina",
+            "logo_a": "https://media.api-sports.io/football/teams/608.png",
+            "logo_b": "https://media.api-sports.io/football/teams/3554.png",
+            "time": "01:00",
+            "date": "10/07",
+            "blv": "BLV Ciu",
+            "is_live": true,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/xaycon-stream/refs/heads/main/thumbs/xc-4213936b8e_95825315_20260710.png?v=95825315",
             "width": 1600,
             "height": 1200
           }
@@ -2424,82 +2518,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-540083e9b3_8df2c797_20260710.png?v=8df2c797",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "xc-4213936b8e",
-          "name": "HNK Hajduk Split vs Žilina | 01:00 10/07",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-4213936b8e",
-              "name": "XayConTV",
-              "contents": [
-                {
-                  "id": "ct-4213936b8e",
-                  "name": "HNK Hajduk Split vs Žilina",
-                  "streams": [
-                    {
-                      "id": "st-4213936b8e",
-                      "name": "XC",
-                      "stream_links": [
-                        {
-                          "id": "lnk-fde7f94b4e",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://xclive.yarncdn.live/live/xctv_blv_chuoi/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.xaycon3.live/"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://sv2.xaycon3.live"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "UEFA Europa League",
-            "team_a": "HNK Hajduk Split",
-            "team_b": "Žilina",
-            "logo_a": "https://media.api-sports.io/football/teams/608.png",
-            "logo_b": "https://media.api-sports.io/football/teams/3554.png",
-            "time": "01:00",
-            "date": "10/07",
-            "blv": "BLV Ciu",
-            "is_live": false,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/xaycon-stream/refs/heads/main/thumbs/xc-4213936b8e_95825315_20260710.png?v=95825315",
             "width": 1600,
             "height": 1200
           }
@@ -4574,6 +4592,60 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Mỹ_Thổ Nhĩ Kỳ_11-00 10-07_db6a585a_20260710.png?v=db6a585a",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-99a4c00d72",
+          "name": "Ukraine W  vs Dominican Republic W | 16:00 10/07",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-99a4c00d72",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-99a4c00d72",
+                  "name": "Ukraine W  vs Dominican Republic W",
+                  "streams": [
+                    {
+                      "id": "st-99a4c00d72",
+                      "name": "GV",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Nations League Women",
+            "team_a": "Ukraine W ",
+            "team_b": "Dominican Republic W",
+            "logo_a": "https://static.flashscore.com/res/image/data/Q3dsHxe5-8KJ0tcMR.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/hWkRwuZA-YwmRHSUk.png",
+            "time": "16:00 10/07",
+            "blv": "BLV Cần",
+            "is_live": false,
+            "cate_type": "bongchuyen",
+            "time_start": 1783674000
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-99a4c00d72_cc231039_20260710.png?v=cc231039",
             "width": 1600,
             "height": 1200
           }
