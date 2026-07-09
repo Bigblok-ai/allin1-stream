@@ -3172,8 +3172,8 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "hqlive-78e83ce88c",
-          "name": "Karolina Muchova vs Coco Gauff | 19:30 09/07",
+          "id": "gv-39e74f73ef",
+          "name": "Coco Gauff vs Karolina Muchova | 19:30 09/07",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -3187,6 +3187,23 @@
           ],
           "sources": [
             {
+              "id": "src-39e74f73ef",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-39e74f73ef",
+                  "name": "Coco Gauff vs Karolina Muchova",
+                  "streams": [
+                    {
+                      "id": "st-39e74f73ef",
+                      "name": "GV",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
               "id": "src-78e83ce88c",
               "name": "HoiQuanTV",
               "contents": [
@@ -3196,7 +3213,7 @@
                   "streams": [
                     {
                       "id": "st-78e83ce88c",
-                      "name": "HQ",
+                      "name": "Hoiquan - BLV PHAN BỐNG",
                       "stream_links": [
                         {
                           "id": "lnk-6568b58b01",
@@ -3223,21 +3240,22 @@
             }
           ],
           "org_metadata": {
-            "league": "WTA500 ",
-            "team_a": "Karolina Muchova",
-            "team_b": "Coco Gauff",
-            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVndHuap8KFAxEzV9q8f6sVWefr052gi_2xQ&s",
-            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlSUpEF6Cuye3u7pi15d4mYx1hORj319ljAw&s",
+            "league": "WTA Wimbledon",
+            "team_a": "Coco Gauff",
+            "team_b": "Karolina Muchova",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/a/ac/US_Open_2022_Photo_177_%2852391301928%29_%28Gauff%29.jpg",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/4/4d/Karol%C3%ADna_Muchov%C3%A1_%282023_US_Open%29_04_%28cropped%29.jpg",
             "time": "19:30 09/07",
-            "blv": "BLV PHAN BỐNG",
+            "blv": "BLV Sún",
             "is_live": true,
-            "sport_slug": "tennis"
+            "cate_type": "tennis",
+            "time_start": 1783600200
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Karolina Muchova_Coco Gauff_19-30 09-07_aae09673_20260709.png?v=aae09673",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-39e74f73ef_5d6e9206_20260709.png?v=5d6e9206",
             "width": 1600,
             "height": 1200
           }
@@ -3326,7 +3344,7 @@
     },
     {
       "id": "grp-bóng-rổ",
-      "name": "🏀 Bóng Rổ (2 LIVE)",
+      "name": "🏀 Bóng Rổ (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -3483,10 +3501,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -3534,7 +3552,7 @@
             "logo_b": "https://static.flashscore.com/res/image/data/6kpgdKyB-MqRS5Sy2.png",
             "time": "19:30 09/07",
             "blv": "blv-minh",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "basketball",
             "time_start": 1783600200
           },
@@ -3903,41 +3921,6 @@
               ]
             },
             {
-              "id": "src-e11798bf6f",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-e11798bf6f",
-                  "name": "Nhật Bản vs Thái Lan",
-                  "streams": [
-                    {
-                      "id": "st-e11798bf6f",
-                      "name": "Hoiquan - BLV LƯƠNG BỔNG",
-                      "stream_links": [
-                        {
-                          "id": "lnk-975fc55dd1",
-                          "name": "BLV LƯƠNG BỔNG",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanliem/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
               "id": "src-fdaa09fc5e",
               "name": "BugioTV",
               "contents": [
@@ -4074,10 +4057,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -4125,7 +4108,7 @@
             "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRHpRw8s906r9Jwp4SBUWXoxNpzHDPpisyHvsAgbfyhA&s=10",
             "start_time": "2026-07-09T19:30:00",
             "blv": "BLV Tiểu Mèo",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "bongchuyen"
           },
           "image": {
