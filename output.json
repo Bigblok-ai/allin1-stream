@@ -799,7 +799,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (4 LIVE)",
+      "name": "⚽ Bóng Đá (5 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -830,7 +830,25 @@
                     {
                       "id": "st-ad842c082a",
                       "name": "GV",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-d6dd36da6b",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1783558412_hd/1783558412_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -1102,6 +1120,77 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-d5a28f8183_37a8a024_20260709.png?v=37a8a024",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "bg-378fb9f589",
+          "name": "Chemnitzer FC vs Union Berlin | 23:30 09/07",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-378fb9f589",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-378fb9f589",
+                  "name": "Chemnitzer FC vs Union Berlin",
+                  "streams": [
+                    {
+                      "id": "st-378fb9f589",
+                      "name": "BG",
+                      "stream_links": [
+                        {
+                          "id": "lnk-d5c8f635fc",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_phimc/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Friendlies Clubs",
+            "team_a": "Chemnitzer FC",
+            "team_b": "Union Berlin",
+            "logo_a": "https://media.api-sports.io/football/teams/1328.png",
+            "logo_b": "https://media.api-sports.io/football/teams/182.png",
+            "start_time": "2026-07-09T23:30:00",
+            "blv": "BLV Phi MC",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-378fb9f589_db5acead_20260709.png?v=db5acead",
             "width": 1600,
             "height": 1200
           }
@@ -2522,82 +2611,6 @@
           }
         },
         {
-          "id": "xc-3cc9e65ed8",
-          "name": "Cheonan City vs Gimhae City | 17:30 10/07",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-3cc9e65ed8",
-              "name": "XayConTV",
-              "contents": [
-                {
-                  "id": "ct-3cc9e65ed8",
-                  "name": "Cheonan City vs Gimhae City",
-                  "streams": [
-                    {
-                      "id": "st-3cc9e65ed8",
-                      "name": "XC",
-                      "stream_links": [
-                        {
-                          "id": "lnk-fde7f94b4e",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://xclive.yarncdn.live/live/xctv_blv_chuoi/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.xaycon3.live/"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://sv2.xaycon3.live"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "K League 2",
-            "team_a": "Cheonan City",
-            "team_b": "Gimhae City",
-            "logo_a": "https://media.api-sports.io/football/teams/7060.png",
-            "logo_b": "https://media.api-sports.io/football/teams/7076.png",
-            "time": "17:30",
-            "date": "10/07",
-            "blv": "BLV Ciu",
-            "is_live": false,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/xaycon-stream/refs/heads/main/thumbs/xc-3cc9e65ed8_40e77927_20260709.png?v=40e77927",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "xc-001a36d4ae",
           "name": "Suwon City FC vs Jeonnam Dragons | 17:30 10/07",
           "type": "single",
@@ -2669,6 +2682,82 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/xaycon-stream/refs/heads/main/thumbs/xc-001a36d4ae_81b1de5a_20260709.png?v=81b1de5a",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-7da977cba6",
+          "name": "Ulsan Hyundai FC vs Jeonbuk Motors | 17:30 11/07",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-7da977cba6",
+              "name": "XayConTV",
+              "contents": [
+                {
+                  "id": "ct-7da977cba6",
+                  "name": "Ulsan Hyundai FC vs Jeonbuk Motors",
+                  "streams": [
+                    {
+                      "id": "st-7da977cba6",
+                      "name": "XC",
+                      "stream_links": [
+                        {
+                          "id": "lnk-fde7f94b4e",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://xclive.yarncdn.live/live/xctv_blv_chuoi/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.xaycon3.live/"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://sv2.xaycon3.live"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "K League 1",
+            "team_a": "Ulsan Hyundai FC",
+            "team_b": "Jeonbuk Motors",
+            "logo_a": "https://media.api-sports.io/football/teams/2767.png",
+            "logo_b": "https://media.api-sports.io/football/teams/2762.png",
+            "time": "17:30",
+            "date": "11/07",
+            "blv": "BLV Ciu",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/xaycon-stream/refs/heads/main/thumbs/xc-7da977cba6_b9813756_20260709.png?v=b9813756",
             "width": 1600,
             "height": 1200
           }
