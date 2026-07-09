@@ -1494,6 +1494,137 @@
           }
         },
         {
+          "id": "hqlive-c15197b0fc",
+          "name": "Spain vs Belgium | 02:00 11/07",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-c15197b0fc",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-c15197b0fc",
+                  "name": "Spain vs Belgium",
+                  "streams": [
+                    {
+                      "id": "st-c15197b0fc",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-4c98147dd8",
+              "name": "XayConTV",
+              "contents": [
+                {
+                  "id": "ct-4c98147dd8",
+                  "name": "Spain vs Belgium",
+                  "streams": [
+                    {
+                      "id": "st-4c98147dd8",
+                      "name": "Xaycon - BLV PIB",
+                      "stream_links": [
+                        {
+                          "id": "lnk-30319ba8f3",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://xclive.yarncdn.live/live/xctv_blv_bipcon/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.xaycon3.live/"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://sv2.xaycon3.live"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-3157a3f9a3",
+              "name": "XayConTV",
+              "contents": [
+                {
+                  "id": "ct-3157a3f9a3",
+                  "name": "Spain vs Belgium",
+                  "streams": [
+                    {
+                      "id": "st-3157a3f9a3",
+                      "name": "Xaycon - BLV Tam Mao",
+                      "stream_links": [
+                        {
+                          "id": "lnk-bccd486b79",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://xclive.yarncdn.live/live/xctv_blv_tammao/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.xaycon3.live/"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://sv2.xaycon3.live"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "World Cup",
+            "team_a": "Spain",
+            "team_b": "Belgium",
+            "logo_a": "https://media.api-sports.io/football/teams/9.png",
+            "logo_b": "https://media.api-sports.io/football/teams/1.png",
+            "time": "02:00 11/07",
+            "blv": "BLV THẦN THÔNG, BLV PHAN QUẨY",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Spain_Belgium_02-00 11-07_dd8cabe7_20260710.png?v=dd8cabe7",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "xc-6adecee6e4",
           "name": "Sport Recife vs Botafogo SP | 06:00 11/07",
           "type": "single",
@@ -2342,7 +2473,7 @@
     },
     {
       "id": "grp-bóng-rổ",
-      "name": "🏀 Bóng Rổ (4 LIVE)",
+      "name": "🏀 Bóng Rổ (5 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -2643,10 +2774,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -2694,7 +2825,7 @@
             "logo_b": "https://nba.titan007.com/files/team/1jzvwcf8x01f.png",
             "time": "06:30 10/07",
             "blv": "BLV Cần",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "basketball",
             "time_start": 1783639800
           },
