@@ -799,7 +799,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (4 LIVE)",
+      "name": "⚽ Bóng Đá (5 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1195,6 +1195,77 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Vancouver Whitecaps_Cavalry FC_09-30 09-07_dfc9e7ee_20260709.png?v=dfc9e7ee",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "bg-4b17d3264f",
+          "name": "Nữ Hà Nội 2 vs Nữ Phong Phú Hà Nam | 16:00 09/07",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-4b17d3264f",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-4b17d3264f",
+                  "name": "Nữ Hà Nội 2 vs Nữ Phong Phú Hà Nam",
+                  "streams": [
+                    {
+                      "id": "st-4b17d3264f",
+                      "name": "BG",
+                      "stream_links": [
+                        {
+                          "id": "lnk-0ba3f9d037",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_trada/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "VĐQG Nữ VN",
+            "team_a": "Nữ Hà Nội 2",
+            "team_b": "Nữ Phong Phú Hà Nam",
+            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShohnkyv1Eqxs62ilIAnnOa8oIFxnprVgVVZ-1RhMaHw&s=10",
+            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGiYBlTQ1iEItosFGfk4WPGtkaq3lWr6SZ-75WXvswNw&s=10",
+            "start_time": "2026-07-09T16:00:00",
+            "blv": "BLV Tiểu Trà Đá",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-4b17d3264f_513751c6_20260709.png?v=513751c6",
             "width": 1600,
             "height": 1200
           }
