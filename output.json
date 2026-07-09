@@ -799,11 +799,118 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "gv-ad842c082a",
+          "name": "Hà Nội 2 Nữ  vs Phong Phú Hà Nam Nữ | 16:00 09/07",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-ad842c082a",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-ad842c082a",
+                  "name": "Hà Nội 2 Nữ  vs Phong Phú Hà Nam Nữ",
+                  "streams": [
+                    {
+                      "id": "st-ad842c082a",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-d6dd36da6b",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1783558412_hd/1783558412_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-15e6b75d90",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-15e6b75d90",
+                  "name": "Hà Nội Nữ vs Phong Phú Hà Nam",
+                  "streams": [
+                    {
+                      "id": "st-15e6b75d90",
+                      "name": "Hoiquan - BLV TÁO GIÀ",
+                      "stream_links": [
+                        {
+                          "id": "lnk-1cad2e4412",
+                          "name": "BLV TÁO GIÀ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://tdlive.yarncdn.live/live/tdtv_blv_taotinhtao/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "VĐQG Việt Nam W",
+            "team_a": "Hà Nội 2 Nữ ",
+            "team_b": "Phong Phú Hà Nam Nữ",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/vi/f/f1/Hanoi_Football_Federation_Logo.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/tEiQHbBr-WKZXwKyb.png",
+            "time": "16:00 09/07",
+            "blv": "blv-minh",
+            "is_live": true,
+            "cate_type": "football",
+            "time_start": 1783587600
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-ad842c082a_87caa2b1_20260709.png?v=87caa2b1",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "bg-4b17d3264f",
           "name": "Nữ Hà Nội 2 vs Nữ Phong Phú Hà Nam | 16:00 09/07",
@@ -812,10 +919,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -863,7 +970,7 @@
             "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGiYBlTQ1iEItosFGfk4WPGtkaq3lWr6SZ-75WXvswNw&s=10",
             "start_time": "2026-07-09T16:00:00",
             "blv": "BLV Tiểu Trà Đá",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football"
           },
           "image": {
@@ -942,78 +1049,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-8965f76632_32075e37_20260709.png?v=32075e37",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-ad842c082a",
-          "name": "Hà Nội 2 Nữ  vs Phong Phú Hà Nam Nữ | 16:00 09/07",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-ad842c082a",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-ad842c082a",
-                  "name": "Hà Nội 2 Nữ  vs Phong Phú Hà Nam Nữ",
-                  "streams": [
-                    {
-                      "id": "st-ad842c082a",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-d6dd36da6b",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1783558412_hd/1783558412_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "VĐQG Việt Nam W",
-            "team_a": "Hà Nội 2 Nữ ",
-            "team_b": "Phong Phú Hà Nam Nữ",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/vi/f/f1/Hanoi_Football_Federation_Logo.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/tEiQHbBr-WKZXwKyb.png",
-            "time": "16:00 09/07",
-            "blv": "blv-minh",
-            "is_live": false,
-            "cate_type": "football",
-            "time_start": 1783587600
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-ad842c082a_87caa2b1_20260709.png?v=87caa2b1",
             "width": 1600,
             "height": 1200
           }
@@ -3453,11 +3488,117 @@
     },
     {
       "id": "grp-bóng-chuyền",
-      "name": "🏐 Bóng Chuyền (9 LIVE)",
+      "name": "🏐 Bóng Chuyền (10 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "hqlive-ebbb30789a",
+          "name": "Bỉ vs Canada | 16:00 09/07",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-ebbb30789a",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-ebbb30789a",
+                  "name": "Bỉ vs Canada",
+                  "streams": [
+                    {
+                      "id": "st-ebbb30789a",
+                      "name": "HQ",
+                      "stream_links": [
+                        {
+                          "id": "lnk-f6231c6549",
+                          "name": "BLV PHAN CA",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanca/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-4b85256c48",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-4b85256c48",
+                  "name": "Bỉ vs Canada",
+                  "streams": [
+                    {
+                      "id": "st-4b85256c48",
+                      "name": "Bugio - BLV Pháo",
+                      "stream_links": [
+                        {
+                          "id": "lnk-970b2a547c",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_phaothan/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Nation League Women",
+            "team_a": "Bỉ",
+            "team_b": "Canada",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Flag_of_Belgium.svg/250px-Flag_of_Belgium.svg.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/c/cf/Flag_of_Canada.svg",
+            "time": "16:00 09/07",
+            "blv": "BLV PHAN CA",
+            "is_live": true,
+            "sport_slug": "bong-chuyen"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Bỉ_Canada_16-00 09-07_93090b1c_20260709.png?v=93090b1c",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "bg-23e582ad80",
           "name": "Hoa Kỳ vs Thổ Nhĩ Kỳ  | 11:00 10/07",
@@ -4165,94 +4306,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-0f0316f892_6a258705_20260709.png?v=6a258705",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "hqlive-ebbb30789a",
-          "name": "Bỉ vs Canada | 16:00 09/07",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-ebbb30789a",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-ebbb30789a",
-                  "name": "Bỉ vs Canada",
-                  "streams": [
-                    {
-                      "id": "st-ebbb30789a",
-                      "name": "HQ",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "src-4b85256c48",
-              "name": "BugioTV",
-              "contents": [
-                {
-                  "id": "ct-4b85256c48",
-                  "name": "Bỉ vs Canada",
-                  "streams": [
-                    {
-                      "id": "st-4b85256c48",
-                      "name": "Bugio - BLV Pháo",
-                      "stream_links": [
-                        {
-                          "id": "lnk-970b2a547c",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_phaothan/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv1.bugio9.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Nation League Women",
-            "team_a": "Bỉ",
-            "team_b": "Canada",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Flag_of_Belgium.svg/250px-Flag_of_Belgium.svg.png",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/c/cf/Flag_of_Canada.svg",
-            "time": "16:00 09/07",
-            "blv": "BLV PHAN CA",
-            "is_live": false,
-            "sport_slug": "bong-chuyen"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Bỉ_Canada_16-00 09-07_93090b1c_20260709.png?v=93090b1c",
             "width": 1600,
             "height": 1200
           }
