@@ -799,7 +799,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (1 LIVE)",
+      "name": "⚽ Bóng Đá (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -910,6 +910,77 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Nacional Potosí_Aurora_07-00 10-07_6e7f4c83_20260710.png?v=6e7f4c83",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "bg-1c63926ebc",
+          "name": "Real Colorado Foxes vs Flatirons Rush | 08:00 10/07",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-1c63926ebc",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-1c63926ebc",
+                  "name": "Real Colorado Foxes vs Flatirons Rush",
+                  "streams": [
+                    {
+                      "id": "st-1c63926ebc",
+                      "name": "BG",
+                      "stream_links": [
+                        {
+                          "id": "lnk-51a73d71ba",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_mason/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "USL League Two",
+            "team_a": "Real Colorado Foxes",
+            "team_b": "Flatirons Rush",
+            "logo_a": "https://media.api-sports.io/football/teams/13200.png",
+            "logo_b": "https://media.api-sports.io/football/teams/18895.png",
+            "start_time": "2026-07-10T08:00:00",
+            "blv": "BLV Mao Từn",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-1c63926ebc_c85a9519_20260710.png?v=c85a9519",
             "width": 1600,
             "height": 1200
           }
