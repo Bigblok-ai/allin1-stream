@@ -2756,7 +2756,7 @@
     },
     {
       "id": "grp-bóng-rổ",
-      "name": "🏀 Bóng Rổ (5 LIVE)",
+      "name": "🏀 Bóng Rổ (6 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -3075,25 +3075,7 @@
                     {
                       "id": "st-c924bd120e",
                       "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-2039f10b62",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1783640392_hd/1783640392_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
+                      "stream_links": []
                     }
                   ]
                 }
@@ -3129,10 +3111,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -3147,25 +3129,7 @@
                     {
                       "id": "st-da493ccb6a",
                       "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-fb3f0ae00e",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1783640539_hd/1783640539_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
+                      "stream_links": []
                     }
                   ]
                 }
@@ -3180,7 +3144,7 @@
             "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/a937247460216404af6620da9877fdfa.png",
             "time": "11:00 10/07",
             "blv": "BLV Ben",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "basketball",
             "time_start": 1783656000
           },
@@ -3781,11 +3745,136 @@
     },
     {
       "id": "grp-bóng-chuyền",
-      "name": "🏐 Bóng Chuyền (8 LIVE)",
+      "name": "🏐 Bóng Chuyền (10 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "gv-d8be032c9a",
+          "name": "USA W  vs Türkiye W | 11:00 10/07",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-d8be032c9a",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-d8be032c9a",
+                  "name": "USA W  vs Türkiye W",
+                  "streams": [
+                    {
+                      "id": "st-d8be032c9a",
+                      "name": "GV",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Nations League Women",
+            "team_a": "USA W ",
+            "team_b": "Türkiye W",
+            "logo_a": "https://static.flashscore.com/res/image/data/IoeNdfwS-MPdHoKT3.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/byFAJXzS-vBKZiE2j.png",
+            "time": "11:00 10/07",
+            "blv": "BLV Sún",
+            "is_live": true,
+            "cate_type": "bongchuyen",
+            "time_start": 1783656000
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-d8be032c9a_b4597204_20260710.png?v=b4597204",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-5a9de19516",
+          "name": "Mỹ vs Thổ Nhĩ Kỳ | 11:00 10/07",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-5a9de19516",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-5a9de19516",
+                  "name": "Mỹ vs Thổ Nhĩ Kỳ",
+                  "streams": [
+                    {
+                      "id": "st-5a9de19516",
+                      "name": "HQ",
+                      "stream_links": [
+                        {
+                          "id": "lnk-1cad2e4412",
+                          "name": "BLV TÁO GIÀ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://tdlive.yarncdn.live/live/tdtv_blv_taotinhtao/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Nation League Women",
+            "team_a": "Mỹ",
+            "team_b": "Thổ Nhĩ Kỳ",
+            "logo_a": "https://www.englisch-hilfen.de/images/flags/248.gif",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/b/b4/Flag_of_Turkey.svg",
+            "time": "11:00 10/07",
+            "blv": "BLV TÁO GIÀ",
+            "is_live": true,
+            "sport_slug": "bong-chuyen"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Mỹ_Thổ Nhĩ Kỳ_11-00 10-07_db6a585a_20260710.png?v=db6a585a",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "bg-23e582ad80",
           "name": "Hoa Kỳ vs Thổ Nhĩ Kỳ  | 11:00 10/07",
@@ -4350,131 +4439,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-7b6982e584_0471efd5_20260710.png?v=0471efd5",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-d8be032c9a",
-          "name": "USA W  vs Türkiye W | 11:00 10/07",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-d8be032c9a",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-d8be032c9a",
-                  "name": "USA W  vs Türkiye W",
-                  "streams": [
-                    {
-                      "id": "st-d8be032c9a",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-1320d009d4",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1783640727_hd/1783640727_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Nations League Women",
-            "team_a": "USA W ",
-            "team_b": "Türkiye W",
-            "logo_a": "https://static.flashscore.com/res/image/data/IoeNdfwS-MPdHoKT3.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/byFAJXzS-vBKZiE2j.png",
-            "time": "11:00 10/07",
-            "blv": "BLV Sún",
-            "is_live": false,
-            "cate_type": "bongchuyen",
-            "time_start": 1783656000
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-d8be032c9a_b4597204_20260710.png?v=b4597204",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "hqlive-5a9de19516",
-          "name": "Mỹ vs Thổ Nhĩ Kỳ | 11:00 10/07",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-5a9de19516",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-5a9de19516",
-                  "name": "Mỹ vs Thổ Nhĩ Kỳ",
-                  "streams": [
-                    {
-                      "id": "st-5a9de19516",
-                      "name": "HQ",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Nation League Women",
-            "team_a": "Mỹ",
-            "team_b": "Thổ Nhĩ Kỳ",
-            "logo_a": "https://www.englisch-hilfen.de/images/flags/248.gif",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/b/b4/Flag_of_Turkey.svg",
-            "time": "11:00 10/07",
-            "blv": "BLV TÁO GIÀ",
-            "is_live": false,
-            "sport_slug": "bong-chuyen"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Mỹ_Thổ Nhĩ Kỳ_11-00 10-07_db6a585a_20260710.png?v=db6a585a",
             "width": 1600,
             "height": 1200
           }
