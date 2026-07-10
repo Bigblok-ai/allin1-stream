@@ -799,7 +799,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -986,6 +986,77 @@
           }
         },
         {
+          "id": "bg-80f2f15983",
+          "name": "VPS vs SJK | 23:00 10/07",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-80f2f15983",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-80f2f15983",
+                  "name": "VPS vs SJK",
+                  "streams": [
+                    {
+                      "id": "st-80f2f15983",
+                      "name": "BG",
+                      "stream_links": [
+                        {
+                          "id": "lnk-d5c8f635fc",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_phimc/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Veikkausliiga",
+            "team_a": "VPS",
+            "team_b": "SJK",
+            "logo_a": "https://media.api-sports.io/football/teams/650.png",
+            "logo_b": "https://media.api-sports.io/football/teams/689.png",
+            "start_time": "2026-07-10T23:00:00",
+            "blv": "BLV Phi MC",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-80f2f15983_bf2c02c6_20260710.png?v=bf2c02c6",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "gv-ef31c3881d",
           "name": "VPS Vaasa vs SJK Seinajoki | 23:00 10/07",
           "type": "single",
@@ -1053,94 +1124,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-ef31c3881d_0d99ca69_20260710.png?v=0d99ca69",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "hqlive-3adf42c079",
-          "name": "VPS vs SJK | 23:00 10/07",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-3adf42c079",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-3adf42c079",
-                  "name": "VPS vs SJK",
-                  "streams": [
-                    {
-                      "id": "st-3adf42c079",
-                      "name": "HQ",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "src-80f2f15983",
-              "name": "BugioTV",
-              "contents": [
-                {
-                  "id": "ct-80f2f15983",
-                  "name": "VPS vs SJK",
-                  "streams": [
-                    {
-                      "id": "st-80f2f15983",
-                      "name": "Bugio - BLV Phi MC",
-                      "stream_links": [
-                        {
-                          "id": "lnk-d5c8f635fc",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_phimc/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv1.bugio9.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Veikkausliiga",
-            "team_a": "VPS",
-            "team_b": "SJK",
-            "logo_a": "https://media.api-sports.io/football/teams/650.png",
-            "logo_b": "https://media.api-sports.io/football/teams/689.png",
-            "time": "23:00 10/07",
-            "blv": "BLV TÁO GIÀ",
-            "is_live": false,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/VPS_SJK_23-00 10-07_f8ed74be_20260710.png?v=f8ed74be",
             "width": 1600,
             "height": 1200
           }
@@ -2172,6 +2155,170 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-3aad8c9f9c_773c81f0_20260710.png?v=773c81f0",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-8539a50c80",
+          "name": "Shenzhen Xinpengcheng vs Qingdao West Coast | 18:35 11/07",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-8539a50c80",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-8539a50c80",
+                  "name": "Shenzhen Xinpengcheng vs Qingdao West Coast",
+                  "streams": [
+                    {
+                      "id": "st-8539a50c80",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-98a3629927",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1783474724_hd/1783474724_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "VĐQG Trung Quốc",
+            "team_a": "Shenzhen Xinpengcheng",
+            "team_b": "Qingdao West Coast",
+            "logo_a": "https://images.keovip88.net/images/teams/shenzhen-xinpengcheng.png",
+            "logo_b": "https://images.keovip88.net/images/teams/qingdao-youth-island.png",
+            "time": "18:35 11/07",
+            "blv": "blv-minh",
+            "is_live": false,
+            "cate_type": "football",
+            "time_start": 1783769700
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-8539a50c80_3b1ae8ef_20260710.png?v=3b1ae8ef",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-08bccb9922",
+          "name": "Shanghai Shenhua vs Beijing Guoan | 18:35 11/07",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-08bccb9922",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-08bccb9922",
+                  "name": "Shanghai Shenhua vs Beijing Guoan",
+                  "streams": [
+                    {
+                      "id": "st-08bccb9922",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-5d4e1a16a5",
+              "name": "XayConTV",
+              "contents": [
+                {
+                  "id": "ct-5d4e1a16a5",
+                  "name": "Shanghai Shenhua vs Beijing Guoan",
+                  "streams": [
+                    {
+                      "id": "st-5d4e1a16a5",
+                      "name": "Xaycon - BLV Kent",
+                      "stream_links": [
+                        {
+                          "id": "lnk-b9f74b1c23",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://xclive.yarncdn.live/live/xctv_blv_phubeo/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.xaycon3.live/"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://sv2.xaycon3.live"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Super League",
+            "team_a": "Shanghai Shenhua",
+            "team_b": "Beijing Guoan",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/vi/d/dd/Shanghai_Shenhua_F.C.svg.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/en/a/a8/Beijing_Guoan_F.C.svg",
+            "time": "18:35 11/07",
+            "blv": "BLV PHAN QUẨY",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Shanghai Shenhua_Beijing Guoan_18-35 11-07_aa5557af_20260710.png?v=aa5557af",
             "width": 1600,
             "height": 1200
           }
