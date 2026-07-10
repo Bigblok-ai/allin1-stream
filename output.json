@@ -799,7 +799,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (8 LIVE)",
+      "name": "⚽ Bóng Đá (9 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1162,6 +1162,82 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Cheonan City_Gimhae City_17-30 10-07_a5d03153_20260710.png?v=a5d03153",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-001a36d4ae",
+          "name": "Suwon City FC vs Jeonnam Dragons | 17:30 10/07",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-001a36d4ae",
+              "name": "XayConTV",
+              "contents": [
+                {
+                  "id": "ct-001a36d4ae",
+                  "name": "Suwon City FC vs Jeonnam Dragons",
+                  "streams": [
+                    {
+                      "id": "st-001a36d4ae",
+                      "name": "XC",
+                      "stream_links": [
+                        {
+                          "id": "lnk-221ed1ffcc",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://xclive.yarncdn.live/live/xctv_blv_rongdat/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.xaycon3.live/"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://sv2.xaycon3.live"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "K League 2",
+            "team_a": "Suwon City FC",
+            "team_b": "Jeonnam Dragons",
+            "logo_a": "https://media.api-sports.io/football/teams/2756.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/en/0/08/Jeonnam_Dragons.svg",
+            "time": "17:30",
+            "date": "10/07",
+            "blv": "BLV Rồng Đất",
+            "is_live": true,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/xaycon-stream/refs/heads/main/thumbs/xc-001a36d4ae_81b1de5a_20260710.png?v=81b1de5a",
             "width": 1600,
             "height": 1200
           }
@@ -2120,82 +2196,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Sport Recife_Botafogo SP_06-00 11-07_a2999acd_20260710.png?v=a2999acd",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "xc-001a36d4ae",
-          "name": "Suwon City FC vs Jeonnam Dragons | 17:30 10/07",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-001a36d4ae",
-              "name": "XayConTV",
-              "contents": [
-                {
-                  "id": "ct-001a36d4ae",
-                  "name": "Suwon City FC vs Jeonnam Dragons",
-                  "streams": [
-                    {
-                      "id": "st-001a36d4ae",
-                      "name": "XC",
-                      "stream_links": [
-                        {
-                          "id": "lnk-221ed1ffcc",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://xclive.yarncdn.live/live/xctv_blv_rongdat/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.xaycon3.live/"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://sv2.xaycon3.live"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "K League 2",
-            "team_a": "Suwon City FC",
-            "team_b": "Jeonnam Dragons",
-            "logo_a": "https://media.api-sports.io/football/teams/2756.png",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/en/0/08/Jeonnam_Dragons.svg",
-            "time": "17:30",
-            "date": "10/07",
-            "blv": "BLV Rồng Đất",
-            "is_live": false,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/xaycon-stream/refs/heads/main/thumbs/xc-001a36d4ae_81b1de5a_20260710.png?v=81b1de5a",
             "width": 1600,
             "height": 1200
           }
