@@ -799,7 +799,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (6 LIVE)",
+      "name": "⚽ Bóng Đá (5 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -872,6 +872,116 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-540083e9b3_8df2c797_20260710.png?v=8df2c797",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-12fcec1bce",
+          "name": "Shakhter Karagandy vs Turan Turkistan | 20:00 10/07",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-12fcec1bce",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-12fcec1bce",
+                  "name": "Shakhter Karagandy vs Turan Turkistan",
+                  "streams": [
+                    {
+                      "id": "st-12fcec1bce",
+                      "name": "HQ",
+                      "stream_links": [
+                        {
+                          "id": "lnk-b10e5b640b",
+                          "name": "BLV THẦN THÔNG",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://tdlive.yarncdn.live/live/tdtv_blv_taovannghe/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-f6e06ba913",
+              "name": "XayConTV",
+              "contents": [
+                {
+                  "id": "ct-f6e06ba913",
+                  "name": "Shakhter Karagandy vs Turan Turkistan",
+                  "streams": [
+                    {
+                      "id": "st-f6e06ba913",
+                      "name": "Xaycon - BLV Kent",
+                      "stream_links": [
+                        {
+                          "id": "lnk-b9f74b1c23",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://xclive.yarncdn.live/live/xctv_blv_phubeo/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.xaycon3.live/"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://sv2.xaycon3.live"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "1. Division",
+            "team_a": "Shakhter Karagandy",
+            "team_b": "Turan Turkistan",
+            "logo_a": "https://media.api-sports.io/football/teams/4566.png",
+            "logo_b": "https://media.api-sports.io/football/teams/21502.png",
+            "time": "20:00 10/07",
+            "blv": "BLV THẦN THÔNG",
+            "is_live": true,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Shakhter Karagandy_Turan Turkistan_20-00 10-07_4be00d51_20260710.png?v=4be00d51",
             "width": 1600,
             "height": 1200
           }
@@ -983,153 +1093,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/xaycon-stream/refs/heads/main/thumbs/xc-f92bc9a165_8d77ce5e_20260710.png?v=8d77ce5e",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "xc-f6e06ba913",
-          "name": "Shakhter Karagandy vs Turan Turkistan | 20:00 10/07",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-f6e06ba913",
-              "name": "XayConTV",
-              "contents": [
-                {
-                  "id": "ct-f6e06ba913",
-                  "name": "Shakhter Karagandy vs Turan Turkistan",
-                  "streams": [
-                    {
-                      "id": "st-f6e06ba913",
-                      "name": "XC",
-                      "stream_links": [
-                        {
-                          "id": "lnk-b9f74b1c23",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://xclive.yarncdn.live/live/xctv_blv_phubeo/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.xaycon3.live/"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://sv2.xaycon3.live"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "1. Division",
-            "team_a": "Shakhter Karagandy",
-            "team_b": "Turan Turkistan",
-            "logo_a": "https://media.api-sports.io/football/teams/4566.png",
-            "logo_b": "https://media.api-sports.io/football/teams/21502.png",
-            "time": "20:00",
-            "date": "10/07",
-            "blv": "BLV Kent",
-            "is_live": true,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/xaycon-stream/refs/heads/main/thumbs/xc-f6e06ba913_00062d75_20260710.png?v=00062d75",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "bg-bd4d08cd70",
-          "name": "Nữ Hà Nội vs Nữ Thái Nguyên  | 16:00 10/07",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-bd4d08cd70",
-              "name": "BugioTV",
-              "contents": [
-                {
-                  "id": "ct-bd4d08cd70",
-                  "name": "Nữ Hà Nội vs Nữ Thái Nguyên ",
-                  "streams": [
-                    {
-                      "id": "st-bd4d08cd70",
-                      "name": "BG",
-                      "stream_links": [
-                        {
-                          "id": "lnk-0ba3f9d037",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_trada/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv1.bugio9.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "VĐQG Nữ VN",
-            "team_a": "Nữ Hà Nội",
-            "team_b": "Nữ Thái Nguyên ",
-            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShohnkyv1Eqxs62ilIAnnOa8oIFxnprVgVVZ-1RhMaHw&s=10",
-            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTDs49S-B_LshiZYQcymtpZbtURvvRFZqLkcFo83fEeQ&s=10",
-            "start_time": "2026-07-10T16:00:00",
-            "blv": "BLV Tiểu Trà Đá",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-bd4d08cd70_f22ee401_20260710.png?v=f22ee401",
             "width": 1600,
             "height": 1200
           }
@@ -3609,7 +3572,7 @@
     },
     {
       "id": "grp-bóng-chuyền",
-      "name": "🏐 Bóng Chuyền (7 LIVE)",
+      "name": "🏐 Bóng Chuyền (6 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -3717,112 +3680,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-d5ac13259d_645bab26_20260710.png?v=645bab26",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "hqlive-581af07991",
-          "name": "Ba Lan vs Brazil | 17:30 10/07",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-581af07991",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-581af07991",
-                  "name": "Ba Lan vs Brazil",
-                  "streams": [
-                    {
-                      "id": "st-581af07991",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-f6231c6549",
-                          "name": "BLV PHAN CA",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanca/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "src-eded0708df",
-              "name": "BugioTV",
-              "contents": [
-                {
-                  "id": "ct-eded0708df",
-                  "name": "Ba Lan  vs  Brazil",
-                  "streams": [
-                    {
-                      "id": "st-eded0708df",
-                      "name": "Bugio - BLV Chim Nhỏ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-378f040fcb",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_cuccu/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv1.bugio9.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Nation League Women",
-            "team_a": "Ba Lan",
-            "team_b": "Brazil",
-            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxLkHp8_KNZVw1jCYb3bu1mvTTOxYcnl5yQQ&s",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Flag_of_Brazil_%281968%E2%80%931992%29.svg/250px-Flag_of_Brazil_%281968%E2%80%931992%29.svg.png",
-            "time": "17:30 10/07",
-            "blv": "BLV PHAN CA",
-            "is_live": true,
-            "sport_slug": "bong-chuyen"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Ba Lan_Brazil_17-30 10-07_5f3c65c5_20260710.png?v=5f3c65c5",
             "width": 1600,
             "height": 1200
           }
@@ -4178,6 +4035,60 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-7b6982e584_0471efd5_20260710.png?v=0471efd5",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-83f469de86",
+          "name": "Bulgaria W vs Czech Republic W | 21:30 10/07",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-83f469de86",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-83f469de86",
+                  "name": "Bulgaria W vs Czech Republic W",
+                  "streams": [
+                    {
+                      "id": "st-83f469de86",
+                      "name": "GV",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Nations League Women",
+            "team_a": "Bulgaria W",
+            "team_b": "Czech Republic W",
+            "logo_a": "https://static.flashscore.com/res/image/data/trgkvtFa-p8cOXAXu.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/hjWOdNcM-xhy3Lep2.png",
+            "time": "21:30 10/07",
+            "blv": "BLV Sún",
+            "is_live": false,
+            "cate_type": "bongchuyen",
+            "time_start": 1783693800
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-83f469de86_d4b482f1_20260710.png?v=d4b482f1",
             "width": 1600,
             "height": 1200
           }
