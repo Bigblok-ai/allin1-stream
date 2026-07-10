@@ -915,6 +915,117 @@
           }
         },
         {
+          "id": "xc-377b1d9f76",
+          "name": "VPS vs SJK | 23:00 10/07",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-377b1d9f76",
+              "name": "XayConTV",
+              "contents": [
+                {
+                  "id": "ct-377b1d9f76",
+                  "name": "VPS vs SJK",
+                  "streams": [
+                    {
+                      "id": "st-377b1d9f76",
+                      "name": "XC",
+                      "stream_links": [
+                        {
+                          "id": "lnk-30319ba8f3",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://xclive.yarncdn.live/live/xctv_blv_bipcon/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.xaycon3.live/"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://sv2.xaycon3.live"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-80f2f15983",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-80f2f15983",
+                  "name": "VPS vs SJK",
+                  "streams": [
+                    {
+                      "id": "st-80f2f15983",
+                      "name": "Bugio - BLV Phi MC",
+                      "stream_links": [
+                        {
+                          "id": "lnk-d5c8f635fc",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_phimc/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Veikkausliiga",
+            "team_a": "VPS",
+            "team_b": "SJK",
+            "logo_a": "https://media.api-sports.io/football/teams/650.png",
+            "logo_b": "https://media.api-sports.io/football/teams/689.png",
+            "time": "23:00",
+            "date": "10/07",
+            "blv": "BLV PIB",
+            "is_live": true,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/xaycon-stream/refs/heads/main/thumbs/xc-377b1d9f76_bd2ed55f_20260710.png?v=bd2ed55f",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "bg-24646475ed",
           "name": "River Plate Res. vs Racing Club Res. | 22:00 10/07",
           "type": "single",
@@ -981,77 +1092,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-24646475ed_a6be22ce_20260710.png?v=a6be22ce",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "bg-80f2f15983",
-          "name": "VPS vs SJK | 23:00 10/07",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-80f2f15983",
-              "name": "BugioTV",
-              "contents": [
-                {
-                  "id": "ct-80f2f15983",
-                  "name": "VPS vs SJK",
-                  "streams": [
-                    {
-                      "id": "st-80f2f15983",
-                      "name": "BG",
-                      "stream_links": [
-                        {
-                          "id": "lnk-d5c8f635fc",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_phimc/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv1.bugio9.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Veikkausliiga",
-            "team_a": "VPS",
-            "team_b": "SJK",
-            "logo_a": "https://media.api-sports.io/football/teams/650.png",
-            "logo_b": "https://media.api-sports.io/football/teams/689.png",
-            "start_time": "2026-07-10T23:00:00",
-            "blv": "BLV Phi MC",
-            "is_live": false,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-80f2f15983_bf2c02c6_20260710.png?v=bf2c02c6",
             "width": 1600,
             "height": 1200
           }
