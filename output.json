@@ -799,7 +799,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (9 LIVE)",
+      "name": "⚽ Bóng Đá (10 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1203,6 +1203,98 @@
           }
         },
         {
+          "id": "hqlive-6b2a975886",
+          "name": "Turku PS vs AC Oulu | 21:00 11/07",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-6b2a975886",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-6b2a975886",
+                  "name": "Turku PS vs AC Oulu",
+                  "streams": [
+                    {
+                      "id": "st-6b2a975886",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-21a54f5fa7",
+              "name": "XayConTV",
+              "contents": [
+                {
+                  "id": "ct-21a54f5fa7",
+                  "name": "Turku PS vs AC Oulu",
+                  "streams": [
+                    {
+                      "id": "st-21a54f5fa7",
+                      "name": "Xaycon - BLV PIB",
+                      "stream_links": [
+                        {
+                          "id": "lnk-30319ba8f3",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://xclive.yarncdn.live/live/xctv_blv_bipcon/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.xaycon3.live/"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://sv2.xaycon3.live"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Veikkausliiga",
+            "team_a": "Turku PS",
+            "team_b": "AC Oulu",
+            "logo_a": "https://media.api-sports.io/football/teams/1168.png",
+            "logo_b": "https://media.api-sports.io/football/teams/2077.png",
+            "time": "21:00 11/07",
+            "blv": "BLV TÁO GIÀ",
+            "is_live": true,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Turku PS_AC Oulu_21-00 11-07_606e3566_20260711.png?v=606e3566",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "xc-5d4e1a16a5",
           "name": "Shanghai Shenhua vs Beijing Guoan | 18:35 11/07",
           "type": "single",
@@ -1564,98 +1656,6 @@
           }
         },
         {
-          "id": "hqlive-6b2a975886",
-          "name": "Turku PS vs AC Oulu | 21:00 11/07",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-6b2a975886",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-6b2a975886",
-                  "name": "Turku PS vs AC Oulu",
-                  "streams": [
-                    {
-                      "id": "st-6b2a975886",
-                      "name": "HQ",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "src-21a54f5fa7",
-              "name": "XayConTV",
-              "contents": [
-                {
-                  "id": "ct-21a54f5fa7",
-                  "name": "Turku PS vs AC Oulu",
-                  "streams": [
-                    {
-                      "id": "st-21a54f5fa7",
-                      "name": "Xaycon - BLV PIB",
-                      "stream_links": [
-                        {
-                          "id": "lnk-30319ba8f3",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://xclive.yarncdn.live/live/xctv_blv_bipcon/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.xaycon3.live/"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://sv2.xaycon3.live"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Veikkausliiga",
-            "team_a": "Turku PS",
-            "team_b": "AC Oulu",
-            "logo_a": "https://media.api-sports.io/football/teams/1168.png",
-            "logo_b": "https://media.api-sports.io/football/teams/2077.png",
-            "time": "21:00 11/07",
-            "blv": "BLV PHAN CA",
-            "is_live": false,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Turku PS_AC Oulu_21-00 11-07_606e3566_20260711.png?v=606e3566",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "gv-c80a65b4ad",
           "name": "Orgryte vs Hacken | 22:30 11/07",
           "type": "single",
@@ -1806,7 +1806,7 @@
             "logo_a": "https://media.api-sports.io/football/teams/386.png",
             "logo_b": "https://media.api-sports.io/football/teams/751.png",
             "time": "22:45 11/07",
-            "blv": "BLV TÁO GIÀ",
+            "blv": "BLV PHAN CA",
             "is_live": false,
             "sport_slug": "bong-da"
           },
