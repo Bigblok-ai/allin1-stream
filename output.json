@@ -799,7 +799,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (5 LIVE)",
+      "name": "⚽ Bóng Đá (7 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1021,6 +1021,151 @@
           }
         },
         {
+          "id": "hqlive-ba92406a43",
+          "name": "Ulsan Hyundai FC vs Jeonbuk Motors | 17:30 11/07",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-ba92406a43",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-ba92406a43",
+                  "name": "Ulsan Hyundai FC vs Jeonbuk Motors",
+                  "streams": [
+                    {
+                      "id": "st-ba92406a43",
+                      "name": "HQ",
+                      "stream_links": [
+                        {
+                          "id": "lnk-b10e5b640b",
+                          "name": "BLV THẦN THÔNG",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://tdlive.yarncdn.live/live/tdtv_blv_taovannghe/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-7da977cba6",
+              "name": "XayConTV",
+              "contents": [
+                {
+                  "id": "ct-7da977cba6",
+                  "name": "Ulsan Hyundai FC vs Jeonbuk Motors",
+                  "streams": [
+                    {
+                      "id": "st-7da977cba6",
+                      "name": "Xaycon - BLV Ciu",
+                      "stream_links": [
+                        {
+                          "id": "lnk-fde7f94b4e",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://xclive.yarncdn.live/live/xctv_blv_chuoi/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.xaycon3.live/"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://sv2.xaycon3.live"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-33bdf955c5",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-33bdf955c5",
+                  "name": "Ulsan Hyundai FC vs Jeonbuk Motors",
+                  "streams": [
+                    {
+                      "id": "st-33bdf955c5",
+                      "name": "Bugio - BLV Phi MC",
+                      "stream_links": [
+                        {
+                          "id": "lnk-d5c8f635fc",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_phimc/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "K League 1",
+            "team_a": "Ulsan Hyundai FC",
+            "team_b": "Jeonbuk Motors",
+            "logo_a": "https://media.api-sports.io/football/teams/2767.png",
+            "logo_b": "https://media.api-sports.io/football/teams/2762.png",
+            "time": "17:30 11/07",
+            "blv": "BLV THẦN THÔNG",
+            "is_live": true,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Ulsan Hyundai FC_Jeonbuk Motors_17-30 11-07_8e4afe47_20260711.png?v=8e4afe47",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "bg-73f715c6cc",
           "name": "Chengdu Better City vs Chongqing Tongliang Long | 19:00 11/07",
           "type": "single",
@@ -1163,8 +1308,8 @@
           }
         },
         {
-          "id": "hqlive-ba92406a43",
-          "name": "Ulsan Hyundai FC vs Jeonbuk Motors | 17:30 11/07",
+          "id": "bg-5de8a36008",
+          "name": "Tromso vs Valerenga | 23:00 11/07",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1178,79 +1323,23 @@
           ],
           "sources": [
             {
-              "id": "src-ba92406a43",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-ba92406a43",
-                  "name": "Ulsan Hyundai FC vs Jeonbuk Motors",
-                  "streams": [
-                    {
-                      "id": "st-ba92406a43",
-                      "name": "HQ",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "src-7da977cba6",
-              "name": "XayConTV",
-              "contents": [
-                {
-                  "id": "ct-7da977cba6",
-                  "name": "Ulsan Hyundai FC vs Jeonbuk Motors",
-                  "streams": [
-                    {
-                      "id": "st-7da977cba6",
-                      "name": "Xaycon - BLV Ciu",
-                      "stream_links": [
-                        {
-                          "id": "lnk-fde7f94b4e",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://xclive.yarncdn.live/live/xctv_blv_chuoi/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.xaycon3.live/"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://sv2.xaycon3.live"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "src-33bdf955c5",
+              "id": "src-5de8a36008",
               "name": "BugioTV",
               "contents": [
                 {
-                  "id": "ct-33bdf955c5",
-                  "name": "Ulsan Hyundai FC vs Jeonbuk Motors",
+                  "id": "ct-5de8a36008",
+                  "name": "Tromso vs Valerenga",
                   "streams": [
                     {
-                      "id": "st-33bdf955c5",
-                      "name": "Bugio - BLV Phi MC",
+                      "id": "st-5de8a36008",
+                      "name": "BG",
                       "stream_links": [
                         {
-                          "id": "lnk-d5c8f635fc",
+                          "id": "lnk-970b2a547c",
                           "name": "Link FHD",
                           "type": "hls",
                           "default": true,
-                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_phimc/playlist.m3u8",
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_phaothan/playlist.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -1270,21 +1359,21 @@
             }
           ],
           "org_metadata": {
-            "league": "K League 1",
-            "team_a": "Ulsan Hyundai FC",
-            "team_b": "Jeonbuk Motors",
-            "logo_a": "https://media.api-sports.io/football/teams/2767.png",
-            "logo_b": "https://media.api-sports.io/football/teams/2762.png",
-            "time": "17:30 11/07",
-            "blv": "BLV THẦN THÔNG",
+            "league": "Eliteserien",
+            "team_a": "Tromso",
+            "team_b": "Valerenga",
+            "logo_a": "https://media.api-sports.io/football/teams/325.png",
+            "logo_b": "https://media.api-sports.io/football/teams/326.png",
+            "start_time": "2026-07-11T23:00:00",
+            "blv": "BLV Pháo",
             "is_live": false,
-            "sport_slug": "bong-da"
+            "cate_type": "football"
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Ulsan Hyundai FC_Jeonbuk Motors_17-30 11-07_8e4afe47_20260711.png?v=8e4afe47",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-5de8a36008_444d8a96_20260711.png?v=444d8a96",
             "width": 1600,
             "height": 1200
           }
@@ -3295,7 +3384,7 @@
     },
     {
       "id": "grp-bóng-chuyền",
-      "name": "🏐 Bóng Chuyền (2 LIVE)",
+      "name": "🏐 Bóng Chuyền (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -3486,10 +3575,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -3504,7 +3593,25 @@
                     {
                       "id": "st-89d6f96682",
                       "name": "HQ",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-1cad2e4412",
+                          "name": "BLV TÁO GIÀ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://tdlive.yarncdn.live/live/tdtv_blv_taotinhtao/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -3554,7 +3661,7 @@
             "logo_b": "https://upload.wikimedia.org/wikipedia/commons/b/b4/Flag_of_Turkey.svg",
             "time": "17:30 11/07",
             "blv": "BLV TÁO GIÀ",
-            "is_live": false,
+            "is_live": true,
             "sport_slug": "bong-chuyen"
           },
           "image": {
@@ -4067,11 +4174,11 @@
                       "name": "GV",
                       "stream_links": [
                         {
-                          "id": "lnk-d14cb8e382",
+                          "id": "lnk-6dc58e4a9b",
                           "name": "Link HD 720p",
-                          "type": "hls",
+                          "type": "httpflv",
                           "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1783386681_hd/1783386681_hd@720p.m3u8",
+                          "url": "https://play.megatech.global/live/1783386681_hd@720p.flv",
                           "request_headers": [
                             {
                               "key": "Referer",
