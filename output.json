@@ -799,7 +799,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (3 LIVE)",
+      "name": "⚽ Bóng Đá (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -877,8 +877,8 @@
           }
         },
         {
-          "id": "hqlive-409c835070",
-          "name": "Spain U19 vs Germany U19 | 01:00 12/07",
+          "id": "gv-48dd963319",
+          "name": "Na Uy vs Anh | 04:00 12/07",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -892,70 +892,31 @@
           ],
           "sources": [
             {
-              "id": "src-409c835070",
-              "name": "HoiQuanTV",
+              "id": "src-48dd963319",
+              "name": "GiovangTV",
               "contents": [
                 {
-                  "id": "ct-409c835070",
-                  "name": "Spain U19 vs Germany U19",
+                  "id": "ct-48dd963319",
+                  "name": "Na Uy vs Anh",
                   "streams": [
                     {
-                      "id": "st-409c835070",
-                      "name": "HQ",
+                      "id": "st-48dd963319",
+                      "name": "GV",
                       "stream_links": [
                         {
-                          "id": "lnk-1cad2e4412",
-                          "name": "BLV TÁO GIÀ",
-                          "type": "hls",
+                          "id": "lnk-6019d61743",
+                          "name": "Link HD 720p",
+                          "type": "httpflv",
                           "default": true,
-                          "url": "https://tdlive.yarncdn.live/live/tdtv_blv_taotinhtao/playlist.m3u8",
+                          "url": "https://play.megatech.global/live/1783778901_hd@720p.flv",
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
+                              "value": "https://giovang.store/"
                             },
                             {
                               "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "src-09b083bd1c",
-              "name": "XayConTV",
-              "contents": [
-                {
-                  "id": "ct-09b083bd1c",
-                  "name": "Spain U19 vs Germany U19",
-                  "streams": [
-                    {
-                      "id": "st-09b083bd1c",
-                      "name": "Xaycon - BLV Kent",
-                      "stream_links": [
-                        {
-                          "id": "lnk-b9f74b1c23",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://xclive.yarncdn.live/live/xctv_blv_phubeo/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.xaycon3.live/"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://sv2.xaycon3.live"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
                             }
                           ]
                         }
@@ -967,21 +928,22 @@
             }
           ],
           "org_metadata": {
-            "league": "UEFA U19 Championship",
-            "team_a": "Spain U19",
-            "team_b": "Germany U19",
-            "logo_a": "https://media.api-sports.io/football/teams/10349.png",
-            "logo_b": "https://media.api-sports.io/football/teams/10336.png",
-            "time": "01:00 12/07",
-            "blv": "BLV TÁO GIÀ",
+            "league": "FIFA World Cup",
+            "team_a": "Na Uy",
+            "team_b": "Anh",
+            "logo_a": "https://images.keovip88.net/images/teams/norway.png",
+            "logo_b": "https://images.keovip88.net/images/teams/england.png",
+            "time": "04:00 12/07",
+            "blv": "Leo-minh, Bón + Trĩ, Dieccay",
             "is_live": true,
-            "sport_slug": "bong-da"
+            "cate_type": "football",
+            "time_start": 1783803600
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Spain U19_Germany U19_01-00 12-07_6edc28a2_20260712.png?v=6edc28a2",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-48dd963319_8240abf8_20260712.png?v=8240abf8",
             "width": 1600,
             "height": 1200
           }
@@ -1314,46 +1276,50 @@
           }
         },
         {
-          "id": "gv-48dd963319",
-          "name": "Na Uy vs Anh | 04:00 12/07",
+          "id": "xc-09b083bd1c",
+          "name": "Spain U19 vs Germany U19 | 01:00 12/07",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
             {
-              "id": "src-48dd963319",
-              "name": "GiovangTV",
+              "id": "src-09b083bd1c",
+              "name": "XayConTV",
               "contents": [
                 {
-                  "id": "ct-48dd963319",
-                  "name": "Na Uy vs Anh",
+                  "id": "ct-09b083bd1c",
+                  "name": "Spain U19 vs Germany U19",
                   "streams": [
                     {
-                      "id": "st-48dd963319",
-                      "name": "GV",
+                      "id": "st-09b083bd1c",
+                      "name": "XC",
                       "stream_links": [
                         {
-                          "id": "lnk-6019d61743",
-                          "name": "Link HD 720p",
-                          "type": "httpflv",
+                          "id": "lnk-b9f74b1c23",
+                          "name": "Link FHD",
+                          "type": "hls",
                           "default": true,
-                          "url": "https://play.megatech.global/live/1783778901_hd@720p.flv",
+                          "url": "https://xclive.yarncdn.live/live/xctv_blv_phubeo/playlist.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://giovang.store/"
+                              "value": "https://sv2.xaycon3.live/"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://sv2.xaycon3.live"
                             },
                             {
                               "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                              "value": "Mozilla/5.0"
                             }
                           ]
                         }
@@ -1365,22 +1331,22 @@
             }
           ],
           "org_metadata": {
-            "league": "FIFA World Cup",
-            "team_a": "Na Uy",
-            "team_b": "Anh",
-            "logo_a": "https://images.keovip88.net/images/teams/norway.png",
-            "logo_b": "https://images.keovip88.net/images/teams/england.png",
-            "time": "04:00 12/07",
-            "blv": "Leo-minh, Bón + Trĩ, Dieccay",
-            "is_live": false,
-            "cate_type": "football",
-            "time_start": 1783803600
+            "league": "UEFA U19 Championship",
+            "team_a": "Spain U19",
+            "team_b": "Germany U19",
+            "logo_a": "https://media.api-sports.io/football/teams/10349.png",
+            "logo_b": "https://media.api-sports.io/football/teams/10336.png",
+            "time": "01:00",
+            "date": "12/07",
+            "blv": "BLV Kent",
+            "is_live": true,
+            "sport_slug": "bong-da"
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-48dd963319_8240abf8_20260712.png?v=8240abf8",
+            "url": "https://raw.githubusercontent.com/jasminliu98/xaycon-stream/refs/heads/main/thumbs/xc-09b083bd1c_18e9fda0_20260712.png?v=18e9fda0",
             "width": 1600,
             "height": 1200
           }
