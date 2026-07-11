@@ -799,7 +799,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (4 LIVE)",
+      "name": "⚽ Bóng Đá (5 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -984,6 +984,78 @@
           }
         },
         {
+          "id": "gv-bd4808a03c",
+          "name": "SD Raiders  vs Blacktown City Demons | 14:00 11/07",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-bd4808a03c",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-bd4808a03c",
+                  "name": "SD Raiders  vs Blacktown City Demons",
+                  "streams": [
+                    {
+                      "id": "st-bd4808a03c",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-0e3f83e03b",
+                          "name": "Link HD 720p",
+                          "type": "httpflv",
+                          "default": true,
+                          "url": "https://play.megatech.global/live/1783735227_hd@720p.flv",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Australia - NPL NSW",
+            "team_a": "SD Raiders ",
+            "team_b": "Blacktown City Demons",
+            "logo_a": "https://static.flashscore.com/res/image/data/APN8tKwS-lAHxqTj9.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/4S4GNEh5-dn5fFKUf.png",
+            "time": "14:00 11/07",
+            "blv": "BLV Trĩ",
+            "is_live": true,
+            "cate_type": "football",
+            "time_start": 1783753200
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-bd4808a03c_b7e67bb3_20260711.png?v=b7e67bb3",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "bg-6074c6aa34",
           "name": "Shanghai Port II vs Xi'an Ronghai | 15:30 11/07",
           "type": "single",
@@ -1121,78 +1193,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-73f715c6cc_5fb76f80_20260711.png?v=5fb76f80",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-bd4808a03c",
-          "name": "SD Raiders  vs Blacktown City Demons | 14:00 11/07",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-bd4808a03c",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-bd4808a03c",
-                  "name": "SD Raiders  vs Blacktown City Demons",
-                  "streams": [
-                    {
-                      "id": "st-bd4808a03c",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-0e3f83e03b",
-                          "name": "Link HD 720p",
-                          "type": "httpflv",
-                          "default": true,
-                          "url": "https://play.megatech.global/live/1783735227_hd@720p.flv",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Australia - NPL NSW",
-            "team_a": "SD Raiders ",
-            "team_b": "Blacktown City Demons",
-            "logo_a": "https://static.flashscore.com/res/image/data/APN8tKwS-lAHxqTj9.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/4S4GNEh5-dn5fFKUf.png",
-            "time": "14:00 11/07",
-            "blv": "BLV Trĩ",
-            "is_live": false,
-            "cate_type": "football",
-            "time_start": 1783753200
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-bd4808a03c_b7e67bb3_20260711.png?v=b7e67bb3",
             "width": 1600,
             "height": 1200
           }
@@ -3488,7 +3488,25 @@
                     {
                       "id": "st-4517fd73bf",
                       "name": "GV",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-da6fedb117",
+                          "name": "Link HD 720p",
+                          "type": "httpflv",
+                          "default": true,
+                          "url": "https://play.megatech.global/live/1783750632_hd@720p.flv",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
