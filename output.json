@@ -799,82 +799,11 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "bg-b3af1c7992",
-          "name": "Canberra FC vs Brindabella | 12:00 11/07",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-b3af1c7992",
-              "name": "BugioTV",
-              "contents": [
-                {
-                  "id": "ct-b3af1c7992",
-                  "name": "Canberra FC vs Brindabella",
-                  "streams": [
-                    {
-                      "id": "st-b3af1c7992",
-                      "name": "BG",
-                      "stream_links": [
-                        {
-                          "id": "lnk-ad68922ab2",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_max/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv1.bugio9.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Capital Territory NPL",
-            "team_a": "Canberra FC",
-            "team_b": "Brindabella",
-            "logo_a": "https://media.api-sports.io/football/teams/1448.png",
-            "logo_b": "https://media.api-sports.io/football/teams/23516.png",
-            "start_time": "2026-07-11T12:00:00",
-            "blv": "BLV Max",
-            "is_live": false,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-b3af1c7992_a6e60ee2_20260711.png?v=a6e60ee2",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "bg-6074c6aa34",
           "name": "Shanghai Port II vs Xi'an Ronghai | 15:30 11/07",
@@ -1086,6 +1015,113 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-a00b5b4f58_f7f8db0e_20260711.png?v=f7f8db0e",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-b4fe4f299e",
+          "name": "Canberra Croatia  vs Brindabella | 12:00 11/07",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-b4fe4f299e",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-b4fe4f299e",
+                  "name": "Canberra Croatia  vs Brindabella",
+                  "streams": [
+                    {
+                      "id": "st-b4fe4f299e",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-9bbd3b29e5",
+                          "name": "Link HD 720p",
+                          "type": "httpflv",
+                          "default": true,
+                          "url": "https://play.megatech.global/live/1783735026_hd@720p.flv",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-b3af1c7992",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-b3af1c7992",
+                  "name": "Canberra FC vs Brindabella",
+                  "streams": [
+                    {
+                      "id": "st-b3af1c7992",
+                      "name": "Bugio - BLV Max",
+                      "stream_links": [
+                        {
+                          "id": "lnk-ad68922ab2",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_max/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "NPL ACT",
+            "team_a": "Canberra Croatia ",
+            "team_b": "Brindabella",
+            "logo_a": "https://static.flashscore.com/res/image/data/EBUkDQkl-QenIMbKj.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/6TUR2PHG-0rxShrIp.png",
+            "time": "12:00 11/07",
+            "blv": "BLV Bón",
+            "is_live": false,
+            "cate_type": "football",
+            "time_start": 1783746000
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-b4fe4f299e_31dda877_20260711.png?v=31dda877",
             "width": 1600,
             "height": 1200
           }
