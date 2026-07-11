@@ -799,7 +799,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (9 LIVE)",
+      "name": "⚽ Bóng Đá (7 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1198,153 +1198,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Turku PS_AC Oulu_21-00 11-07_606e3566_20260711.png?v=606e3566",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "xc-b1d29b44c3",
-          "name": "Lahti vs HJK Helsinki | 19:00 11/07",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-b1d29b44c3",
-              "name": "XayConTV",
-              "contents": [
-                {
-                  "id": "ct-b1d29b44c3",
-                  "name": "Lahti vs HJK Helsinki",
-                  "streams": [
-                    {
-                      "id": "st-b1d29b44c3",
-                      "name": "XC",
-                      "stream_links": [
-                        {
-                          "id": "lnk-bccd486b79",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://xclive.yarncdn.live/live/xctv_blv_tammao/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.xaycon3.live/"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://sv2.xaycon3.live"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Veikkausliiga",
-            "team_a": "Lahti",
-            "team_b": "HJK Helsinki",
-            "logo_a": "https://media.api-sports.io/football/teams/1166.png",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/pt/e/ec/HJK_Helsinki_Logo.png",
-            "time": "19:00",
-            "date": "11/07",
-            "blv": "BLV Tam Mao",
-            "is_live": true,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/xaycon-stream/refs/heads/main/thumbs/xc-b1d29b44c3_6c49e5d8_20260711.png?v=6c49e5d8",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "bg-73f715c6cc",
-          "name": "Chengdu Better City vs Chongqing Tongliang Long | 19:00 11/07",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-73f715c6cc",
-              "name": "BugioTV",
-              "contents": [
-                {
-                  "id": "ct-73f715c6cc",
-                  "name": "Chengdu Better City vs Chongqing Tongliang Long",
-                  "streams": [
-                    {
-                      "id": "st-73f715c6cc",
-                      "name": "BG",
-                      "stream_links": [
-                        {
-                          "id": "lnk-0ba3f9d037",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_trada/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv1.bugio9.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Super League",
-            "team_a": "Chengdu Better City",
-            "team_b": "Chongqing Tongliang Long",
-            "logo_a": "https://media.api-sports.io/football/teams/5648.png",
-            "logo_b": "https://media.api-sports.io/football/teams/21262.png",
-            "start_time": "2026-07-11T19:00:00",
-            "blv": "BLV Tiểu Trà Đá",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-73f715c6cc_5fb76f80_20260711.png?v=5fb76f80",
             "width": 1600,
             "height": 1200
           }
@@ -1810,11 +1663,11 @@
                       "name": "GV",
                       "stream_links": [
                         {
-                          "id": "lnk-9865e116e0",
+                          "id": "lnk-a66c284a16",
                           "name": "Link HD 720p",
-                          "type": "hls",
+                          "type": "httpflv",
                           "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1783643628_hd/1783643628_hd@720p.m3u8",
+                          "url": "https://play.megatech.global/live/1783643628_hd@720p.flv",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -2508,6 +2361,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-aaba07ade0_6a14790e_20260711.png?v=6a14790e",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-6ad15646ba",
+          "name": "Minnesota Lynx vs New York Liberty | 00:00 12/07",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-6ad15646ba",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-6ad15646ba",
+                  "name": "Minnesota Lynx vs New York Liberty",
+                  "streams": [
+                    {
+                      "id": "st-6ad15646ba",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-c13048a75b",
+                          "name": "Link HD 720p",
+                          "type": "httpflv",
+                          "default": true,
+                          "url": "https://play.megatech.global/live/1783778322_hd@720p.flv",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Women’s National Basketball Association",
+            "team_a": "Minnesota Lynx",
+            "team_b": "New York Liberty",
+            "logo_a": "https://nba.titan007.com/files/team/1hxdz8yxej2m.png",
+            "logo_b": "https://nba.titan007.com/files/team/1gzb1e8ke8.png",
+            "time": "00:00 12/07",
+            "blv": "BLV Tôm",
+            "is_live": false,
+            "cate_type": "basketball",
+            "time_start": 1783789200
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-6ad15646ba_9acb71d9_20260711.png?v=9acb71d9",
             "width": 1600,
             "height": 1200
           }
