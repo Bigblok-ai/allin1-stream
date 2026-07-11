@@ -799,7 +799,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (7 LIVE)",
+      "name": "⚽ Bóng Đá (8 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1275,6 +1275,116 @@
           }
         },
         {
+          "id": "hqlive-a157e25453",
+          "name": "Dinamo Brest vs Slavia Mozyr | 22:45 11/07",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-a157e25453",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-a157e25453",
+                  "name": "Dinamo Brest vs Slavia Mozyr",
+                  "streams": [
+                    {
+                      "id": "st-a157e25453",
+                      "name": "HQ",
+                      "stream_links": [
+                        {
+                          "id": "lnk-f6231c6549",
+                          "name": "BLV PHAN CA",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanca/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-f60785fb8c",
+              "name": "XayConTV",
+              "contents": [
+                {
+                  "id": "ct-f60785fb8c",
+                  "name": "Dinamo Brest vs Slavia Mozyr",
+                  "streams": [
+                    {
+                      "id": "st-f60785fb8c",
+                      "name": "Xaycon - BLV Rồng Đất",
+                      "stream_links": [
+                        {
+                          "id": "lnk-221ed1ffcc",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://xclive.yarncdn.live/live/xctv_blv_rongdat/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.xaycon3.live/"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://sv2.xaycon3.live"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Premier League",
+            "team_a": "Dinamo Brest",
+            "team_b": "Slavia Mozyr",
+            "logo_a": "https://media.api-sports.io/football/teams/386.png",
+            "logo_b": "https://media.api-sports.io/football/teams/751.png",
+            "time": "22:45 11/07",
+            "blv": "BLV PHAN CA",
+            "is_live": true,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Dinamo Brest_Slavia Mozyr_22-45 11-07_44e0cf27_20260711.png?v=44e0cf27",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "bg-5de8a36008",
           "name": "Tromso vs Valerenga | 23:00 11/07",
           "type": "single",
@@ -1341,98 +1451,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-5de8a36008_444d8a96_20260711.png?v=444d8a96",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "hqlive-a157e25453",
-          "name": "Dinamo Brest vs Slavia Mozyr | 22:45 11/07",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-a157e25453",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-a157e25453",
-                  "name": "Dinamo Brest vs Slavia Mozyr",
-                  "streams": [
-                    {
-                      "id": "st-a157e25453",
-                      "name": "HQ",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "src-f60785fb8c",
-              "name": "XayConTV",
-              "contents": [
-                {
-                  "id": "ct-f60785fb8c",
-                  "name": "Dinamo Brest vs Slavia Mozyr",
-                  "streams": [
-                    {
-                      "id": "st-f60785fb8c",
-                      "name": "Xaycon - BLV Rồng Đất",
-                      "stream_links": [
-                        {
-                          "id": "lnk-221ed1ffcc",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://xclive.yarncdn.live/live/xctv_blv_rongdat/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.xaycon3.live/"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://sv2.xaycon3.live"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Premier League",
-            "team_a": "Dinamo Brest",
-            "team_b": "Slavia Mozyr",
-            "logo_a": "https://media.api-sports.io/football/teams/386.png",
-            "logo_b": "https://media.api-sports.io/football/teams/751.png",
-            "time": "22:45 11/07",
-            "blv": "BLV PHAN CA",
-            "is_live": false,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Dinamo Brest_Slavia Mozyr_22-45 11-07_44e0cf27_20260711.png?v=44e0cf27",
             "width": 1600,
             "height": 1200
           }
