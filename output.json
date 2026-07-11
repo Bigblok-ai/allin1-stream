@@ -799,7 +799,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (9 LIVE)",
+      "name": "⚽ Bóng Đá (10 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1310,6 +1310,116 @@
           }
         },
         {
+          "id": "hqlive-08bccb9922",
+          "name": "Shanghai Shenhua vs Beijing Guoan | 18:35 11/07",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-08bccb9922",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-08bccb9922",
+                  "name": "Shanghai Shenhua vs Beijing Guoan",
+                  "streams": [
+                    {
+                      "id": "st-08bccb9922",
+                      "name": "HQ",
+                      "stream_links": [
+                        {
+                          "id": "lnk-b0c182498f",
+                          "name": "BLV PHAN QUẨY",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanquay/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-5d4e1a16a5",
+              "name": "XayConTV",
+              "contents": [
+                {
+                  "id": "ct-5d4e1a16a5",
+                  "name": "Shanghai Shenhua vs Beijing Guoan",
+                  "streams": [
+                    {
+                      "id": "st-5d4e1a16a5",
+                      "name": "Xaycon - BLV Kent",
+                      "stream_links": [
+                        {
+                          "id": "lnk-b9f74b1c23",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://xclive.yarncdn.live/live/xctv_blv_phubeo/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.xaycon3.live/"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://sv2.xaycon3.live"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Super League",
+            "team_a": "Shanghai Shenhua",
+            "team_b": "Beijing Guoan",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/vi/d/dd/Shanghai_Shenhua_F.C.svg.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/en/a/a8/Beijing_Guoan_F.C.svg",
+            "time": "18:35 11/07",
+            "blv": "BLV PHAN QUẨY",
+            "is_live": true,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Shanghai Shenhua_Beijing Guoan_18-35 11-07_aa5557af_20260711.png?v=aa5557af",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "bg-73f715c6cc",
           "name": "Chengdu Better City vs Chongqing Tongliang Long | 19:00 11/07",
           "type": "single",
@@ -1518,98 +1628,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-5de8a36008_444d8a96_20260711.png?v=444d8a96",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "hqlive-08bccb9922",
-          "name": "Shanghai Shenhua vs Beijing Guoan | 18:35 11/07",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-08bccb9922",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-08bccb9922",
-                  "name": "Shanghai Shenhua vs Beijing Guoan",
-                  "streams": [
-                    {
-                      "id": "st-08bccb9922",
-                      "name": "HQ",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "src-5d4e1a16a5",
-              "name": "XayConTV",
-              "contents": [
-                {
-                  "id": "ct-5d4e1a16a5",
-                  "name": "Shanghai Shenhua vs Beijing Guoan",
-                  "streams": [
-                    {
-                      "id": "st-5d4e1a16a5",
-                      "name": "Xaycon - BLV Kent",
-                      "stream_links": [
-                        {
-                          "id": "lnk-b9f74b1c23",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://xclive.yarncdn.live/live/xctv_blv_phubeo/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.xaycon3.live/"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://sv2.xaycon3.live"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Super League",
-            "team_a": "Shanghai Shenhua",
-            "team_b": "Beijing Guoan",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/vi/d/dd/Shanghai_Shenhua_F.C.svg.png",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/en/a/a8/Beijing_Guoan_F.C.svg",
-            "time": "18:35 11/07",
-            "blv": "BLV PHAN QUẨY",
-            "is_live": false,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Shanghai Shenhua_Beijing Guoan_18-35 11-07_aa5557af_20260711.png?v=aa5557af",
             "width": 1600,
             "height": 1200
           }
