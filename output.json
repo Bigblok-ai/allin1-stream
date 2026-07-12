@@ -799,7 +799,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -877,6 +877,78 @@
           }
         },
         {
+          "id": "gv-d514cc2312",
+          "name": "Queensland Lions  vs Eastern Suburbs | 14:00 12/07",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-d514cc2312",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-d514cc2312",
+                  "name": "Queensland Lions  vs Eastern Suburbs",
+                  "streams": [
+                    {
+                      "id": "st-d514cc2312",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-57f339fe01",
+                          "name": "Link HD 720p",
+                          "type": "httpflv",
+                          "default": true,
+                          "url": "https://play.megatech.global/live/1783827553_hd@720p.flv",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "NPL Queensland",
+            "team_a": "Queensland Lions ",
+            "team_b": "Eastern Suburbs",
+            "logo_a": "https://static.flashscore.com/res/image/data/j7l1L9e5-GnWJ2Fya.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/SxYN5DWg-lOYbSjrt.png",
+            "time": "14:00 12/07",
+            "blv": "BLV Bón",
+            "is_live": true,
+            "cate_type": "football",
+            "time_start": 1783839600
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-d514cc2312_4a7e77cf_20260712.png?v=4a7e77cf",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "bg-3366297a63",
           "name": "Hammarby FF vs Kalmar FF | 19:00 12/07",
           "type": "single",
@@ -943,78 +1015,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-3366297a63_fc941133_20260712.png?v=fc941133",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-d514cc2312",
-          "name": "Queensland Lions  vs Eastern Suburbs | 14:00 12/07",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-d514cc2312",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-d514cc2312",
-                  "name": "Queensland Lions  vs Eastern Suburbs",
-                  "streams": [
-                    {
-                      "id": "st-d514cc2312",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-57f339fe01",
-                          "name": "Link HD 720p",
-                          "type": "httpflv",
-                          "default": true,
-                          "url": "https://play.megatech.global/live/1783827553_hd@720p.flv",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "NPL Queensland",
-            "team_a": "Queensland Lions ",
-            "team_b": "Eastern Suburbs",
-            "logo_a": "https://static.flashscore.com/res/image/data/j7l1L9e5-GnWJ2Fya.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/SxYN5DWg-lOYbSjrt.png",
-            "time": "14:00 12/07",
-            "blv": "BLV Bón",
-            "is_live": false,
-            "cate_type": "football",
-            "time_start": 1783839600
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-d514cc2312_4a7e77cf_20260712.png?v=4a7e77cf",
             "width": 1600,
             "height": 1200
           }
@@ -2556,7 +2556,25 @@
                     {
                       "id": "st-ef1a66019f",
                       "name": "GV",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-770a35e3a0",
+                          "name": "Link HD 720p",
+                          "type": "httpflv",
+                          "default": true,
+                          "url": "https://play.megatech.global/live/1783837788_hd@720p.flv",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
