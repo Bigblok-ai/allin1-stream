@@ -799,7 +799,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (3 LIVE)",
+      "name": "⚽ Bóng Đá (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1023,6 +1023,78 @@
           }
         },
         {
+          "id": "gv-be572a4a0b",
+          "name": "Fram vs Thór | 01:00 13/07",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-be572a4a0b",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-be572a4a0b",
+                  "name": "Fram vs Thór",
+                  "streams": [
+                    {
+                      "id": "st-be572a4a0b",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-eb5649087a",
+                          "name": "Link HD 720p",
+                          "type": "httpflv",
+                          "default": true,
+                          "url": "https://play.megatech.global/live/1783828150_hd@720p.flv",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Iceland - Besta deild karla",
+            "team_a": "Fram",
+            "team_b": "Thór",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/c/c9/Fram-logo_2020_512x512.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/en/5/55/Thorsmerki.jpg",
+            "time": "01:00 13/07",
+            "blv": "blv-minh2",
+            "is_live": true,
+            "cate_type": "football",
+            "time_start": 1783879200
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-be572a4a0b_fb73a62a_20260713.png?v=fb73a62a",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "xc-32646db650",
           "name": "Cobreloa vs D. La Serena | 23:30 12/07",
           "type": "single",
@@ -1094,78 +1166,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/xaycon-stream/refs/heads/main/thumbs/xc-32646db650_2f829d16_20260713.png?v=2f829d16",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-be572a4a0b",
-          "name": "Fram vs Thór | 01:00 13/07",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-be572a4a0b",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-be572a4a0b",
-                  "name": "Fram vs Thór",
-                  "streams": [
-                    {
-                      "id": "st-be572a4a0b",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-eb5649087a",
-                          "name": "Link HD 720p",
-                          "type": "httpflv",
-                          "default": true,
-                          "url": "https://play.megatech.global/live/1783828150_hd@720p.flv",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Iceland - Besta deild karla",
-            "team_a": "Fram",
-            "team_b": "Thór",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/c/c9/Fram-logo_2020_512x512.png",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/en/5/55/Thorsmerki.jpg",
-            "time": "01:00 13/07",
-            "blv": "blv-minh2",
-            "is_live": false,
-            "cate_type": "football",
-            "time_start": 1783879200
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-be572a4a0b_fb73a62a_20260713.png?v=fb73a62a",
             "width": 1600,
             "height": 1200
           }
