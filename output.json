@@ -799,11 +799,83 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (3 LIVE)",
+      "name": "⚽ Bóng Đá (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "gv-0a16111de8",
+          "name": "Sydney United  vs Rockdale City Suns | 11:30 12/07",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-0a16111de8",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-0a16111de8",
+                  "name": "Sydney United  vs Rockdale City Suns",
+                  "streams": [
+                    {
+                      "id": "st-0a16111de8",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-fcbb9428db",
+                          "name": "Link HD 720p",
+                          "type": "httpflv",
+                          "default": true,
+                          "url": "https://play.megatech.global/live/1783814429_hd@720p.flv",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Australia - NPL NSW",
+            "team_a": "Sydney United ",
+            "team_b": "Rockdale City Suns",
+            "logo_a": "https://static.flashscore.com/res/image/data/CbwtWbEG-v59iEWvF.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/0tkFsKHG-QqxSSAN9.png",
+            "time": "11:30 12/07",
+            "blv": "BLV Trĩ",
+            "is_live": true,
+            "cate_type": "football",
+            "time_start": 1783830600
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-0a16111de8_d9163396_20260712.png?v=d9163396",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "gv-e886aa0fb0",
           "name": "St. Albans Saints  vs George Cross | 12:00 12/07",
@@ -1270,78 +1342,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-139c3c1b7c_65169d33_20260712.png?v=65169d33",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-0a16111de8",
-          "name": "Sydney United  vs Rockdale City Suns | 11:30 12/07",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-0a16111de8",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-0a16111de8",
-                  "name": "Sydney United  vs Rockdale City Suns",
-                  "streams": [
-                    {
-                      "id": "st-0a16111de8",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-fcbb9428db",
-                          "name": "Link HD 720p",
-                          "type": "httpflv",
-                          "default": true,
-                          "url": "https://play.megatech.global/live/1783814429_hd@720p.flv",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Australia - NPL NSW",
-            "team_a": "Sydney United ",
-            "team_b": "Rockdale City Suns",
-            "logo_a": "https://static.flashscore.com/res/image/data/CbwtWbEG-v59iEWvF.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/0tkFsKHG-QqxSSAN9.png",
-            "time": "11:30 12/07",
-            "blv": "BLV Trĩ",
-            "is_live": false,
-            "cate_type": "football",
-            "time_start": 1783830600
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-0a16111de8_d9163396_20260712.png?v=d9163396",
             "width": 1600,
             "height": 1200
           }
@@ -4262,83 +4262,11 @@
     },
     {
       "id": "grp-võ-thuật",
-      "name": "🥊 Võ Thuật (1 LIVE)",
+      "name": "🥊 Võ Thuật",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-9fbeffd8ad",
-          "name": "McGregor vs Holloway 2 | 04:00 12/07",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-9fbeffd8ad",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-9fbeffd8ad",
-                  "name": "McGregor vs Holloway 2",
-                  "streams": [
-                    {
-                      "id": "st-9fbeffd8ad",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-9c7fb95c91",
-                          "name": "Link HD 720p",
-                          "type": "httpflv",
-                          "default": true,
-                          "url": "https://play.megatech.global/live/1783791122_hd@720p.flv",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "UFC 329",
-            "team_a": "McGregor",
-            "team_b": "Holloway 2",
-            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtSVc8vghl3O2OqtsTXcQSK9L0F4VWXkvXjvkgplzRs-EaFjoRICcmhS_X&s=10",
-            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzIVmFrKWaM6Gjq1n38O2MGI9qyZ6pK-ZpzuW8I_J-5Lkr30wQLn_5E0_I&s=10",
-            "time": "04:00 12/07",
-            "blv": "BLV Cầy, du-phong2",
-            "is_live": true,
-            "cate_type": "vothuat",
-            "time_start": 1783803600
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-9fbeffd8ad_38ae3512_20260712.png?v=38ae3512",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-6e3fbcc38d",
           "name": "ONE Friday Fights 162  vs The Inner Circle 22 | 18:30 17/07",
