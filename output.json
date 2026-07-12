@@ -799,11 +799,87 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (1 LIVE)",
+      "name": "⚽ Bóng Đá (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "xc-685b97cd5c",
+          "name": "CRB vs Goias | 05:00 13/07",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-685b97cd5c",
+              "name": "XayConTV",
+              "contents": [
+                {
+                  "id": "ct-685b97cd5c",
+                  "name": "CRB vs Goias",
+                  "streams": [
+                    {
+                      "id": "st-685b97cd5c",
+                      "name": "XC",
+                      "stream_links": [
+                        {
+                          "id": "lnk-fde7f94b4e",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://xclive.yarncdn.live/live/xctv_blv_chuoi/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.xaycon3.live/"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://sv2.xaycon3.live"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Serie B",
+            "team_a": "CRB",
+            "team_b": "Goias",
+            "logo_a": "https://media.api-sports.io/football/teams/146.png",
+            "logo_b": "https://media.api-sports.io/football/teams/151.png",
+            "time": "05:00",
+            "date": "13/07",
+            "blv": "BLV Ciu",
+            "is_live": true,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/xaycon-stream/refs/heads/main/thumbs/xc-685b97cd5c_f2f2ad0d_20260713.png?v=f2f2ad0d",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "bg-ac53fab47b",
           "name": "Sportivo San Juan vs Marin | 09:00 13/07",
@@ -1530,82 +1606,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Djurgardens IF_Halmstad_00-00 14-07_df858971_20260713.png?v=df858971",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "xc-685b97cd5c",
-          "name": "CRB vs Goias | 05:00 13/07",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-685b97cd5c",
-              "name": "XayConTV",
-              "contents": [
-                {
-                  "id": "ct-685b97cd5c",
-                  "name": "CRB vs Goias",
-                  "streams": [
-                    {
-                      "id": "st-685b97cd5c",
-                      "name": "XC",
-                      "stream_links": [
-                        {
-                          "id": "lnk-fde7f94b4e",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://xclive.yarncdn.live/live/xctv_blv_chuoi/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.xaycon3.live/"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://sv2.xaycon3.live"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Serie B",
-            "team_a": "CRB",
-            "team_b": "Goias",
-            "logo_a": "https://media.api-sports.io/football/teams/146.png",
-            "logo_b": "https://media.api-sports.io/football/teams/151.png",
-            "time": "05:00",
-            "date": "13/07",
-            "blv": "BLV Ciu",
-            "is_live": false,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/xaycon-stream/refs/heads/main/thumbs/xc-685b97cd5c_f2f2ad0d_20260713.png?v=f2f2ad0d",
             "width": 1600,
             "height": 1200
           }
