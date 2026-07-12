@@ -799,11 +799,83 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "gv-e886aa0fb0",
+          "name": "St. Albans Saints  vs George Cross | 12:00 12/07",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-e886aa0fb0",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-e886aa0fb0",
+                  "name": "St. Albans Saints  vs George Cross",
+                  "streams": [
+                    {
+                      "id": "st-e886aa0fb0",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-e27ee5142e",
+                          "name": "Link HD 720p",
+                          "type": "httpflv",
+                          "default": true,
+                          "url": "https://play.megatech.global/live/1783814506_hd@720p.flv",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Australia - NPL Victoria",
+            "team_a": "St. Albans Saints ",
+            "team_b": "George Cross",
+            "logo_a": "https://static.flashscore.com/res/image/data/Q9z2izil-AiG5cwAt.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/tMuE3ZEa-ltdRM4ne.png",
+            "time": "12:00 12/07",
+            "blv": "BLV Bón",
+            "is_live": true,
+            "cate_type": "football",
+            "time_start": 1783832400
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-e886aa0fb0_93e1083b_20260712.png?v=93e1083b",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "hqlive-79048f8326",
           "name": "Argentina vs Switzerland | 08:00 12/07",
@@ -1270,78 +1342,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-0a16111de8_d9163396_20260712.png?v=d9163396",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-e886aa0fb0",
-          "name": "St. Albans Saints  vs George Cross | 12:00 12/07",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-e886aa0fb0",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-e886aa0fb0",
-                  "name": "St. Albans Saints  vs George Cross",
-                  "streams": [
-                    {
-                      "id": "st-e886aa0fb0",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-e27ee5142e",
-                          "name": "Link HD 720p",
-                          "type": "httpflv",
-                          "default": true,
-                          "url": "https://play.megatech.global/live/1783814506_hd@720p.flv",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Australia - NPL Victoria",
-            "team_a": "St. Albans Saints ",
-            "team_b": "George Cross",
-            "logo_a": "https://static.flashscore.com/res/image/data/Q9z2izil-AiG5cwAt.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/tMuE3ZEa-ltdRM4ne.png",
-            "time": "12:00 12/07",
-            "blv": "BLV Bón",
-            "is_live": false,
-            "cate_type": "football",
-            "time_start": 1783832400
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-e886aa0fb0_93e1083b_20260712.png?v=93e1083b",
             "width": 1600,
             "height": 1200
           }
@@ -2469,6 +2469,60 @@
           }
         },
         {
+          "id": "gv-962f64e250",
+          "name": "KA vs ÍA | 01:00 13/07",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-962f64e250",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-962f64e250",
+                  "name": "KA vs ÍA",
+                  "streams": [
+                    {
+                      "id": "st-962f64e250",
+                      "name": "GV",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Iceland - Besta deild karla",
+            "team_a": "KA",
+            "team_b": "ÍA",
+            "logo_a": "https://cdn.keobongvip.digital/images/teams/dce20dacda09eff675b2c38b6e7cd91b.png",
+            "logo_b": "https://images.keovip88.net/images/teams/botafogo-sp.png",
+            "time": "01:00 13/07",
+            "blv": "BLV Mason",
+            "is_live": false,
+            "cate_type": "football",
+            "time_start": 1783879200
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-962f64e250_5a0e1e6d_20260712.png?v=5a0e1e6d",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "gv-be572a4a0b",
           "name": "Fram vs Thór | 01:00 13/07",
           "type": "single",
@@ -2518,6 +2572,114 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-be572a4a0b_fb73a62a_20260712.png?v=fb73a62a",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-0aad7f4d44",
+          "name": "Sao Bernardo vs Cuiaba | 02:00 13/07",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-0aad7f4d44",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-0aad7f4d44",
+                  "name": "Sao Bernardo vs Cuiaba",
+                  "streams": [
+                    {
+                      "id": "st-0aad7f4d44",
+                      "name": "GV",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Brazil Serie B",
+            "team_a": "Sao Bernardo",
+            "team_b": "Cuiaba",
+            "logo_a": "https://images.keovip88.net/images/teams/sao-bernardo.png",
+            "logo_b": "https://images.keovip88.net/images/teams/cuiaba.png",
+            "time": "02:00 13/07",
+            "blv": "blv-beo",
+            "is_live": false,
+            "cate_type": "football",
+            "time_start": 1783882800
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-0aad7f4d44_ba476501_20260712.png?v=ba476501",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-1e9f392072",
+          "name": "CF Montréal vs Vancouver FC | 06:30 13/07",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-1e9f392072",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-1e9f392072",
+                  "name": "CF Montréal vs Vancouver FC",
+                  "streams": [
+                    {
+                      "id": "st-1e9f392072",
+                      "name": "GV",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Canada - Canadian Championship",
+            "team_a": "CF Montréal",
+            "team_b": "Vancouver FC",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Logo_of_CF_Montreal_2023.svg",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Vancouver_Whitecaps_logo.svg/250px-Vancouver_Whitecaps_logo.svg.png",
+            "time": "06:30 13/07",
+            "blv": "BLV Mát",
+            "is_live": false,
+            "cate_type": "football",
+            "time_start": 1783899000
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-1e9f392072_02cd0f12_20260712.png?v=02cd0f12",
             "width": 1600,
             "height": 1200
           }
