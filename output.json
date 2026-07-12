@@ -799,7 +799,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (4 LIVE)",
+      "name": "⚽ Bóng Đá (5 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1130,6 +1130,77 @@
           }
         },
         {
+          "id": "hqlive-33ada1339d",
+          "name": "Tianjin Teda vs Shenyang Urban | 18:00 12/07",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-33ada1339d",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-33ada1339d",
+                  "name": "Tianjin Teda vs Shenyang Urban",
+                  "streams": [
+                    {
+                      "id": "st-33ada1339d",
+                      "name": "HQ",
+                      "stream_links": [
+                        {
+                          "id": "lnk-fd31283a76",
+                          "name": "BLV PHAN ANH",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phananh/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Super League",
+            "team_a": "Tianjin Teda",
+            "team_b": "Shenyang Urban",
+            "logo_a": "https://media.api-sports.io/football/teams/837.png",
+            "logo_b": "https://media.api-sports.io/football/teams/5684.png",
+            "time": "18:00 12/07",
+            "blv": "BLV PHAN ANH",
+            "is_live": true,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Tianjin Teda_Shenyang Urban_18-00 12-07_7f72a073_20260712.png?v=7f72a073",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "bg-3366297a63",
           "name": "Hammarby FF vs Kalmar FF | 19:00 12/07",
           "type": "single",
@@ -1196,59 +1267,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-3366297a63_fc941133_20260712.png?v=fc941133",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "hqlive-33ada1339d",
-          "name": "Tianjin Teda vs Shenyang Urban | 18:00 12/07",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-33ada1339d",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-33ada1339d",
-                  "name": "Tianjin Teda vs Shenyang Urban",
-                  "streams": [
-                    {
-                      "id": "st-33ada1339d",
-                      "name": "HQ",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Super League",
-            "team_a": "Tianjin Teda",
-            "team_b": "Shenyang Urban",
-            "logo_a": "https://media.api-sports.io/football/teams/837.png",
-            "logo_b": "https://media.api-sports.io/football/teams/5684.png",
-            "time": "18:00 12/07",
-            "blv": "BLV PHAN ANH",
-            "is_live": false,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Tianjin Teda_Shenyang Urban_18-00 12-07_7f72a073_20260712.png?v=7f72a073",
             "width": 1600,
             "height": 1200
           }
@@ -2593,6 +2611,82 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/xaycon-stream/refs/heads/main/thumbs/xc-6ff7098d5d_c145beb8_20260712.png?v=c145beb8",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-685b97cd5c",
+          "name": "CRB vs Goias | 05:00 13/07",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-685b97cd5c",
+              "name": "XayConTV",
+              "contents": [
+                {
+                  "id": "ct-685b97cd5c",
+                  "name": "CRB vs Goias",
+                  "streams": [
+                    {
+                      "id": "st-685b97cd5c",
+                      "name": "XC",
+                      "stream_links": [
+                        {
+                          "id": "lnk-fde7f94b4e",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://xclive.yarncdn.live/live/xctv_blv_chuoi/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.xaycon3.live/"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://sv2.xaycon3.live"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Serie B",
+            "team_a": "CRB",
+            "team_b": "Goias",
+            "logo_a": "https://media.api-sports.io/football/teams/146.png",
+            "logo_b": "https://media.api-sports.io/football/teams/151.png",
+            "time": "05:00",
+            "date": "13/07",
+            "blv": "BLV Ciu",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/xaycon-stream/refs/heads/main/thumbs/xc-685b97cd5c_f2f2ad0d_20260712.png?v=f2f2ad0d",
             "width": 1600,
             "height": 1200
           }
