@@ -799,7 +799,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -877,77 +877,6 @@
           }
         },
         {
-          "id": "bg-3366297a63",
-          "name": "Hammarby FF vs Kalmar FF | 19:00 12/07",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-3366297a63",
-              "name": "BugioTV",
-              "contents": [
-                {
-                  "id": "ct-3366297a63",
-                  "name": "Hammarby FF vs Kalmar FF",
-                  "streams": [
-                    {
-                      "id": "st-3366297a63",
-                      "name": "BG",
-                      "stream_links": [
-                        {
-                          "id": "lnk-ad68922ab2",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_max/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv1.bugio9.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Allsvenskan",
-            "team_a": "Hammarby FF",
-            "team_b": "Kalmar FF",
-            "logo_a": "https://media.api-sports.io/football/teams/363.png",
-            "logo_b": "https://media.api-sports.io/football/teams/374.png",
-            "start_time": "2026-07-12T19:00:00",
-            "blv": "BLV Max",
-            "is_live": false,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-3366297a63_fc941133_20260712.png?v=fc941133",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "gv-9df8ebe2c3",
           "name": "FC Seoul vs Gangwon FC | 17:30 12/07",
           "type": "single",
@@ -955,10 +884,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -1080,7 +1009,7 @@
             "logo_b": "https://images.keovip88.net/images/teams/gangwon-fc.png",
             "time": "17:30 12/07",
             "blv": "BLV Bón",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football",
             "time_start": 1783852200
           },
@@ -1089,6 +1018,77 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-9df8ebe2c3_2ee03112_20260712.png?v=2ee03112",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "bg-3366297a63",
+          "name": "Hammarby FF vs Kalmar FF | 19:00 12/07",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-3366297a63",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-3366297a63",
+                  "name": "Hammarby FF vs Kalmar FF",
+                  "streams": [
+                    {
+                      "id": "st-3366297a63",
+                      "name": "BG",
+                      "stream_links": [
+                        {
+                          "id": "lnk-ad68922ab2",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_max/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Allsvenskan",
+            "team_a": "Hammarby FF",
+            "team_b": "Kalmar FF",
+            "logo_a": "https://media.api-sports.io/football/teams/363.png",
+            "logo_b": "https://media.api-sports.io/football/teams/374.png",
+            "start_time": "2026-07-12T19:00:00",
+            "blv": "BLV Max",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-3366297a63_fc941133_20260712.png?v=fc941133",
             "width": 1600,
             "height": 1200
           }
@@ -2564,6 +2564,59 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "hqlive-81b22d9ae1",
+          "name": "Jannik Sinner vs Alexandet Zverev | 22:00 12/07",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-81b22d9ae1",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-81b22d9ae1",
+                  "name": "Jannik Sinner vs Alexandet Zverev",
+                  "streams": [
+                    {
+                      "id": "st-81b22d9ae1",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "ATP500",
+            "team_a": "Jannik Sinner",
+            "team_b": "Alexandet Zverev",
+            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtkuD4iDpTTtrKYv1EJ3LPjU01T_fPpfF-hg&s",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/2/2e/Zverev_MCM23_%2820%29.jpg",
+            "time": "22:00 12/07",
+            "blv": "BLV PHAN HẢI",
+            "is_live": false,
+            "sport_slug": "tennis"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Jannik Sinner_Alexandet Zverev_22-00 12-07_4f4f5c6c_20260712.png?v=4f4f5c6c",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     },
@@ -3242,7 +3295,7 @@
     },
     {
       "id": "grp-bóng-chuyền",
-      "name": "🏐 Bóng Chuyền (2 LIVE)",
+      "name": "🏐 Bóng Chuyền (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -3399,10 +3452,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -3450,7 +3503,7 @@
             "logo_b": "https://static.flashscore.com/res/image/data/WKTUghyB-612vZEE1.png",
             "time": "17:20 12/07",
             "blv": "BLV Sún",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "bongchuyen",
             "time_start": 1783851600
           },
