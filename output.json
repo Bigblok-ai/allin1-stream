@@ -799,11 +799,157 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "gv-1e9f392072",
+          "name": "CF Montréal vs Vancouver FC | 06:30 13/07",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-1e9f392072",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-1e9f392072",
+                  "name": "CF Montréal vs Vancouver FC",
+                  "streams": [
+                    {
+                      "id": "st-1e9f392072",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-5d8a251699",
+                          "name": "Link HD 720p",
+                          "type": "httpflv",
+                          "default": true,
+                          "url": "https://play.megatech.global/live/1783828453_hd@720p.flv",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-569aa793e6",
+              "name": "XayConTV",
+              "contents": [
+                {
+                  "id": "ct-569aa793e6",
+                  "name": "CF Montreal vs Vancouver FC",
+                  "streams": [
+                    {
+                      "id": "st-569aa793e6",
+                      "name": "Xaycon - BLV Kent",
+                      "stream_links": [
+                        {
+                          "id": "lnk-b9f74b1c23",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://xclive.yarncdn.live/live/xctv_blv_phubeo/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.xaycon3.live/"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://sv2.xaycon3.live"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-d0cbf1a1aa",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-d0cbf1a1aa",
+                  "name": "CF Montreal vs Vancouver FC",
+                  "streams": [
+                    {
+                      "id": "st-d0cbf1a1aa",
+                      "name": "Bugio - BLV Tiểu Mèo",
+                      "stream_links": [
+                        {
+                          "id": "lnk-21936c1c94",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_tieumeo/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Canada - Canadian Championship",
+            "team_a": "CF Montréal",
+            "team_b": "Vancouver FC",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Logo_of_CF_Montreal_2023.svg",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Vancouver_Whitecaps_logo.svg/250px-Vancouver_Whitecaps_logo.svg.png",
+            "time": "06:30 13/07",
+            "blv": "BLV Mát",
+            "is_live": true,
+            "cate_type": "football",
+            "time_start": 1783899000
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-1e9f392072_02cd0f12_20260713.png?v=02cd0f12",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "xc-685b97cd5c",
           "name": "CRB vs Goias | 05:00 13/07",
@@ -947,152 +1093,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-ac53fab47b_3e2e704f_20260713.png?v=3e2e704f",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-1e9f392072",
-          "name": "CF Montréal vs Vancouver FC | 06:30 13/07",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-1e9f392072",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-1e9f392072",
-                  "name": "CF Montréal vs Vancouver FC",
-                  "streams": [
-                    {
-                      "id": "st-1e9f392072",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-5d8a251699",
-                          "name": "Link HD 720p",
-                          "type": "httpflv",
-                          "default": true,
-                          "url": "https://play.megatech.global/live/1783828453_hd@720p.flv",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "src-569aa793e6",
-              "name": "XayConTV",
-              "contents": [
-                {
-                  "id": "ct-569aa793e6",
-                  "name": "CF Montreal vs Vancouver FC",
-                  "streams": [
-                    {
-                      "id": "st-569aa793e6",
-                      "name": "Xaycon - BLV Kent",
-                      "stream_links": [
-                        {
-                          "id": "lnk-b9f74b1c23",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://xclive.yarncdn.live/live/xctv_blv_phubeo/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.xaycon3.live/"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://sv2.xaycon3.live"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "src-d0cbf1a1aa",
-              "name": "BugioTV",
-              "contents": [
-                {
-                  "id": "ct-d0cbf1a1aa",
-                  "name": "CF Montreal vs Vancouver FC",
-                  "streams": [
-                    {
-                      "id": "st-d0cbf1a1aa",
-                      "name": "Bugio - BLV Tiểu Mèo",
-                      "stream_links": [
-                        {
-                          "id": "lnk-21936c1c94",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_tieumeo/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv1.bugio9.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Canada - Canadian Championship",
-            "team_a": "CF Montréal",
-            "team_b": "Vancouver FC",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Logo_of_CF_Montreal_2023.svg",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Vancouver_Whitecaps_logo.svg/250px-Vancouver_Whitecaps_logo.svg.png",
-            "time": "06:30 13/07",
-            "blv": "BLV Mát",
-            "is_live": false,
-            "cate_type": "football",
-            "time_start": 1783899000
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-1e9f392072_02cd0f12_20260713.png?v=02cd0f12",
             "width": 1600,
             "height": 1200
           }
