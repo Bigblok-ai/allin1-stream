@@ -799,7 +799,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (5 LIVE)",
+      "name": "⚽ Bóng Đá (7 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -948,6 +948,192 @@
           }
         },
         {
+          "id": "hqlive-cfa388759b",
+          "name": "Chelyabinsk vs Ska-khabarovsk | 21:00 13/07",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-cfa388759b",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-cfa388759b",
+                  "name": "Chelyabinsk vs Ska-khabarovsk",
+                  "streams": [
+                    {
+                      "id": "st-cfa388759b",
+                      "name": "HQ",
+                      "stream_links": [
+                        {
+                          "id": "lnk-975fc55dd1",
+                          "name": "BLV LƯƠNG BỔNG",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanliem/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-74a36bfe91",
+              "name": "XayConTV",
+              "contents": [
+                {
+                  "id": "ct-74a36bfe91",
+                  "name": "Chelyabinsk vs Ska-khabarovsk",
+                  "streams": [
+                    {
+                      "id": "st-74a36bfe91",
+                      "name": "Xaycon - BLV PIB",
+                      "stream_links": [
+                        {
+                          "id": "lnk-30319ba8f3",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://xclive.yarncdn.live/live/xctv_blv_bipcon/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.xaycon3.live/"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://sv2.xaycon3.live"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "First League",
+            "team_a": "Chelyabinsk",
+            "team_b": "Ska-khabarovsk",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/CoA_of_Chelyabinsk_%282000%29.svg/250px-CoA_of_Chelyabinsk_%282000%29.svg.png",
+            "logo_b": "https://media.api-sports.io/football/teams/1087.png",
+            "time": "21:00 13/07",
+            "blv": "BLV LƯƠNG BỔNG",
+            "is_live": true,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Chelyabinsk_Ska-khabarovsk_21-00 13-07_299898ca_20260713.png?v=299898ca",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-6cd01ea901",
+          "name": "Ural vs Torpedo Moskva | 21:00 13/07",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-6cd01ea901",
+              "name": "XayConTV",
+              "contents": [
+                {
+                  "id": "ct-6cd01ea901",
+                  "name": "Ural vs Torpedo Moskva",
+                  "streams": [
+                    {
+                      "id": "st-6cd01ea901",
+                      "name": "XC",
+                      "stream_links": [
+                        {
+                          "id": "lnk-bccd486b79",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://xclive.yarncdn.live/live/xctv_blv_tammao/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.xaycon3.live/"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://sv2.xaycon3.live"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "First League",
+            "team_a": "Ural",
+            "team_b": "Torpedo Moskva",
+            "logo_a": "https://media.api-sports.io/football/teams/1084.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/1/14/FC_Torpedo_Moscow_Logotype_2023.png",
+            "time": "21:00",
+            "date": "13/07",
+            "blv": "BLV Tam Mao",
+            "is_live": true,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/xaycon-stream/refs/heads/main/thumbs/xc-6cd01ea901_851bb4d6_20260713.png?v=851bb4d6",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "bg-a084f26f69",
           "name": "Nữ Singapore vs Nữ Lào | 19:45 13/07",
           "type": "single",
@@ -1026,10 +1212,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -1077,7 +1263,7 @@
             "logo_b": "https://media.api-sports.io/football/teams/4572.png",
             "start_time": "2026-07-13T21:00:00",
             "blv": "BLV Chim Nhỏ",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football"
           },
           "image": {
@@ -1156,98 +1342,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-43c656628a_4ba3ae50_20260713.png?v=4ba3ae50",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "hqlive-cfa388759b",
-          "name": "Chelyabinsk vs Ska-khabarovsk | 21:00 13/07",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-cfa388759b",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-cfa388759b",
-                  "name": "Chelyabinsk vs Ska-khabarovsk",
-                  "streams": [
-                    {
-                      "id": "st-cfa388759b",
-                      "name": "HQ",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "src-74a36bfe91",
-              "name": "XayConTV",
-              "contents": [
-                {
-                  "id": "ct-74a36bfe91",
-                  "name": "Chelyabinsk vs Ska-khabarovsk",
-                  "streams": [
-                    {
-                      "id": "st-74a36bfe91",
-                      "name": "Xaycon - BLV PIB",
-                      "stream_links": [
-                        {
-                          "id": "lnk-30319ba8f3",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://xclive.yarncdn.live/live/xctv_blv_bipcon/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.xaycon3.live/"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://sv2.xaycon3.live"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "First League",
-            "team_a": "Chelyabinsk",
-            "team_b": "Ska-khabarovsk",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/CoA_of_Chelyabinsk_%282000%29.svg/250px-CoA_of_Chelyabinsk_%282000%29.svg.png",
-            "logo_b": "https://media.api-sports.io/football/teams/1087.png",
-            "time": "21:00 13/07",
-            "blv": "BLV LƯƠNG BỔNG",
-            "is_live": false,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Chelyabinsk_Ska-khabarovsk_21-00 13-07_299898ca_20260713.png?v=299898ca",
             "width": 1600,
             "height": 1200
           }
@@ -2523,82 +2617,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/xaycon-stream/refs/heads/main/thumbs/xc-89c2205dae_625ddb04_20260713.png?v=625ddb04",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "xc-6cd01ea901",
-          "name": "Ural vs Torpedo Moskva | 21:00 13/07",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-6cd01ea901",
-              "name": "XayConTV",
-              "contents": [
-                {
-                  "id": "ct-6cd01ea901",
-                  "name": "Ural vs Torpedo Moskva",
-                  "streams": [
-                    {
-                      "id": "st-6cd01ea901",
-                      "name": "XC",
-                      "stream_links": [
-                        {
-                          "id": "lnk-bccd486b79",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://xclive.yarncdn.live/live/xctv_blv_tammao/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.xaycon3.live/"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://sv2.xaycon3.live"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "First League",
-            "team_a": "Ural",
-            "team_b": "Torpedo Moskva",
-            "logo_a": "https://media.api-sports.io/football/teams/1084.png",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/1/14/FC_Torpedo_Moscow_Logotype_2023.png",
-            "time": "21:00",
-            "date": "13/07",
-            "blv": "BLV Tam Mao",
-            "is_live": false,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/xaycon-stream/refs/heads/main/thumbs/xc-6cd01ea901_851bb4d6_20260713.png?v=851bb4d6",
             "width": 1600,
             "height": 1200
           }
