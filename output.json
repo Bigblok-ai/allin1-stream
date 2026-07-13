@@ -799,11 +799,83 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (4 LIVE)",
+      "name": "⚽ Bóng Đá (5 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "gv-e953165257",
+          "name": "IFK Varnamo vs Naestved | 20:30 13/07",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-e953165257",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-e953165257",
+                  "name": "IFK Varnamo vs Naestved",
+                  "streams": [
+                    {
+                      "id": "st-e953165257",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-9c75195e05",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1783921979_hd/1783921979_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Giao hữu",
+            "team_a": "IFK Varnamo",
+            "team_b": "Naestved",
+            "logo_a": "https://images.keovip88.net/images/teams/ifk-varnamo.png",
+            "logo_b": "https://images.keovip88.net/images/teams/naestved.png",
+            "time": "20:30 13/07",
+            "blv": "BLV Trĩ",
+            "is_live": true,
+            "cate_type": "football",
+            "time_start": 1783949400
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-e953165257_14a6f2bc_20260713.png?v=14a6f2bc",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "hqlive-65697e9f78",
           "name": "Ugyen Academy vs Transport United | 19:00 13/07",
@@ -1084,78 +1156,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-43c656628a_4ba3ae50_20260713.png?v=4ba3ae50",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-e953165257",
-          "name": "IFK Varnamo vs Naestved | 20:30 13/07",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-e953165257",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-e953165257",
-                  "name": "IFK Varnamo vs Naestved",
-                  "streams": [
-                    {
-                      "id": "st-e953165257",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-9c75195e05",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1783921979_hd/1783921979_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Giao hữu",
-            "team_a": "IFK Varnamo",
-            "team_b": "Naestved",
-            "logo_a": "https://images.keovip88.net/images/teams/ifk-varnamo.png",
-            "logo_b": "https://images.keovip88.net/images/teams/naestved.png",
-            "time": "20:30 13/07",
-            "blv": "BLV Trĩ",
-            "is_live": false,
-            "cate_type": "football",
-            "time_start": 1783949400
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-e953165257_14a6f2bc_20260713.png?v=14a6f2bc",
             "width": 1600,
             "height": 1200
           }
