@@ -799,7 +799,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -942,6 +942,77 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-36f4d83282_2058b1ea_20260713.png?v=2058b1ea",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "bg-a084f26f69",
+          "name": "Nữ Singapore vs Nữ Lào | 19:45 13/07",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-a084f26f69",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-a084f26f69",
+                  "name": "Nữ Singapore vs Nữ Lào",
+                  "streams": [
+                    {
+                      "id": "st-a084f26f69",
+                      "name": "BG",
+                      "stream_links": [
+                        {
+                          "id": "lnk-d5c8f635fc",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_phimc/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Asean Championship Nữ",
+            "team_a": "Nữ Singapore ",
+            "team_b": "Nữ Lào",
+            "logo_a": "https://mediares.thethao247.vn/res/image/data/YJN4hmHG-Qq89lvZJ.png",
+            "logo_b": "https://mediares.thethao247.vn/res/image/data/4pXwrxZg-I5chyk0E.png",
+            "start_time": "2026-07-13T19:45:00",
+            "blv": "BLV Phi MC",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-a084f26f69_cf1ae17c_20260713.png?v=cf1ae17c",
             "width": 1600,
             "height": 1200
           }
