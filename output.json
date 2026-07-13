@@ -799,11 +799,156 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (3 LIVE)",
+      "name": "⚽ Bóng Đá (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "hqlive-127b221286",
+          "name": "Ningbo Professional vs Dongguan United | 18:00 13/07",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-127b221286",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-127b221286",
+                  "name": "Ningbo Professional vs Dongguan United",
+                  "streams": [
+                    {
+                      "id": "st-127b221286",
+                      "name": "HQ",
+                      "stream_links": [
+                        {
+                          "id": "lnk-b10e5b640b",
+                          "name": "BLV THẦN THÔNG",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://tdlive.yarncdn.live/live/tdtv_blv_taovannghe/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-374511ef92",
+              "name": "XayConTV",
+              "contents": [
+                {
+                  "id": "ct-374511ef92",
+                  "name": "Ningbo Professional vs Dongguan United",
+                  "streams": [
+                    {
+                      "id": "st-374511ef92",
+                      "name": "Xaycon - BLV Tam Mao",
+                      "stream_links": [
+                        {
+                          "id": "lnk-bccd486b79",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://xclive.yarncdn.live/live/xctv_blv_tammao/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.xaycon3.live/"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://sv2.xaycon3.live"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-832635d692",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-832635d692",
+                  "name": "Ningbo Professional vs Dongguan United",
+                  "streams": [
+                    {
+                      "id": "st-832635d692",
+                      "name": "Bugio - BLV Max",
+                      "stream_links": [
+                        {
+                          "id": "lnk-ad68922ab2",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_max/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "League One",
+            "team_a": "Ningbo Professional",
+            "team_b": "Dongguan United",
+            "logo_a": "https://media.api-sports.io/football/teams/27556.png",
+            "logo_b": "https://media.api-sports.io/football/teams/17263.png",
+            "time": "18:00 13/07",
+            "blv": "BLV THẦN THÔNG",
+            "is_live": true,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Ningbo Professional_Dongguan United_18-00 13-07_cfe008a2_20260713.png?v=cfe008a2",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "bg-a084f26f69",
           "name": "Nữ Singapore vs Nữ Lào | 19:45 13/07",
@@ -1013,133 +1158,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-43c656628a_4ba3ae50_20260713.png?v=4ba3ae50",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "hqlive-127b221286",
-          "name": "Ningbo Professional vs Dongguan United | 18:00 13/07",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-127b221286",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-127b221286",
-                  "name": "Ningbo Professional vs Dongguan United",
-                  "streams": [
-                    {
-                      "id": "st-127b221286",
-                      "name": "HQ",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "src-374511ef92",
-              "name": "XayConTV",
-              "contents": [
-                {
-                  "id": "ct-374511ef92",
-                  "name": "Ningbo Professional vs Dongguan United",
-                  "streams": [
-                    {
-                      "id": "st-374511ef92",
-                      "name": "Xaycon - BLV Tam Mao",
-                      "stream_links": [
-                        {
-                          "id": "lnk-bccd486b79",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://xclive.yarncdn.live/live/xctv_blv_tammao/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.xaycon3.live/"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://sv2.xaycon3.live"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "src-832635d692",
-              "name": "BugioTV",
-              "contents": [
-                {
-                  "id": "ct-832635d692",
-                  "name": "Ningbo Professional vs Dongguan United",
-                  "streams": [
-                    {
-                      "id": "st-832635d692",
-                      "name": "Bugio - BLV Max",
-                      "stream_links": [
-                        {
-                          "id": "lnk-ad68922ab2",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_max/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv1.bugio9.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "League One",
-            "team_a": "Ningbo Professional",
-            "team_b": "Dongguan United",
-            "logo_a": "https://media.api-sports.io/football/teams/27556.png",
-            "logo_b": "https://media.api-sports.io/football/teams/17263.png",
-            "time": "18:00 13/07",
-            "blv": "BLV THẦN THÔNG",
-            "is_live": false,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Ningbo Professional_Dongguan United_18-00 13-07_cfe008a2_20260713.png?v=cfe008a2",
             "width": 1600,
             "height": 1200
           }
