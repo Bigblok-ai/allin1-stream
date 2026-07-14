@@ -799,7 +799,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (1 LIVE)",
+      "name": "⚽ Bóng Đá (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1107,6 +1107,77 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-f02324e7c0_704efa9f_20260715.png?v=704efa9f",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "bg-2548a4ac7a",
+          "name": "Canada vs  Argentina | 10:00 15/07",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-2548a4ac7a",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-2548a4ac7a",
+                  "name": "Canada vs  Argentina",
+                  "streams": [
+                    {
+                      "id": "st-2548a4ac7a",
+                      "name": "BG",
+                      "stream_links": [
+                        {
+                          "id": "lnk-21936c1c94",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_tieumeo/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Nations League",
+            "team_a": "Canada",
+            "team_b": "Argentina",
+            "logo_a": "https://img0.aiscore.com/football/team/336e1c9ab6894a3b893c1ef45235a164.png!w60",
+            "logo_b": "https://img0.aiscore.com/football/team/ef7329946e1741b9ade4fedbf739158a.png!w60",
+            "start_time": "2026-07-15T10:00:00",
+            "blv": "BLV Tiểu Mèo",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-2548a4ac7a_90e66933_20260715.png?v=90e66933",
             "width": 1600,
             "height": 1200
           }
