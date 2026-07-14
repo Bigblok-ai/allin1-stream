@@ -799,11 +799,87 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (1 LIVE)",
+      "name": "⚽ Bóng Đá (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "xc-c1a5247400",
+          "name": "Dynamo vs CSKA | 15:00 14/07",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-c1a5247400",
+              "name": "XayConTV",
+              "contents": [
+                {
+                  "id": "ct-c1a5247400",
+                  "name": "Dynamo vs CSKA",
+                  "streams": [
+                    {
+                      "id": "st-c1a5247400",
+                      "name": "XC",
+                      "stream_links": [
+                        {
+                          "id": "lnk-221ed1ffcc",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://xclive.yarncdn.live/live/xctv_blv_rongdat/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.xaycon3.live/"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://sv2.xaycon3.live"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Giao Hữu",
+            "team_a": "Dynamo Moscow",
+            "team_b": "CSKA Moscow",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/en/e/e7/Dynamo_Moscow_logo.svg",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/en/thumb/2/26/PFK_CSKA_Logo.svg/960px-PFK_CSKA_Logo.svg.png",
+            "time": "15:00",
+            "date": "14/07",
+            "blv": "BLV Rồng Đất",
+            "is_live": true,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/xaycon-stream/refs/heads/main/thumbs/xc-c1a5247400_c454528e_20260714.png?v=c454528e",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "bg-1a3650aedf",
           "name": "Nữ Phong Phú Hà Nam vs Nữ TP.Hồ Chí Minh 2 | 16:00 14/07",
@@ -1291,133 +1367,6 @@
           }
         },
         {
-          "id": "hqlive-3b89a6a106",
-          "name": "Bhutan U19 vs Drukpa | 19:00 14/07",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-3b89a6a106",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-3b89a6a106",
-                  "name": "Bhutan U19 vs Drukpa",
-                  "streams": [
-                    {
-                      "id": "st-3b89a6a106",
-                      "name": "HQ",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "src-f7d5b501ef",
-              "name": "XayConTV",
-              "contents": [
-                {
-                  "id": "ct-f7d5b501ef",
-                  "name": "Bhutan U19 vs Drukpa",
-                  "streams": [
-                    {
-                      "id": "st-f7d5b501ef",
-                      "name": "Xaycon - BLV Rồng Đất",
-                      "stream_links": [
-                        {
-                          "id": "lnk-221ed1ffcc",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://xclive.yarncdn.live/live/xctv_blv_rongdat/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.xaycon3.live/"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://sv2.xaycon3.live"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "src-ab81265d89",
-              "name": "BugioTV",
-              "contents": [
-                {
-                  "id": "ct-ab81265d89",
-                  "name": "Bhutan U19 vs Drukpa",
-                  "streams": [
-                    {
-                      "id": "st-ab81265d89",
-                      "name": "Bugio - BLV Chim Nhỏ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-378f040fcb",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_cuccu/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv1.bugio9.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Premier League",
-            "team_a": "Bhutan U19",
-            "team_b": "Drukpa",
-            "logo_a": "https://media.api-sports.io/football/teams/5433.png",
-            "logo_b": "https://media.api-sports.io/football/teams/27725.png",
-            "time": "19:00 14/07",
-            "blv": "BLV THẦN THÔNG",
-            "is_live": false,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Bhutan U19_Drukpa_19-00 14-07_e39b492b_20260714.png?v=e39b492b",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "hqlive-23da989430",
           "name": "Muras United vs Bars | 21:00 14/07",
           "type": "single",
@@ -1538,59 +1487,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-bb0dbc2608_58c6d8a1_20260714.png?v=58c6d8a1",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "hqlive-bee9e514d1",
-          "name": "Saburtalo vs Flora Tallinn | 23:00 14/07",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-bee9e514d1",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-bee9e514d1",
-                  "name": "Saburtalo vs Flora Tallinn",
-                  "streams": [
-                    {
-                      "id": "st-bee9e514d1",
-                      "name": "HQ",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "UEFA Champions League",
-            "team_a": "Saburtalo",
-            "team_b": "Flora Tallinn",
-            "logo_a": "https://media.api-sports.io/football/teams/3502.png",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/en/thumb/e/ee/FC_Flora_logo.svg/250px-FC_Flora_logo.svg.png",
-            "time": "23:00 14/07",
-            "blv": "BLV THẦN THÔNG",
-            "is_live": false,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Saburtalo_Flora Tallinn_23-00 14-07_1ce63444_20260714.png?v=1ce63444",
             "width": 1600,
             "height": 1200
           }
@@ -1928,82 +1824,6 @@
           }
         },
         {
-          "id": "xc-c1a5247400",
-          "name": "Dynamo vs CSKA | 15:00 14/07",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-c1a5247400",
-              "name": "XayConTV",
-              "contents": [
-                {
-                  "id": "ct-c1a5247400",
-                  "name": "Dynamo vs CSKA",
-                  "streams": [
-                    {
-                      "id": "st-c1a5247400",
-                      "name": "XC",
-                      "stream_links": [
-                        {
-                          "id": "lnk-221ed1ffcc",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://xclive.yarncdn.live/live/xctv_blv_rongdat/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.xaycon3.live/"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://sv2.xaycon3.live"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Giao Hữu",
-            "team_a": "Dynamo Moscow",
-            "team_b": "CSKA Moscow",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/en/e/e7/Dynamo_Moscow_logo.svg",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/en/thumb/2/26/PFK_CSKA_Logo.svg/960px-PFK_CSKA_Logo.svg.png",
-            "time": "15:00",
-            "date": "14/07",
-            "blv": "BLV Rồng Đất",
-            "is_live": false,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/xaycon-stream/refs/heads/main/thumbs/xc-c1a5247400_c454528e_20260714.png?v=c454528e",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "xc-89c2205dae",
           "name": "Suwon City FC vs Pyeongchang United | 17:00 15/07",
           "type": "single",
@@ -2075,6 +1895,117 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/xaycon-stream/refs/heads/main/thumbs/xc-89c2205dae_625ddb04_20260714.png?v=625ddb04",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-f7d5b501ef",
+          "name": "Bhutan U19 vs Drukpa | 19:00 14/07",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-f7d5b501ef",
+              "name": "XayConTV",
+              "contents": [
+                {
+                  "id": "ct-f7d5b501ef",
+                  "name": "Bhutan U19 vs Drukpa",
+                  "streams": [
+                    {
+                      "id": "st-f7d5b501ef",
+                      "name": "XC",
+                      "stream_links": [
+                        {
+                          "id": "lnk-221ed1ffcc",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://xclive.yarncdn.live/live/xctv_blv_rongdat/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.xaycon3.live/"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://sv2.xaycon3.live"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-ab81265d89",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-ab81265d89",
+                  "name": "Bhutan U19 vs Drukpa",
+                  "streams": [
+                    {
+                      "id": "st-ab81265d89",
+                      "name": "Bugio - BLV Chim Nhỏ",
+                      "stream_links": [
+                        {
+                          "id": "lnk-378f040fcb",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_cuccu/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Premier League",
+            "team_a": "Bhutan U19",
+            "team_b": "Drukpa",
+            "logo_a": "https://media.api-sports.io/football/teams/5433.png",
+            "logo_b": "https://media.api-sports.io/football/teams/27725.png",
+            "time": "19:00",
+            "date": "14/07",
+            "blv": "BLV Rồng Đất",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/xaycon-stream/refs/heads/main/thumbs/xc-f7d5b501ef_5cf78f8f_20260714.png?v=5cf78f8f",
             "width": 1600,
             "height": 1200
           }
