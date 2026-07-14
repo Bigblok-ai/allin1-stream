@@ -799,7 +799,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (9 LIVE)",
+      "name": "⚽ Bóng Đá (10 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1131,8 +1131,8 @@
           }
         },
         {
-          "id": "xc-bf3e13fdc6",
-          "name": "Bhutan U19 vs Drukpa | 19:00 14/07",
+          "id": "xc-093ce7cf85",
+          "name": "AB Copenhagen vs Helsingborg | 19:00 14/07",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1146,15 +1146,15 @@
           ],
           "sources": [
             {
-              "id": "src-bf3e13fdc6",
+              "id": "src-093ce7cf85",
               "name": "XayConTV",
               "contents": [
                 {
-                  "id": "ct-bf3e13fdc6",
-                  "name": "Bhutan U19 vs Drukpa",
+                  "id": "ct-093ce7cf85",
+                  "name": "AB Copenhagen vs Helsingborg",
                   "streams": [
                     {
-                      "id": "st-bf3e13fdc6",
+                      "id": "st-093ce7cf85",
                       "name": "XC",
                       "stream_links": [
                         {
@@ -1183,49 +1183,14 @@
                   ]
                 }
               ]
-            },
-            {
-              "id": "src-ab81265d89",
-              "name": "BugioTV",
-              "contents": [
-                {
-                  "id": "ct-ab81265d89",
-                  "name": "Bhutan U19 vs Drukpa",
-                  "streams": [
-                    {
-                      "id": "st-ab81265d89",
-                      "name": "Bugio - BLV Chim Nhỏ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-378f040fcb",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_cuccu/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv1.bugio9.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
             }
           ],
           "org_metadata": {
-            "league": "Ngoại hạng Bhutan",
-            "team_a": "Bhutan U19",
-            "team_b": "Drukpa",
-            "logo_a": "https://media.api-sports.io/football/teams/5433.png",
-            "logo_b": "https://media.api-sports.io/football/teams/27725.png",
+            "league": "Friendlies Clubs",
+            "team_a": "AB Copenhagen",
+            "team_b": "Helsingborg",
+            "logo_a": "https://media.api-sports.io/football/teams/2060.png",
+            "logo_b": "https://media.api-sports.io/football/teams/811.png",
             "time": "19:00",
             "date": "14/07",
             "blv": "BLV Rồng Đất",
@@ -1236,7 +1201,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/xaycon-stream/refs/heads/main/thumbs/xc-bf3e13fdc6_5cf78f8f_20260714.png?v=5cf78f8f",
+            "url": "https://raw.githubusercontent.com/jasminliu98/xaycon-stream/refs/heads/main/thumbs/xc-093ce7cf85_349b01ad_20260714.png?v=349b01ad",
             "width": 1600,
             "height": 1200
           }
@@ -1308,6 +1273,77 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-1a3650aedf_bb70daaf_20260714.png?v=bb70daaf",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "bg-ab81265d89",
+          "name": "Bhutan U19 vs Drukpa | 19:00 14/07",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-ab81265d89",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-ab81265d89",
+                  "name": "Bhutan U19 vs Drukpa",
+                  "streams": [
+                    {
+                      "id": "st-ab81265d89",
+                      "name": "BG",
+                      "stream_links": [
+                        {
+                          "id": "lnk-378f040fcb",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_cuccu/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Premier League",
+            "team_a": "Bhutan U19",
+            "team_b": "Drukpa",
+            "logo_a": "https://media.api-sports.io/football/teams/5433.png",
+            "logo_b": "https://media.api-sports.io/football/teams/27725.png",
+            "start_time": "2026-07-14T19:00:00",
+            "blv": "BLV Chim Nhỏ",
+            "is_live": true,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-ab81265d89_e44550b8_20260714.png?v=e44550b8",
             "width": 1600,
             "height": 1200
           }
@@ -3760,7 +3796,25 @@
                     {
                       "id": "st-10bfe617f8",
                       "name": "GV",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-11e7205b38",
+                          "name": "Link HD 720p",
+                          "type": "httpflv",
+                          "default": true,
+                          "url": "https://play.megatech.global/live/1783905085_hd@720p.flv",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
