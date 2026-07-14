@@ -799,7 +799,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (6 LIVE)",
+      "name": "⚽ Bóng Đá (5 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1256,77 +1256,6 @@
           }
         },
         {
-          "id": "hqlive-2b7f31a47b",
-          "name": "The New Saints vs Sabah FA | 00:30 15/07",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-2b7f31a47b",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-2b7f31a47b",
-                  "name": "The New Saints vs Sabah FA",
-                  "streams": [
-                    {
-                      "id": "st-2b7f31a47b",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-1cad2e4412",
-                          "name": "BLV TÁO GIÀ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://tdlive.yarncdn.live/live/tdtv_blv_taotinhtao/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "UEFA Champions League",
-            "team_a": "The New Saints",
-            "team_b": "Sabah FA",
-            "logo_a": "https://media.api-sports.io/football/teams/354.png",
-            "logo_b": "https://media.api-sports.io/football/teams/2505.png",
-            "time": "00:30 15/07",
-            "blv": "BLV TÁO GIÀ",
-            "is_live": true,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/The New Saints_Sabah FA_00-30 15-07_fac9da04_20260715.png?v=fac9da04",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "bg-2f4ccb0f7a",
           "name": "Levski Sofia vs Borac Banja Luka | 00:30 15/07",
           "type": "single",
@@ -1715,6 +1644,98 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Ajax_VfL Bochum_22-00 15-07_9749c338_20260715.png?v=9749c338",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-6aa866f9bc",
+          "name": "JIPPO vs MP | 22:30 15/07",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-6aa866f9bc",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-6aa866f9bc",
+                  "name": "JIPPO vs MP",
+                  "streams": [
+                    {
+                      "id": "st-6aa866f9bc",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-90f319e412",
+              "name": "XayConTV",
+              "contents": [
+                {
+                  "id": "ct-90f319e412",
+                  "name": "JIPPO vs MP",
+                  "streams": [
+                    {
+                      "id": "st-90f319e412",
+                      "name": "Xaycon - BLV Ciu",
+                      "stream_links": [
+                        {
+                          "id": "lnk-fde7f94b4e",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://xclive.yarncdn.live/live/xctv_blv_chuoi/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.xaycon3.live/"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://sv2.xaycon3.live"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Ykkösliiga",
+            "team_a": "JIPPO",
+            "team_b": "MP",
+            "logo_a": "https://media.api-sports.io/football/teams/9172.png",
+            "logo_b": "https://media.api-sports.io/football/teams/9175.png",
+            "time": "22:30 15/07",
+            "blv": "BLV PHAN CA",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/JIPPO_MP_22-30 15-07_39de5fa9_20260715.png?v=39de5fa9",
             "width": 1600,
             "height": 1200
           }
