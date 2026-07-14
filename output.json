@@ -799,11 +799,83 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (6 LIVE)",
+      "name": "⚽ Bóng Đá (7 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "gv-bb0dbc2608",
+          "name": "KuPS vs FC Vardar Skopje | 22:00 14/07",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-bb0dbc2608",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-bb0dbc2608",
+                  "name": "KuPS vs FC Vardar Skopje",
+                  "streams": [
+                    {
+                      "id": "st-bb0dbc2608",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-b557ae11c8",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1783930064_hd/1783930064_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "C1",
+            "team_a": "KuPS",
+            "team_b": "FC Vardar Skopje",
+            "logo_a": "https://images.keovip88.net/images/teams/kups.png",
+            "logo_b": "https://images.keovip88.net/images/teams/fc-vardar-skopje.png",
+            "time": "22:00 14/07",
+            "blv": "BLV Bón",
+            "is_live": true,
+            "cate_type": "football",
+            "time_start": 1784041200
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-bb0dbc2608_58c6d8a1_20260714.png?v=58c6d8a1",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "hqlive-23da989430",
           "name": "Muras United vs Bars | 21:00 14/07",
@@ -911,7 +983,7 @@
           }
         },
         {
-          "id": "xc-6d955ab602",
+          "id": "xc-38ccd9fd82",
           "name": "Irtysh W vs FC Astana W | 21:00 14/07",
           "type": "single",
           "display": "thumbnail-only",
@@ -926,15 +998,15 @@
           ],
           "sources": [
             {
-              "id": "src-6d955ab602",
+              "id": "src-38ccd9fd82",
               "name": "XayConTV",
               "contents": [
                 {
-                  "id": "ct-6d955ab602",
+                  "id": "ct-38ccd9fd82",
                   "name": "Irtysh W vs FC Astana W",
                   "streams": [
                     {
-                      "id": "st-6d955ab602",
+                      "id": "st-38ccd9fd82",
                       "name": "XC",
                       "stream_links": [
                         {
@@ -966,7 +1038,7 @@
             }
           ],
           "org_metadata": {
-            "league": "Premier League",
+            "league": "Friendlies Women",
             "team_a": "Irtysh",
             "team_b": "FC Astana",
             "logo_a": "https://media.api-sports.io/football/teams/4565.png",
@@ -981,7 +1053,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/xaycon-stream/refs/heads/main/thumbs/xc-6d955ab602_5847be8f_20260714.png?v=5847be8f",
+            "url": "https://raw.githubusercontent.com/jasminliu98/xaycon-stream/refs/heads/main/thumbs/xc-38ccd9fd82_5847be8f_20260714.png?v=5847be8f",
             "width": 1600,
             "height": 1200
           }
@@ -1266,78 +1338,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-7abdfbd11b_22379fcc_20260714.png?v=22379fcc",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-bb0dbc2608",
-          "name": "KuPS vs FC Vardar Skopje | 22:00 14/07",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-bb0dbc2608",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-bb0dbc2608",
-                  "name": "KuPS vs FC Vardar Skopje",
-                  "streams": [
-                    {
-                      "id": "st-bb0dbc2608",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-b557ae11c8",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1783930064_hd/1783930064_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "C1",
-            "team_a": "KuPS",
-            "team_b": "FC Vardar Skopje",
-            "logo_a": "https://images.keovip88.net/images/teams/kups.png",
-            "logo_b": "https://images.keovip88.net/images/teams/fc-vardar-skopje.png",
-            "time": "22:00 14/07",
-            "blv": "BLV Bón",
-            "is_live": false,
-            "cate_type": "football",
-            "time_start": 1784041200
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-bb0dbc2608_58c6d8a1_20260714.png?v=58c6d8a1",
             "width": 1600,
             "height": 1200
           }
