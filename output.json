@@ -799,7 +799,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (7 LIVE)",
+      "name": "⚽ Bóng Đá (6 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1238,77 +1238,6 @@
           }
         },
         {
-          "id": "bg-8a4488c177",
-          "name": "Saburtalo vs Flora Tallinn | 23:00 14/07",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-8a4488c177",
-              "name": "BugioTV",
-              "contents": [
-                {
-                  "id": "ct-8a4488c177",
-                  "name": "Saburtalo vs Flora Tallinn",
-                  "streams": [
-                    {
-                      "id": "st-8a4488c177",
-                      "name": "BG",
-                      "stream_links": [
-                        {
-                          "id": "lnk-ad68922ab2",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_max/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv1.bugio9.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "UEFA Champions League",
-            "team_a": "Saburtalo",
-            "team_b": "Flora Tallinn",
-            "logo_a": "https://media.api-sports.io/football/teams/3502.png",
-            "logo_b": "https://media.api-sports.io/football/teams/687.png",
-            "start_time": "2026-07-14T23:00:00",
-            "blv": "BLV Max",
-            "is_live": false,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-8a4488c177_9c6160db_20260714.png?v=9c6160db",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "bg-7ea4e7fcdc",
           "name": "Inter Club d'Escaldes vs Lincoln Red Imps FC | 23:00 14/07",
           "type": "single",
@@ -1658,6 +1587,94 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-bb0dbc2608_58c6d8a1_20260714.png?v=58c6d8a1",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-bee9e514d1",
+          "name": "Saburtalo vs Flora Tallinn | 23:00 14/07",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-bee9e514d1",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-bee9e514d1",
+                  "name": "Saburtalo vs Flora Tallinn",
+                  "streams": [
+                    {
+                      "id": "st-bee9e514d1",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-8a4488c177",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-8a4488c177",
+                  "name": "Saburtalo vs Flora Tallinn",
+                  "streams": [
+                    {
+                      "id": "st-8a4488c177",
+                      "name": "Bugio - BLV Max",
+                      "stream_links": [
+                        {
+                          "id": "lnk-ad68922ab2",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_max/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "UEFA Champions League",
+            "team_a": "Saburtalo",
+            "team_b": "Flora Tallinn",
+            "logo_a": "https://media.api-sports.io/football/teams/3502.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/en/thumb/e/ee/FC_Flora_logo.svg/250px-FC_Flora_logo.svg.png",
+            "time": "23:00 14/07",
+            "blv": "BLV LƯƠNG BỔNG",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Saburtalo_Flora Tallinn_23-00 14-07_1ce63444_20260714.png?v=1ce63444",
             "width": 1600,
             "height": 1200
           }
