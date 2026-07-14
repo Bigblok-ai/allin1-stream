@@ -799,14 +799,14 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (1 LIVE)",
+      "name": "⚽ Bóng Đá (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
         {
-          "id": "bg-1a3650aedf",
-          "name": "Nữ Phong Phú Hà Nam vs Nữ TP.Hồ Chí Minh 2 | 16:00 14/07",
+          "id": "gv-3e2dd368dd",
+          "name": "APIA Leichhardt Tigers  vs Peninsula Power | 16:30 14/07",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -816,77 +816,6 @@
               "position": "top-left",
               "color": "#00000080",
               "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-1a3650aedf",
-              "name": "BugioTV",
-              "contents": [
-                {
-                  "id": "ct-1a3650aedf",
-                  "name": "Nữ Phong Phú Hà Nam vs Nữ TP.Hồ Chí Minh 2",
-                  "streams": [
-                    {
-                      "id": "st-1a3650aedf",
-                      "name": "BG",
-                      "stream_links": [
-                        {
-                          "id": "lnk-ad68922ab2",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_max/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv1.bugio9.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "VĐQG Nữ VN",
-            "team_a": "Nữ Phong Phú Hà Nam",
-            "team_b": "Nữ TP.Hồ Chí Minh 2",
-            "logo_a": "https://img0.aiscore.com/football/team/2ee0214c45e742b6ae9a1107593918d5.png!w60",
-            "logo_b": "https://img0.aiscore.com/football/team/ec2dbd5c069753ced4b26b40d826ae60.png!w60",
-            "start_time": "2026-07-14T16:00:00",
-            "blv": "BLV Max",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-1a3650aedf_bb70daaf_20260714.png?v=bb70daaf",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-3e2dd368dd",
-          "name": "APIA Leichhardt Tigers  vs Peninsula Power | 16:30 14/07",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
             }
           ],
           "sources": [
@@ -973,7 +902,7 @@
             "logo_b": "https://ssl.gstatic.com/onebox/media/sports/logos/optimized/wRkTGu9e5KTSNJwAu8K7zg_96x96.png",
             "time": "16:30 14/07",
             "blv": "BLV Bón",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football",
             "time_start": 1784021400
           },
@@ -982,6 +911,77 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-3e2dd368dd_ac588cb4_20260714.png?v=ac588cb4",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "bg-1a3650aedf",
+          "name": "Nữ Phong Phú Hà Nam vs Nữ TP.Hồ Chí Minh 2 | 16:00 14/07",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-1a3650aedf",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-1a3650aedf",
+                  "name": "Nữ Phong Phú Hà Nam vs Nữ TP.Hồ Chí Minh 2",
+                  "streams": [
+                    {
+                      "id": "st-1a3650aedf",
+                      "name": "BG",
+                      "stream_links": [
+                        {
+                          "id": "lnk-ad68922ab2",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_max/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "VĐQG Nữ VN",
+            "team_a": "Nữ Phong Phú Hà Nam",
+            "team_b": "Nữ TP.Hồ Chí Minh 2",
+            "logo_a": "https://img0.aiscore.com/football/team/2ee0214c45e742b6ae9a1107593918d5.png!w60",
+            "logo_b": "https://img0.aiscore.com/football/team/ec2dbd5c069753ced4b26b40d826ae60.png!w60",
+            "start_time": "2026-07-14T16:00:00",
+            "blv": "BLV Max",
+            "is_live": true,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-1a3650aedf_bb70daaf_20260714.png?v=bb70daaf",
             "width": 1600,
             "height": 1200
           }
@@ -2141,7 +2141,7 @@
     },
     {
       "id": "grp-bóng-rổ",
-      "name": "🏀 Bóng Rổ (2 LIVE)",
+      "name": "🏀 Bóng Rổ (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -2298,10 +2298,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -2349,7 +2349,7 @@
             "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/e7214bd92ef9a34f3fcdc56aa773d350.png",
             "time": "16:15 14/07",
             "blv": "BLV Cầy",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "basketball",
             "time_start": 1784020500
           },
@@ -2892,7 +2892,25 @@
                     {
                       "id": "st-18360c4623",
                       "name": "GV",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-db394183a9",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1784018027_hd/1784018027_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -2946,7 +2964,25 @@
                     {
                       "id": "st-7c6f741af9",
                       "name": "GV",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-ef054acfca",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1784018069_hd/1784018069_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -3471,6 +3507,150 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "gv-56b4157bcd",
+          "name": "Iran vs Slovenia | 01:00 18/07",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-56b4157bcd",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-56b4157bcd",
+                  "name": "Iran vs Slovenia",
+                  "streams": [
+                    {
+                      "id": "st-56b4157bcd",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-f2b9802e51",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1784018137_hd/1784018137_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Nations League",
+            "team_a": "Iran",
+            "team_b": "Slovenia",
+            "logo_a": "https://static.flashscore.com/res/image/data/xt3pVREa-tWhhL1yr.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/fBWBjchl-dWxvhZJm.png",
+            "time": "01:00 18/07",
+            "blv": "BLV Mát",
+            "is_live": false,
+            "cate_type": "bongchuyen",
+            "time_start": 1784311200
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-56b4157bcd_d39b3f82_20260714.png?v=d39b3f82",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-16af08f5de",
+          "name": "China vs Bulgaria | 04:00 18/07",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-16af08f5de",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-16af08f5de",
+                  "name": "China vs Bulgaria",
+                  "streams": [
+                    {
+                      "id": "st-16af08f5de",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-a95b0f0317",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1784018203_hd/1784018203_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Nations League",
+            "team_a": "China",
+            "team_b": "Bulgaria",
+            "logo_a": "https://static.flashscore.com/res/image/data/Cn6GvlxS-4ILatieg.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/2wMZyUzB-Op3ON8FJ.png",
+            "time": "04:00 18/07",
+            "blv": "BLV Mát",
+            "is_live": false,
+            "cate_type": "bongchuyen",
+            "time_start": 1784322000
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-16af08f5de_d161bd8d_20260714.png?v=d161bd8d",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     },
@@ -3937,7 +4117,80 @@
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
-      "channels": []
+      "channels": [
+        {
+          "id": "gv-000297b835",
+          "name": "New York Yankees vs Los Angeles Dodgers | 06:05 18/07",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-000297b835",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-000297b835",
+                  "name": "New York Yankees vs Los Angeles Dodgers",
+                  "streams": [
+                    {
+                      "id": "st-000297b835",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-7a2ab38c8a",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1784018301_hd/1784018301_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "MLB",
+            "team_a": "New York Yankees",
+            "team_b": "Los Angeles Dodgers",
+            "logo_a": "https://static.flashscore.com/res/image/data/plT1Aqil-OpJ5uAOg.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/YeWStKhl-xUjXmOIP.png",
+            "time": "06:05 18/07",
+            "blv": "BLV Cầy",
+            "is_live": false,
+            "cate_type": "bongchay",
+            "time_start": 1784329500
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-000297b835_d8d3fdb2_20260714.png?v=d8d3fdb2",
+            "width": 1600,
+            "height": 1200
+          }
+        }
+      ]
     },
     {
       "id": "grp-pickleball",
