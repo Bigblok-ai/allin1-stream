@@ -799,117 +799,11 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (7 LIVE)",
+      "name": "⚽ Bóng Đá (5 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "hqlive-081a2bac96",
-          "name": "Hangzhou Greentown vs Qingdao Jonoon | 18:35 14/07",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-081a2bac96",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-081a2bac96",
-                  "name": "Hangzhou Greentown vs Qingdao Jonoon",
-                  "streams": [
-                    {
-                      "id": "st-081a2bac96",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-b0c182498f",
-                          "name": "BLV PHAN QUẨY",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanquay/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "src-f1507aba9f",
-              "name": "BugioTV",
-              "contents": [
-                {
-                  "id": "ct-f1507aba9f",
-                  "name": "Hangzhou Greentown vs Qingdao Jonoon",
-                  "streams": [
-                    {
-                      "id": "st-f1507aba9f",
-                      "name": "Bugio - BLV Pháo",
-                      "stream_links": [
-                        {
-                          "id": "lnk-970b2a547c",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_phaothan/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv1.bugio9.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Super League",
-            "team_a": "Hangzhou Greentown",
-            "team_b": "Qingdao Jonoon",
-            "logo_a": "https://media.api-sports.io/football/teams/848.png",
-            "logo_b": "https://media.api-sports.io/football/teams/1431.png",
-            "time": "18:35 14/07",
-            "blv": "BLV PHAN QUẨY",
-            "is_live": true,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Hangzhou Greentown_Qingdao Jonoon_18-35 14-07_9385dfdc_20260714.png?v=9385dfdc",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "hqlive-23da989430",
           "name": "Muras United vs Bars | 21:00 14/07",
@@ -936,7 +830,25 @@
                     {
                       "id": "st-23da989430",
                       "name": "HQ",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-1cad2e4412",
+                          "name": "BLV TÁO GIÀ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://tdlive.yarncdn.live/live/tdtv_blv_taotinhtao/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -994,82 +906,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Muras United_Bars_21-00 14-07_3841f946_20260714.png?v=3841f946",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "xc-f78037b512",
-          "name": "Zhejiang Professional vs Qingdao Hainiu | 18:35 14/07",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-f78037b512",
-              "name": "XayConTV",
-              "contents": [
-                {
-                  "id": "ct-f78037b512",
-                  "name": "Zhejiang Professional vs Qingdao Hainiu",
-                  "streams": [
-                    {
-                      "id": "st-f78037b512",
-                      "name": "XC",
-                      "stream_links": [
-                        {
-                          "id": "lnk-fde7f94b4e",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://xclive.yarncdn.live/live/xctv_blv_chuoi/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.xaycon3.live/"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://sv2.xaycon3.live"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "China Super League",
-            "team_a": "Zhejiang Professional",
-            "team_b": "Qingdao Hainiu",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/en/thumb/e/e8/Zhejiang_Professional_F.C.svg/1200px-Zhejiang_Professional_F.C.svg.png",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/en/thumb/2/2d/Qingdao_Hainiu_F.C.svg/1085px-Qingdao_Hainiu_F.C.svg.png",
-            "time": "18:35",
-            "date": "14/07",
-            "blv": "BLV Ciu",
-            "is_live": true,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/xaycon-stream/refs/heads/main/thumbs/xc-f78037b512_3eda9132_20260714.png?v=3eda9132",
             "width": 1600,
             "height": 1200
           }
