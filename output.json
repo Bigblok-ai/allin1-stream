@@ -799,7 +799,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (6 LIVE)",
+      "name": "⚽ Bóng Đá (7 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1226,6 +1226,77 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-f84d465177_1c1f2425_20260715.png?v=1c1f2425",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "bg-01846ae470",
+          "name": "Cheonan City vs Mokpo City | 17:30 15/07",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-01846ae470",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-01846ae470",
+                  "name": "Cheonan City vs Mokpo City",
+                  "streams": [
+                    {
+                      "id": "st-01846ae470",
+                      "name": "BG",
+                      "stream_links": [
+                        {
+                          "id": "lnk-ad68922ab2",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_max/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "FA Cup",
+            "team_a": "Cheonan City",
+            "team_b": "Mokpo City",
+            "logo_a": "https://media.api-sports.io/football/teams/7060.png",
+            "logo_b": "https://media.api-sports.io/football/teams/7096.png",
+            "start_time": "2026-07-15T17:30:00",
+            "blv": "BLV Max",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-01846ae470_cb11b43e_20260715.png?v=cb11b43e",
             "width": 1600,
             "height": 1200
           }
