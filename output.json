@@ -812,10 +812,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -863,7 +863,7 @@
             "logo_b": "https://img0.aiscore.com/football/team/ef7329946e1741b9ade4fedbf739158a.png!w60",
             "start_time": "2026-07-15T10:00:00",
             "blv": "BLV Tiểu Mèo",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football"
           },
           "image": {
@@ -3098,7 +3098,7 @@
     },
     {
       "id": "grp-bóng-chuyền",
-      "name": "🏐 Bóng Chuyền",
+      "name": "🏐 Bóng Chuyền (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -3111,10 +3111,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -3152,6 +3152,41 @@
                   ]
                 }
               ]
+            },
+            {
+              "id": "src-b8cbe5b974",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-b8cbe5b974",
+                  "name": "Canada vs Argentina",
+                  "streams": [
+                    {
+                      "id": "st-b8cbe5b974",
+                      "name": "Hoiquan - BLV TÁO GIÀ",
+                      "stream_links": [
+                        {
+                          "id": "lnk-1cad2e4412",
+                          "name": "BLV TÁO GIÀ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://tdlive.yarncdn.live/live/tdtv_blv_taotinhtao/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
             }
           ],
           "org_metadata": {
@@ -3162,7 +3197,7 @@
             "logo_b": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Flag_of_Argentina.svg",
             "time": "10:00 15/07",
             "blv": "BLV Mason",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "bongchuyen",
             "time_start": 1784084400
           },
@@ -3287,7 +3322,7 @@
             "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Flag_of_Belgium.svg/250px-Flag_of_Belgium.svg.png",
             "logo_b": "https://upload.wikimedia.org/wikipedia/commons/b/bd/Flag_of_Cuba.svg",
             "time": "13:30 15/07",
-            "blv": "BLV TÁO GIÀ",
+            "blv": "BLV PHAN CA",
             "is_live": false,
             "sport_slug": "bong-chuyen"
           },
