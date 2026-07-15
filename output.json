@@ -799,7 +799,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (4 LIVE)",
+      "name": "⚽ Bóng Đá (5 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1089,8 +1089,8 @@
           }
         },
         {
-          "id": "hqlive-7450ffef51",
-          "name": "Marlin Coast vs Brunswick Juventus FC | 16:30 15/07",
+          "id": "bg-049671e28a",
+          "name": "Tensung vs Thimphu City | 17:00 15/07",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1104,17 +1104,35 @@
           ],
           "sources": [
             {
-              "id": "src-7450ffef51",
-              "name": "HoiQuanTV",
+              "id": "src-049671e28a",
+              "name": "BugioTV",
               "contents": [
                 {
-                  "id": "ct-7450ffef51",
-                  "name": "Marlin Coast vs Brunswick Juventus FC",
+                  "id": "ct-049671e28a",
+                  "name": "Tensung vs Thimphu City",
                   "streams": [
                     {
-                      "id": "st-7450ffef51",
-                      "name": "HQ",
-                      "stream_links": []
+                      "id": "st-049671e28a",
+                      "name": "BG",
+                      "stream_links": [
+                        {
+                          "id": "lnk-51a73d71ba",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_mason/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -1122,21 +1140,165 @@
             }
           ],
           "org_metadata": {
-            "league": "Australia Cup",
-            "team_a": "Marlin Coast",
-            "team_b": "Brunswick Juventus FC",
-            "logo_a": "https://media.api-sports.io/football/teams/27884.png",
-            "logo_b": "https://media.api-sports.io/football/teams/27510.png",
-            "time": "16:30 15/07",
-            "blv": "BLV PHAN QUẨY",
+            "league": "Premier League",
+            "team_a": "Tensung",
+            "team_b": "Thimphu City",
+            "logo_a": "https://media.api-sports.io/football/teams/5590.png",
+            "logo_b": "https://media.api-sports.io/football/teams/5592.png",
+            "start_time": "2026-07-15T17:00:00",
+            "blv": "BLV Mao Từn",
             "is_live": false,
-            "sport_slug": "bong-da"
+            "cate_type": "football"
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Marlin Coast_Brunswick Juventus FC_16-30 15-07_1266ea60_20260715.png?v=1266ea60",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-049671e28a_dfe21ed9_20260715.png?v=dfe21ed9",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-8ae8f93a1d",
+          "name": "Marlin Coast vs Brunswick Juventus | 16:30 15/07",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-8ae8f93a1d",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-8ae8f93a1d",
+                  "name": "Marlin Coast vs Brunswick Juventus",
+                  "streams": [
+                    {
+                      "id": "st-8ae8f93a1d",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-11e1740bc2",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1784087731_hd/1784087731_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "VĐQG Úc",
+            "team_a": "Marlin Coast",
+            "team_b": "Brunswick Juventus",
+            "logo_a": "https://static.flashscore.com/res/image/data/nkJ6iycM-0twEKH3c.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/Y1YpLPFG-bH6s7IOl.png",
+            "time": "16:30 15/07",
+            "blv": "BLV Bón",
+            "is_live": false,
+            "cate_type": "football",
+            "time_start": 1784107800
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-8ae8f93a1d_eaf1d7c3_20260715.png?v=eaf1d7c3",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-08b106cf28",
+          "name": "FK Beograd vs North Sunshine Eagles | 17:00 15/07",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-08b106cf28",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-08b106cf28",
+                  "name": "FK Beograd vs North Sunshine Eagles",
+                  "streams": [
+                    {
+                      "id": "st-08b106cf28",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-8831d38d1b",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1784087888_hd/1784087888_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "VĐQG Úc",
+            "team_a": "FK Beograd",
+            "team_b": "North Sunshine Eagles",
+            "logo_a": "https://static.flashscore.com/res/image/data/QwXrVfYA-OpNYI54O.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/MXjeKABr-n5om0z7D.png",
+            "time": "17:00 15/07",
+            "blv": "BLV Mason",
+            "is_live": false,
+            "cate_type": "football",
+            "time_start": 1784109600
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-08b106cf28_e6dfe860_20260715.png?v=e6dfe860",
             "width": 1600,
             "height": 1200
           }
@@ -1550,11 +1712,11 @@
                       "name": "GV",
                       "stream_links": [
                         {
-                          "id": "lnk-fa1d8fc62e",
+                          "id": "lnk-5207646cec",
                           "name": "Link HD 720p",
-                          "type": "httpflv",
+                          "type": "hls",
                           "default": true,
-                          "url": "https://play.megatech.global/live/1783993309_hd@720p.flv",
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1783993321_hd/1783993321_hd@720p.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -1658,7 +1820,7 @@
             "logo_a": "https://images.keovip88.net/images/teams/england.png",
             "logo_b": "https://images.keovip88.net/images/teams/argentina.png",
             "time": "02:00 16/07",
-            "blv": "trunglap-Mason, argentina, can-ben",
+            "blv": "trung-lap, argentina, can-ben",
             "is_live": false,
             "cate_type": "football",
             "time_start": 1784142000
