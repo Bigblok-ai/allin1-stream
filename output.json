@@ -799,7 +799,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (3 LIVE)",
+      "name": "⚽ Bóng Đá (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1013,6 +1013,77 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-5c6287be4d_bcfc2aa2_20260715.png?v=bcfc2aa2",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "bg-cb41f16791",
+          "name": "Philippines  vs  Campuchia | 16:30 15/07",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-cb41f16791",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-cb41f16791",
+                  "name": "Philippines  vs  Campuchia",
+                  "streams": [
+                    {
+                      "id": "st-cb41f16791",
+                      "name": "BG",
+                      "stream_links": [
+                        {
+                          "id": "lnk-0ba3f9d037",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_trada/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "SEA V CUP 2026",
+            "team_a": "Philippines",
+            "team_b": "Campuchia",
+            "logo_a": "https://img0.aiscore.com/football/team/0c620bcfc2a979fe9f22acbe0019f276.png!w60",
+            "logo_b": "https://img0.aiscore.com/football/team/31d64389a45aaeb7a61c9b76b72be555.png!w60",
+            "start_time": "2026-07-15T16:30:00",
+            "blv": "BLV Tiểu Trà Đá",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-cb41f16791_6d0b7e32_20260715.png?v=6d0b7e32",
             "width": 1600,
             "height": 1200
           }
