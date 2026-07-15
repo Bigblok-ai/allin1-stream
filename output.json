@@ -799,7 +799,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (7 LIVE)",
+      "name": "⚽ Bóng Đá (8 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1297,6 +1297,77 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-01846ae470_cb11b43e_20260715.png?v=cb11b43e",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "bg-cacbf64b8a",
+          "name": "Đức vs  Slovenia | 18:00 15/07",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-cacbf64b8a",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-cacbf64b8a",
+                  "name": "Đức vs  Slovenia",
+                  "streams": [
+                    {
+                      "id": "st-cacbf64b8a",
+                      "name": "BG",
+                      "stream_links": [
+                        {
+                          "id": "lnk-378f040fcb",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_cuccu/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Nations League",
+            "team_a": "Đức ",
+            "team_b": "Slovenia",
+            "logo_a": "https://img0.aiscore.com/basketball/team/58df018114526da9fa078444ba9b585f.png!w250",
+            "logo_b": "https://img0.aiscore.com/basketball/team/35ddc4d975ebf4ca72e69c453bc89d44.png!w250",
+            "start_time": "2026-07-15T18:00:00",
+            "blv": "BLV Chim Nhỏ",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-cacbf64b8a_4941f988_20260715.png?v=4941f988",
             "width": 1600,
             "height": 1200
           }
