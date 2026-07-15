@@ -363,7 +363,7 @@ def build_tv_channels(tv_list):
                                     "type": "dash" if ".mpd" in str(var.get("url", "")).lower() else "hls",
                                     "default": j == 0,
                                     "url": var["url"],
-                                    "request_headers": [{"name": "User-Agent", "value": var.get("user_agent", "Dalvik/2.1.0")}] if var.get("user_agent") else [],
+                                    "request_headers": [{"key": "User-Agent", "value": var.get("user_agent", "Dalvik/2.1.0")}] if var.get("user_agent") else [],
                                     "drm_type": var.get("drm_type", ""),
                                     "drm_key": var.get("drm_key", "")
                                   }
