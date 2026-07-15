@@ -1051,11 +1051,118 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá",
+      "name": "⚽ Bóng Đá (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "gv-8ae8f93a1d",
+          "name": "Marlin Coast vs Brunswick Juventus | 16:30 15/07",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-8ae8f93a1d",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-8ae8f93a1d",
+                  "name": "Marlin Coast vs Brunswick Juventus",
+                  "streams": [
+                    {
+                      "id": "st-8ae8f93a1d",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-11e1740bc2",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1784087731_hd/1784087731_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-7450ffef51",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-7450ffef51",
+                  "name": "Marlin Coast vs Brunswick Juventus FC",
+                  "streams": [
+                    {
+                      "id": "st-7450ffef51",
+                      "name": "Hoiquan - BLV PHAN QUẨY",
+                      "stream_links": [
+                        {
+                          "id": "lnk-b0c182498f",
+                          "name": "BLV PHAN QUẨY",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanquay/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "VĐQG Úc",
+            "team_a": "Marlin Coast",
+            "team_b": "Brunswick Juventus",
+            "logo_a": "https://static.flashscore.com/res/image/data/nkJ6iycM-0twEKH3c.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/Y1YpLPFG-bH6s7IOl.png",
+            "time": "16:30 15/07",
+            "blv": "BLV Bón",
+            "is_live": true,
+            "cate_type": "football",
+            "time_start": 1784107800
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-8ae8f93a1d_eaf1d7c3_20260715.png?v=eaf1d7c3",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "bg-049671e28a",
           "name": "Tensung vs Thimphu City | 17:00 15/07",
@@ -1407,78 +1514,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-6e8404c3b9_ea4b7fae_20260715.png?v=ea4b7fae",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-8ae8f93a1d",
-          "name": "Marlin Coast vs Brunswick Juventus | 16:30 15/07",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-8ae8f93a1d",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-8ae8f93a1d",
-                  "name": "Marlin Coast vs Brunswick Juventus",
-                  "streams": [
-                    {
-                      "id": "st-8ae8f93a1d",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-11e1740bc2",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1784087731_hd/1784087731_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "VĐQG Úc",
-            "team_a": "Marlin Coast",
-            "team_b": "Brunswick Juventus",
-            "logo_a": "https://static.flashscore.com/res/image/data/nkJ6iycM-0twEKH3c.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/Y1YpLPFG-bH6s7IOl.png",
-            "time": "16:30 15/07",
-            "blv": "BLV Bón",
-            "is_live": false,
-            "cate_type": "football",
-            "time_start": 1784107800
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-8ae8f93a1d_eaf1d7c3_20260715.png?v=eaf1d7c3",
             "width": 1600,
             "height": 1200
           }
@@ -2960,8 +2995,8 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "gv-62362393d9",
-          "name": "Taranaki Mountainairs vs Nelson Giants | 14:00 15/07",
+          "id": "gv-81db9c8858",
+          "name": "Converge FiberXers vs Terrafirma Dyip | 16:15 15/07",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -2971,78 +3006,6 @@
               "position": "top-left",
               "color": "#00000080",
               "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-62362393d9",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-62362393d9",
-                  "name": "Taranaki Mountainairs vs Nelson Giants",
-                  "streams": [
-                    {
-                      "id": "st-62362393d9",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-f9b847b8d6",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1784041138_hd/1784041138_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "National Basketball League (New Zealand)",
-            "team_a": "Taranaki Mountainairs",
-            "team_b": "Nelson Giants",
-            "logo_a": "https://nba.titan007.com/files/team/1hs0gmz1kc2b.png",
-            "logo_b": "https://nba.titan007.com/files/team/1hs0gk7k253.png",
-            "time": "14:00 15/07",
-            "blv": "BLV Điếc",
-            "is_live": true,
-            "cate_type": "basketball",
-            "time_start": 1784098800
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-62362393d9_ca3eb694_20260715.png?v=ca3eb694",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-81db9c8858",
-          "name": "Converge FiberXers vs Terrafirma Dyip | 16:15 15/07",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
             }
           ],
           "sources": [
@@ -3090,7 +3053,7 @@
             "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/f2bde459cfd09fe77e8d0996f34a1af0.png",
             "time": "16:15 15/07",
             "blv": "BLV Cầy",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "basketball",
             "time_start": 1784106900
           },
@@ -3841,8 +3804,8 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "gv-601f7fa3d7",
-          "name": "Belgium vs Cuba | 13:30 15/07",
+          "id": "bg-cb41f16791",
+          "name": "Philippines  vs  Campuchia | 16:30 15/07",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -3852,78 +3815,6 @@
               "position": "top-left",
               "color": "#00000080",
               "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-601f7fa3d7",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-601f7fa3d7",
-                  "name": "Belgium vs Cuba",
-                  "streams": [
-                    {
-                      "id": "st-601f7fa3d7",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-a1d9ef0c8b",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1784041313_hd/1784041313_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Nations League",
-            "team_a": "Belgium",
-            "team_b": "Cuba",
-            "logo_a": "https://static.flashscore.com/res/image/data/QJWQSoYg-CUoVGnpd.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/AmSqkKjl-hIzfuNSD.png",
-            "time": "13:30 15/07",
-            "blv": "BLV Trĩ",
-            "is_live": true,
-            "cate_type": "bongchuyen",
-            "time_start": 1784097000
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-601f7fa3d7_a53e2050_20260715.png?v=a53e2050",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "bg-cb41f16791",
-          "name": "Philippines  vs  Campuchia | 16:30 15/07",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
             }
           ],
           "sources": [
@@ -3971,7 +3862,7 @@
             "logo_b": "https://img0.aiscore.com/football/team/31d64389a45aaeb7a61c9b76b72be555.png!w60",
             "start_time": "2026-07-15T16:30:00",
             "blv": "BLV Tiểu Trà Đá",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "bongchuyen"
           },
           "image": {
