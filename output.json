@@ -4056,11 +4056,82 @@
     },
     {
       "id": "grp-bóng-chuyền",
-      "name": "🏐 Bóng Chuyền",
+      "name": "🏐 Bóng Chuyền (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "hqlive-cee241f761",
+          "name": "Ukraina vs Iran | 21:30 15/07",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-cee241f761",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-cee241f761",
+                  "name": "Ukraina vs Iran",
+                  "streams": [
+                    {
+                      "id": "st-cee241f761",
+                      "name": "HQ",
+                      "stream_links": [
+                        {
+                          "id": "lnk-07fa7a18bb",
+                          "name": "BLV PHAN HẢI",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanhai/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Nation League Men",
+            "team_a": "Ukraina",
+            "team_b": "Iran",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/4/49/Flag_of_Ukraine.svg",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Flag_of_Iran.svg",
+            "time": "21:30 15/07",
+            "blv": "BLV PHAN HẢI",
+            "is_live": true,
+            "sport_slug": "bong-chuyen"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Ukraina_Iran_21-30 15-07_0ad081f9_20260715.png?v=0ad081f9",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "bg-d0f5722f11",
           "name": "Indonesia  vs  Philippine | 16:30 16/07",
@@ -4128,59 +4199,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-d0f5722f11_05195261_20260715.png?v=05195261",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "hqlive-cee241f761",
-          "name": "Ukraina vs Iran | 21:30 15/07",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-cee241f761",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-cee241f761",
-                  "name": "Ukraina vs Iran",
-                  "streams": [
-                    {
-                      "id": "st-cee241f761",
-                      "name": "HQ",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Nation League Men",
-            "team_a": "Ukraina",
-            "team_b": "Iran",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/4/49/Flag_of_Ukraine.svg",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Flag_of_Iran.svg",
-            "time": "21:30 15/07",
-            "blv": "BLV PHAN HẢI",
-            "is_live": false,
-            "sport_slug": "bong-chuyen"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Ukraina_Iran_21-30 15-07_0ad081f9_20260715.png?v=0ad081f9",
             "width": 1600,
             "height": 1200
           }
