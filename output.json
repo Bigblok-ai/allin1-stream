@@ -799,7 +799,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (3 LIVE)",
+      "name": "⚽ Bóng Đá (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1013,6 +1013,77 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-a2232b5b6b_49d2a08f_20260715.png?v=49d2a08f",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "bg-5c6287be4d",
+          "name": "Bỉ vs  Cuba | 13:30 15/07",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-5c6287be4d",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-5c6287be4d",
+                  "name": "Bỉ vs  Cuba",
+                  "streams": [
+                    {
+                      "id": "st-5c6287be4d",
+                      "name": "BG",
+                      "stream_links": [
+                        {
+                          "id": "lnk-21936c1c94",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_tieumeo/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Nations League",
+            "team_a": "Bỉ ",
+            "team_b": "Cuba",
+            "logo_a": "https://img0.aiscore.com/volleyball/team/30c146391ed01570c94d91039480d18d.png!w60",
+            "logo_b": "https://img0.aiscore.com/volleyball/team/e4c6d60341cd022b36dcc56e47238f8d.png!w60",
+            "start_time": "2026-07-15T13:30:00",
+            "blv": "BLV Tiểu Mèo",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-5c6287be4d_bcfc2aa2_20260715.png?v=bcfc2aa2",
             "width": 1600,
             "height": 1200
           }
