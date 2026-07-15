@@ -799,7 +799,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (1 LIVE)",
+      "name": "⚽ Bóng Đá (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -871,6 +871,77 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-2548a4ac7a_90e66933_20260715.png?v=90e66933",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "bg-a2232b5b6b",
+          "name": "Việt Nam  vs Thái Lan | 13:00 15/07",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-a2232b5b6b",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-a2232b5b6b",
+                  "name": "Việt Nam  vs Thái Lan",
+                  "streams": [
+                    {
+                      "id": "st-a2232b5b6b",
+                      "name": "BG",
+                      "stream_links": [
+                        {
+                          "id": "lnk-970b2a547c",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_phaothan/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "SEA V CUP 2026",
+            "team_a": "Việt Nam",
+            "team_b": "Thái Lan",
+            "logo_a": "https://static.flashscore.com/res/image/data/nsORfhdM-AeUnl0mG.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/zDaxmTCr-CrkmOPt0.png",
+            "start_time": "2026-07-15T13:00:00",
+            "blv": "BLV Pháo",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-a2232b5b6b_49d2a08f_20260715.png?v=49d2a08f",
             "width": 1600,
             "height": 1200
           }
