@@ -573,14 +573,24 @@ def main():
     # ─────────────────────────────────────────────────────────────────
     for g in final_data["groups"]:
         g["channels"].sort(key=extract_sort_key)
-
+    
         base_name = normalize_cate_name(g["name"])
         live_count = 0
+        
         for ch in g.get("channels", []):
             meta = ch.get("org_metadata", {})
-            if meta.get("is_live") == True or meta.get("time", "").strip() == "":
+            is_live = meta.get("is_live", False)
+            time_val = meta.get("time", "").strip()
+            
+            # 1. Ưu tiên tuyệt đối: nếu flag is_live = True thì tính là LIVE
+            if is_live is True:
                 live_count += 1
-
+                
+            # 2. Fallback cho kênh TV: không có time VÀ không có league 
+            # (Trận đấu thể thao luôn có league, nên sẽ bị loại ở điều kiện này)
+            elif time_val == "" and not meta.get("league"):
+                live_count += 1
+    
         if live_count > 0:
             g["name"] = f"{base_name} ({live_count} LIVE)"
         else:
