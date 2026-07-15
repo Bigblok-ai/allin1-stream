@@ -345,33 +345,48 @@ def build_tv_channels(tv_list):
             except:
                 src_name = f"Source {j+1}"
 
+            # 1. Tách biến ra ngoài để code gọn, không thụt sâu
+            url = var.get("url", "")
+            ua = var.get("user_agent", "")
+            drm_type = var.get("drm_type", "")
+            drm_key_raw = var.get("drm_key", "")
+            
+            # 2. Tự động nhận diện loại stream
+            link_type = "dash" if ".mpd" in url.lower() else "hls"
+            
+            # 3. Tạo header chỉ khi có user_agent
+            headers = [{"key": "User-Agent", "value": ua}] if ua else []
+            
+            # 4. QUAN TRỌNG: Chuyển drm_key từ String sang Object (Dict) để player đọc được
+            drm_key_obj = ""
+            if drm_key_raw and drm_key_raw.startswith("{"):
+                try:
+                    drm_key_obj = json.loads(drm_key_raw)
+                except:
+                    drm_key_obj = drm_key_raw
+
+            # 5. Ghép vào cấu trúc (giờ đã gọn và chuẩn)
             sources.append({
                 "id": f"src-tv-{i}-{j}",
                 "name": src_name,
-                "contents": [
-                    {
-                        "id": f"ct-tv-{i}-{j}",
-                        "name": name,
-                        "streams": [
-                            {
-                                "id": f"st-tv-{i}-{j}",
-                                "name": "KT",
-                                "stream_links": [
-                                  {
-                                    "id": f"lnk-tv-{i}-{j}",
-                                    "name": f"Link {j+1}",
-                                    "type": "dash" if ".mpd" in str(var.get("url", "")).lower() else "hls",
-                                    "default": j == 0,
-                                    "url": var["url"],
-                                    "request_headers": [{"key": "User-Agent", "value": var.get("user_agent", "Dalvik/2.1.0")}] if var.get("user_agent") else [],
-                                    "drm_type": var.get("drm_type", ""),
-                                    "drm_key": var.get("drm_key", "")
-                                  }
-                                ]
-                            }
-                        ]
-                    }
-                ]
+                "contents": [{
+                    "id": f"ct-tv-{i}-{j}",
+                    "name": name,
+                    "streams": [{
+                        "id": f"st-tv-{i}-{j}",
+                        "name": "KT",
+                        "stream_links": [{
+                            "id": f"lnk-tv-{i}-{j}",
+                            "name": f"Link {j+1}",
+                            "type": link_type,
+                            "default": j == 0,
+                            "url": url,
+                            "request_headers": headers,
+                            "drm_type": drm_type,
+                            "drm_key": drm_key_obj  # <-- Giờ đây là Object, player sẽ hiểu
+                        }]
+                    }]
+                }]
             })
 
         # Đóng gói thành 1 kênh hoàn chỉnh
