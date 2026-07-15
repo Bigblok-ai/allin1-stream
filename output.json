@@ -799,7 +799,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (8 LIVE)",
+      "name": "⚽ Bóng Đá (9 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -883,10 +883,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -934,7 +934,7 @@
             "logo_b": "https://static.flashscore.com/res/image/data/zDaxmTCr-CrkmOPt0.png",
             "start_time": "2026-07-15T13:00:00",
             "blv": "BLV Pháo",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football"
           },
           "image": {
@@ -1373,6 +1373,77 @@
           }
         },
         {
+          "id": "bg-6e8404c3b9",
+          "name": "Wuhan Jiangda Nữ vs Shandong SL Nữ | 18:35 15/07",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-6e8404c3b9",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-6e8404c3b9",
+                  "name": "Wuhan Jiangda Nữ vs Shandong SL Nữ",
+                  "streams": [
+                    {
+                      "id": "st-6e8404c3b9",
+                      "name": "BG",
+                      "stream_links": [
+                        {
+                          "id": "lnk-21936c1c94",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_tieumeo/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": " Ngoại Hạng Trung Quốc Nữ",
+            "team_a": "Wuhan Jiangda Nữ",
+            "team_b": "Shandong SL Nữ",
+            "logo_a": "https://img0.aiscore.com/football/team/e5c9882eac2bcd64767b4cdb6544dcd7.png!w60",
+            "logo_b": "https://img0.aiscore.com/football/team/563ea9a0da488aaf3e046961e2c3dc99.png!w60",
+            "start_time": "2026-07-15T18:35:00",
+            "blv": "BLV Tiểu Mèo",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-6e8404c3b9_ea4b7fae_20260715.png?v=ea4b7fae",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "gv-8ae8f93a1d",
           "name": "Marlin Coast vs Brunswick Juventus | 16:30 15/07",
           "type": "single",
@@ -1512,6 +1583,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-08b106cf28_e6dfe860_20260715.png?v=e6dfe860",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-cd5fa57048",
+          "name": "Malisheva vs Vllaznia Shkoder | 21:30 15/07",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-cd5fa57048",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-cd5fa57048",
+                  "name": "Malisheva vs Vllaznia Shkoder",
+                  "streams": [
+                    {
+                      "id": "st-cd5fa57048",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-80cf95121e",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1784093295_hd/1784093295_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Europa Conference League",
+            "team_a": "Malisheva",
+            "team_b": "Vllaznia Shkoder",
+            "logo_a": "https://images.keovip88.net/images/teams/malisheva.png",
+            "logo_b": "https://images.keovip88.net/images/teams/vllaznia-shkoder.png",
+            "time": "21:30 15/07",
+            "blv": "BLV Bón",
+            "is_live": false,
+            "cate_type": "football",
+            "time_start": 1784125800
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-cd5fa57048_768aa8d7_20260715.png?v=768aa8d7",
             "width": 1600,
             "height": 1200
           }
@@ -3126,7 +3269,25 @@
                     {
                       "id": "st-0250d7bc36",
                       "name": "GV",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-cdd89c82c0",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1784092890_hd/1784092890_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -4005,7 +4166,25 @@
                     {
                       "id": "st-7a8867ff7c",
                       "name": "GV",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-cd1a5691f4",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1784093031_hd/1784093031_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -4034,8 +4213,8 @@
           }
         },
         {
-          "id": "hqlive-78e833448e",
-          "name": "Đức vs Slovenia | 18:00 15/07",
+          "id": "gv-1c3038d1b3",
+          "name": "Germany vs Slovenia | 18:00 15/07",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -4049,17 +4228,35 @@
           ],
           "sources": [
             {
-              "id": "src-78e833448e",
-              "name": "HoiQuanTV",
+              "id": "src-1c3038d1b3",
+              "name": "GiovangTV",
               "contents": [
                 {
-                  "id": "ct-78e833448e",
-                  "name": "Đức vs Slovenia",
+                  "id": "ct-1c3038d1b3",
+                  "name": "Germany vs Slovenia",
                   "streams": [
                     {
-                      "id": "st-78e833448e",
-                      "name": "HQ",
-                      "stream_links": []
+                      "id": "st-1c3038d1b3",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-a16d04e731",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1784093211_hd/1784093211_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -4067,21 +4264,22 @@
             }
           ],
           "org_metadata": {
-            "league": "Nation League Men",
-            "team_a": "Đức",
+            "league": "Nations League",
+            "team_a": "Germany",
             "team_b": "Slovenia",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Flag_of_Germany.svg/250px-Flag_of_Germany.svg.png",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Flag_of_Slovenia.svg",
+            "logo_a": "https://static.flashscore.com/res/image/data/AHepqBWg-jwMhrJiF.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/CAHIGeh5-dWxvhZJm.png",
             "time": "18:00 15/07",
-            "blv": "BLV PHAN BỐNG",
+            "blv": "BLV Sún",
             "is_live": false,
-            "sport_slug": "bong-chuyen"
+            "cate_type": "bongchuyen",
+            "time_start": 1784113200
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Đức_Slovenia_18-00 15-07_113222e2_20260715.png?v=113222e2",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-1c3038d1b3_3f8374ff_20260715.png?v=3f8374ff",
             "width": 1600,
             "height": 1200
           }
