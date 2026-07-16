@@ -3010,11 +3010,117 @@
     },
     {
       "id": "grp-bóng-chuyền",
-      "name": "🏐 Bóng Chuyền",
+      "name": "🏐 Bóng Chuyền (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "hqlive-651ce0799c",
+          "name": "Thái Lan vs Myanmar | 13:00 16/07",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-651ce0799c",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-651ce0799c",
+                  "name": "Thái Lan vs Myanmar",
+                  "streams": [
+                    {
+                      "id": "st-651ce0799c",
+                      "name": "HQ",
+                      "stream_links": [
+                        {
+                          "id": "lnk-07fa7a18bb",
+                          "name": "BLV PHAN HẢI",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanhai/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-f4f0edb08c",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-f4f0edb08c",
+                  "name": "Thái Lan  vs  Myanmar",
+                  "streams": [
+                    {
+                      "id": "st-f4f0edb08c",
+                      "name": "Bugio - BLV Tiểu Mèo",
+                      "stream_links": [
+                        {
+                          "id": "lnk-21936c1c94",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_tieumeo/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "SEA VLEAGUE",
+            "team_a": "Thái Lan",
+            "team_b": "Myanmar",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Flag_of_Thailand.svg",
+            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT49uuc6yAycrmgYDYhfjjSBxQQANn35rV1mozCXmDU-Q&s=10",
+            "time": "13:00 16/07",
+            "blv": "BLV PHAN HẢI",
+            "is_live": true,
+            "sport_slug": "bong-chuyen"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Thái Lan_Myanmar_13-00 16-07_9fda8400_20260716.png?v=9fda8400",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "bg-d0f5722f11",
           "name": "Indonesia  vs  Philippine | 16:30 16/07",
@@ -3082,94 +3188,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-d0f5722f11_05195261_20260716.png?v=05195261",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "hqlive-651ce0799c",
-          "name": "Thái Lan vs Myanmar | 13:00 16/07",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-651ce0799c",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-651ce0799c",
-                  "name": "Thái Lan vs Myanmar",
-                  "streams": [
-                    {
-                      "id": "st-651ce0799c",
-                      "name": "HQ",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "src-f4f0edb08c",
-              "name": "BugioTV",
-              "contents": [
-                {
-                  "id": "ct-f4f0edb08c",
-                  "name": "Thái Lan  vs  Myanmar",
-                  "streams": [
-                    {
-                      "id": "st-f4f0edb08c",
-                      "name": "Bugio - BLV Tiểu Mèo",
-                      "stream_links": [
-                        {
-                          "id": "lnk-21936c1c94",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_tieumeo/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv1.bugio9.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "SEA VLEAGUE",
-            "team_a": "Thái Lan",
-            "team_b": "Myanmar",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Flag_of_Thailand.svg",
-            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT49uuc6yAycrmgYDYhfjjSBxQQANn35rV1mozCXmDU-Q&s=10",
-            "time": "13:00 16/07",
-            "blv": "BLV PHAN HẢI",
-            "is_live": false,
-            "sport_slug": "bong-chuyen"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Thái Lan_Myanmar_13-00 16-07_9fda8400_20260716.png?v=9fda8400",
             "width": 1600,
             "height": 1200
           }
