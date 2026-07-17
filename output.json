@@ -1051,7 +1051,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1208,10 +1208,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -1259,7 +1259,7 @@
             "logo_b": "https://images.keovip88.net/images/teams/shanghai-port.png",
             "time": "19:00 17/07",
             "blv": "BLV Trĩ",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football",
             "time_start": 1784289600
           },
@@ -2389,83 +2389,11 @@
     },
     {
       "id": "grp-bóng-chuyền",
-      "name": "🏐 Bóng Chuyền (1 LIVE)",
+      "name": "🏐 Bóng Chuyền",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-9efd497338",
-          "name": "Japan vs Belgium | 17:20 17/07",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-9efd497338",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-9efd497338",
-                  "name": "Japan vs Belgium",
-                  "streams": [
-                    {
-                      "id": "st-9efd497338",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-f5ea4f68ff",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1784226678_hd/1784226678_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Nations League",
-            "team_a": "Japan",
-            "team_b": "Belgium",
-            "logo_a": "https://static.flashscore.com/res/image/data/Crg4NaGG-ALs6yNah.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/Qur1J5jl-dtrVaP64.png",
-            "time": "17:20 17/07",
-            "blv": "BLV Sún",
-            "is_live": true,
-            "cate_type": "bongchuyen",
-            "time_start": 1784283600
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-9efd497338_dcf0ba22_20260717.png?v=dcf0ba22",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-ed4945f49d",
           "name": "Türkiye vs Ukraine | 21:30 17/07",
