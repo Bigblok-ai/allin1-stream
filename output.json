@@ -2300,7 +2300,7 @@
     },
     {
       "id": "grp-bóng-rổ",
-      "name": "🏀 Bóng Rổ",
+      "name": "🏀 Bóng Rổ (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -2313,10 +2313,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -2364,7 +2364,7 @@
             "logo_b": "https://nba.titan007.com/files/team/1hs0gk7k202w.png",
             "time": "14:30 17/07",
             "blv": "BLV Cầy",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "basketball",
             "time_start": 1784273400
           },
@@ -2893,83 +2893,11 @@
     },
     {
       "id": "grp-bóng-chuyền",
-      "name": "🏐 Bóng Chuyền (1 LIVE)",
+      "name": "🏐 Bóng Chuyền",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-2f904badef",
-          "name": "Việt Nam vs Myanmar | 13:00 17/07",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-2f904badef",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-2f904badef",
-                  "name": "Việt Nam vs Myanmar",
-                  "streams": [
-                    {
-                      "id": "st-2f904badef",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-14a6f56926",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1784215697_hd/1784215697_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Sea V Cup",
-            "team_a": "Việt Nam",
-            "team_b": "Myanmar",
-            "logo_a": "https://static.flashscore.com/res/image/data/vNL4gRYA-4I3lSGFh.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/GYXKigCa-48fOrFoJ.png",
-            "time": "13:00 17/07",
-            "blv": "BLV Sún",
-            "is_live": true,
-            "cate_type": "bongchuyen",
-            "time_start": 1784268000
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-2f904badef_05f24145_20260717.png?v=05f24145",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-9efd497338",
           "name": "Japan vs Belgium | 17:20 17/07",
