@@ -1147,11 +1147,82 @@
     },
     {
       "id": "grp-bóng-rổ",
-      "name": "🏀 Bóng Rổ",
+      "name": "🏀 Bóng Rổ (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "gv-053cb5ecb9",
+          "name": "Memphis Grizzlies vs Golden State Warriors | 08:00 20/07",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-053cb5ecb9",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-053cb5ecb9",
+                  "name": "Memphis Grizzlies vs Golden State Warriors",
+                  "streams": [
+                    {
+                      "id": "st-053cb5ecb9",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-7acee7478b",
+                          "name": "Số 12",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1784487451_hd/1784487451_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "NBA Summer League",
+            "team_a": "Memphis Grizzlies",
+            "team_b": "Golden State Warriors",
+            "logo_a": "https://nba.titan007.com/files/team/1k6vphz5wn17.png",
+            "logo_b": "https://nba.titan007.com/files/team/1k6sggkge725.png",
+            "time": "08:00 20/07",
+            "blv": "Số 12",
+            "is_live": true,
+            "cate_type": "basketball"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/28561279_a513b850_20260720.png?v=a513b850",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "gv-5609ab267f",
           "name": "Phoenix Mercury vs Connecticut Sun | 06:00 20/07",
@@ -1219,77 +1290,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/13215078_f87e11f7_20260720.png?v=f87e11f7",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-053cb5ecb9",
-          "name": "Memphis Grizzlies vs Golden State Warriors | 08:00 20/07",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-053cb5ecb9",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-053cb5ecb9",
-                  "name": "Memphis Grizzlies vs Golden State Warriors",
-                  "streams": [
-                    {
-                      "id": "st-053cb5ecb9",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-7acee7478b",
-                          "name": "Số 12",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1784487451_hd/1784487451_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "NBA Summer League",
-            "team_a": "Memphis Grizzlies",
-            "team_b": "Golden State Warriors",
-            "logo_a": "https://nba.titan007.com/files/team/1k6vphz5wn17.png",
-            "logo_b": "https://nba.titan007.com/files/team/1k6sggkge725.png",
-            "time": "08:00 20/07",
-            "blv": "Số 12",
-            "is_live": false,
-            "cate_type": "basketball"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/28561279_a513b850_20260720.png?v=a513b850",
             "width": 1600,
             "height": 1200
           }
@@ -1448,7 +1448,7 @@
     },
     {
       "id": "grp-bóng-chuyền",
-      "name": "🏐 Bóng Chuyền",
+      "name": "🏐 Bóng Chuyền (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1461,10 +1461,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -1512,7 +1512,7 @@
             "logo_b": "https://static.flashscore.com/res/image/data/WKTUghyB-612vZEE1.png",
             "time": "08:00 20/07",
             "blv": "Số 13",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "bongchuyen"
           },
           "image": {
