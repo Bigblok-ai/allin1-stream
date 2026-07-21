@@ -1051,7 +1051,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (1 LIVE)",
+      "name": "⚽ Bóng Đá (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1135,10 +1135,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -1186,7 +1186,7 @@
             "logo_b": "https://images.keovip88.net/images/teams/gornik-zabrze.png",
             "time": "01:00 22/07",
             "blv": "Số 10",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football"
           },
           "image": {
@@ -2150,84 +2150,11 @@
     },
     {
       "id": "grp-billiards",
-      "name": "🎱 Billiards (1 LIVE)",
+      "name": "🎱 Billiards",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
-      "channels": [
-        {
-          "id": "chtv-e8f173d866",
-          "name": "Biado- Mokong vs Refulle- RAGA | Lee Min Hoo",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-e8f173d866",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-e8f173d866",
-                  "name": "Biado- Mokong vs Refulle- RAGA",
-                  "streams": [
-                    {
-                      "id": "st-e8f173d866",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-e8f173d866",
-                          "name": "Lee Min Hoo",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live5012/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv18.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "CHOÁNG TV HẠNG PRO đối kháng 2vs2",
-            "team_a": "Biado- Mokong",
-            "team_b": "Refulle- RAGA",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1775045312088_images (1).jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1773462897900_hooo.jpg",
-            "time": "20:42 21/07",
-            "caster": "Lee Min Hoo",
-            "score": "16-16",
-            "is_live": true,
-            "hot": true
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-e8f173d866_10e1d32d_20260722.png?v=10e1d32d",
-            "width": 1600,
-            "height": 1200
-          }
-        }
-      ]
+      "channels": []
     },
     {
       "id": "grp-bóng-chuyền",
