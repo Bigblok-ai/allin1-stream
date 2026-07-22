@@ -1051,11 +1051,82 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá",
+      "name": "⚽ Bóng Đá (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "gv-2ea1c4d1e8",
+          "name": "FC Seoul vs Pohang Steelers | 17:30 22/07",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-2ea1c4d1e8",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-2ea1c4d1e8",
+                  "name": "FC Seoul vs Pohang Steelers",
+                  "streams": [
+                    {
+                      "id": "st-2ea1c4d1e8",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-c29357aebe",
+                          "name": "Số 6",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1784520891_hd/1784520891_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "K-League Hàn Quốc",
+            "team_a": "FC Seoul",
+            "team_b": "Pohang Steelers",
+            "logo_a": "https://images.keovip88.net/images/teams/fc-seoul.png",
+            "logo_b": "https://images.keovip88.net/images/teams/pohang-steelers.png",
+            "time": "17:30 22/07",
+            "blv": "Số 6",
+            "is_live": true,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/6a581f2924d46db870b011c9_96116a08_20260722.png?v=96116a08",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "gv-26d48bce95",
           "name": "Bucheon FC 1995 vs FC Anyang | 17:30 22/07",
@@ -1194,77 +1265,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/6a581f2924d46db870b011c1_b082aef3_20260722.png?v=b082aef3",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-2ea1c4d1e8",
-          "name": "FC Seoul vs Pohang Steelers | 17:30 22/07",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-2ea1c4d1e8",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-2ea1c4d1e8",
-                  "name": "FC Seoul vs Pohang Steelers",
-                  "streams": [
-                    {
-                      "id": "st-2ea1c4d1e8",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-c29357aebe",
-                          "name": "Số 6",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1784520891_hd/1784520891_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "K-League Hàn Quốc",
-            "team_a": "FC Seoul",
-            "team_b": "Pohang Steelers",
-            "logo_a": "https://images.keovip88.net/images/teams/fc-seoul.png",
-            "logo_b": "https://images.keovip88.net/images/teams/pohang-steelers.png",
-            "time": "17:30 22/07",
-            "blv": "Số 6",
-            "is_live": false,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/6a581f2924d46db870b011c9_96116a08_20260722.png?v=96116a08",
             "width": 1600,
             "height": 1200
           }
