@@ -2363,11 +2363,83 @@
     },
     {
       "id": "grp-billiards",
-      "name": "🎱 Billiards (1 LIVE)",
+      "name": "🎱 Billiards (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "chtv-c9c7d598c8",
+          "name": "Thừa Phúc vs Đức | BÚN CHÓ",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-c9c7d598c8",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-c9c7d598c8",
+                  "name": "Thừa Phúc vs Đức",
+                  "streams": [
+                    {
+                      "id": "st-c9c7d598c8",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-c9c7d598c8",
+                          "name": "BÚN CHÓ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live5134/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv18.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "BIDA TOP TOP",
+            "team_a": "Thừa Phúc",
+            "team_b": "Đức",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1765337449015_táº£i xuá»ng.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1765337449015_táº£i xuá»ng.png",
+            "time": "10:07 23/07",
+            "caster": "BÚN CHÓ",
+            "score": "3-1",
+            "is_live": true,
+            "hot": true
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-c9c7d598c8_9fc7059c_20260723.png?v=9fc7059c",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "chtv-56f1c63e39",
           "name": "Wu Kun-lin vs Lai Kun-chang | Lee Min Hoo",
@@ -2427,7 +2499,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1767589654308_images.png",
             "time": "16:05 23/07",
             "caster": "Lee Min Hoo",
-            "score": "6-7",
+            "score": "6-8",
             "is_live": true,
             "hot": true
           },
@@ -2516,77 +2588,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/1gt2ld2sbtmi_c245765f_20260723.png?v=c245765f",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-fd17d78ead",
-          "name": "Trung Quốc vs USA | 18:30 23/07",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-fd17d78ead",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-fd17d78ead",
-                  "name": "Trung Quốc vs USA",
-                  "streams": [
-                    {
-                      "id": "st-fd17d78ead",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-0bcf568d52",
-                          "name": "Số 8",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1784735893_hd/1784735893_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Nations League Women",
-            "team_a": "Trung Quốc",
-            "team_b": "USA",
-            "logo_a": "https://static.flashscore.com/res/image/data/nc9uS3HG-QDuM2WrS.png",
-            "logo_b": "https://assets.fiba.basketball/image/upload/d_.logoflag--dark--organisation_154.webp/w_400/f_auto/q_auto/.logoflag--dark--organisation_154--competition_208755?buster=20628",
-            "time": "18:30 23/07",
-            "blv": "Số 8",
-            "is_live": false,
-            "cate_type": "bongchuyen"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/g20z67md8bpa_e222e5aa_20260723.png?v=e222e5aa",
             "width": 1600,
             "height": 1200
           }
