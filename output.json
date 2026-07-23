@@ -2589,11 +2589,83 @@
     },
     {
       "id": "grp-bóng-chuyền",
-      "name": "🏐 Bóng Chuyền",
+      "name": "🏐 Bóng Chuyền (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
-      "channels": []
+      "channels": [
+        {
+          "id": "gv-fd17d78ead",
+          "name": "Trung Quốc vs USA | 18:30 23/07",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-fd17d78ead",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-fd17d78ead",
+                  "name": "Trung Quốc vs USA",
+                  "streams": [
+                    {
+                      "id": "st-fd17d78ead",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-0bcf568d52",
+                          "name": "Số 8",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1784735893_hd/1784735893_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Nations League Women",
+            "team_a": "Trung Quốc",
+            "team_b": "USA",
+            "logo_a": "https://static.flashscore.com/res/image/data/nc9uS3HG-QDuM2WrS.png",
+            "logo_b": "https://assets.fiba.basketball/image/upload/d_.logoflag--dark--organisation_154.webp/w_400/f_auto/q_auto/.logoflag--dark--organisation_154--competition_208755?buster=20628",
+            "time": "18:30 23/07",
+            "blv": "Số 8",
+            "is_live": true,
+            "cate_type": "bongchuyen"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/g20z67md8bpa_e222e5aa_20260723.png?v=e222e5aa",
+            "width": 1600,
+            "height": 1200
+          }
+        }
+      ]
     },
     {
       "id": "grp-đua-xe",
