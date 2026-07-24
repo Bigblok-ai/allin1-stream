@@ -1051,7 +1051,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (3 LIVE)",
+      "name": "⚽ Bóng Đá (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1277,10 +1277,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -1328,7 +1328,7 @@
             "logo_b": "https://images.keovip88.net/images/teams/chungbuk-cheongju.png",
             "time": "17:30 24/07",
             "blv": "Số 17",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football"
           },
           "image": {
@@ -2096,7 +2096,7 @@
     },
     {
       "id": "grp-billiards",
-      "name": "🎱 Billiards (1 LIVE)",
+      "name": "🎱 Billiards (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -2160,7 +2160,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1765417529949_táº£i xuá»ng.png",
             "time": "16:48 24/07",
             "caster": "Kèn Kèn",
-            "score": "2-2",
+            "score": "2-3",
             "is_live": true,
             "hot": true
           },
@@ -2169,6 +2169,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-023292cde6_999eac8a_20260724.png?v=999eac8a",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-5640b3bf0b",
+          "name": "VƯƠNG TƯ NẶC(15win) vs SHAO JIAYU(13win) | Bỉm Sữa",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-5640b3bf0b",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-5640b3bf0b",
+                  "name": "VƯƠNG TƯ NẶC(15win) vs SHAO JIAYU(13win)",
+                  "streams": [
+                    {
+                      "id": "st-5640b3bf0b",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-5640b3bf0b",
+                          "name": "Bỉm Sữa",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live5164/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv18.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "BÁN KẾT  | GIẢI ĐẤU 8 BI CHINESE POOL NỮ",
+            "team_a": "VƯƠNG TƯ NẶC(15win)",
+            "team_b": "SHAO JIAYU(13win)",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1774246440564_Wang Sinou.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1767589654308_images.png",
+            "time": "17:00 24/07",
+            "caster": "Bỉm Sữa",
+            "score": "0-0",
+            "is_live": true,
+            "hot": true
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-5640b3bf0b_dbe1475a_20260724.png?v=dbe1475a",
             "width": 1600,
             "height": 1200
           }
