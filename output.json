@@ -1051,7 +1051,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá",
+      "name": "⚽ Bóng Đá (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1064,10 +1064,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -1115,7 +1115,7 @@
             "logo_b": "https://images.keovip88.net/images/teams/avondale-fc.png",
             "time": "12:00 25/07",
             "blv": "Số 6",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football"
           },
           "image": {
@@ -1786,11 +1786,64 @@
     },
     {
       "id": "grp-bóng-rổ",
-      "name": "🏀 Bóng Rổ",
+      "name": "🏀 Bóng Rổ (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "gv-075002e006",
+          "name": "Wellington Saints vs Southland Sharks | 11:00 25/07",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-075002e006",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-075002e006",
+                  "name": "Wellington Saints vs Southland Sharks",
+                  "streams": [
+                    {
+                      "id": "st-075002e006",
+                      "name": "GV",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "National Basketball League (New Zealand)",
+            "team_a": "Wellington Saints",
+            "team_b": "Southland Sharks",
+            "logo_a": "https://nba.titan007.com/files/team/1hwcjhd7511h.png",
+            "logo_b": "https://nba.titan007.com/files/team/1hs0gmz1ka23.png",
+            "time": "11:00 25/07",
+            "blv": "",
+            "is_live": true,
+            "cate_type": "basketball"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/10130273_8dce7f9e_20260725.png?v=8dce7f9e",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "gv-7c22dfc0a5",
           "name": "Winnipeg Sea Bears vs Hamilton Honey Badgers | 02:30 26/07",
