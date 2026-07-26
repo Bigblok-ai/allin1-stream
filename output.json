@@ -2860,23 +2860,23 @@
     },
     {
       "id": "grp-billiards",
-      "name": "🎱 Billiards",
+      "name": "🎱 Billiards (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
         {
           "id": "chtv-32200e8e6d",
-          "name": "Thiện Lương vs Dũng hàn(7win) | 10:00 26/07 | BÚN CHÓ",
+          "name": "Thiện Lương vs Dũng hàn(7win) | BÚN CHÓ",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "SAP",
+              "text": "LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -2925,7 +2925,7 @@
             "time": "10:00 26/07",
             "caster": "BÚN CHÓ",
             "score": "0-0",
-            "is_live": false,
+            "is_live": true,
             "hot": true
           },
           "image": {
@@ -3005,6 +3005,150 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-20b4af475e_8f9ed4cb_20260726.png?v=8f9ed4cb",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-8d02074d3e",
+          "name": "Nam Phạm vs Khải Tony(6win) | 10:00 26/07 | SÊ KÔÔ",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "SAP",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-8d02074d3e",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-8d02074d3e",
+                  "name": "Nam Phạm vs Khải Tony(6win)",
+                  "streams": [
+                    {
+                      "id": "st-8d02074d3e",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-8d02074d3e",
+                          "name": "SÊ KÔÔ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live5248/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv18.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Vòng 1/16 Loại trực tiếp",
+            "team_a": "Nam Phạm",
+            "team_b": "Khải Tony(6win)",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1766813244617_táº£i xuá»ng (1).jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1785003824905_KHáº¢I TONY.jpg",
+            "time": "10:00 26/07",
+            "caster": "SÊ KÔÔ",
+            "score": "0-0",
+            "is_live": false,
+            "hot": false
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-8d02074d3e_639e6eb4_20260726.png?v=639e6eb4",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-fa8baf539b",
+          "name": "Tkon vs Văn Sinh(7win) | 10:00 26/07 | VÁNG",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "SAP",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-fa8baf539b",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-fa8baf539b",
+                  "name": "Tkon vs Văn Sinh(7win)",
+                  "streams": [
+                    {
+                      "id": "st-fa8baf539b",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-fa8baf539b",
+                          "name": "VÁNG",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live5249/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv18.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Vòng 1/16 Loại trực tiếp",
+            "team_a": "Tkon",
+            "team_b": "Văn Sinh(7win)",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1777147422361_Screenshot 2026-04-26 030339.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1768836858229_chuyá»n khoáº£n Äáº¡i lÃ½.jpg",
+            "time": "10:00 26/07",
+            "caster": "VÁNG",
+            "score": "0-0",
+            "is_live": false,
+            "hot": false
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-fa8baf539b_2281f134_20260726.png?v=2281f134",
             "width": 1600,
             "height": 1200
           }
