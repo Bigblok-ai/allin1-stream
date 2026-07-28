@@ -1502,7 +1502,7 @@
     },
     {
       "id": "grp-bóng-rổ",
-      "name": "🏀 Bóng Rổ",
+      "name": "🏀 Bóng Rổ (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1515,10 +1515,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -1566,7 +1566,7 @@
             "logo_b": "https://static.flashscore.com/res/image/data/Ioc0HhAr-bXI3IVRD.png",
             "time": "09:15 28/07",
             "blv": "Số 12",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "basketball"
           },
           "image": {
@@ -1716,7 +1716,25 @@
                     {
                       "id": "st-b81f4c65de",
                       "name": "GV",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-47f3545f8d",
+                          "name": "Cận & Cầy",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1785203077_hd/1785203077_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -1730,7 +1748,7 @@
             "logo_a": "https://www.powerslap.com/app/uploads/2024/02/PowerSlap5_JB_20231025_9202-copy_resized.jpg",
             "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHqTid3aA5A_Xk9Z3LyYL2uR_q7fvdDhpDoqXx38TnGabwv8ovXzzUGP0&s=10",
             "time": "01:00 31/07",
-            "blv": "",
+            "blv": "Cận & Cầy",
             "is_live": false,
             "cate_type": "vothuat"
           },
