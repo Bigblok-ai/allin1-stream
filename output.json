@@ -1439,11 +1439,84 @@
     },
     {
       "id": "grp-billiards",
-      "name": "🎱 Billiards",
+      "name": "🎱 Billiards (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
-      "channels": []
+      "channels": [
+        {
+          "id": "chtv-13bcf43f27",
+          "name": "JULIO BURGOS(7win) vs AJ MANAS(11win) | Lee Min Hoo",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-13bcf43f27",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-13bcf43f27",
+                  "name": "JULIO BURGOS(7win) vs AJ MANAS(11win)",
+                  "streams": [
+                    {
+                      "id": "st-13bcf43f27",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-13bcf43f27",
+                          "name": "Lee Min Hoo",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live5369/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv18.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Phủi Phil Sáng",
+            "team_a": "JULIO BURGOS(7win)",
+            "team_b": "AJ MANAS(11win)",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1765802364327_táº£i xuá»ng.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1765802364327_táº£i xuá»ng.png",
+            "time": "06:53 29/07",
+            "caster": "Lee Min Hoo",
+            "score": "1-1",
+            "is_live": true,
+            "hot": true
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-13bcf43f27_072d6f4e_20260729.png?v=072d6f4e",
+            "width": 1600,
+            "height": 1200
+          }
+        }
+      ]
     },
     {
       "id": "grp-bóng-chuyền",
