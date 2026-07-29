@@ -2434,11 +2434,83 @@
     },
     {
       "id": "grp-billiards",
-      "name": "🎱 Billiards (1 LIVE)",
+      "name": "🎱 Billiards (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "chtv-e0e619d87b",
+          "name": "Thành mất tay vs Mạnh Te | Thập Cẩm",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-e0e619d87b",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-e0e619d87b",
+                  "name": "Thành mất tay vs Mạnh Te",
+                  "streams": [
+                    {
+                      "id": "st-e0e619d87b",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-e0e619d87b",
+                          "name": "Thập Cẩm",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live5388/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv18.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "BIDA TÓP TÓP 67 NGUYỄN HOÀNG",
+            "team_a": "Thành mất tay",
+            "team_b": "Mạnh Te",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1785336154213_THÃNH Cá»¤T.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1777659638508_Screenshot 2026-05-02 012034.png",
+            "time": "00:00 29/07",
+            "caster": "Thập Cẩm",
+            "score": "0-0",
+            "is_live": true,
+            "hot": true
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-e0e619d87b_7691fab0_20260729.png?v=7691fab0",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "chtv-ab9fb76f58",
           "name": "Alexis Ferrer vs Lee Vann Corteza | VÁNG",
