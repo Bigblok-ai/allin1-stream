@@ -1805,7 +1805,7 @@
     },
     {
       "id": "grp-bóng-chuyền",
-      "name": "🏐 Bóng Chuyền",
+      "name": "🏐 Bóng Chuyền (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1818,10 +1818,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -1869,7 +1869,7 @@
             "logo_b": "https://static.flashscore.com/res/image/data/lAFdyowS-6ys9CWQj.png",
             "time": "14:00 29/07",
             "blv": "Số 5",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "bongchuyen"
           },
           "image": {
@@ -2087,83 +2087,11 @@
     },
     {
       "id": "grp-bóng-chày",
-      "name": "⚾ Bóng Chày (1 LIVE)",
+      "name": "⚾ Bóng Chày",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
-      "channels": [
-        {
-          "id": "gv-cfd17b86ca",
-          "name": "Los Angeles Dodgers vs Seattle Mariners | 09:10 29/07",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-cfd17b86ca",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-cfd17b86ca",
-                  "name": "Los Angeles Dodgers vs Seattle Mariners",
-                  "streams": [
-                    {
-                      "id": "st-cfd17b86ca",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-079959d9f4",
-                          "name": "Số 9",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1785259154_hd/1785259154_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "MLB",
-            "team_a": "Los Angeles Dodgers",
-            "team_b": "Seattle Mariners",
-            "logo_a": "https://static.flashscore.com/res/image/data/YeWStKhl-xUjXmOIP.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/YPyyksFG-CrchK1NQ.png",
-            "time": "09:10 29/07",
-            "blv": "Số 9",
-            "is_live": true,
-            "cate_type": "bongchay"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/2ycnfv7dwy1s_e3b705c5_20260729.png?v=e3b705c5",
-            "width": 1600,
-            "height": 1200
-          }
-        }
-      ]
+      "channels": []
     },
     {
       "id": "grp-pickleball",
