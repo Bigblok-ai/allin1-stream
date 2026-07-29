@@ -1724,11 +1724,84 @@
     },
     {
       "id": "grp-billiards",
-      "name": "🎱 Billiards",
+      "name": "🎱 Billiards (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
-      "channels": []
+      "channels": [
+        {
+          "id": "chtv-c7bbb7aae5",
+          "name": "TKON vs KIÊN PHÁP | Bỉm Sữa",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-c7bbb7aae5",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-c7bbb7aae5",
+                  "name": "TKON vs KIÊN PHÁP",
+                  "streams": [
+                    {
+                      "id": "st-c7bbb7aae5",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-c7bbb7aae5",
+                          "name": "Bỉm Sữa",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live5371/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv18.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "chinese pool",
+            "team_a": "TKON",
+            "team_b": "KIÊN PHÁP",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1777147422361_Screenshot 2026-04-26 030339.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1778587777808_Screenshot 2026-05-12 190932.png",
+            "time": "14:28 29/07",
+            "caster": "Bỉm Sữa",
+            "score": "12-12",
+            "is_live": true,
+            "hot": true
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-c7bbb7aae5_e27f4098_20260729.png?v=e27f4098",
+            "width": 1600,
+            "height": 1200
+          }
+        }
+      ]
     },
     {
       "id": "grp-bóng-chuyền",
