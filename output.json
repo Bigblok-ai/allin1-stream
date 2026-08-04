@@ -1051,7 +1051,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá",
+      "name": "⚽ Bóng Đá (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1064,10 +1064,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -1115,7 +1115,7 @@
             "logo_b": "https://images.keovip88.net/images/teams/atletico-mineiro.png",
             "time": "05:30 05/08",
             "blv": "Số 17",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football"
           },
           "image": {
@@ -2347,7 +2347,7 @@
     },
     {
       "id": "grp-tennis",
-      "name": "🎾 Tennis",
+      "name": "🎾 Tennis (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -2360,10 +2360,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -2411,7 +2411,7 @@
             "logo_b": "https://static.flashscore.com/res/image/data/jcP2ujzB-CID30mRm.png",
             "time": "05:00 05/08",
             "blv": "Số 3",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "tennis"
           },
           "image": {
@@ -2657,14 +2657,85 @@
     },
     {
       "id": "grp-billiards",
-      "name": "🎱 Billiards (5 LIVE)",
+      "name": "🎱 Billiards (7 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
         {
-          "id": "chtv-6d5a98a1d8",
-          "name": "Randy Whitehead vs Kirill Rutman | BÚN CHÓ",
+          "id": "gv-35a5aa7b13",
+          "name": "Duong Quoc Hoang vs Eduardo Pagan | 05:30 05/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-35a5aa7b13",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-35a5aa7b13",
+                  "name": "Duong Quoc Hoang vs Eduardo Pagan",
+                  "streams": [
+                    {
+                      "id": "st-35a5aa7b13",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-56fc13e541",
+                          "name": "Số 9",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1785865638_hd/1785865638_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Florida Open",
+            "team_a": "Duong Quoc Hoang",
+            "team_b": "Eduardo Pagan",
+            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMpYmqNT8XGfqrwVGJuQ2pH_mbiEw5iORcS-4vT1WeRw&s=10",
+            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcScUSaUy0jVbT04o4J-bBH0uAIFWu7NnmfUrXmJTV2paA&s=10",
+            "time": "05:30 05/08",
+            "blv": "Số 9",
+            "is_live": true,
+            "cate_type": "Billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/6oy996tnj53i_bd40dcba_20260805.png?v=bd40dcba",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-12da53b46f",
+          "name": "Thorsten Hohmann vs Antonios Kakaris | Kèn Kèn",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -2678,23 +2749,23 @@
           ],
           "sources": [
             {
-              "id": "src-6d5a98a1d8",
+              "id": "src-12da53b46f",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-6d5a98a1d8",
-                  "name": "Randy Whitehead vs Kirill Rutman",
+                  "id": "ct-12da53b46f",
+                  "name": "Thorsten Hohmann vs Antonios Kakaris",
                   "streams": [
                     {
-                      "id": "st-6d5a98a1d8",
+                      "id": "st-12da53b46f",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-6d5a98a1d8",
-                          "name": "BÚN CHÓ",
+                          "id": "lnk-12da53b46f",
+                          "name": "Kèn Kèn",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live5699/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live5700/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -2714,14 +2785,14 @@
             }
           ],
           "org_metadata": {
-            "league": "FLORIDA OPEN 2026 TV2",
-            "team_a": "Randy Whitehead",
-            "team_b": "Kirill Rutman",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1765250803265_táº£i xuá»ng (1).png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1765250803265_táº£i xuá»ng (1).png",
+            "league": "FLORIDA OPEN 2026 TV3",
+            "team_a": "Thorsten Hohmann",
+            "team_b": "Antonios Kakaris",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1785867731464_Thorsten Hohmann.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1785867753334_Antonios Kakaris.jpg",
             "time": "03:00 05/08",
-            "caster": "BÚN CHÓ",
-            "score": "6-1",
+            "caster": "Kèn Kèn",
+            "score": "3-6",
             "is_live": true,
             "hot": true
           },
@@ -2729,7 +2800,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-6d5a98a1d8_ff69942e_20260805.png?v=ff69942e",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-12da53b46f_7aee6a86_20260805.png?v=7aee6a86",
             "width": 1600,
             "height": 1200
           }
@@ -2793,7 +2864,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1785872640122_Screenshot 2026-08-05 023405.png",
             "time": "03:00 05/08",
             "caster": "GIÀNG A PHỌ",
-            "score": "7-5",
+            "score": "7-6",
             "is_live": true,
             "hot": true
           },
@@ -2879,8 +2950,8 @@
           }
         },
         {
-          "id": "chtv-12da53b46f",
-          "name": "Thorsten Hohmann vs Antonios Kakaris | Kèn Kèn",
+          "id": "chtv-6d5a98a1d8",
+          "name": "Randy Whitehead vs Kirill Rutman | BÚN CHÓ",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -2894,23 +2965,23 @@
           ],
           "sources": [
             {
-              "id": "src-12da53b46f",
+              "id": "src-6d5a98a1d8",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-12da53b46f",
-                  "name": "Thorsten Hohmann vs Antonios Kakaris",
+                  "id": "ct-6d5a98a1d8",
+                  "name": "Randy Whitehead vs Kirill Rutman",
                   "streams": [
                     {
-                      "id": "st-12da53b46f",
+                      "id": "st-6d5a98a1d8",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-12da53b46f",
-                          "name": "Kèn Kèn",
+                          "id": "lnk-6d5a98a1d8",
+                          "name": "BÚN CHÓ",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live5700/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live5699/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -2930,14 +3001,14 @@
             }
           ],
           "org_metadata": {
-            "league": "FLORIDA OPEN 2026 TV3",
-            "team_a": "Thorsten Hohmann",
-            "team_b": "Antonios Kakaris",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1785867731464_Thorsten Hohmann.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1785867753334_Antonios Kakaris.jpg",
+            "league": "FLORIDA OPEN 2026 TV2",
+            "team_a": "Randy Whitehead",
+            "team_b": "Kirill Rutman",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1765250803265_táº£i xuá»ng (1).png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1765250803265_táº£i xuá»ng (1).png",
             "time": "03:00 05/08",
-            "caster": "Kèn Kèn",
-            "score": "3-5",
+            "caster": "BÚN CHÓ",
+            "score": "1-8",
             "is_live": true,
             "hot": true
           },
@@ -2945,7 +3016,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-12da53b46f_7aee6a86_20260805.png?v=7aee6a86",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-6d5a98a1d8_ff69942e_20260805.png?v=ff69942e",
             "width": 1600,
             "height": 1200
           }
@@ -3023,42 +3094,42 @@
           }
         },
         {
-          "id": "gv-35a5aa7b13",
-          "name": "Duong Quoc Hoang vs Eduardo Pagan | 05:30 05/08",
+          "id": "chtv-825817a446",
+          "name": "Stephanie Mitchell(4win) vs Jonás Souto | BÚN CHÓ",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
             {
-              "id": "src-35a5aa7b13",
-              "name": "GiovangTV",
+              "id": "src-825817a446",
+              "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-35a5aa7b13",
-                  "name": "Duong Quoc Hoang vs Eduardo Pagan",
+                  "id": "ct-825817a446",
+                  "name": "Stephanie Mitchell(4win) vs Jonás Souto",
                   "streams": [
                     {
-                      "id": "st-35a5aa7b13",
-                      "name": "GV",
+                      "id": "st-825817a446",
+                      "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-56fc13e541",
-                          "name": "Số 9",
+                          "id": "lnk-825817a446",
+                          "name": "BÚN CHÓ",
                           "type": "hls",
                           "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1785865638_hd/1785865638_hd@720p.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live5704/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://giovang.store/"
+                              "value": "https://choangtv19.com/"
                             },
                             {
                               "key": "User-Agent",
@@ -3074,21 +3145,22 @@
             }
           ],
           "org_metadata": {
-            "league": "Florida Open",
-            "team_a": "Duong Quoc Hoang",
-            "team_b": "Eduardo Pagan",
-            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMpYmqNT8XGfqrwVGJuQ2pH_mbiEw5iORcS-4vT1WeRw&s=10",
-            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcScUSaUy0jVbT04o4J-bBH0uAIFWu7NnmfUrXmJTV2paA&s=10",
-            "time": "05:30 05/08",
-            "blv": "Số 9",
-            "is_live": false,
-            "cate_type": "Billiards"
+            "league": "FLORIDA OPEN 2026 TV2",
+            "team_a": "Stephanie Mitchell(4win)",
+            "team_b": "Jonás Souto",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1785879065507_Screenshot 2026-08-05 023405.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1785879065258_Screenshot 2026-08-05 043010.png",
+            "time": "05:00 05/08",
+            "caster": "BÚN CHÓ",
+            "score": "0-0",
+            "is_live": true,
+            "hot": true
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/6oy996tnj53i_bd40dcba_20260805.png?v=bd40dcba",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-825817a446_d6e57b02_20260805.png?v=d6e57b02",
             "width": 1600,
             "height": 1200
           }
