@@ -1051,7 +1051,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (3 LIVE)",
+      "name": "⚽ Bóng Đá (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1194,6 +1194,85 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/6a6e89450f85b1e186047100_b83e8633_20260805.png?v=b83e8633",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "ph-87239f88c8",
+          "name": "AC Milan vs Inter | 18:00 05/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-87239f88c8",
+              "name": "PhaohoaTV",
+              "contents": [
+                {
+                  "id": "ct-87239f88c8",
+                  "name": "AC Milan vs Inter",
+                  "streams": [
+                    {
+                      "id": "st-87239f88c8",
+                      "name": "PhaohoaTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-f536973e27",
+                          "name": "Pháo Thủ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://luong.phaohoa.live/live/phaohoa4/index.m3u8?expire=1815505159&sign=faaa23580764370ed378ecd708c9f262",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phaohoa1.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://phaohoa1.live"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Club Friendlies",
+            "team_a": "AC Milan",
+            "team_b": "Inter",
+            "logo_a": "https://phaohoa1.live/media/teams/logos/team_159.jpg",
+            "logo_b": "https://phaohoa1.live/media/teams/logos/team_79.jpg",
+            "time": "18:00",
+            "date": "05/08",
+            "blv": "Pháo Thủ",
+            "is_live": true,
+            "cate_type": "football",
+            "status": "live",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/58788_c08fbd02_20260805.png?v=c08fbd02",
             "width": 1600,
             "height": 1200
           }
@@ -2209,85 +2288,6 @@
           }
         },
         {
-          "id": "ph-87239f88c8",
-          "name": "AC Milan vs Inter | 18:00 05/08",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-87239f88c8",
-              "name": "PhaohoaTV",
-              "contents": [
-                {
-                  "id": "ct-87239f88c8",
-                  "name": "AC Milan vs Inter",
-                  "streams": [
-                    {
-                      "id": "st-87239f88c8",
-                      "name": "PhaohoaTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-f536973e27",
-                          "name": "Pháo Thủ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa4/index.m3u8?expire=1815505159&sign=faaa23580764370ed378ecd708c9f262",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://phaohoa1.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://phaohoa1.live"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Club Friendlies",
-            "team_a": "AC Milan",
-            "team_b": "Inter",
-            "logo_a": "https://phaohoa1.live/media/teams/logos/team_159.jpg",
-            "logo_b": "https://phaohoa1.live/media/teams/logos/team_79.jpg",
-            "time": "18:00",
-            "date": "05/08",
-            "blv": "Pháo Thủ",
-            "is_live": false,
-            "cate_type": "football",
-            "status": "scheduled",
-            "home_score": 0,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/58788_c08fbd02_20260805.png?v=c08fbd02",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "ph-878aef337a",
           "name": "Sogdiana vs Andijan | 21:00 06/08",
           "type": "single",
@@ -3217,83 +3217,11 @@
     },
     {
       "id": "grp-billiards",
-      "name": "🎱 Billiards (7 LIVE)",
+      "name": "🎱 Billiards (6 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "chtv-2ead6e8691",
-          "name": "Seo Seoa vs Rubilen Amit | Lee Min Hoo",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-2ead6e8691",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-2ead6e8691",
-                  "name": "Seo Seoa vs Rubilen Amit",
-                  "streams": [
-                    {
-                      "id": "st-2ead6e8691",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-2ead6e8691",
-                          "name": "Lee Min Hoo",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live5719/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv19.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Predator Pro Billiard Series Rome, Italy 2026",
-            "team_a": "Seo Seoa",
-            "team_b": "Rubilen Amit",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1785912465930_SEO SEOA.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1785912471577_Rubilen Amit.jpg",
-            "time": "16:00 05/08",
-            "caster": "Lee Min Hoo",
-            "score": "2-0",
-            "is_live": true,
-            "hot": true
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-2ead6e8691_30d6fb09_20260805.png?v=30d6fb09",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "chtv-63e20f68d7",
           "name": "Margarita Fefilova vs Chia Hua Chen | Đại Kê",
@@ -3511,6 +3439,78 @@
           }
         },
         {
+          "id": "chtv-2ead6e8691",
+          "name": "Seo Seoa vs Rubilen Amit | Lee Min Hoo",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-2ead6e8691",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-2ead6e8691",
+                  "name": "Seo Seoa vs Rubilen Amit",
+                  "streams": [
+                    {
+                      "id": "st-2ead6e8691",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-2ead6e8691",
+                          "name": "Lee Min Hoo",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live5719/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv19.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Predator Pro Billiard Series Rome, Italy 2026",
+            "team_a": "Seo Seoa",
+            "team_b": "Rubilen Amit",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1785912465930_SEO SEOA.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1785912471577_Rubilen Amit.jpg",
+            "time": "16:00 05/08",
+            "caster": "Lee Min Hoo",
+            "score": "2-0",
+            "is_live": true,
+            "hot": true
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-2ead6e8691_30d6fb09_20260805.png?v=30d6fb09",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "chtv-7615085053",
           "name": "BÌNH ỐC vs HIỆP BỜM | Lee Min Hoo",
           "type": "single",
@@ -3569,7 +3569,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1785923417085_HIá»P Bá»M TH.png",
             "time": "17:00 05/08",
             "caster": "Lee Min Hoo",
-            "score": "7-4",
+            "score": "10-4",
             "is_live": true,
             "hot": true
           },
@@ -3641,7 +3641,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1765417407261_táº£i xuá»ng.png",
             "time": "17:00 05/08",
             "caster": "Xinh Yeu",
-            "score": "0-4",
+            "score": "1-4",
             "is_live": true,
             "hot": true
           },
@@ -3650,78 +3650,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-4fa56aee42_ad8e6d6b_20260805.png?v=ad8e6d6b",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-3bc5684557",
-          "name": "TRỌNG PHẠM vs MINH SODA | GIÀNG A PHỌ",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-3bc5684557",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-3bc5684557",
-                  "name": "TRỌNG PHẠM vs MINH SODA",
-                  "streams": [
-                    {
-                      "id": "st-3bc5684557",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-3bc5684557",
-                          "name": "GIÀNG A PHỌ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live5732/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv19.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "VÒNG LOẠI | TRỌNG PHẠM - MINH SODA | MASTER GLORY",
-            "team_a": "TRỌNG PHẠM",
-            "team_b": "MINH SODA",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1765337449015_táº£i xuá»ng.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1765337449015_táº£i xuá»ng.png",
-            "time": "17:30 05/08",
-            "caster": "GIÀNG A PHỌ",
-            "score": "5-2",
-            "is_live": true,
-            "hot": true
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-3bc5684557_9fc7059c_20260805.png?v=9fc7059c",
             "width": 1600,
             "height": 1200
           }
