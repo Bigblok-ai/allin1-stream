@@ -1194,7 +1194,7 @@
             "is_live": true,
             "cate_type": "football",
             "status": "live",
-            "home_score": 3,
+            "home_score": 4,
             "away_score": 0
           },
           "image": {
@@ -3548,11 +3548,83 @@
     },
     {
       "id": "grp-billiards",
-      "name": "🎱 Billiards (5 LIVE)",
+      "name": "🎱 Billiards (6 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "chtv-dc74b5881d",
+          "name": "Mickey Krause vs Cristopher Tevez(5win) | BÚN CHÓ",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-dc74b5881d",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-dc74b5881d",
+                  "name": "Mickey Krause vs Cristopher Tevez(5win)",
+                  "streams": [
+                    {
+                      "id": "st-dc74b5881d",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-dc74b5881d",
+                          "name": "BÚN CHÓ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live5755/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv19.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "TV2 Round 2 - Winners qualification - Race to 9",
+            "team_a": "Mickey Krause",
+            "team_b": "Cristopher Tevez(5win)",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1785949339456_Mickey Krause.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1785949338302_Cristopher Tevez.jpg",
+            "time": "01:00 06/08",
+            "caster": "BÚN CHÓ",
+            "score": "0-0",
+            "is_live": true,
+            "hot": true
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-dc74b5881d_3cf11e5d_20260806.png?v=3cf11e5d",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "chtv-c48247ca2a",
           "name": "Chieh-Yu Chou vs Margarita Fefilova | Tào A Man",
@@ -3626,78 +3698,6 @@
           }
         },
         {
-          "id": "chtv-ead4015ab3",
-          "name": "Aloysius Yapp vs Kristian Dimitrov(5win) | VÁNG",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-ead4015ab3",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-ead4015ab3",
-                  "name": "Aloysius Yapp vs Kristian Dimitrov(5win)",
-                  "streams": [
-                    {
-                      "id": "st-ead4015ab3",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-ead4015ab3",
-                          "name": "VÁNG",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live5753/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv19.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "FLORIDA OPEN 2026 TV1 Round 1 Losers - Race to 8",
-            "team_a": "Aloysius Yapp",
-            "team_b": "Kristian Dimitrov(5win)",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1785943310544_YAPP BÃ©o.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1785943315016_Kristian Dimitrov.jpg",
-            "time": "23:30 05/08",
-            "caster": "VÁNG",
-            "score": "3-3",
-            "is_live": true,
-            "hot": true
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-ead4015ab3_0369fca0_20260806.png?v=0369fca0",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "chtv-01de4dde98",
           "name": "Eduard Bregu(8win) vs Felix Vogel | Thập Cẩm",
           "type": "single",
@@ -3756,7 +3756,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1785942937341_Felix Vogel.jpg",
             "time": "23:30 05/08",
             "caster": "Thập Cẩm",
-            "score": "1-1",
+            "score": "1-2",
             "is_live": true,
             "hot": true
           },
@@ -3900,7 +3900,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1765250803265_táº£i xuá»ng (1).png",
             "time": "23:30 05/08",
             "caster": "BÚN CHÓ",
-            "score": "6-0",
+            "score": "8-0",
             "is_live": true,
             "hot": true
           },
@@ -3909,6 +3909,294 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-049fdb92ad_6ad30169_20260806.png?v=6ad30169",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-ead4015ab3",
+          "name": "Aloysius Yapp vs Kristian Dimitrov(5win) | VÁNG",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-ead4015ab3",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-ead4015ab3",
+                  "name": "Aloysius Yapp vs Kristian Dimitrov(5win)",
+                  "streams": [
+                    {
+                      "id": "st-ead4015ab3",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-ead4015ab3",
+                          "name": "VÁNG",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live5753/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv19.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "FLORIDA OPEN 2026 TV1 Round 1 Losers - Race to 8",
+            "team_a": "Aloysius Yapp",
+            "team_b": "Kristian Dimitrov(5win)",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1785943310544_YAPP BÃ©o.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1785943315016_Kristian Dimitrov.jpg",
+            "time": "23:30 05/08",
+            "caster": "VÁNG",
+            "score": "4-3",
+            "is_live": true,
+            "hot": true
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-ead4015ab3_0369fca0_20260806.png?v=0369fca0",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-9bfcb119f5",
+          "name": "Justin Bergman vs Jesse Link(5win) | 01:00 06/08 | VÁNG",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "SAP",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-9bfcb119f5",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-9bfcb119f5",
+                  "name": "Justin Bergman vs Jesse Link(5win)",
+                  "streams": [
+                    {
+                      "id": "st-9bfcb119f5",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-9bfcb119f5",
+                          "name": "VÁNG",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live5754/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv19.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "TV1 Round 2 - Winners qualification - Race to 9",
+            "team_a": "Justin Bergman",
+            "team_b": "Jesse Link(5win)",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1785949097393_Justin Bergman.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1765250803265_táº£i xuá»ng (1).png",
+            "time": "01:00 06/08",
+            "caster": "VÁNG",
+            "score": "0-0",
+            "is_live": false,
+            "hot": true
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-9bfcb119f5_dd0252d7_20260806.png?v=dd0252d7",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-72c56827f7",
+          "name": "Naoyuki Oi vs Aleksandra Guleikova (4win) | 01:00 06/08 | GIÀNG A PHỌ",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "SAP",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-72c56827f7",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-72c56827f7",
+                  "name": "Naoyuki Oi vs Aleksandra Guleikova (4win)",
+                  "streams": [
+                    {
+                      "id": "st-72c56827f7",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-72c56827f7",
+                          "name": "GIÀNG A PHỌ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live5757/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv19.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "TV4  FLORIDA OPEN 2026  Round 1 Losers - Race to 8",
+            "team_a": "Naoyuki Oi",
+            "team_b": "Aleksandra Guleikova (4win)",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1785949726205_NAOYUKI OI.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1765250803265_táº£i xuá»ng (1).png",
+            "time": "01:00 06/08",
+            "caster": "GIÀNG A PHỌ",
+            "score": "0-0",
+            "is_live": false,
+            "hot": true
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-72c56827f7_ef25a976_20260806.png?v=ef25a976",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-0f928fe87c",
+          "name": "Evan Wagoner vs Gerson Martinez Boza | 01:00 06/08 | Thập Cẩm",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "SAP",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-0f928fe87c",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-0f928fe87c",
+                  "name": "Evan Wagoner vs Gerson Martinez Boza",
+                  "streams": [
+                    {
+                      "id": "st-0f928fe87c",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-0f928fe87c",
+                          "name": "Thập Cẩm",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live5756/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv19.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "TV3 Round 2 - Winners qualification - Race to 9",
+            "team_a": "Evan Wagoner",
+            "team_b": "Gerson Martinez Boza",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1765250803265_táº£i xuá»ng (1).png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1765226096369_de.png",
+            "time": "01:00 06/08",
+            "caster": "Thập Cẩm",
+            "score": "0-0",
+            "is_live": false,
+            "hot": true
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-0f928fe87c_2f300a02_20260806.png?v=2f300a02",
             "width": 1600,
             "height": 1200
           }
