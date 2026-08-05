@@ -1051,7 +1051,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1193,7 +1193,7 @@
             "blv": "KaKa",
             "is_live": true,
             "cate_type": "football",
-            "status": "live",
+            "status": "half_time",
             "home_score": 2,
             "away_score": 0
           },
@@ -1202,6 +1202,85 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/58855_b149dd26_20260805.png?v=b149dd26",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "ph-f9e1b74986",
+          "name": "Aarhus vs Sabah Baku | 23:30 05/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-f9e1b74986",
+              "name": "PhaohoaTV",
+              "contents": [
+                {
+                  "id": "ct-f9e1b74986",
+                  "name": "Aarhus vs Sabah Baku",
+                  "streams": [
+                    {
+                      "id": "st-f9e1b74986",
+                      "name": "PhaohoaTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-cbc47e2fc7",
+                          "name": "Văn Minh",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://luong.phaohoa.live/live/phaohoa3/index.m3u8?expire=1815505159&sign=32dbf97946c3646cdd7f664aebd7fa2a",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phaohoa1.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://phaohoa1.live"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "UEFA Champions League",
+            "team_a": "Aarhus",
+            "team_b": "Sabah Baku",
+            "logo_a": "https://phaohoa1.live/media/teams/logos/team_250.jpg",
+            "logo_b": "https://phaohoa1.live/media/teams/logos/team_1305.jpg",
+            "time": "23:30",
+            "date": "05/08",
+            "blv": "Văn Minh",
+            "is_live": true,
+            "cate_type": "football",
+            "status": "live",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/59135_2d496750_20260805.png?v=2d496750",
             "width": 1600,
             "height": 1200
           }
@@ -3012,85 +3091,6 @@
             "width": 1600,
             "height": 1200
           }
-        },
-        {
-          "id": "ph-f9e1b74986",
-          "name": "Aarhus vs Sabah Baku | 23:30 05/08",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-f9e1b74986",
-              "name": "PhaohoaTV",
-              "contents": [
-                {
-                  "id": "ct-f9e1b74986",
-                  "name": "Aarhus vs Sabah Baku",
-                  "streams": [
-                    {
-                      "id": "st-f9e1b74986",
-                      "name": "PhaohoaTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-cbc47e2fc7",
-                          "name": "Văn Minh",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa3/index.m3u8?expire=1815505159&sign=32dbf97946c3646cdd7f664aebd7fa2a",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://phaohoa1.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://phaohoa1.live"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "UEFA Champions League",
-            "team_a": "Aarhus",
-            "team_b": "Sabah Baku",
-            "logo_a": "https://phaohoa1.live/media/teams/logos/team_250.jpg",
-            "logo_b": "https://phaohoa1.live/media/teams/logos/team_1305.jpg",
-            "time": "23:30",
-            "date": "05/08",
-            "blv": "Văn Minh",
-            "is_live": false,
-            "cate_type": "football",
-            "status": "scheduled",
-            "home_score": 0,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/59135_2d496750_20260805.png?v=2d496750",
-            "width": 1600,
-            "height": 1200
-          }
         }
       ]
     },
@@ -3625,8 +3625,8 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "chtv-664cf18482",
-          "name": "Brian Rosenberger(7win) vs Andy Goldstein | GIÀNG A PHỌ",
+          "id": "chtv-4414991677",
+          "name": "Seo Seoa vs Chezka Centeno | Xinh Yeu",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -3640,23 +3640,23 @@
           ],
           "sources": [
             {
-              "id": "src-664cf18482",
+              "id": "src-4414991677",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-664cf18482",
-                  "name": "Brian Rosenberger(7win) vs Andy Goldstein",
+                  "id": "ct-4414991677",
+                  "name": "Seo Seoa vs Chezka Centeno",
                   "streams": [
                     {
-                      "id": "st-664cf18482",
+                      "id": "st-4414991677",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-664cf18482",
-                          "name": "GIÀNG A PHỌ",
+                          "id": "lnk-4414991677",
+                          "name": "Xinh Yeu",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live5741/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live5748/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -3676,22 +3676,22 @@
             }
           ],
           "org_metadata": {
-            "league": "FLORIDA OPEN 2026 TV4  Round 1 Losers - Race to 8",
-            "team_a": "Brian Rosenberger(7win)",
-            "team_b": "Andy Goldstein",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1765250803265_táº£i xuá»ng (1).png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1785932678130_Andy Goldstein.jpg",
+            "league": "BÁN KẾT 1  Predator Pro Billiard Series Rome, Italy 2026",
+            "team_a": "Seo Seoa",
+            "team_b": "Chezka Centeno",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1785938727361_SEO SEOA.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1785938731954_Chezka Centeno.jpg",
             "time": "22:00 05/08",
-            "caster": "GIÀNG A PHỌ",
-            "score": "4-4",
+            "caster": "Xinh Yeu",
+            "score": "0-2",
             "is_live": true,
-            "hot": true
+            "hot": false
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-664cf18482_bc25c9a0_20260805.png?v=bc25c9a0",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-4414991677_1207a845_20260805.png?v=1207a845",
             "width": 1600,
             "height": 1200
           }
@@ -3827,7 +3827,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1765226096369_de.png",
             "time": "22:00 05/08",
             "caster": "Thập Cẩm",
-            "score": "5-7",
+            "score": "6-7",
             "is_live": true,
             "hot": false
           },
@@ -3841,8 +3841,8 @@
           }
         },
         {
-          "id": "chtv-4414991677",
-          "name": "Seo Seoa vs Chezka Centeno | Xinh Yeu",
+          "id": "chtv-664cf18482",
+          "name": "Brian Rosenberger(7win) vs Andy Goldstein | GIÀNG A PHỌ",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -3856,23 +3856,23 @@
           ],
           "sources": [
             {
-              "id": "src-4414991677",
+              "id": "src-664cf18482",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-4414991677",
-                  "name": "Seo Seoa vs Chezka Centeno",
+                  "id": "ct-664cf18482",
+                  "name": "Brian Rosenberger(7win) vs Andy Goldstein",
                   "streams": [
                     {
-                      "id": "st-4414991677",
+                      "id": "st-664cf18482",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-4414991677",
-                          "name": "Xinh Yeu",
+                          "id": "lnk-664cf18482",
+                          "name": "GIÀNG A PHỌ",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live5748/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live5741/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -3892,14 +3892,14 @@
             }
           ],
           "org_metadata": {
-            "league": "BÁN KẾT 1  Predator Pro Billiard Series Rome, Italy 2026",
-            "team_a": "Seo Seoa",
-            "team_b": "Chezka Centeno",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1785938727361_SEO SEOA.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1785938731954_Chezka Centeno.jpg",
+            "league": "FLORIDA OPEN 2026 TV4  Round 1 Losers - Race to 8",
+            "team_a": "Brian Rosenberger(7win)",
+            "team_b": "Andy Goldstein",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1765250803265_táº£i xuá»ng (1).png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1785932678130_Andy Goldstein.jpg",
             "time": "22:00 05/08",
-            "caster": "Xinh Yeu",
-            "score": "0-2",
+            "caster": "GIÀNG A PHỌ",
+            "score": "4-6",
             "is_live": true,
             "hot": false
           },
@@ -3907,7 +3907,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-4414991677_1207a845_20260805.png?v=1207a845",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-664cf18482_bc25c9a0_20260805.png?v=bc25c9a0",
             "width": 1600,
             "height": 1200
           }
