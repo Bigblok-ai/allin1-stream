@@ -1051,11 +1051,90 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá",
+      "name": "⚽ Bóng Đá (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "ph-b48c692461",
+          "name": "Spartak Moscow vs Orenburg | 22:30 05/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-b48c692461",
+              "name": "PhaohoaTV",
+              "contents": [
+                {
+                  "id": "ct-b48c692461",
+                  "name": "Spartak Moscow vs Orenburg",
+                  "streams": [
+                    {
+                      "id": "st-b48c692461",
+                      "name": "PhaohoaTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-5c0c4aafd8",
+                          "name": "KaKa",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://luong.phaohoa.live/live/phaohoa6/index.m3u8?expire=1815505159&sign=16059952b038cc8982ab6d1980711dc9",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phaohoa1.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://phaohoa1.live"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Cup",
+            "team_a": "Spartak Moscow",
+            "team_b": "Orenburg",
+            "logo_a": "https://phaohoa1.live/media/teams/logos/team_6287.jpg",
+            "logo_b": "https://phaohoa1.live/media/teams/logos/team_6265.jpg",
+            "time": "22:30",
+            "date": "05/08",
+            "blv": "KaKa",
+            "is_live": true,
+            "cate_type": "football",
+            "status": "live",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/58855_b149dd26_20260805.png?v=b149dd26",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "gv-863aa7a47b",
           "name": "Virtus Entella vs Novara Calcio | 22:00 05/08",
@@ -2777,85 +2856,6 @@
           }
         },
         {
-          "id": "ph-b48c692461",
-          "name": "Spartak Moscow vs Orenburg | 22:30 05/08",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-b48c692461",
-              "name": "PhaohoaTV",
-              "contents": [
-                {
-                  "id": "ct-b48c692461",
-                  "name": "Spartak Moscow vs Orenburg",
-                  "streams": [
-                    {
-                      "id": "st-b48c692461",
-                      "name": "PhaohoaTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-5c0c4aafd8",
-                          "name": "KaKa",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa6/index.m3u8?expire=1815505159&sign=16059952b038cc8982ab6d1980711dc9",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://phaohoa1.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://phaohoa1.live"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Cup",
-            "team_a": "Spartak Moscow",
-            "team_b": "Orenburg",
-            "logo_a": "https://phaohoa1.live/media/teams/logos/team_6287.jpg",
-            "logo_b": "https://phaohoa1.live/media/teams/logos/team_6265.jpg",
-            "time": "22:30",
-            "date": "05/08",
-            "blv": "KaKa",
-            "is_live": false,
-            "cate_type": "football",
-            "status": "scheduled",
-            "home_score": 0,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/58855_b149dd26_20260805.png?v=b149dd26",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "ph-b81071b8d0",
           "name": "Jagiellonia vs Rangers | 23:00 06/08",
           "type": "single",
@@ -3683,7 +3683,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1765263322125_táº£i xuá»ng.png",
             "time": "00:00 05/08",
             "caster": "Lee Min Hoo",
-            "score": "8-9",
+            "score": "9-9",
             "is_live": true,
             "hot": true
           },
@@ -3692,6 +3692,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-9a813158cf_751b4169_20260805.png?v=751b4169",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-2040859f84",
+          "name": "Francisco Sánchez Ruiz vs Sam Henderson(5win) | VÁNG",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-2040859f84",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-2040859f84",
+                  "name": "Francisco Sánchez Ruiz vs Sam Henderson(5win)",
+                  "streams": [
+                    {
+                      "id": "st-2040859f84",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-2040859f84",
+                          "name": "VÁNG",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live5737/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv19.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "FLORIDA OPEN 2026 TV1  Round 2 - Winners qualification - Race to 9",
+            "team_a": "Francisco Sánchez Ruiz",
+            "team_b": "Sam Henderson(5win)",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1785931242586_Francisco SÃ¡nchez Ruiz.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1785931255175_Sam Henderson.jpg",
+            "time": "22:00 05/08",
+            "caster": "VÁNG",
+            "score": "0-1",
+            "is_live": true,
+            "hot": true
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-2040859f84_7e0e318a_20260805.png?v=7e0e318a",
             "width": 1600,
             "height": 1200
           }
@@ -3764,78 +3836,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-c48247ca2a_c38a64d0_20260805.png?v=c38a64d0",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-3ecfb58423",
-          "name": "Johnny Archer vs Miguel Ortiz | BÚN CHÓ",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-3ecfb58423",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-3ecfb58423",
-                  "name": "Johnny Archer vs Miguel Ortiz",
-                  "streams": [
-                    {
-                      "id": "st-3ecfb58423",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-3ecfb58423",
-                          "name": "BÚN CHÓ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live5739/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv19.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "FLORIDA OPEN 2026 TV2  Round 1 Losers - Race to 8",
-            "team_a": "Johnny Archer",
-            "team_b": "Miguel Ortiz",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1785932149957_Johnny Archer.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1765250803265_táº£i xuá»ng (1).png",
-            "time": "22:00 05/08",
-            "caster": "BÚN CHÓ",
-            "score": "0-0",
-            "is_live": true,
-            "hot": true
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-3ecfb58423_5d56da0a_20260805.png?v=5d56da0a",
             "width": 1600,
             "height": 1200
           }
@@ -3914,7 +3914,7 @@
         },
         {
           "id": "chtv-664cf18482",
-          "name": "Brian Rosenberger(8win) vs Andy Goldstein | GIÀNG A PHỌ",
+          "name": "Brian Rosenberger(7win) vs Andy Goldstein | GIÀNG A PHỌ",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -3933,7 +3933,7 @@
               "contents": [
                 {
                   "id": "ct-664cf18482",
-                  "name": "Brian Rosenberger(8win) vs Andy Goldstein",
+                  "name": "Brian Rosenberger(7win) vs Andy Goldstein",
                   "streams": [
                     {
                       "id": "st-664cf18482",
@@ -3965,7 +3965,7 @@
           ],
           "org_metadata": {
             "league": "FLORIDA OPEN 2026 TV4  Round 1 Losers - Race to 8",
-            "team_a": "Brian Rosenberger(8win)",
+            "team_a": "Brian Rosenberger(7win)",
             "team_b": "Andy Goldstein",
             "logo_a": "https://cdn-choangtv.com/img/logo/1765250803265_táº£i xuá»ng (1).png",
             "logo_b": "https://cdn-choangtv.com/img/logo/1785932678130_Andy Goldstein.jpg",
@@ -4043,7 +4043,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1765226096369_de.png",
             "time": "22:00 05/08",
             "caster": "Thập Cẩm",
-            "score": "0-0",
+            "score": "0-1",
             "is_live": true,
             "hot": true
           },
@@ -4057,8 +4057,8 @@
           }
         },
         {
-          "id": "chtv-2040859f84",
-          "name": "Francisco Sánchez Ruiz vs Sam Henderson(5win) | VÁNG",
+          "id": "chtv-3ecfb58423",
+          "name": "Johnny Archer vs Miguel Ortiz | BÚN CHÓ",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -4072,23 +4072,23 @@
           ],
           "sources": [
             {
-              "id": "src-2040859f84",
+              "id": "src-3ecfb58423",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-2040859f84",
-                  "name": "Francisco Sánchez Ruiz vs Sam Henderson(5win)",
+                  "id": "ct-3ecfb58423",
+                  "name": "Johnny Archer vs Miguel Ortiz",
                   "streams": [
                     {
-                      "id": "st-2040859f84",
+                      "id": "st-3ecfb58423",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-2040859f84",
-                          "name": "VÁNG",
+                          "id": "lnk-3ecfb58423",
+                          "name": "BÚN CHÓ",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live5737/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live5739/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -4108,13 +4108,13 @@
             }
           ],
           "org_metadata": {
-            "league": "FLORIDA OPEN 2026 TV1  Round 2 - Winners qualification - Race to 9",
-            "team_a": "Francisco Sánchez Ruiz",
-            "team_b": "Sam Henderson(5win)",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1785931242586_Francisco SÃ¡nchez Ruiz.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1785931255175_Sam Henderson.jpg",
+            "league": "FLORIDA OPEN 2026 TV2  Round 1 Losers - Race to 8",
+            "team_a": "Johnny Archer",
+            "team_b": "Miguel Ortiz",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1785932149957_Johnny Archer.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1765250803265_táº£i xuá»ng (1).png",
             "time": "22:00 05/08",
-            "caster": "VÁNG",
+            "caster": "BÚN CHÓ",
             "score": "0-0",
             "is_live": true,
             "hot": true
@@ -4123,7 +4123,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-2040859f84_7e0e318a_20260805.png?v=7e0e318a",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-3ecfb58423_5d56da0a_20260805.png?v=5d56da0a",
             "width": 1600,
             "height": 1200
           }
