@@ -3358,23 +3358,23 @@
     },
     {
       "id": "grp-billiards",
-      "name": "🎱 Billiards",
+      "name": "🎱 Billiards (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
         {
           "id": "chtv-42d097da3b",
-          "name": "Tiến Anh vs Hoàng Việt | 10:00 06/08 | Tào A Man",
+          "name": "Tiến Anh vs Hoàng Việt | Tào A Man",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "SAP",
+              "text": "LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -3423,7 +3423,7 @@
             "time": "10:00 06/08",
             "caster": "Tào A Man",
             "score": "0-0",
-            "is_live": false,
+            "is_live": true,
             "hot": true
           },
           "image": {
@@ -3431,6 +3431,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-42d097da3b_458792d2_20260806.png?v=458792d2",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-a7c9f74e26",
+          "name": "JOHN CASEY(8win) vs BO BELONIA(13win) | 09:40 06/08 | Lee Min Hoo",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "SAP",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-a7c9f74e26",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-a7c9f74e26",
+                  "name": "JOHN CASEY(8win) vs BO BELONIA(13win)",
+                  "streams": [
+                    {
+                      "id": "st-a7c9f74e26",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-a7c9f74e26",
+                          "name": "Lee Min Hoo",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live5776/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv19.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "EASY STREET BILLIARDS - TABLE 1",
+            "team_a": "JOHN CASEY(8win)",
+            "team_b": "BO BELONIA(13win)",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1785983959073_Screenshot 2026-08-06 093912.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1785983958838_Screenshot 2026-08-06 093912.png",
+            "time": "09:40 06/08",
+            "caster": "Lee Min Hoo",
+            "score": "0-0",
+            "is_live": false,
+            "hot": true
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-a7c9f74e26_bb712d68_20260806.png?v=bb712d68",
             "width": 1600,
             "height": 1200
           }
