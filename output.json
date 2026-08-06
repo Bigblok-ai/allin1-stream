@@ -1107,11 +1107,90 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá",
+      "name": "⚽ Bóng Đá (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "ph-878aef337a",
+          "name": "Sogdiana vs Andijan | 21:00 06/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-878aef337a",
+              "name": "PhaohoaTV",
+              "contents": [
+                {
+                  "id": "ct-878aef337a",
+                  "name": "Sogdiana vs Andijan",
+                  "streams": [
+                    {
+                      "id": "st-878aef337a",
+                      "name": "PhaohoaTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-f536973e27",
+                          "name": "Pháo Thủ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://luong.phaohoa.live/live/phaohoa4/index.m3u8?expire=1815505159&sign=faaa23580764370ed378ecd708c9f262",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phaohoa1.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://phaohoa1.live"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Super League",
+            "team_a": "Sogdiana",
+            "team_b": "Andijan",
+            "logo_a": "https://phaohoa1.live/media/teams/logos/team_7993.jpg",
+            "logo_b": "https://phaohoa1.live/media/teams/logos/team_8000.jpg",
+            "time": "21:00",
+            "date": "06/08",
+            "blv": "Pháo Thủ",
+            "is_live": true,
+            "cate_type": "football",
+            "status": "live",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/59083_8d741f96_20260806.png?v=8d741f96",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "gv-a0707ed36a",
           "name": "Cremonese vs Iraklis Saloniki | 21:00 06/08",
@@ -2667,85 +2746,6 @@
           }
         },
         {
-          "id": "ph-878aef337a",
-          "name": "Sogdiana vs Andijan | 21:00 06/08",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-878aef337a",
-              "name": "PhaohoaTV",
-              "contents": [
-                {
-                  "id": "ct-878aef337a",
-                  "name": "Sogdiana vs Andijan",
-                  "streams": [
-                    {
-                      "id": "st-878aef337a",
-                      "name": "PhaohoaTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-f536973e27",
-                          "name": "Pháo Thủ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa4/index.m3u8?expire=1815505159&sign=faaa23580764370ed378ecd708c9f262",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://phaohoa1.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://phaohoa1.live"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Super League",
-            "team_a": "Sogdiana",
-            "team_b": "Andijan",
-            "logo_a": "https://phaohoa1.live/media/teams/logos/team_7993.jpg",
-            "logo_b": "https://phaohoa1.live/media/teams/logos/team_8000.jpg",
-            "time": "21:00",
-            "date": "06/08",
-            "blv": "Pháo Thủ",
-            "is_live": false,
-            "cate_type": "football",
-            "status": "scheduled",
-            "home_score": 0,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/59083_8d741f96_20260806.png?v=8d741f96",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "ph-aa4c275fba",
           "name": "KuPS vs Univ. Craiova | 22:00 06/08",
           "type": "single",
@@ -3295,82 +3295,11 @@
     },
     {
       "id": "grp-bóng-rổ",
-      "name": "🏀 Bóng Rổ (1 LIVE)",
+      "name": "🏀 Bóng Rổ",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-b5ced18ba8",
-          "name": "Basilan Viva Portmasters vs Paranaque Patriots | 18:00 06/08",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-b5ced18ba8",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-b5ced18ba8",
-                  "name": "Basilan Viva Portmasters vs Paranaque Patriots",
-                  "streams": [
-                    {
-                      "id": "st-b5ced18ba8",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-fc1b3f0e8b",
-                          "name": "Số 3",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1785955303_hd/1785955303_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Philippines MPBL",
-            "team_a": "Basilan Viva Portmasters",
-            "team_b": "Paranaque Patriots",
-            "logo_a": "https://nba.titan007.com/files/team/1k2p751yht1b.png",
-            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/44b923abc0dfdd25add729b91a4f6d28.png",
-            "time": "18:00 06/08",
-            "blv": "Số 3",
-            "is_live": true,
-            "cate_type": "basketball"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/13052279_d626bf66_20260806.png?v=d626bf66",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-caa9c9755e",
           "name": "Indiana Fever vs Las Vegas Aces | 06:00 07/08",
