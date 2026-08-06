@@ -1107,11 +1107,153 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (1 LIVE)",
+      "name": "⚽ Bóng Đá (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "gv-de6718f194",
+          "name": "FK Sogdiana Jizak vs FK Andijon | 22:00 06/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-de6718f194",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-de6718f194",
+                  "name": "FK Sogdiana Jizak vs FK Andijon",
+                  "streams": [
+                    {
+                      "id": "st-de6718f194",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-9b96f4a24c",
+                          "name": "Số 6",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1785955597_hd/1785955597_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Uzbekistan Super League",
+            "team_a": "FK Sogdiana Jizak",
+            "team_b": "FK Andijon",
+            "logo_a": "https://images.keovip88.net/images/teams/sogdiana-jizak.png",
+            "logo_b": "https://images.keovip88.net/images/teams/fk-andijon.png",
+            "time": "22:00 06/08",
+            "blv": "Số 6",
+            "is_live": true,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/6a6d374124d46db8705f6929_6b32c421_20260806.png?v=6b32c421",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-ad925cdd8b",
+          "name": "Pakhtakor Tashkent vs Buxoro FK | 22:00 06/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-ad925cdd8b",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-ad925cdd8b",
+                  "name": "Pakhtakor Tashkent vs Buxoro FK",
+                  "streams": [
+                    {
+                      "id": "st-ad925cdd8b",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-240b5dec2d",
+                          "name": "Số 2",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1785955774_hd/1785955774_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Uzbekistan Super League",
+            "team_a": "Pakhtakor Tashkent",
+            "team_b": "Buxoro FK",
+            "logo_a": "https://images.keovip88.net/images/teams/pakhtakor.png",
+            "logo_b": "https://images.keovip88.net/images/teams/buxoro-fk.png",
+            "time": "22:00 06/08",
+            "blv": "Số 2",
+            "is_live": true,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/6a6d374124d46db8705f691f_2ed3bac3_20260806.png?v=2ed3bac3",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "ph-878aef337a",
           "name": "Sogdiana vs Andijan | 21:00 06/08",
@@ -1178,7 +1320,7 @@
             "blv": "Pháo Thủ",
             "is_live": true,
             "cate_type": "football",
-            "status": "live",
+            "status": "half_time",
             "home_score": 0,
             "away_score": 0
           },
@@ -1187,148 +1329,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/59083_8d741f96_20260806.png?v=8d741f96",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-de6718f194",
-          "name": "FK Sogdiana Jizak vs FK Andijon | 22:00 06/08",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-de6718f194",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-de6718f194",
-                  "name": "FK Sogdiana Jizak vs FK Andijon",
-                  "streams": [
-                    {
-                      "id": "st-de6718f194",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-9b96f4a24c",
-                          "name": "Số 6",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1785955597_hd/1785955597_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Uzbekistan Super League",
-            "team_a": "FK Sogdiana Jizak",
-            "team_b": "FK Andijon",
-            "logo_a": "https://images.keovip88.net/images/teams/sogdiana-jizak.png",
-            "logo_b": "https://images.keovip88.net/images/teams/fk-andijon.png",
-            "time": "22:00 06/08",
-            "blv": "Số 6",
-            "is_live": false,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/6a6d374124d46db8705f6929_6b32c421_20260806.png?v=6b32c421",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-ad925cdd8b",
-          "name": "Pakhtakor Tashkent vs Buxoro FK | 22:00 06/08",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-ad925cdd8b",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-ad925cdd8b",
-                  "name": "Pakhtakor Tashkent vs Buxoro FK",
-                  "streams": [
-                    {
-                      "id": "st-ad925cdd8b",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-240b5dec2d",
-                          "name": "Số 2",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1785955774_hd/1785955774_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Uzbekistan Super League",
-            "team_a": "Pakhtakor Tashkent",
-            "team_b": "Buxoro FK",
-            "logo_a": "https://images.keovip88.net/images/teams/pakhtakor.png",
-            "logo_b": "https://images.keovip88.net/images/teams/buxoro-fk.png",
-            "time": "22:00 06/08",
-            "blv": "Số 2",
-            "is_live": false,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/6a6d374124d46db8705f691f_2ed3bac3_20260806.png?v=2ed3bac3",
             "width": 1600,
             "height": 1200
           }
@@ -3304,7 +3304,7 @@
     },
     {
       "id": "grp-billiards",
-      "name": "🎱 Billiards (5 LIVE)",
+      "name": "🎱 Billiards (6 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -3440,9 +3440,9 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1765599062294_táº£i xuá»ng.png",
             "time": "00:00 06/08",
             "caster": "Thập Cẩm",
-            "score": "3-2",
+            "score": "4-2",
             "is_live": true,
-            "hot": true
+            "hot": false
           },
           "image": {
             "padding": 1,
@@ -3526,8 +3526,8 @@
           }
         },
         {
-          "id": "chtv-0984359d74",
-          "name": "Carlo Biado vs Ali Bivehgani(5win) | BÚN CHÓ",
+          "id": "chtv-3d107d0f8b",
+          "name": "Oliver Szolnoki vs Sam Henderson(6win) | Kèn Kèn",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -3541,23 +3541,23 @@
           ],
           "sources": [
             {
-              "id": "src-0984359d74",
+              "id": "src-3d107d0f8b",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-0984359d74",
-                  "name": "Carlo Biado vs Ali Bivehgani(5win)",
+                  "id": "ct-3d107d0f8b",
+                  "name": "Oliver Szolnoki vs Sam Henderson(6win)",
                   "streams": [
                     {
-                      "id": "st-0984359d74",
+                      "id": "st-3d107d0f8b",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-0984359d74",
-                          "name": "BÚN CHÓ",
+                          "id": "lnk-3d107d0f8b",
+                          "name": "Kèn Kèn",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live5794/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live5791/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -3577,13 +3577,13 @@
             }
           ],
           "org_metadata": {
-            "league": "Round 1 - Race to 10 TV4",
-            "team_a": "Carlo Biado",
-            "team_b": "Ali Bivehgani(5win)",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1786000833939_CARLO BIADO.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1763197166604_billiard-ball-logo-png_seeklogo-248081.png",
+            "league": "Round 1 - Race to 10 TV2",
+            "team_a": "Oliver Szolnoki",
+            "team_b": "Sam Henderson(6win)",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1786000500942_Oliver Szolnoki.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1786000504845_Sam Henderson.jpg",
             "time": "22:00 06/08",
-            "caster": "BÚN CHÓ",
+            "caster": "Kèn Kèn",
             "score": "0-0",
             "is_live": true,
             "hot": true
@@ -3592,7 +3592,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-0984359d74_9585d75b_20260806.png?v=9585d75b",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-3d107d0f8b_d1a2ffe1_20260806.png?v=d1a2ffe1",
             "width": 1600,
             "height": 1200
           }
@@ -3670,38 +3670,38 @@
           }
         },
         {
-          "id": "chtv-3d107d0f8b",
-          "name": "Oliver Szolnoki vs Sam Henderson(6win) | 22:00 06/08 | Kèn Kèn",
+          "id": "chtv-0984359d74",
+          "name": "Carlo Biado vs Ali Bivehgani(5win) | BÚN CHÓ",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "SAP",
+              "text": "LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
             {
-              "id": "src-3d107d0f8b",
+              "id": "src-0984359d74",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-3d107d0f8b",
-                  "name": "Oliver Szolnoki vs Sam Henderson(6win)",
+                  "id": "ct-0984359d74",
+                  "name": "Carlo Biado vs Ali Bivehgani(5win)",
                   "streams": [
                     {
-                      "id": "st-3d107d0f8b",
+                      "id": "st-0984359d74",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-3d107d0f8b",
-                          "name": "Kèn Kèn",
+                          "id": "lnk-0984359d74",
+                          "name": "BÚN CHÓ",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live5791/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live5794/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -3721,22 +3721,22 @@
             }
           ],
           "org_metadata": {
-            "league": "Round 1 - Race to 10 TV2",
-            "team_a": "Oliver Szolnoki",
-            "team_b": "Sam Henderson(6win)",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1786000500942_Oliver Szolnoki.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1786000504845_Sam Henderson.jpg",
+            "league": "Round 1 - Race to 10 TV4",
+            "team_a": "Carlo Biado",
+            "team_b": "Ali Bivehgani(5win)",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1786000833939_CARLO BIADO.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1763197166604_billiard-ball-logo-png_seeklogo-248081.png",
             "time": "22:00 06/08",
-            "caster": "Kèn Kèn",
+            "caster": "BÚN CHÓ",
             "score": "0-0",
-            "is_live": false,
+            "is_live": true,
             "hot": true
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-3d107d0f8b_d1a2ffe1_20260806.png?v=d1a2ffe1",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-0984359d74_9585d75b_20260806.png?v=9585d75b",
             "width": 1600,
             "height": 1200
           }
