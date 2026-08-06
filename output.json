@@ -3461,11 +3461,83 @@
     },
     {
       "id": "grp-billiards",
-      "name": "🎱 Billiards (3 LIVE)",
+      "name": "🎱 Billiards (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "chtv-4c4adad343",
+          "name": "CHẮC CHẮN BẾ vs E LÀ KHÔNG THỂ | SPCHOANG",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-4c4adad343",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-4c4adad343",
+                  "name": "CHẮC CHẮN BẾ vs E LÀ KHÔNG THỂ",
+                  "streams": [
+                    {
+                      "id": "st-4c4adad343",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-4c4adad343",
+                          "name": "SPCHOANG",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live5808/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv19.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "THẦY HUẤN CÓ BỊ CÁC CHÚ TẤT XANH BẾ ĐI KHÔNG",
+            "team_a": "CHẮC CHẮN BẾ",
+            "team_b": "E LÀ KHÔNG THỂ",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1786017322858_images (5).jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1786017330960_images (4).jpg",
+            "time": "00:00 06/08",
+            "caster": "SPCHOANG",
+            "score": "0-0",
+            "is_live": true,
+            "hot": true
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-4c4adad343_f281725c_20260806.png?v=f281725c",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "chtv-ade9fe2a84",
           "name": "Kyratzopoulos E vs Topouzlis N. | GIÀNG A PHỌ",
@@ -3525,7 +3597,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1763197161884_billad.png",
             "time": "00:00 06/08",
             "caster": "GIÀNG A PHỌ",
-            "score": "10-10",
+            "score": "10-12",
             "is_live": true,
             "hot": true
           },
@@ -3597,7 +3669,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1786008809511_KHÃNH BÃA.jpg",
             "time": "18:00 06/08",
             "caster": "Đại Kê",
-            "score": "3-4",
+            "score": "4-5",
             "is_live": true,
             "hot": true
           },
