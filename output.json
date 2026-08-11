@@ -3697,7 +3697,7 @@
     },
     {
       "id": "grp-billiards",
-      "name": "🎱 Billiards (2 LIVE)",
+      "name": "🎱 Billiards (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -3761,7 +3761,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1763197166604_billiard-ball-logo-png_seeklogo-248081.png",
             "time": "00:00 11/08",
             "caster": "GIÀNG A PHỌ",
-            "score": "9-11",
+            "score": "9-12",
             "is_live": true,
             "hot": true
           },
@@ -3835,13 +3835,85 @@
             "caster": "Đại Kê",
             "score": "12-15",
             "is_live": true,
-            "hot": true
+            "hot": false
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-dd059b1265_0cfe1298_20260811.png?v=0cfe1298",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-bff575001c",
+          "name": "Aivhan Maluto vs Michael Feliciano | BÚN CHÓ",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-bff575001c",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-bff575001c",
+                  "name": "Aivhan Maluto vs Michael Feliciano",
+                  "streams": [
+                    {
+                      "id": "st-bff575001c",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-bff575001c",
+                          "name": "BÚN CHÓ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6057/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv20.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Ibalong Festival 9-Ball Billiard Tournament ( dự kiến 7h)",
+            "team_a": "Aivhan Maluto",
+            "team_b": "Michael Feliciano",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1786444456776_AIVHAN MALUTO.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1786444470551_Michael Feliciano.jpg",
+            "time": "19:00 11/08",
+            "caster": "BÚN CHÓ",
+            "score": "0-0",
+            "is_live": true,
+            "hot": true
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-bff575001c_90409a54_20260811.png?v=90409a54",
             "width": 1600,
             "height": 1200
           }
