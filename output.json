@@ -1107,7 +1107,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá",
+      "name": "⚽ Bóng Đá (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1120,10 +1120,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -1171,7 +1171,7 @@
             "logo_b": "https://static.flashscore.com/res/image/data/OfIFJZYg-OtymR74A.png",
             "time": "07:00 12/08",
             "blv": "Số 2",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football"
           },
           "image": {
@@ -1191,10 +1191,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -1242,7 +1242,7 @@
             "logo_b": "https://static.flashscore.com/res/image/data/pE20TZzB-GfzblQr0.png",
             "time": "07:30 12/08",
             "blv": "Số 6",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football"
           },
           "image": {
@@ -1262,10 +1262,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -1313,7 +1313,7 @@
             "logo_b": "https://static.flashscore.com/res/image/data/EyCbOdXg-OSiYNR3p.png",
             "time": "08:30 12/08",
             "blv": "Số 10",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football"
           },
           "image": {
@@ -2827,7 +2827,7 @@
     },
     {
       "id": "grp-tennis",
-      "name": "🎾 Tennis (1 LIVE)",
+      "name": "🎾 Tennis (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -2904,6 +2904,77 @@
           }
         },
         {
+          "id": "gv-515ee35e58",
+          "name": "Naomi Osaka vs Elena Rybakina | 07:30 12/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-515ee35e58",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-515ee35e58",
+                  "name": "Naomi Osaka vs Elena Rybakina",
+                  "streams": [
+                    {
+                      "id": "st-515ee35e58",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-b0c4a3dec7",
+                          "name": "Số 8",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1786460975_hd/1786460975_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Canadian Open WTA",
+            "team_a": "Naomi Osaka",
+            "team_b": "Elena Rybakina",
+            "logo_a": "https://static.flashscore.com/res/image/data/6NjdR1zB-YgRjYWBf.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/nwc71xXg-2wyL104C.png",
+            "time": "07:30 12/08",
+            "blv": "Số 8",
+            "is_live": true,
+            "cate_type": "tennis"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/hito28368l6h_8a6e17ab_20260812.png?v=8a6e17ab",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "gv-30cfaf4d10",
           "name": "Belinda Bencic vs Coco Gauff | 06:00 12/08",
           "type": "single",
@@ -2970,77 +3041,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/iibzmd1dtc9p_b0cb1b5c_20260812.png?v=b0cb1b5c",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-515ee35e58",
-          "name": "Naomi Osaka vs Elena Rybakina | 07:30 12/08",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-515ee35e58",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-515ee35e58",
-                  "name": "Naomi Osaka vs Elena Rybakina",
-                  "streams": [
-                    {
-                      "id": "st-515ee35e58",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-b0c4a3dec7",
-                          "name": "Số 8",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1786460975_hd/1786460975_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Canadian Open WTA",
-            "team_a": "Naomi Osaka",
-            "team_b": "Elena Rybakina",
-            "logo_a": "https://static.flashscore.com/res/image/data/6NjdR1zB-YgRjYWBf.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/nwc71xXg-2wyL104C.png",
-            "time": "07:30 12/08",
-            "blv": "Số 8",
-            "is_live": false,
-            "cate_type": "tennis"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/hito28368l6h_8a6e17ab_20260812.png?v=8a6e17ab",
             "width": 1600,
             "height": 1200
           }
