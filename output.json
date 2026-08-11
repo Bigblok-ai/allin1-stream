@@ -1501,7 +1501,7 @@
             "blv": "Pháo Thủ",
             "is_live": true,
             "cate_type": "football",
-            "status": "half_time",
+            "status": "live",
             "home_score": 0,
             "away_score": 0
           },
@@ -2911,6 +2911,45 @@
                           "type": "hls",
                           "default": true,
                           "url": "https://luong.phaohoa.live/live/phaohoa7/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phaohoa1.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://phaohoa1.live"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-d0ca712ec6",
+              "name": "PhaohoaTV",
+              "contents": [
+                {
+                  "id": "ct-d0ca712ec6",
+                  "name": "PSG vs Aston Villa",
+                  "streams": [
+                    {
+                      "id": "st-d0ca712ec6",
+                      "name": "PhaoHoa - Kevin",
+                      "stream_links": [
+                        {
+                          "id": "lnk-b324cec71d",
+                          "name": "Kevin",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://luong.phaohoa.live/live/phaohoa2/index.m3u8?expire=1815505159&sign=d3bfcbaa36f949863f22cc89e1cc1afa",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -4369,7 +4408,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1786465548184_áº¢nh chá»¥p mÃ n hÃ¬nh 2026-08-11 232332.png",
             "time": "00:00 11/08",
             "caster": "BÚN CHÓ",
-            "score": "36-36",
+            "score": "1-0",
             "is_live": true,
             "hot": true
           },
@@ -4386,90 +4425,11 @@
     },
     {
       "id": "grp-bóng-chuyền",
-      "name": "🏐 Bóng Chuyền (1 LIVE)",
+      "name": "🏐 Bóng Chuyền",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "ph-c72fc0895f",
-          "name": "Pháp vs Italy | 22:30 11/08",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-c72fc0895f",
-              "name": "PhaohoaTV",
-              "contents": [
-                {
-                  "id": "ct-c72fc0895f",
-                  "name": "Pháp vs Italy",
-                  "streams": [
-                    {
-                      "id": "st-c72fc0895f",
-                      "name": "PhaohoaTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-5c0c4aafd8",
-                          "name": "KaKa",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa6/index.m3u8?expire=1815505159&sign=16059952b038cc8982ab6d1980711dc9",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://phaohoa1.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://phaohoa1.live"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Giao Hữu",
-            "team_a": "Pháp",
-            "team_b": "Italy",
-            "logo_a": "https://phaohoa1.live/media/teams/logos/OIP_4kCzOp7.jpg",
-            "logo_b": "https://phaohoa1.live/media/teams/logos/OIP_p55YJlm.jpg",
-            "time": "22:30",
-            "date": "11/08",
-            "blv": "KaKa",
-            "is_live": true,
-            "cate_type": "bong-chuyen",
-            "status": "live",
-            "home_score": 0,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/64833_42120472_20260812.png?v=42120472",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "ph-205c46a2b1",
           "name": "Ba Lan vs Ukraine | 01:30 12/08",
