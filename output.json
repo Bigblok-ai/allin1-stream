@@ -2701,7 +2701,7 @@
     },
     {
       "id": "grp-bóng-rổ",
-      "name": "🏀 Bóng Rổ",
+      "name": "🏀 Bóng Rổ (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -2714,10 +2714,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -2765,7 +2765,7 @@
             "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/892baaa7306258ab78e3c4fd0bfdb775.png",
             "time": "14:00 12/08",
             "blv": "Số 9",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "basketball"
           },
           "image": {
@@ -2923,14 +2923,14 @@
     },
     {
       "id": "grp-billiards",
-      "name": "🎱 Billiards (4 LIVE)",
+      "name": "🎱 Billiards (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
         {
-          "id": "chtv-4816f7ac25",
-          "name": "JAMES ARANAS(-2,5) vs ANTON RAGA(+2,5) | SÊ KÔÔ",
+          "id": "chtv-443fd2a8ce",
+          "name": "JAMES ARANAS vs ANTON RAGA | Đại Kê",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -2944,41 +2944,6 @@
           ],
           "sources": [
             {
-              "id": "src-4816f7ac25",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-4816f7ac25",
-                  "name": "JAMES ARANAS(-2,5) vs ANTON RAGA(+2,5)",
-                  "streams": [
-                    {
-                      "id": "st-4816f7ac25",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-4816f7ac25",
-                          "name": "SÊ KÔÔ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6075/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv20.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
               "id": "src-443fd2a8ce",
               "name": "ChoangTV",
               "contents": [
@@ -2988,7 +2953,7 @@
                   "streams": [
                     {
                       "id": "st-443fd2a8ce",
-                      "name": "ChoangTV",
+                      "name": "CHTV",
                       "stream_links": [
                         {
                           "id": "lnk-443fd2a8ce",
@@ -3012,44 +2977,7 @@
                   ]
                 }
               ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Sharks Billiards Association Hạng Thương Gia kèo chấp",
-            "team_a": "JAMES ARANAS(-2,5)",
-            "team_b": "ANTON RAGA(+2,5)",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1786479532843_JAMES ARANAS.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1786479536525_ANTON RAGA.jpg",
-            "time": "13:00 12/08",
-            "caster": "SÊ KÔÔ",
-            "score": "3-2",
-            "is_live": true,
-            "hot": false
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-4816f7ac25_a3fce12f_20260812.png?v=a3fce12f",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-076dbea349",
-          "name": "JAMES ARANAS(+2,5) vs ANTON RAGA(-2,5) | Tào A Man",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
+            },
             {
               "id": "src-076dbea349",
               "name": "ChoangTV",
@@ -3060,7 +2988,7 @@
                   "streams": [
                     {
                       "id": "st-076dbea349",
-                      "name": "CHTV",
+                      "name": "ChoangTV",
                       "stream_links": [
                         {
                           "id": "lnk-076dbea349",
@@ -3084,17 +3012,52 @@
                   ]
                 }
               ]
+            },
+            {
+              "id": "src-4816f7ac25",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-4816f7ac25",
+                  "name": "JAMES ARANAS(-2,5) vs ANTON RAGA(+2,5)",
+                  "streams": [
+                    {
+                      "id": "st-4816f7ac25",
+                      "name": "ChoangTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-4816f7ac25",
+                          "name": "SÊ KÔÔ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6075/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv20.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
             }
           ],
           "org_metadata": {
-            "league": "Sharks Billiards Association Hạng Thương Gia kèo chấp",
-            "team_a": "JAMES ARANAS(+2,5)",
-            "team_b": "ANTON RAGA(-2,5)",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1786479618048_JAMES ARANAS.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1786479622765_ANTON RAGA.jpg",
+            "league": "Sharks Billiards Association Hạng Thương Gia",
+            "team_a": "JAMES ARANAS",
+            "team_b": "ANTON RAGA",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1786479437264_JAMES ARANAS.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1786479474427_ANTON RAGA.jpg",
             "time": "13:00 12/08",
-            "caster": "Tào A Man",
-            "score": "3-1",
+            "caster": "Đại Kê",
+            "score": "3-2",
             "is_live": true,
             "hot": false
           },
@@ -3102,7 +3065,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-076dbea349_a0231198_20260812.png?v=a0231198",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-443fd2a8ce_4e051c49_20260812.png?v=4e051c49",
             "width": 1600,
             "height": 1200
           }
@@ -3247,6 +3210,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-cb21169739_353495f5_20260812.png?v=353495f5",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-b598a94083",
+          "name": "ĐỘI 1 vs ĐỘI 2 | 14:00 12/08 | Bỉm Sữa",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "SAP",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-b598a94083",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-b598a94083",
+                  "name": "ĐỘI 1 vs ĐỘI 2",
+                  "streams": [
+                    {
+                      "id": "st-b598a94083",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-b598a94083",
+                          "name": "Bỉm Sữa",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6083/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv20.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Giải 3 băng đồng đội PBA",
+            "team_a": "ĐỘI 1",
+            "team_b": "ĐỘI 2",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1786515415754_HÃN QUá»C.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1786515415439_HÃN QUá»C.png",
+            "time": "14:00 12/08",
+            "caster": "Bỉm Sữa",
+            "score": "0-0",
+            "is_live": false,
+            "hot": false
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-b598a94083_dbf84387_20260812.png?v=dbf84387",
             "width": 1600,
             "height": 1200
           }
