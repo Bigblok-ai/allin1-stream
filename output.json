@@ -3309,11 +3309,83 @@
     },
     {
       "id": "grp-billiards",
-      "name": "🎱 Billiards (5 LIVE)",
+      "name": "🎱 Billiards (6 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "chtv-7f9a2d9ea2",
+          "name": "TRUNG NẤM vs VĂN HUYNH | Lee Min Hoo",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-7f9a2d9ea2",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-7f9a2d9ea2",
+                  "name": "TRUNG NẤM vs VĂN HUYNH",
+                  "streams": [
+                    {
+                      "id": "st-7f9a2d9ea2",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-7f9a2d9ea2",
+                          "name": "Lee Min Hoo",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6090/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv20.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "BIDA TOP TOP",
+            "team_a": "TRUNG NẤM",
+            "team_b": "VĂN HUYNH",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1786522171140_TRUNG Náº¤M.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1786522173518_VÄN HUYNH.jpg",
+            "time": "00:00 12/08",
+            "caster": "Lee Min Hoo",
+            "score": "1-0",
+            "is_live": true,
+            "hot": true
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-7f9a2d9ea2_be179673_20260812.png?v=be179673",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "chtv-b598a94083",
           "name": "BREAKERS vs HARIM | Bỉm Sữa",
@@ -3531,8 +3603,8 @@
           }
         },
         {
-          "id": "chtv-dab55812b4",
-          "name": "𝙀𝙛𝙧𝙚𝙣 \"𝘽𝙖𝙩𝙖\" 𝙍𝙚𝙮𝙚𝙨 vs ANTONIO LINING | VÁNG",
+          "id": "chtv-c15890a6b5",
+          "name": "𝙀𝙛𝙧𝙚𝙣 \"𝘽𝙖𝙩𝙖\" 𝙍𝙚𝙮𝙚𝙨 vs ANTONIO LINING | Thập Cẩm",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -3546,6 +3618,41 @@
           ],
           "sources": [
             {
+              "id": "src-c15890a6b5",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-c15890a6b5",
+                  "name": "𝙀𝙛𝙧𝙚𝙣 \"𝘽𝙖𝙩𝙖\" 𝙍𝙚𝙮𝙚𝙨 vs ANTONIO LINING",
+                  "streams": [
+                    {
+                      "id": "st-c15890a6b5",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-c15890a6b5",
+                          "name": "Thập Cẩm",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6088/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv20.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
               "id": "src-dab55812b4",
               "name": "ChoangTV",
               "contents": [
@@ -3555,7 +3662,7 @@
                   "streams": [
                     {
                       "id": "st-dab55812b4",
-                      "name": "CHTV",
+                      "name": "ChoangTV",
                       "stream_links": [
                         {
                           "id": "lnk-dab55812b4",
@@ -3614,52 +3721,17 @@
                   ]
                 }
               ]
-            },
-            {
-              "id": "src-c15890a6b5",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-c15890a6b5",
-                  "name": "𝙀𝙛𝙧𝙚𝙣 \"𝘽𝙖𝙩𝙖\" 𝙍𝙚𝙮𝙚𝙨 vs ANTONIO LINING",
-                  "streams": [
-                    {
-                      "id": "st-c15890a6b5",
-                      "name": "ChoangTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-c15890a6b5",
-                          "name": "Thập Cẩm",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6088/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv20.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
             }
           ],
           "org_metadata": {
             "league": "Sharks Billiards Association Hạng Thương Gia kèo chấp",
             "team_a": "𝙀𝙛𝙧𝙚𝙣 \"𝘽𝙖𝙩𝙖\" 𝙍𝙚𝙮𝙚𝙨",
             "team_b": "ANTONIO LINING",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1769015292373_Efren Reyes.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1786519526422_ANTONIO LINING.jpg",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1768968631440_Efren Reyes.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1786519505311_ANTONIO LINING.jpg",
             "time": "15:00 12/08",
-            "caster": "VÁNG",
-            "score": "4-1",
+            "caster": "Thập Cẩm",
+            "score": "4-2",
             "is_live": true,
             "hot": false
           },
@@ -3667,7 +3739,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-dab55812b4_1b409bdb_20260812.png?v=1b409bdb",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-c15890a6b5_631169d0_20260812.png?v=631169d0",
             "width": 1600,
             "height": 1200
           }
@@ -3740,78 +3812,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-f70da52bb4_fd8fe446_20260812.png?v=fd8fe446",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-7f9a2d9ea2",
-          "name": "TRUNG NẤM vs VĂN HUYNH | 00:00 12/08 | Lee Min Hoo",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "SAP",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-7f9a2d9ea2",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-7f9a2d9ea2",
-                  "name": "TRUNG NẤM vs VĂN HUYNH",
-                  "streams": [
-                    {
-                      "id": "st-7f9a2d9ea2",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-7f9a2d9ea2",
-                          "name": "Lee Min Hoo",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6090/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv20.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "BIDA TOP TOP",
-            "team_a": "TRUNG NẤM",
-            "team_b": "VĂN HUYNH",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1786522171140_TRUNG Náº¤M.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1786522173518_VÄN HUYNH.jpg",
-            "time": "00:00 12/08",
-            "caster": "Lee Min Hoo",
-            "score": "0-0",
-            "is_live": false,
-            "hot": true
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-7f9a2d9ea2_be179673_20260812.png?v=be179673",
             "width": 1600,
             "height": 1200
           }
