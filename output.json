@@ -1107,7 +1107,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá",
+      "name": "⚽ Bóng Đá (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1120,10 +1120,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -1171,7 +1171,7 @@
             "logo_b": "https://images.keovip88.net/images/teams/necaxa.png",
             "time": "06:30 14/08",
             "blv": "Số 17",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football"
           },
           "image": {
@@ -3383,7 +3383,7 @@
     },
     {
       "id": "grp-bóng-rổ",
-      "name": "🏀 Bóng Rổ",
+      "name": "🏀 Bóng Rổ (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -3396,10 +3396,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -3447,7 +3447,7 @@
             "logo_b": "https://nba.titan007.com/files/team/1jv1rk2vc5.png",
             "time": "06:00 14/08",
             "blv": "Số 1",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "basketball"
           },
           "image": {
@@ -3753,6 +3753,78 @@
       "enable_detail": false,
       "channels": [
         {
+          "id": "chtv-fe815bff60",
+          "name": "Gerson Martinez Boza vs Stefan Huber | BÚN CHÓ",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-fe815bff60",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-fe815bff60",
+                  "name": "Gerson Martinez Boza vs Stefan Huber",
+                  "streams": [
+                    {
+                      "id": "st-fe815bff60",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-fe815bff60",
+                          "name": "BÚN CHÓ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6159/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv21.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "TV3 Arizona open pool championship",
+            "team_a": "Gerson Martinez Boza",
+            "team_b": "Stefan Huber",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1786647454563_Screenshot 2026-08-14 015725.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1786647454224_Screenshot 2026-08-14 015729.png",
+            "time": "04:30 14/08",
+            "caster": "BÚN CHÓ",
+            "score": "6-2",
+            "is_live": true,
+            "hot": false
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-fe815bff60_cb05d5f3_20260814.png?v=cb05d5f3",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "chtv-08369babbc",
           "name": "Max Lechner vs Johnny Archer | Thập Cẩm",
           "type": "single",
@@ -3811,7 +3883,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1786647582951_Screenshot 2026-08-14 014421.png",
             "time": "04:30 14/08",
             "caster": "Thập Cẩm",
-            "score": "5-7",
+            "score": "6-7",
             "is_live": true,
             "hot": false
           },
@@ -3883,7 +3955,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1786647384527_Screenshot 2026-08-14 014421.png",
             "time": "04:30 14/08",
             "caster": "Kèn Kèn",
-            "score": "4-0",
+            "score": "4-1",
             "is_live": true,
             "hot": false
           },
@@ -3892,150 +3964,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-d0da52e24a_c96864cd_20260814.png?v=c96864cd",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-fe815bff60",
-          "name": "Gerson Martinez Boza vs Stefan Huber | BÚN CHÓ",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-fe815bff60",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-fe815bff60",
-                  "name": "Gerson Martinez Boza vs Stefan Huber",
-                  "streams": [
-                    {
-                      "id": "st-fe815bff60",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-fe815bff60",
-                          "name": "BÚN CHÓ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6159/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv21.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "TV3 Arizona open pool championship",
-            "team_a": "Gerson Martinez Boza",
-            "team_b": "Stefan Huber",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1786647454563_Screenshot 2026-08-14 015725.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1786647454224_Screenshot 2026-08-14 015729.png",
-            "time": "04:30 14/08",
-            "caster": "BÚN CHÓ",
-            "score": "6-1",
-            "is_live": true,
-            "hot": false
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-fe815bff60_cb05d5f3_20260814.png?v=cb05d5f3",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-89b0686cb0",
-          "name": "Tyler Styer vs Dean Shields | VÁNG",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-89b0686cb0",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-89b0686cb0",
-                  "name": "Tyler Styer vs Dean Shields",
-                  "streams": [
-                    {
-                      "id": "st-89b0686cb0",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-89b0686cb0",
-                          "name": "VÁNG",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6161/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv21.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "TV1 Arizona open pool championship",
-            "team_a": "Tyler Styer",
-            "team_b": "Dean Shields",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1786656960782_Screenshot 2026-08-14 014421.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1786656960459_Screenshot 2026-08-14 043558.png",
-            "time": "06:00 14/08",
-            "caster": "VÁNG",
-            "score": "3-4",
-            "is_live": true,
-            "hot": false
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-89b0686cb0_2e99733d_20260814.png?v=2e99733d",
             "width": 1600,
             "height": 1200
           }
@@ -4108,6 +4036,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-d58aa6b43c_7daa59b9_20260814.png?v=7daa59b9",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-89b0686cb0",
+          "name": "Tyler Styer vs Dean Shields | VÁNG",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-89b0686cb0",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-89b0686cb0",
+                  "name": "Tyler Styer vs Dean Shields",
+                  "streams": [
+                    {
+                      "id": "st-89b0686cb0",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-89b0686cb0",
+                          "name": "VÁNG",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6161/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv21.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "TV1 Arizona open pool championship",
+            "team_a": "Tyler Styer",
+            "team_b": "Dean Shields",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1786656960782_Screenshot 2026-08-14 014421.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1786656960459_Screenshot 2026-08-14 043558.png",
+            "time": "06:00 14/08",
+            "caster": "VÁNG",
+            "score": "3-4",
+            "is_live": true,
+            "hot": false
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-89b0686cb0_2e99733d_20260814.png?v=2e99733d",
             "width": 1600,
             "height": 1200
           }
