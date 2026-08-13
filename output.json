@@ -3011,7 +3011,7 @@
     },
     {
       "id": "grp-tennis",
-      "name": "🎾 Tennis",
+      "name": "🎾 Tennis (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -3024,10 +3024,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -3075,7 +3075,7 @@
             "logo_b": "https://static.flashscore.com/res/image/data/nwc71xXg-2wyL104C.png",
             "time": "05:00 14/08",
             "blv": "Số 3",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "tennis"
           },
           "image": {
@@ -3605,11 +3605,516 @@
     },
     {
       "id": "grp-billiards",
-      "name": "🎱 Billiards",
+      "name": "🎱 Billiards (7 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
-      "channels": []
+      "channels": [
+        {
+          "id": "chtv-d8e8f63354",
+          "name": "Robbie Capito vs Ivica Putnik | BÚN CHÓ",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-d8e8f63354",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-d8e8f63354",
+                  "name": "Robbie Capito vs Ivica Putnik",
+                  "streams": [
+                    {
+                      "id": "st-d8e8f63354",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-d8e8f63354",
+                          "name": "BÚN CHÓ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6146/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv21.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "TV3  Arizona open pool championship",
+            "team_a": "Robbie Capito",
+            "team_b": "Ivica Putnik",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1786618232922_ROBBIE CAPITO.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1786618253288_Ivica Putnik.jpg",
+            "time": "03:00 14/08",
+            "caster": "BÚN CHÓ",
+            "score": "7-4",
+            "is_live": true,
+            "hot": false
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-d8e8f63354_6cef1359_20260814.png?v=6cef1359",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-e5958aff28",
+          "name": "Eklent Kaci vs Sun Yi Hsuan | Kèn Kèn",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-e5958aff28",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-e5958aff28",
+                  "name": "Eklent Kaci vs Sun Yi Hsuan",
+                  "streams": [
+                    {
+                      "id": "st-e5958aff28",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-e5958aff28",
+                          "name": "Kèn Kèn",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6150/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv21.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "TV3 Arizona open pool championship",
+            "team_a": "Eklent Kaci",
+            "team_b": "Sun Yi Hsuan",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1786622058169_Eklent Kaci.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1786622118812_Sun Yi Hsuan.jpg",
+            "time": "03:00 14/08",
+            "caster": "Kèn Kèn",
+            "score": "5-5",
+            "is_live": true,
+            "hot": false
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-e5958aff28_c93367fc_20260814.png?v=c93367fc",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-fe815bff60",
+          "name": "Gerson Martinez Boza vs Stefan Huber | BÚN CHÓ",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-fe815bff60",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-fe815bff60",
+                  "name": "Gerson Martinez Boza vs Stefan Huber",
+                  "streams": [
+                    {
+                      "id": "st-fe815bff60",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-fe815bff60",
+                          "name": "BÚN CHÓ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6159/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv21.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "TV3 Arizona open pool championship",
+            "team_a": "Gerson Martinez Boza",
+            "team_b": "Stefan Huber",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1786647454563_Screenshot 2026-08-14 015725.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1786647454224_Screenshot 2026-08-14 015729.png",
+            "time": "04:30 14/08",
+            "caster": "BÚN CHÓ",
+            "score": "0-0",
+            "is_live": true,
+            "hot": false
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-fe815bff60_cb05d5f3_20260814.png?v=cb05d5f3",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-08369babbc",
+          "name": "Max Lechner vs Johnny Archer | Thập Cẩm",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-08369babbc",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-08369babbc",
+                  "name": "Max Lechner vs Johnny Archer",
+                  "streams": [
+                    {
+                      "id": "st-08369babbc",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-08369babbc",
+                          "name": "Thập Cẩm",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6160/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv21.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "TV2 Arizona open pool championship",
+            "team_a": "Max Lechner",
+            "team_b": "Johnny Archer",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1786647588940_Screenshot 2026-08-14 015729.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1786647582951_Screenshot 2026-08-14 014421.png",
+            "time": "04:30 14/08",
+            "caster": "Thập Cẩm",
+            "score": "1-1",
+            "is_live": true,
+            "hot": false
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-08369babbc_a7851c9f_20260814.png?v=a7851c9f",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-d0da52e24a",
+          "name": "Francisco Sánchez Ruiz vs Stan Elliott | Kèn Kèn",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-d0da52e24a",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-d0da52e24a",
+                  "name": "Francisco Sánchez Ruiz vs Stan Elliott",
+                  "streams": [
+                    {
+                      "id": "st-d0da52e24a",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-d0da52e24a",
+                          "name": "Kèn Kèn",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6158/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv21.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "TV4 Arizona open pool championship",
+            "team_a": "Francisco Sánchez Ruiz",
+            "team_b": "Stan Elliott",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1786647384881_Screenshot 2026-08-14 015618.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1786647384527_Screenshot 2026-08-14 014421.png",
+            "time": "04:30 14/08",
+            "caster": "Kèn Kèn",
+            "score": "0-0",
+            "is_live": true,
+            "hot": false
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-d0da52e24a_c96864cd_20260814.png?v=c96864cd",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-d2850025f2",
+          "name": "Jesús Atencio vs Francisco Ortega | VÁNG",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-d2850025f2",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-d2850025f2",
+                  "name": "Jesús Atencio vs Francisco Ortega",
+                  "streams": [
+                    {
+                      "id": "st-d2850025f2",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-d2850025f2",
+                          "name": "VÁNG",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6157/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv21.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "TV1 Arizona open pool championship",
+            "team_a": "Jesús Atencio",
+            "team_b": "Francisco Ortega",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1786646944674_Screenshot 2026-08-14 014901.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1786646670143_Screenshot 2026-08-14 014421.png",
+            "time": "04:30 14/08",
+            "caster": "VÁNG",
+            "score": "7-1",
+            "is_live": true,
+            "hot": false
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-d2850025f2_3725e21c_20260814.png?v=3725e21c",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-89b0686cb0",
+          "name": "Tyler Styer vs Dean Shields | VÁNG",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-89b0686cb0",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-89b0686cb0",
+                  "name": "Tyler Styer vs Dean Shields",
+                  "streams": [
+                    {
+                      "id": "st-89b0686cb0",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-89b0686cb0",
+                          "name": "VÁNG",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6161/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv21.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "TV1 Arizona open pool championship",
+            "team_a": "Tyler Styer",
+            "team_b": "Dean Shields",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1786656960782_Screenshot 2026-08-14 014421.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1786656960459_Screenshot 2026-08-14 043558.png",
+            "time": "06:00 14/08",
+            "caster": "VÁNG",
+            "score": "0-0",
+            "is_live": true,
+            "hot": false
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-89b0686cb0_2e99733d_20260814.png?v=2e99733d",
+            "width": 1600,
+            "height": 1200
+          }
+        }
+      ]
     },
     {
       "id": "grp-bóng-chuyền",
