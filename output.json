@@ -1107,7 +1107,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (5 LIVE)",
+      "name": "⚽ Bóng Đá (6 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1471,6 +1471,85 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/61871_2fac8623_20260814.png?v=2fac8623",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "ph-d4eb1844a7",
+          "name": "Braunschweig vs Bochum | 23:30 14/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-d4eb1844a7",
+              "name": "PhaohoaTV",
+              "contents": [
+                {
+                  "id": "ct-d4eb1844a7",
+                  "name": "Braunschweig vs Bochum",
+                  "streams": [
+                    {
+                      "id": "st-d4eb1844a7",
+                      "name": "PhaohoaTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-b324cec71d",
+                          "name": "Kevin",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://luong.phaohoa.live/live/phaohoa2/index.m3u8?expire=1815505159&sign=d3bfcbaa36f949863f22cc89e1cc1afa",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phaohoa1.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://phaohoa1.live"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "2. Bundesliga",
+            "team_a": "Braunschweig",
+            "team_b": "Bochum",
+            "logo_a": "https://phaohoa1.live/media/teams/logos/team_3925.jpg",
+            "logo_b": "https://phaohoa1.live/media/teams/logos/team_3911.jpg",
+            "time": "23:30",
+            "date": "14/08",
+            "blv": "Kevin",
+            "is_live": true,
+            "cate_type": "football",
+            "status": "live",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/61909_e4047975_20260814.png?v=e4047975",
             "width": 1600,
             "height": 1200
           }
@@ -3495,85 +3574,6 @@
           }
         },
         {
-          "id": "ph-d4eb1844a7",
-          "name": "Braunschweig vs Bochum | 23:30 14/08",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-d4eb1844a7",
-              "name": "PhaohoaTV",
-              "contents": [
-                {
-                  "id": "ct-d4eb1844a7",
-                  "name": "Braunschweig vs Bochum",
-                  "streams": [
-                    {
-                      "id": "st-d4eb1844a7",
-                      "name": "PhaohoaTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-b324cec71d",
-                          "name": "Kevin",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa2/index.m3u8?expire=1815505159&sign=d3bfcbaa36f949863f22cc89e1cc1afa",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://phaohoa1.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://phaohoa1.live"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "2. Bundesliga",
-            "team_a": "Braunschweig",
-            "team_b": "Bochum",
-            "logo_a": "https://phaohoa1.live/media/teams/logos/team_3925.jpg",
-            "logo_b": "https://phaohoa1.live/media/teams/logos/team_3911.jpg",
-            "time": "23:30",
-            "date": "14/08",
-            "blv": "Kevin",
-            "is_live": false,
-            "cate_type": "football",
-            "status": "scheduled",
-            "home_score": 0,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/61909_e4047975_20260814.png?v=e4047975",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "ph-8662765691",
           "name": "Utrecht vs AZ Alkmaar | 23:45 15/08",
           "type": "single",
@@ -3823,7 +3823,7 @@
     },
     {
       "id": "grp-billiards",
-      "name": "🎱 Billiards (4 LIVE)",
+      "name": "🎱 Billiards (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -3922,7 +3922,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1765599062294_táº£i xuá»ng.png",
             "time": "00:00 14/08",
             "caster": "GIÀNG A PHỌ",
-            "score": "6-4",
+            "score": "6-5",
             "is_live": true,
             "hot": true
           },
@@ -3994,7 +3994,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1765802364327_táº£i xuá»ng.png",
             "time": "00:00 14/08",
             "caster": "GIÀNG A PHỌ",
-            "score": "9-13",
+            "score": "10-14",
             "is_live": true,
             "hot": true
           },
@@ -4003,78 +4003,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-2310adf861_072d6f4e_20260814.png?v=072d6f4e",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-5f64478c8a",
-          "name": "Mavinn Muaythai vs Rhenimi",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-5f64478c8a",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-5f64478c8a",
-                  "name": "Mavinn Muaythai vs Rhenimi",
-                  "streams": [
-                    {
-                      "id": "st-5f64478c8a",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-5f64478c8a",
-                          "name": "",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6212/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv21.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Trận đấu 7 | ONE Friday Fights | Flyweight Muay Thai",
-            "team_a": "Mavinn Muaythai",
-            "team_b": "Rhenimi",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1786697136340_áº¢nh chá»¥p mÃ n hÃ¬nh 2026-08-14 154322.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1786697151246_áº¢nh chá»¥p mÃ n hÃ¬nh 2026-08-14 154341.png",
-            "time": "22:15 14/08",
-            "caster": "",
-            "score": "0-0",
-            "is_live": true,
-            "hot": false
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-5f64478c8a_070dd9be_20260814.png?v=070dd9be",
             "width": 1600,
             "height": 1200
           }
