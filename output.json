@@ -1683,7 +1683,7 @@
             "is_live": true,
             "cate_type": "football",
             "status": "live",
-            "home_score": 0,
+            "home_score": 1,
             "away_score": 0
           },
           "image": {
@@ -3152,45 +3152,6 @@
                   ]
                 }
               ]
-            },
-            {
-              "id": "src-75e4dffe50",
-              "name": "PhaohoaTV",
-              "contents": [
-                {
-                  "id": "ct-75e4dffe50",
-                  "name": "Manchester United vs AC Milan",
-                  "streams": [
-                    {
-                      "id": "st-75e4dffe50",
-                      "name": "PhaoHoa - Kevin",
-                      "stream_links": [
-                        {
-                          "id": "lnk-b324cec71d",
-                          "name": "Kevin",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa2/index.m3u8?expire=1815505159&sign=d3bfcbaa36f949863f22cc89e1cc1afa",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://phaohoa1.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://phaohoa1.live"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
             }
           ],
           "org_metadata": {
@@ -3546,11 +3507,83 @@
     },
     {
       "id": "grp-billiards",
-      "name": "🎱 Billiards (1 LIVE)",
+      "name": "🎱 Billiards (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "chtv-69c2ace45a",
+          "name": "DUY ĐEN vs Đối của Duy ĐEN | Thập Cẩm",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-69c2ace45a",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-69c2ace45a",
+                  "name": "DUY ĐEN vs Đối của Duy ĐEN",
+                  "streams": [
+                    {
+                      "id": "st-69c2ace45a",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-69c2ace45a",
+                          "name": "Thập Cẩm",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6219/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv21.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "DUY ĐEN BILLIARD",
+            "team_a": "DUY ĐEN",
+            "team_b": "Đối của Duy ĐEN",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1765419036972_táº£i xuá»ng.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1765419036972_táº£i xuá»ng.png",
+            "time": "00:00 14/08",
+            "caster": "Thập Cẩm",
+            "score": "1-1",
+            "is_live": true,
+            "hot": true
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-69c2ace45a_0cfe1298_20260814.png?v=0cfe1298",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "chtv-c47a88c86e",
           "name": "JONAS MAGPANTAY vs RYAN BADAL | SÊ KÔÔ",
@@ -3610,7 +3643,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1765797026729_táº£i xuá»ng.png",
             "time": "00:00 14/08",
             "caster": "SÊ KÔÔ",
-            "score": "7-2",
+            "score": "8-2",
             "is_live": true,
             "hot": true
           },
