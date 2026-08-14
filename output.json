@@ -3395,7 +3395,7 @@
     },
     {
       "id": "grp-bóng-rổ",
-      "name": "🏀 Bóng Rổ",
+      "name": "🏀 Bóng Rổ (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -3408,10 +3408,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -3459,7 +3459,7 @@
             "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/9529e695d84617e304094fe949504b05.png",
             "time": "16:00 14/08",
             "blv": "Số 4",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "basketball"
           },
           "image": {
@@ -3479,10 +3479,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -3530,7 +3530,7 @@
             "logo_b": "https://static.flashscore.com/res/image/data/2agQKghl-4EPybus0.png",
             "time": "16:15 14/08",
             "blv": "Số 12",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "basketball"
           },
           "image": {
@@ -3694,78 +3694,6 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "chtv-43f60937f3",
-          "name": "Tú Tây vs Trung Nấm | Lee Min Hoo",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-43f60937f3",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-43f60937f3",
-                  "name": "Tú Tây vs Trung Nấm",
-                  "streams": [
-                    {
-                      "id": "st-43f60937f3",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-43f60937f3",
-                          "name": "Lee Min Hoo",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6196/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv21.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "LÒ MAGIC",
-            "team_a": "Tú Tây",
-            "team_b": "Trung Nấm",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1765417529949_táº£i xuá»ng.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1786693267455_TRUNG Náº¤M.png",
-            "time": "00:00 14/08",
-            "caster": "Lee Min Hoo",
-            "score": "3-7",
-            "is_live": true,
-            "hot": true
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-43f60937f3_e8ef6096_20260814.png?v=e8ef6096",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "chtv-cd751049e6",
           "name": "Thành Nam vs Bình chuẩn | Đại Kê",
           "type": "single",
@@ -3896,7 +3824,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1765599062294_táº£i xuá»ng.png",
             "time": "00:00 14/08",
             "caster": "Xinh Yeu",
-            "score": "2-4",
+            "score": "2-5",
             "is_live": true,
             "hot": true
           },
@@ -3905,6 +3833,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-9045a5509c_9d76bfb0_20260814.png?v=9d76bfb0",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-43f60937f3",
+          "name": "Tú Tây vs Trung Nấm | Lee Min Hoo",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-43f60937f3",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-43f60937f3",
+                  "name": "Tú Tây vs Trung Nấm",
+                  "streams": [
+                    {
+                      "id": "st-43f60937f3",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-43f60937f3",
+                          "name": "Lee Min Hoo",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6196/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv21.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "LÒ MAGIC",
+            "team_a": "Tú Tây",
+            "team_b": "Trung Nấm",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1765417529949_táº£i xuá»ng.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1786693267455_TRUNG Náº¤M.png",
+            "time": "00:00 14/08",
+            "caster": "Lee Min Hoo",
+            "score": "4-7",
+            "is_live": true,
+            "hot": true
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-43f60937f3_e8ef6096_20260814.png?v=e8ef6096",
             "width": 1600,
             "height": 1200
           }
@@ -3968,7 +3968,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1765417407261_táº£i xuá»ng.png",
             "time": "00:00 14/08",
             "caster": "Bỉm Sữa",
-            "score": "11-17",
+            "score": "12-17",
             "is_live": true,
             "hot": false
           },
@@ -4040,7 +4040,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1765419036972_táº£i xuá»ng.png",
             "time": "14:00 14/08",
             "caster": "GIÀNG A PHỌ",
-            "score": "11-17",
+            "score": "12-17",
             "is_live": true,
             "hot": false
           },
@@ -4054,8 +4054,8 @@
           }
         },
         {
-          "id": "chtv-0708b8ec67",
-          "name": "EDWIN GAMAS(-2,5) vs ALBERT ESPINOLA | SÊ KÔÔ",
+          "id": "chtv-309c56a4c7",
+          "name": "EDWIN GAMAS vs ALBERT ESPINOLA | Đại Kê",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -4069,41 +4069,6 @@
           ],
           "sources": [
             {
-              "id": "src-0708b8ec67",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-0708b8ec67",
-                  "name": "EDWIN GAMAS(-2,5) vs ALBERT ESPINOLA",
-                  "streams": [
-                    {
-                      "id": "st-0708b8ec67",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-0708b8ec67",
-                          "name": "SÊ KÔÔ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6194/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv21.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
               "id": "src-309c56a4c7",
               "name": "ChoangTV",
               "contents": [
@@ -4113,7 +4078,7 @@
                   "streams": [
                     {
                       "id": "st-309c56a4c7",
-                      "name": "ChoangTV",
+                      "name": "CHTV",
                       "stream_links": [
                         {
                           "id": "lnk-309c56a4c7",
@@ -4137,17 +4102,52 @@
                   ]
                 }
               ]
+            },
+            {
+              "id": "src-0708b8ec67",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-0708b8ec67",
+                  "name": "EDWIN GAMAS(-2,5) vs ALBERT ESPINOLA",
+                  "streams": [
+                    {
+                      "id": "st-0708b8ec67",
+                      "name": "ChoangTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-0708b8ec67",
+                          "name": "SÊ KÔÔ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6194/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv21.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
             }
           ],
           "org_metadata": {
             "league": "lbalong Festival 9-Ball Billiard Tournament",
-            "team_a": "EDWIN GAMAS(-2,5)",
+            "team_a": "EDWIN GAMAS",
             "team_b": "ALBERT ESPINOLA",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1786692420969_EDWIN GAMAS.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1786692423707_ALBERT ESPINOLA.jpg",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1786692355237_EDWIN GAMAS.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1786692368090_ALBERT ESPINOLA.jpg",
             "time": "15:00 14/08",
-            "caster": "SÊ KÔÔ",
-            "score": "1-5",
+            "caster": "Đại Kê",
+            "score": "2-5",
             "is_live": true,
             "hot": true
           },
@@ -4155,7 +4155,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-0708b8ec67_01083bbb_20260814.png?v=01083bbb",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-309c56a4c7_f9d95694_20260814.png?v=f9d95694",
             "width": 1600,
             "height": 1200
           }
