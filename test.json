@@ -1,0 +1,64 @@
+        {
+          "id": "tv-11",
+          "name": "HBO",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-tv-11-0",
+              "name": "Source 1 - mytvnet",
+              "contents": [
+                {
+                  "id": "ct-tv-11-0",
+                  "name": "HBO",
+                  "streams": [
+                    {
+                      "id": "st-tv-11-0",
+                      "name": "KT",
+                      "stream_links": [
+                        {
+                          "id": "lnk-tv-11-0",
+                          "name": "Link 1",
+                          "type": "dash",
+                          "default": true,
+                          "url": "https://s2129134.cdn.mytvnet.vn/pkg20/live_dzones/hbo.smil/manifest.mpd",
+                          "request_headers": [
+                            {
+                              "key": "User-Agent",
+                              "value": "Dalvik/2.1.0"
+                            }
+                          ],
+                          "drm_type": "clearkey",
+                          "drm_key": "{\"keys\":[{\"kty\":\"oct\",\"k\":\"PeDzjc8BSCff1b7Dh0PGog\",\"kid\":\"Cd3+PWOGPK+ut50FRrCYqw\"}],\"type\":\"temporary\"}"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "is_live": true,
+            "time": "",
+            "team_a": "HBO",
+            "team_b": ""
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://i.pinimg.com/originals/8b/02/00/8b020050690f955ccb306cdf51324aea.png",
+            "width": 1600,
+            "height": 1200
+          }
+        }
