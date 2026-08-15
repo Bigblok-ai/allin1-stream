@@ -1621,7 +1621,7 @@
             "is_live": true,
             "cate_type": "football",
             "status": "live",
-            "home_score": 0,
+            "home_score": 1,
             "away_score": 1
           },
           "image": {
@@ -3685,8 +3685,80 @@
       "enable_detail": false,
       "channels": [
         {
+          "id": "chtv-65d088a14e",
+          "name": "Phong Nam vs Văn Sinh | 18:30 15/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "SAP",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-65d088a14e",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-65d088a14e",
+                  "name": "Phong Nam vs Văn Sinh",
+                  "streams": [
+                    {
+                      "id": "st-65d088a14e",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-65d088a14e",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6292/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv21.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "V6 - 99 TITANIUM CHAMPIONSHIP",
+            "team_a": "Phong Nam",
+            "team_b": "Văn Sinh",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1786789585168_Phong Nam.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1786789588027_VÄn Sinh.jpg",
+            "time": "18:30 15/08",
+            "caster": "",
+            "score": "0-0",
+            "is_live": false,
+            "hot": true
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-65d088a14e_aa539eaf_20260815.png?v=aa539eaf",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "chtv-1247556602",
-          "name": "Kiêu Sếu vs Quang Con | 18:30 15/08",
+          "name": "Tiến Minh TH vs Quang Con | 18:30 15/08",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -3705,7 +3777,7 @@
               "contents": [
                 {
                   "id": "ct-1247556602",
-                  "name": "Kiêu Sếu vs Quang Con",
+                  "name": "Tiến Minh TH vs Quang Con",
                   "streams": [
                     {
                       "id": "st-1247556602",
@@ -3737,9 +3809,9 @@
           ],
           "org_metadata": {
             "league": "V6 - 99 TITANIUM CHAMPIONSHIP",
-            "team_a": "Kiêu Sếu",
+            "team_a": "Tiến Minh TH",
             "team_b": "Quang Con",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1766292831344_Screenshot 2025-12-21 010653.png",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1786790520626_Tiáº¿n Minh TH.jpg",
             "logo_b": "https://cdn-choangtv.com/img/logo/1786789839260_quang con.png",
             "time": "18:30 15/08",
             "caster": "",
@@ -3751,151 +3823,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-1247556602_043cf3b9_20260815.png?v=043cf3b9",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-6b12e66f27",
-          "name": "Sếu 3 chẹo vs Quang Con | 18:30 15/08",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "SAP",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-6b12e66f27",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-6b12e66f27",
-                  "name": "Sếu 3 chẹo vs Quang Con",
-                  "streams": [
-                    {
-                      "id": "st-6b12e66f27",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-6b12e66f27",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6294/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv21.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "V6 - 99 TITANIUM CHAMPIONSHIP",
-            "team_a": "Sếu 3 chẹo",
-            "team_b": "Quang Con",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1766292831344_Screenshot 2025-12-21 010653.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1786789897607_quang con.png",
-            "time": "18:30 15/08",
-            "caster": "",
-            "score": "0-0",
-            "is_live": false,
-            "hot": true
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-6b12e66f27_cc3487b8_20260815.png?v=cc3487b8",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-205b2e8774",
-          "name": "Phong Nam vs Văn Sinh | 18:30 15/08",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "SAP",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-205b2e8774",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-205b2e8774",
-                  "name": "Phong Nam vs Văn Sinh",
-                  "streams": [
-                    {
-                      "id": "st-205b2e8774",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-205b2e8774",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6291/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv21.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "V6 - 99 TITANIUM CHAMPIONSHIP",
-            "team_a": "Phong Nam",
-            "team_b": "Văn Sinh",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1786789530815_Phong Nam.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1786789534526_VÄn Sinh.jpg",
-            "time": "18:30 15/08",
-            "caster": "",
-            "score": "0-0",
-            "is_live": false,
-            "hot": true
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-205b2e8774_e3e1cf9c_20260815.png?v=e3e1cf9c",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-1247556602_940599a3_20260815.png?v=940599a3",
             "width": 1600,
             "height": 1200
           }
