@@ -3527,11 +3527,83 @@
     },
     {
       "id": "grp-billiards",
-      "name": "🎱 Billiards",
+      "name": "🎱 Billiards (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "chtv-ea11499d12",
+          "name": "Robbie Capito vs Jayson Shaw | VÁNG",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-ea11499d12",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-ea11499d12",
+                  "name": "Robbie Capito vs Jayson Shaw",
+                  "streams": [
+                    {
+                      "id": "st-ea11499d12",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-ea11499d12",
+                          "name": "VÁNG",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6260/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv21.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "TV1 Arizona open pool championship",
+            "team_a": "Robbie Capito",
+            "team_b": "Jayson Shaw",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1786760672727_9.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1786760672558_ANH.png",
+            "time": "10:00 15/08",
+            "caster": "VÁNG",
+            "score": "0-0",
+            "is_live": true,
+            "hot": true
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-ea11499d12_fe9f3360_20260815.png?v=fe9f3360",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "chtv-8beb113eae",
           "name": "Bảo Ngô vs An Nhiệt | 10:00 15/08",
@@ -3605,8 +3677,8 @@
           }
         },
         {
-          "id": "chtv-ea11499d12",
-          "name": "Robbie Capito vs Jayson Shaw | 10:00 15/08",
+          "id": "chtv-2e453334b1",
+          "name": "Harry Vergara vs Carlo Biado | 10:00 15/08 | Thập Cẩm",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -3620,23 +3692,23 @@
           ],
           "sources": [
             {
-              "id": "src-ea11499d12",
+              "id": "src-2e453334b1",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-ea11499d12",
-                  "name": "Robbie Capito vs Jayson Shaw",
+                  "id": "ct-2e453334b1",
+                  "name": "Harry Vergara vs Carlo Biado",
                   "streams": [
                     {
-                      "id": "st-ea11499d12",
+                      "id": "st-2e453334b1",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-ea11499d12",
-                          "name": "Stream",
+                          "id": "lnk-2e453334b1",
+                          "name": "Thập Cẩm",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6260/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6262/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -3656,13 +3728,13 @@
             }
           ],
           "org_metadata": {
-            "league": "TV1 Arizona open pool championship",
-            "team_a": "Robbie Capito",
-            "team_b": "Jayson Shaw",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1786760672727_9.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1786760672558_ANH.png",
+            "league": "TV4 Arizona open pool championship",
+            "team_a": "Harry Vergara",
+            "team_b": "Carlo Biado",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1786760985930_phil.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1786760985512_phil.png",
             "time": "10:00 15/08",
-            "caster": "",
+            "caster": "Thập Cẩm",
             "score": "0-0",
             "is_live": false,
             "hot": false
@@ -3671,7 +3743,79 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-ea11499d12_fe9f3360_20260815.png?v=fe9f3360",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-2e453334b1_ec318dd1_20260815.png?v=ec318dd1",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-2e0716a808",
+          "name": "Chang Yu Lung vs Joshua Filler | 10:00 15/08 | BÚN CHÓ",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "SAP",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-2e0716a808",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-2e0716a808",
+                  "name": "Chang Yu Lung vs Joshua Filler",
+                  "streams": [
+                    {
+                      "id": "st-2e0716a808",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-2e0716a808",
+                          "name": "BÚN CHÓ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6261/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv21.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "TV3 Arizona open pool championship",
+            "team_a": "Chang Yu Lung",
+            "team_b": "Joshua Filler",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1786760850267_Screenshot 2026-08-15 092725.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1786760849893_Screenshot 2026-08-15 050535.png",
+            "time": "10:00 15/08",
+            "caster": "BÚN CHÓ",
+            "score": "0-0",
+            "is_live": false,
+            "hot": false
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-2e0716a808_1c1a3958_20260815.png?v=1c1a3958",
             "width": 1600,
             "height": 1200
           }
@@ -4037,8 +4181,8 @@
           }
         },
         {
-          "id": "chtv-20bfb743b1",
-          "name": "Phong Nam vs Huy C300 | 12:00 15/08",
+          "id": "chtv-1ff134c8a7",
+          "name": "Ngọc Xăm vs Sơn Ku | 12:00 15/08",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -4052,23 +4196,23 @@
           ],
           "sources": [
             {
-              "id": "src-20bfb743b1",
+              "id": "src-1ff134c8a7",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-20bfb743b1",
-                  "name": "Phong Nam vs Huy C300",
+                  "id": "ct-1ff134c8a7",
+                  "name": "Ngọc Xăm vs Sơn Ku",
                   "streams": [
                     {
-                      "id": "st-20bfb743b1",
+                      "id": "st-1ff134c8a7",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-20bfb743b1",
+                          "id": "lnk-1ff134c8a7",
                           "name": "Stream",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6248/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6250/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -4088,11 +4232,11 @@
             }
           ],
           "org_metadata": {
-            "league": "TV2 V6 - 99 TITANIUM CHAMPIONSHIP",
-            "team_a": "Phong Nam",
-            "team_b": "Huy C300",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1786733766579_1765337449015_tÃ¡ÂºÂ£i xuÃ¡Â»_ng.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1786733766231_1765337449015_tÃ¡ÂºÂ£i xuÃ¡Â»_ng.png",
+            "league": "TV4 V6 - 99 TITANIUM CHAMPIONSHIP",
+            "team_a": "Ngọc Xăm",
+            "team_b": "Sơn Ku",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1786733896266_1765337449015_tÃ¡ÂºÂ£i xuÃ¡Â»_ng.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1786733895955_1765337449015_tÃ¡ÂºÂ£i xuÃ¡Â»_ng.png",
             "time": "12:00 15/08",
             "caster": "",
             "score": "0-0",
@@ -4103,7 +4247,79 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-20bfb743b1_916f096a_20260815.png?v=916f096a",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-1ff134c8a7_8b60cf75_20260815.png?v=8b60cf75",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-9ce4329216",
+          "name": "Thiện Lương vs Tô Phương | 12:00 15/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "SAP",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-9ce4329216",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-9ce4329216",
+                  "name": "Thiện Lương vs Tô Phương",
+                  "streams": [
+                    {
+                      "id": "st-9ce4329216",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-9ce4329216",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6247/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv21.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "TV1 V6 - 99 TITANIUM CHAMPIONSHIP",
+            "team_a": "Thiện Lương",
+            "team_b": "Tô Phương",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1786733660851_1765337449015_tÃ¡ÂºÂ£i xuÃ¡Â»_ng.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1786733660503_1765337449015_tÃ¡ÂºÂ£i xuÃ¡Â»_ng.png",
+            "time": "12:00 15/08",
+            "caster": "",
+            "score": "0-0",
+            "is_live": false,
+            "hot": false
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-9ce4329216_760909f4_20260815.png?v=760909f4",
             "width": 1600,
             "height": 1200
           }
@@ -4253,150 +4469,6 @@
           }
         },
         {
-          "id": "chtv-9ce4329216",
-          "name": "Thiện Lương vs Tô Phương | 12:00 15/08",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "SAP",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-9ce4329216",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-9ce4329216",
-                  "name": "Thiện Lương vs Tô Phương",
-                  "streams": [
-                    {
-                      "id": "st-9ce4329216",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-9ce4329216",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6247/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv21.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "TV1 V6 - 99 TITANIUM CHAMPIONSHIP",
-            "team_a": "Thiện Lương",
-            "team_b": "Tô Phương",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1786733660851_1765337449015_tÃ¡ÂºÂ£i xuÃ¡Â»_ng.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1786733660503_1765337449015_tÃ¡ÂºÂ£i xuÃ¡Â»_ng.png",
-            "time": "12:00 15/08",
-            "caster": "",
-            "score": "0-0",
-            "is_live": false,
-            "hot": false
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-9ce4329216_760909f4_20260815.png?v=760909f4",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-1ff134c8a7",
-          "name": "Ngọc Xăm vs Sơn Ku | 12:00 15/08",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "SAP",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-1ff134c8a7",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-1ff134c8a7",
-                  "name": "Ngọc Xăm vs Sơn Ku",
-                  "streams": [
-                    {
-                      "id": "st-1ff134c8a7",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-1ff134c8a7",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6250/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv21.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "TV4 V6 - 99 TITANIUM CHAMPIONSHIP",
-            "team_a": "Ngọc Xăm",
-            "team_b": "Sơn Ku",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1786733896266_1765337449015_tÃ¡ÂºÂ£i xuÃ¡Â»_ng.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1786733895955_1765337449015_tÃ¡ÂºÂ£i xuÃ¡Â»_ng.png",
-            "time": "12:00 15/08",
-            "caster": "",
-            "score": "0-0",
-            "is_live": false,
-            "hot": false
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-1ff134c8a7_8b60cf75_20260815.png?v=8b60cf75",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "chtv-8f96eee02d",
           "name": "Văn Sinh vs Khải Tony | 12:00 15/08",
           "type": "single",
@@ -4464,6 +4536,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-8f96eee02d_cfbfc100_20260815.png?v=cfbfc100",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-20bfb743b1",
+          "name": "Phong Nam vs Huy C300 | 12:00 15/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "SAP",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-20bfb743b1",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-20bfb743b1",
+                  "name": "Phong Nam vs Huy C300",
+                  "streams": [
+                    {
+                      "id": "st-20bfb743b1",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-20bfb743b1",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6248/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv21.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "TV2 V6 - 99 TITANIUM CHAMPIONSHIP",
+            "team_a": "Phong Nam",
+            "team_b": "Huy C300",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1786733766579_1765337449015_tÃ¡ÂºÂ£i xuÃ¡Â»_ng.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1786733766231_1765337449015_tÃ¡ÂºÂ£i xuÃ¡Â»_ng.png",
+            "time": "12:00 15/08",
+            "caster": "",
+            "score": "0-0",
+            "is_live": false,
+            "hot": false
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-20bfb743b1_916f096a_20260815.png?v=916f096a",
             "width": 1600,
             "height": 1200
           }
