@@ -1069,8 +1069,17 @@
                               "value": "Dalvik/2.1.0"
                             }
                           ],
-                          "drm_type": "",
-                          "drm_key": ""
+                          "drm_type": "clearkey",
+                          "drm_key": {
+                            "keys": [
+                              {
+                                "kty": "oct",
+                                "k": "PeDzjc8BSCff1b7Dh0PGog",
+                                "kid": "Cd3+PWOGPK+ut50FRrCYqw"
+                              }
+                            ],
+                            "type": "temporary"
+                          }
                         }
                       ]
                     }
@@ -1098,82 +1107,11 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (6 LIVE)",
+      "name": "⚽ Bóng Đá (5 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-4a7dbfbe02",
-          "name": "Borussia Dortmund vs Roma | 22:30 15/08",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-4a7dbfbe02",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-4a7dbfbe02",
-                  "name": "Borussia Dortmund vs Roma",
-                  "streams": [
-                    {
-                      "id": "st-4a7dbfbe02",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-3584b1aef6",
-                          "name": "Số 11",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1786756113_hd/1786756113_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Giao hữu",
-            "team_a": "Borussia Dortmund",
-            "team_b": "Roma",
-            "logo_a": "https://static.flashscore.com/res/image/data/UgYzece5-lnaH0YdG.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/4ncIiycM-WfK67WWe.png",
-            "time": "22:30 15/08",
-            "blv": "Số 11",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/u53wqevcftzx_9809ae04_20260816.png?v=9809ae04",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-b3eb5a327b",
           "name": "IFK Mariehamn vs SJK Seinajoki | 23:00 15/08",
