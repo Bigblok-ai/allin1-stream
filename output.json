@@ -1060,9 +1060,9 @@
                         {
                           "id": "lnk-tv-11-0",
                           "name": "Link 1",
-                          "type": "hls",
+                          "type": "dash",
                           "default": true,
-                          "url": "https://s2129134.cdn.mytvnet.vn/pkg20/live_dzones/hbo.smil/playlist.m3u8",
+                          "url": "https://s2129134.cdn.mytvnet.vn/pkg20/live_dzones/hbo.smil/manifest.mpd",
                           "request_headers": [
                             {
                               "key": "User-Agent",
@@ -1070,7 +1070,7 @@
                             }
                           ],
                           "drm_type": "clearkey",
-                          "drm_key": "{\"keys\":[{\"kty\":\"oct\",\"k\":\"PeDzjc8BSCff1b7Dh0PGog\",\"kid\":\"Cd3+PWOGPK+ut50FRrCYqw\"}],\"type\":\"temporary\"}"
+                          "drm_key": "09ddfe3d63863caf2eeb79d0546b098a:3dde0f38dcf014827dfd5bec38743c6a"
                         }
                       ]
                     }
@@ -1098,7 +1098,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (6 LIVE)",
+      "name": "⚽ Bóng Đá (7 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1356,6 +1356,116 @@
           }
         },
         {
+          "id": "gv-e8eb535bc6",
+          "name": "Al Ittihad Jeddah vs Al Kholood | 01:00 16/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-e8eb535bc6",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-e8eb535bc6",
+                  "name": "Al Ittihad Jeddah vs Al Kholood",
+                  "streams": [
+                    {
+                      "id": "st-e8eb535bc6",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-3fbd1ecb65",
+                          "name": "Số 13",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1786777871_hd/1786777871_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-33d9bf495c",
+              "name": "PhaohoaTV",
+              "contents": [
+                {
+                  "id": "ct-33d9bf495c",
+                  "name": "Al Ittihad vs Al Kholood",
+                  "streams": [
+                    {
+                      "id": "st-33d9bf495c",
+                      "name": "PhaoHoa - Pháo Thủ",
+                      "stream_links": [
+                        {
+                          "id": "lnk-f536973e27",
+                          "name": "Pháo Thủ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://luong.phaohoa.live/live/phaohoa4/index.m3u8?expire=1815505159&sign=faaa23580764370ed378ecd708c9f262",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phaohoa1.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://phaohoa1.live"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "VĐQG Ả Rập Xê Út",
+            "team_a": "Al Ittihad Jeddah",
+            "team_b": "Al Kholood",
+            "logo_a": "https://images.keovip88.net/images/teams/al-ittihad.png",
+            "logo_b": "https://images.keovip88.net/images/teams/al-kholood.png",
+            "time": "01:00 16/08",
+            "blv": "Số 13",
+            "is_live": true,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/6a7671c124d46db870ae9a85_bea7a243_20260816.png?v=bea7a243",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "ph-1ee350834c",
           "name": "Al Taawon vs Al Khaleej | 23:15 15/08",
           "type": "single",
@@ -1500,9 +1610,9 @@
             "blv": "Chim Nhỏ",
             "is_live": true,
             "cate_type": "football",
-            "status": "half_time",
+            "status": "live",
             "home_score": 0,
-            "away_score": 1
+            "away_score": 2
           },
           "image": {
             "padding": 1,
@@ -1588,116 +1698,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/63851_90720d8f_20260816.png?v=90720d8f",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-e8eb535bc6",
-          "name": "Al Ittihad Jeddah vs Al Kholood | 01:00 16/08",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-e8eb535bc6",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-e8eb535bc6",
-                  "name": "Al Ittihad Jeddah vs Al Kholood",
-                  "streams": [
-                    {
-                      "id": "st-e8eb535bc6",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-3fbd1ecb65",
-                          "name": "Số 13",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1786777871_hd/1786777871_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "src-33d9bf495c",
-              "name": "PhaohoaTV",
-              "contents": [
-                {
-                  "id": "ct-33d9bf495c",
-                  "name": "Al Ittihad vs Al Kholood",
-                  "streams": [
-                    {
-                      "id": "st-33d9bf495c",
-                      "name": "PhaoHoa - Pháo Thủ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-f536973e27",
-                          "name": "Pháo Thủ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa4/index.m3u8?expire=1815505159&sign=faaa23580764370ed378ecd708c9f262",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://phaohoa1.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://phaohoa1.live"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "VĐQG Ả Rập Xê Út",
-            "team_a": "Al Ittihad Jeddah",
-            "team_b": "Al Kholood",
-            "logo_a": "https://images.keovip88.net/images/teams/al-ittihad.png",
-            "logo_b": "https://images.keovip88.net/images/teams/al-kholood.png",
-            "time": "01:00 16/08",
-            "blv": "Số 13",
-            "is_live": false,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/6a7671c124d46db870ae9a85_bea7a243_20260816.png?v=bea7a243",
             "width": 1600,
             "height": 1200
           }
@@ -3772,15 +3772,7 @@
     },
     {
       "id": "grp-bóng-bàn",
-      "name": "🏓 Bóng Bàn",
-      "display": "vertical",
-      "grid_number": 2,
-      "enable_detail": false,
-      "channels": []
-    },
-    {
-      "id": "grp-võ-thuật",
-      "name": "🥊 Võ Thuật (1 LIVE)",
+      "name": "🏓 Bóng Bàn (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -3845,7 +3837,7 @@
             "time": "23:00 15/08",
             "blv": "Số 69",
             "is_live": true,
-            "cate_type": "vothuat"
+            "cate_type": "bongban"
           },
           "image": {
             "padding": 1,
@@ -3855,7 +3847,16 @@
             "width": 1600,
             "height": 1200
           }
-        },
+        }
+      ]
+    },
+    {
+      "id": "grp-võ-thuật",
+      "name": "🥊 Võ Thuật",
+      "display": "vertical",
+      "grid_number": 2,
+      "enable_detail": false,
+      "channels": [
         {
           "id": "gv-0fd6afa0eb",
           "name": "Islam Makhachev vs Ian Machado Garry | 04:00 16/08",
