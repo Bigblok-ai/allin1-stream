@@ -323,17 +323,17 @@ def extract_sort_key(channel):
 # ★ SỬA: LOGIC KÊNH TRUYỀN HÌNH - GOM LINK CÙNG TÊN
 # ==========================================
 # ==========================================
+# ==========================================
 # ★ BẢNG CẤU HÌNH TỰ ĐỘNG TIÊM DRM CHO KÊNH
 # ==========================================
-# Thêm URL (hoặc 1 phần URL) vào đây, script sẽ tự động điền Key cho link đó
 DRM_AUTO_INJECT = [
     {
         "url_contains": "mytvnet.vn/pkg20/live_dzones/hbo.smil", 
         "user_agent": "Dalvik/2.1.0",
         "drm_type": "clearkey",
-        "drm_key": '{"keys":[{"kty":"oct","k":"PeDzjc8BSCff1b7Dh0PGog","kid":"Cd3+PWOGPK+ut50FRrCYqw"}],"type":"temporary"}'
+        # Đổi sang cặp KID:KEY định dạng HEX
+        "drm_key": "09ddfe3d63863caf2eeb79d0546b098a:3dde0f38dcf014827dfd5bec38743c6a"
     }
-    # Nếu sau này có kênh DRM khác, bạn chỉ cần copy phần trên paste xuống đây và sửa key
 ]
 
 # ==========================================
@@ -381,7 +381,7 @@ def build_tv_channels(tv_list):
             # Tạo header chỉ khi có user_agent
             headers = [{"key": "User-Agent", "value": ua}] if ua else []
             
-            # Giữ nguyên drm_key là chuỗi JSON (String)
+            # Giữ nguyên chuỗi HEX (hoặc chuỗi JSON) truyền thẳng từ cấu hình
             drm_key_obj = drm_key_raw
 
             # Ghép vào cấu trúc
