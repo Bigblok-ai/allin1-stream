@@ -322,6 +322,23 @@ def extract_sort_key(channel):
 # ==========================================
 # ★ SỬA: LOGIC KÊNH TRUYỀN HÌNH - GOM LINK CÙNG TÊN
 # ==========================================
+# ==========================================
+# ★ BẢNG CẤU HÌNH TỰ ĐỘNG TIÊM DRM CHO KÊNH
+# ==========================================
+# Thêm URL (hoặc 1 phần URL) vào đây, script sẽ tự động điền Key cho link đó
+DRM_AUTO_INJECT = [
+    {
+        "url_contains": "mytvnet.vn/pkg20/live_dzones/hbo.smil", 
+        "user_agent": "Dalvik/2.1.0",
+        "drm_type": "clearkey",
+        "drm_key": '{"keys":[{"kty":"oct","k":"PeDzjc8BSCff1b7Dh0PGog","kid":"Cd3+PWOGPK+ut50FRrCYqw"}],"type":"temporary"}'
+    }
+    # Nếu sau này có kênh DRM khác, bạn chỉ cần copy phần trên paste xuống đây và sửa key
+]
+
+# ==========================================
+# ★ SỬA: LOGIC KÊNH TRUYỀN HÌNH - GOM LINK CÙNG TÊN + TIÊM DRM
+# ==========================================
 def build_tv_channels(tv_list):
     # 1. Gộp các link có cùng tên kênh lại
     grouped = defaultdict(list)
@@ -345,19 +362,26 @@ def build_tv_channels(tv_list):
             except:
                 src_name = f"Source {j+1}"
 
-            # 1. Tách biến ra ngoài để code gọn, không thụt sâu
             url = var.get("url", "")
             ua = var.get("user_agent", "")
             drm_type = var.get("drm_type", "")
             drm_key_raw = var.get("drm_key", "")
             
-            # 2. Tự động nhận diện loại stream
+            # ★ TỰ ĐỘNG TIÊM DRM VÀO NẾU URL KHỚP VỚI CẤU HÌNH
+            for drm_cfg in DRM_AUTO_INJECT:
+                if drm_cfg["url_contains"] in url:
+                    if not ua: ua = drm_cfg.get("user_agent", "")
+                    if not drm_type: drm_type = drm_cfg.get("drm_type", "")
+                    if not drm_key_raw: drm_key_raw = drm_cfg.get("drm_key", "")
+                    break # Gán xong thì thoát vòng lặp kiểm tra
+            
+            # Tự động nhận diện loại stream
             link_type = "dash" if ".mpd" in url.lower() else "hls"
             
-            # 3. Tạo header chỉ khi có user_agent
+            # Tạo header chỉ khi có user_agent
             headers = [{"key": "User-Agent", "value": ua}] if ua else []
             
-            # 4. QUAN TRỌNG: Chuyển drm_key từ String sang Object (Dict) để player đọc được
+            # QUAN TRỌNG: Chuyển drm_key từ String sang Object (Dict) để player đọc được
             drm_key_obj = ""
             if drm_key_raw and drm_key_raw.startswith("{"):
                 try:
@@ -365,7 +389,7 @@ def build_tv_channels(tv_list):
                 except:
                     drm_key_obj = drm_key_raw
 
-            # 5. Ghép vào cấu trúc (giờ đã gọn và chuẩn)
+            # Ghép vào cấu trúc
             sources.append({
                 "id": f"src-tv-{i}-{j}",
                 "name": src_name,
@@ -383,7 +407,7 @@ def build_tv_channels(tv_list):
                             "url": url,
                             "request_headers": headers,
                             "drm_type": drm_type,
-                            "drm_key": drm_key_obj  # <-- Giờ đây là Object, player sẽ hiểu
+                            "drm_key": drm_key_obj  
                         }]
                     }]
                 }]
