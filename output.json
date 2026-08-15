@@ -3430,11 +3430,83 @@
     },
     {
       "id": "grp-billiards",
-      "name": "🎱 Billiards (1 LIVE)",
+      "name": "🎱 Billiards (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "chtv-cb169b07e8",
+          "name": "Shane Van Boening vs Felix Vogel | VÁNG",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-cb169b07e8",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-cb169b07e8",
+                  "name": "Shane Van Boening vs Felix Vogel",
+                  "streams": [
+                    {
+                      "id": "st-cb169b07e8",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-cb169b07e8",
+                          "name": "VÁNG",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6256/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv21.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "TV1 Arizona open pool championship",
+            "team_a": "Shane Van Boening",
+            "team_b": "Felix Vogel",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1786752946090_Screenshot 2026-08-15 071540.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1786752945768_Screenshot 2026-08-15 050535.png",
+            "time": "08:15 15/08",
+            "caster": "VÁNG",
+            "score": "0-0",
+            "is_live": true,
+            "hot": true
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-cb169b07e8_8b6a43b2_20260815.png?v=8b6a43b2",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "chtv-fe7abf0de0",
           "name": "Nicholas Tan vs Jeffrey De Luna | BÚN CHÓ",
@@ -3503,78 +3575,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-fe7abf0de0_1f2a74ea_20260815.png?v=1f2a74ea",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-cb169b07e8",
-          "name": "Shane Van Boening vs Felix Vogel | 08:15 15/08 | VÁNG",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "SAP",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-cb169b07e8",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-cb169b07e8",
-                  "name": "Shane Van Boening vs Felix Vogel",
-                  "streams": [
-                    {
-                      "id": "st-cb169b07e8",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-cb169b07e8",
-                          "name": "VÁNG",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6256/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv21.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "TV1 Arizona open pool championship",
-            "team_a": "Shane Van Boening",
-            "team_b": "Felix Vogel",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1786752946090_Screenshot 2026-08-15 071540.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1786752945768_Screenshot 2026-08-15 050535.png",
-            "time": "08:15 15/08",
-            "caster": "VÁNG",
-            "score": "0-0",
-            "is_live": false,
-            "hot": true
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-cb169b07e8_8b6a43b2_20260815.png?v=8b6a43b2",
             "width": 1600,
             "height": 1200
           }
