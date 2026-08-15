@@ -3339,11 +3339,84 @@
     },
     {
       "id": "grp-billiards",
-      "name": "🎱 Billiards",
+      "name": "🎱 Billiards (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
-      "channels": []
+      "channels": [
+        {
+          "id": "chtv-6e7b46d85d",
+          "name": "TUYÊN CON vs DUY NHỎ | Đại Kê",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-6e7b46d85d",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-6e7b46d85d",
+                  "name": "TUYÊN CON vs DUY NHỎ",
+                  "streams": [
+                    {
+                      "id": "st-6e7b46d85d",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-6e7b46d85d",
+                          "name": "Đại Kê",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6302/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv21.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "lò magic",
+            "team_a": "TUYÊN CON",
+            "team_b": "DUY NHỎ",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1786804540927_TUYÃN CON.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1786804544855_DUY NHá».png",
+            "time": "21:33 15/08",
+            "caster": "Đại Kê",
+            "score": "1-0",
+            "is_live": true,
+            "hot": true
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-6e7b46d85d_1879d493_20260815.png?v=1879d493",
+            "width": 1600,
+            "height": 1200
+          }
+        }
+      ]
     },
     {
       "id": "grp-bóng-chuyền",
@@ -3530,82 +3603,11 @@
     },
     {
       "id": "grp-võ-thuật",
-      "name": "🥊 Võ Thuật (1 LIVE)",
+      "name": "🥊 Võ Thuật",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-769fd7332b",
-          "name": "Europe Smash - Sweden vs Europe Smash - Sweden | 17:00 15/08",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-769fd7332b",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-769fd7332b",
-                  "name": "Europe Smash - Sweden vs Europe Smash - Sweden",
-                  "streams": [
-                    {
-                      "id": "st-769fd7332b",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-d2c833bda5",
-                          "name": "Số 69",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1786755544_hd/1786755544_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Europe Smash - Sweden 2026",
-            "team_a": "Europe Smash - Sweden",
-            "team_b": "Europe Smash - Sweden",
-            "logo_a": "https://europesmash.com/assets/images/sg_text_logo.png",
-            "logo_b": "https://europesmash.com/assets/images/sg_text_logo.png",
-            "time": "17:00 15/08",
-            "blv": "Số 69",
-            "is_live": true,
-            "cate_type": "vothuat"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/v4obxugiljmf_a858b817_20260815.png?v=a858b817",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-4a1f7b117d",
           "name": "Europe Smash - Sweden vs Europe Smash - Sweden | 23:00 15/08",
