@@ -381,13 +381,8 @@ def build_tv_channels(tv_list):
             # Tạo header chỉ khi có user_agent
             headers = [{"key": "User-Agent", "value": ua}] if ua else []
             
-            # QUAN TRỌNG: Chuyển drm_key từ String sang Object (Dict) để player đọc được
-            drm_key_obj = ""
-            if drm_key_raw and drm_key_raw.startswith("{"):
-                try:
-                    drm_key_obj = json.loads(drm_key_raw)
-                except:
-                    drm_key_obj = drm_key_raw
+            # Giữ nguyên drm_key là chuỗi JSON (String)
+            drm_key_obj = drm_key_raw
 
             # Ghép vào cấu trúc
             sources.append({
