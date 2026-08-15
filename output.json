@@ -264,7 +264,7 @@
           "sources": [
             {
               "id": "src-tv-2-0",
-              "name": "Source 1 - fptplay53",
+              "name": "Source 1 - fptplay",
               "contents": [
                 {
                   "id": "ct-tv-2-0",
@@ -279,7 +279,7 @@
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
-                          "url": "https://live-a.fptplay53.net/live/media/vtv3/live247-hls-avc/index.m3u8",
+                          "url": "https://vips-livecdn.fptplay.net/live/media/vtv3/live247-hls-avc/index.m3u8",
                           "request_headers": [],
                           "drm_type": "",
                           "drm_key": ""
@@ -292,7 +292,7 @@
             },
             {
               "id": "src-tv-2-1",
-              "name": "Source 2 - fptplay",
+              "name": "Source 2 - fptplay53",
               "contents": [
                 {
                   "id": "ct-tv-2-1",
@@ -307,7 +307,7 @@
                           "name": "Link 2",
                           "type": "hls",
                           "default": false,
-                          "url": "https://vips-livecdn.fptplay.net/live/media/vtv3/live247-hls-avc/vtv3-avc1_5600000=10000-mp4a_131600=20000.m3u8",
+                          "url": "https://live-a.fptplay53.net/live/media/vtv3/live247-hls-avc/index.m3u8",
                           "request_headers": [],
                           "drm_type": "",
                           "drm_key": ""
@@ -320,7 +320,7 @@
             },
             {
               "id": "src-tv-2-2",
-              "name": "Source 3 - fptplay53",
+              "name": "Source 3 - fptplay",
               "contents": [
                 {
                   "id": "ct-tv-2-2",
@@ -333,6 +333,34 @@
                         {
                           "id": "lnk-tv-2-2",
                           "name": "Link 3",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://vips-livecdn.fptplay.net/live/media/vtv3/live247-hls-avc/vtv3-avc1_5600000=10000-mp4a_131600=20000.m3u8",
+                          "request_headers": [],
+                          "drm_type": "",
+                          "drm_key": ""
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-tv-2-3",
+              "name": "Source 4 - fptplay53",
+              "contents": [
+                {
+                  "id": "ct-tv-2-3",
+                  "name": "VTV3",
+                  "streams": [
+                    {
+                      "id": "st-tv-2-3",
+                      "name": "KT",
+                      "stream_links": [
+                        {
+                          "id": "lnk-tv-2-3",
+                          "name": "Link 4",
                           "type": "hls",
                           "default": false,
                           "url": "https://live.fptplay53.net/live/media/vtv3/live247-hls-avc/vtv3-avc1_5600000=10000-mp4a_131600=20000.m3u8",
@@ -1294,45 +1322,6 @@
                   ]
                 }
               ]
-            },
-            {
-              "id": "src-a07a3f343e",
-              "name": "PhaohoaTV",
-              "contents": [
-                {
-                  "id": "ct-a07a3f343e",
-                  "name": "Al Nassr vs Al Fateh",
-                  "streams": [
-                    {
-                      "id": "st-a07a3f343e",
-                      "name": "PhaoHoa - A Heo",
-                      "stream_links": [
-                        {
-                          "id": "lnk-95e438c878",
-                          "name": "A Heo",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa7/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://phaohoa1.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://phaohoa1.live"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
             }
           ],
           "org_metadata": {
@@ -1612,7 +1601,7 @@
             "cate_type": "football",
             "status": "live",
             "home_score": 0,
-            "away_score": 2
+            "away_score": 3
           },
           "image": {
             "padding": 1,
@@ -2227,6 +2216,98 @@
           }
         },
         {
+          "id": "gv-fb2b92ee3f",
+          "name": "Arsenal vs Manchester City | 21:00 16/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-fb2b92ee3f",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-fb2b92ee3f",
+                  "name": "Arsenal vs Manchester City",
+                  "streams": [
+                    {
+                      "id": "st-fb2b92ee3f",
+                      "name": "GV",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-c70689651c",
+              "name": "PhaohoaTV",
+              "contents": [
+                {
+                  "id": "ct-c70689651c",
+                  "name": "Arsenal vs Manchester City",
+                  "streams": [
+                    {
+                      "id": "st-c70689651c",
+                      "name": "PhaoHoa - Kevin",
+                      "stream_links": [
+                        {
+                          "id": "lnk-b324cec71d",
+                          "name": "Kevin",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://luong.phaohoa.live/live/phaohoa2/index.m3u8?expire=1815505159&sign=d3bfcbaa36f949863f22cc89e1cc1afa",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phaohoa1.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://phaohoa1.live"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Siêu Cúp Anh",
+            "team_a": "Arsenal",
+            "team_b": "Manchester City",
+            "logo_a": "https://images.keovip88.net/images/teams/arsenal.png",
+            "logo_b": "https://images.keovip88.net/images/teams/manchester-city.png",
+            "time": "21:00 16/08",
+            "blv": "",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/6a2364861908f3a21c09f702_2d2b1091_20260816.png?v=2d2b1091",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "ph-c53adf85e1",
           "name": "Sevilla vs Rayo Vallecano | 02:30 16/08",
           "type": "single",
@@ -2696,6 +2777,164 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/64232_da54f1d4_20260816.png?v=da54f1d4",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "ph-daf57fd8bf",
+          "name": "Schalke vs Real Madrid | 22:00 16/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-daf57fd8bf",
+              "name": "PhaohoaTV",
+              "contents": [
+                {
+                  "id": "ct-daf57fd8bf",
+                  "name": "Schalke vs Real Madrid",
+                  "streams": [
+                    {
+                      "id": "st-daf57fd8bf",
+                      "name": "PhaohoaTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-c0c00f928c",
+                          "name": "Người Lửa",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://luong.phaohoa.live/live/phaohoa1/index.m3u8?expire=1815505159&sign=9137553faeae361734eec8bda5ea16e2",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phaohoa1.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://phaohoa1.live"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Club Friendlies",
+            "team_a": "Schalke",
+            "team_b": "Real Madrid",
+            "logo_a": "https://phaohoa1.live/media/teams/logos/team_3931.jpg",
+            "logo_b": "https://phaohoa1.live/media/teams/logos/team_76.jpg",
+            "time": "22:00",
+            "date": "16/08",
+            "blv": "Người Lửa",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/64434_29d89f1c_20260816.png?v=29d89f1c",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "ph-23fcf35b0a",
+          "name": "KV Mechelen vs St. Liege | 23:30 16/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-23fcf35b0a",
+              "name": "PhaohoaTV",
+              "contents": [
+                {
+                  "id": "ct-23fcf35b0a",
+                  "name": "KV Mechelen vs St. Liege",
+                  "streams": [
+                    {
+                      "id": "st-23fcf35b0a",
+                      "name": "PhaohoaTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-9501ab9e21",
+                          "name": "Tày",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://luong.phaohoa.live/live/phaohoa8/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phaohoa1.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://phaohoa1.live"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "First Division A",
+            "team_a": "KV Mechelen",
+            "team_b": "St. Liege",
+            "logo_a": "https://phaohoa1.live/media/teams/logos/team_1365.jpg",
+            "logo_b": "https://phaohoa1.live/media/teams/logos/team_148.jpg",
+            "time": "23:30",
+            "date": "16/08",
+            "blv": "Tày",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/64507_5e0c8fc4_20260816.png?v=5e0c8fc4",
             "width": 1600,
             "height": 1200
           }
