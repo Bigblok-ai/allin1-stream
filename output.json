@@ -1107,7 +1107,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (1 LIVE)",
+      "name": "⚽ Bóng Đá (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1179,6 +1179,85 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/6a75201624d46db8706711b9_141e31dd_20260815.png?v=141e31dd",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "ph-8313b45586",
+          "name": "Mito vs Gamba Osaka | 16:00 15/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-8313b45586",
+              "name": "PhaohoaTV",
+              "contents": [
+                {
+                  "id": "ct-8313b45586",
+                  "name": "Mito vs Gamba Osaka",
+                  "streams": [
+                    {
+                      "id": "st-8313b45586",
+                      "name": "PhaohoaTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-9501ab9e21",
+                          "name": "Tày",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://luong.phaohoa.live/live/phaohoa8/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phaohoa1.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://phaohoa1.live"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "J1 League",
+            "team_a": "Mito",
+            "team_b": "Gamba Osaka",
+            "logo_a": "https://phaohoa1.live/media/teams/logos/team_5081.jpg",
+            "logo_b": "https://phaohoa1.live/media/teams/logos/team_411.jpg",
+            "time": "16:00",
+            "date": "15/08",
+            "blv": "Tày",
+            "is_live": true,
+            "cate_type": "football",
+            "status": "live",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/62853_84b54399_20260815.png?v=84b54399",
             "width": 1600,
             "height": 1200
           }
@@ -3052,85 +3131,6 @@
           }
         },
         {
-          "id": "ph-8313b45586",
-          "name": "Mito vs Gamba Osaka | 16:00 15/08",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-8313b45586",
-              "name": "PhaohoaTV",
-              "contents": [
-                {
-                  "id": "ct-8313b45586",
-                  "name": "Mito vs Gamba Osaka",
-                  "streams": [
-                    {
-                      "id": "st-8313b45586",
-                      "name": "PhaohoaTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-9501ab9e21",
-                          "name": "Tày",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa8/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://phaohoa1.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://phaohoa1.live"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "J1 League",
-            "team_a": "Mito",
-            "team_b": "Gamba Osaka",
-            "logo_a": "https://phaohoa1.live/media/teams/logos/team_5081.jpg",
-            "logo_b": "https://phaohoa1.live/media/teams/logos/team_411.jpg",
-            "time": "16:00",
-            "date": "15/08",
-            "blv": "Tày",
-            "is_live": false,
-            "cate_type": "football",
-            "status": "scheduled",
-            "home_score": 0,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/62853_84b54399_20260815.png?v=84b54399",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "ph-82a5299301",
           "name": "Urawa Reds vs Sanfrecce Hiroshima | 17:00 15/08",
           "type": "single",
@@ -3756,6 +3756,78 @@
       "enable_detail": false,
       "channels": [
         {
+          "id": "chtv-bd2cd28e3d",
+          "name": "Hoàng PT vs Thành Cụt | Kèn Kèn",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-bd2cd28e3d",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-bd2cd28e3d",
+                  "name": "Hoàng PT vs Thành Cụt",
+                  "streams": [
+                    {
+                      "id": "st-bd2cd28e3d",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-bd2cd28e3d",
+                          "name": "Kèn Kèn",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6281/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv21.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "TV6 V6 - 99 TITANIUM CHAMPIONSHIP",
+            "team_a": "Hoàng PT",
+            "team_b": "Thành Cụt",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1786779670172_HOÃNG PHÃ THá».png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1786779677049_THÃNH Cá»¤T.jpg",
+            "time": "16:30 15/08",
+            "caster": "Kèn Kèn",
+            "score": "0-0",
+            "is_live": true,
+            "hot": true
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-bd2cd28e3d_bdbe8ae0_20260815.png?v=bdbe8ae0",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "chtv-e94e5150e9",
           "name": "MôHaMét NgọcXaXôi vs Tô Phương | GIÀNG A PHỌ",
           "type": "single",
@@ -3895,78 +3967,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-18e4f9fbb4_091ceb78_20260815.png?v=091ceb78",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-bd2cd28e3d",
-          "name": "Hoàng PT vs Thành Cụt | Kèn Kèn",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-bd2cd28e3d",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-bd2cd28e3d",
-                  "name": "Hoàng PT vs Thành Cụt",
-                  "streams": [
-                    {
-                      "id": "st-bd2cd28e3d",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-bd2cd28e3d",
-                          "name": "Kèn Kèn",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6281/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv21.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "TV6 V6 - 99 TITANIUM CHAMPIONSHIP",
-            "team_a": "Hoàng PT",
-            "team_b": "Thành Cụt",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1786779670172_HOÃNG PHÃ THá».png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1786779677049_THÃNH Cá»¤T.jpg",
-            "time": "16:30 15/08",
-            "caster": "Kèn Kèn",
-            "score": "0-0",
-            "is_live": true,
-            "hot": true
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-bd2cd28e3d_bdbe8ae0_20260815.png?v=bdbe8ae0",
             "width": 1600,
             "height": 1200
           }
