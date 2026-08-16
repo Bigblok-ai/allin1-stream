@@ -2944,11 +2944,83 @@
     },
     {
       "id": "grp-billiards",
-      "name": "🎱 Billiards (1 LIVE)",
+      "name": "🎱 Billiards (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "chtv-b85a4de4f1",
+          "name": "David Alcaide vs Shane Van Boening | VÁNG",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-b85a4de4f1",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-b85a4de4f1",
+                  "name": "David Alcaide vs Shane Van Boening",
+                  "streams": [
+                    {
+                      "id": "st-b85a4de4f1",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-b85a4de4f1",
+                          "name": "VÁNG",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6315/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv21.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Arizona open pool championship",
+            "team_a": "David Alcaide",
+            "team_b": "Shane Van Boening",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1786837359638_signal-2026-08-16-06-41-49-328_002.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1786837313347_signal-2026-08-16-06-38-50-620_002.jpg",
+            "time": "11:15 16/08",
+            "caster": "VÁNG",
+            "score": "0-0",
+            "is_live": true,
+            "hot": true
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-b85a4de4f1_9a828dc3_20260816.png?v=9a828dc3",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "chtv-4e7b9d7304",
           "name": "Aleksa Pecelj vs Albert Januarta | Kèn Kèn",
@@ -3049,83 +3121,11 @@
     },
     {
       "id": "grp-võ-thuật",
-      "name": "🥊 Võ Thuật (1 LIVE)",
+      "name": "🥊 Võ Thuật",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
-      "channels": [
-        {
-          "id": "gv-0fd6afa0eb",
-          "name": "Islam Makhachev vs Ian Machado Garry | 04:00 16/08",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-0fd6afa0eb",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-0fd6afa0eb",
-                  "name": "Islam Makhachev vs Ian Machado Garry",
-                  "streams": [
-                    {
-                      "id": "st-0fd6afa0eb",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-45c49f53d4",
-                          "name": "Số 69",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1786802340_hd/1786802340_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "UFC 330",
-            "team_a": "Islam Makhachev",
-            "team_b": "Ian Machado Garry",
-            "logo_a": "https://static.flashscore.com/res/image/data/Qq4ShzAr-jNmc9Ms5.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/dGdRKaFa-nkHZLWfS.png",
-            "time": "04:00 16/08",
-            "blv": "Số 69",
-            "is_live": true,
-            "cate_type": "vothuat"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/r57f11t87ofc_cc13f43f_20260816.png?v=cc13f43f",
-            "width": 1600,
-            "height": 1200
-          }
-        }
-      ]
+      "channels": []
     },
     {
       "id": "grp-bóng-chày",
