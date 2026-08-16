@@ -3570,7 +3570,7 @@
     },
     {
       "id": "grp-billiards",
-      "name": "🎱 Billiards (2 LIVE)",
+      "name": "🎱 Billiards (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -3634,7 +3634,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1786862879175_KHÃNH BÃA.jpg",
             "time": "14:00 16/08",
             "caster": "GIÀNG A PHỌ",
-            "score": "7-7",
+            "score": "7-8",
             "is_live": true,
             "hot": true
           },
@@ -3721,16 +3721,16 @@
         },
         {
           "id": "chtv-d58af3f4be",
-          "name": "TKON uy tín vs Bình Chuẩn | 16:30 16/08 | SÊ KÔÔ",
+          "name": "TKON uy tín vs Bình Chuẩn | SÊ KÔÔ",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "SAP",
+              "text": "LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -3768,6 +3768,41 @@
                   ]
                 }
               ]
+            },
+            {
+              "id": "src-5ce2463acf",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-5ce2463acf",
+                  "name": "TKON uy tín vs Bình Chuẩn",
+                  "streams": [
+                    {
+                      "id": "st-5ce2463acf",
+                      "name": "ChoangTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-5ce2463acf",
+                          "name": "Lee Min Hoo",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6338/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv21.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
             }
           ],
           "org_metadata": {
@@ -3779,7 +3814,7 @@
             "time": "16:30 16/08",
             "caster": "SÊ KÔÔ",
             "score": "0-0",
-            "is_live": false,
+            "is_live": true,
             "hot": true
           },
           "image": {
