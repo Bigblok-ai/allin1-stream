@@ -3207,11 +3207,83 @@
     },
     {
       "id": "grp-billiards",
-      "name": "🎱 Billiards (1 LIVE)",
+      "name": "🎱 Billiards (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "chtv-5df01af125",
+          "name": "Thành Cụt vs Duy Đinh | Kèn Kèn",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-5df01af125",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-5df01af125",
+                  "name": "Thành Cụt vs Duy Đinh",
+                  "streams": [
+                    {
+                      "id": "st-5df01af125",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-5df01af125",
+                          "name": "Kèn Kèn",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6355/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv21.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Thành cụt billiard Shop",
+            "team_a": "Thành Cụt",
+            "team_b": "Duy Đinh",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1786896484489_THÃNH Cá»¤T.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1786896496258_Duy Äinh.jpg",
+            "time": "00:00 16/08",
+            "caster": "Kèn Kèn",
+            "score": "0-0",
+            "is_live": true,
+            "hot": true
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-5df01af125_62024ebd_20260816.png?v=62024ebd",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "chtv-6c3e41c48a",
           "name": "Rica Rendal vs Jake Cebu | Kèn Kèn",
@@ -3285,8 +3357,8 @@
           }
         },
         {
-          "id": "chtv-d74245c55b",
-          "name": "Denis Grabe vs Jefrey Roda | 03:00 17/08 | VÁNG",
+          "id": "chtv-af21dc3bfd",
+          "name": "Denis Grabe vs Jefrey Roda ( 9win) | 03:00 17/08 | Kèn Kèn",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -3300,41 +3372,6 @@
           ],
           "sources": [
             {
-              "id": "src-d74245c55b",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-d74245c55b",
-                  "name": "Denis Grabe vs Jefrey Roda",
-                  "streams": [
-                    {
-                      "id": "st-d74245c55b",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-d74245c55b",
-                          "name": "VÁNG",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6348/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv21.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
               "id": "src-af21dc3bfd",
               "name": "ChoangTV",
               "contents": [
@@ -3344,7 +3381,7 @@
                   "streams": [
                     {
                       "id": "st-af21dc3bfd",
-                      "name": "ChoangTV",
+                      "name": "CHTV",
                       "stream_links": [
                         {
                           "id": "lnk-af21dc3bfd",
@@ -3403,16 +3440,51 @@
                   ]
                 }
               ]
+            },
+            {
+              "id": "src-d74245c55b",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-d74245c55b",
+                  "name": "Denis Grabe vs Jefrey Roda",
+                  "streams": [
+                    {
+                      "id": "st-d74245c55b",
+                      "name": "ChoangTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-d74245c55b",
+                          "name": "VÁNG",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6348/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv21.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
             }
           ],
           "org_metadata": {
-            "league": "Pán Kết 1 |  Arizona open pool championship",
+            "league": "Pán Kết 1 | Arizona open pool championship kèo chấp",
             "team_a": "Denis Grabe",
-            "team_b": "Jefrey Roda",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1786890937568_Denis Grabe.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1786890940164_Jefrey Roda.jpg",
+            "team_b": "Jefrey Roda ( 9win)",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1786891030888_Denis Grabe.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1786891035383_Jefrey Roda.jpg",
             "time": "03:00 17/08",
-            "caster": "VÁNG",
+            "caster": "Kèn Kèn",
             "score": "0-0",
             "is_live": false,
             "hot": true
@@ -3421,7 +3493,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-d74245c55b_0977aade_20260816.png?v=0977aade",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-af21dc3bfd_00838270_20260816.png?v=00838270",
             "width": 1600,
             "height": 1200
           }
