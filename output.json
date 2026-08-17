@@ -1272,7 +1272,7 @@
             "is_live": true,
             "cate_type": "football",
             "status": "live",
-            "home_score": 0,
+            "home_score": 1,
             "away_score": 0
           },
           "image": {
@@ -2615,11 +2615,156 @@
     },
     {
       "id": "grp-billiards",
-      "name": "🎱 Billiards",
+      "name": "🎱 Billiards (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
-      "channels": []
+      "channels": [
+        {
+          "id": "chtv-57c1a51002",
+          "name": "TONG LU vs KONG DEJING",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-57c1a51002",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-57c1a51002",
+                  "name": "TONG LU vs KONG DEJING",
+                  "streams": [
+                    {
+                      "id": "st-57c1a51002",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-57c1a51002",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6373/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv21.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "🏆 Champion Prize :¥2 Million | RACE TO 40",
+            "team_a": "TONG LU",
+            "team_b": "KONG DEJING",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1786976945511_TONG LU.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1786976948003_KONG DEJING.jpg",
+            "time": "00:00 17/08",
+            "caster": "",
+            "score": "0-0",
+            "is_live": true,
+            "hot": true
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-57c1a51002_e4cd1ddf_20260817.png?v=e4cd1ddf",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-586f4882d9",
+          "name": "TONG LU vs KONG DEJING | Thập Cẩm",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-586f4882d9",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-586f4882d9",
+                  "name": "TONG LU vs KONG DEJING",
+                  "streams": [
+                    {
+                      "id": "st-586f4882d9",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-586f4882d9",
+                          "name": "Thập Cẩm",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6371/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv21.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "🏆 Champion Prize :¥2 Million | RACE TO 40",
+            "team_a": "TONG LU",
+            "team_b": "KONG DEJING",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1786968823310_TONG LU.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1786968823231_KONG DEJING.jpg",
+            "time": "19:00 17/08",
+            "caster": "Thập Cẩm",
+            "score": "0-0",
+            "is_live": true,
+            "hot": true
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-586f4882d9_b337833b_20260817.png?v=b337833b",
+            "width": 1600,
+            "height": 1200
+          }
+        }
+      ]
     },
     {
       "id": "grp-bóng-chuyền",
