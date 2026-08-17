@@ -3200,26 +3200,61 @@
     },
     {
       "id": "grp-billiards",
-      "name": "🎱 Billiards",
+      "name": "🎱 Billiards (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
         {
-          "id": "chtv-4f96199536",
-          "name": "Denis Grabe vs Aleksa Pecelj | 09:30 17/08 | Kèn Kèn",
+          "id": "chtv-8121e1d795",
+          "name": "Denis Grabe vs Aleksa Pecelj | VÁNG",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "SAP",
+              "text": "LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
+            {
+              "id": "src-8121e1d795",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-8121e1d795",
+                  "name": "Denis Grabe vs Aleksa Pecelj",
+                  "streams": [
+                    {
+                      "id": "st-8121e1d795",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-8121e1d795",
+                          "name": "VÁNG",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6358/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv21.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
             {
               "id": "src-4f96199536",
               "name": "ChoangTV",
@@ -3230,7 +3265,7 @@
                   "streams": [
                     {
                       "id": "st-4f96199536",
-                      "name": "CHTV",
+                      "name": "ChoangTV",
                       "stream_links": [
                         {
                           "id": "lnk-4f96199536",
@@ -3256,23 +3291,23 @@
               ]
             },
             {
-              "id": "src-8121e1d795",
+              "id": "src-2360ef87c1",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-8121e1d795",
+                  "id": "ct-2360ef87c1",
                   "name": "Denis Grabe vs Aleksa Pecelj",
                   "streams": [
                     {
-                      "id": "st-8121e1d795",
+                      "id": "st-2360ef87c1",
                       "name": "ChoangTV",
                       "stream_links": [
                         {
-                          "id": "lnk-8121e1d795",
-                          "name": "VÁNG",
+                          "id": "lnk-2360ef87c1",
+                          "name": "Thập Cẩm",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6358/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6359/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -3292,22 +3327,22 @@
             }
           ],
           "org_metadata": {
-            "league": "CHUNG KẾT | Arizona open pool championship",
+            "league": "CHUNG KẾT | Arizona open pool championship kèo chấp",
             "team_a": "Denis Grabe",
             "team_b": "Aleksa Pecelj",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1786919128281_Screenshot 2026-08-17 052342.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1786926521888_Screenshot 2026-08-17 072839.png",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1786919026474_Screenshot 2026-08-17 052342.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1786926597844_Screenshot 2026-08-17 072839.png",
             "time": "09:30 17/08",
-            "caster": "Kèn Kèn",
+            "caster": "VÁNG",
             "score": "0-0",
-            "is_live": false,
+            "is_live": true,
             "hot": false
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-4f96199536_9afd65b0_20260817.png?v=9afd65b0",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-8121e1d795_81fd7c7c_20260817.png?v=81fd7c7c",
             "width": 1600,
             "height": 1200
           }
