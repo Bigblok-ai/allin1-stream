@@ -1121,11 +1121,90 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá",
+      "name": "⚽ Bóng Đá (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "ph-fb15e2247f",
+          "name": "Gnistan vs Ilves | 22:00 17/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-fb15e2247f",
+              "name": "PhaohoaTV",
+              "contents": [
+                {
+                  "id": "ct-fb15e2247f",
+                  "name": "Gnistan vs Ilves",
+                  "streams": [
+                    {
+                      "id": "st-fb15e2247f",
+                      "name": "PhaohoaTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-cbc47e2fc7",
+                          "name": "Văn Minh",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://luong.phaohoa.live/live/phaohoa3/index.m3u8?expire=1815505159&sign=32dbf97946c3646cdd7f664aebd7fa2a",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phaohoa1.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://phaohoa1.live"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Veikkausliiga",
+            "team_a": "Gnistan",
+            "team_b": "Ilves",
+            "logo_a": "https://phaohoa1.live/media/teams/logos/team_3541.jpg",
+            "logo_b": "https://phaohoa1.live/media/teams/logos/team_3551.jpg",
+            "time": "22:00",
+            "date": "17/08",
+            "blv": "Văn Minh",
+            "is_live": true,
+            "cate_type": "football",
+            "status": "live",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/64755_d6469c50_20260817.png?v=d6469c50",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "ph-b7f61a5965",
           "name": "Brondby vs Sonderjyske | 00:00 18/08",
@@ -2035,85 +2114,6 @@
           }
         },
         {
-          "id": "ph-fb15e2247f",
-          "name": "Gnistan vs Ilves | 22:00 17/08",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-fb15e2247f",
-              "name": "PhaohoaTV",
-              "contents": [
-                {
-                  "id": "ct-fb15e2247f",
-                  "name": "Gnistan vs Ilves",
-                  "streams": [
-                    {
-                      "id": "st-fb15e2247f",
-                      "name": "PhaohoaTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-cbc47e2fc7",
-                          "name": "Văn Minh",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa3/index.m3u8?expire=1815505159&sign=32dbf97946c3646cdd7f664aebd7fa2a",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://phaohoa1.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://phaohoa1.live"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Veikkausliiga",
-            "team_a": "Gnistan",
-            "team_b": "Ilves",
-            "logo_a": "https://phaohoa1.live/media/teams/logos/team_3541.jpg",
-            "logo_b": "https://phaohoa1.live/media/teams/logos/team_3551.jpg",
-            "time": "22:00",
-            "date": "17/08",
-            "blv": "Văn Minh",
-            "is_live": false,
-            "cate_type": "football",
-            "status": "scheduled",
-            "home_score": 0,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/64755_d6469c50_20260817.png?v=d6469c50",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "ph-18bd524154",
           "name": "Polissya Zhytomyr vs FK Zorya Luhansk | 22:00 17/08",
           "type": "single",
@@ -2779,78 +2779,6 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "chtv-bbecb156b2",
-          "name": "Hoàng Vũng Tàu vs Hài Đăng | Đại Kê",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-bbecb156b2",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-bbecb156b2",
-                  "name": "Hoàng Vũng Tàu vs Hài Đăng",
-                  "streams": [
-                    {
-                      "id": "st-bbecb156b2",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-bbecb156b2",
-                          "name": "Đại Kê",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6363/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv21.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Kèo Bida TOP TOPP",
-            "team_a": "Hoàng Vũng Tàu",
-            "team_b": "Hài Đăng",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1765417529949_táº£i xuá»ng.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1765419036972_táº£i xuá»ng.png",
-            "time": "00:00 17/08",
-            "caster": "Đại Kê",
-            "score": "16-13",
-            "is_live": true,
-            "hot": true
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-bbecb156b2_71646c83_20260817.png?v=71646c83",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "chtv-7b64cd4b8c",
           "name": "NGỌC XĂM vs Quân Con | GIÀNG A PHỌ",
           "type": "single",
@@ -2909,7 +2837,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1763197166604_billiard-ball-logo-png_seeklogo-248081.png",
             "time": "00:00 17/08",
             "caster": "GIÀNG A PHỌ",
-            "score": "4-9",
+            "score": "4-10",
             "is_live": true,
             "hot": true
           },
@@ -2918,6 +2846,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-7b64cd4b8c_275eb557_20260817.png?v=275eb557",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-bbecb156b2",
+          "name": "Hoàng Vũng Tàu vs Hài Đăng | Đại Kê",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-bbecb156b2",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-bbecb156b2",
+                  "name": "Hoàng Vũng Tàu vs Hài Đăng",
+                  "streams": [
+                    {
+                      "id": "st-bbecb156b2",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-bbecb156b2",
+                          "name": "Đại Kê",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6363/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv21.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Kèo Bida TOP TOPP",
+            "team_a": "Hoàng Vũng Tàu",
+            "team_b": "Hài Đăng",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1765417529949_táº£i xuá»ng.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1765419036972_táº£i xuá»ng.png",
+            "time": "00:00 17/08",
+            "caster": "Đại Kê",
+            "score": "19-13",
+            "is_live": true,
+            "hot": true
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-bbecb156b2_71646c83_20260817.png?v=71646c83",
             "width": 1600,
             "height": 1200
           }
