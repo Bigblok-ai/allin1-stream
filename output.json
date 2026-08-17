@@ -1121,11 +1121,90 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá",
+      "name": "⚽ Bóng Đá (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "ph-fb15e2247f",
+          "name": "Gnistan vs Ilves | 22:00 17/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-fb15e2247f",
+              "name": "PhaohoaTV",
+              "contents": [
+                {
+                  "id": "ct-fb15e2247f",
+                  "name": "Gnistan vs Ilves",
+                  "streams": [
+                    {
+                      "id": "st-fb15e2247f",
+                      "name": "PhaohoaTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-cbc47e2fc7",
+                          "name": "Văn Minh",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://luong.phaohoa.live/live/phaohoa3/index.m3u8?expire=1815505159&sign=32dbf97946c3646cdd7f664aebd7fa2a",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phaohoa1.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://phaohoa1.live"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Veikkausliiga",
+            "team_a": "Gnistan",
+            "team_b": "Ilves",
+            "logo_a": "https://phaohoa1.live/media/teams/logos/team_3541.jpg",
+            "logo_b": "https://phaohoa1.live/media/teams/logos/team_3551.jpg",
+            "time": "22:00",
+            "date": "17/08",
+            "blv": "Văn Minh",
+            "is_live": true,
+            "cate_type": "football",
+            "status": "live",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/64755_d6469c50_20260817.png?v=d6469c50",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "gv-212155f856",
           "name": "Polissya Zhytomyr vs Zorya | 22:00 17/08",
@@ -2558,85 +2637,6 @@
           }
         },
         {
-          "id": "ph-fb15e2247f",
-          "name": "Gnistan vs Ilves | 22:00 17/08",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-fb15e2247f",
-              "name": "PhaohoaTV",
-              "contents": [
-                {
-                  "id": "ct-fb15e2247f",
-                  "name": "Gnistan vs Ilves",
-                  "streams": [
-                    {
-                      "id": "st-fb15e2247f",
-                      "name": "PhaohoaTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-cbc47e2fc7",
-                          "name": "Văn Minh",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa3/index.m3u8?expire=1815505159&sign=32dbf97946c3646cdd7f664aebd7fa2a",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://phaohoa1.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://phaohoa1.live"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Veikkausliiga",
-            "team_a": "Gnistan",
-            "team_b": "Ilves",
-            "logo_a": "https://phaohoa1.live/media/teams/logos/team_3541.jpg",
-            "logo_b": "https://phaohoa1.live/media/teams/logos/team_3551.jpg",
-            "time": "22:00",
-            "date": "17/08",
-            "blv": "Văn Minh",
-            "is_live": false,
-            "cate_type": "football",
-            "status": "scheduled",
-            "home_score": 0,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/64755_d6469c50_20260817.png?v=d6469c50",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "ph-3f7cce19df",
           "name": "Buxoro vs Neftchi Fargona | 22:00 18/08",
           "type": "single",
@@ -3192,228 +3192,11 @@
     },
     {
       "id": "grp-billiards",
-      "name": "🎱 Billiards (3 LIVE)",
+      "name": "🎱 Billiards",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
-      "channels": [
-        {
-          "id": "chtv-3b2fdb827c",
-          "name": "Duy Đen Đúa vs Tuấn VT | Đại Kê",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-3b2fdb827c",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-3b2fdb827c",
-                  "name": "Duy Đen Đúa vs Tuấn VT",
-                  "streams": [
-                    {
-                      "id": "st-3b2fdb827c",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-3b2fdb827c",
-                          "name": "Đại Kê",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6370/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv21.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "BIDA TÓP TÓP",
-            "team_a": "Duy Đen Đúa",
-            "team_b": "Tuấn VT",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1763197161884_billad.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1763197166604_billiard-ball-logo-png_seeklogo-248081.png",
-            "time": "00:00 17/08",
-            "caster": "Đại Kê",
-            "score": "11-6",
-            "is_live": true,
-            "hot": false
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-3b2fdb827c_1943e167_20260817.png?v=1943e167",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-586f4882d9",
-          "name": "TONG LU vs KONG DEJING | Thập Cẩm",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-586f4882d9",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-586f4882d9",
-                  "name": "TONG LU vs KONG DEJING",
-                  "streams": [
-                    {
-                      "id": "st-586f4882d9",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-586f4882d9",
-                          "name": "Thập Cẩm",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6371/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv21.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "🏆 Champion Prize :¥2 Million | RACE TO 40",
-            "team_a": "TONG LU",
-            "team_b": "KONG DEJING",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1786968823310_TONG LU.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1786968823231_KONG DEJING.jpg",
-            "time": "19:00 17/08",
-            "caster": "Thập Cẩm",
-            "score": "88-112",
-            "is_live": true,
-            "hot": true
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-586f4882d9_b337833b_20260817.png?v=b337833b",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-5c002f2d4b",
-          "name": "SY BUILDERS vs HARIM | Bỉm Sữa",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-5c002f2d4b",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-5c002f2d4b",
-                  "name": "SY BUILDERS vs HARIM",
-                  "streams": [
-                    {
-                      "id": "st-5c002f2d4b",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-5c002f2d4b",
-                          "name": "Bỉm Sữa",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6366/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv21.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "[ 웰컴저축은행 PBA 팀리그 화성특례시 TOUR 2026-2027 ]",
-            "team_a": "SY BUILDERS",
-            "team_b": "HARIM",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1786957876891_áº¢nh chá»¥p mÃ n hÃ¬nh 2026-08-17 160856.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1786957891468_áº¢nh chá»¥p mÃ n hÃ¬nh 2026-08-17 160917.png",
-            "time": "19:00 17/08",
-            "caster": "Bỉm Sữa",
-            "score": "1-1",
-            "is_live": true,
-            "hot": false
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-5c002f2d4b_8e182503_20260817.png?v=8e182503",
-            "width": 1600,
-            "height": 1200
-          }
-        }
-      ]
+      "channels": []
     },
     {
       "id": "grp-bóng-chuyền",
