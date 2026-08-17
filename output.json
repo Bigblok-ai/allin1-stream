@@ -2773,11 +2773,83 @@
     },
     {
       "id": "grp-billiards",
-      "name": "🎱 Billiards",
+      "name": "🎱 Billiards (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "chtv-c0a5998b0e",
+          "name": "Bình Chuẩn vs ĐẦU BỔ DƯA | Đại Kê",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-c0a5998b0e",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-c0a5998b0e",
+                  "name": "Bình Chuẩn vs ĐẦU BỔ DƯA",
+                  "streams": [
+                    {
+                      "id": "st-c0a5998b0e",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-c0a5998b0e",
+                          "name": "Đại Kê",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6367/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv21.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "CHOÁNG TV PRO",
+            "team_a": "Bình Chuẩn",
+            "team_b": "ĐẦU BỔ DƯA",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1786960180081_BÃNH CHUáº¨N.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1765417529949_táº£i xuá»ng.png",
+            "time": "16:50 17/08",
+            "caster": "Đại Kê",
+            "score": "2-7",
+            "is_live": true,
+            "hot": true
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-c0a5998b0e_98c9af5f_20260817.png?v=98c9af5f",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "chtv-5c002f2d4b",
           "name": "SY BUILDERS vs HARIM | 19:00 17/08",
