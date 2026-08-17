@@ -1533,7 +1533,7 @@
             "cate_type": "football",
             "status": "live",
             "home_score": 0,
-            "away_score": 0
+            "away_score": 1
           },
           "image": {
             "padding": 1,
@@ -3110,11 +3110,156 @@
     },
     {
       "id": "grp-billiards",
-      "name": "🎱 Billiards",
+      "name": "🎱 Billiards (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
-      "channels": []
+      "channels": [
+        {
+          "id": "chtv-7ea7b4a5b0",
+          "name": "RICA RENDAL/JANJAN vs EDMOND/VINCENT | Tào A Man",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-7ea7b4a5b0",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-7ea7b4a5b0",
+                  "name": "RICA RENDAL/JANJAN vs EDMOND/VINCENT",
+                  "streams": [
+                    {
+                      "id": "st-7ea7b4a5b0",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-7ea7b4a5b0",
+                          "name": "Tào A Man",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6374/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv21.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "SIÊU ĐỘ PHỦI PHI",
+            "team_a": "RICA RENDAL/JANJAN",
+            "team_b": "EDMOND/VINCENT",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1765802364327_táº£i xuá»ng.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1765797026729_táº£i xuá»ng.png",
+            "time": "22:27 17/08",
+            "caster": "Tào A Man",
+            "score": "8-5",
+            "is_live": true,
+            "hot": true
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-7ea7b4a5b0_fd9e0f65_20260817.png?v=fd9e0f65",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-4cb6d82d8d",
+          "name": "MOYMOY R14 vs HAROLD RI5 | Kèn Kèn",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-4cb6d82d8d",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-4cb6d82d8d",
+                  "name": "MOYMOY R14 vs HAROLD RI5",
+                  "streams": [
+                    {
+                      "id": "st-4cb6d82d8d",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-4cb6d82d8d",
+                          "name": "Kèn Kèn",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6375/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv21.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "SIÊU ĐỘ PHỦI PHI 2",
+            "team_a": "MOYMOY R14",
+            "team_b": "HAROLD RI5",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1765599062294_táº£i xuá»ng.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1765599062294_táº£i xuá»ng.png",
+            "time": "22:38 17/08",
+            "caster": "Kèn Kèn",
+            "score": "13-6",
+            "is_live": true,
+            "hot": true
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-4cb6d82d8d_9d76bfb0_20260817.png?v=9d76bfb0",
+            "width": 1600,
+            "height": 1200
+          }
+        }
+      ]
     },
     {
       "id": "grp-bóng-chuyền",
