@@ -1121,11 +1121,82 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (1 LIVE)",
+      "name": "⚽ Bóng Đá (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "gv-a22e2e07f0",
+          "name": "Svay Rieng FC vs Eastern District SA | 19:00 18/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-a22e2e07f0",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-a22e2e07f0",
+                  "name": "Svay Rieng FC vs Eastern District SA",
+                  "streams": [
+                    {
+                      "id": "st-a22e2e07f0",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-001e561fec",
+                          "name": "Số 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1787036993_hd/1787036993_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Giao hữu",
+            "team_a": "Svay Rieng FC",
+            "team_b": "Eastern District SA",
+            "logo_a": "https://images.keovip88.net/images/teams/svay-rieng-fc.png",
+            "logo_b": "https://images.keovip88.net/images/teams/eastern-district-sa.png",
+            "time": "19:00 18/08",
+            "blv": "Số 1",
+            "is_live": true,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/6a7d092e24d46db870f7bf5b_07d082a8_20260818.png?v=07d082a8",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "ph-a1a67abe6a",
           "name": "Shanghai Shenhua vs Beijing Guoan | 18:35 18/08",
@@ -1201,77 +1272,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/50918_dff8c7c1_20260818.png?v=dff8c7c1",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-a22e2e07f0",
-          "name": "Svay Rieng FC vs Eastern District SA | 19:00 18/08",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-a22e2e07f0",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-a22e2e07f0",
-                  "name": "Svay Rieng FC vs Eastern District SA",
-                  "streams": [
-                    {
-                      "id": "st-a22e2e07f0",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-001e561fec",
-                          "name": "Số 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1787036993_hd/1787036993_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Giao hữu",
-            "team_a": "Svay Rieng FC",
-            "team_b": "Eastern District SA",
-            "logo_a": "https://images.keovip88.net/images/teams/svay-rieng-fc.png",
-            "logo_b": "https://images.keovip88.net/images/teams/eastern-district-sa.png",
-            "time": "19:00 18/08",
-            "blv": "Số 1",
-            "is_live": false,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/6a7d092e24d46db870f7bf5b_07d082a8_20260818.png?v=07d082a8",
             "width": 1600,
             "height": 1200
           }
@@ -3476,7 +3476,7 @@
     },
     {
       "id": "grp-billiards",
-      "name": "🎱 Billiards (3 LIVE)",
+      "name": "🎱 Billiards (5 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -3540,7 +3540,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1777659638508_Screenshot 2026-05-02 012034.png",
             "time": "00:00 18/08",
             "caster": "Thập Cẩm",
-            "score": "4-8",
+            "score": "4-9",
             "is_live": true,
             "hot": true
           },
@@ -3626,6 +3626,78 @@
           }
         },
         {
+          "id": "chtv-e74494a081",
+          "name": "THYA/Nhím vs Tâm/Nhi | Đại Kê",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-e74494a081",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-e74494a081",
+                  "name": "THYA/Nhím vs Tâm/Nhi",
+                  "streams": [
+                    {
+                      "id": "st-e74494a081",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-e74494a081",
+                          "name": "Đại Kê",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6396/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv21.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "SHOWMATCH Ngọc Nữ :))",
+            "team_a": "THYA/Nhím",
+            "team_b": "Tâm/Nhi",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1787042839868_áº¢nh chá»¥p mÃ n hÃ¬nh 2026-08-18 154502.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1787042858645_áº¢nh chá»¥p mÃ n hÃ¬nh 2026-08-18 154522.png",
+            "time": "19:00 18/08",
+            "caster": "Đại Kê",
+            "score": "0-0",
+            "is_live": true,
+            "hot": true
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-e74494a081_1aa2c402_20260818.png?v=1aa2c402",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "chtv-d8e9bd19af",
           "name": "BREAKER vs NH PAY | Bỉm Sữa",
           "type": "single",
@@ -3699,16 +3771,16 @@
         },
         {
           "id": "chtv-bda0ba9b9c",
-          "name": "PHONE MYINT KYAW vs KONG DEJING | 19:00 18/08 | Lee Min Hoo",
+          "name": "PHONE MYINT KYAW vs KONG DEJING | Lee Min Hoo",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "SAP",
+              "text": "LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -3757,7 +3829,7 @@
             "time": "19:00 18/08",
             "caster": "Lee Min Hoo",
             "score": "0-0",
-            "is_live": false,
+            "is_live": true,
             "hot": true
           },
           "image": {
@@ -3765,78 +3837,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-bda0ba9b9c_1e9cc1a0_20260818.png?v=1e9cc1a0",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-e74494a081",
-          "name": "THYA/Nhím vs Tâm/Nhi | 19:00 18/08 | Đại Kê",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "SAP",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-e74494a081",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-e74494a081",
-                  "name": "THYA/Nhím vs Tâm/Nhi",
-                  "streams": [
-                    {
-                      "id": "st-e74494a081",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-e74494a081",
-                          "name": "Đại Kê",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6396/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv21.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "SHOWMATCH Ngọc Nữ :))",
-            "team_a": "THYA/Nhím",
-            "team_b": "Tâm/Nhi",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1787042839868_áº¢nh chá»¥p mÃ n hÃ¬nh 2026-08-18 154502.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1787042858645_áº¢nh chá»¥p mÃ n hÃ¬nh 2026-08-18 154522.png",
-            "time": "19:00 18/08",
-            "caster": "Đại Kê",
-            "score": "0-0",
-            "is_live": false,
-            "hot": true
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-e74494a081_1aa2c402_20260818.png?v=1aa2c402",
             "width": 1600,
             "height": 1200
           }
