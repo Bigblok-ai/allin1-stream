@@ -1121,7 +1121,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (4 LIVE)",
+      "name": "⚽ Bóng Đá (5 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1445,6 +1445,85 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/6a445b1c16bc0c527505aea7_80d8753a_20260818.png?v=80d8753a",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "ph-79f360a760",
+          "name": "Heidenheim vs Bayern Munich | 23:00 18/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-79f360a760",
+              "name": "PhaohoaTV",
+              "contents": [
+                {
+                  "id": "ct-79f360a760",
+                  "name": "Heidenheim vs Bayern Munich",
+                  "streams": [
+                    {
+                      "id": "st-79f360a760",
+                      "name": "PhaohoaTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-d94a9f6f03",
+                          "name": "Chim Nhỏ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://luong.phaohoa.live/live/phaohoa5/index.m3u8?expire=1815505159&sign=67cc5bcdcabb081229f5406e5b07483d",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phaohoa1.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://phaohoa1.live"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Club Friendlies",
+            "team_a": "Heidenheim",
+            "team_b": "Bayern Munich",
+            "logo_a": "https://phaohoa1.live/media/teams/logos/team_3917.jpg",
+            "logo_b": "https://phaohoa1.live/media/teams/logos/team_72.jpg",
+            "time": "23:00",
+            "date": "18/08",
+            "blv": "Chim Nhỏ",
+            "is_live": true,
+            "cate_type": "football",
+            "status": "live",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/64958_08eebcef_20260818.png?v=08eebcef",
             "width": 1600,
             "height": 1200
           }
@@ -2815,85 +2894,6 @@
           }
         },
         {
-          "id": "ph-79f360a760",
-          "name": "Heidenheim vs Bayern Munich | 23:00 18/08",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-79f360a760",
-              "name": "PhaohoaTV",
-              "contents": [
-                {
-                  "id": "ct-79f360a760",
-                  "name": "Heidenheim vs Bayern Munich",
-                  "streams": [
-                    {
-                      "id": "st-79f360a760",
-                      "name": "PhaohoaTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-d94a9f6f03",
-                          "name": "Chim Nhỏ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa5/index.m3u8?expire=1815505159&sign=67cc5bcdcabb081229f5406e5b07483d",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://phaohoa1.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://phaohoa1.live"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Club Friendlies",
-            "team_a": "Heidenheim",
-            "team_b": "Bayern Munich",
-            "logo_a": "https://phaohoa1.live/media/teams/logos/team_3917.jpg",
-            "logo_b": "https://phaohoa1.live/media/teams/logos/team_72.jpg",
-            "time": "23:00",
-            "date": "18/08",
-            "blv": "Chim Nhỏ",
-            "is_live": false,
-            "cate_type": "football",
-            "status": "scheduled",
-            "home_score": 0,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/64958_08eebcef_20260818.png?v=08eebcef",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "ph-246df5c57c",
           "name": "Al Jabalain vs Al Ettifaq | 23:15 18/08",
           "type": "single",
@@ -3444,7 +3444,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1765599062294_táº£i xuá»ng.png",
             "time": "00:00 18/08",
             "caster": "Kèn Kèn",
-            "score": "6-8",
+            "score": "7-8",
             "is_live": true,
             "hot": true
           },
@@ -3516,7 +3516,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1765348908885_táº£i xuá»ng.png",
             "time": "20:35 18/08",
             "caster": "GIÀNG A PHỌ",
-            "score": "0-4",
+            "score": "0-5",
             "is_live": true,
             "hot": true
           },
