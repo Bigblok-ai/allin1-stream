@@ -1121,11 +1121,90 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá",
+      "name": "⚽ Bóng Đá (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "ph-a1a67abe6a",
+          "name": "Shanghai Shenhua vs Beijing Guoan | 18:35 18/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-a1a67abe6a",
+              "name": "PhaohoaTV",
+              "contents": [
+                {
+                  "id": "ct-a1a67abe6a",
+                  "name": "Shanghai Shenhua vs Beijing Guoan",
+                  "streams": [
+                    {
+                      "id": "st-a1a67abe6a",
+                      "name": "PhaohoaTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-f536973e27",
+                          "name": "Pháo Thủ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://luong.phaohoa.live/live/phaohoa4/index.m3u8?expire=1815505159&sign=faaa23580764370ed378ecd708c9f262",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phaohoa1.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://phaohoa1.live"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Chinese Super League",
+            "team_a": "Shanghai Shenhua",
+            "team_b": "Beijing Guoan",
+            "logo_a": "https://phaohoa1.live/media/teams/logos/team_381.jpg",
+            "logo_b": "https://phaohoa1.live/media/teams/logos/team_375.jpg",
+            "time": "18:35",
+            "date": "18/08",
+            "blv": "Pháo Thủ",
+            "is_live": true,
+            "cate_type": "football",
+            "status": "live",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/50918_dff8c7c1_20260818.png?v=dff8c7c1",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "gv-a22e2e07f0",
           "name": "Svay Rieng FC vs Eastern District SA | 19:00 18/08",
@@ -2517,85 +2596,6 @@
           }
         },
         {
-          "id": "ph-a1a67abe6a",
-          "name": "Shanghai Shenhua vs Beijing Guoan | 18:35 18/08",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-a1a67abe6a",
-              "name": "PhaohoaTV",
-              "contents": [
-                {
-                  "id": "ct-a1a67abe6a",
-                  "name": "Shanghai Shenhua vs Beijing Guoan",
-                  "streams": [
-                    {
-                      "id": "st-a1a67abe6a",
-                      "name": "PhaohoaTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-f536973e27",
-                          "name": "Pháo Thủ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa4/index.m3u8?expire=1815505159&sign=faaa23580764370ed378ecd708c9f262",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://phaohoa1.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://phaohoa1.live"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Chinese Super League",
-            "team_a": "Shanghai Shenhua",
-            "team_b": "Beijing Guoan",
-            "logo_a": "https://phaohoa1.live/media/teams/logos/team_381.jpg",
-            "logo_b": "https://phaohoa1.live/media/teams/logos/team_375.jpg",
-            "time": "18:35",
-            "date": "18/08",
-            "blv": "Pháo Thủ",
-            "is_live": false,
-            "cate_type": "football",
-            "status": "scheduled",
-            "home_score": 0,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/50918_dff8c7c1_20260818.png?v=dff8c7c1",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "ph-be5b95e474",
           "name": "Shanghai Port vs Dalian Yingbo | 18:35 19/08",
           "type": "single",
@@ -3540,7 +3540,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1777659638508_Screenshot 2026-05-02 012034.png",
             "time": "00:00 18/08",
             "caster": "Thập Cẩm",
-            "score": "1-6",
+            "score": "1-7",
             "is_live": true,
             "hot": true
           },
@@ -3612,7 +3612,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1765417407261_táº£i xuá»ng.png",
             "time": "00:00 18/08",
             "caster": "Lee Min Hoo",
-            "score": "1-3",
+            "score": "1-4",
             "is_live": true,
             "hot": true
           },
