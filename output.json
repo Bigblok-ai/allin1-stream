@@ -1121,7 +1121,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1393,10 +1393,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -1444,7 +1444,7 @@
             "logo_b": "https://images.keovip88.net/images/teams/tekstilshchik-ivanovo.png",
             "time": "22:00 19/08",
             "blv": "Số 19",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football"
           },
           "image": {
@@ -1452,6 +1452,85 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/6a7a664e24d46db870750d52_072e0de2_20260819.png?v=072e0de2",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "ph-7bffe8214f",
+          "name": "Mashal Muborak vs Andijan | 22:00 19/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-7bffe8214f",
+              "name": "PhaohoaTV",
+              "contents": [
+                {
+                  "id": "ct-7bffe8214f",
+                  "name": "Mashal Muborak vs Andijan",
+                  "streams": [
+                    {
+                      "id": "st-7bffe8214f",
+                      "name": "PhaohoaTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-cbc47e2fc7",
+                          "name": "Văn Minh",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://luong.phaohoa.live/live/phaohoa3/index.m3u8?expire=1815505159&sign=32dbf97946c3646cdd7f664aebd7fa2a",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phaohoa1.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://phaohoa1.live"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Super League",
+            "team_a": "Mashal Muborak",
+            "team_b": "Andijan",
+            "logo_a": "https://phaohoa1.live/media/teams/logos/team_8001.jpg",
+            "logo_b": "https://phaohoa1.live/media/teams/logos/FC_Andijon_logo.png",
+            "time": "22:00",
+            "date": "19/08",
+            "blv": "Văn Minh",
+            "is_live": true,
+            "cate_type": "football",
+            "status": "live",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/65183_de4830a7_20260819.png?v=de4830a7",
             "width": 1600,
             "height": 1200
           }
@@ -2434,85 +2513,6 @@
           }
         },
         {
-          "id": "ph-7bffe8214f",
-          "name": "Mashal Muborak vs Andijan | 22:00 19/08",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-7bffe8214f",
-              "name": "PhaohoaTV",
-              "contents": [
-                {
-                  "id": "ct-7bffe8214f",
-                  "name": "Mashal Muborak vs Andijan",
-                  "streams": [
-                    {
-                      "id": "st-7bffe8214f",
-                      "name": "PhaohoaTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-cbc47e2fc7",
-                          "name": "Văn Minh",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa3/index.m3u8?expire=1815505159&sign=32dbf97946c3646cdd7f664aebd7fa2a",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://phaohoa1.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://phaohoa1.live"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Super League",
-            "team_a": "Mashal Muborak",
-            "team_b": "Andijan",
-            "logo_a": "https://phaohoa1.live/media/teams/logos/team_8001.jpg",
-            "logo_b": "https://phaohoa1.live/media/teams/logos/FC_Andijon_logo.png",
-            "time": "22:00",
-            "date": "19/08",
-            "blv": "Văn Minh",
-            "is_live": false,
-            "cate_type": "football",
-            "status": "scheduled",
-            "home_score": 0,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/65183_de4830a7_20260819.png?v=de4830a7",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "ph-4c473e1b45",
           "name": "Kairat Almaty vs Anderlecht | 22:00 20/08",
           "type": "single",
@@ -2753,7 +2753,7 @@
     },
     {
       "id": "grp-tennis",
-      "name": "🎾 Tennis",
+      "name": "🎾 Tennis (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -2766,10 +2766,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -2817,7 +2817,7 @@
             "logo_b": "https://static.flashscore.com/res/image/data/E1rCFmCr-4rBjn5Su.png",
             "time": "22:00 19/08",
             "blv": "Số 3",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "tennis"
           },
           "image": {
@@ -2992,7 +2992,7 @@
     },
     {
       "id": "grp-billiards",
-      "name": "🎱 Billiards (4 LIVE)",
+      "name": "🎱 Billiards (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -3056,7 +3056,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1765797008355_táº£i xuá»ng.png",
             "time": "20:00 19/08",
             "caster": "SÊ KÔÔ",
-            "score": "4-12",
+            "score": "4-13",
             "is_live": true,
             "hot": true
           },
@@ -3214,38 +3214,38 @@
           }
         },
         {
-          "id": "chtv-b0049b36c5",
-          "name": "jaybee sucal vs James leyte | Kèn Kèn",
+          "id": "chtv-3c85361383",
+          "name": "Francisco Sanchez Ruiz vs Sanjin Pehlivanovic | 00:00 20/08 | BÚN CHÓ",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "LIVE",
+              "text": "SAP",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#ff4444"
+              "text_color": "#aaaaaa"
             }
           ],
           "sources": [
             {
-              "id": "src-b0049b36c5",
+              "id": "src-3c85361383",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-b0049b36c5",
-                  "name": "jaybee sucal vs James leyte",
+                  "id": "ct-3c85361383",
+                  "name": "Francisco Sanchez Ruiz vs Sanjin Pehlivanovic",
                   "streams": [
                     {
-                      "id": "st-b0049b36c5",
+                      "id": "st-3c85361383",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-b0049b36c5",
-                          "name": "Kèn Kèn",
+                          "id": "lnk-3c85361383",
+                          "name": "BÚN CHÓ",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6486/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6483/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -3265,22 +3265,22 @@
             }
           ],
           "org_metadata": {
-            "league": "SIÊU ĐỘ PHỦI PHI",
-            "team_a": "jaybee sucal",
-            "team_b": "James leyte",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1787147688899_JAYBEE SUCAL.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1765802364327_táº£i xuá»ng.png",
-            "time": "21:00 19/08",
-            "caster": "Kèn Kèn",
-            "score": "5-14",
-            "is_live": true,
+            "league": "Phoenix open 2026 x Choáng",
+            "team_a": "Francisco Sanchez Ruiz",
+            "team_b": "Sanjin Pehlivanovic",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1764310938354_táº£i xuá»ng.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1787144519496_Sanjin Pehlivanovic.jpg",
+            "time": "00:00 20/08",
+            "caster": "BÚN CHÓ",
+            "score": "0-0",
+            "is_live": false,
             "hot": true
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-b0049b36c5_5ef362a7_20260819.png?v=5ef362a7",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-3c85361383_17d2c06c_20260819.png?v=17d2c06c",
             "width": 1600,
             "height": 1200
           }
@@ -3353,78 +3353,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-bee0dfd5a5_c8151e82_20260819.png?v=c8151e82",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-3c85361383",
-          "name": "Francisco Sanchez Ruiz vs Sanjin Pehlivanovic | 00:00 20/08 | BÚN CHÓ",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "SAP",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-3c85361383",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-3c85361383",
-                  "name": "Francisco Sanchez Ruiz vs Sanjin Pehlivanovic",
-                  "streams": [
-                    {
-                      "id": "st-3c85361383",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-3c85361383",
-                          "name": "BÚN CHÓ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6483/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv21.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Phoenix open 2026 x Choáng",
-            "team_a": "Francisco Sanchez Ruiz",
-            "team_b": "Sanjin Pehlivanovic",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1764310938354_táº£i xuá»ng.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1787144519496_Sanjin Pehlivanovic.jpg",
-            "time": "00:00 20/08",
-            "caster": "BÚN CHÓ",
-            "score": "0-0",
-            "is_live": false,
-            "hot": true
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-3c85361383_17d2c06c_20260819.png?v=17d2c06c",
             "width": 1600,
             "height": 1200
           }
