@@ -1483,7 +1483,7 @@
             "blv": "Kevin",
             "is_live": true,
             "cate_type": "football",
-            "status": "live",
+            "status": "half_time",
             "home_score": 0,
             "away_score": 0
           },
@@ -3040,11 +3040,83 @@
     },
     {
       "id": "grp-billiards",
-      "name": "🎱 Billiards (10 LIVE)",
+      "name": "🎱 Billiards (9 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "chtv-a6c954c681",
+          "name": "Petri Makkonen vs Wiktor Zielinski | VÁNG",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-a6c954c681",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-a6c954c681",
+                  "name": "Petri Makkonen vs Wiktor Zielinski",
+                  "streams": [
+                    {
+                      "id": "st-a6c954c681",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-a6c954c681",
+                          "name": "VÁNG",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6493/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv21.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "TV Table 2026 PHOENIX OPEN",
+            "team_a": "Petri Makkonen",
+            "team_b": "Wiktor Zielinski",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1787161207465_10.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1787161207133_2.jpg",
+            "time": "01:30 20/08",
+            "caster": "VÁNG",
+            "score": "6-9",
+            "is_live": true,
+            "hot": false
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-a6c954c681_e980ead5_20260820.png?v=e980ead5",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "chtv-c24635d0ca",
           "name": "John Morra vs Sam Gupta | Kèn Kèn",
@@ -3190,78 +3262,6 @@
           }
         },
         {
-          "id": "chtv-62e4229fa5",
-          "name": "Tzu-Chien Chang vs Jahnythan Craig | BÚN CHÓ",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-62e4229fa5",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-62e4229fa5",
-                  "name": "Tzu-Chien Chang vs Jahnythan Craig",
-                  "streams": [
-                    {
-                      "id": "st-62e4229fa5",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-62e4229fa5",
-                          "name": "BÚN CHÓ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6499/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv21.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Table 8 2026 PHOENIX OPEN (nhánh thua race 8 )",
-            "team_a": "Tzu-Chien Chang",
-            "team_b": "Jahnythan Craig",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1787165079529_Screenshot 2026-07-07 002427.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1787165079663_Screenshot 2026-08-20 002436.png",
-            "time": "01:30 20/08",
-            "caster": "BÚN CHÓ",
-            "score": "7-5",
-            "is_live": true,
-            "hot": false
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-62e4229fa5_9f41ce40_20260820.png?v=9f41ce40",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "chtv-60f831fa4b",
           "name": "Francesco Candela vs Ta-Li Lin | Thập Cẩm",
           "type": "single",
@@ -3320,7 +3320,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1787161592646_Screenshot 2026-07-07 002427.png",
             "time": "01:30 20/08",
             "caster": "Thập Cẩm",
-            "score": "3-3",
+            "score": "4-3",
             "is_live": true,
             "hot": false
           },
@@ -3334,8 +3334,8 @@
           }
         },
         {
-          "id": "chtv-a6c954c681",
-          "name": "Petri Makkonen vs Wiktor Zielinski | VÁNG",
+          "id": "chtv-b9f2b16d73",
+          "name": "Antonis Kakaris vs Marvin Asis | BÚN CHÓ",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -3349,23 +3349,23 @@
           ],
           "sources": [
             {
-              "id": "src-a6c954c681",
+              "id": "src-b9f2b16d73",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-a6c954c681",
-                  "name": "Petri Makkonen vs Wiktor Zielinski",
+                  "id": "ct-b9f2b16d73",
+                  "name": "Antonis Kakaris vs Marvin Asis",
                   "streams": [
                     {
-                      "id": "st-a6c954c681",
+                      "id": "st-b9f2b16d73",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-a6c954c681",
-                          "name": "VÁNG",
+                          "id": "lnk-b9f2b16d73",
+                          "name": "BÚN CHÓ",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6493/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6501/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -3385,86 +3385,14 @@
             }
           ],
           "org_metadata": {
-            "league": "TV Table 2026 PHOENIX OPEN",
-            "team_a": "Petri Makkonen",
-            "team_b": "Wiktor Zielinski",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1787161207465_10.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1787161207133_2.jpg",
-            "time": "01:30 20/08",
-            "caster": "VÁNG",
-            "score": "5-8",
-            "is_live": true,
-            "hot": false
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-a6c954c681_e980ead5_20260820.png?v=e980ead5",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-f15d629fec",
-          "name": "Justin Martin vs Mustafa Alnar | GIÀNG A PHỌ",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-f15d629fec",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-f15d629fec",
-                  "name": "Justin Martin vs Mustafa Alnar",
-                  "streams": [
-                    {
-                      "id": "st-f15d629fec",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-f15d629fec",
-                          "name": "GIÀNG A PHỌ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6503/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv21.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Table 6 2026 PHOENIX OPEN (nhánh thua race 8 )",
-            "team_a": "Justin Martin",
-            "team_b": "Mustafa Alnar",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1787166472936_Screenshot 2026-08-20 002436.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1787166472667_23.jpg",
+            "league": "Table 1 2026 PHOENIX OPEN",
+            "team_a": "Antonis Kakaris",
+            "team_b": "Marvin Asis",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1787166192016_16.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1787166191732_phil.png",
             "time": "03:00 20/08",
-            "caster": "GIÀNG A PHỌ",
-            "score": "0-0",
+            "caster": "BÚN CHÓ",
+            "score": "2-1",
             "is_live": true,
             "hot": false
           },
@@ -3472,7 +3400,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-f15d629fec_db56cbeb_20260820.png?v=db56cbeb",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-b9f2b16d73_7e979e8d_20260820.png?v=7e979e8d",
             "width": 1600,
             "height": 1200
           }
@@ -3550,78 +3478,6 @@
           }
         },
         {
-          "id": "chtv-40758e51d0",
-          "name": "Guy Nicklin vs Naoyuki Oi | Kèn Kèn",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-40758e51d0",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-40758e51d0",
-                  "name": "Guy Nicklin vs Naoyuki Oi",
-                  "streams": [
-                    {
-                      "id": "st-40758e51d0",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-40758e51d0",
-                          "name": "Kèn Kèn",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6502/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv21.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Table 3 2026 PHOENIX OPEN",
-            "team_a": "Guy Nicklin",
-            "team_b": "Naoyuki Oi",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1787166375805_Screenshot 2026-08-20 005601.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1787166375522_15.jpg",
-            "time": "03:00 20/08",
-            "caster": "Kèn Kèn",
-            "score": "0-0",
-            "is_live": true,
-            "hot": false
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-40758e51d0_164aabdd_20260820.png?v=164aabdd",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "chtv-d5928503bd",
           "name": "Mitch Ellerman vs Georgi Georgiev | VÁNG",
           "type": "single",
@@ -3694,8 +3550,8 @@
           }
         },
         {
-          "id": "chtv-b9f2b16d73",
-          "name": "Antonis Kakaris vs Marvin Asis | BÚN CHÓ",
+          "id": "chtv-f15d629fec",
+          "name": "Justin Martin vs Mustafa Alnar | GIÀNG A PHỌ",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -3709,23 +3565,23 @@
           ],
           "sources": [
             {
-              "id": "src-b9f2b16d73",
+              "id": "src-f15d629fec",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-b9f2b16d73",
-                  "name": "Antonis Kakaris vs Marvin Asis",
+                  "id": "ct-f15d629fec",
+                  "name": "Justin Martin vs Mustafa Alnar",
                   "streams": [
                     {
-                      "id": "st-b9f2b16d73",
+                      "id": "st-f15d629fec",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-b9f2b16d73",
-                          "name": "BÚN CHÓ",
+                          "id": "lnk-f15d629fec",
+                          "name": "GIÀNG A PHỌ",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6501/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6503/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -3745,14 +3601,14 @@
             }
           ],
           "org_metadata": {
-            "league": "Table 1 2026 PHOENIX OPEN",
-            "team_a": "Antonis Kakaris",
-            "team_b": "Marvin Asis",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1787166192016_16.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1787166191732_phil.png",
+            "league": "Table 6 2026 PHOENIX OPEN (nhánh thua race 8 )",
+            "team_a": "Justin Martin",
+            "team_b": "Mustafa Alnar",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1787166472936_Screenshot 2026-08-20 002436.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1787166472667_23.jpg",
             "time": "03:00 20/08",
-            "caster": "BÚN CHÓ",
-            "score": "0-1",
+            "caster": "GIÀNG A PHỌ",
+            "score": "0-0",
             "is_live": true,
             "hot": false
           },
@@ -3760,44 +3616,44 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-b9f2b16d73_7e979e8d_20260820.png?v=7e979e8d",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-f15d629fec_db56cbeb_20260820.png?v=db56cbeb",
             "width": 1600,
             "height": 1200
           }
         },
         {
-          "id": "chtv-344ebfffef",
-          "name": "Max Lechner vs Andri | 04:30 20/08 | Thập Cẩm",
+          "id": "chtv-40758e51d0",
+          "name": "Guy Nicklin vs Naoyuki Oi | Kèn Kèn",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "SAP",
+              "text": "LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
             {
-              "id": "src-344ebfffef",
+              "id": "src-40758e51d0",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-344ebfffef",
-                  "name": "Max Lechner vs Andri",
+                  "id": "ct-40758e51d0",
+                  "name": "Guy Nicklin vs Naoyuki Oi",
                   "streams": [
                     {
-                      "id": "st-344ebfffef",
+                      "id": "st-40758e51d0",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-344ebfffef",
-                          "name": "Thập Cẩm",
+                          "id": "lnk-40758e51d0",
+                          "name": "Kèn Kèn",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6505/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6502/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -3817,22 +3673,22 @@
             }
           ],
           "org_metadata": {
-            "league": "Table 4 2026 PHOENIX OPEN",
-            "team_a": "Max Lechner",
-            "team_b": "Andri",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1787167853470_7.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1787167853726_Screenshot 2026-08-20 002436.png",
-            "time": "04:30 20/08",
-            "caster": "Thập Cẩm",
+            "league": "Table 3 2026 PHOENIX OPEN",
+            "team_a": "Guy Nicklin",
+            "team_b": "Naoyuki Oi",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1787166375805_Screenshot 2026-08-20 005601.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1787166375522_15.jpg",
+            "time": "03:00 20/08",
+            "caster": "Kèn Kèn",
             "score": "0-0",
-            "is_live": false,
+            "is_live": true,
             "hot": false
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-344ebfffef_0144ccf3_20260820.png?v=0144ccf3",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-40758e51d0_164aabdd_20260820.png?v=164aabdd",
             "width": 1600,
             "height": 1200
           }
@@ -3905,6 +3761,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-dd750a03c6_41be9bad_20260820.png?v=41be9bad",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-344ebfffef",
+          "name": "Max Lechner vs Andri | 04:30 20/08 | Thập Cẩm",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "SAP",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-344ebfffef",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-344ebfffef",
+                  "name": "Max Lechner vs Andri",
+                  "streams": [
+                    {
+                      "id": "st-344ebfffef",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-344ebfffef",
+                          "name": "Thập Cẩm",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6505/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv21.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Table 4 2026 PHOENIX OPEN",
+            "team_a": "Max Lechner",
+            "team_b": "Andri",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1787167853470_7.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1787167853726_Screenshot 2026-08-20 002436.png",
+            "time": "04:30 20/08",
+            "caster": "Thập Cẩm",
+            "score": "0-0",
+            "is_live": false,
+            "hot": false
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-344ebfffef_0144ccf3_20260820.png?v=0144ccf3",
             "width": 1600,
             "height": 1200
           }
@@ -4309,6 +4237,164 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/68848_d3990392_20260820.png?v=d3990392",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "ph-0672911fa5",
+          "name": "Áo vs Serbia | 19:00 21/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-0672911fa5",
+              "name": "PhaohoaTV",
+              "contents": [
+                {
+                  "id": "ct-0672911fa5",
+                  "name": "Áo vs Serbia",
+                  "streams": [
+                    {
+                      "id": "st-0672911fa5",
+                      "name": "PhaohoaTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-cbc47e2fc7",
+                          "name": "Văn Minh",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://luong.phaohoa.live/live/phaohoa3/index.m3u8?expire=1815505159&sign=32dbf97946c3646cdd7f664aebd7fa2a",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phaohoa1.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://phaohoa1.live"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Vô Địch Châu Âu",
+            "team_a": "Áo",
+            "team_b": "Serbia",
+            "logo_a": "https://phaohoa1.live/media/teams/logos/OIP_PIxRTdr.jpg",
+            "logo_b": "https://phaohoa1.live/media/teams/logos/OIP_OI6UvXR.jpg",
+            "time": "19:00",
+            "date": "21/08",
+            "blv": "Văn Minh",
+            "is_live": false,
+            "cate_type": "bong-chuyen",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/68849_e2ec37d5_20260820.png?v=e2ec37d5",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "ph-cd492e1838",
+          "name": "Croatia vs Italy | 21:00 21/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-cd492e1838",
+              "name": "PhaohoaTV",
+              "contents": [
+                {
+                  "id": "ct-cd492e1838",
+                  "name": "Croatia vs Italy",
+                  "streams": [
+                    {
+                      "id": "st-cd492e1838",
+                      "name": "PhaohoaTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-5c0c4aafd8",
+                          "name": "KaKa",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://luong.phaohoa.live/live/phaohoa6/index.m3u8?expire=1815505159&sign=16059952b038cc8982ab6d1980711dc9",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phaohoa1.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://phaohoa1.live"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Vô Địch Châu Âu",
+            "team_a": "Croatia",
+            "team_b": "Italy",
+            "logo_a": "https://phaohoa1.live/media/teams/logos/OIP_cIbmzlW.jpg",
+            "logo_b": "https://phaohoa1.live/media/teams/logos/OIP_p55YJlm.jpg",
+            "time": "21:00",
+            "date": "21/08",
+            "blv": "KaKa",
+            "is_live": false,
+            "cate_type": "bong-chuyen",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/68846_9a38ec75_20260820.png?v=9a38ec75",
             "width": 1600,
             "height": 1200
           }
