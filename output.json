@@ -1121,11 +1121,90 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá",
+      "name": "⚽ Bóng Đá (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "ph-0942c6adb3",
+          "name": "Philadelphia Union vs Inter Miami | 06:30 20/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-0942c6adb3",
+              "name": "PhaohoaTV",
+              "contents": [
+                {
+                  "id": "ct-0942c6adb3",
+                  "name": "Philadelphia Union vs Inter Miami",
+                  "streams": [
+                    {
+                      "id": "st-0942c6adb3",
+                      "name": "PhaohoaTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-95e438c878",
+                          "name": "A Heo",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://luong.phaohoa.live/live/phaohoa7/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phaohoa1.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://phaohoa1.live"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "MLS",
+            "team_a": "Philadelphia Union",
+            "team_b": "Inter Miami",
+            "logo_a": "https://phaohoa1.live/media/teams/logos/team_302.jpg",
+            "logo_b": "https://phaohoa1.live/media/teams/logos/team_7953.jpg",
+            "time": "06:30",
+            "date": "20/08",
+            "blv": "A Heo",
+            "is_live": true,
+            "cate_type": "football",
+            "status": "live",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/65419_cc5ea6d6_20260820.png?v=cc5ea6d6",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "ph-d877b25660",
           "name": "Besiktas vs Kauno Zalgiris | 00:00 21/08",
@@ -1596,85 +1675,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/65848_9ff1d952_20260820.png?v=9ff1d952",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "ph-0942c6adb3",
-          "name": "Philadelphia Union vs Inter Miami | 06:30 20/08",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-0942c6adb3",
-              "name": "PhaohoaTV",
-              "contents": [
-                {
-                  "id": "ct-0942c6adb3",
-                  "name": "Philadelphia Union vs Inter Miami",
-                  "streams": [
-                    {
-                      "id": "st-0942c6adb3",
-                      "name": "PhaohoaTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-95e438c878",
-                          "name": "A Heo",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa7/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://phaohoa1.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://phaohoa1.live"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "MLS",
-            "team_a": "Philadelphia Union",
-            "team_b": "Inter Miami",
-            "logo_a": "https://phaohoa1.live/media/teams/logos/team_302.jpg",
-            "logo_b": "https://phaohoa1.live/media/teams/logos/team_7953.jpg",
-            "time": "06:30",
-            "date": "20/08",
-            "blv": "A Heo",
-            "is_live": false,
-            "cate_type": "football",
-            "status": "scheduled",
-            "home_score": 0,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/65419_cc5ea6d6_20260820.png?v=cc5ea6d6",
             "width": 1600,
             "height": 1200
           }
@@ -2813,7 +2813,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1787167853726_Screenshot 2026-08-20 002436.png",
             "time": "04:30 20/08",
             "caster": "Thập Cẩm",
-            "score": "2-0",
+            "score": "3-0",
             "is_live": true,
             "hot": false
           },
@@ -2885,7 +2885,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1787172236461_6.jpg",
             "time": "04:30 20/08",
             "caster": "BÚN CHÓ",
-            "score": "7-5",
+            "score": "7-6",
             "is_live": true,
             "hot": false
           },
@@ -3043,8 +3043,8 @@
           }
         },
         {
-          "id": "chtv-8c058cae34",
-          "name": "Brad Johnson vs Jonas Souto Comino | GIÀNG A PHỌ",
+          "id": "chtv-8dbd4ff978",
+          "name": "Mickey Krause vs jerry Stuckart | Thập Cẩm",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -3058,23 +3058,23 @@
           ],
           "sources": [
             {
-              "id": "src-8c058cae34",
+              "id": "src-8dbd4ff978",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-8c058cae34",
-                  "name": "Brad Johnson vs Jonas Souto Comino",
+                  "id": "ct-8dbd4ff978",
+                  "name": "Mickey Krause vs jerry Stuckart",
                   "streams": [
                     {
-                      "id": "st-8c058cae34",
+                      "id": "st-8dbd4ff978",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-8c058cae34",
-                          "name": "GIÀNG A PHỌ",
+                          "id": "lnk-8dbd4ff978",
+                          "name": "Thập Cẩm",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6516/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6515/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -3094,14 +3094,14 @@
             }
           ],
           "org_metadata": {
-            "league": "Table 4 2026 PHOENIX OPEN (nhánh thua race 8)",
-            "team_a": "Brad Johnson",
-            "team_b": "Jonas Souto Comino",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1787177185883_Screenshot 2026-08-20 002436.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1787177185530_3.jpg",
+            "league": "Table 8 2026 PHOENIX OPEN (nhánh thua race 8)",
+            "team_a": "Mickey Krause",
+            "team_b": "jerry Stuckart",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1787177110021_Screenshot 2026-08-20 050500.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1787177109852_Screenshot 2026-08-20 002436.png",
             "time": "06:00 20/08",
-            "caster": "GIÀNG A PHỌ",
-            "score": "1-1",
+            "caster": "Thập Cẩm",
+            "score": "0-0",
             "is_live": true,
             "hot": false
           },
@@ -3109,7 +3109,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-8c058cae34_26616a50_20260820.png?v=26616a50",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-8dbd4ff978_5bffc5e7_20260820.png?v=5bffc5e7",
             "width": 1600,
             "height": 1200
           }
@@ -3245,7 +3245,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1787178005314_6.jpg",
             "time": "06:00 20/08",
             "caster": "VÁNG",
-            "score": "0-1",
+            "score": "0-3",
             "is_live": true,
             "hot": false
           },
@@ -3317,7 +3317,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1787178079157_Screenshot 2026-08-20 052114.png",
             "time": "06:00 20/08",
             "caster": "GIÀNG A PHỌ",
-            "score": "2-5",
+            "score": "2-6",
             "is_live": true,
             "hot": false
           },
@@ -3403,8 +3403,8 @@
           }
         },
         {
-          "id": "chtv-8dbd4ff978",
-          "name": "Mickey Krause vs jerry Stuckart | Kèn Kèn",
+          "id": "chtv-8c058cae34",
+          "name": "Brad Johnson vs Jonas Souto Comino | GIÀNG A PHỌ",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -3418,23 +3418,23 @@
           ],
           "sources": [
             {
-              "id": "src-8dbd4ff978",
+              "id": "src-8c058cae34",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-8dbd4ff978",
-                  "name": "Mickey Krause vs jerry Stuckart",
+                  "id": "ct-8c058cae34",
+                  "name": "Brad Johnson vs Jonas Souto Comino",
                   "streams": [
                     {
-                      "id": "st-8dbd4ff978",
+                      "id": "st-8c058cae34",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-8dbd4ff978",
-                          "name": "Kèn Kèn",
+                          "id": "lnk-8c058cae34",
+                          "name": "GIÀNG A PHỌ",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6515/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6516/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -3454,14 +3454,14 @@
             }
           ],
           "org_metadata": {
-            "league": "Table 8 2026 PHOENIX OPEN (nhánh thua race 8)",
-            "team_a": "Mickey Krause",
-            "team_b": "jerry Stuckart",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1787177110021_Screenshot 2026-08-20 050500.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1787177109852_Screenshot 2026-08-20 002436.png",
+            "league": "Table 4 2026 PHOENIX OPEN (nhánh thua race 8)",
+            "team_a": "Brad Johnson",
+            "team_b": "Jonas Souto Comino",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1787177185883_Screenshot 2026-08-20 002436.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1787177185530_3.jpg",
             "time": "06:00 20/08",
-            "caster": "Kèn Kèn",
-            "score": "0-0",
+            "caster": "GIÀNG A PHỌ",
+            "score": "2-1",
             "is_live": true,
             "hot": false
           },
@@ -3469,7 +3469,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-8dbd4ff978_5bffc5e7_20260820.png?v=5bffc5e7",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-8c058cae34_26616a50_20260820.png?v=26616a50",
             "width": 1600,
             "height": 1200
           }
