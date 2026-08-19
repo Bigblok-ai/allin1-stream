@@ -2494,7 +2494,7 @@
     },
     {
       "id": "grp-tennis",
-      "name": "🎾 Tennis (1 LIVE)",
+      "name": "🎾 Tennis (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -2578,10 +2578,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -2629,7 +2629,7 @@
             "logo_b": "https://rg.org/_next/image?url=https%3A%2F%2Fcms-cdn-rg-prod-bemymedia-com.s3.us-east-2.amazonaws.com%2FCincinnati_85d577dbd6.jpg&w=2560&q=75",
             "time": "23:59 19/08",
             "blv": "Số 3",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "tennis"
           },
           "image": {
@@ -2917,6 +2917,78 @@
           }
         },
         {
+          "id": "chtv-bee0dfd5a5",
+          "name": "HOÀNG SAO vs Ralf Souquet | 00:00 20/08 | VÁNG",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "SAP",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-bee0dfd5a5",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-bee0dfd5a5",
+                  "name": "HOÀNG SAO vs Ralf Souquet",
+                  "streams": [
+                    {
+                      "id": "st-bee0dfd5a5",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-bee0dfd5a5",
+                          "name": "VÁNG",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6482/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv21.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Phoenix open 2026 x Choáng",
+            "team_a": "HOÀNG SAO",
+            "team_b": "Ralf Souquet",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1777147534048_Screenshot 2026-04-26 030527.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1787144424655_Ralf Souquet.jpg",
+            "time": "00:00 20/08",
+            "caster": "VÁNG",
+            "score": "0-0",
+            "is_live": false,
+            "hot": true
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-bee0dfd5a5_c8151e82_20260819.png?v=c8151e82",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "chtv-3c85361383",
           "name": "Francisco Sanchez Ruiz vs Sanjin Pehlivanovic | 00:00 20/08 | BÚN CHÓ",
           "type": "single",
@@ -2989,8 +3061,8 @@
           }
         },
         {
-          "id": "chtv-bee0dfd5a5",
-          "name": "HOÀNG SAO vs Ralf Souquet | 00:00 20/08 | VÁNG",
+          "id": "chtv-6f883452d9",
+          "name": "Will Hagen vs Anthony Gavilan | 00:00 20/08",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -3004,23 +3076,23 @@
           ],
           "sources": [
             {
-              "id": "src-bee0dfd5a5",
+              "id": "src-6f883452d9",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-bee0dfd5a5",
-                  "name": "HOÀNG SAO vs Ralf Souquet",
+                  "id": "ct-6f883452d9",
+                  "name": "Will Hagen vs Anthony Gavilan",
                   "streams": [
                     {
-                      "id": "st-bee0dfd5a5",
+                      "id": "st-6f883452d9",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-bee0dfd5a5",
-                          "name": "VÁNG",
+                          "id": "lnk-6f883452d9",
+                          "name": "Stream",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6482/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6488/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -3040,22 +3112,166 @@
             }
           ],
           "org_metadata": {
-            "league": "Phoenix open 2026 x Choáng",
-            "team_a": "HOÀNG SAO",
-            "team_b": "Ralf Souquet",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1777147534048_Screenshot 2026-04-26 030527.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1787144424655_Ralf Souquet.jpg",
+            "league": "2026 PHOENIX OPEN ( nhánh thua race 8 )",
+            "team_a": "Will Hagen",
+            "team_b": "Anthony Gavilan",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1765779197545_táº£i xuá»ng.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1765779197545_táº£i xuá»ng.png",
             "time": "00:00 20/08",
-            "caster": "VÁNG",
+            "caster": "",
             "score": "0-0",
             "is_live": false,
-            "hot": true
+            "hot": false
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-bee0dfd5a5_c8151e82_20260819.png?v=c8151e82",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-6f883452d9_231d90fe_20260819.png?v=231d90fe",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-84309f57a9",
+          "name": "Angelo Eligino vs Eric J Smith | 00:00 20/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "SAP",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-84309f57a9",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-84309f57a9",
+                  "name": "Angelo Eligino vs Eric J Smith",
+                  "streams": [
+                    {
+                      "id": "st-84309f57a9",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-84309f57a9",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6489/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv21.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "2026 PHOENIX OPEN ( nhánh thua race 8 )",
+            "team_a": "Angelo Eligino",
+            "team_b": "Eric J Smith",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1765250803265_táº£i xuá»ng (1).png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1765250803265_táº£i xuá»ng (1).png",
+            "time": "00:00 20/08",
+            "caster": "",
+            "score": "0-0",
+            "is_live": false,
+            "hot": false
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-84309f57a9_ff69942e_20260819.png?v=ff69942e",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-2f301aa20d",
+          "name": "Jacob Parrent vs Tuan Kiat | 00:00 20/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "SAP",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-2f301aa20d",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-2f301aa20d",
+                  "name": "Jacob Parrent vs Tuan Kiat",
+                  "streams": [
+                    {
+                      "id": "st-2f301aa20d",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-2f301aa20d",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6490/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv21.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "2026 PHOENIX OPEN ( nhánh thua race 8 )",
+            "team_a": "Jacob Parrent",
+            "team_b": "Tuan Kiat",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1765250803265_táº£i xuá»ng (1).png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1765250803265_táº£i xuá»ng (1).png",
+            "time": "00:00 20/08",
+            "caster": "",
+            "score": "0-0",
+            "is_live": false,
+            "hot": false
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-2f301aa20d_ff69942e_20260819.png?v=ff69942e",
             "width": 1600,
             "height": 1200
           }
