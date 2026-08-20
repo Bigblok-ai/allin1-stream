@@ -2721,11 +2721,83 @@
     },
     {
       "id": "grp-billiards",
-      "name": "🎱 Billiards (2 LIVE)",
+      "name": "🎱 Billiards (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "chtv-d392a5c68e",
+          "name": "TÙNG ADAM vs DUY DƯƠNG | Xinh Yeu",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-d392a5c68e",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-d392a5c68e",
+                  "name": "TÙNG ADAM vs DUY DƯƠNG",
+                  "streams": [
+                    {
+                      "id": "st-d392a5c68e",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-d392a5c68e",
+                          "name": "Xinh Yeu",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6560/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv21.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "LÁT VÊ GÁT CEN CHỜ",
+            "team_a": "TÙNG ADAM",
+            "team_b": "DUY DƯƠNG",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1765226388907_táº£i xuá»ng.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1765226388907_táº£i xuá»ng.png",
+            "time": "00:00 20/08",
+            "caster": "Xinh Yeu",
+            "score": "0-0",
+            "is_live": true,
+            "hot": true
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-d392a5c68e_43fa2afa_20260820.png?v=43fa2afa",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "chtv-234e884605",
           "name": "HIGHT1 vs BREAKER | Bỉm Sữa",
@@ -2857,7 +2929,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1765226076176_de.png",
             "time": "17:00 20/08",
             "caster": "Đại Kê",
-            "score": "1-1",
+            "score": "1-2",
             "is_live": true,
             "hot": true
           },
