@@ -2721,7 +2721,7 @@
     },
     {
       "id": "grp-billiards",
-      "name": "🎱 Billiards (1 LIVE)",
+      "name": "🎱 Billiards (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -2800,16 +2800,16 @@
         },
         {
           "id": "chtv-84e291c4c5",
-          "name": "FU CHE WEI vs JULIAN PATRICK | 17:00 20/08 | Đại Kê",
+          "name": "FU CHE WEI vs JULIAN PATRICK | Đại Kê",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "SAP",
+              "text": "LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -2847,6 +2847,41 @@
                   ]
                 }
               ]
+            },
+            {
+              "id": "src-a7a7cbd9dc",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-a7a7cbd9dc",
+                  "name": "FU CHE WEI vs JULIAN PATRICK",
+                  "streams": [
+                    {
+                      "id": "st-a7a7cbd9dc",
+                      "name": "ChoangTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-a7a7cbd9dc",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6559/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv21.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
             }
           ],
           "org_metadata": {
@@ -2858,7 +2893,7 @@
             "time": "17:00 20/08",
             "caster": "Đại Kê",
             "score": "0-0",
-            "is_live": false,
+            "is_live": true,
             "hot": true
           },
           "image": {
