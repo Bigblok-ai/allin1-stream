@@ -1263,9 +1263,9 @@
             "blv": "Pháo Thủ",
             "is_live": true,
             "cate_type": "football",
-            "status": "live",
+            "status": "half_time",
             "home_score": 1,
-            "away_score": 0
+            "away_score": 1
           },
           "image": {
             "padding": 1,
@@ -2648,6 +2648,78 @@
       "enable_detail": false,
       "channels": [
         {
+          "id": "chtv-4396208058",
+          "name": "Hà  Thành vs Thủy Hử | GIÀNG A PHỌ",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-4396208058",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-4396208058",
+                  "name": "Hà  Thành vs Thủy Hử",
+                  "streams": [
+                    {
+                      "id": "st-4396208058",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-4396208058",
+                          "name": "GIÀNG A PHỌ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6650/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv21.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "99 billiard",
+            "team_a": "Hà  Thành",
+            "team_b": "Thủy Hử",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1787321909844_HÃ THÃNH.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1765226388907_táº£i xuá»ng.png",
+            "time": "00:00 21/08",
+            "caster": "GIÀNG A PHỌ",
+            "score": "7-7",
+            "is_live": true,
+            "hot": true
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-4396208058_2d6b09b4_20260821.png?v=2d6b09b4",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "chtv-cc2a7b1a98",
           "name": "PHƯƠNG NAM vs KYLE | Tào A Man",
           "type": "single",
@@ -2720,78 +2792,6 @@
           }
         },
         {
-          "id": "chtv-4396208058",
-          "name": "Hà  Thành vs Thủy Hử | GIÀNG A PHỌ",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-4396208058",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-4396208058",
-                  "name": "Hà  Thành vs Thủy Hử",
-                  "streams": [
-                    {
-                      "id": "st-4396208058",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-4396208058",
-                          "name": "GIÀNG A PHỌ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6650/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv21.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "99 billiard",
-            "team_a": "Hà  Thành",
-            "team_b": "Thủy Hử",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1787321909844_HÃ THÃNH.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1765226388907_táº£i xuá»ng.png",
-            "time": "00:00 21/08",
-            "caster": "GIÀNG A PHỌ",
-            "score": "6-7",
-            "is_live": true,
-            "hot": true
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-4396208058_2d6b09b4_20260821.png?v=2d6b09b4",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "chtv-3d5bd1f3c6",
           "name": "DRACIER MAURECIO vs BINO BALINGASAG | Xinh Yeu",
           "type": "single",
@@ -2850,7 +2850,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1765802364327_táº£i xuá»ng.png",
             "time": "00:00 21/08",
             "caster": "Xinh Yeu",
-            "score": "3-2",
+            "score": "4-2",
             "is_live": true,
             "hot": true
           },
@@ -3469,7 +3469,7 @@
     },
     {
       "id": "grp-võ-thuật",
-      "name": "🥊 Võ Thuật (5 LIVE)",
+      "name": "🥊 Võ Thuật (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -3541,78 +3541,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/h24fhmb9xrpi_3b2b268a_20260821.png?v=3b2b268a",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-72ac7aa95c",
-          "name": "Petgarfield Jitmuangnon vs Netpayak Changaewburiram",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-72ac7aa95c",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-72ac7aa95c",
-                  "name": "Petgarfield Jitmuangnon vs Netpayak Changaewburiram",
-                  "streams": [
-                    {
-                      "id": "st-72ac7aa95c",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-72ac7aa95c",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6553/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv21.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "trận 5 ONE Friday Fights| Featherweight Muay Thai",
-            "team_a": "Petgarfield Jitmuangnon",
-            "team_b": "Netpayak Changaewburiram",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1787211546373_áº¢nh chá»¥p mÃ n hÃ¬nh 2026-08-20 143646.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1787211584479_áº¢nh chá»¥p mÃ n hÃ¬nh 2026-08-20 143724.png",
-            "time": "21:45 21/08",
-            "caster": "",
-            "score": "0-0",
-            "is_live": true,
-            "hot": false
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-72ac7aa95c_44bde276_20260821.png?v=44bde276",
             "width": 1600,
             "height": 1200
           }
