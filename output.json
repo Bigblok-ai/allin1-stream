@@ -1121,7 +1121,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1194,7 +1194,7 @@
             "cate_type": "football",
             "status": "live",
             "home_score": 0,
-            "away_score": 3
+            "away_score": 4
           },
           "image": {
             "padding": 1,
@@ -1292,10 +1292,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -1348,9 +1348,9 @@
             "time": "01:00",
             "date": "22/08",
             "blv": "Văn Minh",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football",
-            "status": "scheduled",
+            "status": "live",
             "home_score": 0,
             "away_score": 0
           },
@@ -1989,6 +1989,78 @@
       "enable_detail": false,
       "channels": [
         {
+          "id": "chtv-f8427a8739",
+          "name": "Phương Nam vs Thợ Phi | SÊ KÔÔ",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-f8427a8739",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-f8427a8739",
+                  "name": "Phương Nam vs Thợ Phi",
+                  "streams": [
+                    {
+                      "id": "st-f8427a8739",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-f8427a8739",
+                          "name": "SÊ KÔÔ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6665/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv21.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "PHƯƠNG NAM BÓN HÀNH PHI",
+            "team_a": "Phương Nam",
+            "team_b": "Thợ Phi",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1765419036972_táº£i xuá»ng.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1766638122501_HUY.jpg",
+            "time": "00:00 22/08",
+            "caster": "SÊ KÔÔ",
+            "score": "6-1",
+            "is_live": true,
+            "hot": true
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-f8427a8739_223d697e_20260822.png?v=223d697e",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "chtv-63f688df0a",
           "name": "Sanjin Pehlivanovic vs Tyler Styer | Tào A Man",
           "type": "single",
@@ -2047,7 +2119,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1787330991682_Tyler Styer.jpg",
             "time": "00:00 22/08",
             "caster": "Tào A Man",
-            "score": "2-1",
+            "score": "2-2",
             "is_live": true,
             "hot": true
           },
@@ -2056,78 +2128,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-63f688df0a_f43353c8_20260822.png?v=f43353c8",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-a2d5bc05e1",
-          "name": "HARRY VERGARA vs CLEMENS EBERT | GIÀNG A PHỌ",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-a2d5bc05e1",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-a2d5bc05e1",
-                  "name": "HARRY VERGARA vs CLEMENS EBERT",
-                  "streams": [
-                    {
-                      "id": "st-a2d5bc05e1",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-a2d5bc05e1",
-                          "name": "GIÀNG A PHỌ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6666/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv21.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "2026 PHOENIX OPEN ( nhánh thua )",
-            "team_a": "HARRY VERGARA",
-            "team_b": "CLEMENS EBERT",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1763197166604_billiard-ball-logo-png_seeklogo-248081.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1763197166604_billiard-ball-logo-png_seeklogo-248081.png",
-            "time": "00:00 22/08",
-            "caster": "GIÀNG A PHỌ",
-            "score": "3-2",
-            "is_live": true,
-            "hot": true
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-a2d5bc05e1_6c7c0fd5_20260822.png?v=6c7c0fd5",
             "width": 1600,
             "height": 1200
           }
@@ -2205,8 +2205,8 @@
           }
         },
         {
-          "id": "chtv-f8427a8739",
-          "name": "Phương Nam vs Thợ Phi | SÊ KÔÔ",
+          "id": "chtv-a2d5bc05e1",
+          "name": "HARRY VERGARA vs CLEMENS EBERT | GIÀNG A PHỌ",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -2220,23 +2220,23 @@
           ],
           "sources": [
             {
-              "id": "src-f8427a8739",
+              "id": "src-a2d5bc05e1",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-f8427a8739",
-                  "name": "Phương Nam vs Thợ Phi",
+                  "id": "ct-a2d5bc05e1",
+                  "name": "HARRY VERGARA vs CLEMENS EBERT",
                   "streams": [
                     {
-                      "id": "st-f8427a8739",
+                      "id": "st-a2d5bc05e1",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-f8427a8739",
-                          "name": "SÊ KÔÔ",
+                          "id": "lnk-a2d5bc05e1",
+                          "name": "GIÀNG A PHỌ",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6665/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6666/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -2256,14 +2256,14 @@
             }
           ],
           "org_metadata": {
-            "league": "PHƯƠNG NAM BÓN HÀNH PHI",
-            "team_a": "Phương Nam",
-            "team_b": "Thợ Phi",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1765419036972_táº£i xuá»ng.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1766638122501_HUY.jpg",
+            "league": "2026 PHOENIX OPEN ( nhánh thua )",
+            "team_a": "HARRY VERGARA",
+            "team_b": "CLEMENS EBERT",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1763197166604_billiard-ball-logo-png_seeklogo-248081.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1763197166604_billiard-ball-logo-png_seeklogo-248081.png",
             "time": "00:00 22/08",
-            "caster": "SÊ KÔÔ",
-            "score": "5-0",
+            "caster": "GIÀNG A PHỌ",
+            "score": "4-2",
             "is_live": true,
             "hot": true
           },
@@ -2271,7 +2271,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-f8427a8739_223d697e_20260822.png?v=223d697e",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-a2d5bc05e1_6c7c0fd5_20260822.png?v=6c7c0fd5",
             "width": 1600,
             "height": 1200
           }
@@ -2335,7 +2335,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1787327186862_Antonis Kakaris.jpg",
             "time": "00:00 22/08",
             "caster": "BÚN CHÓ",
-            "score": "4-0",
+            "score": "5-0",
             "is_live": true,
             "hot": false
           },
@@ -2344,78 +2344,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-3176ffa843_3d055c55_20260822.png?v=3d055c55",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-a5e058e733",
-          "name": "Nicholas De Leon vs George Antonakis | Kèn Kèn",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-a5e058e733",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-a5e058e733",
-                  "name": "Nicholas De Leon vs George Antonakis",
-                  "streams": [
-                    {
-                      "id": "st-a5e058e733",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-a5e058e733",
-                          "name": "Kèn Kèn",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6658/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv21.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "2026 PHOENIX OPEN ( nhánh thua )",
-            "team_a": "Nicholas De Leon",
-            "team_b": "George Antonakis",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1765250803265_táº£i xuá»ng (1).png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1766638122501_HUY.jpg",
-            "time": "00:00 22/08",
-            "caster": "Kèn Kèn",
-            "score": "1-6",
-            "is_live": true,
-            "hot": false
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-a5e058e733_e810dd8d_20260822.png?v=e810dd8d",
             "width": 1600,
             "height": 1200
           }
@@ -2479,7 +2407,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1769287681496_2008.png",
             "time": "00:00 22/08",
             "caster": "Thập Cẩm",
-            "score": "5-3",
+            "score": "6-3",
             "is_live": true,
             "hot": false
           },
@@ -2488,6 +2416,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-898e0d30e4_94abb894_20260822.png?v=94abb894",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-a5e058e733",
+          "name": "Nicholas De Leon vs George Antonakis | Kèn Kèn",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-a5e058e733",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-a5e058e733",
+                  "name": "Nicholas De Leon vs George Antonakis",
+                  "streams": [
+                    {
+                      "id": "st-a5e058e733",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-a5e058e733",
+                          "name": "Kèn Kèn",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6658/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv21.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "2026 PHOENIX OPEN ( nhánh thua )",
+            "team_a": "Nicholas De Leon",
+            "team_b": "George Antonakis",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1765250803265_táº£i xuá»ng (1).png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1766638122501_HUY.jpg",
+            "time": "00:00 22/08",
+            "caster": "Kèn Kèn",
+            "score": "2-6",
+            "is_live": true,
+            "hot": false
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-a5e058e733_e810dd8d_20260822.png?v=e810dd8d",
             "width": 1600,
             "height": 1200
           }
@@ -2544,7 +2544,7 @@
             }
           ],
           "org_metadata": {
-            "league": "2026 PHOENIX OPEN ( nhánh thua )",
+            "league": "Table 6 2026 PHOENIX OPEN ( nhánh thua )",
             "team_a": "Moritz Neuhausen",
             "team_b": "Alex Kazakis",
             "logo_a": "https://cdn-choangtv.com/img/logo/1787332724520_Moritz Neuhausen.jpg",
