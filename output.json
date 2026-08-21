@@ -1121,7 +1121,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1292,10 +1292,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -1348,9 +1348,9 @@
             "time": "02:00",
             "date": "22/08",
             "blv": "Kevin",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football",
-            "status": "scheduled",
+            "status": "live",
             "home_score": 0,
             "away_score": 0
           },
@@ -2198,7 +2198,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1787326665039_Yi Hsuan Sun.jpg",
             "time": "00:00 22/08",
             "caster": "VÁNG",
-            "score": "8-4",
+            "score": "8-5",
             "is_live": true,
             "hot": true
           },
@@ -2644,78 +2644,6 @@
           }
         },
         {
-          "id": "chtv-b434bc72c3",
-          "name": "Aj Manas vs Aleksa Pecelj | BÚN CHÓ",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-b434bc72c3",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-b434bc72c3",
-                  "name": "Aj Manas vs Aleksa Pecelj",
-                  "streams": [
-                    {
-                      "id": "st-b434bc72c3",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-b434bc72c3",
-                          "name": "BÚN CHÓ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6659/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv21.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Table 1 2026 PHOENIX OPEN ( nhánh thua )",
-            "team_a": "Aj Manas",
-            "team_b": "Aleksa Pecelj",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1787328834933_AJ MANAS.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1787328837927_Aleksa Pecelj.jpg",
-            "time": "01:30 22/08",
-            "caster": "BÚN CHÓ",
-            "score": "0-0",
-            "is_live": true,
-            "hot": false
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-b434bc72c3_4a1a3e34_20260822.png?v=4a1a3e34",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "chtv-9519eee99f",
           "name": "Naoyuki Oi vs Marco Teutscher | GIÀNG A PHỌ",
           "type": "single",
@@ -2783,6 +2711,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-9519eee99f_a6ecd334_20260822.png?v=a6ecd334",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-b434bc72c3",
+          "name": "Aj Manas vs Aleksa Pecelj | BÚN CHÓ",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-b434bc72c3",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-b434bc72c3",
+                  "name": "Aj Manas vs Aleksa Pecelj",
+                  "streams": [
+                    {
+                      "id": "st-b434bc72c3",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-b434bc72c3",
+                          "name": "BÚN CHÓ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6659/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv21.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Table 1 2026 PHOENIX OPEN ( nhánh thua )",
+            "team_a": "Aj Manas",
+            "team_b": "Aleksa Pecelj",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1787328834933_AJ MANAS.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1787328837927_Aleksa Pecelj.jpg",
+            "time": "01:30 22/08",
+            "caster": "BÚN CHÓ",
+            "score": "1-0",
+            "is_live": true,
+            "hot": false
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-b434bc72c3_4a1a3e34_20260822.png?v=4a1a3e34",
             "width": 1600,
             "height": 1200
           }
