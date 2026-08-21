@@ -1192,7 +1192,7 @@
             "blv": "Kevin",
             "is_live": true,
             "cate_type": "football",
-            "status": "half_time",
+            "status": "live",
             "home_score": 0,
             "away_score": 2
           },
@@ -1271,7 +1271,7 @@
             "blv": "Pháo Thủ",
             "is_live": true,
             "cate_type": "football",
-            "status": "live",
+            "status": "half_time",
             "home_score": 0,
             "away_score": 1
           },
@@ -1944,11 +1944,83 @@
     },
     {
       "id": "grp-billiards",
-      "name": "🎱 Billiards (5 LIVE)",
+      "name": "🎱 Billiards (8 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "chtv-3d5bd1f3c6",
+          "name": "DRACIER MAURECIO vs BINO BALINGASAG | Xinh Yeu",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-3d5bd1f3c6",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-3d5bd1f3c6",
+                  "name": "DRACIER MAURECIO vs BINO BALINGASAG",
+                  "streams": [
+                    {
+                      "id": "st-3d5bd1f3c6",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-3d5bd1f3c6",
+                          "name": "Xinh Yeu",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6653/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv21.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Siêu Phủi độ đạc phi",
+            "team_a": "DRACIER MAURECIO",
+            "team_b": "BINO BALINGASAG",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1765802364327_táº£i xuá»ng.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1765802364327_táº£i xuá»ng.png",
+            "time": "00:00 21/08",
+            "caster": "Xinh Yeu",
+            "score": "17-15",
+            "is_live": true,
+            "hot": true
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-3d5bd1f3c6_072d6f4e_20260822.png?v=072d6f4e",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "chtv-f8427a8739",
           "name": "Phương Nam vs Thợ Phi | Tào A Man",
@@ -2017,78 +2089,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-f8427a8739_223d697e_20260822.png?v=223d697e",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-3d5bd1f3c6",
-          "name": "DRACIER MAURECIO vs BINO BALINGASAG | Xinh Yeu",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-3d5bd1f3c6",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-3d5bd1f3c6",
-                  "name": "DRACIER MAURECIO vs BINO BALINGASAG",
-                  "streams": [
-                    {
-                      "id": "st-3d5bd1f3c6",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-3d5bd1f3c6",
-                          "name": "Xinh Yeu",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6653/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv21.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Siêu Phủi độ đạc phi",
-            "team_a": "DRACIER MAURECIO",
-            "team_b": "BINO BALINGASAG",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1765802364327_táº£i xuá»ng.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1765802364327_táº£i xuá»ng.png",
-            "time": "00:00 21/08",
-            "caster": "Xinh Yeu",
-            "score": "17-14",
-            "is_live": true,
-            "hot": true
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-3d5bd1f3c6_072d6f4e_20260822.png?v=072d6f4e",
             "width": 1600,
             "height": 1200
           }
@@ -2166,6 +2166,78 @@
           }
         },
         {
+          "id": "chtv-a2d5bc05e1",
+          "name": "HARRY VERGARA vs CLEMENS EBERT | GIÀNG A PHỌ",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-a2d5bc05e1",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-a2d5bc05e1",
+                  "name": "HARRY VERGARA vs CLEMENS EBERT",
+                  "streams": [
+                    {
+                      "id": "st-a2d5bc05e1",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-a2d5bc05e1",
+                          "name": "GIÀNG A PHỌ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6666/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv21.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "2026 PHOENIX OPEN ( nhánh thua )",
+            "team_a": "HARRY VERGARA",
+            "team_b": "CLEMENS EBERT",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1763197166604_billiard-ball-logo-png_seeklogo-248081.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1763197166604_billiard-ball-logo-png_seeklogo-248081.png",
+            "time": "00:00 22/08",
+            "caster": "GIÀNG A PHỌ",
+            "score": "1-0",
+            "is_live": true,
+            "hot": true
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-a2d5bc05e1_6c7c0fd5_20260822.png?v=6c7c0fd5",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "chtv-d5c756b1cc",
           "name": "Francisco Sanchez Ruiz vs Yi Hsuan Sun | VÁNG",
           "type": "single",
@@ -2238,6 +2310,78 @@
           }
         },
         {
+          "id": "chtv-3176ffa843",
+          "name": "Robbie Capito vs Antonis Kakaris | BÚN CHÓ",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-3176ffa843",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-3176ffa843",
+                  "name": "Robbie Capito vs Antonis Kakaris",
+                  "streams": [
+                    {
+                      "id": "st-3176ffa843",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-3176ffa843",
+                          "name": "BÚN CHÓ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6655/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv21.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Table 1  2026 PHOENIX OPEN ( nhánh thua )",
+            "team_a": "Robbie Capito",
+            "team_b": "Antonis Kakaris",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1787327183929_ROBBIE CAPITO.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1787327186862_Antonis Kakaris.jpg",
+            "time": "00:00 22/08",
+            "caster": "BÚN CHÓ",
+            "score": "1-0",
+            "is_live": true,
+            "hot": false
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-3176ffa843_3d055c55_20260822.png?v=3d055c55",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "chtv-898e0d30e4",
           "name": "Wiktor Zielinski vs Jani Siekkinen | Thập Cẩm",
           "type": "single",
@@ -2296,7 +2440,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1769287681496_2008.png",
             "time": "00:00 22/08",
             "caster": "Thập Cẩm",
-            "score": "1-0",
+            "score": "2-1",
             "is_live": true,
             "hot": false
           },
@@ -2305,6 +2449,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-898e0d30e4_94abb894_20260822.png?v=94abb894",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-a5e058e733",
+          "name": "Nicholas De Leon vs George Antonakis | Kèn Kèn",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-a5e058e733",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-a5e058e733",
+                  "name": "Nicholas De Leon vs George Antonakis",
+                  "streams": [
+                    {
+                      "id": "st-a5e058e733",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-a5e058e733",
+                          "name": "Kèn Kèn",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6658/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv21.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "2026 PHOENIX OPEN ( nhánh thua )",
+            "team_a": "Nicholas De Leon",
+            "team_b": "George Antonakis",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1765250803265_táº£i xuá»ng (1).png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1766638122501_HUY.jpg",
+            "time": "00:00 22/08",
+            "caster": "Kèn Kèn",
+            "score": "0-0",
+            "is_live": true,
+            "hot": false
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-a5e058e733_e810dd8d_20260822.png?v=e810dd8d",
             "width": 1600,
             "height": 1200
           }
