@@ -1121,7 +1121,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (3 LIVE)",
+      "name": "⚽ Bóng Đá (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1403,10 +1403,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -1436,45 +1436,6 @@
                             {
                               "key": "User-Agent",
                               "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "src-a5835b9d77",
-              "name": "PhaohoaTV",
-              "contents": [
-                {
-                  "id": "ct-a5835b9d77",
-                  "name": "Thái Lan vs Việt Nam",
-                  "streams": [
-                    {
-                      "id": "st-a5835b9d77",
-                      "name": "PhaoHoa - Người Lửa",
-                      "stream_links": [
-                        {
-                          "id": "lnk-c0c00f928c",
-                          "name": "Người Lửa",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa1/index.m3u8?expire=1815505159&sign=9137553faeae361734eec8bda5ea16e2",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://phaohoa1.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://phaohoa1.live"
                             }
                           ]
                         }
@@ -1522,6 +1483,45 @@
                   ]
                 }
               ]
+            },
+            {
+              "id": "src-a5835b9d77",
+              "name": "PhaohoaTV",
+              "contents": [
+                {
+                  "id": "ct-a5835b9d77",
+                  "name": "Thái Lan vs Việt Nam",
+                  "streams": [
+                    {
+                      "id": "st-a5835b9d77",
+                      "name": "PhaoHoa - Người Lửa",
+                      "stream_links": [
+                        {
+                          "id": "lnk-c0c00f928c",
+                          "name": "Người Lửa",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://luong.phaohoa.live/live/phaohoa1/index.m3u8?expire=1815505159&sign=9137553faeae361734eec8bda5ea16e2",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phaohoa1.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://phaohoa1.live"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
             }
           ],
           "org_metadata": {
@@ -1532,7 +1532,7 @@
             "logo_b": "https://images.keovip88.net/images/teams/vietnam.png",
             "time": "20:00 22/08",
             "blv": "Bee",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football"
           },
           "image": {
@@ -2881,7 +2881,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1787390242344_KYLE AMOROTO.jpg",
             "time": "17:30 22/08",
             "caster": "Xinh Yeu",
-            "score": "1-6",
+            "score": "2-6",
             "is_live": true,
             "hot": true
           },
