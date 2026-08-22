@@ -1121,7 +1121,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (3 LIVE)",
+      "name": "⚽ Bóng Đá (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1418,6 +1418,85 @@
           }
         },
         {
+          "id": "ph-cfcc621ccc",
+          "name": "Al Ahli SC vs Abha | 01:00 23/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-cfcc621ccc",
+              "name": "PhaohoaTV",
+              "contents": [
+                {
+                  "id": "ct-cfcc621ccc",
+                  "name": "Al Ahli SC vs Abha",
+                  "streams": [
+                    {
+                      "id": "st-cfcc621ccc",
+                      "name": "PhaohoaTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-f536973e27",
+                          "name": "Pháo Thủ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://luong.phaohoa.live/live/phaohoa4/index.m3u8?expire=1815505159&sign=faaa23580764370ed378ecd708c9f262",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phaohoa1.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://phaohoa1.live"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Saudi Pro League",
+            "team_a": "Al Ahli SC",
+            "team_b": "Abha",
+            "logo_a": "https://phaohoa1.live/media/teams/logos/team_359.jpg",
+            "logo_b": "https://phaohoa1.live/media/teams/logos/Abha_Club_Logo.svg.webp",
+            "time": "01:00",
+            "date": "23/08",
+            "blv": "Pháo Thủ",
+            "is_live": true,
+            "cate_type": "football",
+            "status": "live",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/67345_ff0f1547_20260823.png?v=ff0f1547",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "gv-2785f5aa74",
           "name": "Borussia Dortmund vs Bayern Munich | 01:30 23/08",
           "type": "single",
@@ -1709,8 +1788,8 @@
           }
         },
         {
-          "id": "ph-cfcc621ccc",
-          "name": "Al Ahli SC vs Abha | 01:00 23/08",
+          "id": "gv-51899e5d25",
+          "name": "Sydney Olympic vs Marconi Stallions | 12:00 23/08",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1724,35 +1803,31 @@
           ],
           "sources": [
             {
-              "id": "src-cfcc621ccc",
-              "name": "PhaohoaTV",
+              "id": "src-51899e5d25",
+              "name": "GiovangTV",
               "contents": [
                 {
-                  "id": "ct-cfcc621ccc",
-                  "name": "Al Ahli SC vs Abha",
+                  "id": "ct-51899e5d25",
+                  "name": "Sydney Olympic vs Marconi Stallions",
                   "streams": [
                     {
-                      "id": "st-cfcc621ccc",
-                      "name": "PhaohoaTV",
+                      "id": "st-51899e5d25",
+                      "name": "GV",
                       "stream_links": [
                         {
-                          "id": "lnk-f536973e27",
-                          "name": "Pháo Thủ",
+                          "id": "lnk-399598b46b",
+                          "name": "Mát",
                           "type": "hls",
                           "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa4/index.m3u8?expire=1815505159&sign=faaa23580764370ed378ecd708c9f262",
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1787420826_hd/1787420826_hd@720p.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://phaohoa1.live/"
+                              "value": "https://giovang.store/"
                             },
                             {
                               "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://phaohoa1.live"
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
                             }
                           ]
                         }
@@ -1764,25 +1839,127 @@
             }
           ],
           "org_metadata": {
-            "league": "Saudi Pro League",
-            "team_a": "Al Ahli SC",
-            "team_b": "Abha",
-            "logo_a": "https://phaohoa1.live/media/teams/logos/team_359.jpg",
-            "logo_b": "https://phaohoa1.live/media/teams/logos/Abha_Club_Logo.svg.webp",
-            "time": "01:00",
-            "date": "23/08",
-            "blv": "Pháo Thủ",
+            "league": "NPL NSW Úc",
+            "team_a": "Sydney Olympic",
+            "team_b": "Marconi Stallions",
+            "logo_a": "https://images.keovip88.net/images/teams/sydney-olympic.png",
+            "logo_b": "https://images.keovip88.net/images/teams/marconi-stallions.png",
+            "time": "12:00 23/08",
+            "blv": "Mát",
             "is_live": false,
-            "cate_type": "football",
-            "status": "scheduled",
-            "home_score": 0,
-            "away_score": 0
+            "cate_type": "football"
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/67345_ff0f1547_20260823.png?v=ff0f1547",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/6a824f2424d46db8701abe22_aa285cb4_20260823.png?v=aa285cb4",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-8ecd938f91",
+          "name": "South Coast Wolves vs Western Sydney Wanderers AM | 12:00 23/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-8ecd938f91",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-8ecd938f91",
+                  "name": "South Coast Wolves vs Western Sydney Wanderers AM",
+                  "streams": [
+                    {
+                      "id": "st-8ecd938f91",
+                      "name": "GV",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "NPL NSW Úc",
+            "team_a": "South Coast Wolves",
+            "team_b": "Western Sydney Wanderers AM",
+            "logo_a": "https://images.keovip88.net/images/teams/wollongong-wolves.png",
+            "logo_b": "https://images.keovip88.net/images/teams/western-sydney-wanderers-am.png",
+            "time": "12:00 23/08",
+            "blv": "",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/6a824f2424d46db8701abe29_238324b9_20260823.png?v=238324b9",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-0332f9da0f",
+          "name": "South Melbourne vs Heidelberg United | 12:30 23/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-0332f9da0f",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-0332f9da0f",
+                  "name": "South Melbourne vs Heidelberg United",
+                  "streams": [
+                    {
+                      "id": "st-0332f9da0f",
+                      "name": "GV",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "NPL Victoria Úc",
+            "team_a": "South Melbourne",
+            "team_b": "Heidelberg United",
+            "logo_a": "https://images.keovip88.net/images/teams/south-melbourne.png",
+            "logo_b": "https://images.keovip88.net/images/teams/heidelberg-united.png",
+            "time": "12:30 23/08",
+            "blv": "",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/6a824f2424d46db8701abe4d_f4a96c86_20260823.png?v=f4a96c86",
             "width": 1600,
             "height": 1200
           }
@@ -2564,6 +2741,112 @@
           }
         },
         {
+          "id": "gv-087f291983",
+          "name": "Los Angeles Sparks vs Connecticut Sun | 08:00 23/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-087f291983",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-087f291983",
+                  "name": "Los Angeles Sparks vs Connecticut Sun",
+                  "streams": [
+                    {
+                      "id": "st-087f291983",
+                      "name": "GV",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Women’s National Basketball Association",
+            "team_a": "Los Angeles Sparks",
+            "team_b": "Connecticut Sun",
+            "logo_a": "https://cdn.keobongvip.digital/images/basketball-teams/32f21070cfd05affb7125a707c2b3b37.png",
+            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/691f1fbb808378a5c4cb07fa320d017d.png",
+            "time": "08:00 23/08",
+            "blv": "",
+            "is_live": false,
+            "cate_type": "basketball"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/26025070_4ebe21e3_20260823.png?v=4ebe21e3",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-f6f7994d80",
+          "name": "Phoenix Mercury vs Atlanta Dream | 09:00 23/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-f6f7994d80",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-f6f7994d80",
+                  "name": "Phoenix Mercury vs Atlanta Dream",
+                  "streams": [
+                    {
+                      "id": "st-f6f7994d80",
+                      "name": "GV",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Women’s National Basketball Association",
+            "team_a": "Phoenix Mercury",
+            "team_b": "Atlanta Dream",
+            "logo_a": "https://cdn.keobongvip.digital/images/basketball-teams/f35ccb51f91cd187f149d4d55fc6be24.png",
+            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/f527c983cab3560c60e7b9d147904d7d.png",
+            "time": "09:00 23/08",
+            "blv": "",
+            "is_live": false,
+            "cate_type": "basketball"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/27025071_5af87833_20260823.png?v=5af87833",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "gv-094234a008",
           "name": "Dallas Wings vs Seattle Storm | 03:00 24/08",
           "type": "single",
@@ -2843,7 +3126,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1765599062294_táº£i xuá»ng.png",
             "time": "23:11 22/08",
             "caster": "GIÀNG A PHỌ",
-            "score": "6-9",
+            "score": "7-9",
             "is_live": true,
             "hot": true
           },
