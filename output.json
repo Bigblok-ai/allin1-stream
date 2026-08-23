@@ -1476,9 +1476,9 @@
             "blv": "Văn Minh",
             "is_live": true,
             "cate_type": "football",
-            "status": "live",
+            "status": "half_time",
             "home_score": 1,
-            "away_score": 0
+            "away_score": 1
           },
           "image": {
             "padding": 1,
@@ -3286,7 +3286,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1766213714488_táº£i xuá»ng (4).jpg",
             "time": "16:30 23/08",
             "caster": "Đại Kê",
-            "score": "9-9",
+            "score": "9-10",
             "is_live": true,
             "hot": true
           },
@@ -3358,7 +3358,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1787478129949_DÅ©ng hÃ n.jpg",
             "time": "16:30 23/08",
             "caster": "SÊ KÔÔ",
-            "score": "8-6",
+            "score": "8-7",
             "is_live": true,
             "hot": false
           },
@@ -3519,7 +3519,7 @@
     },
     {
       "id": "grp-bóng-chuyền",
-      "name": "🏐 Bóng Chuyền (2 LIVE)",
+      "name": "🏐 Bóng Chuyền (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -3635,6 +3635,77 @@
           }
         },
         {
+          "id": "gv-74063dec8b",
+          "name": "Portugal vs Belgium | 18:30 23/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-74063dec8b",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-74063dec8b",
+                  "name": "Portugal vs Belgium",
+                  "streams": [
+                    {
+                      "id": "st-74063dec8b",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-ea9a260b49",
+                          "name": "Cầy",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1787473444_hd/1787473444_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "European Women's Volleyball Championship",
+            "team_a": "Portugal",
+            "team_b": "Belgium",
+            "logo_a": "https://static.flashscore.com/res/image/data/GdFtDSYA-nkBpaHJn.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/hfCb8SwS-YwmRHSUk.png",
+            "time": "18:30 23/08",
+            "blv": "Cầy",
+            "is_live": true,
+            "cate_type": "bongchuyen"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/1o1q63gphr5c_46773b73_20260823.png?v=46773b73",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "ph-554e981f49",
           "name": "Bồ Đào Nha vs Bỉ | 18:30 23/08",
           "type": "single",
@@ -3709,77 +3780,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/70789_5e5220bb_20260823.png?v=5e5220bb",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-74063dec8b",
-          "name": "Portugal vs Belgium | 18:30 23/08",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-74063dec8b",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-74063dec8b",
-                  "name": "Portugal vs Belgium",
-                  "streams": [
-                    {
-                      "id": "st-74063dec8b",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-ea9a260b49",
-                          "name": "Cầy",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1787473444_hd/1787473444_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "European Women's Volleyball Championship",
-            "team_a": "Portugal",
-            "team_b": "Belgium",
-            "logo_a": "https://static.flashscore.com/res/image/data/GdFtDSYA-nkBpaHJn.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/hfCb8SwS-YwmRHSUk.png",
-            "time": "18:30 23/08",
-            "blv": "Cầy",
-            "is_live": false,
-            "cate_type": "bongchuyen"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/1o1q63gphr5c_46773b73_20260823.png?v=46773b73",
             "width": 1600,
             "height": 1200
           }
@@ -4342,83 +4342,11 @@
     },
     {
       "id": "grp-võ-thuật",
-      "name": "🥊 Võ Thuật (4 LIVE)",
+      "name": "🥊 Võ Thuật (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "chtv-83ce52521b",
-          "name": "Võ Vũ Lê vs Kim Khánh",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-83ce52521b",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-83ce52521b",
-                  "name": "Võ Vũ Lê vs Kim Khánh",
-                  "streams": [
-                    {
-                      "id": "st-83ce52521b",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-83ce52521b",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6752/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv21.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Trận 2 | V1 Championship | Atomweight | 52kg",
-            "team_a": "Võ Vũ Lê",
-            "team_b": "Kim Khánh",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1787462955191_áº¢nh chá»¥p mÃ n hÃ¬nh 2026-08-23 122654.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1787462967708_áº¢nh chá»¥p mÃ n hÃ¬nh 2026-08-23 122708.png",
-            "time": "16:45 23/08",
-            "caster": "",
-            "score": "0-0",
-            "is_live": true,
-            "hot": false
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-83ce52521b_ca4543bf_20260823.png?v=ca4543bf",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "chtv-f7cdf02ca7",
           "name": "P. Duy Phúc vs Tr. Đình Cang",
