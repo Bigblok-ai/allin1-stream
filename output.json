@@ -1736,7 +1736,7 @@
             "is_live": true,
             "cate_type": "football",
             "status": "live",
-            "home_score": 1,
+            "home_score": 2,
             "away_score": 2
           },
           "image": {
@@ -2886,11 +2886,84 @@
     },
     {
       "id": "grp-billiards",
-      "name": "🎱 Billiards",
+      "name": "🎱 Billiards (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
-      "channels": []
+      "channels": [
+        {
+          "id": "chtv-d3027505f6",
+          "name": "Phương Nam vs Thợ Phi | Thập Cẩm",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-d3027505f6",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-d3027505f6",
+                  "name": "Phương Nam vs Thợ Phi",
+                  "streams": [
+                    {
+                      "id": "st-d3027505f6",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-d3027505f6",
+                          "name": "Thập Cẩm",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6778/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv21.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Phương Nam Bán Nhà Bán Xe Nhai Thợ Phi game 3",
+            "team_a": "Phương Nam",
+            "team_b": "Thợ Phi",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1765226684776_táº£i xuá»ng.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1765802364327_táº£i xuá»ng.png",
+            "time": "00:00 23/08",
+            "caster": "Thập Cẩm",
+            "score": "3-0",
+            "is_live": true,
+            "hot": true
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-d3027505f6_278975f7_20260824.png?v=278975f7",
+            "width": 1600,
+            "height": 1200
+          }
+        }
+      ]
     },
     {
       "id": "grp-bóng-chuyền",
