@@ -1121,11 +1121,90 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá",
+      "name": "⚽ Bóng Đá (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "ph-828eb2792d",
+          "name": "Machida vs Urawa Reds | 17:30 23/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-828eb2792d",
+              "name": "PhaohoaTV",
+              "contents": [
+                {
+                  "id": "ct-828eb2792d",
+                  "name": "Machida vs Urawa Reds",
+                  "streams": [
+                    {
+                      "id": "st-828eb2792d",
+                      "name": "PhaohoaTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-cbc47e2fc7",
+                          "name": "Văn Minh",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://luong.phaohoa.live/live/phaohoa3/index.m3u8?expire=1815505159&sign=32dbf97946c3646cdd7f664aebd7fa2a",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phaohoa1.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://phaohoa1.live"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "J1 League",
+            "team_a": "Machida",
+            "team_b": "Urawa Reds",
+            "logo_a": "https://phaohoa1.live/media/teams/logos/team_5085.jpg",
+            "logo_b": "https://phaohoa1.live/media/teams/logos/team_5051.jpg",
+            "time": "17:30",
+            "date": "23/08",
+            "blv": "Văn Minh",
+            "is_live": true,
+            "cate_type": "football",
+            "status": "live",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/67642_29adeab1_20260823.png?v=29adeab1",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "gv-c34c3cb5a0",
           "name": "FC Machida Zelvia vs Urawa Red Diamonds | 17:30 23/08",
@@ -2548,85 +2627,6 @@
           }
         },
         {
-          "id": "ph-828eb2792d",
-          "name": "Machida vs Urawa Reds | 17:30 23/08",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-828eb2792d",
-              "name": "PhaohoaTV",
-              "contents": [
-                {
-                  "id": "ct-828eb2792d",
-                  "name": "Machida vs Urawa Reds",
-                  "streams": [
-                    {
-                      "id": "st-828eb2792d",
-                      "name": "PhaohoaTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-cbc47e2fc7",
-                          "name": "Văn Minh",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa3/index.m3u8?expire=1815505159&sign=32dbf97946c3646cdd7f664aebd7fa2a",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://phaohoa1.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://phaohoa1.live"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "J1 League",
-            "team_a": "Machida",
-            "team_b": "Urawa Reds",
-            "logo_a": "https://phaohoa1.live/media/teams/logos/team_5085.jpg",
-            "logo_b": "https://phaohoa1.live/media/teams/logos/team_5051.jpg",
-            "time": "17:30",
-            "date": "23/08",
-            "blv": "Văn Minh",
-            "is_live": false,
-            "cate_type": "football",
-            "status": "scheduled",
-            "home_score": 0,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/67642_29adeab1_20260823.png?v=29adeab1",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "ph-c7174932af",
           "name": "PSV vs Groningen | 19:30 23/08",
           "type": "single",
@@ -2792,7 +2792,61 @@
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
-      "channels": []
+      "channels": [
+        {
+          "id": "gv-ecfc68e1d1",
+          "name": "Arthur Fils vs Frances Tiafoe | 03:30 24/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-ecfc68e1d1",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-ecfc68e1d1",
+                  "name": "Arthur Fils vs Frances Tiafoe",
+                  "streams": [
+                    {
+                      "id": "st-ecfc68e1d1",
+                      "name": "GV",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "ATP Cincinnati Open",
+            "team_a": "Arthur Fils",
+            "team_b": "Frances Tiafoe",
+            "logo_a": "https://static.flashscore.com/res/image/data/Eg01vrEa-SQeH6w5H.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/A3X3wNil-AJjcvBgm.png",
+            "time": "03:30 24/08",
+            "blv": "",
+            "is_live": false,
+            "cate_type": "tennis"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/t6cos95aai2f_a93cad0e_20260823.png?v=a93cad0e",
+            "width": 1600,
+            "height": 1200
+          }
+        }
+      ]
     },
     {
       "id": "grp-cầu-lông",
@@ -3161,7 +3215,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1766213714488_táº£i xuá»ng (4).jpg",
             "time": "16:30 23/08",
             "caster": "Đại Kê",
-            "score": "1-1",
+            "score": "3-1",
             "is_live": true,
             "hot": true
           },
@@ -3233,7 +3287,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1787478129949_DÅ©ng hÃ n.jpg",
             "time": "16:30 23/08",
             "caster": "SÊ KÔÔ",
-            "score": "0-0",
+            "score": "2-0",
             "is_live": true,
             "hot": false
           },
