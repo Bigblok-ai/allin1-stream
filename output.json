@@ -2508,11 +2508,84 @@
     },
     {
       "id": "grp-billiards",
-      "name": "🎱 Billiards",
+      "name": "🎱 Billiards (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
-      "channels": []
+      "channels": [
+        {
+          "id": "chtv-0bcbd06a51",
+          "name": "Yến vi vs Hwang | Tào A Man",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-0bcbd06a51",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-0bcbd06a51",
+                  "name": "Yến vi vs Hwang",
+                  "streams": [
+                    {
+                      "id": "st-0bcbd06a51",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-0bcbd06a51",
+                          "name": "Tào A Man",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6780/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv21.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "TP OPEN POOL CHAMPIONSHIP",
+            "team_a": "Yến vi",
+            "team_b": "Hwang",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1787546182658_1765337449015_tÃ¡ÂºÂ£i xuÃ¡Â»_ng.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1787546182502_1765337449015_tÃ¡ÂºÂ£i xuÃ¡Â»_ng.png",
+            "time": "11:40 24/08",
+            "caster": "Tào A Man",
+            "score": "0-0",
+            "is_live": true,
+            "hot": false
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-0bcbd06a51_8710e2f9_20260824.png?v=8710e2f9",
+            "width": 1600,
+            "height": 1200
+          }
+        }
+      ]
     },
     {
       "id": "grp-bóng-chuyền",
