@@ -2561,7 +2561,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1765348906226_táº£i xuá»ng.png",
             "time": "16:48 24/08",
             "caster": "Lee Min Hoo",
-            "score": "2-4",
+            "score": "3-4",
             "is_live": true,
             "hot": true
           },
@@ -2578,11 +2578,156 @@
     },
     {
       "id": "grp-bóng-chuyền",
-      "name": "🏐 Bóng Chuyền (1 LIVE)",
+      "name": "🏐 Bóng Chuyền (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "gv-56ea5f5f44",
+          "name": "Trung Quốc vs Iran | 18:30 24/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-56ea5f5f44",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-56ea5f5f44",
+                  "name": "Trung Quốc vs Iran",
+                  "streams": [
+                    {
+                      "id": "st-56ea5f5f44",
+                      "name": "GV",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-ed5efb35b2",
+              "name": "PhaohoaTV",
+              "contents": [
+                {
+                  "id": "ct-ed5efb35b2",
+                  "name": "Trung Quốc vs Iran",
+                  "streams": [
+                    {
+                      "id": "st-ed5efb35b2",
+                      "name": "PhaoHoa - Tày",
+                      "stream_links": [
+                        {
+                          "id": "lnk-9501ab9e21",
+                          "name": "Tày",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://luong.phaohoa.live/live/phaohoa8/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phaohoa1.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://phaohoa1.live"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Asian Women's Volleyball Championship",
+            "team_a": "Trung Quốc",
+            "team_b": "Iran",
+            "logo_a": "https://static.flashscore.com/res/image/data/nc9uS3HG-QDuM2WrS.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/xt3pVREa-tWhhL1yr.png",
+            "time": "18:30 24/08",
+            "blv": "",
+            "is_live": true,
+            "cate_type": "bongchuyen"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/omboeqzjvkrs_f754a090_20260824.png?v=f754a090",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-e1d4942808",
+          "name": "Netherlands vs Portugal | 18:30 24/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-e1d4942808",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-e1d4942808",
+                  "name": "Netherlands vs Portugal",
+                  "streams": [
+                    {
+                      "id": "st-e1d4942808",
+                      "name": "GV",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "European Women's Volleyball Championship",
+            "team_a": "Netherlands",
+            "team_b": "Portugal",
+            "logo_a": "https://static.flashscore.com/res/image/data/KveiFAyS-SrXKwAi9.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/xYGjw2yS-6ys9CWQj.png",
+            "time": "18:30 24/08",
+            "blv": "",
+            "is_live": true,
+            "cate_type": "bongchuyen"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/1zjx3r8utbit_f3a93c98_20260824.png?v=f3a93c98",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "ph-90768e9f5a",
           "name": "Thái Lan vs Indonesia | 14:00 24/08",
@@ -2658,151 +2803,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/71716_54f18fc6_20260824.png?v=54f18fc6",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-56ea5f5f44",
-          "name": "Trung Quốc vs Iran | 18:30 24/08",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-56ea5f5f44",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-56ea5f5f44",
-                  "name": "Trung Quốc vs Iran",
-                  "streams": [
-                    {
-                      "id": "st-56ea5f5f44",
-                      "name": "GV",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "src-ed5efb35b2",
-              "name": "PhaohoaTV",
-              "contents": [
-                {
-                  "id": "ct-ed5efb35b2",
-                  "name": "Trung Quốc vs Iran",
-                  "streams": [
-                    {
-                      "id": "st-ed5efb35b2",
-                      "name": "PhaoHoa - Tày",
-                      "stream_links": [
-                        {
-                          "id": "lnk-9501ab9e21",
-                          "name": "Tày",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa8/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://phaohoa1.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://phaohoa1.live"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Asian Women's Volleyball Championship",
-            "team_a": "Trung Quốc",
-            "team_b": "Iran",
-            "logo_a": "https://static.flashscore.com/res/image/data/nc9uS3HG-QDuM2WrS.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/xt3pVREa-tWhhL1yr.png",
-            "time": "18:30 24/08",
-            "blv": "",
-            "is_live": false,
-            "cate_type": "bongchuyen"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/omboeqzjvkrs_f754a090_20260824.png?v=f754a090",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-e1d4942808",
-          "name": "Netherlands vs Portugal | 18:30 24/08",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-e1d4942808",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-e1d4942808",
-                  "name": "Netherlands vs Portugal",
-                  "streams": [
-                    {
-                      "id": "st-e1d4942808",
-                      "name": "GV",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "European Women's Volleyball Championship",
-            "team_a": "Netherlands",
-            "team_b": "Portugal",
-            "logo_a": "https://static.flashscore.com/res/image/data/KveiFAyS-SrXKwAi9.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/xYGjw2yS-6ys9CWQj.png",
-            "time": "18:30 24/08",
-            "blv": "",
-            "is_live": false,
-            "cate_type": "bongchuyen"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/1zjx3r8utbit_f3a93c98_20260824.png?v=f3a93c98",
             "width": 1600,
             "height": 1200
           }
