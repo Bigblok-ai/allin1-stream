@@ -2594,11 +2594,84 @@
     },
     {
       "id": "grp-billiards",
-      "name": "🎱 Billiards",
+      "name": "🎱 Billiards (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
-      "channels": []
+      "channels": [
+        {
+          "id": "chtv-21f0eea26c",
+          "name": "Áo Trắng vs Áo xám | Thập Cẩm",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-21f0eea26c",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-21f0eea26c",
+                  "name": "Áo Trắng vs Áo xám",
+                  "streams": [
+                    {
+                      "id": "st-21f0eea26c",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-21f0eea26c",
+                          "name": "Thập Cẩm",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6800/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv21.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "luongvantuanbilliard",
+            "team_a": "Áo Trắng",
+            "team_b": "Áo xám",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1777544566525_Screenshot 2026-04-30 172116.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1777544570845_Screenshot 2026-04-30 172134.png",
+            "time": "21:00 24/08",
+            "caster": "Thập Cẩm",
+            "score": "1-0",
+            "is_live": true,
+            "hot": true
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-21f0eea26c_204abba1_20260824.png?v=204abba1",
+            "width": 1600,
+            "height": 1200
+          }
+        }
+      ]
     },
     {
       "id": "grp-bóng-chuyền",
