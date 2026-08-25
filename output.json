@@ -1121,7 +1121,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1308,6 +1308,85 @@
           }
         },
         {
+          "id": "ph-9287d16b2e",
+          "name": "Bodo/Glimt vs Nijmegen | 02:00 26/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-9287d16b2e",
+              "name": "PhaohoaTV",
+              "contents": [
+                {
+                  "id": "ct-9287d16b2e",
+                  "name": "Bodo/Glimt vs Nijmegen",
+                  "streams": [
+                    {
+                      "id": "st-9287d16b2e",
+                      "name": "PhaohoaTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-f536973e27",
+                          "name": "Pháo Thủ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://luong.phaohoa.live/live/phaohoa4/index.m3u8?expire=1815505159&sign=faaa23580764370ed378ecd708c9f262",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phaohoa1.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://phaohoa1.live"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "UEFA Champions League",
+            "team_a": "Bodo/Glimt",
+            "team_b": "Nijmegen",
+            "logo_a": "https://phaohoa1.live/media/teams/logos/team_215.jpg",
+            "logo_b": "https://phaohoa1.live/media/teams/logos/team_5466.jpg",
+            "time": "02:00",
+            "date": "26/08",
+            "blv": "Pháo Thủ",
+            "is_live": true,
+            "cate_type": "football",
+            "status": "live",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/68627_2b4409d6_20260826.png?v=2b4409d6",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "gv-86fdde5276",
           "name": "Valencia vs Real Betis | 02:00 26/08",
           "type": "single",
@@ -1484,6 +1563,77 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/6a7e5b5fb2e3a429e3051fd7_50b0da95_20260826.png?v=50b0da95",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-73187baa0a",
+          "name": "Bodo Glimt vs N.E.C. Nijmegen | 02:00 26/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-73187baa0a",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-73187baa0a",
+                  "name": "Bodo Glimt vs N.E.C. Nijmegen",
+                  "streams": [
+                    {
+                      "id": "st-73187baa0a",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-bc91152f65",
+                          "name": "Điếc",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1787681357_hd/1787681357_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "C1",
+            "team_a": "Bodo Glimt",
+            "team_b": "N.E.C. Nijmegen",
+            "logo_a": "https://images.keovip88.net/images/teams/bodo-glimt.png",
+            "logo_b": "https://images.keovip88.net/images/teams/nec-nijmegen.png",
+            "time": "02:00 26/08",
+            "blv": "Điếc",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/6a7e5b5fb2e3a429e3051fd9_0e3143b9_20260826.png?v=0e3143b9",
             "width": 1600,
             "height": 1200
           }
@@ -2274,85 +2424,6 @@
           }
         },
         {
-          "id": "ph-9287d16b2e",
-          "name": "Bodo/Glimt vs Nijmegen | 02:00 26/08",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-9287d16b2e",
-              "name": "PhaohoaTV",
-              "contents": [
-                {
-                  "id": "ct-9287d16b2e",
-                  "name": "Bodo/Glimt vs Nijmegen",
-                  "streams": [
-                    {
-                      "id": "st-9287d16b2e",
-                      "name": "PhaohoaTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-f536973e27",
-                          "name": "Pháo Thủ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa4/index.m3u8?expire=1815505159&sign=faaa23580764370ed378ecd708c9f262",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://phaohoa1.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://phaohoa1.live"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "UEFA Champions League",
-            "team_a": "Bodo/Glimt",
-            "team_b": "Nijmegen",
-            "logo_a": "https://phaohoa1.live/media/teams/logos/team_215.jpg",
-            "logo_b": "https://phaohoa1.live/media/teams/logos/team_5466.jpg",
-            "time": "02:00",
-            "date": "26/08",
-            "blv": "Pháo Thủ",
-            "is_live": false,
-            "cate_type": "football",
-            "status": "scheduled",
-            "home_score": 0,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/68627_2b4409d6_20260826.png?v=2b4409d6",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "ph-0188fc0709",
           "name": "Nottingham vs Leeds | 02:00 26/08",
           "type": "single",
@@ -3008,14 +3079,14 @@
     },
     {
       "id": "grp-billiards",
-      "name": "🎱 Billiards (5 LIVE)",
+      "name": "🎱 Billiards (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
         {
-          "id": "chtv-dc68f5b015",
-          "name": "Shane Van Boening vs Glen Davis | VÁNG",
+          "id": "chtv-8248f985c8",
+          "name": "Elliott Sanderson vs Corey Deuel | Tào A Man",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -3029,23 +3100,23 @@
           ],
           "sources": [
             {
-              "id": "src-dc68f5b015",
+              "id": "src-8248f985c8",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-dc68f5b015",
-                  "name": "Shane Van Boening vs Glen Davis",
+                  "id": "ct-8248f985c8",
+                  "name": "Elliott Sanderson vs Corey Deuel",
                   "streams": [
                     {
-                      "id": "st-dc68f5b015",
+                      "id": "st-8248f985c8",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-dc68f5b015",
-                          "name": "VÁNG",
+                          "id": "lnk-8248f985c8",
+                          "name": "Tào A Man",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6860/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6856/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -3065,14 +3136,14 @@
             }
           ],
           "org_metadata": {
-            "league": "Bàn TV1 | US Open Pool hampionship",
-            "team_a": "Shane Van Boening",
-            "team_b": "Glen Davis",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1787676793192_Shane Van Boening.jpg",
+            "league": "Bàn TV2 | US Open Pool hampionship",
+            "team_a": "Elliott Sanderson",
+            "team_b": "Corey Deuel",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1765250803265_táº£i xuá»ng (1).png",
             "logo_b": "https://cdn-choangtv.com/img/logo/1765250803265_táº£i xuá»ng (1).png",
-            "time": "00:29 26/08",
-            "caster": "VÁNG",
-            "score": "0-0",
+            "time": "00:30 26/08",
+            "caster": "Tào A Man",
+            "score": "8-3",
             "is_live": true,
             "hot": false
           },
@@ -3080,186 +3151,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-dc68f5b015_43551250_20260826.png?v=43551250",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-8f6546b07c",
-          "name": "Shane Van Boening vs Glen Davis | VÁNG",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-8f6546b07c",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-8f6546b07c",
-                  "name": "Shane Van Boening vs Glen Davis",
-                  "streams": [
-                    {
-                      "id": "st-8f6546b07c",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-8f6546b07c",
-                          "name": "VÁNG",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6855/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv21.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Bàn TV1 | US Open Pool hampionship",
-            "team_a": "Shane Van Boening",
-            "team_b": "Glen Davis",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1787675971360_Shane Van Boening.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1765250803265_táº£i xuá»ng (1).png",
-            "time": "00:30 26/08",
-            "caster": "VÁNG",
-            "score": "7-0",
-            "is_live": true,
-            "hot": true
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-8f6546b07c_c2713141_20260826.png?v=c2713141",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-bb7e162d62",
-          "name": "Chris Melling vs Milford Scott Hooper | GIÀNG A PHỌ",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-bb7e162d62",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-bb7e162d62",
-                  "name": "Chris Melling vs Milford Scott Hooper",
-                  "streams": [
-                    {
-                      "id": "st-bb7e162d62",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-bb7e162d62",
-                          "name": "GIÀNG A PHỌ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6858/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv21.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "src-47056b428d",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-47056b428d",
-                  "name": "Chris Melling vs Milford Scott Hooper",
-                  "streams": [
-                    {
-                      "id": "st-47056b428d",
-                      "name": "ChoangTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-47056b428d",
-                          "name": "BÚN CHÓ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6859/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv21.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Bàn TV4  | US Open Pool hampionship",
-            "team_a": "Chris Melling",
-            "team_b": "Milford Scott Hooper",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1787676263086_Chris Melling.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1765250803265_táº£i xuá»ng (1).png",
-            "time": "00:30 26/08",
-            "caster": "GIÀNG A PHỌ",
-            "score": "0-0",
-            "is_live": true,
-            "hot": true
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-bb7e162d62_3766568e_20260826.png?v=3766568e",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-8248f985c8_ff69942e_20260826.png?v=ff69942e",
             "width": 1600,
             "height": 1200
           }
@@ -3323,7 +3215,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1765250803265_táº£i xuá»ng (1).png",
             "time": "00:30 26/08",
             "caster": "Kèn Kèn",
-            "score": "2-3",
+            "score": "4-3",
             "is_live": true,
             "hot": false
           },
@@ -3337,8 +3229,8 @@
           }
         },
         {
-          "id": "chtv-8248f985c8",
-          "name": "Elliott Sanderson vs Corey Deuel | Tào A Man",
+          "id": "chtv-f7a6a6f40f",
+          "name": "Fedor Gorst vs Christopher Sharier | VÁNG",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -3352,23 +3244,23 @@
           ],
           "sources": [
             {
-              "id": "src-8248f985c8",
+              "id": "src-f7a6a6f40f",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-8248f985c8",
-                  "name": "Elliott Sanderson vs Corey Deuel",
+                  "id": "ct-f7a6a6f40f",
+                  "name": "Fedor Gorst vs Christopher Sharier",
                   "streams": [
                     {
-                      "id": "st-8248f985c8",
+                      "id": "st-f7a6a6f40f",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-8248f985c8",
-                          "name": "Tào A Man",
+                          "id": "lnk-f7a6a6f40f",
+                          "name": "VÁNG",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6856/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6861/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -3385,116 +3277,7 @@
                   ]
                 }
               ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Bàn TV2 | US Open Pool hampionship",
-            "team_a": "Elliott Sanderson",
-            "team_b": "Corey Deuel",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1765250803265_táº£i xuá»ng (1).png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1765250803265_táº£i xuá»ng (1).png",
-            "time": "00:30 26/08",
-            "caster": "Tào A Man",
-            "score": "5-3",
-            "is_live": true,
-            "hot": false
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-8248f985c8_ff69942e_20260826.png?v=ff69942e",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-9f6ad17031",
-          "name": "Joshua Filler vs James Blackburn | 02:00 26/08",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "SAP",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-9f6ad17031",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-9f6ad17031",
-                  "name": "Joshua Filler vs James Blackburn",
-                  "streams": [
-                    {
-                      "id": "st-9f6ad17031",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-9f6ad17031",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6866/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv21.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Bàn TV2 | US Open Pool championship",
-            "team_a": "Joshua Filler",
-            "team_b": "James Blackburn",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1787681074615_Screenshot 2026-08-26 010430.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1787681074292_Screenshot 2026-08-26 004310.png",
-            "time": "02:00 26/08",
-            "caster": "",
-            "score": "0-0",
-            "is_live": false,
-            "hot": true
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-9f6ad17031_5bc92df8_20260826.png?v=5bc92df8",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-83769f543f",
-          "name": "Fedor Gorst vs Christopher Sharier | 02:00 26/08",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "SAP",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
+            },
             {
               "id": "src-83769f543f",
               "name": "ChoangTV",
@@ -3505,7 +3288,7 @@
                   "streams": [
                     {
                       "id": "st-83769f543f",
-                      "name": "CHTV",
+                      "name": "ChoangTV",
                       "stream_links": [
                         {
                           "id": "lnk-83769f543f",
@@ -3535,35 +3318,35 @@
             "league": "Bàn TV1 | US Open Pool championship",
             "team_a": "Fedor Gorst",
             "team_b": "Christopher Sharier",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1787680605524_Screenshot 2026-08-26 004231.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1787680605375_Screenshot 2026-08-26 004310.png",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1787679757262_Screenshot 2026-08-26 004231.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1787679797102_Screenshot 2026-08-26 004310.png",
             "time": "02:00 26/08",
-            "caster": "",
+            "caster": "VÁNG",
             "score": "0-0",
-            "is_live": false,
+            "is_live": true,
             "hot": true
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-83769f543f_e58d8eb9_20260826.png?v=e58d8eb9",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-f7a6a6f40f_24a4e9c8_20260826.png?v=24a4e9c8",
             "width": 1600,
             "height": 1200
           }
         },
         {
           "id": "chtv-283f9dca3a",
-          "name": "Jayson Shaw vs Henry Cha | 02:00 26/08",
+          "name": "Jayson Shaw vs Henry Cha | GIÀNG A PHỌ",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "SAP",
+              "text": "LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -3581,10 +3364,45 @@
                       "stream_links": [
                         {
                           "id": "lnk-283f9dca3a",
-                          "name": "Stream",
+                          "name": "GIÀNG A PHỌ",
                           "type": "hls",
                           "default": true,
                           "url": "https://cdn.sports-cas889abxfileposo.site/live/live6864/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv21.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-cd769f81e8",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-cd769f81e8",
+                  "name": "Jayson Shaw vs Henry Cha",
+                  "streams": [
+                    {
+                      "id": "st-cd769f81e8",
+                      "name": "ChoangTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-cd769f81e8",
+                          "name": "BÚN CHÓ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6863/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -3610,9 +3428,9 @@
             "logo_a": "https://cdn-choangtv.com/img/logo/1787680345237_Screenshot 2026-08-26 004934.png",
             "logo_b": "https://cdn-choangtv.com/img/logo/1787680344974_Screenshot 2026-08-26 004310.png",
             "time": "02:00 26/08",
-            "caster": "",
+            "caster": "GIÀNG A PHỌ",
             "score": "0-0",
-            "is_live": false,
+            "is_live": true,
             "hot": true
           },
           "image": {
@@ -3625,8 +3443,80 @@
           }
         },
         {
+          "id": "chtv-9f6ad17031",
+          "name": "Joshua Filler vs James Blackburn | 02:00 26/08 | Tào A Man",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "SAP",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-9f6ad17031",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-9f6ad17031",
+                  "name": "Joshua Filler vs James Blackburn",
+                  "streams": [
+                    {
+                      "id": "st-9f6ad17031",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-9f6ad17031",
+                          "name": "Tào A Man",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6866/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv21.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Bàn TV2 | US Open Pool championship",
+            "team_a": "Joshua Filler",
+            "team_b": "James Blackburn",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1787681074615_Screenshot 2026-08-26 010430.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1787681074292_Screenshot 2026-08-26 004310.png",
+            "time": "02:00 26/08",
+            "caster": "Tào A Man",
+            "score": "0-0",
+            "is_live": false,
+            "hot": true
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-9f6ad17031_5bc92df8_20260826.png?v=5bc92df8",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "chtv-daf0884534",
-          "name": "Denis Grabe vs Joven Bustamante | 02:00 26/08",
+          "name": "Denis Grabe vs Joven Bustamante | 02:00 26/08 | Kèn Kèn",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -3653,7 +3543,7 @@
                       "stream_links": [
                         {
                           "id": "lnk-daf0884534",
-                          "name": "Stream",
+                          "name": "Kèn Kèn",
                           "type": "hls",
                           "default": true,
                           "url": "https://cdn.sports-cas889abxfileposo.site/live/live6862/index.m3u8",
@@ -3682,7 +3572,7 @@
             "logo_a": "https://cdn-choangtv.com/img/logo/1787679994996_Screenshot 2026-08-26 004632.png",
             "logo_b": "https://cdn-choangtv.com/img/logo/1787679997945_Screenshot 2026-08-26 004310.png",
             "time": "02:00 26/08",
-            "caster": "",
+            "caster": "Kèn Kèn",
             "score": "0-0",
             "is_live": false,
             "hot": true
