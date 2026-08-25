@@ -1121,7 +1121,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1272,6 +1272,85 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/68506_33b16434_20260825.png?v=33b16434",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "ph-47c3593713",
+          "name": "Al Taawon vs Al Fayha | 23:10 25/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-47c3593713",
+              "name": "PhaohoaTV",
+              "contents": [
+                {
+                  "id": "ct-47c3593713",
+                  "name": "Al Taawon vs Al Fayha",
+                  "streams": [
+                    {
+                      "id": "st-47c3593713",
+                      "name": "PhaohoaTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-f536973e27",
+                          "name": "Pháo Thủ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://luong.phaohoa.live/live/phaohoa4/index.m3u8?expire=1815505159&sign=faaa23580764370ed378ecd708c9f262",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phaohoa1.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://phaohoa1.live"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Saudi Pro League",
+            "team_a": "Al Taawon",
+            "team_b": "Al Fayha",
+            "logo_a": "https://phaohoa1.live/media/teams/logos/team_368.jpg",
+            "logo_b": "https://phaohoa1.live/media/teams/logos/al-fayha-logo-footylogos-320.webp",
+            "time": "23:10",
+            "date": "25/08",
+            "blv": "Pháo Thủ",
+            "is_live": true,
+            "cate_type": "football",
+            "status": "live",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/68473_9499b9de_20260825.png?v=9499b9de",
             "width": 1600,
             "height": 1200
           }
@@ -2428,85 +2507,6 @@
           }
         },
         {
-          "id": "ph-47c3593713",
-          "name": "Al Taawon vs Al Fayha | 23:10 25/08",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-47c3593713",
-              "name": "PhaohoaTV",
-              "contents": [
-                {
-                  "id": "ct-47c3593713",
-                  "name": "Al Taawon vs Al Fayha",
-                  "streams": [
-                    {
-                      "id": "st-47c3593713",
-                      "name": "PhaohoaTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-f536973e27",
-                          "name": "Pháo Thủ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa4/index.m3u8?expire=1815505159&sign=faaa23580764370ed378ecd708c9f262",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://phaohoa1.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://phaohoa1.live"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Saudi Pro League",
-            "team_a": "Al Taawon",
-            "team_b": "Al Fayha",
-            "logo_a": "https://phaohoa1.live/media/teams/logos/team_368.jpg",
-            "logo_b": "https://phaohoa1.live/media/teams/logos/al-fayha-logo-footylogos-320.webp",
-            "time": "23:10",
-            "date": "25/08",
-            "blv": "Pháo Thủ",
-            "is_live": false,
-            "cate_type": "football",
-            "status": "scheduled",
-            "home_score": 0,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/68473_9499b9de_20260825.png?v=9499b9de",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "ph-7cda64779b",
           "name": "Sabah Baku vs H. Beer Sheva | 23:45 25/08",
           "type": "single",
@@ -2926,7 +2926,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1765797008355_táº£i xuá»ng.png",
             "time": "20:18 25/08",
             "caster": "Lee Min Hoo",
-            "score": "11-14",
+            "score": "12-14",
             "is_live": true,
             "hot": true
           },
