@@ -2482,11 +2482,83 @@
     },
     {
       "id": "grp-billiards",
-      "name": "🎱 Billiards",
+      "name": "🎱 Billiards (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "chtv-8db6310480",
+          "name": "Waning Surigao vs Tata mata cdo | Lee Min Hoo",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-8db6310480",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-8db6310480",
+                  "name": "Waning Surigao vs Tata mata cdo",
+                  "streams": [
+                    {
+                      "id": "st-8db6310480",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-8db6310480",
+                          "name": "Lee Min Hoo",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6853/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv21.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "siêu bịp độ phi",
+            "team_a": "Waning Surigao",
+            "team_b": "Tata mata cdo",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1765802421830_táº£i xuá»ng.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1765797008355_táº£i xuá»ng.png",
+            "time": "20:18 25/08",
+            "caster": "Lee Min Hoo",
+            "score": "0-0",
+            "is_live": true,
+            "hot": true
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-8db6310480_92097139_20260825.png?v=92097139",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "chtv-54bca81936",
           "name": "Hoàng Sao vs Andrew Lara | 22:59 25/08",
