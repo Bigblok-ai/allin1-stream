@@ -2196,11 +2196,83 @@
     },
     {
       "id": "grp-billiards",
-      "name": "🎱 Billiards (1 LIVE)",
+      "name": "🎱 Billiards (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "chtv-42a99fdd75",
+          "name": "Việt Nam vs Thái Lan",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-42a99fdd75",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-42a99fdd75",
+                  "name": "Việt Nam vs Thái Lan",
+                  "streams": [
+                    {
+                      "id": "st-42a99fdd75",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-42a99fdd75",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6905/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv21.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Chung Kết Giải Vô Địch DNA",
+            "team_a": "Việt Nam",
+            "team_b": "Thái Lan",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1765337449015_táº£i xuá»ng.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1766404127181_táº£i xuá»ng (1).png",
+            "time": "00:00 26/08",
+            "caster": "",
+            "score": "0-0",
+            "is_live": true,
+            "hot": true
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-42a99fdd75_68f518e0_20260826.png?v=68f518e0",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "chtv-b79a5aa04b",
           "name": "Việt Nam vs Thái Lan | Thập Cẩm",
