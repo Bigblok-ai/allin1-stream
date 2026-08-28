@@ -3521,11 +3521,84 @@
     },
     {
       "id": "grp-billiards",
-      "name": "🎱 Billiards",
+      "name": "🎱 Billiards (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
-      "channels": []
+      "channels": [
+        {
+          "id": "chtv-54b81d28ad",
+          "name": "Lý Giai Nguyệt vs Phó Tiểu Phương | Đại Kê",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-54b81d28ad",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-54b81d28ad",
+                  "name": "Lý Giai Nguyệt vs Phó Tiểu Phương",
+                  "streams": [
+                    {
+                      "id": "st-54b81d28ad",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-54b81d28ad",
+                          "name": "Đại Kê",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6998/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv22.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "2026 CBSA 中國9號球巡迴賽 (張家港站)",
+            "team_a": "Lý Giai Nguyệt",
+            "team_b": "Phó Tiểu Phương",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1787884540512_china.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1787884541670_china.png",
+            "time": "00:00 28/08",
+            "caster": "Đại Kê",
+            "score": "1-1",
+            "is_live": true,
+            "hot": false
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-54b81d28ad_aba4f79d_20260828.png?v=aba4f79d",
+            "width": 1600,
+            "height": 1200
+          }
+        }
+      ]
     },
     {
       "id": "grp-bóng-chuyền",
