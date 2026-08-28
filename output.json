@@ -3308,11 +3308,83 @@
     },
     {
       "id": "grp-billiards",
-      "name": "🎱 Billiards (3 LIVE)",
+      "name": "🎱 Billiards (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "chtv-433c0de8e7",
+          "name": "NGUYEN BICH TRAM vs SUNDEEP GULATI | Đại Kê",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-433c0de8e7",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-433c0de8e7",
+                  "name": "NGUYEN BICH TRAM vs SUNDEEP GULATI",
+                  "streams": [
+                    {
+                      "id": "st-433c0de8e7",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-433c0de8e7",
+                          "name": "Đại Kê",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7002/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv22.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "🏆 Champion Prize",
+            "team_a": "NGUYEN BICH TRAM",
+            "team_b": "SUNDEEP GULATI",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1787891748073_1765337449015_tÃ¡ÂºÂ£i xuÃ¡Â»_ng.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1787891747923_Screenshot 2026-08-28 113544.png",
+            "time": "00:00 28/08",
+            "caster": "Đại Kê",
+            "score": "8-22",
+            "is_live": true,
+            "hot": false
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-433c0de8e7_99bc1ea9_20260828.png?v=99bc1ea9",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "chtv-63a91a30f6",
           "name": "JAYBEE SUCAL vs KEN TABURA (7-9-10) | Tào A Man",
@@ -3386,78 +3458,6 @@
           }
         },
         {
-          "id": "chtv-433c0de8e7",
-          "name": "NGUYEN BICH TRAM vs SUNDEEP GULATI | Đại Kê",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-433c0de8e7",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-433c0de8e7",
-                  "name": "NGUYEN BICH TRAM vs SUNDEEP GULATI",
-                  "streams": [
-                    {
-                      "id": "st-433c0de8e7",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-433c0de8e7",
-                          "name": "Đại Kê",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7002/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv22.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "🏆 Champion Prize",
-            "team_a": "NGUYEN BICH TRAM",
-            "team_b": "SUNDEEP GULATI",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1787891748073_1765337449015_tÃ¡ÂºÂ£i xuÃ¡Â»_ng.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1787891747923_Screenshot 2026-08-28 113544.png",
-            "time": "00:00 28/08",
-            "caster": "Đại Kê",
-            "score": "8-18",
-            "is_live": true,
-            "hot": false
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-433c0de8e7_99bc1ea9_20260828.png?v=99bc1ea9",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "chtv-1c6e8a6ae2",
           "name": "DANG JINHU vs MA CHENCHAO | Lee Min Hoo",
           "type": "single",
@@ -3516,7 +3516,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1787889917204_china.png",
             "time": "11:45 28/08",
             "caster": "Lee Min Hoo",
-            "score": "4-1",
+            "score": "5-2",
             "is_live": true,
             "hot": false
           },
@@ -3525,6 +3525,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-1c6e8a6ae2_ded7158f_20260828.png?v=ded7158f",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-723b339b1b",
+          "name": "Khánh Sờ Kai vs Duy Đen Đúa | Thập Cẩm",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-723b339b1b",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-723b339b1b",
+                  "name": "Khánh Sờ Kai vs Duy Đen Đúa",
+                  "streams": [
+                    {
+                      "id": "st-723b339b1b",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-723b339b1b",
+                          "name": "Thập Cẩm",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7004/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv22.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Game 3",
+            "team_a": "Khánh Sờ Kai",
+            "team_b": "Duy Đen Đúa",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1778267584065_photo_2_2026-05-09_02-12-54.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1778354244961_1683_0dFQWA_96x96.png",
+            "time": "12:14 28/08",
+            "caster": "Thập Cẩm",
+            "score": "2-1",
+            "is_live": true,
+            "hot": true
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-723b339b1b_63308af3_20260828.png?v=63308af3",
             "width": 1600,
             "height": 1200
           }
