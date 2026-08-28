@@ -3308,11 +3308,83 @@
     },
     {
       "id": "grp-billiards",
-      "name": "🎱 Billiards (2 LIVE)",
+      "name": "🎱 Billiards (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "chtv-f134032067",
+          "name": "Sinh Móm vs Thầy Nam | Lee Min Hoo",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-f134032067",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-f134032067",
+                  "name": "Sinh Móm vs Thầy Nam",
+                  "streams": [
+                    {
+                      "id": "st-f134032067",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-f134032067",
+                          "name": "Lee Min Hoo",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7015/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv22.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Thành Nam billard",
+            "team_a": "Sinh Móm",
+            "team_b": "Thầy Nam",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1787899168062_áº¢nh chá»¥p mÃ n hÃ¬nh 2026-06-03 130533.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1787899250223_áº¢nh chá»¥p mÃ n hÃ¬nh 2026-06-03 130517.png",
+            "time": "00:00 28/08",
+            "caster": "Lee Min Hoo",
+            "score": "0-1",
+            "is_live": true,
+            "hot": true
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-f134032067_269c2924_20260828.png?v=269c2924",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "chtv-63a91a30f6",
           "name": "JAYBEE SUCAL vs KEN TABURA (7-9-10) | Tào A Man",
@@ -3458,89 +3530,17 @@
           }
         },
         {
-          "id": "chtv-1909264b89",
-          "name": "Hoàng Thanh Ninh vs Sử Thiên Kỳ. | 14:00 28/08 | Xinh Yeu",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "SAP",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-1909264b89",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-1909264b89",
-                  "name": "Hoàng Thanh Ninh vs Sử Thiên Kỳ.",
-                  "streams": [
-                    {
-                      "id": "st-1909264b89",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-1909264b89",
-                          "name": "Xinh Yeu",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7012/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv22.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "2026 CBSA 中國9號球巡迴賽",
-            "team_a": "Hoàng Thanh Ninh",
-            "team_b": "Sử Thiên Kỳ.",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1787898625555_HUANG QINGNING.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1787898647496_SHI Tianqi.jpg",
-            "time": "14:00 28/08",
-            "caster": "Xinh Yeu",
-            "score": "0-0",
-            "is_live": false,
-            "hot": true
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-1909264b89_b9fa56d5_20260828.png?v=b9fa56d5",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "chtv-755c070f13",
-          "name": "Huy Phú Thọ vs Giang Kaizen | 14:00 28/08 | Đại Kê",
+          "name": "Huy Phú Thọ vs Giang Kaizen | Đại Kê",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "SAP",
+              "text": "LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -3589,7 +3589,7 @@
             "time": "14:00 28/08",
             "caster": "Đại Kê",
             "score": "0-0",
-            "is_live": false,
+            "is_live": true,
             "hot": true
           },
           "image": {
