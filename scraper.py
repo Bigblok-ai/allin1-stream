@@ -542,14 +542,13 @@ def main():
                             existing_channel["sources"].append(temp_src)
 
     # ─────────────────────────────────────────────────────────────────
-    # ★ BƯỚC 2: GỘP KÊNH TRUYỀN HÌNH (ĐÃ SỬA LỖI TRÙNG)
+    # BƯỚC 2: GỘP KÊNH TRUYỀN HÌNH
     # ─────────────────────────────────────────────────────────────────
     try:
         if os.path.exists(HOIQUAN_FILE):
             with open(HOIQUAN_FILE, "r", encoding="utf-8") as f:
                 tv_list = json.load(f)
             if tv_list:
-                # Gọi hàm gom nhóm thay vì tạo thẳng như cũ
                 tv_channels = build_tv_channels(tv_list)
                 
                 tv_group = {
@@ -603,6 +602,40 @@ def main():
             break
 
     # ─────────────────────────────────────────────────────────────────
+    # ★ BƯỚC 3.5 MỚI: DỌN DẸP KÊNH RỖNG (XÓA TRẬN CÓ VỎ NHƯNG KHÔNG CÓ LINK)
+    # ─────────────────────────────────────────────────────────────────
+    total_ghosts = 0
+    for g in final_data["groups"]:
+        valid_channels = []
+        ghosts = 0
+        for ch in g["channels"]:
+            has_link = False
+            for src in ch.get("sources", []):
+                for ct in src.get("contents", []):
+                    for st in ct.get("streams", []):
+                        for lnk in st.get("stream_links", []):
+                            if lnk.get("url"):  # Chỉ cần tìm thấy 1 link hợp lệ là giữ lại
+                                has_link = True
+                                break
+                        if has_link: break
+                    if has_link: break
+                if has_link: break
+            
+            if has_link:
+                valid_channels.append(ch)
+            else:
+                ghosts += 1
+                
+        g["channels"] = valid_channels
+        total_ghosts += ghosts
+        if ghosts > 0:
+            g_name = normalize_cate_name(g["name"])
+            print(f"  🧹 {g_name}: Xoa {ghosts} 'ken rong' (khong co link phat)")
+            
+    if total_ghosts > 0:
+        print(f"  -> Tong cong da don dep {total_ghosts} ken rong.")
+
+    # ─────────────────────────────────────────────────────────────────
     # BƯỚC 4: SẮP XẾP & ĐẾM LIVE
     # ─────────────────────────────────────────────────────────────────
     for g in final_data["groups"]:
@@ -616,12 +649,8 @@ def main():
             is_live = meta.get("is_live", False)
             time_val = meta.get("time", "").strip()
             
-            # 1. Ưu tiên tuyệt đối: nếu flag is_live = True thì tính là LIVE
             if is_live is True:
                 live_count += 1
-                
-            # 2. Fallback cho kênh TV: không có time VÀ không có league 
-            # (Trận đấu thể thao luôn có league, nên sẽ bị loại ở điều kiện này)
             elif time_val == "" and not meta.get("league"):
                 live_count += 1
     
