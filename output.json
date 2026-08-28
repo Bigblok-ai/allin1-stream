@@ -1263,7 +1263,7 @@
             "blv": "Văn Minh",
             "is_live": true,
             "cate_type": "football",
-            "status": "live",
+            "status": "half_time",
             "home_score": 1,
             "away_score": 2
           },
@@ -2888,7 +2888,7 @@
     },
     {
       "id": "grp-bóng-rổ",
-      "name": "🏀 Bóng Rổ (1 LIVE)",
+      "name": "🏀 Bóng Rổ (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -2972,10 +2972,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -3023,7 +3023,7 @@
             "logo_b": "https://static.flashscore.com/res/image/data/GOwNCUzS-prStpyTu.png",
             "time": "22:30 28/08",
             "blv": "Cận",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "basketball"
           },
           "image": {
@@ -3110,86 +3110,14 @@
     },
     {
       "id": "grp-billiards",
-      "name": "🎱 Billiards (1 LIVE)",
+      "name": "🎱 Billiards",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
         {
-          "id": "chtv-3f8d83d6d2",
-          "name": "MARK DAVAO vs UTOY MANILA | Tào A Man",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-3f8d83d6d2",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-3f8d83d6d2",
-                  "name": "MARK DAVAO vs UTOY MANILA",
-                  "streams": [
-                    {
-                      "id": "st-3f8d83d6d2",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-3f8d83d6d2",
-                          "name": "Tào A Man",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7043/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv22.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Siêu độ Bịp Phủi Phi",
-            "team_a": "MARK DAVAO",
-            "team_b": "UTOY MANILA",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1765802364327_táº£i xuá»ng.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1765797026729_táº£i xuá»ng.png",
-            "time": "21:17 28/08",
-            "caster": "Tào A Man",
-            "score": "0-0",
-            "is_live": true,
-            "hot": true
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-3f8d83d6d2_fd9e0f65_20260828.png?v=fd9e0f65",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-df396fc0e8",
-          "name": "Hoàng Sao vs Wojciech Szewczyk | 23:00 28/08",
+          "id": "chtv-e05ebd2dde",
+          "name": "Mickey Krause vs Justin Bergman | 00:45 29/08",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -3203,23 +3131,23 @@
           ],
           "sources": [
             {
-              "id": "src-df396fc0e8",
+              "id": "src-e05ebd2dde",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-df396fc0e8",
-                  "name": "Hoàng Sao vs Wojciech Szewczyk",
+                  "id": "ct-e05ebd2dde",
+                  "name": "Mickey Krause vs Justin Bergman",
                   "streams": [
                     {
-                      "id": "st-df396fc0e8",
+                      "id": "st-e05ebd2dde",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-df396fc0e8",
+                          "id": "lnk-e05ebd2dde",
                           "name": "Stream",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7024/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7023/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -3239,156 +3167,12 @@
             }
           ],
           "org_metadata": {
-            "league": "Không Bàn TV có sóng sẽ Phát | US Open Pool championship",
-            "team_a": "Hoàng Sao",
-            "team_b": "Wojciech Szewczyk",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1777147534048_Screenshot 2026-04-26 030527.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1787902718747_Wojciech Szewczyk.jpg",
-            "time": "23:00 28/08",
-            "caster": "",
-            "score": "0-0",
-            "is_live": false,
-            "hot": true
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-df396fc0e8_784cf0bb_20260828.png?v=784cf0bb",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-fd6bc6a9d9",
-          "name": "Carlo Biado vs Ralf Souquet | 23:00 28/08",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "SAP",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-fd6bc6a9d9",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-fd6bc6a9d9",
-                  "name": "Carlo Biado vs Ralf Souquet",
-                  "streams": [
-                    {
-                      "id": "st-fd6bc6a9d9",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-fd6bc6a9d9",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7025/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv22.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Không Bàn TV có sóng sẽ Phát | US Open Pool championship",
-            "team_a": "Carlo Biado",
-            "team_b": "Ralf Souquet",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1787902874380_CARLO BIADO.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1787902877618_Ralf Souquet.jpg",
-            "time": "23:00 28/08",
-            "caster": "",
-            "score": "0-0",
-            "is_live": false,
-            "hot": true
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-fd6bc6a9d9_3e25832e_20260828.png?v=3e25832e",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-0ac598b8e9",
-          "name": "Jayson Shaw vs Niels Feijen | 23:00 28/08",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "SAP",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-0ac598b8e9",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-0ac598b8e9",
-                  "name": "Jayson Shaw vs Niels Feijen",
-                  "streams": [
-                    {
-                      "id": "st-0ac598b8e9",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-0ac598b8e9",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7017/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv22.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Bàn TV2  | US Open Pool championship",
-            "team_a": "Jayson Shaw",
-            "team_b": "Niels Feijen",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1787900729829_Jayson Shaw.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1787900737128_Niels Feijen.jpg",
-            "time": "23:00 28/08",
+            "league": "Bàn TV4 | US Open Pool championship Loạt khung giờ 00:45",
+            "team_a": "Mickey Krause",
+            "team_b": "Justin Bergman",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1787901868927_Mickey Krause.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1787901871876_Justin Bergman.jpg",
+            "time": "00:45 29/08",
             "caster": "",
             "score": "0-0",
             "is_live": false,
@@ -3398,14 +3182,14 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-0ac598b8e9_483a103d_20260828.png?v=483a103d",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-e05ebd2dde_b15ce38e_20260828.png?v=b15ce38e",
             "width": 1600,
             "height": 1200
           }
         },
         {
-          "id": "chtv-64479930e3",
-          "name": "AJ Manas vs Tyler Styer | 23:00 28/08",
+          "id": "chtv-0428018f81",
+          "name": "Shane Van Boening vs Michael Baoanan | 00:45 29/08",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -3419,23 +3203,23 @@
           ],
           "sources": [
             {
-              "id": "src-64479930e3",
+              "id": "src-0428018f81",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-64479930e3",
-                  "name": "AJ Manas vs Tyler Styer",
+                  "id": "ct-0428018f81",
+                  "name": "Shane Van Boening vs Michael Baoanan",
                   "streams": [
                     {
-                      "id": "st-64479930e3",
+                      "id": "st-0428018f81",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-64479930e3",
+                          "id": "lnk-0428018f81",
                           "name": "Stream",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7019/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7020/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -3455,12 +3239,12 @@
             }
           ],
           "org_metadata": {
-            "league": "Bàn TV4 | US Open Pool championship",
-            "team_a": "AJ Manas",
-            "team_b": "Tyler Styer",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1787900956201_AJ MANAS.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1787900961892_Tyler Styer.jpg",
-            "time": "23:00 28/08",
+            "league": "Bàn TV1 | US Open Pool championship Loạt khung giờ 00:45",
+            "team_a": "Shane Van Boening",
+            "team_b": "Michael Baoanan",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1787901164600_Shane Van Boening.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1787901172267_Michael Baoanan.jpg",
+            "time": "00:45 29/08",
             "caster": "",
             "score": "0-0",
             "is_live": false,
@@ -3470,14 +3254,14 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-64479930e3_b900b705_20260828.png?v=b900b705",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-0428018f81_63084ee6_20260828.png?v=63084ee6",
             "width": 1600,
             "height": 1200
           }
         },
         {
-          "id": "chtv-b755d10e87",
-          "name": "Aloysius Yapp vs David Alcaide | 23:00 28/08",
+          "id": "chtv-e360a8b387",
+          "name": "Fedor Gorst vs Dominik Jastrzab | 00:45 29/08",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -3491,23 +3275,23 @@
           ],
           "sources": [
             {
-              "id": "src-b755d10e87",
+              "id": "src-e360a8b387",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-b755d10e87",
-                  "name": "Aloysius Yapp vs David Alcaide",
+                  "id": "ct-e360a8b387",
+                  "name": "Fedor Gorst vs Dominik Jastrzab",
                   "streams": [
                     {
-                      "id": "st-b755d10e87",
+                      "id": "st-e360a8b387",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-b755d10e87",
+                          "id": "lnk-e360a8b387",
                           "name": "Stream",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7018/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7022/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -3527,12 +3311,12 @@
             }
           ],
           "org_metadata": {
-            "league": "Bàn TV3 | US Open Pool championship",
-            "team_a": "Aloysius Yapp",
-            "team_b": "David Alcaide",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1787900821805_YAPP BÃ©o.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1787900824710_David Alcaide.jpg",
-            "time": "23:00 28/08",
+            "league": "Bàn TV3  | US Open Pool championship Loạt khung giờ 00:45",
+            "team_a": "Fedor Gorst",
+            "team_b": "Dominik Jastrzab",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1787901352700_Fedor Gorst.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1787901409748_Dominik Jastrzab.jpg",
+            "time": "00:45 29/08",
             "caster": "",
             "score": "0-0",
             "is_live": false,
@@ -3542,14 +3326,14 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-b755d10e87_f0ac8fd6_20260828.png?v=f0ac8fd6",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-e360a8b387_d3868812_20260828.png?v=d3868812",
             "width": 1600,
             "height": 1200
           }
         },
         {
-          "id": "chtv-c6b01bedc6",
-          "name": "Billy Thorpe vs Alex Pagulayan | 23:00 28/08",
+          "id": "chtv-c762f35c29",
+          "name": "Francisco Sánchez Ruiz vs Sun Yi Hsuan | 00:45 29/08",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -3563,23 +3347,23 @@
           ],
           "sources": [
             {
-              "id": "src-c6b01bedc6",
+              "id": "src-c762f35c29",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-c6b01bedc6",
-                  "name": "Billy Thorpe vs Alex Pagulayan",
+                  "id": "ct-c762f35c29",
+                  "name": "Francisco Sánchez Ruiz vs Sun Yi Hsuan",
                   "streams": [
                     {
-                      "id": "st-c6b01bedc6",
+                      "id": "st-c762f35c29",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-c6b01bedc6",
+                          "id": "lnk-c762f35c29",
                           "name": "Stream",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7016/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7021/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -3599,12 +3383,12 @@
             }
           ],
           "org_metadata": {
-            "league": "Bàn TV1 | US Open Pool championship",
-            "team_a": "Billy Thorpe",
-            "team_b": "Alex Pagulayan",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1787900484076_Billy Thorpe.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1787900529843_Alex Pagulayan.jpg",
-            "time": "23:00 28/08",
+            "league": "Bàn TV2  | US Open Pool championship Loạt khung giờ 00:45",
+            "team_a": "Francisco Sánchez Ruiz",
+            "team_b": "Sun Yi Hsuan",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1787901224982_Francisco SÃ¡nchez Ruiz.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1787901231084_Sun Yi Hsuan.jpg",
+            "time": "00:45 29/08",
             "caster": "",
             "score": "0-0",
             "is_live": false,
@@ -3614,7 +3398,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-c6b01bedc6_a6c1896a_20260828.png?v=a6c1896a",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-c762f35c29_bff9e758_20260828.png?v=bff9e758",
             "width": 1600,
             "height": 1200
           }
