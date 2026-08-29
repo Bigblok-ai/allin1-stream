@@ -1523,7 +1523,7 @@
             "is_live": true,
             "cate_type": "football",
             "status": "live",
-            "home_score": 1,
+            "home_score": 2,
             "away_score": 1
           },
           "image": {
@@ -2771,11 +2771,83 @@
     },
     {
       "id": "grp-billiards",
-      "name": "🎱 Billiards (5 LIVE)",
+      "name": "🎱 Billiards (6 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "chtv-8dc5277923",
+          "name": "Francisco Sánchez Ruiz vs Joshua Filler",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-8dc5277923",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-8dc5277923",
+                  "name": "Francisco Sánchez Ruiz vs Joshua Filler",
+                  "streams": [
+                    {
+                      "id": "st-8dc5277923",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-8dc5277923",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7129/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv22.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "TV1 | Tứ Kết | US Open Pool championship",
+            "team_a": "Francisco Sánchez Ruiz",
+            "team_b": "Joshua Filler",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1788023089739_Francisco SÃ¡nchez Ruiz.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1788023092433_Joshua Filler.jpg",
+            "time": "00:00 29/08",
+            "caster": "",
+            "score": "0-0",
+            "is_live": true,
+            "hot": false
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-8dc5277923_22203a3a_20260830.png?v=22203a3a",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "chtv-d3a05af916",
           "name": "Alex Sander Kiên Sếu vs Tùng Híp | Lee Min Hoo",
@@ -2835,7 +2907,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1788012505263_tÃ¹ng hÃ­p.png",
             "time": "21:00 29/08",
             "caster": "Lee Min Hoo",
-            "score": "6-12",
+            "score": "10-15",
             "is_live": true,
             "hot": false
           },
@@ -2907,7 +2979,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1765599062294_táº£i xuá»ng.png",
             "time": "21:00 29/08",
             "caster": "Lee Min Hoo",
-            "score": "11-10",
+            "score": "12-10",
             "is_live": true,
             "hot": false
           },
@@ -2993,8 +3065,8 @@
           }
         },
         {
-          "id": "chtv-d5cd40d5b4",
-          "name": "David Alcaide vs Felix Vogel | Thập Cẩm",
+          "id": "chtv-66a5fbbd7a",
+          "name": "David Alcaide vs Felix Vogel | GIÀNG A PHỌ",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -3008,41 +3080,6 @@
           ],
           "sources": [
             {
-              "id": "src-d5cd40d5b4",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-d5cd40d5b4",
-                  "name": "David Alcaide vs Felix Vogel",
-                  "streams": [
-                    {
-                      "id": "st-d5cd40d5b4",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-d5cd40d5b4",
-                          "name": "Thập Cẩm",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7116/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv22.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
               "id": "src-66a5fbbd7a",
               "name": "ChoangTV",
               "contents": [
@@ -3052,7 +3089,7 @@
                   "streams": [
                     {
                       "id": "st-66a5fbbd7a",
-                      "name": "ChoangTV",
+                      "name": "CHTV",
                       "stream_links": [
                         {
                           "id": "lnk-66a5fbbd7a",
@@ -3076,17 +3113,52 @@
                   ]
                 }
               ]
+            },
+            {
+              "id": "src-d5cd40d5b4",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-d5cd40d5b4",
+                  "name": "David Alcaide vs Felix Vogel",
+                  "streams": [
+                    {
+                      "id": "st-d5cd40d5b4",
+                      "name": "ChoangTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-d5cd40d5b4",
+                          "name": "Thập Cẩm",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7116/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv22.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
             }
           ],
           "org_metadata": {
             "league": "TV2| Tứ Kết | US Open Pool championship",
             "team_a": "David Alcaide",
             "team_b": "Felix Vogel",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1788003316583_David Alcaide.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1788003319180_Felix Vogel.jpg",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1788003569029_David Alcaide.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1788003572282_Felix Vogel.jpg",
             "time": "23:00 29/08",
-            "caster": "Thập Cẩm",
-            "score": "6-1",
+            "caster": "GIÀNG A PHỌ",
+            "score": "7-1",
             "is_live": true,
             "hot": true
           },
@@ -3094,7 +3166,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-d5cd40d5b4_bc2a9ab5_20260830.png?v=bc2a9ab5",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-66a5fbbd7a_87ea65cf_20260830.png?v=87ea65cf",
             "width": 1600,
             "height": 1200
           }
@@ -3172,78 +3244,6 @@
           }
         },
         {
-          "id": "chtv-96576997f7",
-          "name": "Aleksa Pecelj vs Sanjin Pehlivanovic | 01:00 30/08 | Thập Cẩm",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "SAP",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-96576997f7",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-96576997f7",
-                  "name": "Aleksa Pecelj vs Sanjin Pehlivanovic",
-                  "streams": [
-                    {
-                      "id": "st-96576997f7",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-96576997f7",
-                          "name": "Thập Cẩm",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7123/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv22.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Tứ Kết US Open Pool championship",
-            "team_a": "Aleksa Pecelj",
-            "team_b": "Sanjin Pehlivanovic",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1788004705516_Aleksa Pecelj.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1788004708846_Sanjin Pehlivanovic.jpg",
-            "time": "01:00 30/08",
-            "caster": "Thập Cẩm",
-            "score": "0-0",
-            "is_live": false,
-            "hot": false
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-96576997f7_82669a04_20260830.png?v=82669a04",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "chtv-688451cc2b",
           "name": "Fedor Gorst vs Robbie Capito | 01:00 30/08 | GIÀNG A PHỌ",
           "type": "single",
@@ -3311,6 +3311,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-688451cc2b_33e38a6f_20260830.png?v=33e38a6f",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-96576997f7",
+          "name": "Aleksa Pecelj vs Sanjin Pehlivanovic | 01:00 30/08 | Thập Cẩm",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "SAP",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-96576997f7",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-96576997f7",
+                  "name": "Aleksa Pecelj vs Sanjin Pehlivanovic",
+                  "streams": [
+                    {
+                      "id": "st-96576997f7",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-96576997f7",
+                          "name": "Thập Cẩm",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7123/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv22.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Tứ Kết US Open Pool championship",
+            "team_a": "Aleksa Pecelj",
+            "team_b": "Sanjin Pehlivanovic",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1788004705516_Aleksa Pecelj.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1788004708846_Sanjin Pehlivanovic.jpg",
+            "time": "01:00 30/08",
+            "caster": "Thập Cẩm",
+            "score": "0-0",
+            "is_live": false,
+            "hot": false
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-96576997f7_82669a04_20260830.png?v=82669a04",
             "width": 1600,
             "height": 1200
           }
