@@ -1121,11 +1121,90 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá",
+      "name": "⚽ Bóng Đá (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "ph-910664f59b",
+          "name": "Gamba Osaka vs Sanfrecce Hiroshima | 16:00 29/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-910664f59b",
+              "name": "PhaohoaTV",
+              "contents": [
+                {
+                  "id": "ct-910664f59b",
+                  "name": "Gamba Osaka vs Sanfrecce Hiroshima",
+                  "streams": [
+                    {
+                      "id": "st-910664f59b",
+                      "name": "PhaohoaTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-e11cfd9666",
+                          "name": "Tiểu Mây",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://luong.phaohoa.live/live/phaohoa9/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phaohoa1.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://phaohoa1.live"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "J1 League",
+            "team_a": "Gamba Osaka",
+            "team_b": "Sanfrecce Hiroshima",
+            "logo_a": "https://phaohoa1.live/media/teams/logos/team_411.jpg",
+            "logo_b": "https://phaohoa1.live/media/teams/logos/team_5046.jpg",
+            "time": "16:00",
+            "date": "29/08",
+            "blv": "Tiểu Mây",
+            "is_live": true,
+            "cate_type": "football",
+            "status": "live",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/69770_341f9459_20260829.png?v=341f9459",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "gv-dc0b7211dc",
           "name": "Qingdao Hainiu vs Wuhan Three Towns | 16:00 29/08",
@@ -1257,14 +1336,14 @@
                   "streams": [
                     {
                       "id": "st-b6e37fd3a7",
-                      "name": "PhaoHoa - Người Lửa",
+                      "name": "PhaoHoa - Tày",
                       "stream_links": [
                         {
-                          "id": "lnk-c0c00f928c",
-                          "name": "Người Lửa",
+                          "id": "lnk-9501ab9e21",
+                          "name": "Tày",
                           "type": "hls",
                           "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa1/index.m3u8?expire=1815505159&sign=9137553faeae361734eec8bda5ea16e2",
+                          "url": "https://luong.phaohoa.live/live/phaohoa8/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -1477,14 +1556,14 @@
                   "streams": [
                     {
                       "id": "st-dba03fe009",
-                      "name": "PhaoHoa - Tày",
+                      "name": "PhaoHoa - Người Lửa",
                       "stream_links": [
                         {
-                          "id": "lnk-9501ab9e21",
-                          "name": "Tày",
+                          "id": "lnk-c0c00f928c",
+                          "name": "Người Lửa",
                           "type": "hls",
                           "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa8/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149",
+                          "url": "https://luong.phaohoa.live/live/phaohoa1/index.m3u8?expire=1815505159&sign=9137553faeae361734eec8bda5ea16e2",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -1812,85 +1891,6 @@
           }
         },
         {
-          "id": "ph-910664f59b",
-          "name": "Gamba Osaka vs Sanfrecce Hiroshima | 16:00 29/08",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-910664f59b",
-              "name": "PhaohoaTV",
-              "contents": [
-                {
-                  "id": "ct-910664f59b",
-                  "name": "Gamba Osaka vs Sanfrecce Hiroshima",
-                  "streams": [
-                    {
-                      "id": "st-910664f59b",
-                      "name": "PhaohoaTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-e11cfd9666",
-                          "name": "Tiểu Mây",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa9/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://phaohoa1.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://phaohoa1.live"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "J1 League",
-            "team_a": "Gamba Osaka",
-            "team_b": "Sanfrecce Hiroshima",
-            "logo_a": "https://phaohoa1.live/media/teams/logos/team_411.jpg",
-            "logo_b": "https://phaohoa1.live/media/teams/logos/team_5046.jpg",
-            "time": "16:00",
-            "date": "29/08",
-            "blv": "Tiểu Mây",
-            "is_live": false,
-            "cate_type": "football",
-            "status": "scheduled",
-            "home_score": 0,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/69770_341f9459_20260829.png?v=341f9459",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "ph-bbf9bc7323",
           "name": "Vissel Kobe vs Cerezo Osaka | 17:00 29/08",
           "type": "single",
@@ -2155,44 +2155,44 @@
     },
     {
       "id": "grp-billiards",
-      "name": "🎱 Billiards",
+      "name": "🎱 Billiards (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
         {
-          "id": "chtv-a969e4c2f7",
-          "name": "Phương HE vs Tùng Híp | 16:00 29/08",
+          "id": "chtv-65ac0c453f",
+          "name": "KO PIN NHÍ / THÁI SƠN vs TUSROKU / TÀI PHAN | GIÀNG A PHỌ",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "SAP",
+              "text": "LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
             {
-              "id": "src-a969e4c2f7",
+              "id": "src-65ac0c453f",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-a969e4c2f7",
-                  "name": "Phương HE vs Tùng Híp",
+                  "id": "ct-65ac0c453f",
+                  "name": "KO PIN NHÍ / THÁI SƠN vs TUSROKU / TÀI PHAN",
                   "streams": [
                     {
-                      "id": "st-a969e4c2f7",
+                      "id": "st-65ac0c453f",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-a969e4c2f7",
-                          "name": "Stream",
+                          "id": "lnk-65ac0c453f",
+                          "name": "GIÀNG A PHỌ",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7104/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7105/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -2212,166 +2212,22 @@
             }
           ],
           "org_metadata": {
-            "league": "99 Billard V8 Siêu Bịp",
-            "team_a": "Phương HE",
-            "team_b": "Tùng Híp",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1787992343244_PhÆ°Æ¡ng He.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1787992345707_tÃ¹ng hÃ­p.png",
-            "time": "16:00 29/08",
-            "caster": "",
-            "score": "0-0",
-            "is_live": false,
+            "league": "Las Vegas Billiards Entertainment",
+            "team_a": "KO PIN NHÍ / THÁI SƠN",
+            "team_b": "TUSROKU / TÀI PHAN",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1763197166604_billiard-ball-logo-png_seeklogo-248081.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1763197161884_billad.png",
+            "time": "15:45 29/08",
+            "caster": "GIÀNG A PHỌ",
+            "score": "0-2",
+            "is_live": true,
             "hot": true
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-a969e4c2f7_51387065_20260829.png?v=51387065",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-cad4a23756",
-          "name": "Tiến Minh Rau Má vs Duy Đinh | 16:00 29/08",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "SAP",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-cad4a23756",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-cad4a23756",
-                  "name": "Tiến Minh Rau Má vs Duy Đinh",
-                  "streams": [
-                    {
-                      "id": "st-cad4a23756",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-cad4a23756",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7103/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv22.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "99 Billard V8 Siêu Bịp",
-            "team_a": "Tiến Minh Rau Má",
-            "team_b": "Duy Đinh",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1787992235336_Tiáº¿n Minh TH.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1787992247138_Duy Äinh.jpg",
-            "time": "16:00 29/08",
-            "caster": "",
-            "score": "0-0",
-            "is_live": false,
-            "hot": true
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-cad4a23756_9a234d51_20260829.png?v=9a234d51",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-aa04848aab",
-          "name": "Tuyên Con vs Khánh Búa | 16:00 29/08",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "SAP",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-aa04848aab",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-aa04848aab",
-                  "name": "Tuyên Con vs Khánh Búa",
-                  "streams": [
-                    {
-                      "id": "st-aa04848aab",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-aa04848aab",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7101/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv22.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "99 Billard V8 Siêu Bịp",
-            "team_a": "Tuyên Con",
-            "team_b": "Khánh Búa",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1787992106250_TUYÃN CON.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1787992109931_KHÃNH BÃA.jpg",
-            "time": "16:00 29/08",
-            "caster": "",
-            "score": "0-0",
-            "is_live": false,
-            "hot": true
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-aa04848aab_f583d007_20260829.png?v=f583d007",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-65ac0c453f_c5d47df0_20260829.png?v=c5d47df0",
             "width": 1600,
             "height": 1200
           }
