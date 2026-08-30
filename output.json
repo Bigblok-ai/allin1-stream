@@ -3300,7 +3300,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1788090689153_Phong Nam.jpg",
             "time": "19:00 30/08",
             "caster": "Thập Cẩm",
-            "score": "6-9",
+            "score": "7-9",
             "is_live": true,
             "hot": true
           },
@@ -3372,7 +3372,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1765226388907_táº£i xuá»ng.png",
             "time": "19:00 30/08",
             "caster": "GIÀNG A PHỌ",
-            "score": "7-3",
+            "score": "7-4",
             "is_live": true,
             "hot": false
           },
@@ -3444,7 +3444,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1765802421830_táº£i xuá»ng.png",
             "time": "19:00 30/08",
             "caster": "SÊ KÔÔ",
-            "score": "6-5",
+            "score": "8-5",
             "is_live": true,
             "hot": false
           },
@@ -3461,11 +3461,121 @@
     },
     {
       "id": "grp-bóng-chuyền",
-      "name": "🏐 Bóng Chuyền (2 LIVE)",
+      "name": "🏐 Bóng Chuyền (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "gv-0356134039",
+          "name": "Pháp vs Hy Lạp | 21:00 30/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-0356134039",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-0356134039",
+                  "name": "Pháp vs Hy Lạp",
+                  "streams": [
+                    {
+                      "id": "st-0356134039",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-27d53fc016",
+                          "name": "Cận",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1788057298_hd/1788057298_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-add2a1ada2",
+              "name": "PhaohoaTV",
+              "contents": [
+                {
+                  "id": "ct-add2a1ada2",
+                  "name": "Pháp vs Hy Lạp",
+                  "streams": [
+                    {
+                      "id": "st-add2a1ada2",
+                      "name": "PhaoHoa - Chim Nhỏ",
+                      "stream_links": [
+                        {
+                          "id": "lnk-d94a9f6f03",
+                          "name": "Chim Nhỏ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://luong.phaohoa.live/live/phaohoa5/index.m3u8?expire=1815505159&sign=67cc5bcdcabb081229f5406e5b07483d",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phaohoa1.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://phaohoa1.live"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "European Women's Volleyball Championship",
+            "team_a": "Pháp",
+            "team_b": "Hy Lạp",
+            "logo_a": "https://static.flashscore.com/res/image/data/b5COzlBr-ppTTUyXP.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/SABlqUyS-EcK7yLm6.png",
+            "time": "21:00 30/08",
+            "blv": "Cận",
+            "is_live": true,
+            "cate_type": "bongchuyen"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/z9kdwvhpd5dp_85884ab2_20260830.png?v=85884ab2",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "ph-53ddc60bfd",
           "name": "Trung Quốc vs Thái Lan | 17:45 30/08",
@@ -3620,116 +3730,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/74947_3a4016eb_20260830.png?v=3a4016eb",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-0356134039",
-          "name": "Pháp vs Hy Lạp | 21:00 30/08",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-0356134039",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-0356134039",
-                  "name": "Pháp vs Hy Lạp",
-                  "streams": [
-                    {
-                      "id": "st-0356134039",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-27d53fc016",
-                          "name": "Cận",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1788057298_hd/1788057298_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "src-add2a1ada2",
-              "name": "PhaohoaTV",
-              "contents": [
-                {
-                  "id": "ct-add2a1ada2",
-                  "name": "Pháp vs Hy Lạp",
-                  "streams": [
-                    {
-                      "id": "st-add2a1ada2",
-                      "name": "PhaoHoa - Chim Nhỏ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-d94a9f6f03",
-                          "name": "Chim Nhỏ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa5/index.m3u8?expire=1815505159&sign=67cc5bcdcabb081229f5406e5b07483d",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://phaohoa1.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://phaohoa1.live"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "European Women's Volleyball Championship",
-            "team_a": "Pháp",
-            "team_b": "Hy Lạp",
-            "logo_a": "https://static.flashscore.com/res/image/data/b5COzlBr-ppTTUyXP.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/SABlqUyS-EcK7yLm6.png",
-            "time": "21:00 30/08",
-            "blv": "Cận",
-            "is_live": false,
-            "cate_type": "bongchuyen"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/z9kdwvhpd5dp_85884ab2_20260830.png?v=85884ab2",
             "width": 1600,
             "height": 1200
           }
