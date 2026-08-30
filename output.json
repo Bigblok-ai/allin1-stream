@@ -1121,7 +1121,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá",
+      "name": "⚽ Bóng Đá (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1134,10 +1134,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -1185,7 +1185,7 @@
             "logo_b": "https://static.flashscore.com/res/image/data/Cf2X2OAr-0nzZbYGl.png",
             "time": "18:00 30/08",
             "blv": "Bón",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football"
           },
           "image": {
@@ -1193,6 +1193,85 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/wr4cqolyoobx_02769fef_20260830.png?v=02769fef",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "ph-5762747837",
+          "name": "Utrecht vs PSV | 17:15 30/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-5762747837",
+              "name": "PhaohoaTV",
+              "contents": [
+                {
+                  "id": "ct-5762747837",
+                  "name": "Utrecht vs PSV",
+                  "streams": [
+                    {
+                      "id": "st-5762747837",
+                      "name": "PhaohoaTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-e11cfd9666",
+                          "name": "Tiểu Mây",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://luong.phaohoa.live/live/phaohoa9/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phaohoa1.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://phaohoa1.live"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Eredivisie",
+            "team_a": "Utrecht",
+            "team_b": "PSV",
+            "logo_a": "https://phaohoa1.live/media/teams/logos/team_5475.jpg",
+            "logo_b": "https://phaohoa1.live/media/teams/logos/team_150.jpg",
+            "time": "17:15",
+            "date": "30/08",
+            "blv": "Tiểu Mây",
+            "is_live": true,
+            "cate_type": "football",
+            "status": "live",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/71264_fbc7c39a_20260830.png?v=fbc7c39a",
             "width": 1600,
             "height": 1200
           }
@@ -2542,85 +2621,6 @@
           }
         },
         {
-          "id": "ph-5762747837",
-          "name": "Utrecht vs PSV | 17:15 30/08",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-5762747837",
-              "name": "PhaohoaTV",
-              "contents": [
-                {
-                  "id": "ct-5762747837",
-                  "name": "Utrecht vs PSV",
-                  "streams": [
-                    {
-                      "id": "st-5762747837",
-                      "name": "PhaohoaTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-e11cfd9666",
-                          "name": "Tiểu Mây",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa9/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://phaohoa1.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://phaohoa1.live"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Eredivisie",
-            "team_a": "Utrecht",
-            "team_b": "PSV",
-            "logo_a": "https://phaohoa1.live/media/teams/logos/team_5475.jpg",
-            "logo_b": "https://phaohoa1.live/media/teams/logos/team_150.jpg",
-            "time": "17:15",
-            "date": "30/08",
-            "blv": "Tiểu Mây",
-            "is_live": false,
-            "cate_type": "football",
-            "status": "scheduled",
-            "home_score": 0,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/71264_fbc7c39a_20260830.png?v=fbc7c39a",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "ph-4d26fcf6f5",
           "name": "Aberdeen vs Rangers | 18:00 30/08",
           "type": "single",
@@ -3077,7 +3077,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1788079681789_HOÃNG PHÃ THá».png",
             "time": "16:00 30/08",
             "caster": "Đại Kê",
-            "score": "1-2",
+            "score": "1-3",
             "is_live": true,
             "hot": true
           },
@@ -3100,8 +3100,8 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "gv-bff846eacf",
-          "name": "Nhật Bản vs Iran | 14:15 30/08",
+          "id": "ph-3eccce0802",
+          "name": "Iran vs Nhật Bản | 14:15 30/08",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -3115,41 +3115,6 @@
           ],
           "sources": [
             {
-              "id": "src-bff846eacf",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-bff846eacf",
-                  "name": "Nhật Bản vs Iran",
-                  "streams": [
-                    {
-                      "id": "st-bff846eacf",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-94bbd57f09",
-                          "name": "Trĩ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1788069206_hd/1788069206_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
               "id": "src-3eccce0802",
               "name": "PhaohoaTV",
               "contents": [
@@ -3159,7 +3124,7 @@
                   "streams": [
                     {
                       "id": "st-3eccce0802",
-                      "name": "PhaoHoa - Tày",
+                      "name": "PhaohoaTV",
                       "stream_links": [
                         {
                           "id": "lnk-9501ab9e21",
@@ -3190,21 +3155,25 @@
             }
           ],
           "org_metadata": {
-            "league": "Asian Women's Volleyball Championship",
-            "team_a": "Nhật Bản",
-            "team_b": "Iran",
-            "logo_a": "https://static.flashscore.com/res/image/data/EZHAVpFa-hhXdwebJ.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/xt3pVREa-tWhhL1yr.png",
-            "time": "14:15 30/08",
-            "blv": "Trĩ",
+            "league": "Vô Địch Châu Á",
+            "team_a": "Iran",
+            "team_b": "Nhật Bản",
+            "logo_a": "https://phaohoa1.live/media/teams/logos/OIP_xjljaQl.jpg",
+            "logo_b": "https://phaohoa1.live/media/teams/logos/OIP_4xNC98N.jpg",
+            "time": "14:15",
+            "date": "30/08",
+            "blv": "Tày",
             "is_live": true,
-            "cate_type": "bongchuyen"
+            "cate_type": "bong-chuyen",
+            "status": "live",
+            "home_score": 0,
+            "away_score": 0
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/n03vzz4vljc6_3a2b783d_20260830.png?v=3a2b783d",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/74944_ccd1dd7e_20260830.png?v=ccd1dd7e",
             "width": 1600,
             "height": 1200
           }
