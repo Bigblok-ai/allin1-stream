@@ -2963,11 +2963,83 @@
     },
     {
       "id": "grp-billiards",
-      "name": "🎱 Billiards (1 LIVE)",
+      "name": "🎱 Billiards (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "chtv-d3e2ee7ad3",
+          "name": "GUAN Zhen 管震 vs ZHENG Xiaohuai 鄭肖淮 | Xinh Yeu",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-d3e2ee7ad3",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-d3e2ee7ad3",
+                  "name": "GUAN Zhen 管震 vs ZHENG Xiaohuai 鄭肖淮",
+                  "streams": [
+                    {
+                      "id": "st-d3e2ee7ad3",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-d3e2ee7ad3",
+                          "name": "Xinh Yeu",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7182/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv22.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "2026 CBSA 中國9號球巡迴賽．CBSA Pool",
+            "team_a": "GUAN Zhen 管震",
+            "team_b": "ZHENG Xiaohuai 鄭肖淮",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1767589654308_images.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1767589654308_images.png",
+            "time": "00:00 31/08",
+            "caster": "Xinh Yeu",
+            "score": "2-2",
+            "is_live": true,
+            "hot": true
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-d3e2ee7ad3_634f1e85_20260831.png?v=634f1e85",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "chtv-6415b256ae",
           "name": "Khầy Nam vs Tùng Híp | Thập Cẩm",
@@ -3027,7 +3099,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1788160842543_tÃ¹ng hÃ­p.png",
             "time": "14:15 31/08",
             "caster": "Thập Cẩm",
-            "score": "4-8",
+            "score": "6-8",
             "is_live": true,
             "hot": true
           },
