@@ -1121,7 +1121,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (1 LIVE)",
+      "name": "⚽ Bóng Đá (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1201,6 +1201,85 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/76197_a6495b10_20260831.png?v=a6495b10",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "ph-2ebd935fb1",
+          "name": "Saudi Arabia U20 vs Hong Kong U20 | 23:00 31/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-2ebd935fb1",
+              "name": "PhaohoaTV",
+              "contents": [
+                {
+                  "id": "ct-2ebd935fb1",
+                  "name": "Saudi Arabia U20 vs Hong Kong U20",
+                  "streams": [
+                    {
+                      "id": "st-2ebd935fb1",
+                      "name": "PhaohoaTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-cbc47e2fc7",
+                          "name": "Văn Minh",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://luong.phaohoa.live/live/phaohoa3/index.m3u8?expire=1815505159&sign=32dbf97946c3646cdd7f664aebd7fa2a",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phaohoa1.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://phaohoa1.live"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "AFC U20 Asian Cup",
+            "team_a": "Saudi Arabia U20",
+            "team_b": "Hong Kong U20",
+            "logo_a": "https://phaohoa1.live/media/teams/logos/team_9030.jpg",
+            "logo_b": "https://phaohoa1.live/media/teams/logos/Flag_of_Hong_Kong.svg.webp",
+            "time": "23:00",
+            "date": "31/08",
+            "blv": "Văn Minh",
+            "is_live": true,
+            "cate_type": "football",
+            "status": "live",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/76199_f1e979fa_20260831.png?v=f1e979fa",
             "width": 1600,
             "height": 1200
           }
@@ -2413,85 +2492,6 @@
           }
         },
         {
-          "id": "ph-2ebd935fb1",
-          "name": "Saudi Arabia U20 vs Hong Kong U20 | 23:00 31/08",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-2ebd935fb1",
-              "name": "PhaohoaTV",
-              "contents": [
-                {
-                  "id": "ct-2ebd935fb1",
-                  "name": "Saudi Arabia U20 vs Hong Kong U20",
-                  "streams": [
-                    {
-                      "id": "st-2ebd935fb1",
-                      "name": "PhaohoaTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-cbc47e2fc7",
-                          "name": "Văn Minh",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa3/index.m3u8?expire=1815505159&sign=32dbf97946c3646cdd7f664aebd7fa2a",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://phaohoa1.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://phaohoa1.live"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "AFC U20 Asian Cup",
-            "team_a": "Saudi Arabia U20",
-            "team_b": "Hong Kong U20",
-            "logo_a": "https://phaohoa1.live/media/teams/logos/team_9030.jpg",
-            "logo_b": "https://phaohoa1.live/media/teams/logos/Flag_of_Hong_Kong.svg.webp",
-            "time": "23:00",
-            "date": "31/08",
-            "blv": "Văn Minh",
-            "is_live": false,
-            "cate_type": "football",
-            "status": "scheduled",
-            "home_score": 0,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/76199_f1e979fa_20260831.png?v=f1e979fa",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "ph-fb5c965f28",
           "name": "Parma vs Cremonese | 23:00 01/09",
           "type": "single",
@@ -2665,6 +2665,432 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "gv-e76c065318",
+          "name": "Greece vs Spain | 23:00 31/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-e76c065318",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-e76c065318",
+                  "name": "Greece vs Spain",
+                  "streams": [
+                    {
+                      "id": "st-e76c065318",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-e25ba7fd1b",
+                          "name": "Cầy",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1788169007_hd/1788169007_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "FIBA Basketball World Cup",
+            "team_a": "Greece",
+            "team_b": "Spain",
+            "logo_a": "https://static.flashscore.com/res/image/data/UknZz5hl-EcK7yLm6.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/b5W8NzWg-Ykwr8Dur.png",
+            "time": "23:00 31/08",
+            "blv": "Cầy",
+            "is_live": false,
+            "cate_type": "basketball"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/bcy41bp6f6w9_4ae111a9_20260831.png?v=4ae111a9",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-7b7ccaf5e9",
+          "name": "Italy vs Serbia | 00:30 01/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-7b7ccaf5e9",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-7b7ccaf5e9",
+                  "name": "Italy vs Serbia",
+                  "streams": [
+                    {
+                      "id": "st-7b7ccaf5e9",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-0e26c106ee",
+                          "name": "Điếc",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1788187740_hd/1788187740_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "FIBA Basketball World Cup",
+            "team_a": "Italy",
+            "team_b": "Serbia",
+            "logo_a": "https://static.flashscore.com/res/image/data/8GPRc1yB-xCsenx2O.png",
+            "logo_b": "https://ssl.gstatic.com/onebox/media/sports/logos/optimized/xyh1vmZ-xJH2iJCKjqS1Ow_96x96.png",
+            "time": "00:30 01/09",
+            "blv": "Điếc",
+            "is_live": false,
+            "cate_type": "basketball"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/v5ttiv08irpu_a68651f6_20260831.png?v=a68651f6",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-36ebf2ad0e",
+          "name": "Portugal vs Georgia | 01:00 01/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-36ebf2ad0e",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-36ebf2ad0e",
+                  "name": "Portugal vs Georgia",
+                  "streams": [
+                    {
+                      "id": "st-36ebf2ad0e",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-6c8d235b62",
+                          "name": "Cầy",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1788187828_hd/1788187828_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "FIBA Basketball World Cup",
+            "team_a": "Portugal",
+            "team_b": "Georgia",
+            "logo_a": "https://static.flashscore.com/res/image/data/04ip3LDa-OYQpqern.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/YBj2Fjgl-prStpyTu.png",
+            "time": "01:00 01/09",
+            "blv": "Cầy",
+            "is_live": false,
+            "cate_type": "basketball"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/cnic4o5j4whu_d7bec40d_20260831.png?v=d7bec40d",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-61a9cf13ac",
+          "name": "Montenegro vs Ukraine | 01:30 01/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-61a9cf13ac",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-61a9cf13ac",
+                  "name": "Montenegro vs Ukraine",
+                  "streams": [
+                    {
+                      "id": "st-61a9cf13ac",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-9711b3db09",
+                          "name": "Ben",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1788187905_hd/1788187905_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "FIBA Basketball World Cup",
+            "team_a": "Montenegro",
+            "team_b": "Ukraine",
+            "logo_a": "https://static.flashscore.com/res/image/data/GOwNCUzS-prStpyTu.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/6sYNPFZA-K6NdtgS4.png",
+            "time": "01:30 01/09",
+            "blv": "Ben",
+            "is_live": false,
+            "cate_type": "basketball"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/2vn47p6y36sp_8c0c8623_20260831.png?v=8c0c8623",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-db6292445b",
+          "name": "USA vs Colombia | 06:00 01/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-db6292445b",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-db6292445b",
+                  "name": "USA vs Colombia",
+                  "streams": [
+                    {
+                      "id": "st-db6292445b",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-fb2b65d847",
+                          "name": "Vịt",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1788188000_hd/1788188000_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "FIBA Basketball World Cup",
+            "team_a": "USA",
+            "team_b": "Colombia",
+            "logo_a": "https://static.flashscore.com/res/image/data/GpV4Cle5-MPdHoKT3.png",
+            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/837b4abebae457d3c7331cba81aeed94.jpg",
+            "time": "06:00 01/09",
+            "blv": "Vịt",
+            "is_live": false,
+            "cate_type": "basketball"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/h3s5v9s5b6de_c0d2c772_20260831.png?v=c0d2c772",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-50fc717016",
+          "name": "Canada vs Argentina | 06:10 01/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-50fc717016",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-50fc717016",
+                  "name": "Canada vs Argentina",
+                  "streams": [
+                    {
+                      "id": "st-50fc717016",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-5039c80817",
+                          "name": "Cận",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1788188094_hd/1788188094_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "FIBA Basketball World Cup",
+            "team_a": "Canada",
+            "team_b": "Argentina",
+            "logo_a": "https://cdn.keobongvip.digital/images/basketball-teams/ba993f17f671a23a20b0d27c4cc2582b.jpg",
+            "logo_b": "https://images.keovip88.net/images/teams/argentina.png",
+            "time": "06:10 01/09",
+            "blv": "Cận",
+            "is_live": false,
+            "cate_type": "basketball"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/qrv80oldon13_de16dc52_20260831.png?v=de16dc52",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     },
@@ -2734,7 +3160,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1788179176402_áº¢nh chá»¥p mÃ n hÃ¬nh 2026-08-31 192350.png",
             "time": "20:00 31/08",
             "caster": "Thập Cẩm",
-            "score": "8-10",
+            "score": "9-10",
             "is_live": true,
             "hot": true
           },
@@ -2751,7 +3177,7 @@
     },
     {
       "id": "grp-bóng-chuyền",
-      "name": "🏐 Bóng Chuyền (1 LIVE)",
+      "name": "🏐 Bóng Chuyền (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -2831,6 +3257,227 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/76185_b4ea4d31_20260831.png?v=b4ea4d31",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "ph-764a77c4da",
+          "name": "Ba Lan vs Bồ Đào Nha | 23:00 31/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-764a77c4da",
+              "name": "PhaohoaTV",
+              "contents": [
+                {
+                  "id": "ct-764a77c4da",
+                  "name": "Ba Lan vs Bồ Đào Nha",
+                  "streams": [
+                    {
+                      "id": "st-764a77c4da",
+                      "name": "PhaohoaTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-5c0c4aafd8",
+                          "name": "KaKa",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://luong.phaohoa.live/live/phaohoa6/index.m3u8?expire=1815505159&sign=16059952b038cc8982ab6d1980711dc9",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phaohoa1.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://phaohoa1.live"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Vô Địch Châu Âu",
+            "team_a": "Ba Lan",
+            "team_b": "Bồ Đào Nha",
+            "logo_a": "https://phaohoa1.live/media/teams/logos/OIP_uiH5uS2.jpg",
+            "logo_b": "https://phaohoa1.live/media/teams/logos/OIP_d8ChyRq.jpg",
+            "time": "23:00",
+            "date": "31/08",
+            "blv": "KaKa",
+            "is_live": true,
+            "cate_type": "bong-chuyen",
+            "status": "live",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/76187_6244ba1a_20260831.png?v=6244ba1a",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-2aa72c1e43",
+          "name": "Turkey vs Azerbaijan | 23:00 01/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-2aa72c1e43",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-2aa72c1e43",
+                  "name": "Turkey vs Azerbaijan",
+                  "streams": [
+                    {
+                      "id": "st-2aa72c1e43",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-e931f06743",
+                          "name": "Điếc",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1788177567_hd/1788177567_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "European Women's Volleyball Championship",
+            "team_a": "Turkey",
+            "team_b": "Azerbaijan",
+            "logo_a": "https://static.flashscore.com/res/image/data/Q7zzy7HG-Cfuwb3yH.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/QXDfRbZg-dtrVaP64.png",
+            "time": "23:00 01/09",
+            "blv": "Điếc",
+            "is_live": false,
+            "cate_type": "bongchuyen"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/n5pbus3uteb1_b4605425_20260831.png?v=b4605425",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-ed7ae58c3e",
+          "name": "Ba Lan vs Portugal | 23:00 01/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-ed7ae58c3e",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-ed7ae58c3e",
+                  "name": "Ba Lan vs Portugal",
+                  "streams": [
+                    {
+                      "id": "st-ed7ae58c3e",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-04adc1bad3",
+                          "name": "Sún",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1788188246_hd/1788188246_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "European Women's Volleyball Championship",
+            "team_a": "Ba Lan",
+            "team_b": "Portugal",
+            "logo_a": "https://static.flashscore.com/res/image/data/WnW15DfM-6ys9CWQj.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/4jp4rKzB-MsdcFnxp.png",
+            "time": "23:00 01/09",
+            "blv": "Sún",
+            "is_live": false,
+            "cate_type": "bongchuyen"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/vhpjqunz29ci_7ac231aa_20260831.png?v=7ac231aa",
             "width": 1600,
             "height": 1200
           }
@@ -3068,85 +3715,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/76471_01b1db14_20260831.png?v=01b1db14",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "ph-764a77c4da",
-          "name": "Ba Lan vs Bồ Đào Nha | 23:00 31/08",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-764a77c4da",
-              "name": "PhaohoaTV",
-              "contents": [
-                {
-                  "id": "ct-764a77c4da",
-                  "name": "Ba Lan vs Bồ Đào Nha",
-                  "streams": [
-                    {
-                      "id": "st-764a77c4da",
-                      "name": "PhaohoaTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-5c0c4aafd8",
-                          "name": "KaKa",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa6/index.m3u8?expire=1815505159&sign=16059952b038cc8982ab6d1980711dc9",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://phaohoa1.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://phaohoa1.live"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Vô Địch Châu Âu",
-            "team_a": "Ba Lan",
-            "team_b": "Bồ Đào Nha",
-            "logo_a": "https://phaohoa1.live/media/teams/logos/OIP_uiH5uS2.jpg",
-            "logo_b": "https://phaohoa1.live/media/teams/logos/OIP_d8ChyRq.jpg",
-            "time": "23:00",
-            "date": "31/08",
-            "blv": "KaKa",
-            "is_live": false,
-            "cate_type": "bong-chuyen",
-            "status": "scheduled",
-            "home_score": 0,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/76187_6244ba1a_20260831.png?v=6244ba1a",
             "width": 1600,
             "height": 1200
           }
