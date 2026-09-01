@@ -2945,11 +2945,83 @@
     },
     {
       "id": "grp-tennis",
-      "name": "🎾 Tennis",
+      "name": "🎾 Tennis (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
-      "channels": []
+      "channels": [
+        {
+          "id": "gv-c4d59c08d7",
+          "name": "US vs Open | 22:00 01/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-c4d59c08d7",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-c4d59c08d7",
+                  "name": "US vs Open",
+                  "streams": [
+                    {
+                      "id": "st-c4d59c08d7",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-056118295d",
+                          "name": "Ben",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1788267485_hd/1788267485_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "US Open",
+            "team_a": "US",
+            "team_b": "Open",
+            "logo_a": "https://yt3.googleusercontent.com/RA-1cQf66Q8tb1Yp5hbXeJvbGL1MrPrK_45ptJrulgj6lYH5NLylYk9m2A9bAwP-KhxohNaZ=s900-c-k-c0x00ffffff-no-rj",
+            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtIj6qCCLU-5wjbh0CaMDY5GGye3BYQUFyl7fZoWqDjEnjVpaIuJF4b6I&s=10",
+            "time": "22:00 01/09",
+            "blv": "Ben",
+            "is_live": true,
+            "cate_type": "tennis"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/4a9rhz3di2k8_9f966bc3_20260901.png?v=9f966bc3",
+            "width": 1600,
+            "height": 1200
+          }
+        }
+      ]
     },
     {
       "id": "grp-cầu-lông",
@@ -3176,7 +3248,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1788274335443_Screenshot 2026-09-01 185057.png",
             "time": "00:00 01/09",
             "caster": "Xinh Yeu",
-            "score": "0-0",
+            "score": "0-1",
             "is_live": true,
             "hot": true
           },
@@ -3283,7 +3355,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1788274069399_phil.png",
             "time": "00:00 01/09",
             "caster": "Thập Cẩm",
-            "score": "1-1",
+            "score": "2-1",
             "is_live": true,
             "hot": true
           },
