@@ -1121,11 +1121,82 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (1 LIVE)",
+      "name": "⚽ Bóng Đá (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "gv-3399fd453d",
+          "name": "Dalian Yifang vs Shanghai Shenhua | 18:35 01/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-3399fd453d",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-3399fd453d",
+                  "name": "Dalian Yifang vs Shanghai Shenhua",
+                  "streams": [
+                    {
+                      "id": "st-3399fd453d",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-336a501277",
+                          "name": "Tỵ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1788227600_hd/1788227600_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "China - FA Cup",
+            "team_a": "Dalian Yifang",
+            "team_b": "Shanghai Shenhua",
+            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT48QMFJTcDFiEduqulcjZJ2rgTw_UocZhhM4M8FsPmFg&s=10",
+            "logo_b": "https://images.keovip88.net/images/teams/shanghai-shenhua.png",
+            "time": "18:35 01/09",
+            "blv": "Tỵ",
+            "is_live": true,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/takphyzdsvvc_c95247a2_20260901.png?v=c95247a2",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "ph-368ab5c058",
           "name": "Damansara vs Johor DT | 16:00 01/09",
@@ -1201,77 +1272,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/73299_76633248_20260901.png?v=76633248",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-3399fd453d",
-          "name": "Dalian Yifang vs Shanghai Shenhua | 18:35 01/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-3399fd453d",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-3399fd453d",
-                  "name": "Dalian Yifang vs Shanghai Shenhua",
-                  "streams": [
-                    {
-                      "id": "st-3399fd453d",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-336a501277",
-                          "name": "Tỵ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1788227600_hd/1788227600_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "China - FA Cup",
-            "team_a": "Dalian Yifang",
-            "team_b": "Shanghai Shenhua",
-            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT48QMFJTcDFiEduqulcjZJ2rgTw_UocZhhM4M8FsPmFg&s=10",
-            "logo_b": "https://images.keovip88.net/images/teams/shanghai-shenhua.png",
-            "time": "18:35 01/09",
-            "blv": "Tỵ",
-            "is_live": false,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/takphyzdsvvc_c95247a2_20260901.png?v=c95247a2",
             "width": 1600,
             "height": 1200
           }
@@ -3189,78 +3189,6 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "chtv-3b2547a0b5",
-          "name": "Ko Pin Yi vs Ko Ping Chung | Đại Kê",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-3b2547a0b5",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-3b2547a0b5",
-                  "name": "Ko Pin Yi vs Ko Ping Chung",
-                  "streams": [
-                    {
-                      "id": "st-3b2547a0b5",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-3b2547a0b5",
-                          "name": "Đại Kê",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7203/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv22.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "柯秉逸 Billiards",
-            "team_a": "Ko Pin Yi",
-            "team_b": "Ko Ping Chung",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1788255392871_Screenshot 2026-07-07 002427.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1788255392164_Screenshot 2026-07-07 002427.png",
-            "time": "00:00 01/09",
-            "caster": "Đại Kê",
-            "score": "25-52",
-            "is_live": true,
-            "hot": false
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-3b2547a0b5_82fc28bc_20260901.png?v=82fc28bc",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "chtv-592efa4bb0",
           "name": "GEBBY PUTRA vs JOHANN CHUA | Thập Cẩm",
           "type": "single",
@@ -3333,6 +3261,78 @@
           }
         },
         {
+          "id": "chtv-3b2547a0b5",
+          "name": "Ko Pin Yi vs Ko Ping Chung | Đại Kê",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-3b2547a0b5",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-3b2547a0b5",
+                  "name": "Ko Pin Yi vs Ko Ping Chung",
+                  "streams": [
+                    {
+                      "id": "st-3b2547a0b5",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-3b2547a0b5",
+                          "name": "Đại Kê",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7203/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv22.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "柯秉逸 Billiards",
+            "team_a": "Ko Pin Yi",
+            "team_b": "Ko Ping Chung",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1788255392871_Screenshot 2026-07-07 002427.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1788255392164_Screenshot 2026-07-07 002427.png",
+            "time": "00:00 01/09",
+            "caster": "Đại Kê",
+            "score": "35-52",
+            "is_live": true,
+            "hot": false
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-3b2547a0b5_82fc28bc_20260901.png?v=82fc28bc",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "chtv-e8d045d696",
           "name": "THÀNH NAK vs TÙNG HÍP | Đại Kê",
           "type": "single",
@@ -3391,7 +3391,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1765337449015_táº£i xuá»ng.png",
             "time": "15:00 01/09",
             "caster": "Đại Kê",
-            "score": "7-8",
+            "score": "8-8",
             "is_live": true,
             "hot": true
           },
@@ -3535,7 +3535,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1788246849486_Screenshot 2026-09-01 141322.png",
             "time": "16:00 01/09",
             "caster": "GIÀNG A PHỌ",
-            "score": "5-6",
+            "score": "6-5",
             "is_live": true,
             "hot": true
           },
