@@ -3342,11 +3342,84 @@
     },
     {
       "id": "grp-billiards",
-      "name": "🎱 Billiards",
+      "name": "🎱 Billiards (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
-      "channels": []
+      "channels": [
+        {
+          "id": "chtv-499f2f7087",
+          "name": "CHÀO MỪNG 81 NĂM vs QUỐC KHÁNH NCHXHCN Việt Nam | SPCHOANG",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-499f2f7087",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-499f2f7087",
+                  "name": "CHÀO MỪNG 81 NĂM vs QUỐC KHÁNH NCHXHCN Việt Nam",
+                  "streams": [
+                    {
+                      "id": "st-499f2f7087",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-499f2f7087",
+                          "name": "SPCHOANG",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7220/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv22.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "🇻🇳“Hỡi đồng bào cả nước, tất cả mọi người đều sinh ra có quyền bình đẳng!”",
+            "team_a": "CHÀO MỪNG 81 NĂM",
+            "team_b": "QUỐC KHÁNH NCHXHCN Việt Nam",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1765226684776_táº£i xuá»ng.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1765226385179_táº£i xuá»ng.png",
+            "time": "00:00 02/09",
+            "caster": "SPCHOANG",
+            "score": "0-0",
+            "is_live": true,
+            "hot": true
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-499f2f7087_b9699ec7_20260902.png?v=b9699ec7",
+            "width": 1600,
+            "height": 1200
+          }
+        }
+      ]
     },
     {
       "id": "grp-bóng-chuyền",
