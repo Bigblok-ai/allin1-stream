@@ -3183,83 +3183,11 @@
     },
     {
       "id": "grp-billiards",
-      "name": "🎱 Billiards (4 LIVE)",
+      "name": "🎱 Billiards (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "chtv-bd7df59b68",
-          "name": "KO PIN NHÍ vs TUS ROKU",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-bd7df59b68",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-bd7df59b68",
-                  "name": "KO PIN NHÍ vs TUS ROKU",
-                  "streams": [
-                    {
-                      "id": "st-bd7df59b68",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-bd7df59b68",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7210/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv22.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Đại Chiến Bình Dương Vô Tận Las Vegas",
-            "team_a": "KO PIN NHÍ",
-            "team_b": "TUS ROKU",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1788265028177_Screenshot 2026-09-01 185047.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1788265027967_Screenshot 2026-09-01 185057.png",
-            "time": "00:00 01/09",
-            "caster": "",
-            "score": "3-3",
-            "is_live": true,
-            "hot": true
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-bd7df59b68_886f2c71_20260901.png?v=886f2c71",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "chtv-9c1dbc7133",
           "name": "DAN NEILO ZAMBRANO vs MARK RUSSEL SARUSAD | Đại Kê",
@@ -3480,11 +3408,90 @@
     },
     {
       "id": "grp-bóng-chuyền",
-      "name": "🏐 Bóng Chuyền",
+      "name": "🏐 Bóng Chuyền (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "ph-56ffce673e",
+          "name": "Bỉ vs Đức | 20:00 01/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-56ffce673e",
+              "name": "PhaohoaTV",
+              "contents": [
+                {
+                  "id": "ct-56ffce673e",
+                  "name": "Bỉ vs Đức",
+                  "streams": [
+                    {
+                      "id": "st-56ffce673e",
+                      "name": "PhaohoaTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-9501ab9e21",
+                          "name": "Tày",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://luong.phaohoa.live/live/phaohoa8/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phaohoa1.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://phaohoa1.live"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "CEV Cup",
+            "team_a": "Bỉ",
+            "team_b": "Đức",
+            "logo_a": "https://phaohoa1.live/media/teams/logos/OIP.jpg",
+            "logo_b": "https://phaohoa1.live/media/teams/logos/OIP_A336z2d.jpg",
+            "time": "20:00",
+            "date": "01/09",
+            "blv": "Tày",
+            "is_live": true,
+            "cate_type": "bong-chuyen",
+            "status": "live",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/76471_01b1db14_20260901.png?v=01b1db14",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "gv-2aa72c1e43",
           "name": "Turkey vs Azerbaijan | 23:00 01/09",
@@ -3552,85 +3559,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/n5pbus3uteb1_b4605425_20260901.png?v=b4605425",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "ph-56ffce673e",
-          "name": "Bỉ vs Đức | 20:00 01/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-56ffce673e",
-              "name": "PhaohoaTV",
-              "contents": [
-                {
-                  "id": "ct-56ffce673e",
-                  "name": "Bỉ vs Đức",
-                  "streams": [
-                    {
-                      "id": "st-56ffce673e",
-                      "name": "PhaohoaTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-9501ab9e21",
-                          "name": "Tày",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa8/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://phaohoa1.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://phaohoa1.live"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "CEV Cup",
-            "team_a": "Bỉ",
-            "team_b": "Đức",
-            "logo_a": "https://phaohoa1.live/media/teams/logos/OIP.jpg",
-            "logo_b": "https://phaohoa1.live/media/teams/logos/OIP_A336z2d.jpg",
-            "time": "20:00",
-            "date": "01/09",
-            "blv": "Tày",
-            "is_live": false,
-            "cate_type": "bong-chuyen",
-            "status": "scheduled",
-            "home_score": 0,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/76471_01b1db14_20260901.png?v=01b1db14",
             "width": 1600,
             "height": 1200
           }
@@ -3896,7 +3824,79 @@
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
-      "channels": []
+      "channels": [
+        {
+          "id": "gv-16943a863d",
+          "name": "Dana White's Contender Series vs Dana White's Contender Series | 06:00 02/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-16943a863d",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-16943a863d",
+                  "name": "Dana White's Contender Series vs Dana White's Contender Series",
+                  "streams": [
+                    {
+                      "id": "st-16943a863d",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-f9fc5aacfb",
+                          "name": "Dory",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1788265431_hd/1788265431_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Dana White's Contender Series: Season 10, Week 4",
+            "team_a": "Dana White's Contender Series",
+            "team_b": "Dana White's Contender Series",
+            "logo_a": "https://i.ytimg.com/vi/QwMpY_qE6I0/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLDnWMRsVHpxLb6YanFciR00_crz-g",
+            "logo_b": "https://r2.thesportsdb.com/images/media/event/poster/2u5cla1786011836.jpg",
+            "time": "06:00 02/09",
+            "blv": "Dory",
+            "is_live": false,
+            "cate_type": "vothuat"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/4w8rpzu5c118_a949591b_20260901.png?v=a949591b",
+            "width": 1600,
+            "height": 1200
+          }
+        }
+      ]
     },
     {
       "id": "grp-bóng-chày",
