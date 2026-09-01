@@ -1121,11 +1121,90 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá",
+      "name": "⚽ Bóng Đá (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "ph-368ab5c058",
+          "name": "Damansara vs Johor DT | 16:00 01/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-368ab5c058",
+              "name": "PhaohoaTV",
+              "contents": [
+                {
+                  "id": "ct-368ab5c058",
+                  "name": "Damansara vs Johor DT",
+                  "streams": [
+                    {
+                      "id": "st-368ab5c058",
+                      "name": "PhaohoaTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-f536973e27",
+                          "name": "Pháo Thủ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://luong.phaohoa.live/live/phaohoa4/index.m3u8?expire=1815505159&sign=faaa23580764370ed378ecd708c9f262",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phaohoa1.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://phaohoa1.live"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "FA Cup",
+            "team_a": "Damansara",
+            "team_b": "Johor DT",
+            "logo_a": "https://phaohoa1.live/media/teams/logos/UM-Damansara_United.png",
+            "logo_b": "https://phaohoa1.live/media/teams/logos/team_386.jpg",
+            "time": "16:00",
+            "date": "01/09",
+            "blv": "Pháo Thủ",
+            "is_live": true,
+            "cate_type": "football",
+            "status": "live",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/73299_76633248_20260901.png?v=76633248",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "gv-3399fd453d",
           "name": "Dalian Yifang vs Shanghai Shenhua | 18:35 01/09",
@@ -1981,85 +2060,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/72503_ee3a8256_20260901.png?v=ee3a8256",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "ph-368ab5c058",
-          "name": "Damansara vs Johor DT | 16:00 01/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-368ab5c058",
-              "name": "PhaohoaTV",
-              "contents": [
-                {
-                  "id": "ct-368ab5c058",
-                  "name": "Damansara vs Johor DT",
-                  "streams": [
-                    {
-                      "id": "st-368ab5c058",
-                      "name": "PhaohoaTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-f536973e27",
-                          "name": "Pháo Thủ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa4/index.m3u8?expire=1815505159&sign=faaa23580764370ed378ecd708c9f262",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://phaohoa1.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://phaohoa1.live"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "FA Cup",
-            "team_a": "Damansara",
-            "team_b": "Johor DT",
-            "logo_a": "https://phaohoa1.live/media/teams/logos/UM-Damansara_United.png",
-            "logo_b": "https://phaohoa1.live/media/teams/logos/team_386.jpg",
-            "time": "16:00",
-            "date": "01/09",
-            "blv": "Pháo Thủ",
-            "is_live": false,
-            "cate_type": "football",
-            "status": "scheduled",
-            "home_score": 0,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/73299_76633248_20260901.png?v=76633248",
             "width": 1600,
             "height": 1200
           }
@@ -3328,78 +3328,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-e8d045d696_9fc7059c_20260901.png?v=9fc7059c",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-90c9237458",
-          "name": "KO PIN NHÍ vs TUS ROKU | 16:00 01/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "SAP",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-90c9237458",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-90c9237458",
-                  "name": "KO PIN NHÍ vs TUS ROKU",
-                  "streams": [
-                    {
-                      "id": "st-90c9237458",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-90c9237458",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7200/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv22.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Đại Chiến Bình Dương Vô Tận Las Vegas",
-            "team_a": "KO PIN NHÍ",
-            "team_b": "TUS ROKU",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1788246847087_Screenshot 2026-09-01 141315.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1788246849486_Screenshot 2026-09-01 141322.png",
-            "time": "16:00 01/09",
-            "caster": "",
-            "score": "0-0",
-            "is_live": false,
-            "hot": true
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-90c9237458_d3cacc9a_20260901.png?v=d3cacc9a",
             "width": 1600,
             "height": 1200
           }
