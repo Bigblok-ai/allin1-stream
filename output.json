@@ -1121,11 +1121,82 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (1 LIVE)",
+      "name": "⚽ Bóng Đá (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "gv-320ad5951f",
+          "name": "Flamengo vs Mirassol FC | 05:30 03/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-320ad5951f",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-320ad5951f",
+                  "name": "Flamengo vs Mirassol FC",
+                  "streams": [
+                    {
+                      "id": "st-320ad5951f",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-b4ee1b021a",
+                          "name": "Ngọng",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1788370421_hd/1788370421_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "VĐQG Brazil",
+            "team_a": "Flamengo",
+            "team_b": "Mirassol FC",
+            "logo_a": "https://images.keovip88.net/images/teams/flamengo.png",
+            "logo_b": "https://images.keovip88.net/images/teams/mirassol.png",
+            "time": "05:30 03/09",
+            "blv": "Ngọng",
+            "is_live": true,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/699cea0b24d46db8701ac90c_6f477c28_20260903.png?v=6f477c28",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "ph-e61d4aeb0c",
           "name": "Real Madrid W vs Ajax W | 01:00 03/09",
@@ -1201,77 +1272,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/72892_12bbe9e0_20260903.png?v=12bbe9e0",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-320ad5951f",
-          "name": "Flamengo vs Mirassol FC | 05:30 03/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-320ad5951f",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-320ad5951f",
-                  "name": "Flamengo vs Mirassol FC",
-                  "streams": [
-                    {
-                      "id": "st-320ad5951f",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-b4ee1b021a",
-                          "name": "Ngọng",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1788370421_hd/1788370421_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "VĐQG Brazil",
-            "team_a": "Flamengo",
-            "team_b": "Mirassol FC",
-            "logo_a": "https://images.keovip88.net/images/teams/flamengo.png",
-            "logo_b": "https://images.keovip88.net/images/teams/mirassol.png",
-            "time": "05:30 03/09",
-            "blv": "Ngọng",
-            "is_live": false,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/699cea0b24d46db8701ac90c_6f477c28_20260903.png?v=6f477c28",
             "width": 1600,
             "height": 1200
           }
