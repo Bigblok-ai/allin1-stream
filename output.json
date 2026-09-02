@@ -3556,7 +3556,7 @@
     },
     {
       "id": "grp-tennis",
-      "name": "🎾 Tennis",
+      "name": "🎾 Tennis (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -3569,10 +3569,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -3620,7 +3620,7 @@
             "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSid8hQv3qe8eN2yrnvzVq1QmXBW_oGlXIE1MLfSILg1A&s=10",
             "time": "02:00 03/09",
             "blv": "Điếc",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "tennis"
           },
           "image": {
@@ -4164,8 +4164,8 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "gv-3833b5f815",
-          "name": "Italy vs Thụy Điển | 00:00 03/09",
+          "id": "ph-aa5e4ed39e",
+          "name": "Italy vs Thuỵ Điển | 00:00 03/09",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -4179,41 +4179,6 @@
           ],
           "sources": [
             {
-              "id": "src-3833b5f815",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-3833b5f815",
-                  "name": "Italy vs Thụy Điển",
-                  "streams": [
-                    {
-                      "id": "st-3833b5f815",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-569219e69a",
-                          "name": "Điếc",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1788361289_hd/1788361289_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
               "id": "src-aa5e4ed39e",
               "name": "PhaohoaTV",
               "contents": [
@@ -4223,7 +4188,7 @@
                   "streams": [
                     {
                       "id": "st-aa5e4ed39e",
-                      "name": "PhaoHoa - KaKa",
+                      "name": "PhaohoaTV",
                       "stream_links": [
                         {
                           "id": "lnk-5c0c4aafd8",
@@ -4254,21 +4219,25 @@
             }
           ],
           "org_metadata": {
-            "league": "European Women's Volleyball Championship",
+            "league": "CEV Cup",
             "team_a": "Italy",
-            "team_b": "Thụy Điển",
-            "logo_a": "https://ssl.gstatic.com/onebox/media/sports/logos/optimized/joYpsiaYi4GDCqhSRAq5Zg_96x96.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/b7TlfQBr-Uywods6T.png",
-            "time": "00:00 03/09",
-            "blv": "Điếc",
+            "team_b": "Thuỵ Điển",
+            "logo_a": "https://phaohoa1.live/media/teams/logos/OIP_p55YJlm.jpg",
+            "logo_b": "https://phaohoa1.live/media/teams/logos/Flag_of_Sweden.svg.webp",
+            "time": "00:00",
+            "date": "03/09",
+            "blv": "KaKa",
             "is_live": true,
-            "cate_type": "bongchuyen"
+            "cate_type": "bong-chuyen",
+            "status": "live",
+            "home_score": 0,
+            "away_score": 0
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/buq4rc37llr8_cd66887d_20260903.png?v=cd66887d",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/76718_93726a8a_20260903.png?v=93726a8a",
             "width": 1600,
             "height": 1200
           }
