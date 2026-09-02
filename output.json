@@ -1121,11 +1121,82 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá",
+      "name": "⚽ Bóng Đá (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "gv-f4332659b5",
+          "name": "FC Machida Zelvia vs Kawasaki Frontale | 17:00 02/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-f4332659b5",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-f4332659b5",
+                  "name": "FC Machida Zelvia vs Kawasaki Frontale",
+                  "streams": [
+                    {
+                      "id": "st-f4332659b5",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-80f0287437",
+                          "name": "Bón",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1788310444_hd/1788310444_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "VĐQG Nhật Bản",
+            "team_a": "FC Machida Zelvia",
+            "team_b": "Kawasaki Frontale",
+            "logo_a": "https://images.keovip88.net/images/teams/machida-zelvia.png",
+            "logo_b": "https://images.keovip88.net/images/teams/kawasaki-frontale.png",
+            "time": "17:00 02/09",
+            "blv": "Bón",
+            "is_live": true,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/6a8e2cd024d46db870e1d82c_14838a9c_20260902.png?v=14838a9c",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "gv-3de3bb6d3f",
           "name": "Sutherland Sharks vs Manly United | 16:30 02/09",
@@ -1303,77 +1374,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/6a8e2cd024d46db870e1d821_f4b2b525_20260902.png?v=f4b2b525",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-f4332659b5",
-          "name": "FC Machida Zelvia vs Kawasaki Frontale | 17:00 02/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-f4332659b5",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-f4332659b5",
-                  "name": "FC Machida Zelvia vs Kawasaki Frontale",
-                  "streams": [
-                    {
-                      "id": "st-f4332659b5",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-80f0287437",
-                          "name": "Bón",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1788310444_hd/1788310444_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "VĐQG Nhật Bản",
-            "team_a": "FC Machida Zelvia",
-            "team_b": "Kawasaki Frontale",
-            "logo_a": "https://images.keovip88.net/images/teams/machida-zelvia.png",
-            "logo_b": "https://images.keovip88.net/images/teams/kawasaki-frontale.png",
-            "time": "17:00 02/09",
-            "blv": "Bón",
-            "is_live": false,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/6a8e2cd024d46db870e1d82c_14838a9c_20260902.png?v=14838a9c",
             "width": 1600,
             "height": 1200
           }
@@ -2397,85 +2397,6 @@
           }
         },
         {
-          "id": "ph-ab1e242e7f",
-          "name": "United Arab Emirates U20 vs Iraq U20 | 15:30 03/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-ab1e242e7f",
-              "name": "PhaohoaTV",
-              "contents": [
-                {
-                  "id": "ct-ab1e242e7f",
-                  "name": "United Arab Emirates U20 vs Iraq U20",
-                  "streams": [
-                    {
-                      "id": "st-ab1e242e7f",
-                      "name": "PhaohoaTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-e11cfd9666",
-                          "name": "Tiểu Mây",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa9/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://phaohoa1.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://phaohoa1.live"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "AFC U20 Asian Cup",
-            "team_a": "United Arab Emirates U20",
-            "team_b": "Iraq U20",
-            "logo_a": "https://phaohoa1.live/media/teams/logos/team_18083.jpg",
-            "logo_b": "https://phaohoa1.live/media/teams/logos/team_18090.jpg",
-            "time": "15:30",
-            "date": "03/09",
-            "blv": "Tiểu Mây",
-            "is_live": false,
-            "cate_type": "football",
-            "status": "scheduled",
-            "home_score": 0,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/76496_c958e997_20260902.png?v=c958e997",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "ph-461d2e7724",
           "name": "Malaysia U20 vs Australia U20 | 16:00 03/09",
           "type": "single",
@@ -3364,7 +3285,7 @@
     },
     {
       "id": "grp-bóng-rổ",
-      "name": "🏀 Bóng Rổ",
+      "name": "🏀 Bóng Rổ (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -3377,10 +3298,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -3428,7 +3349,7 @@
             "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/779c533165ff6737a253e453f0e09e5c.png",
             "time": "16:00 02/09",
             "blv": "Ben",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "basketball"
           },
           "image": {
