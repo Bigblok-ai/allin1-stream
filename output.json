@@ -1121,11 +1121,82 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá",
+      "name": "⚽ Bóng Đá (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "gv-f4332659b5",
+          "name": "FC Machida Zelvia vs Kawasaki Frontale | 17:00 02/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-f4332659b5",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-f4332659b5",
+                  "name": "FC Machida Zelvia vs Kawasaki Frontale",
+                  "streams": [
+                    {
+                      "id": "st-f4332659b5",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-80f0287437",
+                          "name": "Bón",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1788310444_hd/1788310444_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "VĐQG Nhật Bản",
+            "team_a": "FC Machida Zelvia",
+            "team_b": "Kawasaki Frontale",
+            "logo_a": "https://images.keovip88.net/images/teams/machida-zelvia.png",
+            "logo_b": "https://images.keovip88.net/images/teams/kawasaki-frontale.png",
+            "time": "17:00 02/09",
+            "blv": "Bón",
+            "is_live": true,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/6a8e2cd024d46db870e1d82c_14838a9c_20260902.png?v=14838a9c",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "gv-3de3bb6d3f",
           "name": "Sutherland Sharks vs Manly United | 16:30 02/09",
@@ -1303,77 +1374,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/6a8e2cd024d46db870e1d821_f4b2b525_20260902.png?v=f4b2b525",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-f4332659b5",
-          "name": "FC Machida Zelvia vs Kawasaki Frontale | 17:00 02/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-f4332659b5",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-f4332659b5",
-                  "name": "FC Machida Zelvia vs Kawasaki Frontale",
-                  "streams": [
-                    {
-                      "id": "st-f4332659b5",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-80f0287437",
-                          "name": "Bón",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1788310444_hd/1788310444_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "VĐQG Nhật Bản",
-            "team_a": "FC Machida Zelvia",
-            "team_b": "Kawasaki Frontale",
-            "logo_a": "https://images.keovip88.net/images/teams/machida-zelvia.png",
-            "logo_b": "https://images.keovip88.net/images/teams/kawasaki-frontale.png",
-            "time": "17:00 02/09",
-            "blv": "Bón",
-            "is_live": false,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/6a8e2cd024d46db870e1d82c_14838a9c_20260902.png?v=14838a9c",
             "width": 1600,
             "height": 1200
           }
@@ -3285,7 +3285,7 @@
     },
     {
       "id": "grp-bóng-rổ",
-      "name": "🏀 Bóng Rổ",
+      "name": "🏀 Bóng Rổ (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -3298,10 +3298,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -3349,7 +3349,7 @@
             "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/779c533165ff6737a253e453f0e09e5c.png",
             "time": "16:00 02/09",
             "blv": "Ben",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "basketball"
           },
           "image": {
@@ -3507,7 +3507,7 @@
     },
     {
       "id": "grp-billiards",
-      "name": "🎱 Billiards (3 LIVE)",
+      "name": "🎱 Billiards (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -3585,78 +3585,6 @@
           }
         },
         {
-          "id": "chtv-4366da7e0c",
-          "name": "TÚ TÂY vs TRUNG LẠNG | Xinh Yeu",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-4366da7e0c",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-4366da7e0c",
-                  "name": "TÚ TÂY vs TRUNG LẠNG",
-                  "streams": [
-                    {
-                      "id": "st-4366da7e0c",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-4366da7e0c",
-                          "name": "Xinh Yeu",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7228/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv22.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "VN",
-            "team_a": "TÚ TÂY",
-            "team_b": "TRUNG LẠNG",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1765419036972_táº£i xuá»ng.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1765419036972_táº£i xuá»ng.png",
-            "time": "14:24 02/09",
-            "caster": "Xinh Yeu",
-            "score": "8-6",
-            "is_live": true,
-            "hot": true
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-4366da7e0c_0cfe1298_20260902.png?v=0cfe1298",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "chtv-d4ac6985cf",
           "name": "LONG KA vs ĐỨC ANH | Tào A Man",
           "type": "single",
@@ -3715,7 +3643,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1765348908885_táº£i xuá»ng.png",
             "time": "14:26 02/09",
             "caster": "Tào A Man",
-            "score": "15-12",
+            "score": "16-13",
             "is_live": true,
             "hot": true
           },
@@ -3724,6 +3652,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-d4ac6985cf_4f242d39_20260902.png?v=4f242d39",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-2c664b797d",
+          "name": "KO PING CHUNG vs OLIVER VILLAFUERTE | 17:00 02/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "SAP",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-2c664b797d",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-2c664b797d",
+                  "name": "KO PING CHUNG vs OLIVER VILLAFUERTE",
+                  "streams": [
+                    {
+                      "id": "st-2c664b797d",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-2c664b797d",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7230/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv22.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "2026 DUYA Golden Nine Global Finals ( CHUNG KẾT )",
+            "team_a": "KO PING CHUNG",
+            "team_b": "OLIVER VILLAFUERTE",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1764238429121_Hui Jen Lin.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1765802364327_táº£i xuá»ng.png",
+            "time": "17:00 02/09",
+            "caster": "",
+            "score": "0-0",
+            "is_live": false,
+            "hot": true
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-2c664b797d_41f320be_20260902.png?v=41f320be",
             "width": 1600,
             "height": 1200
           }
