@@ -1336,7 +1336,7 @@
             "cate_type": "football",
             "status": "live",
             "home_score": 1,
-            "away_score": 2
+            "away_score": 3
           },
           "image": {
             "padding": 1,
@@ -3210,11 +3210,84 @@
     },
     {
       "id": "grp-billiards",
-      "name": "🎱 Billiards",
+      "name": "🎱 Billiards (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
-      "channels": []
+      "channels": [
+        {
+          "id": "chtv-cdc3f1dc5a",
+          "name": "An Nhiệt vs Tiến Minh rau má | Kèn Kèn",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-cdc3f1dc5a",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-cdc3f1dc5a",
+                  "name": "An Nhiệt vs Tiến Minh rau má",
+                  "streams": [
+                    {
+                      "id": "st-cdc3f1dc5a",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-cdc3f1dc5a",
+                          "name": "Kèn Kèn",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7331/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv22.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "THÀNH CỤT BILLIARD SHOP",
+            "team_a": "An Nhiệt",
+            "team_b": "Tiến Minh rau má",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1778645529849_Screenshot 2026-05-12 191411.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1788532707151_Tiáº¿n Minh TH.jpg",
+            "time": "21:36 04/09",
+            "caster": "Kèn Kèn",
+            "score": "4-5",
+            "is_live": true,
+            "hot": true
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-cdc3f1dc5a_852ee723_20260904.png?v=852ee723",
+            "width": 1600,
+            "height": 1200
+          }
+        }
+      ]
     },
     {
       "id": "grp-bóng-chuyền",
