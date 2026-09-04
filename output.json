@@ -1121,7 +1121,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá",
+      "name": "⚽ Bóng Đá (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1134,10 +1134,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -1185,7 +1185,7 @@
             "logo_b": "https://images.keovip88.net/images/teams/adhyaksa-farmel-fc.png",
             "time": "15:30 04/09",
             "blv": "Bón",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football"
           },
           "image": {
@@ -3508,11 +3508,155 @@
     },
     {
       "id": "grp-billiards",
-      "name": "🎱 Billiards (6 LIVE)",
+      "name": "🎱 Billiards (8 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "chtv-ab0518377d",
+          "name": "CHIÊM HỒNG THÁI vs BIROL UYMAZ | Bỉm Sữa",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-ab0518377d",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-ab0518377d",
+                  "name": "CHIÊM HỒNG THÁI vs BIROL UYMAZ",
+                  "streams": [
+                    {
+                      "id": "st-ab0518377d",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-ab0518377d",
+                          "name": "Bỉm Sữa",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7307/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv22.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "wC LIER 2026",
+            "team_a": "CHIÊM HỒNG THÁI",
+            "team_b": "BIROL UYMAZ",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1765417529949_táº£i xuá»ng.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1788504171637_23.jpg",
+            "time": "03:01 04/09",
+            "caster": "Bỉm Sữa",
+            "score": "0-0",
+            "is_live": true,
+            "hot": true
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-ab0518377d_e697e071_20260904.png?v=e697e071",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-49c6ccc537",
+          "name": "Nguyễn Hoàng Phong vs Nguyễn Đức Anh | Lee Min Hoo",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-49c6ccc537",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-49c6ccc537",
+                  "name": "Nguyễn Hoàng Phong vs Nguyễn Đức Anh",
+                  "streams": [
+                    {
+                      "id": "st-49c6ccc537",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-49c6ccc537",
+                          "name": "Lee Min Hoo",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7300/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv22.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "TKON TOURNAMENT 2026 - DUYA 9 BALL",
+            "team_a": "Nguyễn Hoàng Phong",
+            "team_b": "Nguyễn Đức Anh",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1765417529949_táº£i xuá»ng.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1765417529949_táº£i xuá»ng.png",
+            "time": "12:30 04/09",
+            "caster": "Lee Min Hoo",
+            "score": "36-37",
+            "is_live": true,
+            "hot": true
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-49c6ccc537_999eac8a_20260904.png?v=999eac8a",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "chtv-9a23f9091e",
           "name": "Vũ Đình Khánh vs Bùi Đức Sơn | Xinh Yeu",
@@ -3586,78 +3730,6 @@
           }
         },
         {
-          "id": "chtv-49c6ccc537",
-          "name": "Nguyễn Hoàng Phong vs Nguyễn Đức Anh | Lee Min Hoo",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-49c6ccc537",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-49c6ccc537",
-                  "name": "Nguyễn Hoàng Phong vs Nguyễn Đức Anh",
-                  "streams": [
-                    {
-                      "id": "st-49c6ccc537",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-49c6ccc537",
-                          "name": "Lee Min Hoo",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7300/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv22.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "TKON TOURNAMENT 2026 - DUYA 9 BALL",
-            "team_a": "Nguyễn Hoàng Phong",
-            "team_b": "Nguyễn Đức Anh",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1765417529949_táº£i xuá»ng.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1765417529949_táº£i xuá»ng.png",
-            "time": "12:30 04/09",
-            "caster": "Lee Min Hoo",
-            "score": "31-36",
-            "is_live": true,
-            "hot": true
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-49c6ccc537_999eac8a_20260904.png?v=999eac8a",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "chtv-51ac135358",
           "name": "FILLER vs KELLY | Kèn Kèn",
           "type": "single",
@@ -3716,7 +3788,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1765263322125_táº£i xuá»ng.png",
             "time": "14:04 04/09",
             "caster": "Kèn Kèn",
-            "score": "1-3",
+            "score": "1-4",
             "is_live": true,
             "hot": true
           },
@@ -3941,6 +4013,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-bf4cd0db66_763abb74_20260904.png?v=763abb74",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-743afe7e70",
+          "name": "Reyes vs Fernandez",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-743afe7e70",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-743afe7e70",
+                  "name": "Reyes vs Fernandez",
+                  "streams": [
+                    {
+                      "id": "st-743afe7e70",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-743afe7e70",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7312/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv22.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "PAREHAS @Gen-Z Billiards Hall",
+            "team_a": "Reyes",
+            "team_b": "Fernandez",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1765802364327_táº£i xuá»ng.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1765802364327_táº£i xuá»ng.png",
+            "time": "14:36 04/09",
+            "caster": "",
+            "score": "0-0",
+            "is_live": true,
+            "hot": true
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-743afe7e70_072d6f4e_20260904.png?v=072d6f4e",
             "width": 1600,
             "height": 1200
           }
