@@ -1121,11 +1121,82 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá",
+      "name": "⚽ Bóng Đá (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "gv-02a8ca3e40",
+          "name": "Tepatitlán vs Dorados | 08:00 04/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-02a8ca3e40",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-02a8ca3e40",
+                  "name": "Tepatitlán vs Dorados",
+                  "streams": [
+                    {
+                      "id": "st-02a8ca3e40",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-27955adfb7",
+                          "name": "Hấu",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1788449979_hd/1788449979_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Mexico - Liga de Expansión MX",
+            "team_a": "Tepatitlán",
+            "team_b": "Dorados",
+            "logo_a": "https://static.flashscore.com/res/image/data/dpxlFqCa-KhCTcBGA.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/h8Ke03Cr-0A0JcCWR.png",
+            "time": "08:00 04/09",
+            "blv": "Hấu",
+            "is_live": true,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/tl9lbxkkaheo_f53899df_20260904.png?v=f53899df",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "gv-8fc046bc06",
           "name": "Gremio vs Internacional | 06:00 04/09",
@@ -1193,77 +1264,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/msjtvsmewmwt_8e83a4ac_20260904.png?v=8e83a4ac",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-02a8ca3e40",
-          "name": "Tepatitlán vs Dorados | 08:00 04/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-02a8ca3e40",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-02a8ca3e40",
-                  "name": "Tepatitlán vs Dorados",
-                  "streams": [
-                    {
-                      "id": "st-02a8ca3e40",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-27955adfb7",
-                          "name": "Hấu",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1788449979_hd/1788449979_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Mexico - Liga de Expansión MX",
-            "team_a": "Tepatitlán",
-            "team_b": "Dorados",
-            "logo_a": "https://static.flashscore.com/res/image/data/dpxlFqCa-KhCTcBGA.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/h8Ke03Cr-0A0JcCWR.png",
-            "time": "08:00 04/09",
-            "blv": "Hấu",
-            "is_live": false,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/tl9lbxkkaheo_f53899df_20260904.png?v=f53899df",
             "width": 1600,
             "height": 1200
           }
