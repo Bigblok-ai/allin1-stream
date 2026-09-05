@@ -1672,7 +1672,7 @@
             "blv": "Chim Nhỏ",
             "is_live": true,
             "cate_type": "football",
-            "status": "half_time",
+            "status": "live",
             "home_score": 1,
             "away_score": 1
           },
@@ -1751,7 +1751,7 @@
             "blv": "Văn Minh",
             "is_live": true,
             "cate_type": "football",
-            "status": "half_time",
+            "status": "live",
             "home_score": 0,
             "away_score": 1
           },
@@ -3545,78 +3545,6 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "chtv-9197c093c2",
-          "name": "Lee Van Corteza 807 vs Matt wong 582 | Kèn Kèn",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-9197c093c2",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-9197c093c2",
-                  "name": "Lee Van Corteza 807 vs Matt wong 582",
-                  "streams": [
-                    {
-                      "id": "st-9197c093c2",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-9197c093c2",
-                          "name": "Kèn Kèn",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7370/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv23.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "GAME 9BALL TEXAS",
-            "team_a": "Lee Van Corteza 807",
-            "team_b": "Matt wong 582",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1765802364327_táº£i xuá»ng.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1765779193602_táº£i xuá»ng.png",
-            "time": "23:45 05/09",
-            "caster": "Kèn Kèn",
-            "score": "8-3",
-            "is_live": true,
-            "hot": false
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-9197c093c2_606505a0_20260906.png?v=606505a0",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "chtv-fa39b93383",
           "name": "Ken Nguyễn vs Demetrius Jelatis | GIÀNG A PHỌ",
           "type": "single",
@@ -3834,16 +3762,16 @@
         },
         {
           "id": "chtv-d450977757",
-          "name": "Marc Vidal Claramunt vs Marco Dy | 01:30 06/09 | Kèn Kèn",
+          "name": "Marc Vidal Claramunt vs Marco Dy | Kèn Kèn",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "SAP",
+              "text": "LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -3892,7 +3820,7 @@
             "time": "01:30 06/09",
             "caster": "Kèn Kèn",
             "score": "0-0",
-            "is_live": false,
+            "is_live": true,
             "hot": true
           },
           "image": {
@@ -4024,7 +3952,7 @@
           }
         },
         {
-          "id": "ph-e57c2ea8bc",
+          "id": "gv-745d1ce2de",
           "name": "Qatar vs Đài Loan | 11:30 06/09",
           "type": "single",
           "display": "thumbnail-only",
@@ -4039,6 +3967,23 @@
           ],
           "sources": [
             {
+              "id": "src-745d1ce2de",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-745d1ce2de",
+                  "name": "Qatar vs Đài Loan",
+                  "streams": [
+                    {
+                      "id": "st-745d1ce2de",
+                      "name": "GV",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
               "id": "src-e57c2ea8bc",
               "name": "PhaohoaTV",
               "contents": [
@@ -4048,7 +3993,7 @@
                   "streams": [
                     {
                       "id": "st-e57c2ea8bc",
-                      "name": "PhaohoaTV",
+                      "name": "PhaoHoa - Tiểu Mây",
                       "stream_links": [
                         {
                           "id": "lnk-e11cfd9666",
@@ -4079,25 +4024,21 @@
             }
           ],
           "org_metadata": {
-            "league": "Vô Địch Châu Á",
+            "league": "Asian Championship",
             "team_a": "Qatar",
             "team_b": "Đài Loan",
-            "logo_a": "https://phaohoa1.live/media/teams/logos/OIP_TkTkw3i.jpg",
-            "logo_b": "https://phaohoa1.live/media/teams/logos/Flag_of_the_Republic_of_China.svg.webp",
-            "time": "11:30",
-            "date": "06/09",
-            "blv": "Tiểu Mây",
+            "logo_a": "https://static.flashscore.com/res/image/data/byepwmhl-phc5aQcO.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/8ENtNmil-C8K3ehVO.png",
+            "time": "11:30 06/09",
+            "blv": "",
             "is_live": false,
-            "cate_type": "bong-chuyen",
-            "status": "scheduled",
-            "home_score": 0,
-            "away_score": 0
+            "cate_type": "bongchuyen"
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/79186_becd5068_20260906.png?v=becd5068",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/l5rvx4oso53c_2f57a263_20260906.png?v=2f57a263",
             "width": 1600,
             "height": 1200
           }
