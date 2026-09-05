@@ -2017,11 +2017,82 @@
     },
     {
       "id": "grp-bóng-chuyền",
-      "name": "🏐 Bóng Chuyền",
+      "name": "🏐 Bóng Chuyền (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "gv-a0bfbad8c8",
+          "name": "Australia vs Bahrain | 08:00 05/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-a0bfbad8c8",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-a0bfbad8c8",
+                  "name": "Australia vs Bahrain",
+                  "streams": [
+                    {
+                      "id": "st-a0bfbad8c8",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-23dcd7e4f7",
+                          "name": "Sún",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1788535376_hd/1788535376_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Asian Championship",
+            "team_a": "Australia",
+            "team_b": "Bahrain",
+            "logo_a": "https://static.flashscore.com/res/image/data/MZR1PNyS-zXpVtysq.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/t48bJawS-pYWEJTrt.png",
+            "time": "08:00 05/09",
+            "blv": "Sún",
+            "is_live": true,
+            "cate_type": "bongchuyen"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/863uyic5tj3l_f3dad3c7_20260905.png?v=f3dad3c7",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "gv-98e4719c22",
           "name": "Trung Quốc vs Ấn Độ | 11:30 05/09",
