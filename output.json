@@ -1121,82 +1121,11 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (7 LIVE)",
+      "name": "⚽ Bóng Đá (6 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-8cc595fe4a",
-          "name": "TP Hồ Chí Minh vs Hà Nội | 18:00 05/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-8cc595fe4a",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-8cc595fe4a",
-                  "name": "TP Hồ Chí Minh vs Hà Nội",
-                  "streams": [
-                    {
-                      "id": "st-8cc595fe4a",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-b4c4e1265b",
-                          "name": "Bón",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1788594764_hd/1788594764_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "V-League",
-            "team_a": "TP Hồ Chí Minh",
-            "team_b": "Hà Nội",
-            "logo_a": "https://images.keovip88.net/images/teams/ho-chi-minh-city.png",
-            "logo_b": "https://images.keovip88.net/images/teams/hanoi-fc.png",
-            "time": "18:00 05/09",
-            "blv": "Bón",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/6a8f7e5a24d46db87045f6c8_10225d03_20260905.png?v=10225d03",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-0a0eeb4753",
           "name": "Newcastle United vs AFC Bournemouth | 18:30 05/09",
@@ -1670,8 +1599,8 @@
           }
         },
         {
-          "id": "ph-9191e0c0fc",
-          "name": "Công An HCM vs Hà Nội FC | 18:00 05/09",
+          "id": "gv-729899098b",
+          "name": "Fulham vs Crystal Palace | 21:00 05/09",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1685,16 +1614,51 @@
           ],
           "sources": [
             {
-              "id": "src-9191e0c0fc",
+              "id": "src-729899098b",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-729899098b",
+                  "name": "Fulham vs Crystal Palace",
+                  "streams": [
+                    {
+                      "id": "st-729899098b",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-76f660538d",
+                          "name": "Hấu",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1788580589_hd/1788580589_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-ca0081d662",
               "name": "PhaohoaTV",
               "contents": [
                 {
-                  "id": "ct-9191e0c0fc",
-                  "name": "Công An HCM vs Hà Nội FC",
+                  "id": "ct-ca0081d662",
+                  "name": "Fulham vs Crystal Palace",
                   "streams": [
                     {
-                      "id": "st-9191e0c0fc",
-                      "name": "PhaohoaTV",
+                      "id": "st-ca0081d662",
+                      "name": "PhaoHoa - Tày",
                       "stream_links": [
                         {
                           "id": "lnk-9501ab9e21",
@@ -1725,25 +1689,21 @@
             }
           ],
           "org_metadata": {
-            "league": "V.League 1",
-            "team_a": "Công An HCM",
-            "team_b": "Hà Nội FC",
-            "logo_a": "https://phaohoa1.live/media/teams/logos/bb501c60-6694-4ae5-a3d2-5e0529827021.png",
-            "logo_b": "https://phaohoa1.live/media/teams/logos/HN_FC_Logo.svg.webp",
-            "time": "18:00",
-            "date": "05/09",
-            "blv": "Tày",
+            "league": "Ngoại hạng Anh",
+            "team_a": "Fulham",
+            "team_b": "Crystal Palace",
+            "logo_a": "https://images.keovip88.net/images/teams/fulham.png",
+            "logo_b": "https://images.keovip88.net/images/teams/crystal-palace.png",
+            "time": "21:00 05/09",
+            "blv": "Hấu",
             "is_live": true,
-            "cate_type": "football",
-            "status": "live",
-            "home_score": 3,
-            "away_score": 1
+            "cate_type": "football"
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/73787_f2fc1da8_20260905.png?v=f2fc1da8",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/6a90cfe224d46db8708d99f2_0331da56_20260905.png?v=0331da56",
             "width": 1600,
             "height": 1200
           }
@@ -1964,116 +1924,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/6a90cfe224d46db8708d9a01_2030e7f4_20260905.png?v=2030e7f4",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-729899098b",
-          "name": "Fulham vs Crystal Palace | 21:00 05/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-729899098b",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-729899098b",
-                  "name": "Fulham vs Crystal Palace",
-                  "streams": [
-                    {
-                      "id": "st-729899098b",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-76f660538d",
-                          "name": "Hấu",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1788580589_hd/1788580589_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "src-ca0081d662",
-              "name": "PhaohoaTV",
-              "contents": [
-                {
-                  "id": "ct-ca0081d662",
-                  "name": "Fulham vs Crystal Palace",
-                  "streams": [
-                    {
-                      "id": "st-ca0081d662",
-                      "name": "PhaoHoa - Tày",
-                      "stream_links": [
-                        {
-                          "id": "lnk-9501ab9e21",
-                          "name": "Tày",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa8/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://phaohoa1.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://phaohoa1.live"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Ngoại hạng Anh",
-            "team_a": "Fulham",
-            "team_b": "Crystal Palace",
-            "logo_a": "https://images.keovip88.net/images/teams/fulham.png",
-            "logo_b": "https://images.keovip88.net/images/teams/crystal-palace.png",
-            "time": "21:00 05/09",
-            "blv": "Hấu",
-            "is_live": false,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/6a90cfe224d46db8708d99f2_0331da56_20260905.png?v=0331da56",
             "width": 1600,
             "height": 1200
           }
@@ -3620,6 +3470,85 @@
           }
         },
         {
+          "id": "ph-b0facf2d75",
+          "name": "Japan U20 vs Yemen U20 | 16:00 06/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-b0facf2d75",
+              "name": "PhaohoaTV",
+              "contents": [
+                {
+                  "id": "ct-b0facf2d75",
+                  "name": "Japan U20 vs Yemen U20",
+                  "streams": [
+                    {
+                      "id": "st-b0facf2d75",
+                      "name": "PhaohoaTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-e11cfd9666",
+                          "name": "Tiểu Mây",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://luong.phaohoa.live/live/phaohoa9/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phaohoa1.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://phaohoa1.live"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "AFC U20 Asian Cup",
+            "team_a": "Japan U20",
+            "team_b": "Yemen U20",
+            "logo_a": "https://phaohoa1.live/media/teams/logos/Flag_of_Japan.svg.webp",
+            "logo_b": "https://phaohoa1.live/media/teams/logos/team_26088.jpg",
+            "time": "16:00",
+            "date": "06/09",
+            "blv": "Tiểu Mây",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/76522_03533d5d_20260905.png?v=03533d5d",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "ph-90fa66e108",
           "name": "Ath Bilbao vs Atl. Madrid | 21:15 05/09",
           "type": "single",
@@ -4036,7 +3965,7 @@
     },
     {
       "id": "grp-billiards",
-      "name": "🎱 Billiards (3 LIVE)",
+      "name": "🎱 Billiards (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -4172,7 +4101,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1788612078265_phil.png",
             "time": "19:40 05/09",
             "caster": "Kèn Kèn",
-            "score": "3-7",
+            "score": "4-7",
             "is_live": true,
             "hot": true
           },
@@ -4244,7 +4173,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1788604890245_Screenshot 2026-09-05 174128.png",
             "time": "20:00 05/09",
             "caster": "Đại Kê",
-            "score": "1-2",
+            "score": "1-3",
             "is_live": true,
             "hot": true
           },
@@ -4253,6 +4182,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-8dc33160c5_51c0a37b_20260905.png?v=51c0a37b",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-671efc3fbd",
+          "name": "EDWIN GAMAS vs BRYANT SAGUIPED | Thập Cẩm",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-671efc3fbd",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-671efc3fbd",
+                  "name": "EDWIN GAMAS vs BRYANT SAGUIPED",
+                  "streams": [
+                    {
+                      "id": "st-671efc3fbd",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-671efc3fbd",
+                          "name": "Thập Cẩm",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7361/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv23.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "phi bịp",
+            "team_a": "EDWIN GAMAS",
+            "team_b": "BRYANT SAGUIPED",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1788613665272_phil.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1788613665257_phil.png",
+            "time": "20:07 05/09",
+            "caster": "Thập Cẩm",
+            "score": "0-1",
+            "is_live": true,
+            "hot": true
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-671efc3fbd_fabc5704_20260905.png?v=fabc5704",
             "width": 1600,
             "height": 1200
           }
