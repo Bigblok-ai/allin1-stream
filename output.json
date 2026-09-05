@@ -2222,11 +2222,84 @@
     },
     {
       "id": "grp-billiards",
-      "name": "🎱 Billiards",
+      "name": "🎱 Billiards (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
-      "channels": []
+      "channels": [
+        {
+          "id": "chtv-58a025ca66",
+          "name": "THIỆN LƯƠNG vs CHANG TZU- CHIEN | Lee Min Hoo",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-58a025ca66",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-58a025ca66",
+                  "name": "THIỆN LƯƠNG vs CHANG TZU- CHIEN",
+                  "streams": [
+                    {
+                      "id": "st-58a025ca66",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-58a025ca66",
+                          "name": "Lee Min Hoo",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7343/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv23.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "WPA 9-Ball China Open",
+            "team_a": "THIỆN LƯƠNG",
+            "team_b": "CHANG TZU- CHIEN",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1765419036972_táº£i xuá»ng.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1764306810197_Yihe Fan.png",
+            "time": "12:11 05/09",
+            "caster": "Lee Min Hoo",
+            "score": "3-3",
+            "is_live": true,
+            "hot": true
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-58a025ca66_49010f9e_20260905.png?v=49010f9e",
+            "width": 1600,
+            "height": 1200
+          }
+        }
+      ]
     },
     {
       "id": "grp-bóng-chuyền",
