@@ -1121,11 +1121,90 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá",
+      "name": "⚽ Bóng Đá (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "ph-1e3b810836",
+          "name": "Inter Miami vs Atlanta Utd | 06:30 06/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-1e3b810836",
+              "name": "PhaohoaTV",
+              "contents": [
+                {
+                  "id": "ct-1e3b810836",
+                  "name": "Inter Miami vs Atlanta Utd",
+                  "streams": [
+                    {
+                      "id": "st-1e3b810836",
+                      "name": "PhaohoaTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-d94a9f6f03",
+                          "name": "Chim Nhỏ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://luong.phaohoa.live/live/phaohoa5/index.m3u8?expire=1815505159&sign=67cc5bcdcabb081229f5406e5b07483d",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phaohoa1.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://phaohoa1.live"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "MLS",
+            "team_a": "Inter Miami",
+            "team_b": "Atlanta Utd",
+            "logo_a": "https://phaohoa1.live/media/teams/logos/INTER-90-x-90-1024x1024.png",
+            "logo_b": "https://phaohoa1.live/media/teams/logos/team_299.jpg",
+            "time": "06:30",
+            "date": "06/09",
+            "blv": "Chim Nhỏ",
+            "is_live": true,
+            "cate_type": "football",
+            "status": "live",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/75196_cf1974a1_20260906.png?v=cf1974a1",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "gv-63c663069a",
           "name": "A.P.I.A. Leichhardt Tigers vs Spirit FC | 13:00 06/09",
@@ -1351,85 +1430,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/76300_d216b778_20260906.png?v=d216b778",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "ph-1e3b810836",
-          "name": "Inter Miami vs Atlanta Utd | 06:30 06/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-1e3b810836",
-              "name": "PhaohoaTV",
-              "contents": [
-                {
-                  "id": "ct-1e3b810836",
-                  "name": "Inter Miami vs Atlanta Utd",
-                  "streams": [
-                    {
-                      "id": "st-1e3b810836",
-                      "name": "PhaohoaTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-d94a9f6f03",
-                          "name": "Chim Nhỏ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa5/index.m3u8?expire=1815505159&sign=67cc5bcdcabb081229f5406e5b07483d",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://phaohoa1.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://phaohoa1.live"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "MLS",
-            "team_a": "Inter Miami",
-            "team_b": "Atlanta Utd",
-            "logo_a": "https://phaohoa1.live/media/teams/logos/INTER-90-x-90-1024x1024.png",
-            "logo_b": "https://phaohoa1.live/media/teams/logos/team_299.jpg",
-            "time": "06:30",
-            "date": "06/09",
-            "blv": "Chim Nhỏ",
-            "is_live": false,
-            "cate_type": "football",
-            "status": "scheduled",
-            "home_score": 0,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/75196_cf1974a1_20260906.png?v=cf1974a1",
             "width": 1600,
             "height": 1200
           }
