@@ -2364,11 +2364,83 @@
     },
     {
       "id": "grp-billiards",
-      "name": "🎱 Billiards (2 LIVE)",
+      "name": "🎱 Billiards (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "chtv-1112fb0619",
+          "name": "THÁI SƠN vs PRO PRO | Tào A Man",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-1112fb0619",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-1112fb0619",
+                  "name": "THÁI SƠN vs PRO PRO",
+                  "streams": [
+                    {
+                      "id": "st-1112fb0619",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-1112fb0619",
+                          "name": "Tào A Man",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7344/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv23.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "VN",
+            "team_a": "THÁI SƠN",
+            "team_b": "PRO PRO",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1765276677578_táº£i xuá»ng.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1765337449015_táº£i xuá»ng.png",
+            "time": "12:18 05/09",
+            "caster": "Tào A Man",
+            "score": "7-5",
+            "is_live": true,
+            "hot": true
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-1112fb0619_95f0d161_20260905.png?v=95f0d161",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "chtv-4fe995c95b",
           "name": "TRỌNG E vs MINH B | Kèn Kèn",
@@ -2428,7 +2500,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1765419036972_táº£i xuá»ng.png",
             "time": "13:07 05/09",
             "caster": "Kèn Kèn",
-            "score": "0-8",
+            "score": "0-7",
             "is_live": true,
             "hot": true
           },
