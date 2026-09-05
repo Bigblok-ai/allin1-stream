@@ -1121,11 +1121,82 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá",
+      "name": "⚽ Bóng Đá (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "gv-05d1c53a54",
+          "name": "Bulleen Lions W vs South Melbourne W | 13:00 05/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-05d1c53a54",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-05d1c53a54",
+                  "name": "Bulleen Lions W vs South Melbourne W",
+                  "streams": [
+                    {
+                      "id": "st-05d1c53a54",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-fce7e721d6",
+                          "name": "Bón",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1788536268_hd/1788536268_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "NPL Victoria Úc",
+            "team_a": "Bulleen Lions W",
+            "team_b": "South Melbourne W",
+            "logo_a": "https://static.flashscore.com/res/image/data/f53rUPAr-hGDLYx9M.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/Wzp5SuXg-nwwa8kE0.png",
+            "time": "13:00 05/09",
+            "blv": "Bón",
+            "is_live": true,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/e3nm9678z9o5_19d5a75a_20260905.png?v=19d5a75a",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "gv-0a0eeb4753",
           "name": "Newcastle United vs AFC Bournemouth | 18:30 05/09",
@@ -2149,83 +2220,11 @@
     },
     {
       "id": "grp-billiards",
-      "name": "🎱 Billiards (2 LIVE)",
+      "name": "🎱 Billiards (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "chtv-4fe995c95b",
-          "name": "TRỌNG E vs MINH B | Kèn Kèn",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-4fe995c95b",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-4fe995c95b",
-                  "name": "TRỌNG E vs MINH B",
-                  "streams": [
-                    {
-                      "id": "st-4fe995c95b",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-4fe995c95b",
-                          "name": "Kèn Kèn",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7345/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv23.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "VN",
-            "team_a": "TRỌNG E",
-            "team_b": "MINH B",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1765419036972_táº£i xuá»ng.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1765419036972_táº£i xuá»ng.png",
-            "time": "13:07 05/09",
-            "caster": "Kèn Kèn",
-            "score": "1-8",
-            "is_live": true,
-            "hot": true
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-4fe995c95b_0cfe1298_20260905.png?v=0cfe1298",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "chtv-f38414f7d2",
           "name": "HÀ THÀNH vs TÙNG KIỀU | Lee Min Hoo",
