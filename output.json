@@ -1192,8 +1192,8 @@
             "blv": "Chim Nhỏ",
             "is_live": true,
             "cate_type": "football",
-            "status": "live",
-            "home_score": 1,
+            "status": "half_time",
+            "home_score": 2,
             "away_score": 1
           },
           "image": {
@@ -2901,11 +2901,84 @@
     },
     {
       "id": "grp-billiards",
-      "name": "🎱 Billiards",
+      "name": "🎱 Billiards (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
-      "channels": []
+      "channels": [
+        {
+          "id": "chtv-a36c195591",
+          "name": "Felix Vogel 777 vs Shane Van Boening 9 -2.5) | Lee Min Hoo",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-a36c195591",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-a36c195591",
+                  "name": "Felix Vogel 777 vs Shane Van Boening 9 -2.5)",
+                  "streams": [
+                    {
+                      "id": "st-a36c195591",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-a36c195591",
+                          "name": "Lee Min Hoo",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7376/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv23.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "TEXAS OPEN 9 BALL CHAMPIONSHIP 2026, MAIN EVENT MAIN TABLE 1",
+            "team_a": "Felix Vogel 777",
+            "team_b": "Shane Van Boening 9 -2.5)",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1788659307229_6.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1765250803265_táº£i xuá»ng (1).png",
+            "time": "08:46 06/09",
+            "caster": "Lee Min Hoo",
+            "score": "0-0",
+            "is_live": true,
+            "hot": true
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-a36c195591_9368c6c4_20260906.png?v=9368c6c4",
+            "width": 1600,
+            "height": 1200
+          }
+        }
+      ]
     },
     {
       "id": "grp-bóng-chuyền",
