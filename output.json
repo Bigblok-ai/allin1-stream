@@ -2033,11 +2033,82 @@
     },
     {
       "id": "grp-bóng-rổ",
-      "name": "🏀 Bóng Rổ",
+      "name": "🏀 Bóng Rổ (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "gv-4dd0b2d488",
+          "name": "Puerto Rico (W) vs Belgium (W) | 22:45 06/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-4dd0b2d488",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-4dd0b2d488",
+                  "name": "Puerto Rico (W) vs Belgium (W)",
+                  "streams": [
+                    {
+                      "id": "st-4dd0b2d488",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-9c29c9a30b",
+                          "name": "Tôm",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1788700498_hd/1788700498_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "FIBA Women Basketball World Cup",
+            "team_a": "Puerto Rico (W)",
+            "team_b": "Belgium (W)",
+            "logo_a": "https://cdn.keobongvip.digital/images/basketball-teams/0282cfe2713c2109f487b62ef6b76fc4.png",
+            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/fbd335f7eb2dc0653f2db839e104e3d6.png",
+            "time": "22:45 06/09",
+            "blv": "Tôm",
+            "is_live": true,
+            "cate_type": "basketball"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/24830375_82bf268c_20260906.png?v=82bf268c",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "gv-7ef9e3b290",
           "name": "Italy W vs USA W | 01:45 07/09",
@@ -2603,7 +2674,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1765599062294_táº£i xuá»ng.png",
             "time": "00:00 06/09",
             "caster": "Kèn Kèn",
-            "score": "4-3",
+            "score": "4-4",
             "is_live": true,
             "hot": true
           },
