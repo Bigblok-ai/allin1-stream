@@ -1121,7 +1121,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (3 LIVE)",
+      "name": "⚽ Bóng Đá (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1335,6 +1335,85 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/6a9615c524d46db8700c7e4a_350611d1_20260906.png?v=350611d1",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "ph-b0facf2d75",
+          "name": "Japan U20 vs Yemen U20 | 16:00 06/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-b0facf2d75",
+              "name": "PhaohoaTV",
+              "contents": [
+                {
+                  "id": "ct-b0facf2d75",
+                  "name": "Japan U20 vs Yemen U20",
+                  "streams": [
+                    {
+                      "id": "st-b0facf2d75",
+                      "name": "PhaohoaTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-e11cfd9666",
+                          "name": "Tiểu Mây",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://luong.phaohoa.live/live/phaohoa9/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phaohoa1.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://phaohoa1.live"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "AFC U20 Asian Cup",
+            "team_a": "Japan U20",
+            "team_b": "Yemen U20",
+            "logo_a": "https://phaohoa1.live/media/teams/logos/Flag_of_Japan.svg.webp",
+            "logo_b": "https://phaohoa1.live/media/teams/logos/team_26088.jpg",
+            "time": "16:00",
+            "date": "06/09",
+            "blv": "Tiểu Mây",
+            "is_live": true,
+            "cate_type": "football",
+            "status": "live",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/76522_03533d5d_20260906.png?v=03533d5d",
             "width": 1600,
             "height": 1200
           }
@@ -2810,85 +2889,6 @@
           }
         },
         {
-          "id": "ph-b0facf2d75",
-          "name": "Japan U20 vs Yemen U20 | 16:00 06/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-b0facf2d75",
-              "name": "PhaohoaTV",
-              "contents": [
-                {
-                  "id": "ct-b0facf2d75",
-                  "name": "Japan U20 vs Yemen U20",
-                  "streams": [
-                    {
-                      "id": "st-b0facf2d75",
-                      "name": "PhaohoaTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-e11cfd9666",
-                          "name": "Tiểu Mây",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa9/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://phaohoa1.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://phaohoa1.live"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "AFC U20 Asian Cup",
-            "team_a": "Japan U20",
-            "team_b": "Yemen U20",
-            "logo_a": "https://phaohoa1.live/media/teams/logos/Flag_of_Japan.svg.webp",
-            "logo_b": "https://phaohoa1.live/media/teams/logos/team_26088.jpg",
-            "time": "16:00",
-            "date": "06/09",
-            "blv": "Tiểu Mây",
-            "is_live": false,
-            "cate_type": "football",
-            "status": "scheduled",
-            "home_score": 0,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/76522_03533d5d_20260906.png?v=03533d5d",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "ph-6e502c8d28",
           "name": "Vissel Kobe vs V-Varen Nagasaki | 17:00 06/09",
           "type": "single",
@@ -3526,7 +3526,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1765599062294_táº£i xuá»ng.png",
             "time": "13:46 06/09",
             "caster": "Bỉm Sữa",
-            "score": "11-10",
+            "score": "11-11",
             "is_live": true,
             "hot": true
           },
@@ -3598,7 +3598,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1765417529949_táº£i xuá»ng.png",
             "time": "14:25 06/09",
             "caster": "Bỉm Sữa",
-            "score": "4-8",
+            "score": "4-9",
             "is_live": true,
             "hot": true
           },
