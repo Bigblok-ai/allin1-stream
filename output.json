@@ -1201,7 +1201,7 @@
     },
     {
       "id": "grp-tennis",
-      "name": "🎾 Tennis",
+      "name": "🎾 Tennis (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1214,10 +1214,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -1265,7 +1265,7 @@
             "logo_b": "https://static.flashscore.com/res/image/data/GS3hkKzB-nRUkF0Ol.png",
             "time": "06:00 11/09",
             "blv": "Ben",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "tennis"
           },
           "image": {
@@ -1590,11 +1590,90 @@
     },
     {
       "id": "grp-bóng-chuyền",
-      "name": "🏐 Bóng Chuyền",
+      "name": "🏐 Bóng Chuyền (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "xc-4f3d2fc410",
+          "name": "Brazil vs Colombia | 06:00 11/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-4f3d2fc410",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-4f3d2fc410",
+                  "name": "Brazil vs Colombia",
+                  "streams": [
+                    {
+                      "id": "st-4f3d2fc410",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-0810fdd247",
+                          "name": "KaKa",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://xoiche.tv/ph/live/phaohoa6/index.m3u8?expire=1815505159&sign=16059952b038cc8982ab6d1980711dc9",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.tv/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://xoiche.tv"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Vô Địch Nam Mỹ",
+            "team_a": "Brazil",
+            "team_b": "Colombia",
+            "logo_a": "https://media.api-sports.io/football/teams/6.png",
+            "logo_b": "https://khandai2.link/media/teams/logos/download_xO5gmpQ.png",
+            "time": "06:00",
+            "date": "11/09",
+            "blv": "KaKa",
+            "is_live": true,
+            "cate_type": "volleyball",
+            "status": "live",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/3b888711-1bd5-4617-af31-fbb84a1b24f9_8b75ed5b_20260911.png?v=8b75ed5b",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "gv-797881a706",
           "name": "Iran vs Đài Loan | 13:30 11/09",
@@ -1766,7 +1845,7 @@
     },
     {
       "id": "grp-bóng-chày",
-      "name": "⚾ Bóng Chày",
+      "name": "⚾ Bóng Chày (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1779,10 +1858,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -1830,7 +1909,7 @@
             "logo_b": "https://ssl.gstatic.com/onebox/media/sports/logos/optimized/etbcCni_q9qN-uhD83ZGmw_96x96.png",
             "time": "06:05 11/09",
             "blv": "Cầy",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "bongchay"
           },
           "image": {
