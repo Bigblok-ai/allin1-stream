@@ -2469,7 +2469,7 @@
     },
     {
       "id": "grp-billiards",
-      "name": "🎱 Billiards (1 LIVE)",
+      "name": "🎱 Billiards (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -2533,7 +2533,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1789031841837_1765337449015_tÃ¡ÂºÂ£i xuÃ¡Â»_ng.png",
             "time": "00:00 10/09",
             "caster": "Kèn Kèn",
-            "score": "4-1",
+            "score": "5-2",
             "is_live": true,
             "hot": true
           },
@@ -2548,16 +2548,16 @@
         },
         {
           "id": "chtv-923001bab5",
-          "name": "HUONS LEGENS vs NH PAY | 17:10 10/09 | Bỉm Sữa",
+          "name": "HUONS LEGENS vs NH PAY | Bỉm Sữa",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "SAP",
+              "text": "LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -2606,7 +2606,7 @@
             "time": "17:10 10/09",
             "caster": "Bỉm Sữa",
             "score": "0-0",
-            "is_live": false,
+            "is_live": true,
             "hot": false
           },
           "image": {
@@ -2763,6 +2763,78 @@
           }
         },
         {
+          "id": "chtv-013e61a09b",
+          "name": "wang Ming vs Hommann | 17:30 10/09 | VÁNG",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "SAP",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-013e61a09b",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-013e61a09b",
+                  "name": "wang Ming vs Hommann",
+                  "streams": [
+                    {
+                      "id": "st-013e61a09b",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-013e61a09b",
+                          "name": "VÁNG",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7580/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv23.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "CHINA",
+            "team_a": "wang Ming",
+            "team_b": "Hommann",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1789030692788_china.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1789030699146_images (1).png",
+            "time": "17:30 10/09",
+            "caster": "VÁNG",
+            "score": "0-0",
+            "is_live": false,
+            "hot": false
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-013e61a09b_60f73477_20260910.png?v=60f73477",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "chtv-23ae109768",
           "name": "Lin Ta Li vs Juszyszyn | 17:30 10/09 | GIÀNG A PHỌ",
           "type": "single",
@@ -2902,78 +2974,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-d00137541c_b5bf75e2_20260910.png?v=b5bf75e2",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-013e61a09b",
-          "name": "wang Ming vs Hommann | 17:30 10/09 | VÁNG",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "SAP",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-013e61a09b",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-013e61a09b",
-                  "name": "wang Ming vs Hommann",
-                  "streams": [
-                    {
-                      "id": "st-013e61a09b",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-013e61a09b",
-                          "name": "VÁNG",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7580/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv23.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "CHINA",
-            "team_a": "wang Ming",
-            "team_b": "Hommann",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1789030692788_china.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1789030699146_images (1).png",
-            "time": "17:30 10/09",
-            "caster": "VÁNG",
-            "score": "0-0",
-            "is_live": false,
-            "hot": false
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-013e61a09b_60f73477_20260910.png?v=60f73477",
             "width": 1600,
             "height": 1200
           }
